@@ -1,13 +1,12 @@
-/obj/effect/overmap/visitable/sector/exoplanet/volcanic/labyrinth
-	name = "\improper Earth"
+/obj/effect/overmap/visitable/sector/exoplanet/snow/labyrinth
+	lightlevel = 0.1
 	free_landing = TRUE
 	ruin_tags_whitelist = 1 //stub for no ruins
 	possible_themes = list()
-	planetary_area = /area/exoplanet/volcanic/labyrinth
 	map_generators = list(
-		/datum/random_map/automata/cave_system/mountains/volcanic/labyrinth,
-		/datum/random_map/noise/exoplanet/volcanic/labyrinth,
-		/datum/random_map/noise/ore/filthy_rich
+		/datum/random_map/automata/cave_system/mountains/snow/labyrinth,
+		/datum/random_map/noise/exoplanet/snow/labyrinth, 
+		/datum/random_map/noise/ore/poor
 	)
 
 	initial_restricted_waypoints = list(
