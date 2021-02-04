@@ -1,0 +1,6 @@
+#ifndef MODPACK_VATGROWN
+#define MODPACK_VATGROWN
+#include "_vatgrown.dm"
+#include "datum\culture.dm"
+#include "datum\species.dm"
+#endif
