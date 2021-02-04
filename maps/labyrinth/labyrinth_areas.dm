@@ -1,6 +1,3 @@
-/area/exoplanet/volcanic/labyrinth
-	name       = "\improper Labyrinth Exterior"
-
 /area/labyrinth
 	name       = "\improper Labyrinth Facility"
 	icon_state = "labyrinth"

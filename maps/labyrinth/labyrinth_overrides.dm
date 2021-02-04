@@ -1,6 +1,3 @@
-/datum/computer_file/program/merchant
-	required_access = null
-
 /obj/machinery/power/smes/buildable/labyrinth
 	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil/super_capacity = 4)
 
@@ -9,7 +6,8 @@
 	power_gen      = 250 KILOWATTS
 	time_per_sheet = 7200
 
-/obj/machinery/suit_cycler/mining
+/obj/machinery/suit_cycler/mining/prepared
+	buildable = FALSE
 	helmet = /obj/item/clothing/head/helmet/space/void/mining
 	suit = /obj/item/clothing/suit/space/void/mining
 	boots = /obj/item/clothing/shoes/magboots

@@ -1,17 +1,17 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "al" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "aq" = (
 /obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "aI" = (
 /obj/structure/stairs/south,
 /turf/simulated/floor/plating,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "aJ" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/civilian/lounge)
@@ -31,7 +31,7 @@
 	dir = 1
 	},
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "bE" = (
 /obj/structure/table/standard,
 /obj/machinery/reagent_temperature,
@@ -59,13 +59,13 @@
 "dq" = (
 /obj/structure/grille,
 /turf/simulated/floor/plating,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "dx" = (
 /obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "dA" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -226,7 +226,7 @@
 	dir = 4
 	},
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "jv" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -280,7 +280,7 @@
 /area/labyrinth/civilian/lounge)
 "ml" = (
 /turf/simulated/floor/plating,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "mo" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -289,7 +289,7 @@
 	dir = 1
 	},
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "mp" = (
 /obj/machinery/cooker/oven,
 /turf/simulated/floor/tiled/freezer,
@@ -404,15 +404,15 @@
 	},
 /obj/structure/catwalk,
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "pP" = (
 /obj/structure/catwalk,
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "qz" = (
 /obj/structure/railing/mapped,
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "qC" = (
 /obj/machinery/light_switch{
 	pixel_y = -21
@@ -439,7 +439,7 @@
 	dir = 8
 	},
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "rC" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/maintenance/shaft)
@@ -472,7 +472,7 @@
 "tO" = (
 /obj/effect/landmark/test/space_turf,
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "uC" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -508,7 +508,7 @@
 /area/labyrinth/maintenance/shaft)
 "xP" = (
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "yb" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
@@ -516,7 +516,7 @@
 	dir = 8
 	},
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "yi" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/extinguisher,
@@ -597,7 +597,7 @@
 	dir = 1
 	},
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "DT" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -610,7 +610,7 @@
 	dir = 4
 	},
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "Ey" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
@@ -621,7 +621,7 @@
 	dir = 8
 	},
 /turf/exterior/concrete,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "Fu" = (
 /obj/machinery/alarm{
 	dir = 8
@@ -732,7 +732,7 @@
 	dir = 1
 	},
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "HW" = (
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
@@ -882,12 +882,12 @@
 	dir = 8
 	},
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "OA" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "Pe" = (
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
@@ -971,7 +971,7 @@
 /area/labyrinth/hallway/upper)
 "RF" = (
 /turf/unsimulated/mask,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "RI" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
@@ -1025,7 +1025,7 @@
 	dir = 8
 	},
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "ST" = (
 /obj/effect/floor_decal/corner/blue,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1065,7 +1065,7 @@
 	},
 /obj/structure/catwalk,
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "Ux" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
@@ -1134,7 +1134,7 @@
 	dir = 4
 	},
 /turf/exterior/volcanic,
-/area/exoplanet/volcanic/labyrinth)
+/area/exoplanet/snow)
 "Xc" = (
 /obj/machinery/media/jukebox/old,
 /obj/item/music_tape/custom,
