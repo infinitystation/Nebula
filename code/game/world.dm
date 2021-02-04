@@ -75,7 +75,7 @@
 		call(dll, "debug_initialize")()
 
 	//set window title
-	name = "[config.server_name] - [GLOB.using_map.full_name]"
+	name = "[config.server_name]: [GLOB.using_map.full_name]"
 
 	//logs
 	SetupLogs()

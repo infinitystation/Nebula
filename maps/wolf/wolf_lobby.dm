@@ -1,6 +1,6 @@
 /datum/map/wolf
 	lobby_screens = list(
-		'maps/wolf/icons/wolf_lobby.png'
+		'infinity/mods/content/infinity/icons/lobby_screens/infinity-2020.png'
 	)
 	lobby_tracks = list(
 		/music_track/rainfall_over_parallel_ports,

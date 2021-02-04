@@ -70,6 +70,15 @@
 
 	#include "decals/floor_decals.dm"
 
+	#include "jobs/_departmens.dm"
+	#include "jobs/_jobs.dm"
+	#include "jobs/civilian.dm"
+	#include "jobs/command.dm"
+	#include "jobs/engineering.dm"
+	#include "jobs/medical.dm"
+	#include "jobs/science.dm"
+	#include "jobs/security.dm"
+
 	#include "machines/smes.dm"
 	#include "machines/atmos_machinery.dm"
 	#include "machines/autoset_doors.dm"

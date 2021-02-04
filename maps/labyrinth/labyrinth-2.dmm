@@ -225,7 +225,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "jv" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -403,11 +403,11 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "pP" = (
 /obj/structure/catwalk,
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "qz" = (
 /obj/structure/railing/mapped,
@@ -515,7 +515,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "yi" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -596,7 +596,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "DT" = (
 /obj/structure/cable{
@@ -731,7 +731,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "HW" = (
 /turf/simulated/open,
@@ -881,12 +881,12 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "OA" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "Pe" = (
 /turf/simulated/floor/plating,
@@ -1024,7 +1024,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "ST" = (
 /obj/effect/floor_decal/corner/blue,
@@ -1064,7 +1064,7 @@
 	dir = 8
 	},
 /obj/structure/catwalk,
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "Ux" = (
 /obj/effect/floor_decal/corner/blue{
@@ -1133,7 +1133,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/exterior/volcanic,
+/turf/exterior/snow,
 /area/exoplanet/snow)
 "Xc" = (
 /obj/machinery/media/jukebox/old,

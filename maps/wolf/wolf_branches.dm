@@ -15,6 +15,9 @@
 		),
 		/decl/species/adherent = list(
 			/datum/mil_branch/exoplanetary_affairs
+		),
+		/decl/species/resomi = list(
+			/datum/mil_branch/exoplanetary_affairs
 		)
 	)
 

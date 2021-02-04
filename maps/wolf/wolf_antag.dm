@@ -21,6 +21,3 @@
 	desc = "\"Top Secret\" mineral compositions and ore yield estimations for the planets the ship has visited so far. It appears that the USN is assigning a value to every planetary body."
 	description_antag = "Private entities have made multiple claims on the planets in this sector, with multiple massive mineral congolmerates claiming huge portions of the sector."
 	icon_state = "docs_blue"
-
-
-
