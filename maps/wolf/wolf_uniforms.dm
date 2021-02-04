@@ -1,7 +1,7 @@
 /obj/item/clothing/under/wolf
-	bodytype_restricted = list(BODYTYPE_HUMANOID)
 	rolled_down = 0
 	rolled_sleeves = 0
+	bodytype_restricted = list(BODYTYPE_HUMANOID)
 
 /obj/item/clothing/under/wolf/grey
 	name = "grey jumpsuit"
@@ -39,31 +39,39 @@
 	icon = 'maps/wolf/icons/uniforms/tan.dmi'
 
 /obj/item/clothing/accessory/chevrons
-	name = "rank chevrons"
-	desc = "A set of chevrons denoting rank at a glance."
+	name = "department chevrons"
+	desc = "A set of chevrons denoting department at a glance."
 	slot = ACCESSORY_SLOT_INSIGNIA
 	hide_on_uniform_rolldown = TRUE
+	high_visibility = TRUE
 	icon = 'maps/wolf/icons/rank_chevrons.dmi'
 
 /obj/item/clothing/accessory/chevrons/engineering
+	name = "engineering chevrons"
 	color = COLOR_ORANGE
 
 /obj/item/clothing/accessory/chevrons/security
+	name = "security chevrons"
 	color = COLOR_NT_RED
 
 /obj/item/clothing/accessory/chevrons/cargo
+	name = "cargo chevrons"
 	color = COLOR_BEASTY_BROWN
 
 /obj/item/clothing/accessory/chevrons/command
+	name = "command chevrons"
 	color = COLOR_SILVER
 
 /obj/item/clothing/accessory/chevrons/science
+	name = "science chevrons"
 	color = COLOR_VIOLET
 
 /obj/item/clothing/accessory/chevrons/medical
+	name = "medical chevrons"
 	color = COLOR_SKY_BLUE
 
 /obj/item/clothing/accessory/chevrons/captain
+	name = "captain's chevrons"
 	color = COLOR_AMBER
 
 /obj/item/clothing/accessory/dept_stripes
@@ -98,6 +106,7 @@
 	name = "rank patch"
 	desc = "A patch of colored fabric with a hook-and-loop backing."
 	slot = ACCESSORY_SLOT_RANK
+	high_visibility = TRUE
 	var/rank
 
 /obj/item/clothing/accessory/ranks/Initialize()
