@@ -9,7 +9,7 @@
 
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
 //	#include "../../mods/species/tajaran/_tajaran.dme"
-	#include "../../mods/species/lizard/_lizard.dme"
+//	#include "../../mods/species/lizard/_lizard.dme"
 // NEBULA MODS END
 
 // INFINITY MODS START
@@ -20,6 +20,7 @@
 	#include "../../infinity/mods/species/resomi/_resomi.dme"
 	#include "../../infinity/mods/species/vatgrown/_vatgrown.dme"
 	#include "../../infinity/mods/species/tajaran/_tajaran.dme"
+	#include "../../infinity/mods/species/lizard/_lizard.dme"
 // INFINITY MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
