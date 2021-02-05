@@ -1,0 +1,3 @@
+[submodule "custom-items"]
+	path = custom-items
+	url = https://github.com/infinitystation/custom-items
