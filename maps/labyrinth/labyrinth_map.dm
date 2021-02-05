@@ -1,6 +1,6 @@
 /datum/map/labyrinth
 	base_turf_by_z = list(
-		"1" = /turf/exterior/lava,
+		"1" = /turf/exterior/snow,
 		"2" = /turf/simulated/open,
 		"3" = /turf/simulated/open
 	)

@@ -4,6 +4,7 @@
 #include "_infinity.dm"
 #include "code\world.dm"
 #include "code\_onclick\hud\maptext_tooltip.dm"
+#include "code\_onclick\click.dm"
 #include "code\datum\footsteps.dm"
 #include "code\datum\votes.dm"
 #include "code\datum\webhook_message_ooc.dm"
