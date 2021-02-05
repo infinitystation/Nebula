@@ -3,6 +3,8 @@
 // NEBULA MODS START
 	#include "../../mods/content/corporate/_corporate.dme"
 	#include "../../mods/content/bigpharma/_bigpharma.dme"
+	#include "../../mods/content/modern_earth/_modern_earth.dme"
+	#include "../../mods/content/mundane.dm"
 
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
 	#include "../../mods/mobs/borers/_borers.dme"
@@ -15,6 +17,7 @@
 
 // INFINITY MODS START
 	#include "../../infinity/mods/content/infinity/_infinity.dme"
+	#include "../../infinity/mods/content/infinity_lore/_infinity_lore.dme"
 
 	#include "../../infinity/mods/species/booster/_booster.dme"
 	#include "../../infinity/mods/species/resomi/_resomi.dme"
@@ -52,6 +55,7 @@
 	#include "wolf-extras.dmm"
 	#include "wolf-supply.dmm"
 
+	#include "wolf_cultural_info.dm"
 	#include "wolf_branches.dm"
 	#include "wolf_overmap.dm"
 	#include "wolf_jobs.dm"
