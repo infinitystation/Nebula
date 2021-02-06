@@ -1,6 +1,6 @@
 /datum/job/wolf/engineering/CE
 	title = "Chief Engineer"
-	department_refs = list(DEPT_COMMAND,DEPT_ENGINEERING)
+	department_types = list(/decl/department/command, /decl/department/engineering)
 	access = list()
 	head_position = TRUE
 	req_admin_notify = TRUE

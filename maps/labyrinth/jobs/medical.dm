@@ -1,6 +1,6 @@
 /datum/job/doctor
 	title = "Facility Physician"
-	department_refs = list(DEPT_MEDICAL)
+	department_types = list(/decl/department/medical)
 	head_position = 0
 	supervisors = "the Head Facility Physician and the Facility Director"
 	total_positions = 2
@@ -45,9 +45,9 @@
 	title = "Facility Head Physician"
 	head_position = 1
 	hud_icon = "hudchiefmedicalofficer"
-	department_refs = list(
-		DEPT_MEDICAL,
-		DEPT_COMMAND
+	department_types = list(
+		/decl/department/medical,
+		/decl/department/command
 	)
 	supervisors = "the Facility Director and your own ethics"
 	outfit_type = /decl/hierarchy/outfit/job/labyrinth/basic/doctor/head

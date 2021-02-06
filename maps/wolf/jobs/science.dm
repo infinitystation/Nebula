@@ -1,6 +1,6 @@
 /datum/job/wolf/science/TD
 	title = "Technology Director"
-	department_refs = list(DEPT_COMMAND,DEPT_EXPLORATION)
+	department_types = list(/decl/department/command, /decl/department/exploration)
 	head_position = TRUE
 	req_admin_notify = TRUE
 	supervisors = "the Captain and the First Officer"
