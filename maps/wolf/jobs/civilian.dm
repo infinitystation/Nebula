@@ -1,6 +1,6 @@
 /datum/job/wolf/civilian/bosun
 	title = "Bosun"
-	department_refs = list(DEPT_COMMAND,DEPT_SUPPLY)
+	department_types = list(/decl/department/command, /decl/department/supply)
 	head_position = TRUE
 	req_admin_notify = TRUE
 	alt_titles = list("Quartermaster")

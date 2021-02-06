@@ -18,7 +18,7 @@
 		SKILL_SCIENCE  = SKILL_MAX
 	)
 	skill_points = 24
-	department_refs = list(DEPT_SCIENCE)
+	department_types = list(/decl/department/science)
 	selection_color = "#633d63"
 	economic_power = 7
 	minimal_player_age = 7
@@ -65,9 +65,9 @@
 	)
 	skill_points = 30
 	head_position = 1
-	department_refs = list(
-		DEPT_SCIENCE,
-		DEPT_COMMAND
+	department_types = list(
+		/decl/department/science,
+		/decl/department/command
 	)
 	selection_color = "#ad6bad"
 	req_admin_notify = 1

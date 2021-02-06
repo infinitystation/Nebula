@@ -1,6 +1,6 @@
 /datum/job/wolf/security/SSC
 	title = "Ship Security Commander"
-	department_refs = list(DEPT_COMMAND,DEPT_SECURITY)
+	department_types = list(/decl/department/command, /decl/department/security)
 	head_position = TRUE
 	req_admin_notify = TRUE
 	supervisors = "the Captain and the First Officer"

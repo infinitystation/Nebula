@@ -1,5 +1,4 @@
 /datum/job
-	department_refs = list(DEPT_CIVILIAN)
 	skill_points    = 26
 	outfit_type     = /decl/hierarchy/outfit/job/labyrinth/basic
 
@@ -7,4 +6,5 @@
 	title = "Facility Member"
 	supervisors = "literally everyone, you bottom feeder"
 	outfit_type = /decl/hierarchy/outfit/job/labyrinth/basic
+	department_types = list(/decl/department/civilian)
 	hud_icon = "hudcargotechnician"

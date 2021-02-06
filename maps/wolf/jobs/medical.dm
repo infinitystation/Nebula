@@ -1,6 +1,6 @@
 /datum/job/wolf/medical/CMO
 	title = "Chief Medical Officer"
-	department_refs = list(DEPT_COMMAND,DEPT_MEDICAL)
+	department_types = list(/decl/department/command, /decl/department/medical)
 	access = list()
 	head_position = TRUE
 	req_admin_notify = TRUE

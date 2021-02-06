@@ -17,7 +17,7 @@
 	)
 
 	skill_points          = 32
-	department_refs       = list(DEPT_COMMAND)
+	department_types      = list(/decl/department/command)
 	total_positions       = 1
 	spawn_positions       = 1
 	hud_icon              = "hudcaptain"
@@ -55,9 +55,9 @@
 
 	hud_icon = "hudheadofpersonnel"
 	head_position = 1
-	department_refs = list(
-		DEPT_COMMAND,
-		DEPT_CIVILIAN
+	department_types      = list(
+		/decl/department/command,
+		/decl/department/civilian
 	)
 	total_positions       = 1
 	spawn_positions       = 1
