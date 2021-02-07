@@ -9,6 +9,7 @@
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
 	#include "../../mods/mobs/borers/_borers.dme"
 
+	#include "../../mods/species/ascent/_ascent.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
 //	#include "../../mods/species/tajaran/_tajaran.dme"
 	#include "../../mods/species/lizard/_lizard.dme"
@@ -56,6 +57,8 @@
 	#include "wolf-supply.dmm"
 
 	#include "wolf_cultural_info.dm"
+	#include "wolf_species.dm"
+
 	#include "wolf_branches.dm"
 	#include "wolf_overmap.dm"
 	#include "wolf_jobs.dm"
