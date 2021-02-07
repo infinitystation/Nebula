@@ -235,3 +235,13 @@
 	Терре подчеркивает странное сочетание служения государству, либерализма и милитаризма."
 	language = /decl/language/human/common
 	economic_power = 0.9
+
+/decl/cultural_info/culture/human/other
+	name = CULTURE_HUMAN_OTHER
+	description = "Некоторые люди происходят из мест, о которых никто никогда не слышал, или мест, слишком \
+	необузданных и фантастических, чтобы внести их в Галактическую Энциклопедию. Вы один из них."
+	economic_power = 1
+	secondary_langs = list (
+		/decl/language/human/common,
+		/decl/language/sign
+	)
