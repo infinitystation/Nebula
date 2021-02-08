@@ -12,7 +12,7 @@
 	#include "../../mods/species/ascent/_ascent.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
 //	#include "../../mods/species/tajaran/_tajaran.dme"
-	#include "../../mods/species/lizard/_lizard.dme"
+//	#include "../../mods/species/lizard/_lizard.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
 // NEBULA MODS END
 
@@ -25,6 +25,7 @@
 	#include "../../infinity/mods/species/vatgrown/_vatgrown.dme"
 	#include "../../infinity/mods/species/skrell/_skrell.dme"
 	#include "../../infinity/mods/species/tajaran/_tajaran.dme"
+	#include "../../infinity/mods/species/lizard/_lizard.dme"
 // INFINITY MODS END
 
 // EPN5 MODS START
