@@ -1,0 +1,7 @@
+#ifndef MODPACK_INFINITY_LORE
+#define MODPACK_INFINITY_LORE
+#include "_infinity_lore.dm"
+#include "cultures.dm"
+#include "factions.dm"
+#include "locations.dm"
+#endif
