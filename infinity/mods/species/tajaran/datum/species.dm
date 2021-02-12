@@ -19,18 +19,24 @@
 	preview_icon = 'infinity/mods/species/tajaran/icons/preview.dmi'
 	tail_animation = 'infinity/mods/species/tajaran/icons/tail.dmi'
 	tail = "tajtail"
+	default_h_style = "Tajaran Ears"
 
 	flesh_color = "#afa59e"
 	base_color = "#333333"
 	blood_color = "#862a51"
 	organs_icon = 'infinity/mods/species/tajaran/icons/organs.dmi'
-
-	default_h_style = "Tajaran Ears"
+	reagent_tag = IS_TAJARA
 
 	darksight_range = 7
 	darksight_tint = DARKTINT_GOOD
 	slowdown = -0.5
-	flash_mod = 2
+	brute_mod = 1.15
+	burn_mod =  1.15
+	flash_mod = 1.5
+	hunger_factor = DEFAULT_HUNGER_FACTOR * 1.5
+
+	gluttonous = GLUT_TINY
+	health_hud_intensity = 1.75
 
 	unarmed_attacks = list(
 		/decl/natural_attack/stomp, 
@@ -41,13 +47,13 @@
 
 	move_trail = /obj/effect/decal/cleanable/blood/tracks/paw
 
-	cold_level_1 = 200
-	cold_level_2 = 140
-	cold_level_3 = 80
+	cold_level_1 = 200 //Default 260
+	cold_level_2 = 140 //Default 200
+	cold_level_3 = 80  //Default 120
 
-	heat_level_1 = 330
-	heat_level_2 = 380
-	heat_level_3 = 800
+	heat_level_1 = 330 //Default 360
+	heat_level_2 = 380 //Default 400
+	heat_level_3 = 800 //Default 1000
 
 	heat_discomfort_level = 294
 	cold_discomfort_level = 230
@@ -60,7 +66,20 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			CULTURE_TAJARA
+			CULTURE_TAJARAN
+		),
+		TAG_HOMEWORLD = list(
+			HOME_SYSTEM_AHDOMAI
+		),
+		TAG_FACTION = list(
+			FACTION_TAJARAN_HADII,
+			FACTION_TAJARAN_KAYTAM,
+			FACTION_TAJARAN_KAYTAM_KSD,
+			FACTION_TAJARAN_SHISHI,
+			FACTION_TAJARAN_JAR,
+			FACTION_TAJARAN_NAZKIIN,
+			FACTION_TAJARAN_OTHER,
+			FACTION_OTHER
 		)
 	)
 
@@ -75,11 +94,3 @@
 		/decl/emote/audible/purr,
 		/decl/emote/audible/purrlong
 	)
-
-	//Autohiss
-	autohiss_basic_map = list(
-		"r" = list("rr", "rrr", "rrrr"),
-		"р" = list("рр", "ррр", "рррр")
-	)
-
-	autohiss_exempt = list(LANGUAGE_TAJARA)
