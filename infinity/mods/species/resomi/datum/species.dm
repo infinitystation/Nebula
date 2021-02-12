@@ -152,3 +152,7 @@
 	if(!pref) return
 	LAZYINITLIST(pref.body_markings)
 	if(!pref.body_markings["Feathers"]) pref.body_markings["Feathers"] = "#8888cc"
+
+/decl/species/resomi/equip_default_fallback_uniform(var/mob/living/carbon/human/H)
+	if(istype(H))
+		H.equip_to_slot_or_del(new /obj/item/clothing/under/resomi/simple, slot_w_uniform_str)
