@@ -1,7 +1,9 @@
 /decl/species/resomi
 	name              = SPECIES_RESOMI
 	name_plural       = "Resomii"
-	description       = "A tiny birdy creature."
+	description       = "A race of feathered raptors who developed on a cold world, almost \
+	outside of the Goldilocks zone. Extremely fragile, they developed hunting skills \
+	that emphasized taking out their prey without themselves getting hit."
 	hidden_from_codex = FALSE
 
 	sexybits_location = BP_GROIN
@@ -150,3 +152,7 @@
 	if(!pref) return
 	LAZYINITLIST(pref.body_markings)
 	if(!pref.body_markings["Feathers"]) pref.body_markings["Feathers"] = "#8888cc"
+
+/decl/species/resomi/equip_default_fallback_uniform(var/mob/living/carbon/human/H)
+	if(istype(H))
+		H.equip_to_slot_or_del(new /obj/item/clothing/under/resomi/simple, slot_w_uniform_str)
