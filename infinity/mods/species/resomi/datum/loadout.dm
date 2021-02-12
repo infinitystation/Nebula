@@ -2,7 +2,7 @@
 	sort_category = "Xenowear"
 	whitelisted   = list(SPECIES_RESOMI)
 	category      = /datum/gear/resomi
-	slot = slot_w_uniform_str
+	slot          = slot_w_uniform_str
 
 //Uniforms
 
