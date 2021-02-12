@@ -1,7 +1,9 @@
 /decl/species/resomi
 	name              = SPECIES_RESOMI
 	name_plural       = "Resomii"
-	description       = "A tiny birdy creature."
+	description       = "A race of feathered raptors who developed on a cold world, almost \
+	outside of the Goldilocks zone. Extremely fragile, they developed hunting skills \
+	that emphasized taking out their prey without themselves getting hit."
 	hidden_from_codex = FALSE
 
 	sexybits_location = BP_GROIN
