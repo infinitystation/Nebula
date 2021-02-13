@@ -15,9 +15,16 @@
 		),
 		/decl/species/adherent = list(
 			/datum/mil_branch/exoplanetary_affairs
-		),
+		)
+	)
+
+	species_to_rank_blacklist = list(
 		/decl/species/resomi = list(
-			/datum/mil_branch/exoplanetary_affairs
+			/datum/mil_rank/exo/o5,
+			/datum/mil_rank/exo/o6,
+			/datum/mil_rank/exo/o7,
+			/datum/mil_rank/exo/o8,
+			/datum/mil_rank/exo/o9
 		)
 	)
 
