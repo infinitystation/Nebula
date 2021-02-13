@@ -25,3 +25,14 @@
 		/datum/job/wolf/civilian/botanist,
 		/datum/job/wolf/civilian/janitor
 		)
+
+	species_to_job_blacklist = list(
+		/decl/species/resomi = list(
+			/datum/job/wolf/command/captain,
+			/datum/job/wolf/command/first_officer,
+			/datum/job/wolf/security/SSC,
+			/datum/job/wolf/security/brig_chief,
+			/datum/job/wolf/security/armsmen,
+
+		)
+	)
