@@ -53,6 +53,18 @@
 			"[EAST]" =  list("x" = 0,  "y" = -6),
 			"[WEST]" =  list("x" = 0,  "y" = -6),
 			"[SOUTH]" = list("x" = 0,  "y" = -6)
+		),
+		slot_l_ear_str = list(
+			"[NORTH]" = list("x" = 1,  "y" = -4),
+			"[EAST]" =  list("x" = 0,  "y" = -4),
+			"[WEST]" =  list("x" = 0,  "y" = -4),
+			"[SOUTH]" = list("x" = -1,  "y" = -4)
+		),
+		slot_r_ear_str = list(
+			"[NORTH]" = list("x" = -1,  "y" = -4),
+			"[EAST]" =  list("x" = 0,  "y" = -4),
+			"[WEST]" =  list("x" = 0,  "y" = -4),
+			"[SOUTH]" = list("x" = 1,  "y" = -4)
 		)
 	)
 	..()
