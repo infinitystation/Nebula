@@ -13,6 +13,7 @@
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
 //	#include "../../mods/species/tajaran/_tajaran.dme"
 //	#include "../../mods/species/lizard/_lizard.dme"
+	#include "../../mods/species/vox/_vox.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
 // NEBULA MODS END
 
