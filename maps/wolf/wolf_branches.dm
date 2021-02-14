@@ -10,21 +10,18 @@
 	)
 
 	species_to_branch_blacklist = list(
-		/decl/species/utility_frame = list(
+		/decl/species/human/booster = list(
 			/datum/mil_branch/exoplanetary_affairs
 		),
 		/decl/species/adherent = list(
 			/datum/mil_branch/exoplanetary_affairs
-		)
-	)
-
-	species_to_rank_blacklist = list(
-		/decl/species/resomi = list(
-			/datum/mil_rank/exo/o5,
-			/datum/mil_rank/exo/o6,
-			/datum/mil_rank/exo/o7,
-			/datum/mil_rank/exo/o8,
-			/datum/mil_rank/exo/o9
+		),
+		/decl/species/serpentid = list(
+			/datum/mil_branch/exoplanetary_affairs
+		),
+		/decl/species/vox = list(
+			/datum/mil_branch/exoplanetary_affairs,
+			/datum/mil_branch/civilian
 		)
 	)
 
