@@ -652,7 +652,7 @@
 /obj/structure/closet/secure_closet{
 	closet_appearance = /decl/closet_appearance/secure_closet/security;
 	name = "equipment closet";
-	req_access = list(access_armory)
+	req_access = list("ACCESS_ARMORY")
 	},
 /obj/item/gun/energy/capacitor/rifle,
 /obj/item/gun/energy/capacitor/rifle,
@@ -664,7 +664,7 @@
 /obj/structure/closet/secure_closet{
 	closet_appearance = /decl/closet_appearance/secure_closet/security;
 	name = "equipment closet";
-	req_access = list(access_armory)
+	req_access = list("ACCESS_ARMORY")
 	},
 /obj/item/gun/projectile/automatic/smg,
 /obj/item/gun/projectile/automatic/smg,
@@ -1534,7 +1534,7 @@
 /obj/structure/closet/secure_closet{
 	closet_appearance = /decl/closet_appearance/secure_closet/security;
 	name = "equipment closet";
-	req_access = list(access_armory)
+	req_access = list("ACCESS_ARMORY")
 	},
 /obj/item/stack/material/steel/fifty,
 /obj/item/stack/material/glass/fifty,

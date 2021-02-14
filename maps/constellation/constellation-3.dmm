@@ -6462,7 +6462,7 @@
 /area/ship/trade/storage)
 "Pb" = (
 /obj/structure/displaycase{
-	req_access = list(access_captain)
+	req_access = list("ACCESS_CAPTAIN")
 	},
 /obj/item/gun/energy/capacitor/rifle,
 /turf/simulated/floor/carpet/blue,
