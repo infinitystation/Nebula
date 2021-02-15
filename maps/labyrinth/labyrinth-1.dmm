@@ -1253,12 +1253,15 @@
 /turf/simulated/floor/carpet/blue,
 /area/labyrinth/civilian)
 "jg" = (
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
+/obj/machinery/embedded_controller/radio/airlock/access_controller{
 	id_tag = "exit_underground";
 	pixel_y = 24;
 	tag_chamber_sensor = "exit_underground_sensor";
 	tag_exterior_door = "exit_underground_out";
 	tag_interior_door = "exit_underground_in"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
@@ -2527,6 +2530,15 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science)
+"tb" = (
+/obj/machinery/space_heater/wall{
+	pixel_y = 32
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/service/cargo/smelter)
 "tc" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/crate,
@@ -4195,6 +4207,15 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/labyrinth/hallway/lower)
+"Hr" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/service/cargo/smelter)
 "Hs" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -5094,6 +5115,9 @@
 /obj/machinery/space_heater/wall{
 	pixel_y = 32
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "Om" = (
@@ -5192,6 +5216,15 @@
 /obj/item/storage/firstaid/trauma,
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical)
+"OU" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/service/cargo/smelter)
 "OX" = (
 /obj/structure/hygiene/shower{
 	dir = 4
@@ -5341,6 +5374,9 @@
 /area/labyrinth/service/cargo)
 "QJ" = (
 /obj/machinery/light/small/red,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "QX" = (
@@ -5445,6 +5481,7 @@
 	id_tag = "exit_underground_sensor";
 	pixel_y = -24
 	},
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "RX" = (
@@ -5459,6 +5496,13 @@
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
+"Sa" = (
+/obj/machinery/light/small/red,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/service/cargo/smelter)
 "Si" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -17792,9 +17836,9 @@ Oz
 Wd
 ee
 yW
-Oz
-Oz
-Oz
+Hr
+Hr
+OU
 Jo
 Cn
 DD
@@ -18312,8 +18356,8 @@ po
 po
 Ws
 DD
-Oj
-QJ
+tb
+Sa
 DD
 Bv
 po

@@ -245,15 +245,16 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/exploration_shuttle)
 "hh" = (
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	cycle_to_external_air = 1;
+/obj/machinery/embedded_controller/radio/airlock/access_controller{
 	dir = 4;
 	id_tag = "exit_dock_port";
 	pixel_x = -24;
-	tag_airpump = "exit_dock_port_pump";
 	tag_chamber_sensor = "exit_dock_port_sensor";
 	tag_exterior_door = "exit_dock_port_out";
 	tag_interior_door = "exit_dock_port_in"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
@@ -263,6 +264,9 @@
 	pixel_x = 24
 	},
 /obj/machinery/space_heater,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "hQ" = (
@@ -342,6 +346,9 @@
 /obj/machinery/light/small/red{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "jD" = (
@@ -349,6 +356,9 @@
 	dir = 4
 	},
 /obj/machinery/space_heater,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "jM" = (
@@ -422,7 +432,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/exploration_shuttle)
 "lY" = (
@@ -551,10 +560,8 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/exploration_shuttle)
 "oE" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/portable_atmospherics/canister/air/airlock,
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "oF" = (
 /obj/machinery/computer/shuttle_control/explore/exploration_pod,
@@ -581,11 +588,17 @@
 /obj/machinery/alarm{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "py" = (
 /obj/structure/cable{
 	icon_state = "2-4"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
@@ -597,6 +610,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
@@ -737,12 +753,11 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "rE" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 4;
-	id_tag = "dock_port_pump"
-	},
 /obj/machinery/light/small/red{
 	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
@@ -756,25 +771,28 @@
 	tag_interior_door = "dock_port_in"
 	},
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4
+	dir = 5
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 1
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4;
+	id_tag = "dock_port_pump"
 	},
-/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
 "rZ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "dock_port_in"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "sm" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
@@ -798,8 +816,6 @@
 /area/labyrinth/eva)
 "sM" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/structure/table/standard,
-/obj/machinery/cell_charger,
 /obj/machinery/light/small/red{
 	dir = 8
 	},
@@ -809,6 +825,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
 "sV" = (
@@ -816,6 +833,8 @@
 /obj/machinery/light/small/red{
 	dir = 4
 	},
+/obj/structure/table/standard,
+/obj/machinery/cell_charger,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "sZ" = (
@@ -1039,14 +1058,13 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "wp" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 4;
-	id_tag = "dock_port_pump"
-	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
@@ -1056,16 +1074,16 @@
 	pixel_y = -24
 	},
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4
+	dir = 6
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9
-	},
-/obj/structure/hygiene/drain,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4;
+	id_tag = "dock_port_pump"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
@@ -1084,6 +1102,9 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "xH" = (
@@ -1092,6 +1113,9 @@
 	},
 /obj/machinery/alarm{
 	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
@@ -1345,7 +1369,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/hygiene/drain,
 /turf/simulated/floor/plating,
 /area/labyrinth/exploration_shuttle)
 "De" = (
@@ -1505,7 +1528,7 @@
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "FH" = (
-/obj/machinery/dehumidifier,
+/obj/machinery/space_heater,
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
 "Gm" = (
@@ -1571,6 +1594,12 @@
 /obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
+"HO" = (
+/obj/machinery/atmospherics/portables_connector,
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/eva)
 "HY" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2190,6 +2219,9 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
 "Wh" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "Wm" = (
@@ -8227,7 +8259,7 @@ jb
 RV
 xN
 fB
-oE
+HO
 sm
 xH
 fB
@@ -9005,7 +9037,7 @@ jb
 Sp
 fZ
 Wh
-Wh
+oE
 mv
 py
 sU
@@ -9786,7 +9818,7 @@ jb
 jb
 DH
 xN
-DA
+jM
 jM
 tt
 yZ
