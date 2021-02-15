@@ -4557,9 +4557,6 @@
 	dir = 9
 	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/machinery/light_switch{
-	pixel_x = -24
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "Jk" = (
@@ -5393,6 +5390,9 @@
 /obj/item/pickaxe/drill,
 /obj/item/pickaxe/drill{
 	pixel_y = 8
+	},
+/obj/machinery/light_switch{
+	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
