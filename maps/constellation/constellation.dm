@@ -29,6 +29,7 @@
 	#include "../../mods/content/government/ruins/ec_old_crash/ec_old_crash.dm"
 	#include "../../mods/content/corporate/away_sites/lar_maria/lar_maria.dm"
 
+	#include "../away/liberia/liberia.dm"
 	#include "../away/bearcat/bearcat.dm"
 	#include "../away/casino/casino.dm"
 	#include "../away/derelict/derelict.dm"
