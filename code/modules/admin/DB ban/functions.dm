@@ -116,6 +116,7 @@ datum/admins/proc/DB_ban_record(var/bantype, var/mob/banned_mob, var/duration = 
 		else
 			adminwho += ", [C]"
 
+	var/reason_public = reason
 	reason = sql_sanitize_text(reason)
 
 	var/DBQuery/query_insert = dbcon.NewQuery("INSERT INTO `erro_ban` (`id`, `bantime`, `serverip`, `bantype`, `reason`, `job`, `duration`, `rounds`, `expiration_time`, `ckey`, `computerid`, `ip`, `a_ckey`, `a_computerid`, `a_ip`, `who`, `adminwho`, `edits`, `unbanned`, `unbanned_datetime`, `unbanned_ckey`, `unbanned_computerid`, `unbanned_ip` ) VALUES (NULL, NOW(), '[serverip]', '[bantype_str]', '[reason]', '[job]', [(duration)?"[duration]":"0"], [(rounds)?"[rounds]":"0"], NOW() + INTERVAL [(duration>0) ? duration : 0] MINUTE, '[ckey]', '[computerid]', '[ip]', '[a_ckey]', '[a_computerid]', '[a_ip]', '[who]', '[adminwho]', '', NULL, NULL, NULL, NULL, NULL)")
@@ -124,6 +125,17 @@ datum/admins/proc/DB_ban_record(var/bantype, var/mob/banned_mob, var/duration = 
 	if(usr)
 		to_chat(usr, "<span class='notice'>Ban saved to database.</span>")
 		setter = key_name_admin(usr)
+
+	//[INF]
+		if((bantype != BANTYPE_JOB_TEMP) && (bantype != BANTYPE_JOB_PERMA))
+			var/banned_key = ckey
+			if(ismob(banned_mob))
+				banned_key = LAST_CKEY(banned_mob)
+				if(banned_mob.client)
+					banned_key = get_key(banned_mob)
+			SSwebhooks.send("webhook_message_ban", list("bantype" = bantype, "setter" = get_key(usr), "banned" = banned_key, "reason" = reason_public, "duration" = duration))
+	//[/INF]
+
 	message_admins("[setter] has added a [bantype_str] for [ckey] [(job)?"([job])":""] [(duration > 0)?"([duration] minutes)":""] with the reason: \"[reason]\" to the ban database.",1)
 	return 1
 

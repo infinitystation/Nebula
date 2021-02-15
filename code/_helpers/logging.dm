@@ -191,6 +191,10 @@
 /proc/key_name_admin(var/whom, var/include_name = 1)
 	return key_name(whom, 1, include_name)
 
+// Infinity Station -- todo: port to upstream
+/proc/get_key(var/whom)
+	return key_name(whom, include_name = 0)
+
 // Helper procs for building detailed log lines
 /datum/proc/get_log_info_line()
 	return "[src] ([type]) ([any2ref(src)])"
