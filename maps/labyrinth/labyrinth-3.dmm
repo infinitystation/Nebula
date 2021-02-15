@@ -476,9 +476,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
-"mA" = (
-/turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
 "mW" = (
 /obj/structure/cable,
 /obj/machinery/power/shield_generator,
@@ -8875,7 +8872,7 @@ jb
 jb
 jb
 jb
-mA
+Sp
 fH
 hh
 jt
@@ -9005,7 +9002,7 @@ jb
 jb
 jb
 jb
-mA
+Sp
 fZ
 Wh
 Wh
@@ -9135,7 +9132,7 @@ jb
 jb
 jb
 jb
-mA
+Sp
 fH
 hC
 jD

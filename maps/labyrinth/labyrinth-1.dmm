@@ -1684,9 +1684,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical/lobby)
-"mI" = (
-/turf/exterior/snow,
-/area/exoplanet/snow)
 "mL" = (
 /obj/structure/closet/secure_closet/cargotech,
 /turf/simulated/floor/tiled/techfloor,
@@ -18577,8 +18574,8 @@ po
 po
 rm
 Bl
-mI
-mI
+Oy
+Oy
 oZ
 tg
 po
