@@ -31,8 +31,8 @@
 #include "code\obj\machinery\crystal.dm"
 #include "code\obj\machinery\jukebox.dm"
 #include "code\obj\machinery\mantrap.dm"
-#include "code\obj\machinery\space_heater.dm"
 #include "code\obj\machinery\stasis.dm"
+#include "code\obj\machinery\wall_heater.dm"
 #include "code\obj\structures\barsign.dm"
 #include "code\obj\structures\noose\noose.dm"
 // END_INCLUDE

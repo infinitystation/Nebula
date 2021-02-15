@@ -6,6 +6,7 @@
 	density = FALSE
 	heating_power = 120 KILOWATTS
 	atom_flags = ATOM_FLAG_NO_TEMP_CHANGE
+	base_type = /obj/machinery/space_heater/wall
 
 /obj/machinery/space_heater/wall/on_update_icon(var/rebuild_overlay = 0)
 	if(!on)
@@ -28,3 +29,10 @@
 
 /obj/machinery/space_heater/wall/on
 	on = TRUE
+
+/obj/item/stock_parts/circuitboard/space_heater/wall
+	name = "circuitboard (wall-mounted space heater)"
+	build_path = /obj/machinery/space_heater/wall
+
+/datum/fabricator_recipe/imprinter/circuit/space_heater_wall
+	path = /obj/item/stock_parts/circuitboard/space_heater/wall
