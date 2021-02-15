@@ -1,5 +1,4 @@
 /obj/effect/overmap/visitable/sector/exoplanet/snow/labyrinth
-	lightlevel = 0.1
 	free_landing = TRUE
 	ruin_tags_whitelist = 1 //stub for no ruins
 	possible_themes = list()
@@ -14,6 +13,8 @@
 			"nav_labyrinth_dock"
 		)
 	)
+/obj/effect/overmap/visitable/sector/exoplanet/snow/labyrinth/generate_habitability()
+	habitability_class = HABITABILITY_IDEAL
 
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle
 	name    = "Exploration Shuttle"
