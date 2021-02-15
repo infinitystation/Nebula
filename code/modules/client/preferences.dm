@@ -197,6 +197,11 @@ var/list/time_prefs_fixed = list()
 		load_character(text2num(href_list["changeslot"]))
 		sanitize_preferences()
 		close_load_dialog(usr)
+
+		if(isnewplayer(client.mob))
+			var/mob/new_player/M = client.mob
+			M.new_player_panel()
+
 	else if(href_list["resetslot"])
 		if(real_name != input("This will reset the current slot. Enter the character's full name to confirm."))
 			return 0
@@ -278,10 +283,7 @@ var/list/time_prefs_fixed = list()
 					qdel(child)
 			qdel(O)
 		else if(status == "cyborg")
-			if(rlimb_data[name])
-				O.robotize(rlimb_data[name])
-			else
-				O.robotize()
+			O.robotize(rlimb_data[name])
 		else //normal organ
 			O.force_icon = initial(O.force_icon)
 			O.SetName(initial(O.name))
