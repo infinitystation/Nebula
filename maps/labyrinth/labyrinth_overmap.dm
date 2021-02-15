@@ -1,5 +1,5 @@
 /obj/effect/overmap/visitable/sector/exoplanet/snow/labyrinth
-	lightlevel = 0.1
+	habitability_class = HABITABILITY_IDEAL
 	free_landing = TRUE
 	ruin_tags_whitelist = 1 //stub for no ruins
 	possible_themes = list()

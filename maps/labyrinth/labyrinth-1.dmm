@@ -4572,7 +4572,6 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 6
 	},
-/obj/machinery/space_heater,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "JD" = (
@@ -5092,10 +5091,9 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "Oj" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
+/obj/machinery/space_heater/wall{
+	pixel_y = 32
 	},
-/obj/machinery/space_heater,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "Om" = (
@@ -17796,7 +17794,7 @@ ee
 yW
 Oz
 Oz
-Oj
+Oz
 Jo
 Cn
 DD
@@ -18054,7 +18052,7 @@ MW
 MW
 Oy
 DD
-Gs
+Oj
 QJ
 DD
 Oy
@@ -18314,7 +18312,7 @@ po
 po
 Ws
 DD
-Gs
+Oj
 QJ
 DD
 Bv
