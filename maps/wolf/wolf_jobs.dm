@@ -2,6 +2,7 @@
 	default_assistant_title = "Crewmember"
 	allowed_jobs = list(
 		/datum/job/assistant,
+		/datum/job/wolf/civilian/stowaway,
 		/datum/job/wolf/command/captain,
 		/datum/job/wolf/command/first_officer,
 		/datum/job/wolf/security/SSC,

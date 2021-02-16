@@ -3808,6 +3808,9 @@
 "iE" = (
 /obj/structure/bed/chair/wood,
 /obj/item/binoculars,
+/obj/effect/landmark/start{
+	name = "Stowaway"
+	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/fore/starboard)
 "iF" = (
@@ -9114,6 +9117,12 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/ship/wolf/command/office/rd)
+"yJ" = (
+/obj/effect/landmark/start{
+	name = "Stowaway"
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckone/fore/starboard)
 "yO" = (
 /obj/machinery/door/blast/regular{
 	dir = 8;
@@ -10442,6 +10451,12 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/ship/wolf/command/office/rd/bed)
+"XD" = (
+/obj/effect/landmark/start{
+	name = "Stowaway"
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckone/aft/port)
 "XN" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
@@ -16478,7 +16493,7 @@ Wm
 Az
 QV
 Lk
-eE
+XD
 lN
 jI
 aa
@@ -19361,7 +19376,7 @@ bw
 sC
 dd
 bw
-aU
+yJ
 aU
 aU
 aU

@@ -12,6 +12,21 @@
 	shoes = /obj/item/clothing/shoes/color/black
 	uniform = /obj/item/clothing/under/wolf/grey
 
+/decl/hierarchy/outfit/job/wolf/stowaway
+	name = WOLF_OUTFIT_JOB_NAME("Stowaway")
+	id_type = /obj/item/card/id/wolf/civilian/stowaway
+	pda_type = null
+	l_ear    = null
+	l_pocket = /obj/item/wrench
+	r_pocket = /obj/item/flashlight
+	belt = /obj/item/crowbar/red
+
+/decl/hierarchy/outfit/job/wolf/stowaway/equip_id(var/mob/living/carbon/human/H, var/rank, var/assignment, var/equip_adjustments)
+	var/obj/item/card/id/id = ..()
+	if(!istype(id)) return
+	id.assignment = "Crewman"
+	id.registered_name = random_name(H.gender,H.species)
+
 //COMMAND//
 
 /decl/hierarchy/outfit/job/wolf/captain
@@ -442,6 +457,9 @@
 
 /obj/item/card/id/wolf/civilian/chef
 	job_access_type = /datum/job/wolf/civilian/chef
+
+/obj/item/card/id/wolf/civilian/stowaway
+	job_access_type = /datum/job/wolf/civilian/stowaway
 
 ///CARGO///
 

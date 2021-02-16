@@ -285,3 +285,23 @@
 	Anything Engineering is too busy to handle, you should be doing. In the aftermath of battle, of course, your services are vital for keeping areas like Medbay clear of blood and reducing the
 	risk of infection."}
 	return desc
+
+/datum/job/wolf/civilian/stowaway
+	title = "Stowaway"
+	hud_icon = "hudunknown1"
+	access = list(
+		access_maint_tunnels,
+		access_emergency_storage
+		)
+
+	total_positions = 1
+	spawn_positions = 1
+	latejoin_at_spawnpoints = 1
+	outfit_type = /decl/hierarchy/outfit/job/wolf/stowaway
+	allowed_ranks = list(/datum/mil_rank/civ/civ)
+	allowed_branches = list(/datum/mil_branch/civilian)
+
+	announced       = FALSE
+	create_record   = FALSE
+	account_allowed = FALSE
+	supervisors = "your conscience"
