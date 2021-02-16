@@ -8009,7 +8009,9 @@
 /area/ship/wolf/maintenance/decktwo/aft/port)
 "rl" = (
 /obj/effect/paint/black,
-/turf/simulated/wall,
+/turf/simulated/wall{
+	can_open = 1
+	},
 /area/ship/wolf/maintenance/decktwo/aft/port)
 "rm" = (
 /obj/random/closet,
@@ -9857,6 +9859,13 @@
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/fore/port)
+"Kg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start{
+	name = "Stowaway"
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/decktwo/aft/port)
 "KD" = (
 /obj/random/contraband,
 /turf/simulated/floor/plating,
@@ -9983,6 +9992,16 @@
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
 	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/decktwo/aft/port)
+"XI" = (
+/obj/machinery/light/small/red{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/effect/landmark/start{
+	name = "Stowaway"
 	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/port)
@@ -16295,7 +16314,7 @@ dn
 cA
 eH
 qZ
-pQ
+XI
 rC
 NR
 RM
@@ -17597,7 +17616,7 @@ aq
 aq
 rL
 dF
-rB
+Kg
 oN
 aa
 aa
