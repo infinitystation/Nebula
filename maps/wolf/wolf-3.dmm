@@ -2065,6 +2065,7 @@
 	pixel_z = 4
 	},
 /obj/effect/floor_decal/corner/red/diagonal,
+/obj/item/chems/food/condiment/enzyme,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "eU" = (
