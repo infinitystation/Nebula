@@ -19,4 +19,3 @@
 
 /obj/effect/landmark/map_data/wolf
 	height = 4
-	UT_turf_exceptions_by_door_type = list(/obj/machinery/door/firedoor = list(/turf/simulated/open))

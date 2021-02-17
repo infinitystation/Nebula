@@ -789,7 +789,7 @@
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/structure/closet/walllocker/emerglocker/west,
 /turf/simulated/floor/tiled/dark,
-/area/ship/wolf/command/bridge)
+/area/ship/wolf/command/hallway)
 "bX" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/camera/network/command{
@@ -901,7 +901,7 @@
 	},
 /obj/effect/floor_decal/corner/blue/mono,
 /turf/simulated/floor/tiled/dark,
-/area/ship/wolf/command/bridge)
+/area/ship/wolf/command/hallway)
 "ch" = (
 /obj/effect/floor_decal/corner/b_green/half{
 	dir = 8
@@ -924,7 +924,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/orange,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/ce)
 "cj" = (
 /obj/effect/wallframe_spawn/reinforced/polarized{
@@ -1153,7 +1153,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet/orange,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/ce/bedroom)
 "cH" = (
 /obj/structure/cable/green{
@@ -1625,7 +1625,7 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "ceoffice"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/office/ce)
 "dy" = (
 /obj/effect/floor_decal/corner/blue{
@@ -1958,7 +1958,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/cmo)
 "ec" = (
 /obj/structure/cable/green{
@@ -2767,8 +2767,8 @@
 /area/ship/wolf/command/bridge)
 "fE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/computer/modular/preset/cardslot/command,
 /obj/effect/floor_decal/corner/yellow/mono,
+/obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge)
 "fF" = (
@@ -3056,7 +3056,7 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "cmooffice"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/office/cmo)
 "gk" = (
 /obj/machinery/power/apc{
@@ -3173,7 +3173,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/cmo/bedroom)
 "gx" = (
 /obj/structure/cable/green{
@@ -3282,7 +3282,7 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "maaoffice"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/office/maa)
 "gK" = (
 /obj/machinery/computer/modular/preset/medical{
@@ -3385,7 +3385,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/maa)
 "gW" = (
 /obj/structure/bed/chair/comfy/captain{
@@ -3499,7 +3499,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/maa/bedroom)
 "hg" = (
 /obj/structure/cable/green{
