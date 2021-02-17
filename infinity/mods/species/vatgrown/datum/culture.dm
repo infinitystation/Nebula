@@ -1,5 +1,5 @@
 /decl/cultural_info/culture/human/vatgrown
-	name = CULTURE_HUMAN_VATGROWN
+	name = "Nonborn"
 	description = "You were grown in a vat, either as clone or as a gene-adapt, and your outlook diverges from baseline humanity accordingly."
 
 /decl/cultural_info/culture/human/vatgrown/sanitize_name(name)

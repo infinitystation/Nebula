@@ -29,8 +29,10 @@
 		)
 
 	additional_available_cultural_info = list(
-		TAG_CULTURE = list(CULTURE_HUMAN_VATGROWN)
+		TAG_CULTURE = list(
+			/decl/cultural_info/culture/human/vatgrown
+		)
 	)
 	default_cultural_info = list(
-		TAG_CULTURE = CULTURE_HUMAN_VATGROWN
+		TAG_CULTURE = /decl/cultural_info/culture/human/vatgrown
 	)

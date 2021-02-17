@@ -66,10 +66,10 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			CULTURE_TAJARAN
+			/decl/cultural_info/culture/tajaran
 		),
 		TAG_HOMEWORLD = list(
-			HOME_SYSTEM_AHDOMAI
+			/decl/cultural_info/location/ahdomai
 		),
 		TAG_FACTION = list(
 			FACTION_TAJARAN_HADII,
@@ -79,7 +79,7 @@
 			FACTION_TAJARAN_JAR,
 			FACTION_TAJARAN_NAZKIIN,
 			FACTION_TAJARAN_OTHER,
-			FACTION_OTHER
+			/decl/cultural_info/faction/other
 		)
 	)
 
