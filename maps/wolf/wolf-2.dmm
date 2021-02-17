@@ -1218,7 +1218,6 @@
 	icon_state = "32-2"
 	},
 /obj/structure/ladder,
-/obj/machinery/door/firedoor,
 /turf/simulated/open,
 /area/ship/wolf/engineering/engine_room)
 "cY" = (
@@ -3422,7 +3421,6 @@
 /obj/structure/cable{
 	icon_state = "32-8"
 	},
-/obj/machinery/door/firedoor,
 /turf/simulated/open,
 /area/ship/wolf/engineering/engine_room)
 "hH" = (
@@ -7132,6 +7130,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/port)
 "oZ" = (
@@ -7526,7 +7525,6 @@
 "pX" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/door/firedoor,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
@@ -7535,7 +7533,6 @@
 "pY" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/door/firedoor,
 /turf/simulated/open,
 /area/ship/wolf/maintenance/decktwo/aft/port)
 "pZ" = (
@@ -7668,7 +7665,6 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/starboard)
 "qq" = (
-/obj/machinery/door/firedoor,
 /obj/structure/ladder,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/plating,
@@ -9826,6 +9822,10 @@
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
 /area/ship/wolf/security/weapons_bay/two)
+"Ed" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/decktwo/amidship/starboard)
 "Fe" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -9855,6 +9855,11 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/port)
+"Js" = (
+/obj/machinery/door/firedoor,
+/obj/random/obstruction,
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/decktwo/fore/port)
 "Ka" = (
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
@@ -16796,7 +16801,7 @@ eB
 cg
 cg
 mk
-Ka
+Js
 ei
 cg
 gk
@@ -19874,7 +19879,7 @@ cy
 rM
 px
 rR
-oS
+Ed
 oS
 pt
 pt

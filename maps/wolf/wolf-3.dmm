@@ -592,8 +592,8 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "bH" = (
-/obj/effect/landmark/start{
-	name = "Medical Doctor"
+/obj/machinery/bodyscanner{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/treatment)
@@ -3209,7 +3209,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/autoname/wolf/security,
 /turf/simulated/floor/tiled/dark,
-/area/ship/wolf/security)
+/area/ship/wolf/security/lockers)
 "he" = (
 /obj/structure/bed/chair/office/light{
 	dir = 1
@@ -4153,6 +4153,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/aftport)
 "iW" = (
@@ -4259,6 +4260,12 @@
 /area/ship/wolf/ladderwell)
 "jg" = (
 /obj/structure/disposalpipe/segment,
+/obj/machinery/body_scanconsole{
+	dir = 4
+	},
+/obj/effect/landmark/start{
+	name = "Medical Doctor"
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/treatment)
 "jh" = (
@@ -6195,7 +6202,6 @@
 "ne" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/door/firedoor,
 /turf/simulated/open,
 /area/ship/wolf/ladderwell)
 "nf" = (
@@ -6417,9 +6423,6 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/bodyscanner{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/treatment)
 "nB" = (
@@ -6507,7 +6510,8 @@
 /area/ship/wolf/eva)
 "nI" = (
 /obj/effect/floor_decal/corner/red,
-/obj/structure/closet/secure_closet/armsmen,
+/obj/structure/table/steel_reinforced,
+/obj/machinery/recharger,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security/lockers)
 "nJ" = (
@@ -6729,9 +6733,6 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark/start{
-	name = "Medical Doctor"
-	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/treatment)
 "oe" = (
@@ -6894,7 +6895,7 @@
 /obj/machinery/disposal,
 /obj/effect/floor_decal/corner/green/full,
 /obj/structure/sign/deck/third{
-	pixel_z = 32
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
@@ -7195,7 +7196,6 @@
 "oZ" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/door/firedoor,
 /obj/item/radio/intercom/bump/south,
 /turf/simulated/open,
 /area/ship/wolf/ladderwell)
@@ -8179,26 +8179,25 @@
 "rf" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/door/firedoor,
 /turf/simulated/open,
 /area/ship/wolf/maintenance/deckthree/foreport)
 "rg" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/door/firedoor,
 /turf/simulated/open,
 /area/ship/wolf/maintenance/deckthree/fore/starboard)
 "rh" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/door/firedoor,
 /turf/simulated/open,
 /area/ship/wolf/maintenance/deckthree/aftport)
 "ri" = (
-/obj/structure/ladder,
-/obj/machinery/door/firedoor,
-/obj/structure/lattice,
-/turf/simulated/open,
+/obj/structure/catwalk,
+/obj/random/maintenance,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/aft/starboard)
 "rj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
@@ -8268,8 +8267,7 @@
 /area/ship/wolf/engineering/hallway/upper)
 "rp" = (
 /obj/effect/floor_decal/corner/red,
-/obj/structure/table/steel_reinforced,
-/obj/machinery/recharger,
+/obj/structure/closet/secure_closet/armsmen,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security/lockers)
 "rq" = (
@@ -8471,6 +8469,7 @@
 	dir = 10
 	},
 /obj/item/radio/intercom/bump/south,
+/obj/machinery/fabricator/bioprinter,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical)
 "rJ" = (
@@ -9179,7 +9178,6 @@
 /area/ship/wolf/maintenance/deckthree/fore/starboard)
 "tc" = (
 /obj/structure/lattice,
-/obj/machinery/door/firedoor,
 /turf/simulated/open,
 /area/ship/wolf/maintenance/deckthree/fore/starboard)
 "td" = (
@@ -9328,6 +9326,7 @@
 /obj/effect/floor_decal/corner/paleblue/three_quarters,
 /obj/item/radio/intercom/bump/south,
 /obj/structure/hygiene/drain,
+/obj/structure/iv_drip,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/operating/one)
 "tw" = (
@@ -10727,6 +10726,21 @@
 /obj/machinery/status_display{
 	pixel_y = -32
 	},
+/obj/structure/table/standard,
+/obj/item/chems/ivbag/blood/OPlus,
+/obj/item/chems/ivbag/blood/OPlus,
+/obj/item/chems/ivbag/blood/OMinus,
+/obj/item/chems/ivbag/blood/OMinus,
+/obj/item/chems/ivbag/blood/BPlus,
+/obj/item/chems/ivbag/blood/BPlus,
+/obj/item/chems/ivbag/blood/BMinus,
+/obj/item/chems/ivbag/blood/BMinus,
+/obj/item/chems/ivbag/blood/APlus,
+/obj/item/chems/ivbag/blood/APlus,
+/obj/item/chems/ivbag/blood/AMinus,
+/obj/item/chems/ivbag/blood/AMinus,
+/obj/item/chems/ivbag/blood,
+/obj/item/chems/ivbag/blood,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical)
 "wu" = (
@@ -11003,7 +11017,6 @@
 "wY" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/door/firedoor,
 /turf/simulated/open,
 /area/ship/wolf/maintenance/deckthree/aft/starboard)
 "wZ" = (
@@ -11182,7 +11195,7 @@
 	dir = 8
 	},
 /obj/structure/table/steel_reinforced,
-/obj/item/zipgunframe,
+/obj/item/taperoll/police,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security/lockers)
 "xw" = (
@@ -11251,6 +11264,7 @@
 /obj/effect/floor_decal/corner/paleblue/three_quarters,
 /obj/item/radio/intercom/bump/south,
 /obj/structure/hygiene/drain,
+/obj/structure/iv_drip,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/operating/two)
 "xC" = (
@@ -11406,9 +11420,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/machinery/body_scanconsole{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/treatment)
 "LT" = (
@@ -11447,6 +11458,10 @@
 /obj/effect/paint/red,
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/wolf/security/maa_office)
+"ME" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckthree/aft/starboard)
 "Ne" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -11617,7 +11632,6 @@
 	dir = 8
 	},
 /obj/structure/table/steel_reinforced,
-/obj/item/tape/police,
 /obj/item/taperecorder,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security/lockers)
@@ -11646,24 +11660,15 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/treatment)
 "Za" = (
-/obj/machinery/bodyscanner{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/treatment)
 "Zc" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+/obj/structure/catwalk,
+/obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/body_scanconsole{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/ship/wolf/medical/treatment)
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckthree/aft/starboard)
 "ZQ" = (
 /obj/effect/floor_decal/techfloor/orange/corner{
 	dir = 8
@@ -17697,7 +17702,7 @@ oO
 pZ
 nI
 rp
-nI
+rp
 oP
 hd
 hv
@@ -17959,7 +17964,7 @@ fX
 fZ
 gO
 fz
-fB
+fz
 wb
 Iu
 xP
@@ -18086,7 +18091,7 @@ jU
 mz
 os
 op
-fB
+cC
 pp
 oN
 oS
@@ -18337,10 +18342,10 @@ cC
 uj
 ec
 fY
-cC
-cC
-cC
-fB
+ga
+ga
+ga
+ga
 jp
 kY
 iB
@@ -18464,10 +18469,10 @@ cC
 nz
 eV
 cC
-cC
+ga
 ou
 cB
-ag
+ga
 ag
 ag
 ag
@@ -18594,7 +18599,7 @@ ft
 ga
 sA
 cB
-ag
+ga
 ah
 an
 dP
@@ -18721,7 +18726,7 @@ iP
 hY
 ov
 sF
-ag
+ga
 ai
 aW
 eG
@@ -18975,7 +18980,7 @@ lO
 gb
 gb
 gb
-ag
+gb
 ap
 bh
 eI
@@ -19102,7 +19107,7 @@ mX
 gc
 gf
 gh
-ag
+gb
 ar
 cF
 iy
@@ -19229,7 +19234,7 @@ bj
 gw
 qD
 gi
-ag
+gb
 am
 cN
 hP
@@ -21258,7 +21263,7 @@ qt
 hI
 ny
 nA
-Zc
+uZ
 od
 pV
 qf
@@ -21268,7 +21273,7 @@ uP
 iR
 vs
 vk
-ri
+wY
 sx
 pX
 qO
@@ -21528,8 +21533,8 @@ wZ
 wX
 qS
 zw
-Gu
-zw
+ri
+Zc
 wZ
 pL
 tu
@@ -21648,7 +21653,7 @@ gR
 uT
 xx
 qL
-pX
+ME
 wZ
 ab
 ab

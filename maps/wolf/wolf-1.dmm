@@ -132,7 +132,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/bosun)
 "as" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -2203,11 +2203,11 @@
 	},
 /obj/structure/sign/directions/science{
 	dir = 4;
-	pixel_z = 28
+	pixel_y = 28
 	},
 /obj/structure/sign/directions/supply{
 	dir = 1;
-	pixel_z = 38
+	pixel_y = 38
 	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
@@ -3818,7 +3818,10 @@
 	dir = 8;
 	id_tag = "xenobio_cells"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/science,
+/obj/machinery/door/airlock/autoname/wolf/glass/science{
+	autoset_access = 0;
+	req_access = list("ACCESS_XENOBIO")
+	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/reinforced,
 /area/ship/wolf/science/xenobio)
@@ -5266,7 +5269,6 @@
 /area/ship/wolf/cargo/general)
 "lJ" = (
 /obj/structure/ladder,
-/obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/ladderwell)
@@ -5335,7 +5337,6 @@
 /area/ship/wolf/cargo/comissary)
 "lP" = (
 /obj/structure/ladder,
-/obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
@@ -5750,7 +5751,6 @@
 /area/ship/wolf/maintenance/deckone/aft)
 "mS" = (
 /obj/structure/ladder,
-/obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/starboard)
@@ -6066,7 +6066,7 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "bosunoffice"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/office/bosun)
 "nL" = (
 /obj/structure/disposalpipe/segment,
@@ -6226,7 +6226,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/bosun/bed)
 "oa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7963,7 +7963,6 @@
 /area/ship/wolf/shuttle/gnat/passenger)
 "sH" = (
 /obj/structure/ladder,
-/obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/camera/network/first_deck{
 	dir = 8
@@ -8099,7 +8098,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/ship/wolf/shuttle/gnat/passenger)
 "sZ" = (
-/obj/machinery/sleeper,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -8701,7 +8699,7 @@
 	id_tag = "tdbed"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/rd)
 "uy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -9350,6 +9348,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenoarch)
+"Dx" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckone/aft/port)
 "DD" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -9647,7 +9649,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/office/rd)
 "Jf" = (
 /obj/structure/extinguisher_cabinet{
@@ -10252,9 +10254,11 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenobio)
 "VP" = (
-/obj/machinery/door/airlock/hatch/maintenance,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
-/area/ship/wolf/maintenance/deckone/aft/starboard)
+/area/ship/wolf/maintenance/deckone/fore/starboard)
 "VT" = (
 /obj/machinery/light/small/red{
 	dir = 4
@@ -10433,6 +10437,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenobio)
+"Xf" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckone/aft/starboard)
 "Xh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
@@ -10464,6 +10472,10 @@
 /obj/machinery/door/airlock/autoname/wolf/engineering,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
+"Yd" = (
+/obj/machinery/sleeper,
+/turf/simulated/floor/tiled/white/monotile,
+/area/ship/wolf/shuttle/gnat/passenger)
 "YK" = (
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
@@ -16876,7 +16888,7 @@ QV
 kM
 lP
 eE
-eE
+Dx
 gt
 lv
 en
@@ -19106,7 +19118,7 @@ aa
 aa
 kW
 kW
-sG
+Yd
 ta
 tn
 kW
@@ -20170,7 +20182,7 @@ oI
 ob
 jh
 dh
-dn
+Xf
 mS
 jh
 Om
@@ -20280,7 +20292,7 @@ aa
 aK
 aU
 aY
-dn
+aU
 eh
 nb
 nN
@@ -20407,7 +20419,7 @@ aa
 io
 kQ
 aY
-dn
+aU
 fJ
 mk
 mk
@@ -20534,7 +20546,7 @@ aa
 io
 iE
 aY
-dn
+aU
 fJ
 oM
 nO
@@ -20661,7 +20673,7 @@ aa
 io
 iT
 aY
-dn
+aU
 fJ
 nx
 nP
@@ -20788,7 +20800,7 @@ aa
 aK
 io
 aK
-dn
+aU
 fJ
 nJ
 nJ
@@ -20804,7 +20816,7 @@ ob
 ob
 ob
 jh
-VP
+on
 cO
 aa
 aa
@@ -20914,8 +20926,8 @@ aa
 aa
 aa
 aa
-cO
-fB
+aK
+VP
 on
 dn
 dn
@@ -21041,8 +21053,8 @@ aa
 aa
 aa
 aa
-cO
-cO
+aK
+aK
 cO
 fA
 fA
