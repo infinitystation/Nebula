@@ -29,6 +29,7 @@
 
 /obj/item/clothing/suit/storage/hooded/polychromic/on_update_icon()
 	..()
+	MakeHood()
 	hood.color = color
 	update_clothing_icon()
 	hood.update_clothing_icon()
