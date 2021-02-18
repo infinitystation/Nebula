@@ -1,5 +1,5 @@
 /decl/language/skrell
-	name = LANGUAGE_SKRELLIAN
+	name = "Skrellian"
 	desc = "A melodic and complex language spoken by the Skrell of Qerrbalak. Some of the notes are inaudible to humans."
 	speech_verb = "warbles"
 	ask_verb = "warbles"

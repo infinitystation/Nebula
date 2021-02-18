@@ -26,7 +26,7 @@
 	#include "../../infinity/mods/species/vatgrown/_vatgrown.dme"
 	#include "../../infinity/mods/species/skrell/_skrell.dme"
 	#include "../../infinity/mods/species/tajaran/_tajaran.dme"
-	#include "../../infinity/mods/species/lizard/_lizard.dme"
+	#include "../../infinity/mods/species/unathi/_unathi.dme"
 // INFINITY MODS END
 
 // EPN5 MODS START

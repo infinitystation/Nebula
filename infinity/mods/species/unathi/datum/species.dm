@@ -1,15 +1,15 @@
-/decl/species/lizard
-	name = SPECIES_LIZARD
-	name_plural = SPECIES_LIZARD
+/decl/species/unathi
+	name = SPECIES_UNATHI
+	name_plural = SPECIES_UNATHI
 
 	bodytype = BODYTYPE_HUMANOID
 
-	icobase = 'infinity/mods/species/lizard/icons/body.dmi'
-	deform =  'infinity/mods/species/lizard/icons/deformed_body.dmi'
+	icobase = 'infinity/mods/species/unathi/icons/body.dmi'
+	deform =  'infinity/mods/species/unathi/icons/deformed_body.dmi'
 	bandages_icon = 'icons/mob/bandage.dmi'
-	husk_icon = 'infinity/mods/species/lizard/icons/husk.dmi'
-	preview_icon = 'infinity/mods/species/lizard/icons/preview.dmi'
-	tail_animation = 'infinity/mods/species/lizard/icons/tail.dmi'
+	husk_icon = 'infinity/mods/species/unathi/icons/husk.dmi'
+	preview_icon = 'infinity/mods/species/unathi/icons/preview.dmi'
+	tail_animation = 'infinity/mods/species/unathi/icons/tail.dmi'
 	tail = "sogtail"
 
 	limb_blend = ICON_MULTIPLY
@@ -60,10 +60,10 @@
 
 	flesh_color = "#34af10"
 
-	reagent_tag = IS_LIZARD
+	reagent_tag = IS_UNATHI
 	base_color = "#066000"
 	blood_color = "#f24b2e"
-	organs_icon = 'infinity/mods/species/lizard/icons/organs.dmi'
+	organs_icon = 'infinity/mods/species/unathi/icons/organs.dmi'
 
 	move_trail = /obj/effect/decal/cleanable/blood/tracks/claw
 
@@ -81,11 +81,11 @@
 		"Your scales bristle against the cold."
 		)
 
-	breathing_sound = 'infinity/mods/species/lizard/sound/lizard_breathing.ogg'
+	breathing_sound = 'infinity/mods/species/unathi/sound/lizard_breathing.ogg'
 
 	override_organ_types = list(
-		BP_EYES = /obj/item/organ/internal/eyes/lizard,
-		BP_BRAIN = /obj/item/organ/internal/brain/lizard
+		BP_EYES = /obj/item/organ/internal/eyes/unathi,
+		BP_BRAIN = /obj/item/organ/internal/brain/unathi
 	)
 
 	descriptors = list(
@@ -119,12 +119,12 @@
 		/decl/emote/exertion/biological/pant
 	)
 
-/decl/species/lizard/New()
+/decl/species/unathi/New()
 	..()
 	LAZYINITLIST(available_cultural_info)
-	LAZYDISTINCTADD(available_cultural_info[TAG_CULTURE], CULTURE_LIZARD)
-	LAZYSET(default_cultural_info, TAG_CULTURE, CULTURE_LIZARD)
+	LAZYDISTINCTADD(available_cultural_info[TAG_CULTURE], /decl/cultural_info/culture/unathi)
+	LAZYSET(default_cultural_info, TAG_CULTURE, /decl/cultural_info/culture/unathi)
 
-/decl/species/lizard/equip_survival_gear(var/mob/living/carbon/human/H)
+/decl/species/unathi/equip_survival_gear(var/mob/living/carbon/human/H)
 	..()
 	H.equip_to_slot_or_del(new /obj/item/clothing/shoes/sandal(H), slot_shoes_str)

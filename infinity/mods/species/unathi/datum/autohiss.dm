@@ -1,4 +1,4 @@
-/decl/species/lizard
+/decl/species/unathi
 	autohiss_basic_map = list(
 			"s" = list("ss", "sss", "ssss"),
 
@@ -18,6 +18,3 @@
 			"ж" = list("ш", "шш", "шшш")
 
 		)
-	autohiss_exempt = list(
-		LANGUAGE_LIZARD
-	)

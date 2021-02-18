@@ -75,29 +75,29 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			CULTURE_SKRELL_QERR,
-			CULTURE_SKRELL_MALISH,
-			CULTURE_SKRELL_KANIN,
-			CULTURE_SKRELL_TALUM,
-			CULTURE_SKRELL_RASKINTA
+			/decl/cultural_info/culture/skrell,
+			/decl/cultural_info/culture/skrell/caste_malish,
+			/decl/cultural_info/culture/skrell/caste_kanin,
+			/decl/cultural_info/culture/skrell/caste_talum,
+			/decl/cultural_info/culture/skrell/caste_raskinta
 		),
 		TAG_HOMEWORLD = list(
-			HOME_SYSTEM_QERRBALAK,
-			HOME_SYSTEM_TALAMIRA,
-			HOME_SYSTEM_ROASORA,
-			HOME_SYSTEM_MITORQI,
-			HOME_SYSTEM_SKRELLSPACE
+			/decl/cultural_info/location/qerrbalak,
+			/decl/cultural_info/location/talamira,
+			/decl/cultural_info/location/roasora,
+			/decl/cultural_info/location/mitorqi,
+			/decl/cultural_info/location/skrellspace
 		),
 		TAG_FACTION = list(
-			FACTION_SKRELL_QERRVOAL,
-			FACTION_SKRELL_QALAOA,
-			FACTION_SKRELL_YIITALANA,
-			FACTION_SKRELL_KRRIGLI,
-			FACTION_SKRELL_QONPRRI,
-			FACTION_OTHER
+			/decl/cultural_info/faction/skrell,
+			/decl/cultural_info/faction/skrell/qalaoa,
+			/decl/cultural_info/faction/skrell/yiitalana,
+			/decl/cultural_info/faction/skrell/krrigli,
+			/decl/cultural_info/faction/skrell/qonprri,
+			/decl/cultural_info/faction/other
 		),
 		TAG_RELIGION = list(
-			RELIGION_OTHER
+			/decl/cultural_info/religion/other
 		)
 	)
 
