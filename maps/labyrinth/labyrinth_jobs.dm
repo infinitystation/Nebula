@@ -18,7 +18,7 @@
 /datum/map/labyrinth
 	species_to_job_blacklist = list(
 		/decl/species/resomi = list(HUMAN_ONLY_JOBS),
-		/decl/species/lizard = list(HUMAN_ONLY_JOBS),
+		/decl/species/unathi = list(HUMAN_ONLY_JOBS),
 		/decl/species/tajaran = list(HUMAN_ONLY_JOBS),
 		/decl/species/utility_frame = list(HUMAN_ONLY_JOBS)
 	)

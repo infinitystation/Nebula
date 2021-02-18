@@ -1,5 +1,5 @@
-/decl/language/lizard
-	name = LANGUAGE_LIZARD
+/decl/language/unathi
+	name = "Sinta'unathi"
 	desc = "The common language of Lizards, composed of sibilant hisses and rattles. Hiss!"
 	speech_verb = "hisses"
 	ask_verb = "hisses"
@@ -17,4 +17,4 @@
 		"ra", "ar", "re", "er", "ri", "ir", "ro", "or", "ru", "ur", "rs", "sr",
 		"a",  "a",  "e",  "e",  "i",  "i",  "o",  "o",  "u",  "u",  "s",  "s"
 	)
-	shorthand = "L"
+	shorthand = "UT"

@@ -45,7 +45,7 @@
 		/decl/species/tajaran = list(
 			COMMAND_JOBS
 		),
-		/decl/species/lizard = list(
+		/decl/species/unathi = list(
 			HEAD_JOBS,
 			COMMAND_JOBS,
 			SECURITY_JOBS

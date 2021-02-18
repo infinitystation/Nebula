@@ -1,9 +1,9 @@
 /datum/sprite_accessory/hair/lizard
 	name = "Demon Horns"
-	icon = 'infinity/mods/species/lizard/icons/hair.dmi'
+	icon = 'infinity/mods/species/unathi/icons/hair.dmi'
 	icon_state = "demon_horn"
 	blend = ICON_MULTIPLY
-	species_allowed = list(SPECIES_LIZARD)
+	species_allowed = list(SPECIES_UNATHI)
 
 /datum/sprite_accessory/hair/lizard/spines_long
 	name = "Long Lizard Spines"
@@ -44,14 +44,14 @@
 /datum/sprite_accessory/skin/lizard
 	name = "Default Lizard skin"
 	icon_state = "default"
-	icon = 'infinity/mods/species/lizard/icons/body.dmi'
-	species_allowed = list(SPECIES_LIZARD)
+	icon = 'infinity/mods/species/unathi/icons/body.dmi'
+	species_allowed = list(SPECIES_UNATHI)
 
 //// Lizard Tatoos
 
 /datum/sprite_accessory/marking/lizard
-	icon = 'infinity/mods/species/lizard/icons/default_markings.dmi'
-	species_allowed = list(SPECIES_LIZARD)
+	icon = 'infinity/mods/species/unathi/icons/default_markings.dmi'
+	species_allowed = list(SPECIES_UNATHI)
 
 
 /datum/sprite_accessory/marking/lizard/plating_female_full

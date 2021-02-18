@@ -20,7 +20,7 @@
 	#include "../../infinity/mods/species/resomi/_resomi.dme"
 	#include "../../infinity/mods/species/vatgrown/_vatgrown.dme"
 	#include "../../infinity/mods/species/tajaran/_tajaran.dme"
-	#include "../../infinity/mods/species/lizard/_lizard.dme"
+	#include "../../infinity/mods/species/unathi/_unathi.dme"
 // INFINITY MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
