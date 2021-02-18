@@ -89,29 +89,29 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			CULTURE_RESOMI_REFUGEE,
-			CULTURE_RESOMI_NEWGENERATION,
-			CULTURE_RESOMI_EREMUS,
-			CULTURE_RESOMI_ASRANDA,
-			CULTURE_RESOMI_LOSTCOLONYRICH,
-			CULTURE_RESOMI_LOSTCOLONYPOOR,
+			/decl/cultural_info/culture/resomi/eremus,
+			/decl/cultural_info/culture/resomi/asranda,
+			/decl/cultural_info/culture/resomi/refugee,
+			/decl/cultural_info/culture/resomi/newgeneration,
+			/decl/cultural_info/culture/resomi/lost_colony_rich,
+			/decl/cultural_info/culture/resomi/lost_colony_poor,
 			/decl/cultural_info/culture/other
 		),
 		TAG_HOMEWORLD = list(
-			HOME_SYSTEM_RESOMI_BIRDCAGE,
-			HOME_SYSTEM_RESOMI_EREMUS,
-			HOME_SYSTEM_RESOMI_ASRANDA,
-			HOME_SYSTEM_RESOMI_REFUGEE_COLONY,
-			HOME_SYSTEM_RESOMI_LOST_COLONY,
-			HOME_SYSTEM_RESOMI_HOMELESS,
-			HOME_SYSTEM_RESOMI_SAVEEL,
+			/decl/cultural_info/location/birdcage,
+			/decl/cultural_info/location/eremus,
+			/decl/cultural_info/location/asranda,
+			/decl/cultural_info/location/saveel,
+			/decl/cultural_info/location/resomi_lost_colony,
+			/decl/cultural_info/location/resomi_refuge_colony,
+			/decl/cultural_info/location/resomi_homeless,
 			/decl/cultural_info/location/other
 		),
 		TAG_RELIGION =  list(
-			RELIGION_RESOMI_CHOSEN,
-			RELIGION_RESOMI_EMPEROR,
-			RELIGION_RESOMI_SKIES,
-			RELIGION_RESOMI_MOUNTAIN,
+			/decl/cultural_info/religion/chosen,
+			/decl/cultural_info/religion/emperor,
+			/decl/cultural_info/religion/mountain,
+			/decl/cultural_info/religion/skies,
 			/decl/cultural_info/religion/other
 		)
 	)
