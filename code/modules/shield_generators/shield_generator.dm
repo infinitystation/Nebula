@@ -74,23 +74,7 @@
 	update_overmap_shield_list()
 
 /obj/machinery/power/shield_generator/proc/update_overmap_shield_list()
-
-	var/list/check_sectors =   map_sectors["[z]"] ? list(map_sectors["[z]"]) : list()
-	var/list/checked_sectors = list()
-	var/obj/effect/overmap/visitable/current_overmap_object
-
-	while(length(check_sectors))
-		var/obj/effect/overmap/visitable/sector = check_sectors[1]
-		if(sector.check_ownership(src))
-			current_overmap_object = sector
-			break
-
-		check_sectors -= sector
-		checked_sectors += sector
-		for(var/obj/effect/overmap/visitable/next_sector in sector)
-			if(!(next_sector in checked_sectors))
-				check_sectors |= next_sector
-
+	var/obj/effect/overmap/visitable/current_overmap_object = get_owning_overmap_object()
 	if(current_overmap_object != last_linked_overmap_object)
 		if(last_linked_overmap_object)
 			LAZYREMOVE(last_linked_overmap_object.shield_generators, src)
