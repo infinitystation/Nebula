@@ -20,6 +20,7 @@
 // INFINITY MODS START
 	#include "../../infinity/mods/content/infinity/_infinity.dme"
 	#include "../../infinity/mods/content/infinity_lore/_infinity_lore.dme"
+	#include "../../infinity/mods/content/interaction/_interaction.dme"
 
 	#include "../../infinity/mods/species/booster/_booster.dme"
 	#include "../../infinity/mods/species/resomi/_resomi.dme"

@@ -1,0 +1,8 @@
+#ifndef MODPACK_INTERACTION
+#define MODPACK_INTERACTION
+#include "_interaction.dm"
+#include "clothing.dm"
+#include "human.dm"
+#include "interaction.dm"
+#include "interaction_types.dm"
+#endif
