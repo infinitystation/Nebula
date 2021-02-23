@@ -14802,7 +14802,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/gateway)
 "aCP" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee{
+	dir = 4
+	},
 /obj/machinery/camera/network/civilian_west{
 	c_tag = "Gateway Arrival Area";
 	dir = 4
@@ -16750,7 +16752,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/secondary/exit)
 "aGl" = (
-/obj/machinery/vending/cola,
+/obj/machinery/vending/cola{
+	dir = 4
+	},
 /obj/item/radio/intercom{
 	dir = 4;
 	pixel_x = -22
@@ -40852,6 +40856,7 @@
 /area/storage/emergency)
 "bBe" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_engineering)
 "bBf" = (
@@ -67647,6 +67652,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_engineering)
 "cKY" = (
@@ -67786,6 +67792,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_engineering)
 "cLu" = (
@@ -68408,6 +68415,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_engineering)
 "gyJ" = (
@@ -68813,6 +68821,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_engineering)
 "mVl" = (

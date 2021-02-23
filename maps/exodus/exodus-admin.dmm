@@ -97,7 +97,6 @@
 "abi" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	id_tag = "escape_shuttle";
-	pixel_x = 0;
 	pixel_y = -25;
 	tag_door = "escape_shuttle_hatch"
 	},
@@ -152,7 +151,6 @@
 "acf" = (
 /obj/structure/table/standard,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "carpet"
 	},
 /area/centcom/living)
@@ -185,8 +183,7 @@
 "acl" = (
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/escape)
@@ -402,7 +399,6 @@
 /area/shuttle/escape)
 "avL" = (
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "carpet"
 	},
 /area/centcom/living)
@@ -423,7 +419,6 @@
 "avY" = (
 /obj/structure/closet/secure_closet/personal,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "carpet"
 	},
 /area/centcom/living)
@@ -440,32 +435,26 @@
 /obj/structure/bed,
 /obj/item/bedsheet,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "carpet"
 	},
 /area/centcom/living)
 "awk" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Living Quarters";
-	opacity = 1
+	name = "Living Quarters"
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "dark"
 	},
 /area/centcom/living)
 "awl" = (
-/turf/unsimulated/floor{
-	dir = 2;
-	icon_state = "dark"
-	},
-/area/centcom/living)
+/obj/effect/shuttle_landmark/escape_pod/out/pod2,
+/turf/space,
+/area/space)
 "awm" = (
 /obj/machinery/atm{
 	pixel_y = 30
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "dark"
 	},
 /area/centcom/living)
@@ -474,7 +463,6 @@
 	pixel_y = 8
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "dark"
 	},
 /area/centcom/living)
@@ -498,22 +486,19 @@
 "awq" = (
 /obj/machinery/vending/cola,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "dark"
 	},
 /area/centcom/living)
 "awr" = (
 /obj/machinery/vending/cigarette,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "dark"
 	},
 /area/centcom/living)
 "aws" = (
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/supply)
@@ -543,7 +528,6 @@
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	id_tag = "supply_shuttle";
 	pixel_x = 25;
-	pixel_y = 0;
 	tag_door = "supply_shuttle_hatch"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -565,45 +549,37 @@
 	},
 /area/centcom/living)
 "awN" = (
-/obj/structure/closet/secure_closet/bar{
-	req_access = list("ACCESS_BAR")
-	},
+/obj/structure/closet/secure_closet/bar,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
 "awO" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
 "awP" = (
 /obj/machinery/vending/boozeomat,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
 "awQ" = (
 /obj/structure/kitchenspike,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "freezerfloor"
 	},
 /area/centcom/living)
 "awR" = (
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "freezerfloor"
 	},
 /area/centcom/living)
 "awS" = (
 /obj/machinery/gibber,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "freezerfloor"
 	},
 /area/centcom/living)
@@ -618,14 +594,12 @@
 /area/centcom/living)
 "awU" = (
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
 "awW" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "freezerfloor"
 	},
 /area/centcom/living)
@@ -635,7 +609,6 @@
 	pixel_x = -5
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "freezerfloor"
 	},
 /area/centcom/living)
@@ -651,7 +624,6 @@
 /area/centcom/suppy)
 "awZ" = (
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "dark"
 	},
 /area/centcom/suppy)
@@ -659,34 +631,28 @@
 /obj/structure/table/standard,
 /obj/item/chems/food/drinks/shaker,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
 "axb" = (
 /obj/structure/table/standard,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
 "axc" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Living Quarters";
-	opacity = 1
+	name = "Living Quarters"
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "freezerfloor"
 	},
 /area/centcom/living)
 "axd" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Commander Quarters";
-	opacity = 1
+	name = "Commander Quarters"
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "dark"
 	},
 /area/centcom/living)
@@ -702,7 +668,6 @@
 	pixel_y = 8
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
@@ -717,7 +682,6 @@
 	dir = 8
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
@@ -754,7 +718,6 @@
 	},
 /obj/item/kitchen/rollingpin,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
@@ -769,7 +732,6 @@
 /obj/structure/bed,
 /obj/item/bedsheet,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
@@ -784,7 +746,6 @@
 "axr" = (
 /obj/machinery/vending/dinnerware,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
@@ -793,7 +754,6 @@
 /obj/item/chems/glass/beaker,
 /obj/item/chems/food/condiment/enzyme,
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
@@ -804,7 +764,6 @@
 	pixel_y = 6
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "white"
 	},
 /area/centcom/living)
@@ -834,8 +793,7 @@
 /area/centcom/living)
 "axA" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Living Quarters";
-	opacity = 1
+	name = "Living Quarters"
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
@@ -1042,10 +1000,7 @@
 	},
 /area/centcom/control)
 "ayg" = (
-/obj/machinery/computer/teleporter{
-	dir = 2;
-	icon_state = "computer"
-	},
+/obj/machinery/computer/teleporter,
 /turf/unsimulated/floor{
 	icon_state = "steel"
 	},
@@ -1069,7 +1024,6 @@
 /area/centcom/control)
 "ayk" = (
 /obj/machinery/door/blast/regular{
-	icon_state = "pdoor1";
 	id_tag = "ASSAULT";
 	name = "Assault Weapon Storage"
 	},
@@ -1139,8 +1093,7 @@
 /area/centcom/creed)
 "ays" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Creed's Office";
-	opacity = 1
+	name = "Creed's Office"
 	},
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -1153,8 +1106,7 @@
 /area/centcom/control)
 "ayu" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Maintenance Access";
-	opacity = 1
+	name = "Maintenance Access"
 	},
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -1180,7 +1132,6 @@
 /area/centcom/specops)
 "ayO" = (
 /obj/item/radio/intercom/specops{
-	dir = 2;
 	pixel_y = 22
 	},
 /turf/unsimulated/floor{
@@ -1196,7 +1147,6 @@
 /area/centcom/specops)
 "ayQ" = (
 /obj/machinery/door/blast/regular{
-	icon_state = "pdoor1";
 	id_tag = "ASSAULT";
 	name = "Assault Armor Storage"
 	},
@@ -1230,9 +1180,7 @@
 /obj/structure/table/woodentable{
 	dir = 5
 	},
-/obj/item/radio/intercom/specops{
-	dir = 2
-	},
+/obj/item/radio/intercom/specops,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
@@ -1397,8 +1345,7 @@
 /area/centcom/specops)
 "azZ" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Maintenance Access";
-	opacity = 1
+	name = "Maintenance Access"
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
@@ -1417,8 +1364,7 @@
 /area/centcom/control)
 "aAm" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Teleporter Bay";
-	opacity = 1
+	name = "Teleporter Bay"
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
@@ -1821,8 +1767,7 @@
 /area/centcom/specops)
 "aBy" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Special Operations";
-	opacity = 1
+	name = "Special Operations"
 	},
 /turf/unsimulated/floor{
 	dir = 8;
@@ -1848,7 +1793,6 @@
 /area/centcom/control)
 "aBB" = (
 /obj/item/radio/intercom/specops{
-	dir = 2;
 	pixel_y = 22
 	},
 /obj/structure/decoy{
@@ -1952,7 +1896,6 @@
 /area/centcom/control)
 "aCj" = (
 /obj/machinery/door/window{
-	dir = 2;
 	name = "AI Core Door"
 	},
 /turf/unsimulated/floor{
@@ -2016,8 +1959,7 @@
 /area/centcom/specops)
 "aCo" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Armory Special Operations";
-	opacity = 1
+	name = "Armory Special Operations"
 	},
 /turf/unsimulated/floor{
 	dir = 8;
@@ -2026,8 +1968,7 @@
 /area/centcom/specops)
 "aCp" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Engineering Special Operations";
-	opacity = 1
+	name = "Engineering Special Operations"
 	},
 /turf/unsimulated/floor{
 	dir = 8;
@@ -2036,7 +1977,6 @@
 /area/centcom/specops)
 "aCq" = (
 /obj/machinery/door/blast/regular{
-	icon_state = "pdoor1";
 	id_tag = "CREED";
 	name = "Ready Room"
 	},
@@ -2053,12 +1993,10 @@
 /area/centcom/specops)
 "aCs" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Special Operations";
-	opacity = 1
+	name = "Special Operations"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/blast/regular{
-	icon_state = "pdoor1";
 	id_tag = "CREED";
 	name = "Ready Room"
 	},
@@ -2076,8 +2014,7 @@
 /area/centcom/control)
 "aCu" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Bridge";
-	opacity = 1
+	name = "Bridge"
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
@@ -2121,8 +2058,7 @@
 /area/centcom/specops)
 "aCA" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Special Operations Command";
-	opacity = 1
+	name = "Special Operations Command"
 	},
 /turf/unsimulated/floor{
 	dir = 8;
@@ -2149,7 +2085,6 @@
 /area/centcom/specops)
 "aCR" = (
 /obj/item/radio/intercom/specops{
-	dir = 2;
 	pixel_y = 22
 	},
 /turf/unsimulated/floor{
@@ -2198,8 +2133,7 @@
 /area/centcom/control)
 "aCW" = (
 /obj/machinery/computer/robotics{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
@@ -2345,8 +2279,7 @@
 /area/centcom/control)
 "aDS" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Medical Special Operations";
-	opacity = 1
+	name = "Medical Special Operations"
 	},
 /turf/unsimulated/floor{
 	dir = 8;
@@ -2530,9 +2463,7 @@
 "aEC" = (
 /obj/structure/hygiene/sink{
 	dir = 4;
-	icon_state = "sink";
-	pixel_x = 11;
-	pixel_y = 0
+	pixel_x = 11
 	},
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -2647,8 +2578,7 @@
 /area/centcom/specops)
 "aEZ" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Holding Cell";
-	opacity = 1
+	name = "Holding Cell"
 	},
 /obj/machinery/door/blast/regular{
 	id_tag = "crescent_checkpoint_access";
@@ -2723,7 +2653,6 @@
 /obj/item/bonesetter,
 /obj/item/scalpel,
 /obj/item/retractor{
-	pixel_x = 0;
 	pixel_y = 6
 	},
 /obj/item/hemostat{
@@ -2850,8 +2779,7 @@
 /area/centcom/holding)
 "aGb" = (
 /obj/machinery/door/airlock/centcom{
-	name = "General Access";
-	opacity = 1
+	name = "General Access"
 	},
 /obj/machinery/door/blast/regular{
 	id_tag = "crescent_checkpoint_access";
@@ -2863,8 +2791,7 @@
 /area/centcom/control)
 "aGc" = (
 /obj/machinery/vending/cola{
-	markup = 0;
-	name = "Robust Softdrinks"
+	markup = 0
 	},
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -2960,7 +2887,8 @@
 /turf/simulated/wall/titanium,
 /area/shuttle/escape)
 "aGD" = (
-/obj/effect/wallframe_spawn,
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced/titanium,
 /turf/simulated/floor/plating,
 /area/shuttle/escape)
 "aGE" = (
@@ -2992,8 +2920,7 @@
 /area/shuttle/escape)
 "aGO" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Special Operations Boarding Pod";
-	opacity = 1
+	name = "Special Operations Boarding Pod"
 	},
 /turf/unsimulated/floor{
 	dir = 8;
@@ -3036,8 +2963,7 @@
 /area/centcom/holding)
 "aGT" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Arrivals Processing";
-	opacity = 1
+	name = "Arrivals Processing"
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
@@ -3059,9 +2985,7 @@
 /turf/simulated/floor/shuttle/red,
 /area/shuttle/escape)
 "aHe" = (
-/obj/machinery/status_display{
-	pixel_y = 0
-	},
+/obj/machinery/status_display,
 /turf/simulated/wall/titanium,
 /area/shuttle/escape)
 "aHg" = (
@@ -3135,8 +3059,7 @@
 /area/shuttle/escape)
 "aHr" = (
 /obj/structure/bed/chair/wood/wings{
-	dir = 4;
-	icon_state = "wooden_chair_wings"
+	dir = 4
 	},
 /turf/unsimulated/floor{
 	icon_state = "wood"
@@ -3148,10 +3071,7 @@
 	pixel_x = 3;
 	pixel_y = 4
 	},
-/obj/item/storage/box/masks{
-	pixel_x = 0;
-	pixel_y = 0
-	},
+/obj/item/storage/box/masks,
 /turf/unsimulated/floor{
 	icon_state = "white"
 	},
@@ -3163,7 +3083,6 @@
 "aHu" = (
 /obj/machinery/vending/wallmed1{
 	name = "Emergency NanoMed";
-	pixel_x = 0;
 	pixel_y = -32
 	},
 /turf/unsimulated/floor{
@@ -3222,6 +3141,7 @@
 /area/centcom/holding)
 "aHH" = (
 /obj/machinery/door/airlock/glass/medical{
+	autoset_access = 0;
 	name = "Arrivals Medbay"
 	},
 /turf/unsimulated/floor{
@@ -3309,7 +3229,6 @@
 	pixel_x = 28
 	},
 /obj/machinery/computer/cryopod{
-	density = 0;
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -3467,8 +3386,7 @@
 /area/centcom/ferry)
 "aJo" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Cell";
-	opacity = 1
+	name = "Cell"
 	},
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -3490,7 +3408,6 @@
 "aJv" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "escape_shuttle_hatch";
-	locked = 1;
 	name = "Shuttle Hatch"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -3554,8 +3471,7 @@
 	},
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
+	icon_state = "tube1"
 	},
 /obj/item/radio/intercom{
 	dir = 4;
@@ -3611,6 +3527,7 @@
 /area/centcom/holding)
 "aKu" = (
 /obj/machinery/door/airlock/glass{
+	autoset_access = 0;
 	name = "Arrivals Processing"
 	},
 /turf/unsimulated/floor{
@@ -3807,6 +3724,7 @@
 /area/acting/backstage)
 "aLl" = (
 /obj/machinery/door/airlock/glass{
+	autoset_access = 0;
 	name = "Arrivals Bar"
 	},
 /turf/unsimulated/floor{
@@ -4003,8 +3921,7 @@
 /area/acting/backstage)
 "aLJ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 8;
-	icon_state = "map"
+	dir = 8
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
@@ -4062,8 +3979,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 4;
-	icon_state = "map"
+	dir = 4
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
@@ -4194,8 +4110,7 @@
 /area/acting/backstage)
 "aMA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 5;
-	icon_state = "intact"
+	dir = 5
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
@@ -4297,8 +4212,7 @@
 /area/centcom/holding)
 "aMT" = (
 /obj/structure/bed/chair/wood/wings{
-	dir = 8;
-	icon_state = "wooden_chair_wings"
+	dir = 8
 	},
 /turf/unsimulated/floor{
 	icon_state = "wood"
@@ -4390,9 +4304,7 @@
 	},
 /area/centcom/holding)
 "aNk" = (
-/obj/structure/closet/secure_closet/bar{
-	req_access = list("ACCESS_BAR")
-	},
+/obj/structure/closet/secure_closet/bar,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
@@ -4429,8 +4341,7 @@
 	},
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
+	icon_state = "tube1"
 	},
 /obj/structure/bed/chair/shuttle/black{
 	dir = 4
@@ -4549,8 +4460,7 @@
 /area/shuttle/escape)
 "aNR" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Thunderdome";
-	opacity = 1
+	name = "Thunderdome"
 	},
 /obj/machinery/door/blast/regular{
 	id_tag = "crescent_thunderdome";
@@ -4616,8 +4526,7 @@
 /area/shuttle/escape)
 "aPH" = (
 /obj/structure/closet/hydrant{
-	pixel_x = 30;
-	pixel_y = 0
+	pixel_x = 30
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/shuttle/escape)
@@ -4658,10 +4567,7 @@
 	pixel_x = 4;
 	pixel_y = 6
 	},
-/obj/item/storage/box/masks{
-	pixel_x = 0;
-	pixel_y = 0
-	},
+/obj/item/storage/box/masks,
 /obj/item/storage/box/gloves{
 	pixel_x = 3;
 	pixel_y = 4
@@ -4679,8 +4585,7 @@
 /area/shuttle/escape)
 "aPO" = (
 /obj/structure/closet/hydrant{
-	pixel_x = -30;
-	pixel_y = 0
+	pixel_x = -30
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/shuttle/escape)
@@ -4754,8 +4659,7 @@
 "bkb" = (
 /obj/machinery/vending/wallmed1{
 	name = "Emergency NanoMed";
-	pixel_x = 28;
-	pixel_y = 0
+	pixel_x = 28
 	},
 /obj/structure/bed/chair/shuttle/black{
 	dir = 8
@@ -4766,8 +4670,7 @@
 /obj/machinery/recharge_station,
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/shuttle/escape)
@@ -4783,8 +4686,7 @@
 "bnb" = (
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
+	icon_state = "tube1"
 	},
 /obj/structure/iv_drip,
 /turf/simulated/floor/tiled/white/monotile,
@@ -4883,8 +4785,7 @@
 /area/tdome)
 "dzr" = (
 /obj/machinery/door/airlock/centcom{
-	name = "General Access";
-	opacity = 1
+	name = "General Access"
 	},
 /obj/machinery/door/blast/regular{
 	id_tag = "crescent_thunderdome";
@@ -5136,7 +5037,6 @@
 	tag_door = "cargo_bay_centcom_hatch"
 	},
 /turf/unsimulated/floor{
-	dir = 2;
 	icon_state = "dark"
 	},
 /area/centcom/suppy)
@@ -5179,8 +5079,7 @@
 /area/tdome)
 "hYN" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 5;
-	icon_state = "intact"
+	dir = 5
 	},
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -5217,15 +5116,13 @@
 	},
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "supply_shuttle_hatch";
-	locked = 1;
 	name = "Shuttle Hatch"
 	},
 /turf/simulated/floor,
 /area/supply)
 "jpr" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 9;
-	icon_state = "intact"
+	dir = 9
 	},
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -5277,8 +5174,7 @@
 /area/tdome)
 "kca" = (
 /obj/machinery/door/airlock/centcom{
-	name = "General Access";
-	opacity = 1
+	name = "General Access"
 	},
 /turf/unsimulated/floor{
 	dir = 5;
@@ -5418,7 +5314,6 @@
 "myI" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "supply_shuttle_hatch";
-	locked = 1;
 	name = "Shuttle Hatch"
 	},
 /turf/simulated/floor,
@@ -5432,6 +5327,10 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"mZU" = (
+/obj/effect/shuttle_landmark/escape_pod/out/pod3,
+/turf/space,
+/area/space)
 "nsJ" = (
 /turf/unsimulated/floor{
 	icon_state = "lino"
@@ -5439,8 +5338,7 @@
 /area/tdome/tdomeobserve)
 "nBg" = (
 /obj/machinery/door/airlock/centcom{
-	name = "General Access";
-	opacity = 1
+	name = "General Access"
 	},
 /turf/unsimulated/floor{
 	icon_state = "lino"
@@ -5471,6 +5369,10 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"nSv" = (
+/obj/effect/shuttle_landmark/escape_pod/out/pod1,
+/turf/space,
+/area/space)
 "nZT" = (
 /obj/machinery/button/blast_door{
 	dir = 1;
@@ -5595,7 +5497,6 @@
 	},
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "supply_shuttle_hatch";
-	locked = 1;
 	name = "Shuttle Hatch"
 	},
 /turf/simulated/floor,
@@ -5613,6 +5514,10 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"sMD" = (
+/obj/effect/shuttle_landmark/escape_pod/out/pod4,
+/turf/space,
+/area/space)
 "tda" = (
 /obj/structure/bed/chair,
 /turf/unsimulated/floor{
@@ -17641,8 +17546,8 @@ aad
 aad
 aad
 aad
-awl
-awl
+axG
+axG
 aad
 aad
 aad
@@ -17843,8 +17748,8 @@ aad
 acf
 awj
 aad
-awl
-awl
+axG
+axG
 aad
 acf
 awj
@@ -18045,8 +17950,8 @@ aad
 avL
 avL
 aad
-awl
-awl
+axG
+axG
 aad
 avL
 avL
@@ -18247,8 +18152,8 @@ aad
 avY
 avL
 aad
-awl
-awl
+axG
+axG
 aad
 avY
 avL
@@ -18449,8 +18354,8 @@ aad
 aad
 awk
 aad
-awl
-awl
+axG
+axG
 aad
 aad
 awk
@@ -18649,13 +18554,13 @@ aab
 aab
 aab
 aad
-awl
-awl
-awl
-awl
-awl
-awl
-awl
+axG
+axG
+axG
+axG
+axG
+axG
+axG
 aad
 axk
 axl
@@ -18852,12 +18757,12 @@ aab
 aab
 aad
 awm
-awl
-awl
-awl
-awl
-awl
-awl
+axG
+axG
+axG
+axG
+axG
+axG
 aad
 axl
 axl
@@ -18898,7 +18803,7 @@ aKq
 aKq
 aKq
 aKq
-aGa
+aKq
 wkp
 wkp
 wkp
@@ -19055,11 +18960,11 @@ aab
 aad
 awn
 awn
-awl
-awl
+axG
+axG
 awn
 awn
-awl
+axG
 axd
 axl
 axl
@@ -19257,11 +19162,11 @@ aab
 aad
 awo
 awv
-awl
-awl
+axG
+axG
 awv
 awv
-awl
+axG
 aad
 axl
 axl
@@ -19459,11 +19364,11 @@ aab
 avZ
 awp
 aww
-awl
-awl
+axG
+axG
 awp
 awT
-awl
+axG
 aad
 axm
 axq
@@ -19661,11 +19566,11 @@ aab
 avZ
 awn
 awn
-awl
-awl
+axG
+axG
 awn
 awn
-awl
+axG
 aad
 aad
 aad
@@ -19861,17 +19766,17 @@ aab
 aab
 aab
 avZ
-awl
-awl
-awl
-awl
-awl
-awl
-awl
-awl
-awl
-awl
-awl
+axG
+axG
+axG
+axG
+axG
+axG
+axG
+axG
+axG
+axG
+axG
 aad
 axG
 axG
@@ -20064,16 +19969,16 @@ aab
 aab
 avZ
 awq
-awl
-awl
+axG
+axG
 awD
 awL
 awD
-awl
-awl
-awl
-awl
-awl
+axG
+axG
+axG
+axG
+axG
 axA
 axH
 axH
@@ -20266,16 +20171,16 @@ aab
 aab
 aad
 awr
-awl
-awl
+axG
+axG
 awD
 awM
 awD
-awl
-awl
-awl
-awl
-awl
+axG
+axG
+axG
+axG
+axG
 aad
 axG
 axG
@@ -20475,7 +20380,7 @@ aad
 aad
 aad
 axe
-awl
+axG
 axe
 aad
 aad
@@ -20919,7 +20824,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aab
@@ -21117,11 +21022,11 @@ aLz
 aFM
 aNB
 aGa
+ach
 aab
 aab
 aab
-aab
-aab
+ach
 aab
 aab
 aab
@@ -21323,7 +21228,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aab
@@ -21525,7 +21430,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aab
@@ -21723,11 +21628,11 @@ aMp
 acj
 acm
 aGa
+ach
 aab
 aab
 aab
-aab
-aab
+ach
 aab
 aab
 aab
@@ -21907,7 +21812,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aGa
@@ -21929,7 +21834,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aab
@@ -22109,7 +22014,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aab
@@ -22131,7 +22036,7 @@ ach
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aab
@@ -22311,7 +22216,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aab
@@ -22333,7 +22238,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aab
@@ -22513,14 +22418,14 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+ach
+ach
+ach
+ach
+ach
+ach
+ach
+ach
 ach
 ghj
 aJu
@@ -22532,10 +22437,10 @@ aGR
 aNK
 ghj
 ach
-aab
-aab
-aab
-aab
+ach
+ach
+ach
+ach
 aab
 aab
 aab
@@ -22715,7 +22620,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aab
 aab
@@ -22917,7 +22822,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aab
 aGC
 aGD
@@ -23119,7 +23024,7 @@ aab
 aab
 aab
 aab
-aab
+ach
 aGC
 aGC
 aHz
@@ -39465,7 +39370,7 @@ aab
 aab
 aab
 aab
-aab
+nSv
 aab
 aab
 aab
@@ -40683,7 +40588,7 @@ aab
 aab
 aab
 aab
-aab
+mZU
 aab
 aab
 aab
@@ -41887,7 +41792,7 @@ aab
 aab
 aab
 aab
-aab
+awl
 aab
 aab
 aab
@@ -43510,7 +43415,7 @@ aab
 aab
 aab
 aab
-aab
+sMD
 aab
 aab
 aab
