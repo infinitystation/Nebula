@@ -3,34 +3,18 @@
 /turf/space,
 /area/space)
 "ab" = (
-/obj/effect/shuttle_landmark/escape_pod/out/pod2,
-/turf/space,
-/area/space)
-"ac" = (
-/obj/effect/shuttle_landmark/escape_pod/out/pod1,
-/turf/space,
-/area/space)
-"ad" = (
-/obj/effect/shuttle_landmark/escape_pod/out/pod4,
-/turf/space,
-/area/space)
-"ae" = (
-/obj/effect/shuttle_landmark/escape_pod/out/pod3,
-/turf/space,
-/area/space)
-"af" = (
 /obj/effect/shuttle_landmark/escape_pod/transit/pod3,
 /turf/space,
 /area/space)
-"ag" = (
+"ac" = (
 /obj/effect/shuttle_landmark/escape_pod/transit/pod1,
 /turf/space,
 /area/space)
-"ah" = (
+"ad" = (
 /obj/effect/shuttle_landmark/escape_pod/transit/pod2,
 /turf/space,
 /area/space)
-"ai" = (
+"ae" = (
 /obj/effect/shuttle_landmark/escape_pod/transit/pod4,
 /turf/space,
 /area/space)
@@ -38,6 +22,7 @@
 /obj/effect/step_trigger/teleporter/random{
 	affect_ghosts = 1;
 	name = "escapeshuttle_leave";
+	opacity = 0;
 	teleport_x = 25;
 	teleport_x_offset = 245;
 	teleport_y = 25;
@@ -47,7 +32,6 @@
 	},
 /obj/effect/step_trigger/thrower{
 	affect_ghosts = 1;
-	direction = 2;
 	name = "thrower_throwdown";
 	tiles = 0
 	},
@@ -1094,7 +1078,6 @@ aa
 aa
 aa
 aa
-ac
 aa
 aa
 aa
@@ -1107,7 +1090,6 @@ aa
 aa
 aa
 aa
-af
 aa
 aa
 aa
@@ -1118,7 +1100,9 @@ aa
 aa
 aa
 aa
-ai
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2642,7 +2626,7 @@ aa
 aa
 aa
 aa
-ae
+aa
 aa
 aa
 aa
@@ -3430,7 +3414,7 @@ aa
 aa
 aa
 aa
-ah
+aa
 aa
 aa
 aa
@@ -4176,7 +4160,7 @@ aa
 aa
 aa
 aa
-ab
+aa
 aa
 aa
 aa
@@ -5225,7 +5209,7 @@ aa
 aa
 aa
 aa
-ag
+aa
 aa
 aa
 aa
@@ -6239,7 +6223,7 @@ aa
 aa
 aa
 aa
-ad
+aa
 aa
 aa
 aa
@@ -7556,6 +7540,7 @@ aa
 aa
 aa
 aa
+ab
 aa
 aa
 aa
@@ -7566,8 +7551,7 @@ aa
 aa
 aa
 aa
-aa
-aa
+ae
 aa
 aa
 aa
@@ -9879,7 +9863,7 @@ aa
 aa
 aa
 aa
-aa
+ad
 aa
 aa
 aa
@@ -11674,7 +11658,7 @@ aa
 aa
 aa
 aa
-aa
+ac
 aa
 aa
 aa
