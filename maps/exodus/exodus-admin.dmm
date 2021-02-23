@@ -225,12 +225,6 @@
 	name = "plating"
 	},
 /area/prison/solitary)
-"agk" = (
-/obj/structure/bed/chair/shuttle/black{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/shuttle/escape)
 "ala" = (
 /turf/exterior/wall,
 /area/space)
@@ -2915,7 +2909,10 @@
 	},
 /area/centcom/holding)
 "aGG" = (
-/obj/machinery/door/airlock/command,
+/obj/machinery/door/airlock/command{
+	autoset_access = 0;
+	req_access = list("ACCESS_BRIDGE")
+	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/escape)
 "aGO" = (
@@ -3234,7 +3231,10 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/escape)
 "aIh" = (
-/obj/machinery/door/airlock/security,
+/obj/machinery/door/airlock/security{
+	autoset_access = 0;
+	req_access = list("ACCESS_SECURITY")
+	},
 /turf/simulated/floor/shuttle/red,
 /area/shuttle/escape)
 "aIj" = (
@@ -23432,7 +23432,7 @@ aGD
 aar
 aaK
 aHz
-agk
+aIT
 aGC
 aGC
 aGD
@@ -24240,7 +24240,7 @@ aGD
 aar
 aaK
 aHz
-acE
+abg
 aGC
 aGC
 aGD
