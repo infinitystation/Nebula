@@ -57,6 +57,17 @@
 			/datum/job/chemist,
 			/datum/job/scientist, 
 			/datum/job/mining
+		),
+		/decl/species/serpentid = list(
+			/datum/job/ai, 
+			/datum/job/cyborg, 
+			/datum/job/assistant, 
+			/datum/job/janitor, 
+			/datum/job/chef, 
+			/datum/job/bartender, 
+			/datum/job/cargo_tech,
+			/datum/job/roboticist,
+			/datum/job/chemist
 		)
 	)
 

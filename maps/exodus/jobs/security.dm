@@ -187,7 +187,7 @@
 
 /datum/job/officer
 	title = "Security Officer"
-	department_types = list(/decl/department/command)
+	department_types = list(/decl/department/security)
 	total_positions = 4
 	spawn_positions = 4
 	supervisors = "the head of security"
