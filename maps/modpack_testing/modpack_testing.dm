@@ -23,7 +23,7 @@
 	#include "../../mods/species/vox/_vox.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
 
-// INFINITY MODS START
+// STARLIGHT MODS START
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
 	#include "../../starlight/mods/content/interpack/_interpack.dme"
 	#include "../../starlight/mods/content/europa_tileset/_europa_tileset.dme"
@@ -31,7 +31,7 @@
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/resomi/_resomi.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
-// INFINITY MODS END
+// STARLIGHT MODS END
 
 	#define USING_MAP_DATUM /datum/map/modpack_testing
 

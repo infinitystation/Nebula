@@ -17,13 +17,13 @@
 	#include "../../mods/species/adherent/_adherent.dme"
 // NEBULA MODS END
 
-// INFINITY MODS START
+// STARLIGHT MODS START
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
 
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/resomi/_resomi.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
-// INFINITY MODS END
+// STARLIGHT MODS END
 
 // EPN5 MODS START
 //	#include "../../mods/content/ship_combat2/_spacebattles.dme"

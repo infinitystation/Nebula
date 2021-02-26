@@ -1,2 +1,2 @@
-/decl/modpack/infinity
-	name = "Infinity Content Pack"
+/decl/modpack/starlight
+	name = "Starlight Content Pack"

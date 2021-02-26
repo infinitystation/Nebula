@@ -12,14 +12,14 @@
 	#include "../../mods/species/lizard/_lizard.dme"
 // NEBULA MODS END
 
-// INFINITY MODS START
+// STARLIGHT MODS START
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
 	#include "../../starlight/mods/content/interpack/_interpack.dme"
 
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/resomi/_resomi.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
-// INFINITY MODS END
+// STARLIGHT MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 	#include "../../mods/content/government/away_sites/icarus/icarus.dm"
