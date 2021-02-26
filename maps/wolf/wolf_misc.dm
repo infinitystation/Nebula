@@ -76,7 +76,7 @@
 /obj/random_multi/single_item/runtime
 	name = "runtime spawn"
 	id = "runtime"
-	item_path = /mob/living/simple_animal/cat/fluff/Runtime
+	item_path = /mob/living/simple_animal/cat/fluff/runtime
 
 /obj/random_multi/single_item/palmers
 	name = "palmers spawn"
