@@ -77,9 +77,6 @@ default behaviour is:
 				forceMove(tmob.loc)
 				tmob.forceMove(oldloc)
 				now_pushing = 0
-				for(var/mob/living/carbon/slime/slime in view(1,tmob))
-					if(slime.Victim == tmob)
-						slime.UpdateFeed()
 				return
 
 			if(!can_move_mob(tmob, 0, 0))
@@ -524,17 +521,10 @@ default behaviour is:
 /mob/living/Move(a, b, flag)
 	if (buckled)
 		return
-
 	. = ..()
-
 	handle_grabs_after_move()
-
 	if (s_active && !( s_active in contents ) && get_turf(s_active) != get_turf(src))	//check !( s_active in contents ) first so we hopefully don't have to call get_turf() so much.
 		s_active.close(src)
-
-	if(update_slimes)
-		for(var/mob/living/carbon/slime/M in view(1,src))
-			M.UpdateFeed()
 
 /mob/living/verb/resist()
 	set name = "Resist"
@@ -903,3 +893,22 @@ default behaviour is:
 /mob/living/get_admin_job_string()
 	return "Living"
 
+/mob/living/handle_mouse_drop(atom/over, mob/user)
+	if(user == src && user != over)
+
+		if(isturf(over))
+			var/turf/T = over
+			var/obj/structure/glass_tank/A = locate() in user.loc
+			if(A && A.Adjacent(user) && A.Adjacent(T))
+				A.do_climb_out(user, T)
+				return TRUE
+
+		if(istype(over, /mob/living/exosuit))
+			var/mob/living/exosuit/exosuit = over
+			if(exosuit.body)
+				if(user.mob_size >= exosuit.body.min_pilot_size && user.mob_size <= exosuit.body.max_pilot_size)
+					exosuit.enter(src)
+				else
+					to_chat(usr, SPAN_WARNING("You cannot pilot a exosuit of this size."))
+				return TRUE
+	. = ..()

@@ -3,7 +3,7 @@
 	lore_text = "Uh, some kind of drink."
 	color = "#e78108"
 	hidden_from_codex = TRUE // They don't need to generate a codex entry, their recipes will do that.
-	value = 1.2
+	value = 0.4
 
 	var/nutrition = 0 // Per unit
 	var/hydration = 6 // Per unit
@@ -33,7 +33,7 @@
 		M.bodytemperature = min(310, M.bodytemperature - (adj_temp * TEMPERATURE_DAMAGE_COEFFICIENT))
 
 // Juices
-/decl/material/chem/drink/juice
+/decl/material/liquid/drink/juice
 	fruit_descriptor = "sweet"
 
 /decl/material/liquid/drink/juice/affect_ingest(var/mob/living/M, var/alien, var/removed, var/datum/reagents/holder)

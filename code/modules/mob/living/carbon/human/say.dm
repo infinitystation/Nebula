@@ -92,8 +92,6 @@
 			return 1
 		if (istype(other, /mob/living/carbon/brain))
 			return 1
-		if (isslime(other))
-			return 1
 
 	//This is already covered by mob/say_understands()
 	//if (istype(other, /mob/living/simple_animal))
@@ -230,7 +228,7 @@
 
 /mob/living/carbon/human/can_speak(decl/language/speaking)
 	if(ispath(speaking, /decl/language))
-		speaking = decls_repository.get_decl(speaking)
+		speaking = GET_DECL(speaking)
 	if(species && speaking && (speaking.name in species.assisted_langs))
 		for(var/obj/item/organ/internal/voicebox/I in src.internal_organs)
 			if(I.is_usable() && I.assists_languages[speaking])
@@ -241,7 +239,7 @@
 /mob/living/carbon/human/parse_language(var/message)
 	var/prefix = copytext(message,1,2)
 	if(length(message) >= 1 && prefix == get_prefix_key(/decl/prefix/audible_emote))
-		return decls_repository.get_decl(/decl/language/noise)
+		return GET_DECL(/decl/language/noise)
 
 	if(length(message) >= 2 && is_language_prefix(prefix))
 		var/language_prefix = lowertext(copytext(message, 2 ,3))
