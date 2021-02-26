@@ -8,19 +8,17 @@
 	#include "../../mods/mobs/borers/_borers.dme"
 
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
-//	#include "../../mods/species/tajaran/_tajaran.dme"
-//	#include "../../mods/species/lizard/_lizard.dme"
+	#include "../../mods/species/tajaran/_tajaran.dme"
+	#include "../../mods/species/lizard/_lizard.dme"
 // NEBULA MODS END
 
 // INFINITY MODS START
-	#include "../../infinity/mods/content/infinity/_infinity.dme"
-	#include "../../infinity/mods/content/interpack/_interpack.dme"
+	#include "../../starlight/mods/content/starlight/_starlight.dme"
+	#include "../../starlight/mods/content/interpack/_interpack.dme"
 
-	#include "../../infinity/mods/species/booster/_booster.dme"
-	#include "../../infinity/mods/species/resomi/_resomi.dme"
-	#include "../../infinity/mods/species/vatgrown/_vatgrown.dme"
-	#include "../../infinity/mods/species/tajaran/_tajaran.dme"
-	#include "../../infinity/mods/species/unathi/_unathi.dme"
+	#include "../../starlight/mods/species/booster/_booster.dme"
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
+	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
 // INFINITY MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"

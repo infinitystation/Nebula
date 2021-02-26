@@ -1,6 +1,5 @@
 #if !defined(USING_MAP_DATUM)
 
-// NEBULA MODS START
 	#include "../../mods/content/corporate/_corporate.dme"
 	#include "../../mods/content/bigpharma/_bigpharma.dme"
 	#include "../../mods/content/psionics/_psionics.dme"
@@ -12,21 +11,9 @@
 
 	#include "../../mods/species/ascent/_ascent.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
-//	#include "../../mods/species/tajaran/_tajaran.dme"
-//	#include "../../mods/species/lizard/_lizard.dme"
+	#include "../../mods/species/tajaran/_tajaran.dme"
+	#include "../../mods/species/lizard/_lizard.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
-// NEBULA MODS END
-
-// INFINITY MODS START
-	#include "../../infinity/mods/content/infinity/_infinity.dme"
-
-	#include "../../infinity/mods/species/booster/_booster.dme"
-	#include "../../infinity/mods/species/resomi/_resomi.dme"
-	#include "../../infinity/mods/species/vatgrown/_vatgrown.dme"
-	#include "../../infinity/mods/species/skrell/_skrell.dme"
-	#include "../../infinity/mods/species/tajaran/_tajaran.dme"
-	#include "../../infinity/mods/species/unathi/_unathi.dme"
-// INFINITY MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 

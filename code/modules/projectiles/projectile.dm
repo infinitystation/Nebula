@@ -234,10 +234,10 @@
 
 		if(damage_type == BRUTE)
 			playsound(target_mob, pick(list(
-				'infinity/mods/content/infinity/sound/effects/gore/bullethit1.ogg',
-				'infinity/mods/content/infinity/sound/effects/gore/bullethit2.ogg',
-				'infinity/mods/content/infinity/sound/effects/gore/bullethit3.ogg',
-				'infinity/mods/content/infinity/sound/effects/gore/bullethit4.ogg')), 50, 1)
+				'starlight/mods/content/starlight/sound/effects/gore/bullethit1.ogg',
+				'starlight/mods/content/starlight/sound/effects/gore/bullethit2.ogg',
+				'starlight/mods/content/starlight/sound/effects/gore/bullethit3.ogg',
+				'starlight/mods/content/starlight/sound/effects/gore/bullethit4.ogg')), 50, 1)
 
 	//admin logs
 	if(!no_attack_log)

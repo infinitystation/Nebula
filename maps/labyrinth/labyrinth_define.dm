@@ -37,13 +37,13 @@
 	emergency_shuttle_recall_message = "Attention all hands: emergency evacuation sequence aborted. Return to normal operating conditions."
 	evac_controller_type             = /datum/evacuation_controller/lifepods
 
-	radiation_detected_sound     = 'infinity/mods/content/interpack/sound/announcements/threat.ogg'
-	space_time_anomaly_sound     = 'infinity/mods/content/interpack/sound/announcements/subspace.ogg'
-	unidentified_lifesigns_sound = 'infinity/mods/content/interpack/sound/announcements/threat.ogg'
-	command_report_sound         = 'infinity/mods/content/interpack/sound/announcements/attention.ogg'
-	grid_check_sound             = 'infinity/mods/content/interpack/sound/announcements/warning.ogg'
-	grid_restored_sound          = 'infinity/mods/content/interpack/sound/announcements/warning.ogg'
-	meteor_detected_sound        = 'infinity/mods/content/interpack/sound/announcements/threat.ogg'
+	radiation_detected_sound     = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
+	space_time_anomaly_sound     = 'starlight/mods/content/interpack/sound/announcements/subspace.ogg'
+	unidentified_lifesigns_sound = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
+	command_report_sound         = 'starlight/mods/content/interpack/sound/announcements/attention.ogg'
+	grid_check_sound             = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
+	grid_restored_sound          = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
+	meteor_detected_sound        = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
 
 /datum/map/labyrinth/get_map_info()
 	return "Welcome to \the [station_name()]. A planet colony filled with people who decide to explore and found this planet in the deep of space."

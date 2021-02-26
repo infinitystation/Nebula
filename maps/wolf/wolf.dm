@@ -18,15 +18,15 @@
 // NEBULA MODS END
 
 // INFINITY MODS START
-	#include "../../infinity/mods/content/infinity/_infinity.dme"
-	#include "../../infinity/mods/content/infinity_lore/_infinity_lore.dme"
+	#include "../../starlight/mods/content/starlight/_starlight.dme"
+	#include "../../starlight/mods/content/starlight_lore/_infinity_lore.dme"
 
-	#include "../../infinity/mods/species/booster/_booster.dme"
-	#include "../../infinity/mods/species/resomi/_resomi.dme"
-	#include "../../infinity/mods/species/vatgrown/_vatgrown.dme"
-	#include "../../infinity/mods/species/skrell/_skrell.dme"
-	#include "../../infinity/mods/species/tajaran/_tajaran.dme"
-	#include "../../infinity/mods/species/unathi/_unathi.dme"
+	#include "../../starlight/mods/species/booster/_booster.dme"
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
+	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+	#include "../../starlight/mods/species/skrell/_skrell.dme"
+	#include "../../starlight/mods/species/tajaran/_tajaran.dme"
+	#include "../../starlight/mods/species/unathi/_unathi.dme"
 // INFINITY MODS END
 
 // EPN5 MODS START

@@ -23,14 +23,14 @@
 	#include "../../mods/species/adherent/_adherent.dme"
 
 // INFINITY MODS START
-	#include "../../infinity/mods/content/infinity/_infinity.dme"
-	#include "../../infinity/mods/content/interpack/_interpack.dme"
-	#include "../../infinity/mods/content/europa_tileset/_europa_tileset.dme"
+	#include "../../starlight/mods/content/starlight/_starlight.dme"
+	#include "../../starlight/mods/content/interpack/_interpack.dme"
+	#include "../../starlight/mods/content/europa_tileset/_europa_tileset.dme"
 
-	#include "../../infinity/mods/species/booster/_booster.dme"
-	#include "../../infinity/mods/species/resomi/_resomi.dme"
-	#include "../../infinity/mods/species/vatgrown/_vatgrown.dme"
-	#include "../../infinity/mods/species/skrell/_skrell.dme"
+	#include "../../starlight/mods/species/booster/_booster.dme"
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
+	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+	#include "../../starlight/mods/species/skrell/_skrell.dme"
 // INFINITY MODS END
 
 	#define USING_MAP_DATUM /datum/map/modpack_testing
