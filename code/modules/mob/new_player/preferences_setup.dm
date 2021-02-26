@@ -17,14 +17,17 @@
 				hair_colour = current_species.get_random_hair_color()
 				facial_hair_colour = prob(75) ? hair_colour : current_species.get_random_facial_hair_color()
 
+		if(all_underwear)
+			all_underwear.Cut()
 		if(current_species.appearance_flags & HAS_UNDERWEAR)
-			if(all_underwear)
-				all_underwear.Cut()
 			for(var/datum/category_group/underwear/WRC in GLOB.underwear.categories)
 				var/datum/category_item/underwear/WRI = pick(WRC.items)
 				all_underwear[WRC.name] = WRI.name
 
-		backpack = decls_repository.get_decl(pick(subtypesof(/decl/backpack_outfit)))
+		for(var/M in body_markings)
+			body_markings[M] = get_random_colour()
+
+		backpack = GET_DECL(pick(subtypesof(/decl/backpack_outfit)))
 		age = rand(current_species.min_age, current_species.max_age)
 		b_type = RANDOM_BLOOD_TYPE
 		if(H)
@@ -89,3 +92,11 @@
 	dress_preview_mob(mannequin)
 
 	update_character_previews(new /mutable_appearance(mannequin))
+
+/datum/preferences/proc/get_random_name()
+	var/decl/cultural_info/culture/check_culture = cultural_info[TAG_CULTURE]
+	if(ispath(check_culture, /decl/cultural_info))
+		check_culture = GET_DECL(check_culture)
+		return check_culture.get_random_name(client?.mob, gender)
+	else
+		return random_name(gender, species)

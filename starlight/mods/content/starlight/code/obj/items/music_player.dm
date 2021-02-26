@@ -326,23 +326,13 @@ GLOBAL_LIST_EMPTY(music_players)
 /obj/item/music_player/attack_ai(mob/user)
 	return
 
-/obj/item/music_player/MouseDrop(obj/over_object)
-	if(!over_object)
-		return
-
-	//makes sure that the clothing is equipped so that we can't drag it into our hand from miles away.
-	if(!(src.loc == usr))
-		return
-
-	if(usr.incapacitated())
-		return
-
-	switch(over_object.name)
-		if("r_hand")
-			eject(usr)
-		if("l_hand")
-			eject(usr)
-	update_icon()
+/obj/item/music_player/handle_mouse_drop(atom/over, mob/user)
+	if(over && loc == user && in_range(src, user))
+		eject(user)
+		update_icon()
+		return TRUE
+	
+	. = ..()
 
 /obj/item/music_player/proc/eject(mob/user)
 	if(!tape)
@@ -361,6 +351,7 @@ GLOBAL_LIST_EMPTY(music_players)
 		user.put_in_hands(tape)
 	else
 		tape.dropInto(loc)
+
 	tape = null
 
 /obj/item/music_player/verb/volume()

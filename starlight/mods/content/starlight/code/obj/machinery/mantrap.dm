@@ -108,11 +108,15 @@
 
 	return TRUE
 
-/obj/machinery/mantrap/MouseDrop_T(var/mob/target, var/mob/user)
-	if(occupant)
-		to_chat(user, SPAN_NOTICE("\The [src] is already in use!"))
-		return
-	attempt_enter(target, user)
+/obj/machinery/mantrap/receive_mouse_drop(var/atom/dropping, var/mob/user)
+	. = ..()
+	if(!. && ismob(dropping))
+		if(occupant)
+			to_chat(user, SPAN_NOTICE("\The [src] is already in use!"))
+			return TRUE
+		
+		attempt_enter(dropping, user)
+		return TRUE
 
 /obj/machinery/mantrap/attackby(var/obj/item/G, var/mob/user)
 	if(istype(G, /obj/item/grab))

@@ -52,7 +52,7 @@
 	if(!move_intent)
 		move_intent = move_intents[1]
 	if(ispath(move_intent))
-		move_intent = decls_repository.get_decl(move_intent)
+		move_intent = GET_DECL(move_intent)
 	var/ai_type = get_ai_type()
 	if(ai_type)
 		ai = new ai_type(src)
@@ -155,7 +155,7 @@
 	for(var/o in objs)
 		var/obj/O = o
 		if(radio_message)
-			O.hear_talk(src, radio_message, null, decls_repository.get_decl(/decl/language/noise))
+			O.hear_talk(src, radio_message, null, GET_DECL(/decl/language/noise))
 		else
 			O.show_message(message, AUDIBLE_MESSAGE, deaf_message, VISIBLE_MESSAGE)
 
@@ -489,13 +489,16 @@
 			return TRUE
 	return FALSE
 
-/mob/MouseDrop(mob/M)
-	..()
-	if(M != usr) return
-	if(usr == src) return
-	if(!Adjacent(usr)) return
-	if(istype(M,/mob/living/silicon/ai)) return
-	show_inv(usr)
+/mob/handle_mouse_drop(atom/over, mob/user)
+	if(over == user && user != src && !istype(user, /mob/living/silicon/ai))
+		show_inv(user)
+		return TRUE
+	if(istype(over, /obj/vehicle/train))
+		var/obj/vehicle/train/beep = over
+		if(!beep.load(src))
+			to_chat(user, SPAN_WARNING("You were unable to load \the [src] onto \the [over]."))
+		return TRUE
+	. = ..()
 
 /mob/proc/can_use_hands()
 	return
@@ -1056,7 +1059,11 @@
 	return TRUE
 
 /mob/proc/handle_pre_transformation()
-	return
+	for(var/obj/item/W in contents)
+		if(istype(W, /obj/item/implant))
+			qdel(W)
+		else
+			drop_from_inventory(W)
 
 /mob/get_mass()
 	return mob_size
@@ -1073,3 +1080,15 @@
 /mob/proc/adjust_drugged(var/amt, var/maxamt = 100)
 	drugged = Clamp(drugged + amt, 0, maxamt)
 	. = drugged
+
+/mob/proc/get_telecomms_race_info()
+	return list("Unknown", FALSE)
+
+/mob/proc/can_enter_cryopod(var/mob/user)
+	if(stat == DEAD)
+		if(user == src)
+			to_chat(src, SPAN_WARNING("You cannot use that, as you are dead."))
+		else
+			to_chat(user, SPAN_WARNING("\The [src] cannot use that, as they are dead."))
+		return FALSE
+	return TRUE

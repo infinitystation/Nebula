@@ -9269,7 +9269,7 @@
 /area/ship/wolf/science/server_room)
 "Cn" = (
 /obj/machinery/camera/network/research,
-/mob/living/carbon/slime,
+/mob/living/slime,
 /turf/simulated/floor/reinforced,
 /area/ship/wolf/science/xenobio)
 "Co" = (

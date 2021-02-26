@@ -147,8 +147,7 @@ var/global/floorIsLava = 0
 			else if(ishuman(M))
 				body += {"<A href='?src=\ref[src];makeai=\ref[M]'>Make AI</A> |
 					<A href='?src=\ref[src];makerobot=\ref[M]'>Make Robot</A> |
-					<A href='?src=\ref[src];makealien=\ref[M]'>Make Alien</A> |
-					<A href='?src=\ref[src];makeslime=\ref[M]'>Make slime</A>
+					<A href='?src=\ref[src];makealien=\ref[M]'>Make Alien</A>
 				"}
 
 			//Simple Animals
@@ -1218,7 +1217,7 @@ var/global/floorIsLava = 0
 	if(length(SSticker.mode.associated_antags))
 		out += "<b>Core antag templates:</b></br>"
 		for(var/antag_type in SSticker.mode.associated_antags)
-			var/decl/special_role/antag = decls_repository.get_decl(antag_type)
+			var/decl/special_role/antag = GET_DECL(antag_type)
 			if(antag)
 				out += "<a href='?src=\ref[SSticker.mode];debug_antag=\ref[antag]'>[antag.name]</a>.</br>"
 
