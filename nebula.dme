@@ -3267,7 +3267,6 @@
 #include "maps\away_sites_testing\away_sites_testing_define.dm"
 #include "maps\constellation\constellation_define.dm"
 #include "maps\example\example_define.dm"
-#include "maps\exodus\exodus_define.dm"
 #include "maps\labyrinth\labyrinth_define.dm"
 #include "maps\ministation\ministation_define.dm"
 #include "maps\modpack_testing\modpack_testing_define.dm"
