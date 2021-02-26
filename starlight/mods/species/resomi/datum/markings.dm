@@ -1,5 +1,5 @@
 /datum/sprite_accessory/marking/resomi
-	icon = '/species/resomi/icons/markings.dmi'
+	icon = 'starlight/mods/species/resomi/icons/markings.dmi'
 	species_allowed = list(SPECIES_RESOMI)
 	do_colouration = 1
 

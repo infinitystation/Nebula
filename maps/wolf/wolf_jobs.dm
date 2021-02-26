@@ -39,13 +39,10 @@
 			HEAD_JOBS,
 			COMMAND_JOBS
 		),
-		/decl/species/skrell = list(
-			COMMAND_JOBS
-		),
 		/decl/species/tajaran = list(
 			COMMAND_JOBS
 		),
-		/decl/species/unathi = list(
+		/decl/species/lizard = list(
 			HEAD_JOBS,
 			COMMAND_JOBS,
 			SECURITY_JOBS

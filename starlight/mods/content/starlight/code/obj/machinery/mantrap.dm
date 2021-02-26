@@ -1,7 +1,7 @@
 /obj/machinery/mantrap
 	name = "mantrap airlock"
 	desc = "A small personal airlock ubiquitous throughout colonized space. The space inside is extremely claustrophobic."
-	icon = '/content/infinity/icons/obj/machinery/mantrap.dmi'
+	icon = 'starlight/mods/content/starlight/icons/obj/machinery/mantrap.dmi'
 	icon_state = "mantrap_inactive"
 	anchored = TRUE
 	idle_power_usage = 80

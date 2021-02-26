@@ -8,10 +8,10 @@
 /mob/living/turf_collision(turf/T, speed)
 	. = ..()
 	playsound(T, pick(list(
-		'/content/infinity/sound/effects/gore/smash1.ogg',
-		'/content/infinity/sound/effects/gore/smash2.ogg',
-		'/content/infinity/sound/effects/gore/smash3.ogg',
-		'/content/infinity/sound/effects/gore/trauma1.ogg')), 50, 1, 1)
+		'starlight/mods/content/starlight/sound/effects/gore/smash1.ogg',
+		'starlight/mods/content/starlight/sound/effects/gore/smash2.ogg',
+		'starlight/mods/content/starlight/sound/effects/gore/smash3.ogg',
+		'starlight/mods/content/starlight/sound/effects/gore/trauma1.ogg')), 50, 1, 1)
 
 	if(client) 
 		shake_camera(src, 7, 1)
@@ -19,10 +19,10 @@
 /mob/living/carbon/human/handle_fall_effect(landing)
 	. = ..()
 	playsound(landing, pick(list(
-		'/content/infinity/sound/effects/gore/smash1.ogg',
-		'/content/infinity/sound/effects/gore/smash2.ogg',
-		'/content/infinity/sound/effects/gore/smash3.ogg',
-		'/content/infinity/sound/effects/gore/trauma1.ogg')), 50, 1, -1)
+		'starlight/mods/content/starlight/sound/effects/gore/smash1.ogg',
+		'starlight/mods/content/starlight/sound/effects/gore/smash2.ogg',
+		'starlight/mods/content/starlight/sound/effects/gore/smash3.ogg',
+		'starlight/mods/content/starlight/sound/effects/gore/trauma1.ogg')), 50, 1, -1)
 
 	if(client) 
 		shake_camera(src, 7, 0.5)

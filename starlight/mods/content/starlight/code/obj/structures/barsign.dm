@@ -1,2 +1,2 @@
 /obj/structure/sign/double/barsign
-	icon = '/content/infinity/icons/obj/structures/barsigns.dmi'
+	icon = 'starlight/mods/content/starlight/icons/obj/structures/barsigns.dmi'

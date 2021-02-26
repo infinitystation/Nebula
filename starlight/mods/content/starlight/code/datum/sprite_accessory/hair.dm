@@ -1,4 +1,4 @@
-#define HAIR_ICON_PATH '/content/infinity/icons/mob/hair.dmi'
+#define HAIR_ICON_PATH 'starlight/mods/content/starlight/icons/mob/hair.dmi'
 
 /datum/sprite_accessory/hair/ponytail7
 	name = "Ponytail 7"

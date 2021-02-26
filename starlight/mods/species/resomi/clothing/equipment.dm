@@ -3,7 +3,7 @@
 /obj/item/clothing/suit/storage/hooded/polychromic
 	name = "polychromic cloak"
 	desc = "Resomi cloak. Seems to be coated with polychrome paint. There is also a sewn hood. DO NOT MIX WITH EMP!"
-	icon = '/species/resomi/icons/clothing/exp/suit/polychromic.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/suit/polychromic.dmi'
 	hoodtype = /obj/item/clothing/head/winterhood/polychromic_hood
 	action_button_name = "Toggle Hood"
 	slots = 4
@@ -41,7 +41,7 @@
 
 /obj/item/clothing/head/winterhood/polychromic_hood
 	name = "hood"
-	icon = '/species/resomi/icons/clothing/exp/head/polychromic_hood.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/head/polychromic_hood.dmi'
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 	desc = "It's hood that covers the head."
 	flags_inv = BLOCKHAIR | HIDEEARS
@@ -53,43 +53,43 @@
 /obj/item/clothing/under/resomi
 	name = "small jumpsuit"
 	desc = "A small jumpsuit. Looks pretty much perfect to fit a resomi."
-	icon = '/species/resomi/icons/clothing/exp/under/small_jumpsuit.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/small_jumpsuit.dmi'
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 
 /obj/item/clothing/under/resomi/simple
 	name = "small smock"
-	icon = '/species/resomi/icons/clothing/exp/under/small_smock.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/small_smock.dmi'
 
 /obj/item/clothing/under/resomi/rainbow
 	name = "rainbow smock"
 	desc = "Why would someone wear this?"
-	icon = '/species/resomi/icons/clothing/exp/under/rainbow_smock.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/rainbow_smock.dmi'
 
 /obj/item/clothing/under/resomi/engine
 	name = "small engineering smock"
-	icon = '/species/resomi/icons/clothing/exp/under/engineering_smock.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/engineering_smock.dmi'
 
 /obj/item/clothing/under/resomi/security
 	name = "small security smock"
-	icon = '/species/resomi/icons/clothing/exp/under/security_smock.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/security_smock.dmi'
 
 /obj/item/clothing/under/resomi/medical
 	name = "small medical smock"
-	icon = '/species/resomi/icons/clothing/exp/under/medical_smock.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/medical_smock.dmi'
 
 /obj/item/clothing/under/resomi/science
 	name = "small science smock"
-	icon = '/species/resomi/icons/clothing/exp/under/science_smock.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/science_smock.dmi'
 
 /obj/item/clothing/under/resomi/command
 	name = "small command uniform"
-	icon = '/species/resomi/icons/clothing/exp/under/command_uniform.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/command_uniform.dmi'
 
 //Shoes
 /obj/item/clothing/shoes/resomi/footwraps
 	name = "cloth footwraps"
 	desc = "A roll of treated canvas used for wrapping paws"
-	icon = '/species/resomi/icons/clothing/exp/feet/footwraps.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/feet/footwraps.dmi'
 	force = 0
 	item_flags = ITEM_FLAG_SILENT
 	w_class = ITEM_SIZE_SMALL
@@ -97,11 +97,11 @@
 /obj/item/clothing/shoes/resomi/footwraps/socks_resomi
 	name = "koishi"
 	desc = "Looks like socks but with toe holes and thick sole."
-	icon = '/species/resomi/icons/clothing/exp/feet/koishi.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/feet/koishi.dmi'
 
 /obj/item/clothing/shoes/resomi
 	name = "small shoes"
-	icon = '/species/resomi/icons/clothing/exp/feet/shoes.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/feet/shoes.dmi'
 	color = COLOR_GRAY
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 
@@ -110,7 +110,7 @@
 /obj/item/clothing/under/resomi/space
 	name       = "small pressure suit"
 	desc       = "Thick rubber jumpsuit designed for work in vacuum of space."
-	icon       = '/species/resomi/icons/clothing/exp/under/pressure_suit.dmi'
+	icon       = 'starlight/mods/species/resomi/icons/clothing/exp/under/pressure_suit.dmi'
 	item_flags         = ITEM_FLAG_THICKMATERIAL
 	body_parts_covered = SLOT_UPPER_BODY | SLOT_LOWER_BODY | SLOT_LEGS | SLOT_FEET | SLOT_ARMS | SLOT_HANDS
 	cold_protection    = SLOT_UPPER_BODY | SLOT_LOWER_BODY | SLOT_LEGS | SLOT_FEET | SLOT_ARMS | SLOT_HANDS
@@ -161,7 +161,7 @@
 /obj/item/clothing/head/resomi_space
 	name       = "small glass helmet"
 	desc       = "Small glass dome made of durable glass alloy. It's wearer surely will have a spectacular view."
-	icon       = '/species/resomi/icons/clothing/exp/head/space_dome.dmi'
+	icon       = 'starlight/mods/species/resomi/icons/clothing/exp/head/space_dome.dmi'
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 	item_flags          = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	flags_inv           = HIDEMASK | BLOCKHAIR
@@ -176,13 +176,13 @@
 
 /obj/item/clothing/head/helmet/space/void/engineering/resomi
 	name = "heavy resomi voidsuit helmet"
-	icon = '/species/resomi/icons/clothing/exp/head/heavy.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/head/heavy.dmi'
 
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 
 /obj/item/clothing/suit/space/void/engineering/resomi
 	name = "heavy resomi voidsuit"
-	icon = '/species/resomi/icons/clothing/exp/suit/heavy_suit.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/suit/heavy_suit.dmi'
 
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 

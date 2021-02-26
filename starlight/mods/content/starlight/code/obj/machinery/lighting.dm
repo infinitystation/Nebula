@@ -1,5 +1,5 @@
 /obj/item/light
-	var/enviroment_sound = '/content/infinity/sound/obj/machinery/neon_hum.ogg'
+	var/enviroment_sound = 'starlight/mods/content/starlight/sound/obj/machinery/neon_hum.ogg'
 	var/enviroment_sound_range = 3
 	var/enviroment_sound_volume = 30
 

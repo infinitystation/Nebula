@@ -98,33 +98,33 @@
 
 /obj/item/clothing/shoes/magboots/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/exp/magboots.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/magboots.dmi'
 	. = ..()
 
 /obj/item/clothing/shoes/galoshes/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/exp/galoshes.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/galoshes.dmi'
 	. = ..()
 
 //Gloves
 
 /obj/item/clothing/gloves/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/exp/gloves.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/gloves.dmi'
 	. = ..()
 
 //ID
 
 /obj/item/card/id/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/exp/id.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/id.dmi'
 	. = ..()
 
 //Masks
 
 /obj/item/clothing/mask/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/onmob_mask.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/onmob_mask.dmi'
 	. = ..()
 
 //Backpacks & tanks
@@ -132,31 +132,31 @@
 /obj/item/storage/backpack/satchel/Initialize()
 	. = ..()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/exp/satchel.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/satchel.dmi'
 
 /obj/item/storage/backpack/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/exp/backpack.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/backpack.dmi'
 	. = ..()
 
 /obj/item/tank/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/onmob_back.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/onmob_back.dmi'
 	. = ..()
 
 //Radsuits (theyre essential?)
 
 /obj/item/clothing/head/radiation/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/exp/rad_helm.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/rad_helm.dmi'
 	. = ..()
 
 /obj/item/clothing/suit/radiation/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/exp/rad_suit.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/rad_suit.dmi'
 	. = ..()
 //material cloak
 /obj/item/clothing/accessory/cloak/hide/Initialize()
 	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = '/species/resomi/icons/clothing/exp/cloak_hide.dmi'
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/cloak_hide.dmi'
 	. = ..()

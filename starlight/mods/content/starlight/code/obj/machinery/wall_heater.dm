@@ -1,6 +1,6 @@
 /obj/machinery/space_heater/wall
 	name = "wall-mounted space heater"
-	icon = '/content/infinity/icons/obj/machinery/wall_heater.dmi'
+	icon = 'starlight/mods/content/starlight/icons/obj/machinery/wall_heater.dmi'
 	icon_state = "heater-off"
 	anchored = TRUE
 	density = FALSE

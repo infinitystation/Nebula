@@ -1,7 +1,7 @@
 /obj/item/music_tape
 	name = "music tape"
 	desc = "A magnetic tape adapted to outdated but proven music."
-	icon = '/content/infinity/icons/obj/items/music_tape.dmi'
+	icon = 'starlight/mods/content/starlight/icons/obj/items/music_tape.dmi'
 	icon_state = ICON_STATE_WORLD
 	item_state = "analyzer"
 	w_class = ITEM_SIZE_TINY

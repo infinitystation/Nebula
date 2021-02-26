@@ -11,22 +11,18 @@
 
 	#include "../../mods/species/ascent/_ascent.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
-//	#include "../../mods/species/tajaran/_tajaran.dme"
-//	#include "../../mods/species/lizard/_lizard.dme"
+	#include "../../mods/species/tajaran/_tajaran.dme"
+	#include "../../mods/species/lizard/_lizard.dme"
 	#include "../../mods/species/vox/_vox.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
 // NEBULA MODS END
 
 // INFINITY MODS START
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
-	#include "../../starlight/mods/content/starlight_lore/_infinity_lore.dme"
 
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/resomi/_resomi.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
-	#include "../../starlight/mods/species/skrell/_skrell.dme"
-	#include "../../starlight/mods/species/tajaran/_tajaran.dme"
-	#include "../../starlight/mods/species/unathi/_unathi.dme"
 // INFINITY MODS END
 
 // EPN5 MODS START
@@ -58,9 +54,6 @@
 	#include "wolf-4.dmm"
 	#include "wolf-extras.dmm"
 	#include "wolf-supply.dmm"
-
-	#include "wolf_cultural_info.dm"
-	#include "wolf_species.dm"
 
 	#include "wolf_branches.dm"
 	#include "wolf_overmap.dm"

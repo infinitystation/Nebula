@@ -18,14 +18,14 @@
 	limb_blend        = ICON_MULTIPLY
 	tail_blend        = ICON_MULTIPLY
 
-	icobase           = '/species/resomi/icons/body.dmi'
-	deform            = '/species/resomi/icons/body.dmi'
-	damage_overlays   = '/species/resomi/icons/damage_overlay.dmi'
-	damage_mask       = '/species/resomi/icons/damage_mask.dmi'
-	blood_mask        = '/species/resomi/icons/blood_mask.dmi'
-	preview_icon      = '/species/resomi/icons/preview.dmi'
-	husk_icon         = '/species/resomi/icons/husk.dmi'
-	tail_icon         = '/species/resomi/icons/tail.dmi'
+	icobase           = 'starlight/mods/species/resomi/icons/body.dmi'
+	deform            = 'starlight/mods/species/resomi/icons/body.dmi'
+	damage_overlays   = 'starlight/mods/species/resomi/icons/damage_overlay.dmi'
+	damage_mask       = 'starlight/mods/species/resomi/icons/damage_mask.dmi'
+	blood_mask        = 'starlight/mods/species/resomi/icons/blood_mask.dmi'
+	preview_icon      = 'starlight/mods/species/resomi/icons/preview.dmi'
+	husk_icon         = 'starlight/mods/species/resomi/icons/husk.dmi'
+	tail_icon         = 'starlight/mods/species/resomi/icons/tail.dmi'
 	tail              = "tail"
 	tail_hair         = "feathers_s"
 
@@ -138,14 +138,14 @@
 		else		 . = 8
 
 /decl/species/resomi/get_surgery_overlay_icon(var/mob/living/carbon/human/H)
-	return '/species/resomi/icons/surgery.dmi'
+	return 'starlight/mods/species/resomi/icons/surgery.dmi'
 
 /obj/item/holder/human/resomi
-	icon = '/species/resomi/icons/holder.dmi'
+	icon = 'starlight/mods/species/resomi/icons/holder.dmi'
 	w_class = ITEM_SIZE_LARGE
 
 /obj/item/organ/internal/eyes/resomi
-	eye_icon = '/species/resomi/icons/eyes.dmi'
+	eye_icon = 'starlight/mods/species/resomi/icons/eyes.dmi'
 	icon_state = "eyes"
 
 /decl/species/resomi/handle_post_species_pref_set(var/datum/preferences/pref)

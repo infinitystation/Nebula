@@ -1,16 +1,16 @@
 /decl/footsteps/tiles
 	footstep_sounds = list(
-		'/content/infinity/sound/effects/footstep/floor1.ogg',
-		'/content/infinity/sound/effects/footstep/floor2.ogg',
-		'/content/infinity/sound/effects/footstep/floor3.ogg',
-		'/content/infinity/sound/effects/footstep/floor4.ogg')
+		'starlight/mods/content/starlight/sound/effects/footstep/floor1.ogg',
+		'starlight/mods/content/starlight/sound/effects/footstep/floor2.ogg',
+		'starlight/mods/content/starlight/sound/effects/footstep/floor3.ogg',
+		'starlight/mods/content/starlight/sound/effects/footstep/floor4.ogg')
 
 /decl/footsteps/gear
 	footstep_sounds = list(
-		'/content/infinity/sound/effects/footstep/armor/gear1.ogg',
-		'/content/infinity/sound/effects/footstep/armor/gear2.ogg',
-		'/content/infinity/sound/effects/footstep/armor/gear3.ogg',
-		'/content/infinity/sound/effects/footstep/armor/gear4.ogg')
+		'starlight/mods/content/starlight/sound/effects/footstep/armor/gear1.ogg',
+		'starlight/mods/content/starlight/sound/effects/footstep/armor/gear2.ogg',
+		'starlight/mods/content/starlight/sound/effects/footstep/armor/gear3.ogg',
+		'starlight/mods/content/starlight/sound/effects/footstep/armor/gear4.ogg')
 
 /*
 /obj/item/clothing/shoes/jackboots/var/footstep = 1
