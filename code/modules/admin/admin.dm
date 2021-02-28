@@ -1153,7 +1153,7 @@ var/global/floorIsLava = 0
 
 	log_and_message_admins("spawned [chosen] at ([usr.x],[usr.y],[usr.z])")
 	SSstatistics.add_field_details("admin_verb","SA") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
-	SSwebhooks.send("webhook_message_admin", list("log_message" = "[usr] spawned [chosen] at \[X: [usr.x], Y: [usr.y], Z: [usr.z]\]"))
+	SSwebhooks.send("webhook_message_admin", list("log_message" = "[key_name(usr)] spawned [chosen] at \[X: [usr.x], Y: [usr.y], Z: [usr.z]\]"))
 
 /datum/admins/proc/show_special_roles(var/mob/M in SSmobs.mob_list)
 	set category = "Admin"
