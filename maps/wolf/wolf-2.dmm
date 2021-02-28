@@ -5796,6 +5796,7 @@
 /obj/structure/sign/evac{
 	pixel_x = 32
 	},
+/obj/structure/flora/pottedplant/fern,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "lX" = (
@@ -8038,6 +8039,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "rr" = (
+/obj/structure/flora/pottedplant/drooping,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "rs" = (
@@ -9166,6 +9168,7 @@
 	dir = 5
 	},
 /obj/item/radio/intercom/bump/north,
+/obj/structure/flora/pottedplant/floorleaf,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "tU" = (
