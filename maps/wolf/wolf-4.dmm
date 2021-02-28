@@ -1557,6 +1557,7 @@
 	dir = 5
 	},
 /obj/item/radio/intercom/bump/south,
+/obj/structure/flora/pottedplant/orientaltree,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/hallway)
 "ds" = (
@@ -2168,6 +2169,7 @@
 	dir = 10
 	},
 /obj/item/radio/intercom/bump/south,
+/obj/structure/flora/pottedplant/unusual,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway)
 "ew" = (
@@ -4151,6 +4153,7 @@
 /obj/machinery/camera/network/fourth_deck{
 	dir = 4
 	},
+/obj/structure/flora/pottedplant/tropical,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/hallway)
 "pd" = (
@@ -4336,6 +4339,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/garden)
+"Aq" = (
+/obj/machinery/media/jukebox,
+/turf/simulated/floor/wood/walnut,
+/area/ship/wolf/command/meetingroom)
 "Aw" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -12192,7 +12199,7 @@ fP
 dX
 fw
 dR
-gp
+Aq
 gp
 Sw
 gp
