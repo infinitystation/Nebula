@@ -50,3 +50,15 @@
 	footwear["footwraps"]    = /obj/item/clothing/shoes/resomi/footwraps
 	footwear["small shoes"] = /obj/item/clothing/shoes/resomi
 	gear_tweaks += new/datum/gear_tweak/path(footwear)
+
+//toys
+
+/datum/gear/plush_toy/get_gear_tweak_options()
+	. = ..()
+	.[/datum/gear_tweak/path] |= list(
+		"resomi brown plush" =  /obj/item/toy/plushie/resomi_plush,
+		"resomi black plush" = /obj/item/toy/plushie/resomi_plush/black,
+		"resomi yellow plush" = /obj/item/toy/plushie/resomi_plush/yellow,
+		"resomi white plush" = /obj/item/toy/plushie/resomi_plush/white,
+		"resomi grey plush" = /obj/item/toy/plushie/resomi_plush/grey
+	)
