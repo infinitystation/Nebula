@@ -34,8 +34,11 @@
 /area/ship/wolf/command/hallway)
 "ah" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/floor_decal/corner/yellow/half{
-	dir = 4
+/obj/effect/floor_decal/techfloor{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner_techfloor_grid{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge)
@@ -76,7 +79,8 @@
 "al" = (
 /obj/machinery/hologram/holopad/longrange,
 /obj/effect/landmark/test/safe_turf,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "am" = (
 /obj/effect/paint/black,
@@ -100,7 +104,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "as" = (
 /obj/machinery/keycard_auth{
@@ -124,12 +129,13 @@
 /turf/simulated/floor/carpet/orange,
 /area/ship/wolf/command/office/ce)
 "au" = (
-/obj/effect/floor_decal/corner/yellow/half{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
+/obj/effect/floor_decal/techfloor{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner_techfloor_grid,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge)
 "av" = (
@@ -154,10 +160,12 @@
 /turf/simulated/floor/carpet/orange,
 /area/ship/wolf/command/office/ce)
 "ay" = (
-/obj/effect/catwalk_plated/dark,
 /obj/structure/table/steel_reinforced,
 /obj/machinery/photocopier/faxmachine,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "az" = (
 /turf/simulated/wall/prepainted,
@@ -192,11 +200,13 @@
 /turf/simulated/open,
 /area/ship/wolf/command/hallway)
 "aG" = (
-/obj/effect/catwalk_plated/dark,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "aH" = (
 /turf/simulated/floor/tiled/dark,
@@ -254,40 +264,44 @@
 	dir = 4
 	},
 /obj/machinery/disposal,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "aQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "aR" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "aS" = (
 /obj/effect/floor_decal/corner/b_green/half{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "aT" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/wolf/command/office/maa)
 "aU" = (
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "aV" = (
 /obj/effect/paint/black,
@@ -325,9 +339,6 @@
 /turf/simulated/wall/prepainted,
 /area/ship/wolf/command/office/captain)
 "bc" = (
-/obj/effect/floor_decal/corner/yellow/half{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -337,7 +348,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "bd" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -346,9 +360,6 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/wolf/command/office/cmo/bedroom)
 "bf" = (
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
@@ -362,7 +373,10 @@
 	dir = 4
 	},
 /obj/machinery/light,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "bg" = (
 /obj/machinery/disposal,
@@ -397,12 +411,12 @@
 /turf/simulated/wall/prepainted,
 /area/ship/wolf/command/office/xo/bedroom)
 "bk" = (
-/obj/effect/catwalk_plated/dark,
 /obj/structure/table/steel_reinforced,
 /obj/item/pen/retractable,
 /obj/item/paper_bin,
 /obj/item/radio/intercom/bump/south,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "bl" = (
 /obj/structure/cable{
@@ -493,7 +507,9 @@
 /obj/machinery/camera/network/command{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/closet/walllocker/emerglocker/south,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "bu" = (
 /obj/structure/table/rack,
@@ -562,7 +578,11 @@
 /obj/machinery/power/apc,
 /obj/structure/cable/green,
 /obj/structure/table/steel_reinforced,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor{
+	dir = 6
+	},
+/obj/structure/flora/pottedplant/deskleaf,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "bB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -575,10 +595,10 @@
 	icon_state = "4-8"
 	},
 /obj/structure/disposalpipe/segment/bent,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "bC" = (
-/obj/structure/bed,
+/obj/structure/bed/padded,
 /obj/item/bedsheet/ce,
 /obj/machinery/button/windowtint{
 	id_tag = "cebed";
@@ -799,6 +819,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/random_multi/single_item/poppy,
 /turf/simulated/floor/carpet/orange,
 /area/ship/wolf/command/office/ce)
 "bY" = (
@@ -813,7 +834,7 @@
 /turf/simulated/floor/airless,
 /area/space)
 "bZ" = (
-/obj/structure/bed,
+/obj/structure/bed/padded,
 /obj/item/bedsheet/captain,
 /obj/machinery/button/alternate/door/bolts{
 	id_tag = "maabed";
@@ -906,7 +927,7 @@
 /obj/effect/floor_decal/corner/b_green/half{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "ci" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -954,12 +975,11 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/solars)
 "cn" = (
-/obj/effect/floor_decal/corner/yellow/half,
 /obj/structure/bed/chair/comfy/captain{
 	dir = 1
 	},
 /obj/random_multi/single_item/palmers,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "co" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -1131,7 +1151,10 @@
 "cE" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/recharger,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "cF" = (
 /obj/machinery/light{
@@ -1673,13 +1696,13 @@
 /obj/effect/landmark/start{
 	name = "Bridge Officer"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/command/bridge)
 "dD" = (
 /obj/effect/floor_decal/corner/b_green/bordercorner{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "dE" = (
 /obj/machinery/light{
@@ -1689,7 +1712,7 @@
 	dir = 1
 	},
 /obj/machinery/computer/ship/helm,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/command/bridge)
 "dF" = (
 /obj/machinery/alarm{
@@ -1724,7 +1747,6 @@
 /turf/simulated/floor/wood,
 /area/ship/wolf/command/office/xo/bedroom)
 "dI" = (
-/obj/effect/catwalk_plated/dark,
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
@@ -1734,7 +1756,10 @@
 /obj/structure/closet/medical_wall/filled{
 	pixel_x = 32
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "dJ" = (
 /obj/machinery/door/firedoor,
@@ -1896,7 +1921,7 @@
 /turf/simulated/wall/prepainted,
 /area/ship/wolf/command/office/captain)
 "dY" = (
-/obj/structure/bed,
+/obj/structure/bed/padded,
 /obj/item/bedsheet/medical,
 /obj/machinery/button/windowtint{
 	id_tag = "cmobed";
@@ -1927,6 +1952,7 @@
 /obj/item/gun/launcher/syringe,
 /obj/machinery/door/window,
 /obj/item/rig/medical/equipped,
+/obj/item/defibrillator/compact/combat/loaded,
 /turf/simulated/floor/carpet/blue2,
 /area/ship/wolf/command/office/cmo)
 "ea" = (
@@ -2019,6 +2045,7 @@
 "ei" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/item/radio/intercom/bump/north,
+/obj/structure/table/standard,
 /turf/simulated/floor/tiled/freezer,
 /area/ship/wolf/command/bathroom)
 "ej" = (
@@ -2026,7 +2053,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/random_multi/single_item/poppy,
 /turf/simulated/floor/carpet/orange,
 /area/ship/wolf/command/office/ce/bedroom)
 "ek" = (
@@ -2169,7 +2195,6 @@
 	dir = 10
 	},
 /obj/item/radio/intercom/bump/south,
-/obj/structure/flora/pottedplant/unusual,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway)
 "ew" = (
@@ -2297,8 +2322,13 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/structure/hygiene/shower{
-	dir = 1
+/obj/item/storage/mirror{
+	pixel_x = 27;
+	pixel_y = 6
+	},
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 16
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/wolf/command/office/captain)
@@ -2376,7 +2406,7 @@
 /area/ship/wolf/command/bridge)
 "eN" = (
 /obj/effect/floor_decal/corner/orange/half,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "eO" = (
 /obj/structure/cable/green{
@@ -2392,7 +2422,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/orange/mono,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "eQ" = (
 /obj/effect/floor_decal/corner/orange/half{
@@ -2401,19 +2431,22 @@
 /obj/structure/bed/chair/comfy/yellow{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/command/bridge)
 "eR" = (
 /obj/effect/floor_decal/corner/orange/half{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "eS" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "eT" = (
 /obj/machinery/light{
@@ -2441,7 +2474,7 @@
 /obj/machinery/computer/modular/preset/engineering{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/command/bridge)
 "eW" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -2456,7 +2489,7 @@
 /area/ship/wolf/command/bridge)
 "eX" = (
 /obj/effect/floor_decal/corner/red/bordercorner,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "eY" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2465,7 +2498,8 @@
 /obj/effect/floor_decal/corner/orange/half{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor/corner,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "eZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -2474,44 +2508,52 @@
 /obj/effect/floor_decal/corner/red/half{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fa" = (
 /obj/effect/floor_decal/corner/red/bordercorner{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fb" = (
 /obj/effect/floor_decal/corner/b_green/half{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fc" = (
 /obj/effect/floor_decal/corner/b_green/bordercorner{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fd" = (
 /obj/effect/floor_decal/corner/orange/bordercorner{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fe" = (
 /obj/effect/floor_decal/corner/orange/bordercorner{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "ff" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/random_multi/single_item/runtime,
 /turf/simulated/floor/carpet/blue2,
 /area/ship/wolf/command/office/cmo/bedroom)
 "fg" = (
@@ -2559,6 +2601,7 @@
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/effect/floor_decal/industrial/damage_control/air,
+/obj/structure/flora/pottedplant/unusual,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/hallway)
 "fk" = (
@@ -2579,7 +2622,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/structure/bed,
+/obj/structure/bed/padded,
 /obj/item/bedsheet/hop,
 /obj/structure/curtain/open/bed,
 /obj/random_multi/single_item/ian,
@@ -2618,11 +2661,16 @@
 	dir = 8
 	},
 /obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
+	dir = 1;
+	pixel_y = -24
 	},
-/obj/structure/hygiene/shower{
-	dir = 8
+/obj/item/storage/mirror{
+	pixel_x = 27;
+	pixel_y = 6
+	},
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 16
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/wolf/command/office/xo/bedroom)
@@ -2744,34 +2792,29 @@
 /obj/machinery/computer/modular/preset/security{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/command/bridge)
 "fB" = (
 /obj/machinery/computer/modular/preset/engineering{
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/orange/mono,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/computer/ship/navigation,
-/obj/effect/floor_decal/corner/yellow/mono,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "fD" = (
 /obj/effect/overmap/visitable/ship/wolf,
-/obj/effect/floor_decal/corner/yellow/half{
-	dir = 1
-	},
 /obj/machinery/computer/modular/preset/cardslot/command,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "fE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/corner/yellow/mono,
 /obj/machinery/computer/ship/sensors,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "fF" = (
 /obj/machinery/computer/modular/preset/security{
@@ -2815,7 +2858,8 @@
 	id_tag = "battledoors";
 	name = "battle shutter control"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fL" = (
 /obj/structure/table/rack,
@@ -3075,7 +3119,10 @@
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "gm" = (
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "gn" = (
 /obj/structure/disposalpipe/trunk{
@@ -3156,6 +3203,7 @@
 /obj/machinery/camera/network/command{
 	dir = 8
 	},
+/obj/random_multi/single_item/runtime,
 /turf/simulated/floor/carpet/blue2,
 /area/ship/wolf/command/office/cmo)
 "gv" = (
@@ -3403,7 +3451,7 @@
 /turf/simulated/floor/carpet/blue,
 /area/ship/wolf/command/office/captain)
 "gX" = (
-/obj/structure/bed,
+/obj/structure/bed/padded,
 /obj/item/bedsheet/hos,
 /obj/machinery/button/windowtint{
 	id_tag = "maabed";
@@ -3549,7 +3597,10 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "hk" = (
 /obj/structure/cable/green{
@@ -3841,7 +3892,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "hU" = (
 /obj/effect/floor_decal/corner/red/half{
@@ -3853,7 +3904,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/command/bridge)
 "hV" = (
 /obj/effect/floor_decal/corner/red/half{
@@ -3862,7 +3913,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "hW" = (
 /obj/machinery/status_display{
@@ -3871,7 +3922,10 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "hY" = (
 /obj/structure/cable/green{
@@ -4044,6 +4098,12 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"iQ" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/ship/wolf/command/bridge)
 "iU" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/grass,
@@ -4147,9 +4207,6 @@
 /area/ship/wolf/command/office/xo)
 "oq" = (
 /obj/effect/floor_decal/corner/blue/mono,
-/obj/structure/bed/chair{
-	dir = 1
-	},
 /obj/machinery/camera/network/fourth_deck{
 	dir = 4
 	},
@@ -4203,6 +4260,9 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/storage/mirror{
+	pixel_y = 35
+	},
 /obj/structure/hygiene/sink{
 	pixel_y = 24
 	},
@@ -4212,6 +4272,30 @@
 /obj/effect/landmark/test/space_turf,
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"qR" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "battledoors"
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/airless,
+/area/ship/wolf/command/bridge)
+"sq" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/railing/mapped,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "battledoors"
+	},
+/turf/simulated/floor/airless,
+/area/ship/wolf/command/bridge)
 "sr" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/grass,
@@ -4234,6 +4318,17 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
+"vn" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "battledoors"
+	},
+/turf/simulated/floor/airless,
+/area/ship/wolf/command/bridge)
 "vA" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 8
@@ -4340,7 +4435,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/garden)
 "Aq" = (
-/obj/machinery/media/jukebox,
+/obj/machinery/media/jukebox{
+	density = 0;
+	pixel_y = 22
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "Aw" = (
@@ -4358,6 +4456,18 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/wolf/command/bathroom)
+"AJ" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "battledoors"
+	},
+/turf/simulated/floor/airless,
+/area/ship/wolf/command/bridge)
 "Bf" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/wood/walnut,
@@ -4496,6 +4606,17 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway)
+"Fv" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "battledoors"
+	},
+/turf/simulated/floor/airless,
+/area/ship/wolf/command/bridge)
 "FJ" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
@@ -4606,6 +4727,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/garden)
+"Iq" = (
+/obj/effect/floor_decal/corner_techfloor_grid{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/ship/wolf/command/bridge)
 "Iu" = (
 /obj/machinery/papershredder,
 /obj/machinery/light,
@@ -4706,6 +4836,15 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/hallway)
+"Nl" = (
+/obj/effect/floor_decal/corner_techfloor_grid{
+	dir = 4
+	},
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/ship/wolf/command/bridge)
 "Nx" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/grass,
@@ -4740,6 +4879,9 @@
 /area/ship/wolf/command/meetingroom)
 "OZ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/item/storage/mirror{
+	pixel_y = 35
+	},
 /obj/structure/hygiene/sink{
 	pixel_y = 24
 	},
@@ -4841,6 +4983,9 @@
 "Tq" = (
 /obj/structure/table/woodentable/ebony,
 /obj/item/paper_bin,
+/obj/item/music_tape/custom,
+/obj/item/music_tape/custom,
+/obj/item/music_tape/custom,
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "Ug" = (
@@ -4878,6 +5023,10 @@
 	},
 /turf/simulated/floor/airless,
 /area/ship/wolf/command/office/captain/bedroom)
+"VW" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/simulated/floor/tiled/freezer,
+/area/ship/wolf/command/bathroom)
 "Wi" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4924,7 +5073,10 @@
 "Xm" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/keycard_auth,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "Xv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4954,6 +5106,9 @@
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/wolf/habitation/garden)
+"Yi" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/ship/wolf/command/bridge)
 "Yl" = (
 /obj/machinery/light{
 	dir = 8
@@ -4982,7 +5137,10 @@
 /obj/effect/landmark/start{
 	name = "Bridge Officer"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "Zn" = (
 /obj/structure/table/woodentable_reinforced/walnut/maple,
@@ -12429,11 +12587,11 @@ ab
 ab
 ab
 ad
-ad
+Fv
 eP
 eV
 fB
-gm
+Yi
 aG
 ay
 aE
@@ -12459,7 +12617,7 @@ jH
 Ug
 uY
 KO
-SS
+VW
 VJ
 Kl
 WH
@@ -12555,13 +12713,13 @@ ab
 aB
 ab
 ad
-ad
+AJ
 gm
 eN
 eQ
 eR
-gm
-aG
+Yi
+aR
 bk
 aE
 aF
@@ -12681,9 +12839,9 @@ ab
 ab
 ab
 ab
-ad
+sq
 gm
-gm
+Iq
 fd
 eY
 fe
@@ -13189,9 +13347,9 @@ ab
 ab
 ab
 ab
-ad
-gm
-gm
+sq
+iQ
+Nl
 eX
 eZ
 fa
@@ -13317,7 +13475,7 @@ eO
 eO
 eO
 eW
-eW
+qR
 hj
 hT
 hU
@@ -13445,7 +13603,7 @@ ab
 ab
 ab
 ad
-ad
+vn
 eT
 fA
 fF
