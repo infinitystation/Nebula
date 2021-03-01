@@ -2395,10 +2395,13 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "fI" = (
-/obj/machinery/inertial_damper,
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
+/obj/structure/window/borosilicate_reinforced{
+	dir = 1
+	},
+/obj/machinery/inertial_damper,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "fJ" = (
@@ -2406,6 +2409,9 @@
 /area/ship/wolf/command/office/bosun/bed)
 "fK" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/window/borosilicate_reinforced{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "fL" = (
@@ -2445,6 +2451,9 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
+/obj/structure/window/borosilicate_reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "fP" = (
@@ -2479,6 +2488,7 @@
 /obj/machinery/camera/network/engineering{
 	dir = 1
 	},
+/obj/structure/window/borosilicate_reinforced,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "fT" = (
@@ -2495,6 +2505,10 @@
 "fU" = (
 /obj/machinery/power/smes/buildable/preset/wolf/subgrid/atmos,
 /obj/structure/cable/green,
+/obj/structure/window/borosilicate_reinforced,
+/obj/structure/window/borosilicate_reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "fV" = (
@@ -2656,12 +2670,15 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/random/toolbox,
-/obj/random/toolbox,
-/obj/random/tool,
-/obj/structure/table/reinforced,
+/obj/machinery/suit_cycler/pilot,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/shuttle/gnat/cargo)
@@ -2716,6 +2733,10 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/structure/window/borosilicate_reinforced{
+	dir = 8
+	},
+/obj/structure/window/borosilicate_reinforced,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "gq" = (
@@ -4905,6 +4926,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/item/stool/padded,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/amidships/port)
 "kP" = (
@@ -5465,6 +5487,7 @@
 	},
 /obj/structure/catwalk,
 /obj/item/radio/intercom/bump/south,
+/obj/structure/window/borosilicate_reinforced,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "me" = (
@@ -5985,7 +6008,7 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
 "nx" = (
-/obj/structure/bed,
+/obj/structure/bed/padded,
 /obj/machinery/button/windowtint{
 	id_tag = "bosunbed";
 	pixel_y = 24
@@ -6563,7 +6586,6 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/salvage)
 "oJ" = (
-/obj/machinery/mining/brace,
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
@@ -6571,6 +6593,7 @@
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
 	},
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/general)
 "oK" = (
@@ -6845,7 +6868,7 @@
 /obj/effect/floor_decal/corner/brown{
 	dir = 6
 	},
-/obj/machinery/mining/brace,
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/general)
 "pp" = (
@@ -7050,6 +7073,7 @@
 /area/ship/wolf/shuttle/gnat/cockpit)
 "pY" = (
 /obj/structure/closet/crate/freezer,
+/obj/item/storage/firstaid/combat,
 /turf/simulated/floor/tiled/white/monotile,
 /area/ship/wolf/shuttle/gnat/passenger)
 "qe" = (
@@ -7140,7 +7164,7 @@
 /obj/effect/floor_decal/corner/brown/three_quarters{
 	dir = 4
 	},
-/obj/machinery/mining/drill,
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/general)
 "qX" = (
@@ -8380,6 +8404,9 @@
 	dir = 4
 	},
 /obj/structure/table/rack,
+/obj/random/toolbox,
+/obj/random/toolbox,
+/obj/random/tool,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/shuttle/gnat/cargo)
 "tE" = (
@@ -8510,6 +8537,12 @@
 /obj/machinery/recharge_station,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/shuttle/gnat/cargo)
@@ -9091,6 +9124,13 @@
 "xr" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/space)
+"xw" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/ship/wolf/hangar)
 "xN" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -9123,6 +9163,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenoarch/lab)
+"yi" = (
+/obj/machinery/status_display{
+	pixel_y = -32
+	},
+/obj/structure/flora/pottedplant/subterranean,
+/turf/simulated/floor/tiled,
+/area/ship/wolf/hallway/first_deck)
 "yp" = (
 /obj/machinery/door/airlock/autoname/wolf/research,
 /turf/simulated/floor/tiled/white,
@@ -9196,6 +9243,15 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenobio)
+"zb" = (
+/obj/item/stool/padded,
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckone/amidships/port)
+"zg" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/mining/drill,
+/turf/simulated/floor/tiled,
+/area/ship/wolf/cargo/general)
 "zF" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -9353,6 +9409,15 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/science_hall)
+"Da" = (
+/obj/structure/window/borosilicate_reinforced{
+	dir = 8
+	},
+/obj/structure/window/borosilicate_reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/engineering/inertial_damper)
 "Db" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/wolf/maintenance/deckone/amidships/port)
@@ -9578,6 +9643,15 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenobio)
+"Gt" = (
+/obj/structure/window/borosilicate_reinforced{
+	dir = 1
+	},
+/obj/structure/window/borosilicate_reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/engineering/inertial_damper)
 "Hc" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -9796,6 +9870,11 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/ship/wolf/command/office/rd/bed)
+"Lz" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/mining/brace,
+/turf/simulated/floor/tiled,
+/area/ship/wolf/cargo/general)
 "LO" = (
 /obj/machinery/door/blast/regular{
 	dir = 8;
@@ -9893,6 +9972,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft)
+"Oe" = (
+/obj/structure/table/steel,
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckone/amidships/port)
 "Of" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /obj/effect/floor_decal/corner/research{
@@ -9981,6 +10064,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/hallway/first_deck)
+"Pz" = (
+/obj/structure/window/borosilicate_reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/engineering/inertial_damper)
 "PL" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -10249,6 +10338,12 @@
 /obj/structure/stasis_cage,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/science_hall)
+"UU" = (
+/obj/structure/window/borosilicate_reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/engineering/inertial_damper)
 "Vn" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -10530,6 +10625,13 @@
 /obj/machinery/sleeper,
 /turf/simulated/floor/tiled/white/monotile,
 /area/ship/wolf/shuttle/gnat/passenger)
+"Ys" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/ship/wolf/hangar)
 "YK" = (
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
@@ -17179,7 +17281,7 @@ bx
 bx
 ns
 kZ
-by
+zb
 hd
 aq
 qj
@@ -17306,7 +17408,7 @@ bx
 lf
 nt
 by
-by
+Oe
 hd
 bM
 tp
@@ -17797,7 +17899,7 @@ cK
 cK
 cK
 bw
-Pm
+Ys
 sD
 bw
 VT
@@ -18051,7 +18153,7 @@ uD
 uI
 uM
 bw
-Pm
+xw
 uB
 bw
 as
@@ -19194,7 +19296,7 @@ gk
 te
 sM
 bw
-Pm
+xw
 kI
 bw
 aK
@@ -19362,7 +19464,7 @@ rq
 ph
 ph
 fG
-fH
+Da
 fK
 fM
 gp
@@ -19489,14 +19591,14 @@ ac
 rv
 rs
 fG
-fH
+Pz
 fH
 QZ
 fS
 bm
 bm
 aL
-pC
+yi
 bm
 bm
 mG
@@ -19732,7 +19834,7 @@ cA
 ei
 oq
 dF
-mg
+Lz
 mg
 mg
 oS
@@ -19743,8 +19845,8 @@ rx
 ro
 rH
 fG
-fH
-fH
+Gt
+UU
 fO
 fU
 bm
@@ -19859,7 +19961,7 @@ op
 mg
 mg
 mg
-mg
+zg
 pi
 po
 qW
@@ -19986,7 +20088,7 @@ cA
 ou
 mg
 ox
-mg
+Lz
 nc
 cx
 cx
