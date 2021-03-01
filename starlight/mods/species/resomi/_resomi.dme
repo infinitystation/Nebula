@@ -2,6 +2,7 @@
 #define MODPACK_RESOMI
 #include "_resomi.dm"
 #include "powers.dm"
+#include "game\objects\items\toys.dm"
 #include "clothing\accessory.dm"
 #include "clothing\clothing.dm"
 #include "clothing\equipment.dm"
