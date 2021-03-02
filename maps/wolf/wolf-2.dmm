@@ -1519,7 +1519,7 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 9
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
+/obj/machinery/door/airlock/double/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "dB" = (
@@ -2850,7 +2850,7 @@
 	id_tag = "ciclockdown"
 	},
 /turf/simulated/floor/tiled,
-/area/ship/wolf/hallway/second_deck)
+/area/ship/wolf/command/hallway/cic)
 "gz" = (
 /obj/machinery/light{
 	dir = 1
@@ -3431,7 +3431,6 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 6
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "hG" = (
@@ -7253,7 +7252,7 @@
 	id_tag = "ciclockdown"
 	},
 /turf/simulated/floor/tiled,
-/area/ship/wolf/hallway/second_deck)
+/area/ship/wolf/command/hallway/cic)
 "ph" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -8026,7 +8025,7 @@
 	id_tag = "ciclockdown"
 	},
 /turf/simulated/floor/tiled,
-/area/ship/wolf/hallway/second_deck)
+/area/ship/wolf/command/hallway/cic)
 "rf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -17680,7 +17679,7 @@ fW
 eN
 fv
 gi
-eY
+fD
 eY
 tS
 tG
@@ -17807,7 +17806,7 @@ sA
 eN
 BZ
 gj
-eY
+fD
 eY
 tz
 tz
