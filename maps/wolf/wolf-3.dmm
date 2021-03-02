@@ -31,7 +31,7 @@
 /area/ship/wolf/ladderwell)
 "af" = (
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "lib"
+	id = "wolf_library_tint"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -415,13 +415,10 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "bk" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "bl" = (
 /obj/machinery/atmospherics/valve/shutoff{
@@ -779,8 +776,13 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/observation)
 "cl" = (
-/turf/simulated/floor/tiled/dark/monotile,
-/area/ship/wolf/habitation/bar)
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/hologram/holopad,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/ship/wolf/habitation/kitchen)
 "cm" = (
 /obj/effect/floor_decal/corner/b_green{
 	dir = 6
@@ -930,7 +932,7 @@
 /obj/item/chems/food/condiment/flour,
 /obj/item/chems/food/condiment/flour,
 /obj/item/chems/food/condiment/salt,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "cF" = (
@@ -940,25 +942,16 @@
 /obj/machinery/atmospherics/binary/pump,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/atmospherics)
-"cG" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/obj/effect/landmark/start{
-	name = "Crewmember"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/ship/wolf/habitation/bar)
 "cH" = (
 /obj/machinery/cooker/oven,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "cI" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
-/area/ship/wolf/habitation/bar)
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/white,
+/area/ship/wolf/habitation/kitchen)
 "cJ" = (
 /obj/structure/cable/green{
 	icon_state = "0-4"
@@ -1093,9 +1086,6 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/hallway/third_deck/fore)
 "cX" = (
-/obj/effect/floor_decal/corner/yellow/three_quarters{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -1105,7 +1095,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/old_tile,
 /area/ship/wolf/security)
 "cY" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -1148,7 +1138,7 @@
 /area/ship/wolf/hallway/third_deck/fore)
 "db" = (
 /obj/machinery/cooker/fryer,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "dc" = (
@@ -1162,10 +1152,8 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/cryo/one)
 "dd" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/structure/table/standard,
-/obj/machinery/recharger,
+/obj/item/storage/box/checkers/chess/red,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/habitation/bar)
 "de" = (
@@ -1190,14 +1178,6 @@
 /obj/structure/closet/secure_closet/hydroponics,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/hydroponics)
-"dh" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/table/standard,
-/obj/item/binoculars,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/ship/wolf/habitation/bar)
 "di" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -1208,14 +1188,14 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "dj" = (
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /obj/structure/table/marble,
 /obj/machinery/cooker/cereal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "dk" = (
 /obj/structure/closet/secure_closet/freezer/meat,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "dl" = (
@@ -1259,7 +1239,7 @@
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/freezer/fridge,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "dp" = (
@@ -1367,6 +1347,8 @@
 /area/ship/wolf/habitation/bar)
 "dz" = (
 /obj/structure/disposalpipe/junction/mirrored,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "dA" = (
@@ -1378,7 +1360,10 @@
 	dir = 4;
 	pixel_x = -24
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "dC" = (
@@ -1401,7 +1386,10 @@
 /turf/simulated/wall/prepainted,
 /area/ship/wolf/habitation/observation)
 "dF" = (
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "dG" = (
@@ -1461,16 +1449,6 @@
 "dM" = (
 /turf/simulated/floor/tiled,
 /area/ship/wolf/command/hallway)
-"dN" = (
-/obj/effect/floor_decal/corner/red,
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/ship/wolf/security)
 "dO" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1517,22 +1495,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
-"dT" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/ship/wolf/habitation/kitchen)
-"dU" = (
-/obj/structure/bed/chair{
-	dir = 8
-	},
-/obj/effect/landmark/start{
-	name = "Crewmember"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/ship/wolf/habitation/bar)
 "dV" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -1545,13 +1507,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/shield_generator)
-"dX" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/ship/wolf/habitation/bar)
 "dY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1565,7 +1520,8 @@
 /obj/machinery/door/window/brigdoor/eastright{
 	id = "Cell 1"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/security)
 "dZ" = (
 /obj/structure/cable{
@@ -1580,10 +1536,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/hallway/upper)
 "ea" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "eb" = (
@@ -1608,10 +1561,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/security)
-"ed" = (
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/ship/wolf/habitation/bar)
 "ee" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -1628,7 +1577,7 @@
 /obj/structure/hygiene/sink/kitchen{
 	pixel_x = 32
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "eg" = (
@@ -1712,15 +1661,8 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/habitation/cryo/one)
 "eo" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/obj/effect/landmark/start{
-	name = "Crewmember"
-	},
+/obj/structure/table/standard,
+/obj/machinery/recharger,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/habitation/bar)
 "ep" = (
@@ -1748,6 +1690,8 @@
 	name = "bar door";
 	req_access = list("ACCESS_BAR")
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "er" = (
@@ -1850,7 +1794,6 @@
 "ez" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/table/marble,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/blast/shutters{
 	id_tag = "barshut"
 	},
@@ -1912,13 +1855,20 @@
 	icon_state = "0-2"
 	},
 /obj/structure/cable/green,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "eF" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "eG" = (
@@ -1981,7 +1931,7 @@
 	},
 /obj/structure/table/marble,
 /obj/machinery/microwave,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "eN" = (
@@ -1998,7 +1948,10 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/hydroponics)
 "eO" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/lino,
@@ -2046,10 +1999,6 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/hydroponics)
 "eT" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
@@ -2057,7 +2006,7 @@
 /obj/item/knife/kitchen/cleaver{
 	pixel_z = 4
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /obj/item/chems/food/condiment/enzyme,
 /obj/item/kitchen/rollingpin,
 /turf/simulated/floor/tiled/white,
@@ -2121,13 +2070,17 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/foreport)
 "eZ" = (
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "fa" = (
 /obj/machinery/cooker/grill,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /obj/item/radio/intercom/bump/north,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
@@ -2162,17 +2115,13 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/medical/operating/one)
 "fg" = (
-/obj/effect/floor_decal/corner/red,
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "fh" = (
 /obj/structure/cable/green,
@@ -2215,20 +2164,20 @@
 /turf/simulated/floor/carpet/green,
 /area/ship/wolf/habitation/observation)
 "fk" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
 	},
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "fl" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /obj/structure/table/marble,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /obj/machinery/reagent_temperature{
 	pixel_x = 8
 	},
@@ -2252,7 +2201,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "fo" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -2295,31 +2244,33 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "fu" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "fv" = (
-/obj/effect/floor_decal/corner/yellow/diagonal,
 /obj/structure/hygiene/toilet{
 	pixel_y = 10
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 16
+	},
+/turf/simulated/floor/tiled/old_tile,
 /area/ship/wolf/security)
 "fw" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/structure/table/standard,
+/obj/item/binoculars,
+/obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
-	},
-/obj/structure/bed/chair{
-	dir = 8
-	},
-/obj/effect/landmark/start{
-	name = "Crewmember"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/habitation/bar)
@@ -2357,10 +2308,12 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/wolf/security/armory)
 "fC" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "fD" = (
 /obj/machinery/power/apc{
@@ -2405,12 +2358,18 @@
 	},
 /obj/structure/table/marble,
 /obj/machinery/reagentgrinder/juicer,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "fG" = (
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
 	},
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
@@ -2571,9 +2530,6 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/medical/morgue)
 "fU" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
@@ -2584,7 +2540,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "fV" = (
 /obj/structure/cable/green{
@@ -2714,14 +2670,14 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
@@ -2821,7 +2777,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "gw" = (
 /obj/structure/cable{
@@ -2887,13 +2843,6 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/structure/table/marble,
 /obj/machinery/button/blast_door{
 	id_tag = "barshut";
 	name = "bar shutter control";
@@ -2901,19 +2850,22 @@
 	},
 /obj/machinery/fabricator/micro/bartender,
 /obj/item/stack/material/glass/ten,
-/turf/simulated/floor/lino,
-/area/ship/wolf/habitation/bar)
-"gC" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "gD" = (
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "gE" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -3028,13 +2980,6 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/table/marble,
 /obj/machinery/reagentgrinder/juicer,
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
@@ -3109,9 +3054,6 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical)
 "gX" = (
-/obj/effect/floor_decal/corner/yellow/three_quarters{
-	dir = 4
-	},
 /obj/structure/bed,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -3122,7 +3064,7 @@
 	pixel_y = -24
 	},
 /obj/item/radio/intercom/bump/east,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/old_tile,
 /area/ship/wolf/security)
 "gY" = (
 /obj/structure/cable/green{
@@ -3214,12 +3156,6 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
 /obj/structure/flora/pottedplant/orientaltree,
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
@@ -3247,11 +3183,11 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
 	},
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
@@ -3315,7 +3251,6 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/hallway/upper)
 "hp" = (
-/obj/effect/floor_decal/corner/yellow/borderfull,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
@@ -3329,7 +3264,13 @@
 /obj/machinery/camera/network/security{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_tile,
 /area/ship/wolf/security)
 "hq" = (
 /obj/machinery/newscaster/bump/north,
@@ -3340,9 +3281,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security/maa_office)
 "hs" = (
-/obj/effect/floor_decal/corner/yellow/three_quarters{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -3352,7 +3290,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/old_tile,
 /area/ship/wolf/security)
 "ht" = (
 /obj/machinery/suit_cycler/wolf/medical,
@@ -3656,7 +3594,6 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/aftport)
 "ib" = (
-/obj/effect/floor_decal/corner/red,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security)
@@ -3921,13 +3858,6 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/table/marble,
 /obj/machinery/camera/network/third_deck{
 	dir = 1
 	},
@@ -3935,6 +3865,9 @@
 /obj/item/music_tape/custom,
 /obj/item/music_tape/custom,
 /obj/item/music_tape/custom,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "iB" = (
@@ -3948,10 +3881,11 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /obj/effect/landmark/start{
 	name = "Mess Cook"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "iD" = (
@@ -4488,9 +4422,6 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "jF" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/emergency_dispenser/west,
@@ -4500,7 +4431,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "jG" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -4650,7 +4581,7 @@
 "jV" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "lib"
+	id = "wolf_library_tint"
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 8;
@@ -4858,18 +4789,14 @@
 /turf/simulated/floor/carpet/green,
 /area/ship/wolf/habitation/observation)
 "kq" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/newscaster/bump/west,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "kr" = (
-/obj/effect/floor_decal/corner/red,
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "ks" = (
 /obj/machinery/door/firedoor,
@@ -5241,9 +5168,6 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/aftport)
 "lg" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
@@ -5257,7 +5181,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "lh" = (
 /obj/machinery/door/firedoor,
@@ -5504,7 +5428,7 @@
 /area/ship/wolf/maintenance/deckthree/fore/starboard)
 "lJ" = (
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "lib"
+	id = "wolf_library_tint"
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open{
@@ -5622,7 +5546,7 @@
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /obj/machinery/camera/network/third_deck{
 	dir = 8
 	},
@@ -5858,10 +5782,12 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/foreport)
 "mt" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "mu" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
@@ -5979,16 +5905,16 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/cryo/one)
 "mF" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "mG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -6296,7 +6222,10 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/chemistry)
 "nq" = (
-/obj/structure/table/standard,
+/obj/structure/bed/chair,
+/obj/effect/landmark/start{
+	name = "Crewmember"
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/habitation/bar)
 "nr" = (
@@ -6376,6 +6305,8 @@
 /obj/machinery/door/airlock/autoname/wolf/civilian,
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/spline/plain/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "nw" = (
@@ -6507,12 +6438,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/eva)
-"nI" = (
-/obj/effect/floor_decal/corner/red,
-/obj/structure/table/steel_reinforced,
-/obj/machinery/recharger,
-/turf/simulated/floor/tiled/dark,
-/area/ship/wolf/security/lockers)
 "nJ" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -6532,8 +6457,9 @@
 /area/ship/wolf/eva)
 "nL" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/hologram/holopad,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "nM" = (
 /obj/structure/shuttle/engine/propulsion/burst/left{
@@ -6990,9 +6916,6 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/wolf/maintenance/deckthree/foreport)
 "oG" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/alarm{
@@ -7005,12 +6928,9 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "oH" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
@@ -7022,17 +6942,16 @@
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "oI" = (
-/obj/effect/floor_decal/corner/red,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "oJ" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -7070,7 +6989,10 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "oN" = (
@@ -7206,14 +7128,13 @@
 /turf/simulated/open,
 /area/ship/wolf/ladderwell)
 "pa" = (
-/obj/effect/floor_decal/corner/red,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "pb" = (
 /obj/machinery/door/airlock/civilian,
@@ -7378,14 +7299,13 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "pt" = (
-/obj/effect/floor_decal/corner/red,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "pu" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -7427,9 +7347,6 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical)
 "pz" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
@@ -7442,7 +7359,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "pA" = (
 /obj/effect/catwalk_plated/dark,
@@ -7455,9 +7372,6 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "pC" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
@@ -7577,11 +7491,10 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/security)
 "pO" = (
-/obj/effect/floor_decal/corner/red,
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/security)
 "pP" = (
 /obj/structure/disposalpipe/segment/bent{
@@ -7668,12 +7581,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "pZ" = (
+/obj/structure/closet/secure_closet/armsmen,
+/obj/effect/floor_decal/corner/red,
 /obj/effect/floor_decal/corner/red{
 	dir = 1
-	},
-/obj/effect/floor_decal/corner/red,
-/obj/machinery/vending/security{
-	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security/lockers)
@@ -7700,9 +7611,10 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/hallway/upper)
 "qb" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "qc" = (
@@ -8305,8 +8217,9 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/hallway/upper)
 "rp" = (
+/obj/structure/table/steel_reinforced,
+/obj/machinery/recharger,
 /obj/effect/floor_decal/corner/red,
-/obj/structure/closet/secure_closet/armsmen,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security/lockers)
 "rq" = (
@@ -8519,7 +8432,11 @@
 /obj/structure/disposalpipe/segment/bent{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "rK" = (
@@ -8541,7 +8458,7 @@
 	name = "bar shutter control";
 	pixel_y = -32
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /obj/structure/extinguisher_cabinet{
 	dir = 1;
 	pixel_x = 32
@@ -9543,16 +9460,16 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/table/marble,
-/obj/effect/floor_decal/spline/plain/black,
 /obj/machinery/fabricator/micro,
 /obj/machinery/door/blast/shutters{
 	id_tag = "kitchenshut"
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /obj/item/stack/material/aluminium/ten{
 	pixel_y = -4
 	},
 /obj/item/stack/material/glass/ten,
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "tP" = (
@@ -9622,35 +9539,33 @@
 "tW" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/marble,
-/obj/effect/floor_decal/spline/plain/black,
 /obj/machinery/door/blast/shutters{
 	id_tag = "kitchenshut"
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "tX" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/table/marble,
 /obj/item/chems/food/condiment/small/peppermill,
 /obj/item/chems/food/condiment/small/saltshaker,
-/obj/effect/floor_decal/spline/plain/black,
 /obj/machinery/door/blast/shutters{
 	id_tag = "kitchenshut"
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "tY" = (
 /obj/structure/table/marble,
 /obj/machinery/door/firedoor,
-/obj/effect/floor_decal/spline/plain/black,
 /obj/machinery/door/blast/shutters{
 	id_tag = "kitchenshut"
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "tZ" = (
@@ -9681,6 +9596,8 @@
 	icon_state = "1-8"
 	},
 /obj/effect/floor_decal/spline/plain/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "ud" = (
@@ -9694,16 +9611,6 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/hydroponics)
 "uf" = (
-/obj/item/stool/bar/padded,
-/obj/effect/floor_decal/spline/plain/black,
-/obj/effect/landmark/start{
-	name = "Passenger"
-	},
-/turf/simulated/floor/carpet/red,
-/area/ship/wolf/habitation/bar)
-"ug" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/item/stool/bar/padded,
 /obj/effect/floor_decal/spline/plain/black,
 /obj/effect/landmark/start{
@@ -9905,10 +9812,10 @@
 /obj/machinery/door/window/brigdoor/eastright{
 	id = "Cell 2"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/security)
 "uC" = (
-/obj/effect/floor_decal/corner/yellow/borderfull,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
@@ -9922,12 +9829,15 @@
 /obj/machinery/camera/network/security{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/ship/wolf/security)
-"uD" = (
-/obj/effect/floor_decal/corner/yellow/three_quarters{
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
 	dir = 8
 	},
+/turf/simulated/floor/tiled/old_tile,
+/area/ship/wolf/security)
+"uD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -9937,7 +9847,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/old_tile,
 /area/ship/wolf/security)
 "uE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -9952,10 +9862,10 @@
 /obj/machinery/door/window/brigdoor/eastright{
 	id = "Cell 3"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/security)
 "uF" = (
-/obj/effect/floor_decal/corner/yellow/borderfull,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
@@ -9969,7 +9879,13 @@
 /obj/machinery/camera/network/security{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_tile,
 /area/ship/wolf/security)
 "uG" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -10564,13 +10480,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/plating,
 /area/ship/wolf/security)
-"vR" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/table/standard,
-/obj/item/cell/crap/empty,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/ship/wolf/habitation/bar)
 "vS" = (
 /obj/structure/catwalk,
 /obj/machinery/light/small/red{
@@ -11391,11 +11300,9 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/aftport)
 "yh" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/table/standard,
-/obj/item/storage/box/checkers/chess/red{
-	pixel_x = 9
+/obj/item/storage/box/checkers/chess{
+	pixel_y = 10
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/habitation/bar)
@@ -11407,6 +11314,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/hallway/third_deck/fore)
+"yT" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/landmark/start{
+	name = "Crewmember"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/wolf/habitation/bar)
 "zw" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -11421,6 +11337,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/chemistry)
+"Ar" = (
+/obj/structure/closet/secure_closet/armsmen,
+/obj/effect/floor_decal/corner/red,
+/turf/simulated/floor/tiled/dark,
+/area/ship/wolf/security/lockers)
 "BB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -11461,11 +11382,21 @@
 	},
 /obj/machinery/camera/network/third_deck,
 /obj/machinery/button/windowtint{
-	id_tag = "id";
+	id_tag = "wolf_library_tint";
 	pixel_y = 24
 	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/habitation/observation)
+"EJ" = (
+/obj/machinery/hologram/holopad,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/ship/wolf/habitation/bar)
 "Gb" = (
 /obj/effect/floor_decal/corner/b_green{
 	dir = 6
@@ -11480,6 +11411,13 @@
 /obj/random/maintenance,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/aft/starboard)
+"GN" = (
+/obj/machinery/vending/security{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red,
+/turf/simulated/floor/tiled/dark,
+/area/ship/wolf/security/lockers)
 "GU" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -11587,6 +11525,14 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/aft/starboard)
+"MR" = (
+/obj/structure/table/standard,
+/obj/item/cell/crap/empty,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/wolf/habitation/bar)
 "Ne" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -11766,9 +11712,6 @@
 /area/ship/wolf/science/network_closet/third_deck)
 "Wf" = (
 /obj/structure/table/standard,
-/obj/item/storage/box/checkers/chess{
-	pixel_x = -9
-	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/habitation/bar)
 "XE" = (
@@ -17861,9 +17804,9 @@ cQ
 cC
 oO
 pZ
-nI
+Ar
 rp
-rp
+GN
 oP
 hd
 hv
@@ -18237,7 +18180,7 @@ aa
 aH
 hJ
 cC
-dN
+kr
 pa
 pt
 kr
@@ -20133,13 +20076,13 @@ bZ
 cH
 dF
 eM
-dF
+qb
 tW
 ch
-cG
+nq
 eo
-cG
-cG
+Wf
+yT
 gv
 uf
 sz
@@ -20258,17 +20201,17 @@ pv
 oV
 bZ
 fa
-dT
+ea
 eT
 qb
 tX
-cI
-mt
+ch
+nq
 dd
 yh
-vR
+yT
 mF
-ug
+uf
 ez
 eZ
 gB
@@ -20387,17 +20330,17 @@ bZ
 db
 ea
 fl
-dF
+cl
 tY
 ch
 nq
-dh
 Wf
-nq
-gC
+Wf
+yT
+mF
 uf
 ev
-fk
+EJ
 gP
 ax
 hx
@@ -20512,16 +20455,16 @@ px
 po
 bZ
 dj
-dF
+ea
 fF
-dF
+qb
 eP
 ch
-dU
+nq
 fw
-dU
-dU
-gC
+MR
+yT
+mF
 uf
 ev
 fk
@@ -20639,15 +20582,15 @@ lD
 sY
 cd
 dk
-dF
+cI
 iC
 rJ
 nv
 dz
-ed
-dX
 nL
-ed
+fC
+mt
+nL
 gD
 uk
 eC
@@ -20771,11 +20714,11 @@ lT
 rL
 cd
 eU
-cl
-fC
-cl
-cl
-cl
+ch
+ch
+ch
+ch
+ch
 ul
 eD
 fG
