@@ -216,6 +216,8 @@
 
 /mob/proc/Life()
 	SHOULD_NOT_SLEEP(TRUE)
+	if(ability_master)
+		ability_master.update_spells(0)
 
 #define UNBUCKLED 0
 #define PARTIALLY_BUCKLED 1
@@ -1092,3 +1094,6 @@
 			to_chat(user, SPAN_WARNING("\The [src] cannot use that, as they are dead."))
 		return FALSE
 	return TRUE
+
+/mob/proc/get_species()
+	return
