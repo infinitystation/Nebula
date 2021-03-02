@@ -1787,7 +1787,6 @@
 /area/supply_station)
 "En" = (
 /obj/structure/table/woodentable/mahogany,
-/obj/item/mop,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -2349,6 +2348,7 @@
 "Qt" = (
 /obj/structure/table/woodentable/mahogany,
 /obj/machinery/light,
+/obj/item/music_player/boombox,
 /turf/simulated/floor/carpet/red,
 /area/supply_station)
 "Qx" = (

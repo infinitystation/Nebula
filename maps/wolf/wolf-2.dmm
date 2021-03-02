@@ -3463,6 +3463,7 @@
 /obj/structure/cable{
 	icon_state = "32-8"
 	},
+/obj/structure/lattice,
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
 	dir = 4
@@ -6827,7 +6828,13 @@
 /area/ship/wolf/engineering/reactor)
 "nP" = (
 /obj/machinery/vending/engineering{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
 	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering)
@@ -7778,6 +7785,9 @@
 /area/ship/wolf/engineering)
 "qe" = (
 /obj/machinery/vending/engivend{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,

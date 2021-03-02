@@ -3490,6 +3490,8 @@
 	dir = 9
 	},
 /obj/machinery/washing_machine,
+/obj/item/storage/box/detergent,
+/obj/item/storage/box/detergent,
 /turf/simulated/floor/tiled/freezer,
 /area/ship/wolf/habitation/bathroom/one)
 "hP" = (
