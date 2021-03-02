@@ -115,7 +115,8 @@
 "aI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/carpet/green,
+/obj/structure/table/woodentable/mahogany,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "aJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -127,17 +128,25 @@
 	dir = 4
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "aK" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/green,
+/obj/machinery/button/blast_door{
+	desc = "It controls shutters.";
+	id_tag = "wolf_supplycabone";
+	name = "shutters control";
+	pixel_x = -8;
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "aL" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/carpet/green,
+/obj/structure/table/woodentable/mahogany,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aM" = (
 /obj/effect/decal/cleanable/generic,
@@ -150,7 +159,7 @@
 "aN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/secure_closet/personal/cabinet,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -162,7 +171,7 @@
 	dir = 6;
 	icon_state = "intact-supply"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -173,16 +182,16 @@
 	dir = 4
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aQ" = (
-/obj/structure/bed,
+/obj/structure/bed/padded,
 /obj/item/bedsheet/hos,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9;
 	icon_state = "intact-supply"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -659,13 +668,13 @@
 /area/supply_station)
 "eb" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bed,
+/obj/structure/bed/padded,
 /obj/item/bedsheet/rd,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5;
 	icon_state = "intact-supply"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "ed" = (
 /obj/machinery/door/airlock/civilian{
@@ -775,7 +784,14 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/green,
+/obj/machinery/button/blast_door{
+	desc = "It controls shutters.";
+	id_tag = "wolf_supplycabtwo";
+	name = "shutters control";
+	pixel_x = 8;
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "gA" = (
 /obj/effect/floor_decal/corner/red/diagonal,
@@ -851,7 +867,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "ik" = (
-/obj/structure/reagent_dispensers/watertank,
+/obj/item/mop,
+/obj/structure/mopbucket,
+/obj/item/chems/glass/bucket,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "ip" = (
@@ -987,6 +1005,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/supply_station)
+"lU" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "mc" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "ts_big_airlock_int"
@@ -1015,7 +1040,7 @@
 /area/supply_station)
 "mx" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "mB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1044,6 +1069,7 @@
 /obj/effect/floor_decal/industrial/radiation/corner{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "mP" = (
@@ -1084,13 +1110,24 @@
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "nF" = (
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
+/area/supply_station)
+"nO" = (
+/obj/effect/decal/cleanable/blood/oil/streak,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "nQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/corner/yellow{
 	dir = 1
 	},
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
+"nR" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "oi" = (
@@ -1129,6 +1166,14 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
+"pu" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters{
+	id_tag = "wolf_supplycabtwo"
+	},
+/turf/simulated/floor/plating,
+/area/supply_station)
 "pz" = (
 /obj/machinery/network/router{
 	initial_network_id = "tradenet"
@@ -1154,6 +1199,14 @@
 /obj/item/storage/mre/menu11/special,
 /obj/item/chems/food/drinks/dry_ramen,
 /turf/simulated/floor/tiled/techfloor/grid,
+/area/supply_station)
+"qx" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters{
+	id_tag = "wolf_supplycabone"
+	},
+/turf/simulated/floor/plating,
 /area/supply_station)
 "qC" = (
 /obj/machinery/power/tracker,
@@ -1378,7 +1431,14 @@
 /area/supply_station)
 "tQ" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
+/area/supply_station)
+"ue" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/bed/chair/wood/wings/mahogany{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "uh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1412,6 +1472,7 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/blood/oil/streak,
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "vA" = (
@@ -1422,6 +1483,13 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
+"vW" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/blood/oil/streak,
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "wf" = (
@@ -1462,6 +1530,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/decal/cleanable/blood/oil/streak,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "xE" = (
@@ -1473,6 +1542,13 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
+/area/supply_station)
+"xT" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "yg" = (
 /obj/machinery/power/tracker,
@@ -1567,6 +1643,16 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
+"zY" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/blood/oil/streak,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "Ad" = (
 /obj/effect/catwalk_plated/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1584,6 +1670,7 @@
 "Am" = (
 /obj/structure/table/rack,
 /obj/random/cash,
+/obj/item/minihoe,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "Bd" = (
@@ -1628,7 +1715,7 @@
 	dir = 10;
 	icon_state = "intact-supply"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "BE" = (
 /obj/structure/cable/yellow{
@@ -1686,14 +1773,20 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
+"Dz" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/blood/oil/streak,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "El" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/standard,
+/obj/machinery/vending/cigarette,
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
 "En" = (
-/obj/structure/table/standard,
-/obj/item/mop,
+/obj/structure/table/woodentable/mahogany,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -2004,6 +2097,13 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/supply_station)
+"LP" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "Mg" = (
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
@@ -2145,7 +2245,10 @@
 /area/supply_station)
 "OD" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/carpet/green,
+/obj/structure/bed/chair/wood/wings/mahogany{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "OM" = (
 /obj/structure/cable/yellow{
@@ -2245,6 +2348,7 @@
 "Qt" = (
 /obj/structure/table/woodentable/mahogany,
 /obj/machinery/light,
+/obj/item/music_player/boombox,
 /turf/simulated/floor/carpet/red,
 /area/supply_station)
 "Qx" = (
@@ -2281,6 +2385,10 @@
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating,
 /area/supply_station)
+"SG" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/supply_station)
 "ST" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/structure/closet/secure_closet/freezer/meat,
@@ -2302,10 +2410,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/supply_station)
+"Ur" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "UF" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/cooker/cereal,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/table/marble,
 /turf/simulated/floor/tiled/white,
 /area/supply_station)
 "US" = (
@@ -2340,6 +2459,9 @@
 	dir = 4;
 	icon_state = "map_vent_out"
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "Vd" = (
@@ -2361,6 +2483,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "Vj" = (
@@ -2372,6 +2497,7 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
 	},
+/obj/effect/decal/cleanable/blood/oil/streak,
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "Vr" = (
@@ -2389,6 +2515,13 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating,
+/area/supply_station)
+"Vw" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "VU" = (
 /obj/effect/floor_decal/corner/b_green{
@@ -2489,8 +2622,8 @@
 	dir = 8;
 	icon_state = "map_scrubber_on"
 	},
-/obj/machinery/light{
-	dir = 4
+/obj/structure/hygiene/sink/kitchen{
+	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/white,
 /area/supply_station)
@@ -2503,8 +2636,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/machinery/light{
-	dir = 8
+/obj/structure/hygiene/sink{
+	dir = 8;
+	pixel_x = -16
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
@@ -9121,7 +9255,7 @@ pz
 bJ
 mB
 sh
-yJ
+xT
 bJ
 CL
 HG
@@ -9872,7 +10006,7 @@ aa
 aa
 aa
 aa
-Ko
+qx
 aI
 eb
 bJ
@@ -9880,10 +10014,10 @@ ba
 bI
 Qg
 Qg
-Qg
+lU
 nQ
 tH
-fB
+LP
 Qg
 Qg
 IB
@@ -9999,7 +10133,7 @@ aa
 aa
 aa
 aa
-Ko
+qx
 OD
 aJ
 bJ
@@ -10015,7 +10149,7 @@ zf
 zf
 Je
 Mr
-yJ
+xT
 bJ
 TE
 WY
@@ -10394,7 +10528,7 @@ zc
 zc
 zc
 bJ
-bn
+Ur
 Ng
 Qb
 QG
@@ -10508,7 +10642,7 @@ Qg
 uk
 aF
 Qg
-Qg
+lU
 Qg
 aF
 Fz
@@ -10757,13 +10891,13 @@ mc
 cb
 Ox
 bk
-Oz
+Dz
 Vj
-Ox
+zY
 Wq
 Oz
 Oz
-Oz
+nR
 Wq
 bh
 Ad
@@ -10777,7 +10911,7 @@ zc
 bJ
 mB
 Nn
-yJ
+xT
 bJ
 Vb
 Yg
@@ -11151,14 +11285,14 @@ cr
 fB
 hi
 jt
-Qg
+vW
 vj
 jt
-Qg
+lU
 EZ
 KN
 Ad
-yJ
+xT
 bJ
 VU
 YU
@@ -11269,11 +11403,11 @@ aa
 aa
 aa
 aa
-Ko
-OD
+pu
+ue
 aP
 bJ
-bn
+Ur
 ct
 fE
 hm
@@ -11396,13 +11530,13 @@ aa
 aa
 aa
 aa
-Ko
+pu
 aL
 aQ
 bJ
 bp
 cJ
-Oz
+nR
 Oz
 jQ
 ZM
@@ -11410,7 +11544,7 @@ vA
 Oz
 Bo
 ZM
-Oz
+nR
 Oz
 Qr
 bJ
@@ -11787,7 +11921,7 @@ bJ
 hR
 kF
 pc
-pc
+SG
 pc
 Cb
 GH
@@ -12294,10 +12428,10 @@ bJ
 bJ
 jk
 mi
-pc
+nO
 xo
-pc
-mi
+nO
+Vw
 bJ
 bJ
 bJ
