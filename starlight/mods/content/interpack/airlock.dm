@@ -3,6 +3,6 @@
 	open_failure_access_denied = 'starlight/mods/content/interpack/sound/obj/machinery/airlock_deny.ogg'
 	close_sound_powered = 'starlight/mods/content/interpack/sound/obj/machinery/airlock_close.ogg'
 
-/obj/machinery/door/airlock/multi_tile/glass
+/obj/machinery/door/airlock/double/glass
 	open_sound_powered = 'starlight/mods/content/interpack/sound/obj/machinery/maint_open.ogg'
 	close_sound_powered = 'starlight/mods/content/interpack/sound/obj/machinery/maint_close.ogg'

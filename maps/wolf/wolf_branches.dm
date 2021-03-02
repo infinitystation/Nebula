@@ -20,8 +20,7 @@
 			/datum/mil_branch/exoplanetary_affairs
 		),
 		/decl/species/vox = list(
-			/datum/mil_branch/exoplanetary_affairs,
-			/datum/mil_branch/civilian
+			/datum/mil_branch/exoplanetary_affairs
 		)
 	)
 

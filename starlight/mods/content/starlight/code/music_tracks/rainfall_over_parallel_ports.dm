@@ -1,4 +1,4 @@
-/music_track/rainfall_over_parallel_ports
+/decl/music_track/rainfall_over_parallel_ports
 	artist = "Simon Stalenhag"
 	title = "Rainfall Over Parallel Ports"
 	album = "Music For DOS"

@@ -2492,7 +2492,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge/cic)
 "fM" = (
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/security/weapons_bay/three)
 "fN" = (
@@ -3300,7 +3300,7 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "hw" = (
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/security/weapons_bay/three)
 "hx" = (
@@ -3599,7 +3599,7 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "hX" = (
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/plating,
 /area/ship/wolf/security/weapons_bay/two)
@@ -4116,7 +4116,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 8
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/bridge/cic)
 "iM" = (
@@ -4647,7 +4647,7 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 4
 	},
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/bridge/cic)
 "jJ" = (
@@ -5309,7 +5309,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /obj/effect/floor_decal/corner/orange,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
@@ -6722,7 +6722,7 @@
 	dir = 1;
 	id_tag = "eng_eva_pump"
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/hallway)
 "nW" = (
@@ -6730,7 +6730,7 @@
 	dir = 1;
 	id_tag = "eng_eva_pump"
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/hallway)
 "nX" = (
@@ -6945,7 +6945,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
 	},
@@ -7029,7 +7029,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
 	},
@@ -7271,7 +7271,7 @@
 /obj/structure/disposalpipe/segment/bent{
 	dir = 1
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/hallway/cic)
 "pj" = (
@@ -7301,7 +7301,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "pn" = (
@@ -7777,7 +7777,7 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/port)
 "qx" = (
-/obj/machinery/door/airlock/multi_tile/maintenance,
+/obj/machinery/door/airlock/double/maintenance,
 /obj/machinery/door/firedoor,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -8325,7 +8325,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /obj/effect/floor_decal/corner/green{
 	dir = 10
 	},
@@ -8348,7 +8348,7 @@
 /obj/machinery/light/small/red{
 	dir = 4
 	},
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /turf/simulated/floor/plating,
 /area/ship/wolf/escape_pod/one)
 "rY" = (
@@ -8358,7 +8358,7 @@
 /obj/machinery/light/small/red{
 	dir = 8
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /turf/simulated/floor/plating,
 /area/ship/wolf/escape_pod/two)
 "rZ" = (
@@ -8375,7 +8375,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /obj/effect/floor_decal/corner/green/three_quarters,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
@@ -9487,7 +9487,7 @@
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},

@@ -18,7 +18,7 @@
 /obj/item/music_tape/Initialize()
 	. = ..()
 
-	if(ispath(track, /music_track))
+	if(ispath(track, /decl/music_track))
 		track = pick(setup_music_tracks(track))
 
 	if(random_color)
