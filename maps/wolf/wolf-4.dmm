@@ -211,14 +211,13 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "aH" = (
+/obj/effect/floor_decal/borderfloorblack/corner{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway)
 "aI" = (
 /turf/simulated/wall/prepainted,
-/area/ship/wolf/command/hallway)
-"aJ" = (
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
 /area/ship/wolf/command/hallway)
 "aK" = (
 /obj/effect/paint/black,
@@ -287,6 +286,9 @@
 /area/ship/wolf/command/bridge)
 "aS" = (
 /obj/effect/floor_decal/corner/b_green/half{
+	dir = 8
+	},
+/obj/effect/floor_decal/borderfloorblack{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -640,6 +642,7 @@
 	id_tag = "Solars Output"
 	},
 /obj/structure/cable/yellow,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/solars)
 "bE" = (
@@ -934,6 +937,9 @@
 /area/ship/wolf/command/hallway)
 "ch" = (
 /obj/effect/floor_decal/corner/b_green/half{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloorblack{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -1052,6 +1058,9 @@
 	},
 /obj/structure/disposalpipe/segment/bent{
 	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway)
@@ -1311,9 +1320,11 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/wolf/engineering/utility_shaft)
 "cP" = (
-/obj/effect/catwalk_plated/dark,
 /obj/machinery/light,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/hallway)
 "cQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1335,11 +1346,11 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/obj/structure/disposalpipe/junction{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway)
@@ -1487,6 +1498,7 @@
 	},
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/disposal,
+/obj/effect/floor_decal/borderfloorblack/corner,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway)
 "de" = (
@@ -1534,7 +1546,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
@@ -1571,7 +1582,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/airlock/autoname/wolf/command,
-/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/wood,
 /area/ship/wolf/command/office/xo/bedroom)
 "do" = (
@@ -1591,9 +1601,6 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/structure/dogbed,
@@ -1722,7 +1729,8 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/ship/wolf/command/bridge)
 "dD" = (
-/obj/effect/floor_decal/corner/b_green/bordercorner{
+/obj/effect/floor_decal/corner/b_green/three_quarters,
+/obj/effect/floor_decal/borderfloorblack/corner{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -1764,9 +1772,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/structure/disposalpipe/segment/bent{
-	dir = 8
-	},
 /turf/simulated/floor/wood,
 /area/ship/wolf/command/office/xo/bedroom)
 "dI" = (
@@ -2093,13 +2098,10 @@
 /turf/simulated/floor/airless,
 /area/space)
 "el" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/machinery/disposal,
+/obj/structure/table/woodentable/maple,
 /turf/simulated/floor/wood,
 /area/ship/wolf/command/office/xo/bedroom)
 "em" = (
@@ -2187,6 +2189,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/solars)
 "et" = (
@@ -2319,6 +2322,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/autoname/wolf/engineering,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/solars)
 "eD" = (
@@ -2334,6 +2338,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/solars)
 "eE" = (
@@ -2430,7 +2435,10 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge)
 "eN" = (
-/obj/effect/floor_decal/corner/orange/half,
+/obj/effect/floor_decal/corner/orange/half{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack,
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 1
 	},
@@ -2462,9 +2470,10 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/ship/wolf/command/bridge)
 "eR" = (
-/obj/effect/floor_decal/corner/orange/half{
+/obj/effect/floor_decal/borderfloorblack{
 	dir = 1
 	},
+/obj/effect/floor_decal/corner/orange/half,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "eS" = (
@@ -2519,14 +2528,20 @@
 /turf/simulated/floor/airless,
 /area/ship/wolf/command/bridge)
 "eX" = (
-/obj/effect/floor_decal/corner/red/bordercorner,
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 8
+	},
+/obj/effect/floor_decal/borderfloorblack/corner,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "eY" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/orange/half{
+/obj/effect/floor_decal/corner/orange{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloorblack{
 	dir = 8
 	},
 /obj/effect/floor_decal/corner_techfloor_grid,
@@ -2537,7 +2552,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/red/half{
+/obj/effect/floor_decal/corner/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack{
 	dir = 4
 	},
 /obj/effect/floor_decal/corner_techfloor_grid{
@@ -2549,7 +2567,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fa" = (
-/obj/effect/floor_decal/corner/red/bordercorner{
+/obj/effect/floor_decal/corner/red,
+/obj/effect/floor_decal/borderfloorblack/corner{
 	dir = 4
 	},
 /obj/effect/floor_decal/techfloor{
@@ -2561,25 +2580,35 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fb" = (
-/obj/effect/floor_decal/corner/b_green/half{
+/obj/effect/floor_decal/corner/b_green/half,
+/obj/effect/floor_decal/borderfloorblack{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fc" = (
-/obj/effect/floor_decal/corner/b_green/bordercorner{
+/obj/effect/floor_decal/corner/b_green/three_quarters{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloorblack/corner{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fd" = (
-/obj/effect/floor_decal/corner/orange/bordercorner{
+/obj/effect/floor_decal/corner/orange/three_quarters{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack/corner{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fe" = (
-/obj/effect/floor_decal/corner/orange/bordercorner{
+/obj/effect/floor_decal/corner/orange{
+	dir = 8
+	},
+/obj/effect/floor_decal/borderfloorblack/corner{
 	dir = 1
 	},
 /obj/effect/floor_decal/techfloor{
@@ -3170,7 +3199,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "gn" = (
 /obj/structure/disposalpipe/trunk{
@@ -3649,7 +3678,7 @@
 	dir = 5
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "hk" = (
 /obj/structure/cable/green{
@@ -3936,7 +3965,10 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "hT" = (
-/obj/effect/floor_decal/corner/red/half,
+/obj/effect/floor_decal/corner/red/half{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack,
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
@@ -3958,7 +3990,8 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/ship/wolf/command/bridge)
 "hV" = (
-/obj/effect/floor_decal/corner/red/half{
+/obj/effect/floor_decal/corner/red/half,
+/obj/effect/floor_decal/borderfloorblack{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -4157,7 +4190,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "iU" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -4332,7 +4365,7 @@
 	dir = 9
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "sr" = (
 /obj/structure/flora/ausbushes/ppflowers,
@@ -4738,7 +4771,7 @@
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "Iu" = (
 /obj/machinery/papershredder,
@@ -4849,7 +4882,7 @@
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "Nx" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -5083,7 +5116,7 @@
 /obj/machinery/button/blast_door{
 	dir = 4;
 	id_tag = "wolf_sensorblast";
-	name = "battle shutter control";
+	name = "sensor shutter control";
 	pixel_x = -28
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -12613,7 +12646,7 @@ fI
 dr
 ao
 cK
-aJ
+hb
 aO
 bj
 cQ

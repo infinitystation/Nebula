@@ -206,7 +206,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering)
 "aC" = (
 /obj/structure/cable{
@@ -469,9 +470,12 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics)
 "bj" = (
-/obj/effect/catwalk_plated/dark,
 /obj/random_multi/single_item/palmers,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/bridge/cic)
 "bk" = (
 /obj/effect/floor_decal/corner/orange{
@@ -508,7 +512,7 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/security/hallway/weapons_bay/port)
 "bo" = (
-/obj/effect/floor_decal/borderfloorblack/corner{
+/obj/effect/floor_decal/borderfloorblack{
 	dir = 1
 	},
 /obj/machinery/newscaster/bump/north,
@@ -612,6 +616,9 @@
 	name = "battle shutter control";
 	pixel_y = 32
 	},
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge/cic)
 "bB" = (
@@ -664,9 +671,12 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/security/hallway/weapons_bay/port)
 "bI" = (
-/obj/effect/catwalk_plated/dark,
 /obj/item/radio/intercom/bump/north,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/orange/three_quarters{
+	dir = 8;
+	icon_state = "corner_white_three_quarters"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/EVA)
 "bJ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
@@ -1099,7 +1109,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering)
 "cK" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
@@ -1113,8 +1124,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/atmospherics)
 "cL" = (
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/orange{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/EVA)
 "cM" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -1216,9 +1229,11 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "cW" = (
-/obj/effect/catwalk_plated/dark,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge/cic)
 "cX" = (
 /obj/machinery/atmospherics/pipe/zpipe/down,
@@ -1258,7 +1273,8 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering)
 "db" = (
 /obj/structure/cable/green{
@@ -1696,7 +1712,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering/smes)
 "dR" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
@@ -1740,7 +1757,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering/smes)
 "dW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1802,18 +1820,20 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "ee" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
 	},
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
-/area/ship/wolf/engineering)
+/obj/effect/floor_decal/borderfloorblack,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/wolf/command/bridge/cic)
 "ef" = (
-/obj/effect/catwalk_plated/dark,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge/cic)
 "eg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1921,7 +1941,8 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering)
 "es" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1985,6 +2006,9 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "ex" = (
@@ -2004,6 +2028,9 @@
 "ez" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/newscaster/bump/north,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/hallway/cic)
 "eA" = (
@@ -2125,6 +2152,9 @@
 /area/ship/wolf/command/bridge/cic)
 "eO" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/hallway/cic)
 "eP" = (
@@ -2135,6 +2165,9 @@
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge/cic)
@@ -2148,11 +2181,14 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 32
 	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "eS" = (
-/obj/effect/floor_decal/borderfloorblack/corner{
-	dir = 4
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
 	},
 /obj/item/radio/intercom/bump/north,
 /obj/structure/cable/green{
@@ -2385,8 +2421,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/bridge/cic)
 "ft" = (
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge/cic)
 "fu" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2401,8 +2439,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "fv" = (
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "fw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2414,6 +2454,10 @@
 /obj/structure/disposalpipe/segment/bent{
 	dir = 8
 	},
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge/cic)
 "fx" = (
@@ -2427,14 +2471,17 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering)
 "fy" = (
-/obj/effect/catwalk_plated/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/bridge/cic)
 "fz" = (
 /obj/structure/cable{
@@ -2537,7 +2584,7 @@
 	dir = 8
 	},
 /obj/structure/ship_munition/disperser_charge/emp,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "fQ" = (
 /obj/effect/floor_decal/industrial/outline/blue,
@@ -2548,7 +2595,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "fR" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2557,7 +2604,7 @@
 	},
 /obj/structure/ship_munition/disperser_charge/mining,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "fS" = (
 /obj/structure/cable/green{
@@ -2645,7 +2692,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/hallway/cic)
 "gc" = (
 /obj/structure/cable/green{
@@ -2666,7 +2714,7 @@
 	dir = 8
 	},
 /obj/structure/ship_munition/disperser_charge/mining,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "ge" = (
 /obj/machinery/alarm{
@@ -2676,7 +2724,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "gf" = (
 /obj/machinery/camera/network/security{
@@ -2685,8 +2733,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "gg" = (
 /obj/machinery/light{
@@ -2720,7 +2767,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/hallway/cic)
 "gj" = (
 /obj/structure/cable/green{
@@ -2739,7 +2787,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/hallway/cic)
 "gk" = (
 /obj/structure/ladder,
@@ -2796,7 +2845,8 @@
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment/bent,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/hallway/cic)
 "gq" = (
 /obj/effect/floor_decal/industrial/outline/orange,
@@ -2804,14 +2854,14 @@
 	dir = 8
 	},
 /obj/structure/ship_munition/disperser_charge/explosive,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "gr" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/structure/closet/medical_wall/filled{
 	pixel_y = 32
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/monotile,
 /area/ship/wolf/command/ofdstorage)
 "gs" = (
 /turf/simulated/floor/blackgrid,
@@ -2834,7 +2884,7 @@
 	dir = 4
 	},
 /obj/structure/ship_munition/disperser_charge/explosive,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "gv" = (
 /obj/random/maintenance,
@@ -2873,7 +2923,10 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/ship/wolf/command/ofdstorage)
 "gA" = (
 /obj/structure/cable{
@@ -2910,6 +2963,9 @@
 	},
 /obj/machinery/power/apc{
 	dir = 8
+	},
+/obj/effect/floor_decal/borderfloor/corner{
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
@@ -2964,11 +3020,13 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/security/hallway/weapons_bay/starboard)
 "gJ" = (
-/obj/effect/catwalk_plated/dark,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "gK" = (
 /obj/structure/cable/green{
@@ -3224,7 +3282,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "hm" = (
 /obj/structure/cable{
@@ -3474,11 +3532,10 @@
 /turf/simulated/open,
 /area/ship/wolf/engineering/engine_room)
 "hH" = (
-/obj/effect/catwalk_plated/dark,
 /obj/effect/landmark/start{
 	name = "Engineer"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/EVA)
 "hI" = (
 /obj/structure/cable/green{
@@ -3516,7 +3573,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "hM" = (
 /obj/machinery/disperser/front{
@@ -3644,14 +3704,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 5
 	},
-/obj/effect/catwalk_plated/dark,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/machinery/computer/drone_control{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering)
 "hZ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
@@ -3685,6 +3744,10 @@
 /obj/structure/bed/chair/shuttle/black{
 	dir = 1
 	},
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge/cic)
 "ic" = (
@@ -3766,6 +3829,9 @@
 "ij" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 9
 	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
@@ -3913,17 +3979,12 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/engineering)
 "iv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 4
+/obj/item/radio/intercom/bump/north,
+/obj/effect/floor_decal/borderfloorblack/corner{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/ship/wolf/engineering)
+/area/ship/wolf/command/hallway/cic)
 "iw" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4043,7 +4104,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering)
 "iF" = (
 /obj/structure/cable/green{
@@ -4178,9 +4240,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering)
 "iP" = (
-/obj/effect/catwalk_plated/dark,
 /obj/machinery/firealarm,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "iQ" = (
 /obj/effect/floor_decal/corner/orange{
@@ -4782,7 +4846,9 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "jO" = (
-/obj/effect/floor_decal/techfloor/orange,
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
 /obj/machinery/firealarm,
 /obj/machinery/power/sensor{
 	id_tag = "Master Grid"
@@ -4978,7 +5044,7 @@
 	dir = 1
 	},
 /obj/machinery/suit_cycler/wolf/generic,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "kh" = (
 /obj/structure/cable/yellow{
@@ -5181,6 +5247,9 @@
 /obj/machinery/firealarm{
 	dir = 4
 	},
+/obj/effect/floor_decal/borderfloor/corner{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "kz" = (
@@ -5331,8 +5400,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "kN" = (
 /obj/machinery/atmospherics/unary/heater,
@@ -5489,14 +5557,16 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/hallway/second_deck)
 "la" = (
-/obj/effect/catwalk_plated/dark,
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/hallway)
 "lb" = (
 /obj/structure/cable{
@@ -5635,7 +5705,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "lp" = (
 /obj/structure/cable{
@@ -5831,7 +5901,7 @@
 /area/ship/wolf/engineering/atmospherics)
 "lI" = (
 /obj/effect/floor_decal/corner/orange{
-	dir = 1
+	dir = 5
 	},
 /obj/structure/fireaxecabinet{
 	pixel_z = 30
@@ -6133,8 +6203,10 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/engineering/engine_room)
 "mr" = (
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/hallway)
 "ms" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -6217,7 +6289,8 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering/smes)
 "mz" = (
 /obj/structure/cable/green{
@@ -6442,9 +6515,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/EVA)
 "mZ" = (
-/obj/effect/catwalk_plated/dark,
 /obj/item/radio/intercom/bump/north,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "na" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
@@ -6569,11 +6644,13 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/engineering/reactor)
 "nm" = (
-/obj/effect/catwalk_plated/dark,
 /obj/structure/extinguisher_cabinet{
 	pixel_z = 32
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/hallway)
 "nn" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
@@ -6662,6 +6739,9 @@
 /area/ship/wolf/maintenance/decktwo/amidship/starboard)
 "nx" = (
 /obj/machinery/light,
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/EVA)
 "ny" = (
@@ -6812,7 +6892,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering/EVA)
 "nO" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
@@ -7155,7 +7236,8 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering/smes)
 "ox" = (
 /obj/random/maintenance,
@@ -7380,7 +7462,8 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/hallway/cic)
 "pf" = (
 /obj/structure/cable/green{
@@ -7391,7 +7474,8 @@
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/hallway/cic)
 "pg" = (
 /obj/structure/cable{
@@ -7590,8 +7674,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/engineering/smes)
 "pE" = (
 /obj/machinery/door/firedoor,
@@ -7599,10 +7682,10 @@
 	autoset_access = 0;
 	req_access = list("ACCESS_ENGINEERING")
 	},
-/obj/effect/catwalk_plated/dark,
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/starboard)
 "pF" = (
@@ -7628,7 +7711,8 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering/smes)
 "pH" = (
 /obj/structure/cable/yellow{
@@ -7653,7 +7737,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/dark,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/starboard)
 "pL" = (
@@ -7934,7 +8018,8 @@
 	dir = 4
 	},
 /obj/machinery/light,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering)
 "qx" = (
 /obj/machinery/door/firedoor,
@@ -8053,14 +8138,13 @@
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
-/obj/effect/catwalk_plated/dark,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/starboard)
 "qP" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
-/obj/effect/catwalk_plated/dark,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/starboard)
 "qQ" = (
@@ -8115,12 +8199,8 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/port)
 "qW" = (
-/obj/item/clothing/head/helmet/space/vox{
-	name = "vox engineering helmet"
-	},
-/obj/item/clothing/suit/space/vox{
-	name = "vox engineering suit"
-	},
+/obj/item/clothing/head/helmet/space/vox,
+/obj/item/clothing/suit/space/vox,
 /obj/item/clothing/gloves/vox,
 /obj/item/clothing/mask/gas/vox,
 /obj/item/clothing/shoes/magboots/vox,
@@ -8180,8 +8260,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/maintenance/decktwo/fore/port)
 "rc" = (
 /obj/random/junk,
@@ -8355,11 +8434,18 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/engineering/reactor)
 "ry" = (
-/obj/machinery/light/small/red{
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
-/area/ship/wolf/maintenance/decktwo/fore/port)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
+/area/ship/wolf/command/hallway/cic)
 "rz" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 6
@@ -8886,7 +8972,8 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering/smes)
 "sK" = (
 /obj/machinery/door/airlock/autoname/wolf/engineering,
@@ -9451,7 +9538,9 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/second_deck)
 "tU" = (
-/obj/effect/floor_decal/corner/orange,
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/EVA)
 "tV" = (
@@ -9541,7 +9630,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/item/radio/intercom/bump/east,
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/engineering/smes)
 "uc" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
@@ -9577,9 +9667,8 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/space_heater,
-/obj/effect/catwalk_plated/dark,
 /obj/structure/cable/green,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/maintenance/decktwo/fore/port)
 "ug" = (
 /obj/structure/cable{
@@ -9877,7 +9966,7 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uK" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -9895,8 +9984,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uM" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -9911,7 +9999,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uN" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -9924,7 +10012,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uO" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -9939,7 +10027,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uP" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -9948,7 +10036,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -9956,13 +10044,21 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 9
+	},
+/obj/effect/floor_decal/borderfloorblack/corner,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uR" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9970,7 +10066,11 @@
 	},
 /obj/machinery/power/apc,
 /obj/structure/cable/green,
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -9979,8 +10079,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9989,7 +10088,8 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/command/ofdstorage)
 "uV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -10029,7 +10129,7 @@
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "uZ" = (
 /obj/machinery/door/firedoor,
@@ -10039,7 +10139,13 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "va" = (
 /obj/structure/cable/green{
@@ -10060,7 +10166,7 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/visible,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "vc" = (
 /obj/machinery/alarm{
@@ -10075,7 +10181,7 @@
 	dir = 8
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/ofdstorage)
 "vd" = (
 /turf/simulated/floor/shuttle_ceiling,
@@ -10115,10 +10221,27 @@
 /obj/random/trash,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/port)
+"Bz" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/borderfloor/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloor/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/ship/wolf/hallway/second_deck)
 "BZ" = (
-/obj/effect/catwalk_plated/dark,
 /obj/machinery/camera/network/second_deck,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway/cic)
 "Db" = (
 /obj/random/junk,
@@ -10162,11 +10285,18 @@
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/engineering/reactor)
+"Gp" = (
+/obj/effect/floor_decal/corner/orange,
+/turf/simulated/floor/tiled/dark,
+/area/ship/wolf/engineering/EVA)
 "GD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/port)
+"GZ" = (
+/turf/simulated/floor/tiled/dark,
+/area/ship/wolf/engineering/EVA)
 "Hm" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -10206,6 +10336,15 @@
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/fore/port)
+"Jz" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/wolf/hallway/second_deck)
 "Ka" = (
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
@@ -10311,7 +10450,6 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/starboard)
 "Vg" = (
-/obj/effect/catwalk_plated/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -10321,7 +10459,11 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloorblack,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/command/bridge/cic)
 "Vm" = (
 /obj/structure/cable{
@@ -10354,6 +10496,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/decktwo/aft/port)
+"Xl" = (
+/obj/effect/floor_decal/borderfloor{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
+/area/ship/wolf/hallway/second_deck)
 "XI" = (
 /obj/machinery/light/small/red{
 	dir = 4
@@ -17041,8 +17189,8 @@ kc
 nR
 nR
 nR
-sb
-sb
+nR
+nR
 tY
 sb
 uf
@@ -17167,8 +17315,8 @@ Js
 ei
 cg
 gk
-gl
-ry
+cg
+mk
 oG
 oG
 oG
@@ -18194,8 +18342,8 @@ iP
 gm
 gy
 ij
-ij
-ij
+Jz
+Jz
 gC
 hW
 iw
@@ -18320,7 +18468,7 @@ hK
 hL
 gp
 pg
-aJ
+Bz
 aJ
 aJ
 aJ
@@ -18447,7 +18595,7 @@ eN
 fv
 gK
 re
-gM
+Xl
 ew
 eR
 ky
@@ -18567,12 +18715,12 @@ eP
 ef
 ft
 ft
-fe
+ee
 fe
 sA
 eN
 fv
-gK
+ry
 fD
 fE
 fE
@@ -18694,12 +18842,12 @@ eS
 el
 fl
 fr
-ft
+ee
 fp
 hA
 eN
 fv
-gK
+ry
 fD
 fE
 fP
@@ -18821,7 +18969,7 @@ eU
 eF
 fj
 fL
-ft
+ee
 mR
 qs
 eN
@@ -18843,7 +18991,7 @@ dW
 dW
 hQ
 iZ
-iv
+jz
 eb
 or
 qk
@@ -18948,12 +19096,12 @@ di
 fa
 fi
 fn
-ft
+ee
 jI
 sv
 eN
 gJ
-gK
+ry
 rn
 fE
 gd
@@ -18970,7 +19118,7 @@ qe
 hu
 sg
 hR
-iv
+jz
 nF
 qd
 sx
@@ -19079,8 +19227,8 @@ fg
 eN
 eN
 eN
-mZ
-gK
+iv
+ry
 rq
 fE
 fR
@@ -19092,9 +19240,9 @@ lp
 aj
 by
 cR
-ee
-ee
-ee
+nH
+nH
+nH
 ia
 hU
 iE
@@ -19604,7 +19752,7 @@ eA
 pM
 bD
 lE
-cL
+GZ
 mY
 nN
 pZ
@@ -19732,7 +19880,7 @@ ag
 bD
 lI
 hH
-cL
+Gp
 tU
 tV
 sT
@@ -19858,7 +20006,7 @@ fx
 ag
 bI
 cL
-cL
+GZ
 nx
 bD
 bD
