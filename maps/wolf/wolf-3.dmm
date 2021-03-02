@@ -1835,14 +1835,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
-"eC" = (
-/obj/structure/table/marble,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/blast/shutters{
-	id_tag = "barshut"
-	},
-/turf/simulated/floor/lino,
-/area/ship/wolf/habitation/bar)
 "eD" = (
 /obj/machinery/smartfridge/drinks,
 /turf/simulated/floor/lino,
@@ -2243,16 +2235,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
-"fu" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/lino,
-/area/ship/wolf/habitation/bar)
 "fv" = (
 /obj/structure/hygiene/toilet{
 	pixel_y = 10
@@ -2382,16 +2364,13 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/wolf/security/armory)
 "fJ" = (
-/obj/machinery/disposal,
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/machinery/vending/boozeomat,
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "fK" = (
@@ -2758,13 +2737,12 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/medtech)
 "gu" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/vending/boozeomat,
+/obj/structure/table/marble,
+/obj/machinery/fabricator/micro/bartender,
+/obj/item/stack/material/glass/ten,
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "gv" = (
@@ -2837,9 +2815,6 @@
 /turf/simulated/floor/carpet,
 /area/ship/wolf/habitation/cabins/three)
 "gB" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
@@ -2848,22 +2823,23 @@
 	name = "bar shutter control";
 	pixel_y = -32
 	},
-/obj/machinery/fabricator/micro/bartender,
-/obj/item/stack/material/glass/ten,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
+/obj/structure/table/marble,
+/obj/machinery/reagentgrinder/juicer,
+/obj/item/chems/food/drinks/shaker,
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "gD" = (
-/obj/structure/disposalpipe/junction/yjunction{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
+	},
+/obj/structure/disposalpipe/segment/bent{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
@@ -2974,13 +2950,13 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/security/maa_office)
 "gP" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/reagentgrinder/juicer,
+/obj/structure/table/marble,
+/obj/machinery/chemical_dispenser/bar_soft/full{
+	dir = 1
+	},
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "gQ" = (
@@ -3150,13 +3126,13 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/chemistry)
 "hf" = (
-/obj/structure/disposalpipe/segment/bent{
-	dir = 8
-	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/structure/flora/pottedplant/orientaltree,
+/obj/structure/table/marble,
+/obj/item/music_tape/custom,
+/obj/item/music_tape/custom,
+/obj/item/music_tape/custom,
 /turf/simulated/floor/lino,
 /area/ship/wolf/habitation/bar)
 "hg" = (
@@ -3852,9 +3828,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security/lockers)
 "iA" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
@@ -3862,10 +3835,11 @@
 	dir = 1
 	},
 /obj/item/radio/intercom/bump/south,
-/obj/item/music_tape/custom,
-/obj/item/music_tape/custom,
-/obj/item/music_tape/custom,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/table/marble,
+/obj/machinery/chemical_dispenser/bar_alc/full{
 	dir = 1
 	},
 /turf/simulated/floor/lino,
@@ -9649,15 +9623,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security)
-"uk" = (
-/obj/structure/disposalpipe/segment,
-/obj/item/stool/bar/padded,
-/obj/effect/floor_decal/spline/plain/black,
-/obj/effect/landmark/start{
-	name = "Passenger"
-	},
-/turf/simulated/floor/carpet/red,
-/area/ship/wolf/habitation/bar)
 "ul" = (
 /obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/tiled/dark,
@@ -20592,9 +20557,9 @@ fC
 mt
 nL
 gD
-uk
-eC
-fu
+uf
+ev
+eO
 hf
 ax
 hx
