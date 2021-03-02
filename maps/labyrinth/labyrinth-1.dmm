@@ -339,7 +339,7 @@
 	dir = 9
 	},
 /obj/structure/table/standard,
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/item/defibrillator/compact/loaded,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)

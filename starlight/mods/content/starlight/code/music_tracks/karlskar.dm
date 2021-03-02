@@ -1,4 +1,4 @@
-/music_track/karlskar
+/decl/music_track/karlskar
 	artist = "Simon Stalenhag"
 	title = "Karlskar"
 	album = "Island Tracks"

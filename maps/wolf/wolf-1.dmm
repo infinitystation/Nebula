@@ -580,7 +580,7 @@
 	dir = 8
 	},
 /obj/structure/fireaxecabinet{
-	pixel_z = 30
+	pixel_y = 30
 	},
 /obj/structure/bed/chair,
 /turf/simulated/floor/tiled,
@@ -940,7 +940,6 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/mining,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/lobby)
 "cx" = (
@@ -1384,8 +1383,8 @@
 /area/ship/wolf/hallway/first_deck)
 "dB" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/double/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
 "dC" = (
@@ -1530,14 +1529,15 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
 "dT" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/autoname/wolf/glass/mining,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/door/airlock/double/glass/mining{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/lobby)
@@ -1701,7 +1701,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
 "em" = (
@@ -1885,9 +1884,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/door/airlock/double/glass/civilian{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
@@ -2034,7 +2035,6 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
@@ -2083,7 +2083,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
 "fb" = (
@@ -2860,7 +2859,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
+/obj/machinery/door/airlock/double/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
 "gD" = (
@@ -3215,16 +3214,15 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/science,
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/double/glass/science,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/science_hall)
 "hs" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 6
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/science_hall)
@@ -3327,7 +3325,8 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 9
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/science,
+/obj/machinery/door/airlock/double/glass/science,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/science_hall)
 "hF" = (
@@ -3361,7 +3360,7 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 6
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/science,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/science_hall)
 "hI" = (
@@ -4243,9 +4242,9 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /obj/structure/disposalpipe/segment,
 /obj/effect/catwalk_plated,
+/obj/machinery/door/airlock/double/glass/civilian,
 /turf/simulated/floor/plating,
 /area/ship/wolf/hallway/first_deck)
 "jx" = (
@@ -4466,6 +4465,7 @@
 /obj/item/grenade/chem_grenade/cleaner,
 /obj/item/grenade/chem_grenade/cleaner,
 /obj/structure/closet/crate,
+/obj/item/clothing/shoes/galoshes,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/janitorial)
 "jT" = (
@@ -17028,7 +17028,7 @@ aa
 BF
 Lo
 jv
-cd
+au
 yS
 yB
 Mw

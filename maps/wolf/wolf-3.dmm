@@ -67,7 +67,7 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 8
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
+/obj/machinery/door/airlock/double/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "ak" = (
@@ -436,7 +436,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "bn" = (
@@ -559,7 +559,6 @@
 /area/ship/wolf/habitation/observation)
 "bD" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/observation)
 "bE" = (
@@ -774,7 +773,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
+/obj/machinery/door/airlock/double/glass/civilian{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/observation)
 "cl" = (
@@ -806,7 +807,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/effect/floor_decal/corner/green{
 	dir = 9
 	},
@@ -1113,7 +1114,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/catwalk_plated,
 /obj/structure/disposalpipe/segment,
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /turf/simulated/floor/plating,
 /area/ship/wolf/hallway/third_deck/fore)
 "cZ" = (
@@ -1435,9 +1436,6 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/corner/b_green/full,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian{
-	autoset_access = 0
-	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/hydroponics)
 "dJ" = (
@@ -1480,7 +1478,6 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/plating,
 /area/ship/wolf/hallway/third_deck/fore)
 "dP" = (
@@ -1776,7 +1773,7 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 9
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
+/obj/machinery/door/airlock/double/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "et" = (
@@ -1953,7 +1950,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "eK" = (
@@ -2043,8 +2040,8 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/b_green/full,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian{
-	autoset_access = 0
+/obj/machinery/door/airlock/double/glass/civilian{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/hydroponics)
@@ -2154,7 +2151,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "fe" = (
@@ -2473,7 +2469,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/command,
+/obj/machinery/door/airlock/double/glass/command,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/command/hallway)
 "fN" = (
@@ -2758,7 +2754,6 @@
 /area/ship/wolf/maintenance/deckthree/fore/starboard)
 "go" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/autoname/wolf/glass/command,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/command/hallway)
 "gp" = (
@@ -3102,7 +3097,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "gV" = (
@@ -3135,7 +3129,9 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
+/obj/machinery/door/airlock/double/glass/civilian{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar)
 "gZ" = (
@@ -3263,7 +3259,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/effect/floor_decal/corner/green{
 	dir = 9
 	},
@@ -3603,11 +3599,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/medical{
-	autoset_access = 0;
-	initial_access = null;
-	req_access = list("ACCESS_MEDICAL")
-	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical)
 "hT" = (
@@ -3651,7 +3642,7 @@
 "hY" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
+/obj/machinery/door/airlock/double/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "hZ" = (
@@ -3758,7 +3749,6 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "ij" = (
@@ -3786,10 +3776,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/medical{
-	autoset_access = 0;
-	initial_access = null;
-	req_access = list("ACCESS_MEDICAL")
+/obj/machinery/door/airlock/double/glass/medical{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical)
@@ -4328,7 +4316,7 @@
 /obj/effect/catwalk_plated,
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
+/obj/machinery/door/airlock/double/glass/civilian,
 /turf/simulated/floor/plating,
 /area/ship/wolf/hallway/third_deck/fore)
 "jo" = (
@@ -4387,7 +4375,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "ju" = (
@@ -4506,7 +4493,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
@@ -4800,7 +4787,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /turf/simulated/floor/plating,
 /area/ship/wolf/escape_pod/four)
 "kk" = (
@@ -4824,7 +4811,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /turf/simulated/floor/plating,
 /area/ship/wolf/escape_pod/four)
 "km" = (
@@ -4963,7 +4950,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /turf/simulated/floor/plating,
 /area/ship/wolf/escape_pod/three)
 "ky" = (
@@ -5443,7 +5430,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/obj/structure/closet/walllocker/emerglocker/north,
+/obj/structure/emergency_dispenser/north,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security)
 "lB" = (
@@ -5489,9 +5476,6 @@
 	dir = 9
 	},
 /obj/item/radio/intercom/bump/west,
-/obj/effect/floor_decal/spline/fancy{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/plain/paleblue{
 	dir = 4
 	},
@@ -6161,7 +6145,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
@@ -6209,7 +6193,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
@@ -6533,7 +6517,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/eva)
@@ -7467,7 +7451,7 @@
 /area/ship/wolf/security/lockers)
 "pB" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "pC" = (
@@ -7477,7 +7461,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/multi_tile/glass/security,
+/obj/machinery/door/airlock/double/glass/security,
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
@@ -8350,7 +8334,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
@@ -8426,7 +8410,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /turf/simulated/floor/plating,
 /area/ship/wolf/escape_pod/three)
 "rz" = (
@@ -9089,7 +9073,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
 "sM" = (
@@ -9099,7 +9083,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/emergency_dispenser/south,
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/wolf/eva)
 "sN" = (
@@ -9115,7 +9099,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
 	},
@@ -9418,7 +9402,7 @@
 /area/ship/wolf/hallway/third_deck/fore)
 "tA" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/multi_tile/glass/atmos,
+/obj/machinery/door/airlock/double/glass/atmos,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/atmospherics)
 "tB" = (
@@ -10755,9 +10739,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass/medical{
-	autoset_access = 0
-	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/hallway/third_deck/fore)
 "wo" = (
@@ -10768,8 +10749,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass/medical{
-	autoset_access = 0
+/obj/machinery/door/airlock/double/glass/medical{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/hallway/third_deck/fore)
@@ -11744,6 +11725,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/third_deck/fore)
+"Vb" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 10
+	},
+/obj/structure/mineral_bath,
+/turf/simulated/floor/tiled,
+/area/ship/wolf/science/robotics)
 "Vp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
@@ -20568,7 +20556,7 @@ ub
 hm
 uJ
 jk
-vb
+Vb
 hm
 uU
 nF

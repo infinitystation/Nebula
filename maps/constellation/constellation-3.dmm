@@ -1676,7 +1676,7 @@
 /area/ship/trade/crew/kitchen)
 "ea" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
@@ -1769,7 +1769,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/crew/hallway/starboard)
 "es" = (
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/machinery/sleeper/standard,
 /turf/simulated/floor/tiled/white/monotile,
@@ -2369,7 +2369,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/crew/hallway/port)
 "gt" = (
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
@@ -3236,7 +3236,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/engineering/atmos)
 "ix" = (
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/techfloor,
@@ -5418,7 +5418,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/engineering/atmos)
 "Dc" = (
-/obj/structure/closet/walllocker/emerglocker/north,
+/obj/structure/emergency_dispenser/north,
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/chem_master/condimaster,
 /turf/simulated/floor/tiled/white,
@@ -5871,7 +5871,7 @@
 	dir = 5;
 	icon_state = "intact"
 	},
-/obj/structure/closet/walllocker/emerglocker/west,
+/obj/structure/emergency_dispenser/west,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -6468,7 +6468,7 @@
 /turf/simulated/floor/carpet/blue,
 /area/ship/trade/command/captain)
 "Pc" = (
-/obj/structure/closet/walllocker/emerglocker/east,
+/obj/structure/emergency_dispenser/east,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
 	d1 = 1;
@@ -6697,7 +6697,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/cargo)
 "RL" = (
-/obj/structure/closet/walllocker/emerglocker/north,
+/obj/structure/emergency_dispenser/north,
 /turf/simulated/floor/lino,
 /area/ship/trade/crew/saloon)
 "Sb" = (
