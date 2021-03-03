@@ -2132,6 +2132,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
+/obj/machinery/button/alternate/door{
+	id_tag = "wolf_medicallobbydoor";
+	pixel_x = -28
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical)
 "fi" = (
@@ -3708,6 +3712,7 @@
 /obj/machinery/door/airlock/double/glass/medical{
 	autoset_access = 0;
 	dir = 8;
+	id_tag = "wolf_medicallobbydoor";
 	req_access = list("ACCESS_MEDICAL")
 	},
 /turf/simulated/floor/tiled/white,

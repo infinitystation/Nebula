@@ -39,7 +39,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "ag" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -61,7 +61,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch/orange,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "ak" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
@@ -94,7 +94,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "ao" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -212,7 +212,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "aC" = (
 /obj/machinery/light{
@@ -231,13 +231,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "aE" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "aF" = (
 /obj/structure/cable/green{
@@ -294,7 +294,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "aP" = (
 /obj/machinery/pointdefense{
@@ -351,7 +351,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "aY" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -712,7 +712,10 @@
 	dir = 4;
 	pixel_x = -24
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "bV" = (
 /obj/random/maintenance,
@@ -720,7 +723,10 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/fore/port)
 "bW" = (
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "bX" = (
 /obj/machinery/alarm{
@@ -1127,7 +1133,7 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "cT" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -1139,7 +1145,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "cW" = (
 /obj/machinery/alarm,
@@ -1199,7 +1205,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "de" = (
 /obj/structure/bed/chair/shuttle/black{
@@ -1241,7 +1247,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /obj/machinery/door/airlock/autoname/wolf/mining,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/shuttle/gnat/cargo)
 "dl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1283,7 +1289,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "dq" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
@@ -1566,6 +1572,10 @@
 "dV" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular/open{
+	dir = 2;
+	id_tag = "gnat_shutters"
+	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/shuttle/gnat/cockpit)
 "dW" = (
@@ -1995,6 +2005,9 @@
 /area/ship/wolf/shuttle/gnat/passenger)
 "eM" = (
 /obj/machinery/computer/ship/sensors,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/shuttle/gnat/cockpit)
 "eN" = (
@@ -2678,7 +2691,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "gk" = (
 /obj/machinery/alarm{
@@ -2701,6 +2714,10 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 4
 	},
+/obj/item/clothing/suit/space/void/pilot,
+/obj/item/clothing/head/helmet/space/void/pilot,
+/obj/item/clothing/shoes/magboots,
+/obj/item/tank/emergency/oxygen/engi,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/shuttle/gnat/cargo)
 "gl" = (
@@ -2854,7 +2871,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "gA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3024,7 +3044,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "gT" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -4880,7 +4900,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "kH" = (
 /obj/structure/disposalpipe/segment{
@@ -4892,7 +4912,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "kI" = (
 /obj/structure/cable/green{
@@ -4904,7 +4924,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "kJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -7082,6 +7102,9 @@
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 8
 	},
+/obj/structure/handrail{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/shuttle/gnat/cockpit)
 "pM" = (
@@ -7115,14 +7138,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/machinery/button/blast_door{
+	id_tag = "gnat_shutters";
+	pixel_x = 55;
+	pixel_y = 25
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/shuttle/gnat/cockpit)
 "pX" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/machinery/light{
-	dir = 4
+/obj/structure/handrail{
+	dir = 8
 	},
 /obj/effect/floor_decal/techfloor/corner,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -7685,14 +7713,14 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "rL" = (
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "rM" = (
 /obj/machinery/light{
@@ -7703,12 +7731,12 @@
 	},
 /obj/machinery/portable_atmospherics/canister,
 /obj/effect/floor_decal/industrial/outline/orange,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "rN" = (
 /obj/structure/table/reinforced,
 /obj/random/tool,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "rO" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
@@ -7716,39 +7744,39 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "rP" = (
 /obj/structure/stasis_cage,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "rQ" = (
 /obj/structure/table/reinforced,
 /obj/random/tool,
 /obj/random/firstaid,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "rR" = (
 /obj/structure/closet/crate,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "rS" = (
 /obj/structure/table/reinforced,
 /obj/random/technology_scanner,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "rT" = (
 /obj/structure/table/reinforced,
 /obj/random/tank,
 /obj/random/toolbox,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "rU" = (
 /obj/structure/closet/toolcloset,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "rV" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
@@ -8024,9 +8052,12 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/structure/table/reinforced,
+/obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/techfloor{
 	dir = 6
+	},
+/obj/structure/handrail{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/shuttle/gnat/cockpit)
@@ -8034,13 +8065,13 @@
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "sD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "sE" = (
 /obj/structure/cable/green{
@@ -8052,7 +8083,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "sF" = (
 /obj/machinery/door/airlock/autoname/wolf/maintenance,
@@ -8112,6 +8146,10 @@
 "sO" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "gnat_shutters"
+	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/shuttle/gnat/passenger)
 "sP" = (
@@ -8448,6 +8486,9 @@
 "tv" = (
 /obj/item/radio/intercom/bump/west,
 /obj/structure/handrail,
+/obj/effect/floor_decal/techfloor/orange/corner{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/shuttle/gnat/cargo)
 "tw" = (
@@ -8477,6 +8518,9 @@
 	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/shuttle/gnat/cargo)
@@ -8592,7 +8636,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/shuttle/gnat/maint)
 "tJ" = (
 /obj/structure/cable/orange{
@@ -8600,6 +8644,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/shuttle/gnat/cargo)
@@ -8797,6 +8844,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/floor_decal/techfloor/orange/corner{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/shuttle/gnat/cargo)
 "uh" = (
@@ -8945,7 +8995,7 @@
 	dir = 4;
 	pixel_y = -32
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "uC" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
@@ -9034,7 +9084,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "odyssey_dock_vent"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "uO" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
@@ -9049,13 +9099,13 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "odyssey_dock_vent"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "uP" = (
 /obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "odyssey_dock_ext"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "uR" = (
 /obj/structure/cable/green{
@@ -9064,7 +9114,7 @@
 /obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "odyssey_dock_ext"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "uS" = (
 /obj/machinery/airlock_sensor{
@@ -9074,7 +9124,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "odyssey_dock_vent"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "uU" = (
 /obj/machinery/atmospherics/unary/tank/air,
@@ -9096,7 +9146,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "uX" = (
 /obj/structure/cable/green{
@@ -9106,7 +9156,7 @@
 	id_tag = "odyssey_dock_int"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "uY" = (
 /obj/machinery/door/airlock/external/glass/bolted{
@@ -9115,7 +9165,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "uZ" = (
 /obj/structure/cable/green{
@@ -9127,7 +9177,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "va" = (
 /obj/structure/cable/green{
@@ -9139,7 +9189,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "vb" = (
 /obj/structure/cable/green{
@@ -9151,7 +9201,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "vc" = (
 /obj/machinery/camera/network/mining{
@@ -9166,31 +9216,31 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "ve" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "vf" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "vg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "vh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "vo" = (
 /obj/structure/railing/mapped,
@@ -9277,7 +9327,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "xN" = (
 /obj/structure/cable/green{
@@ -10213,7 +10263,7 @@
 /area/ship/wolf/science/xenoarch)
 "Pm" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "Pr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
@@ -10245,7 +10295,7 @@
 /area/ship/wolf/engineering/inertial_damper)
 "PL" = (
 /obj/structure/table/reinforced,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/hangar)
 "PP" = (
 /obj/machinery/network/mainframe{
@@ -10360,6 +10410,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenoarch/lab)
+"Sb" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/trashcart,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/wolf/hangar)
 "Sc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -10439,6 +10494,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenoarch)
+"TN" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/wolf/hangar)
 "TX" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 6
@@ -10677,7 +10737,7 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/general)
 "Wz" = (
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "WA" = (
 /obj/machinery/door/blast/regular{
@@ -10816,7 +10876,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/hangar)
 "YK" = (
 /obj/random/obstruction,
@@ -19235,7 +19295,7 @@ tQ
 tc
 pV
 bw
-Pm
+Sb
 kG
 an
 cj
@@ -19362,7 +19422,7 @@ ft
 td
 sM
 bw
-Pm
+TN
 kH
 Wz
 cm

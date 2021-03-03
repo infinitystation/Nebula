@@ -141,6 +141,11 @@
 	pixel_x = -8;
 	pixel_y = 32
 	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "wolf_supplycabboltsone";
+	pixel_x = 5;
+	pixel_y = 32
+	},
 /turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "aL" = (
@@ -210,6 +215,7 @@
 "aT" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/civilian{
+	id_tag = "wolf_supplycabboltstwo";
 	name = "Cabin Two"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -789,6 +795,11 @@
 	id_tag = "wolf_supplycabtwo";
 	name = "shutters control";
 	pixel_x = 8;
+	pixel_y = 32
+	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "wolf_supplycabboltstwo";
+	pixel_x = -5;
 	pixel_y = 32
 	},
 /turf/simulated/floor/carpet/red,
@@ -2191,6 +2202,7 @@
 "NU" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/civilian{
+	id_tag = "wolf_supplycabboltsone";
 	name = "Cabin One"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
