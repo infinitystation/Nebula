@@ -3,6 +3,10 @@
 // NEBULA MODS START
 	#include "../../mods/content/corporate/_corporate.dme"
 	#include "../../mods/content/bigpharma/_bigpharma.dme"
+	#include "../../mods/content/modern_earth/_modern_earth.dme"
+	#include "../../mods/content/mouse_highlights/_mouse_highlight.dme"
+	#include "../../mods/content/scaling_descriptors.dm"
+	#include "../../mods/content/mundane.dm"
 
 	#include "../../mods/mobs/dionaea/_dionaea.dme"
 	#include "../../mods/mobs/borers/_borers.dme"
