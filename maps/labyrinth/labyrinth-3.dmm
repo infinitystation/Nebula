@@ -48,17 +48,17 @@
 	},
 /obj/machinery/computer/ship/engines,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "bj" = (
 /obj/machinery/computer/ship/helm,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "bs" = (
 /obj/machinery/computer/ship/sensors,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "bT" = (
 /obj/machinery/power/apc{
@@ -72,13 +72,13 @@
 "cc" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/computer/shuttle_control/explore/exploration_pod,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "ch" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/standard,
 /obj/machinery/recharger,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "ck" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -86,7 +86,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/fabricator,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "cw" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
@@ -124,7 +124,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "dD" = (
 /obj/machinery/light,
@@ -134,7 +135,10 @@
 /obj/structure/bed/chair/shuttle/black{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "dI" = (
 /obj/machinery/alarm{
@@ -142,7 +146,7 @@
 	},
 /obj/machinery/hologram/holopad/longrange,
 /obj/effect/floor_decal/industrial/outline,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "dL" = (
 /obj/machinery/button/blast_door{
@@ -153,7 +157,10 @@
 	dir = 1
 	},
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "dQ" = (
 /obj/machinery/light,
@@ -163,14 +170,16 @@
 /obj/structure/bed/chair/shuttle/black{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "eq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/exploration_shuttle)
 "eJ" = (
 /obj/structure/catwalk,
@@ -858,6 +867,9 @@
 /obj/machinery/fabricator{
 	fab_status_flags = 1
 	},
+/obj/machinery/recharger/wallcharger{
+	pixel_y = 28
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/security)
 "tD" = (
@@ -1251,6 +1263,10 @@
 /obj/machinery/firealarm{
 	dir = 1
 	},
+/obj/machinery/recharger/wallcharger{
+	dir = 1;
+	pixel_y = -28
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/security)
 "yS" = (
@@ -1305,6 +1321,9 @@
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/hatch/autoname/maintenance,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/exploration_shuttle)
 "At" = (
@@ -1341,6 +1360,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/engineering/communications)
 "Cb" = (
@@ -1592,6 +1612,7 @@
 "HA" = (
 /obj/structure/lattice,
 /obj/structure/railing/mapped,
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "HO" = (
@@ -1682,6 +1703,7 @@
 	dir = 10
 	},
 /obj/structure/lattice,
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "IT" = (
@@ -1689,6 +1711,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "Jl" = (
@@ -1712,6 +1735,7 @@
 /area/labyrinth/engineering/communications)
 "Jx" = (
 /obj/structure/lattice,
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/engineering/communications)
 "JU" = (
@@ -1783,6 +1807,7 @@
 	icon_state = "32-2"
 	},
 /obj/structure/lattice,
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "Lu" = (
@@ -1792,6 +1817,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "LF" = (
@@ -1847,6 +1873,7 @@
 	icon_state = "1-4"
 	},
 /obj/structure/lattice,
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "Ne" = (
@@ -1855,6 +1882,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
 "Ny" = (
@@ -1915,6 +1943,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
 "OQ" = (
@@ -1932,10 +1961,16 @@
 /obj/machinery/firealarm{
 	dir = 8
 	},
+/obj/effect/floor_decal/borderfloorblack/corner{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
 "Ph" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/tower)
 "Pj" = (
@@ -1980,10 +2015,16 @@
 /turf/simulated/open,
 /area/exoplanet/snow)
 "PY" = (
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/tower)
 "Qr" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/tower)
 "QA" = (
@@ -1992,6 +2033,9 @@
 	},
 /obj/machinery/power/apc{
 	dir = 4
+	},
+/obj/effect/floor_decal/borderfloorblack/corner{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
@@ -2089,7 +2133,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/labyrinth/hallway/tower)
 "Tv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2101,7 +2146,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/labyrinth/hallway/tower)
 "TC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2140,7 +2186,8 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/labyrinth/hallway/tower)
 "Um" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -2156,7 +2203,8 @@
 	icon_state = "2-4"
 	},
 /obj/structure/hygiene/drain,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/labyrinth/hallway/tower)
 "UT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2167,7 +2215,8 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/labyrinth/hallway/tower)
 "Vm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2194,7 +2243,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/floor/plating,
 /area/labyrinth/hallway/tower)
 "Vr" = (
 /obj/structure/closet/firecloset,
