@@ -1310,7 +1310,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/cryo/two)
 "ds" = (
@@ -1479,7 +1478,9 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/civilian,
+/obj/machinery/door/airlock/double/glass/civilian{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/cryo/two)
 "dM" = (
@@ -2820,10 +2821,10 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/mining,
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
 	},
+/obj/machinery/door/airlock/double/glass/mining,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/general)
 "gv" = (
@@ -2916,7 +2917,6 @@
 /area/ship/wolf/hallway/first_deck)
 "gE" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/autoname/wolf/glass/mining,
 /obj/effect/floor_decal/corner/brown{
 	dir = 6
 	},
@@ -6136,6 +6136,7 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 6
 	},
+/obj/machinery/design_database,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/materials_lab)
 "nI" = (
