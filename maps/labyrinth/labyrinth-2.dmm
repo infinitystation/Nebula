@@ -34,20 +34,26 @@
 /area/exoplanet/snow)
 "bE" = (
 /obj/structure/table/standard,
-/obj/machinery/reagent_temperature,
-/turf/simulated/floor/carpet/purple,
+/obj/machinery/reagent_temperature{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/obj/machinery/reagent_temperature/cooler{
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "bU" = (
 /obj/structure/table/standard,
-/obj/machinery/reagent_temperature/cooler,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "cc" = (
 /obj/machinery/vending/boozeomat,
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "ci" = (
 /obj/structure/ladder,
@@ -70,6 +76,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "dF" = (
@@ -77,6 +84,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "dN" = (
@@ -105,7 +113,7 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "fa" = (
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "fd" = (
 /obj/random/junk,
@@ -120,7 +128,7 @@
 /area/labyrinth/science/testing)
 "fO" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "fP" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -129,7 +137,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "fY" = (
 /obj/structure/table/standard,
@@ -141,7 +149,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "gt" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -153,7 +161,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "gH" = (
 /obj/structure/table/standard,
@@ -163,7 +171,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "hc" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -173,7 +181,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "hB" = (
 /obj/machinery/door/firedoor,
@@ -233,7 +241,7 @@
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/hygiene/drain,
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "ki" = (
 /obj/machinery/constructable_frame/machine_frame,
@@ -242,7 +250,7 @@
 /area/labyrinth/science/testing)
 "ku" = (
 /obj/structure/railing/mapped,
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "kH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -251,7 +259,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "ld" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -260,7 +268,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "le" = (
 /obj/machinery/vending/dinnerware{
@@ -301,14 +309,14 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "mU" = (
 /obj/structure/table/standard,
 /obj/machinery/chemical_dispenser/bar_soft/full{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "ng" = (
 /obj/effect/decal/cleanable/dirt,
@@ -345,7 +353,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "nF" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -354,7 +362,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "nH" = (
 /obj/machinery/chem_master/condimaster,
@@ -379,7 +387,7 @@
 /obj/machinery/chemical_dispenser/bar_coffee/full{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "pv" = (
 /obj/item/stool/padded,
@@ -396,7 +404,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "pN" = (
 /obj/structure/railing/mapped{
@@ -420,7 +428,7 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "qE" = (
 /obj/machinery/firealarm{
@@ -432,7 +440,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "qM" = (
 /obj/structure/railing/mapped{
@@ -451,7 +459,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "sD" = (
 /obj/machinery/power/apc{
@@ -460,14 +468,14 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "tp" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "tO" = (
 /obj/effect/landmark/test/space_turf,
@@ -487,7 +495,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "uY" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
@@ -535,6 +543,7 @@
 /area/labyrinth/engineering/communications)
 "yN" = (
 /obj/structure/lattice,
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/engineering/communications)
 "yR" = (
@@ -548,7 +557,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "Ab" = (
 /obj/structure/bed/chair/comfy/blue{
@@ -577,7 +586,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "Cd" = (
 /turf/simulated/open,
@@ -589,6 +598,7 @@
 	icon_state = "32-2"
 	},
 /obj/structure/lattice,
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "DF" = (
@@ -602,6 +612,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
 "Ee" = (
@@ -649,7 +660,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "Gt" = (
 /obj/structure/bed/chair/comfy/blue{
@@ -679,7 +690,7 @@
 /obj/machinery/alarm{
 	dir = 8
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "GX" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -721,6 +732,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "HR" = (
@@ -761,6 +773,7 @@
 	},
 /obj/structure/lattice,
 /obj/structure/railing/mapped,
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "JY" = (
@@ -773,6 +786,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "Kf" = (
@@ -785,7 +799,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "Lg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -800,6 +814,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "Lp" = (
@@ -809,7 +824,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "Lv" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -818,7 +833,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "LC" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -833,7 +848,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "LL" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -848,7 +863,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "LZ" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -871,6 +886,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
 "Oo" = (
@@ -903,9 +919,15 @@
 /area/labyrinth/civilian/lounge)
 "Px" = (
 /obj/machinery/vending/cola,
+/obj/effect/floor_decal/borderfloorblack/corner{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/upper)
 "PD" = (
+/obj/effect/floor_decal/borderfloorblack{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/upper)
 "PK" = (
@@ -913,10 +935,13 @@
 	dir = 1
 	},
 /obj/machinery/light,
-/turf/simulated/floor/lino,
+/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "PO" = (
 /obj/machinery/vending/coffee,
+/obj/effect/floor_decal/borderfloorblack/corner{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/upper)
 "Qe" = (
@@ -931,7 +956,7 @@
 /area/labyrinth/maintenance/shaft)
 "QI" = (
 /obj/machinery/vending/cigarette{
-	dir = 4
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/upper)
