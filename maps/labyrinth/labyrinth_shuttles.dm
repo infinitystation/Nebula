@@ -16,7 +16,7 @@
 	name               = "Labyrinth Exploration Shuttle Dock"
 	landmark_tag       = "nav_labyrinth_dock"
 	docking_controller = "labyrinth_dock_port"
-	base_area = /area/exoplanet/snow
+	base_area = /area/exoplanet/volcanic
 	base_turf = /turf/exterior/open
 
 /datum/shuttle/autodock/ferry/supply/lift

@@ -46,4 +46,9 @@
 	meteor_detected_sound        = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
 
 /datum/map/labyrinth/get_map_info()
-	return "Welcome to \the [station_name()]. A planet colony filled with people who decide to explore and found this planet in the deep of space."
+	return {"<center><small>When I was little,<br> \
+	I caugth a snake <br> \
+	I kept it in a jar.<br><br> \
+	Do you want know <br> \
+	how the snake escaped?</small></center><br><br> \
+	A world covered by ruins and ash, the remnants of an otherworldly phenomenon that has ravaged the earth’s atmosphere and forced the few survivors’ deep underground."}

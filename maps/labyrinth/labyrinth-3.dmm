@@ -102,7 +102,7 @@
 	},
 /obj/structure/railing/mapped,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "cL" = (
 /turf/simulated/floor/airless,
 /area/labyrinth/exploration_shuttle)
@@ -118,7 +118,7 @@
 	dir = 4
 	},
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "db" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -187,7 +187,7 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "eL" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -196,11 +196,11 @@
 /obj/structure/railing/mapped,
 /obj/machinery/light/navigation,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "fn" = (
 /obj/structure/catwalk,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "fz" = (
 /obj/machinery/shipsensors,
 /turf/simulated/floor/airless,
@@ -233,7 +233,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "gU" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/science/testing)
@@ -282,7 +282,7 @@
 /obj/structure/catwalk,
 /obj/machinery/light/navigation,
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "hS" = (
 /turf/simulated/open,
 /area/labyrinth/science/testing)
@@ -294,7 +294,7 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "iy" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
@@ -312,7 +312,7 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "iG" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -342,7 +342,7 @@
 /area/labyrinth/exploration_shuttle)
 "jb" = (
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "jh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -390,7 +390,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "ku" = (
 /obj/structure/lattice,
 /turf/simulated/open,
@@ -457,7 +457,7 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "mg" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1135,7 +1135,7 @@
 /obj/structure/catwalk,
 /obj/machinery/light/navigation,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "xO" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
@@ -1197,7 +1197,7 @@
 "yd" = (
 /obj/structure/lattice,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "yu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1470,7 +1470,7 @@
 /area/labyrinth/exploration_shuttle)
 "DA" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "DC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -1483,7 +1483,7 @@
 	dir = 1
 	},
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "DS" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced_borosilicate,
@@ -1543,7 +1543,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Fq" = (
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
@@ -1720,12 +1720,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Jm" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Jp" = (
 /obj/structure/table/standard,
 /obj/item/paper_bin,
@@ -1977,14 +1977,14 @@
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Pl" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Pq" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -1995,7 +1995,7 @@
 	},
 /obj/machinery/light/navigation,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Pr" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -2006,14 +2006,14 @@
 	},
 /obj/machinery/light/navigation,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "PS" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "PY" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 1
@@ -2069,7 +2069,7 @@
 	},
 /obj/structure/railing/mapped,
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "RN" = (
 /obj/structure/bed/chair/office/comfy/blue{
 	dir = 4
@@ -2085,11 +2085,11 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Sp" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Sr" = (
 /obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 8
@@ -2114,7 +2114,7 @@
 	},
 /obj/structure/railing/mapped,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Tl" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -2122,7 +2122,7 @@
 	},
 /obj/structure/railing/mapped,
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "Tq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -2294,7 +2294,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 "XS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2395,7 +2395,7 @@
 	height = 3
 	},
 /turf/simulated/open,
-/area/exoplanet/snow)
+/area/exoplanet/volcanic)
 
 (1,1,1) = {"
 jb
