@@ -5650,6 +5650,7 @@
 /obj/item/hatchet,
 /obj/item/minihoe,
 /obj/item/scanner/plant,
+/obj/item/chems/glass/bucket,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/hydroponics)
 "md" = (
@@ -6186,6 +6187,8 @@
 	dir = 8
 	},
 /obj/random/junk,
+/obj/structure/mopbucket,
+/obj/item/mop,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckthree/foreport)
 "ni" = (
@@ -6717,8 +6720,7 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/sign/warning/nosmoking_1{
-	pixel_x = 28;
-	pixel_z = -32
+	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical)
@@ -7813,6 +7815,7 @@
 	dir = 1
 	},
 /obj/structure/closet/chefcloset,
+/obj/item/storage/box/beakers,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/bar/backroom)
 "qr" = (
@@ -9671,7 +9674,10 @@
 	dir = 4
 	},
 /obj/structure/table/reinforced,
-/obj/item/chems/glass/bucket,
+/obj/machinery/honey_extractor{
+	pixel_x = 1;
+	pixel_y = 3
+	},
 /turf/simulated/floor/tiled,
 /area/ship/wolf/habitation/hydroponics)
 "uj" = (
@@ -11532,8 +11538,7 @@
 /obj/structure/table/glass,
 /obj/structure/flora/pottedplant/deskleaf,
 /obj/structure/sign/warning/nosmoking_1{
-	pixel_x = 28;
-	pixel_z = -32
+	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/treatment)
@@ -11837,8 +11842,7 @@
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals4,
 /obj/structure/sign/warning/nosmoking_1{
-	pixel_x = 28;
-	pixel_z = -32
+	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical/treatment)
