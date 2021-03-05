@@ -453,6 +453,9 @@
 /obj/machinery/power/apc{
 	dir = 1
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "bo" = (
@@ -869,6 +872,13 @@
 /obj/effect/landmark/start{
 	name = "Captain"
 	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "wolf_vaultcap";
+	name = "vault bolts control";
+	pixel_x = -25;
+	pixel_y = 24;
+	req_access = list("ACCESS_VAULT")
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/office/captain/bedroom)
 "ca" = (
@@ -902,6 +912,9 @@
 /obj/structure/table/woodentable/ebony,
 /obj/machinery/chemical_dispenser/bar_coffee/full{
 	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
 	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
@@ -1401,6 +1414,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/vault/bolted{
 	autoset_access = 0;
+	id_tag = "wolf_vaultcap";
 	req_access = list("ACCESS_VAULT")
 	},
 /obj/structure/cable/green{
@@ -1533,6 +1547,9 @@
 	pixel_x = -2;
 	pixel_y = 24
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "dh" = (
@@ -1631,7 +1648,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/spline/fancy/wood/cee{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "dt" = (
 /obj/machinery/power/apc{
@@ -1799,6 +1819,8 @@
 /obj/item/ammo_magazine/speedloader/laser_revolver,
 /obj/item/ammo_magazine/speedloader/laser_revolver,
 /obj/item/ammo_magazine/speedloader/laser_revolver,
+/obj/item/disk/nuclear,
+/obj/item/book/manual/nuclear,
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/office/captain/bedroom)
 "dL" = (
@@ -2063,6 +2085,9 @@
 /area/ship/wolf/command/office/cmo/bedroom)
 "eh" = (
 /obj/item/radio/intercom/bump/north,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "ei" = (
@@ -2097,6 +2122,10 @@
 	dir = 6
 	},
 /obj/structure/table/woodentable/maple,
+/obj/item/storage/secure/safe{
+	pixel_x = 8;
+	pixel_y = 30
+	},
 /turf/simulated/floor/wood,
 /area/ship/wolf/command/office/xo/bedroom)
 "em" = (
@@ -2422,6 +2451,9 @@
 /area/ship/wolf/command/meetingroom)
 "eL" = (
 /obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "eM" = (
@@ -2720,6 +2752,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "ft" = (
@@ -2862,6 +2897,9 @@
 /obj/item/chems/food/drinks/glass2/coffeecup/metal,
 /obj/item/chems/food/drinks/glass2/coffeecup/metal,
 /obj/item/chems/food/drinks/glass2/coffeecup/metal,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "fK" = (
@@ -2994,6 +3032,9 @@
 /obj/item/cash/c1000,
 /obj/item/cash/c1000,
 /obj/item/cash/c1000,
+/obj/effect/floor_decal/techfloor{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "fW" = (
@@ -3131,6 +3172,9 @@
 /area/ship/wolf/command/office/xo)
 "gl" = (
 /obj/random_multi/single_item/palmers,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "gm" = (
@@ -3292,6 +3336,7 @@
 /area/ship/wolf/command/hallway)
 "gC" = (
 /obj/machinery/newscaster/bump/south,
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "gD" = (
@@ -3665,6 +3710,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "hs" = (
@@ -3689,6 +3735,9 @@
 /obj/structure/closet/crate/secure,
 /obj/item/stack/material/gold/ten,
 /obj/item/stack/material/gold/ten,
+/obj/effect/floor_decal/techfloor{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "hv" = (
@@ -3699,6 +3748,9 @@
 	dir = 4
 	},
 /obj/item/documents/exa,
+/obj/item/storage/secure/safe{
+	pixel_x = 35
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/office/captain/bedroom)
 "hw" = (
@@ -3836,6 +3888,9 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "hK" = (
@@ -3866,6 +3921,9 @@
 /obj/structure/closet/crate/secure,
 /obj/item/coin/platinum,
 /obj/item/stack/material/platinum/ten,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "hP" = (
@@ -3894,6 +3952,9 @@
 /obj/item/coin/uranium,
 /obj/item/stack/material/platinum/ten,
 /obj/item/stack/material/diamond/ten,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "hR" = (
@@ -3903,10 +3964,16 @@
 /obj/item/coin/gold,
 /obj/item/coin/platinum,
 /obj/item/coin/uranium,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "hS" = (
 /obj/structure/safe,
+/obj/effect/floor_decal/techfloor{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "hT" = (
@@ -4161,6 +4228,9 @@
 	pixel_x = -32;
 	req_access = list("ACCESS_VAULT")
 	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "jH" = (
@@ -4332,6 +4402,7 @@
 /obj/machinery/camera/network/command{
 	dir = 1
 	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "vA" = (
@@ -4376,6 +4447,10 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
@@ -4424,10 +4499,22 @@
 /obj/machinery/seed_extractor,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/habitation/garden)
+"zM" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/ship/wolf/command/vault)
 "Ae" = (
 /obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/tiled/freezer,
 /area/ship/wolf/command/bathroom)
+"Ak" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/ship/wolf/command/vault)
 "Ap" = (
 /obj/machinery/light,
 /obj/machinery/camera/network/fourth_deck{
@@ -4443,6 +4530,9 @@
 /obj/machinery/media/jukebox{
 	density = 0;
 	pixel_y = 22
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
@@ -4463,6 +4553,9 @@
 /area/ship/wolf/command/bathroom)
 "Bf" = (
 /obj/machinery/photocopier,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "BJ" = (
@@ -4534,6 +4627,9 @@
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
@@ -4721,6 +4817,9 @@
 "Iu" = (
 /obj/machinery/papershredder,
 /obj/machinery/light,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "IJ" = (
@@ -4859,6 +4958,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "OZ" = (
@@ -4960,6 +5060,9 @@
 /obj/structure/disposalpipe/segment/bent{
 	dir = 4
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "Tq" = (
@@ -4968,6 +5071,9 @@
 /obj/item/music_tape/custom,
 /obj/item/music_tape/custom,
 /obj/item/music_tape/custom,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "Ug" = (
@@ -4980,11 +5086,18 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
+"Us" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood/walnut,
+/area/ship/wolf/command/meetingroom)
 "UI" = (
 /obj/structure/table/woodentable_reinforced/walnut/maple,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/wolf/habitation/garden)
 "Va" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/vault)
 "Vt" = (
@@ -12729,7 +12842,7 @@ bn
 fT
 dw
 LI
-gp
+Us
 KO
 ei
 yJ
@@ -12856,7 +12969,7 @@ eh
 gp
 fy
 gp
-gp
+Us
 KO
 dt
 AA
@@ -13872,8 +13985,8 @@ lW
 fV
 jr
 El
-Va
-Va
+Ak
+zM
 lW
 Vt
 Vt
