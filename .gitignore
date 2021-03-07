@@ -48,3 +48,8 @@ lib/*.so
 # python
 *.pyc
 __pycache__
+
+# updater
+updater.bat
+updater.sh
+update_log.out
