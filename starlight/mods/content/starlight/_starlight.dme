@@ -12,6 +12,7 @@
 #include "code\datum\webhook_message_ooc.dm"
 #include "code\datum\admin\to_world_ban.dm"
 #include "code\datum\admin\topic.dm"
+#include "code\datum\admin\updater.dm"
 #include "code\datum\emotes\_species.dm"
 #include "code\datum\emotes\audible.dm"
 #include "code\datum\sprite_accessory\hair.dm"
