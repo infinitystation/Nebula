@@ -11,8 +11,8 @@
 
 	if(prob(15)) //stutterting and jittering (because of cold?)
 		message += SPAN_WARNING("This cold is making me jittery... ")
-		H.make_jittery(120)
-		H.stuttering = 20
+		ADJ_STATUS(H, STAT_JITTER, 120)
+		ADJ_STATUS(H, STAT_STUTTER, 20)
 
 	if(prob(5)) //vomit
 		message += SPAN_WARNING("I want to vomit... ")

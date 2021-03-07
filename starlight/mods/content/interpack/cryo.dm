@@ -1,6 +1,3 @@
-/datum/spawnpoint/cryo
-	msg = "has completed cryogenic awakening"
-
 /datum/spawnpoint/cryo/after_join(mob/living/carbon/human/victim)
 	if(!istype(victim))
 		return
@@ -29,8 +26,8 @@
 
 			C.set_occupant(victim, 1)
 			to_chat(victim, SPAN_NOTICE("You're awakening from cryosleep..."))
-			victim.sleeping = 0
-			victim.Sleeping(rand(2,7))
+			SET_STATUS_MAX(victim, STAT_ASLEEP, rand(1,3))
+			C.on_mob_spawn()
 			victim.bodytemperature = victim.species.cold_level_1 //very cold, but a point before damage
 
 			if(!victim.isSynthetic()) //fluff. I didn't used else at next lines because of code readness
@@ -46,6 +43,6 @@
 				give_effect(victim)
 				give_advice(victim)
 
-				victim.drowsyness += 30
+				ADJ_STATUS(victim, STAT_DROWSY, 30)
 
 			break

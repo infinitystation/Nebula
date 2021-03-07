@@ -26,7 +26,7 @@ GLOBAL_LIST_INIT(standing_objects, list(/obj/item/stool, /obj/structure/hygiene/
 		to_chat(usr, SPAN_WARNING("There is no ceiling above you."))
 		return
 
-	if(H.restrained() || H.stat || H.paralysis || H.stunned)
+	if(H.restrained() || H.stat || HAS_STATUS(H, STAT_PARA) || HAS_STATUS(H, STAT_STUN))
 		to_chat(usr, SPAN_WARNING("You can't do it right now."))
 		return
 
@@ -152,7 +152,7 @@ GLOBAL_LIST_INIT(standing_objects, list(/obj/item/stool, /obj/structure/hygiene/
 			M.visible_message(\
 				SPAN_WARNING("[M] unties the noose over their neck!"),\
 				SPAN_NOTICE("You untie the noose over your neck!"))
-			M.Weaken(3)
+			SET_STATUS_MAX(M, STAT_WEAK, 3)
 		unbuckle_mob()
 		add_fingerprint(user)
 
@@ -279,8 +279,8 @@ GLOBAL_LIST_INIT(standing_objects, list(/obj/item/stool, /obj/structure/hygiene/
 
 		buckled_mob.adjustOxyLoss(5)
 		buckled_mob.adjustBrainLoss(0.5)
-		buckled_mob.silent = max(buckled_mob.silent, 10)
-		if(!(H.silent && H.stat) && prob(10))
+		SET_STATUS_MAX(buckled_mob, STAT_SILENCE, 10)
+		if(!(HAS_STATUS(H, STAT_SILENCE) && H.stat) && prob(10))
 			buckled_mob.emote("gasp")
 
 /obj/structure/noose/proc/noosed_effect(mob/user)
