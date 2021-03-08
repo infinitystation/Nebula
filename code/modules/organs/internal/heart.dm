@@ -175,8 +175,8 @@
 				SPAN_DANGER("Blood sprays out from \the [owner]'s [spray_organ]!"),
 				FONT_HUGE(SPAN_DANGER("Blood sprays out from your [spray_organ]!"))
 			)
-			owner.Stun(1)
-			owner.eye_blurry = 2
+			SET_STATUS_MAX(owner, STAT_STUN, 1)
+			owner.set_status(STAT_BLURRY, 2)
 
 			playsound(owner, 'starlight/mods/content/starlight/sound/effects/gore/blood_splat.ogg', 100, 0, -2)
 

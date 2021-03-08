@@ -813,7 +813,9 @@
 		M.update_icons()
 
 		//so they black out before warping
-		M.Paralyse(5)
+		if(isliving(M))
+			var/mob/living/L = M
+			SET_STATUS_MAX(L, STAT_PARA, 5)
 		sleep(5)
 		if(!M)	return
 
@@ -843,7 +845,9 @@
 		for(var/obj/item/I in M)
 			M.drop_from_inventory(I)
 
-		M.Paralyse(5)
+		if(isliving(M))
+			var/mob/living/L = M
+			SET_STATUS_MAX(L, STAT_PARA, 5)
 		sleep(5)
 		M.forceMove(pick(GLOB.tdome1))
 		spawn(50)
@@ -868,7 +872,9 @@
 		for(var/obj/item/I in M)
 			M.drop_from_inventory(I)
 
-		M.Paralyse(5)
+		if(isliving(M))
+			var/mob/living/L = M
+			SET_STATUS_MAX(L, STAT_PARA, 5)
 		sleep(5)
 		M.forceMove(pick(GLOB.tdome2))
 		spawn(50)
@@ -889,8 +895,10 @@
 		if(istype(M, /mob/living/silicon/ai))
 			to_chat(usr, "This cannot be used on instances of type /mob/living/silicon/ai")
 			return
-
-		M.Paralyse(5)
+		
+		if(isliving(M))
+			var/mob/living/L = M
+			SET_STATUS_MAX(L, STAT_PARA, 5)
 		sleep(5)
 		M.forceMove(pick(GLOB.tdomeadmin))
 		spawn(50)
@@ -919,7 +927,11 @@
 			var/mob/living/carbon/human/observer = M
 			observer.equip_to_slot_or_del(new /obj/item/clothing/under/suit_jacket(observer), slot_w_uniform_str)
 			observer.equip_to_slot_or_del(new /obj/item/clothing/shoes/color/black(observer), slot_shoes_str)
-		M.Paralyse(5)
+
+		if(isliving(M))
+			var/mob/living/L = M
+			SET_STATUS_MAX(L, STAT_PARA, 5)
+
 		sleep(5)
 		M.forceMove(pick(GLOB.tdomeobserve))
 		spawn(50)
@@ -1166,9 +1178,9 @@
 			M.gib()
 		else
 			M.adjustBruteLoss( min( 99 , (M.health - 1) )    )
-			M.Stun(20)
-			M.Weaken(20)
-			M.stuttering = 20
+			SET_STATUS_MAX(M, STAT_STUN, 20)
+			SET_STATUS_MAX(M, STAT_WEAK, 20)
+			M.set_status(STAT_STUTTER, 20)
 
 	else if(href_list["CentcommReply"])
 		var/mob/living/L = locate(href_list["CentcommReply"])
@@ -1739,13 +1751,13 @@
 		show_player_panel(M)
 
 
-mob/living/proc/can_centcom_reply()
+/mob/living/proc/can_centcom_reply()
 	return 0
 
-mob/living/carbon/human/can_centcom_reply()
+/mob/living/carbon/human/can_centcom_reply()
 	return istype(l_ear, /obj/item/radio/headset) || istype(r_ear, /obj/item/radio/headset)
 
-mob/living/silicon/ai/can_centcom_reply()
+/mob/living/silicon/ai/can_centcom_reply()
 	return silicon_radio != null && !check_unable(2)
 
 /datum/proc/extra_admin_link(var/prefix, var/sufix, var/short_links)
