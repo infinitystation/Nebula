@@ -6,6 +6,5 @@
 #include "cryo_effects.dm"
 #include "cryo.dm"
 #include "footsteps.dm"
-#include "living.dm"
 #include "storage.dm"
 #endif
