@@ -67,6 +67,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/library)
 "cc" = (
@@ -868,6 +869,11 @@
 	fab_status_flags = 1
 	},
 /obj/machinery/recharger/wallcharger{
+	pixel_x = 6;
+	pixel_y = 28
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -6;
 	pixel_y = 28
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -1263,10 +1269,6 @@
 /obj/machinery/firealarm{
 	dir = 1
 	},
-/obj/machinery/recharger/wallcharger{
-	dir = 1;
-	pixel_y = -28
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/security)
 "yS" = (
@@ -1293,6 +1295,16 @@
 /area/labyrinth/security)
 "yZ" = (
 /obj/structure/table/rack,
+/obj/machinery/recharger/wallcharger{
+	dir = 1;
+	pixel_x = 6;
+	pixel_y = -28
+	},
+/obj/machinery/recharger/wallcharger{
+	dir = 1;
+	pixel_x = -6;
+	pixel_y = -28
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/security)
 "zA" = (
@@ -2257,6 +2269,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
 "VI" = (
@@ -2320,6 +2333,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
 "Yq" = (

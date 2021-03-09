@@ -113,6 +113,7 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "fa" = (
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "fd" = (
@@ -126,42 +127,10 @@
 /obj/item/music_tape/custom,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
-"fO" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner,
-/turf/simulated/floor/wood/walnut,
-/area/labyrinth/civilian/lounge)
-"fP" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 1
-	},
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 4
-	},
-/turf/simulated/floor/wood/walnut,
-/area/labyrinth/civilian/lounge)
 "fY" = (
 /obj/structure/table/standard,
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/carpet/blue2,
-/area/labyrinth/civilian/lounge)
-"gr" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/obj/effect/floor_decal/spline/fancy/wood,
-/turf/simulated/floor/wood/walnut,
-/area/labyrinth/civilian/lounge)
-"gt" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 4
-	},
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 8
-	},
-/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "gH" = (
 /obj/structure/table/standard,
@@ -236,10 +205,6 @@
 /turf/exterior/volcanic,
 /area/exoplanet/volcanic)
 "jv" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
@@ -250,6 +215,7 @@
 /area/labyrinth/science/testing)
 "ku" = (
 /obj/structure/railing/mapped,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "kH" = (
@@ -265,25 +231,31 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "le" = (
 /obj/machinery/vending/dinnerware{
 	dir = 1
 	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/lounge)
 "lG" = (
 /obj/structure/table/standard,
 /obj/machinery/reagentgrinder/juicer,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/lounge)
 "lS" = (
 /obj/structure/table/standard,
 /obj/machinery/microwave,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/lounge)
 "ml" = (
@@ -300,16 +272,10 @@
 /area/exoplanet/volcanic)
 "mp" = (
 /obj/machinery/cooker/oven,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/freezer,
-/area/labyrinth/civilian/lounge)
-"mR" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8
-	},
-/turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "mU" = (
 /obj/structure/table/standard,
@@ -359,27 +325,32 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "nH" = (
 /obj/machinery/chem_master/condimaster,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/lounge)
 "oz" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
+/obj/effect/floor_decal/spline/fancy,
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/lounge)
 "oS" = (
 /obj/structure/closet/secure_closet/freezer/kitchen{
 	req_access = list()
 	},
+/obj/effect/floor_decal/spline/fancy,
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/lounge)
 "pa" = (
 /obj/structure/closet/secure_closet/freezer/meat,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/lounge)
 "pt" = (
@@ -425,9 +396,6 @@
 /obj/machinery/light_switch{
 	pixel_y = -21
 	},
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 1
-	},
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "qE" = (
@@ -436,18 +404,18 @@
 	},
 /turf/simulated/open,
 /area/labyrinth/civilian/lounge)
-"qL" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/labyrinth/civilian/lounge)
 "qM" = (
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/exterior/concrete,
 /area/exoplanet/volcanic)
+"rl" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/lino,
+/area/labyrinth/civilian/lounge)
 "rC" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/maintenance/shaft)
@@ -458,6 +426,9 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
+	},
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
@@ -582,10 +553,6 @@
 /turf/simulated/floor/carpet/blue2,
 /area/labyrinth/civilian/lounge)
 "BM" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 1
-	},
-/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "Cd" = (
@@ -824,6 +791,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "Lv" = (
@@ -931,9 +899,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/upper)
 "PK" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
 /obj/machinery/light,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
@@ -7498,7 +7463,7 @@ SS
 SS
 pP
 hB
-fO
+BM
 ld
 nF
 qC
@@ -7631,7 +7596,7 @@ hB
 BM
 le
 nH
-qL
+BM
 HZ
 Cd
 Cd
@@ -7758,10 +7723,10 @@ al
 aJ
 bE
 fa
-gr
+BM
 lG
 oz
-qL
+BM
 HZ
 Cd
 Cd
@@ -8018,10 +7983,10 @@ al
 aJ
 cc
 fa
-gr
+BM
 mp
 pa
-qL
+BM
 HZ
 Cd
 Cd
@@ -8148,10 +8113,10 @@ al
 aJ
 hB
 hB
-gt
-mR
-mR
-fP
+BM
+BM
+BM
+BM
 HZ
 Cd
 Cd
@@ -8278,9 +8243,9 @@ WP
 WP
 pP
 hB
-fa
-fa
-fa
+rl
+rl
+rl
 rC
 rC
 rC
