@@ -349,7 +349,7 @@
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science/testing)
 "bc" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
@@ -1769,7 +1769,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
 "kX" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
 "lc" = (
@@ -4321,7 +4321,7 @@
 /obj/structure/sign/warning/server_room{
 	pixel_y = 32
 	},
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
 "CZ" = (
@@ -5736,7 +5736,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Nk" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Nq" = (
@@ -6067,6 +6067,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering)
+"Qd" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/watertank,
+/turf/simulated/floor/tiled/techfloor,
+/area/labyrinth/engineering/reactor)
 "Qn" = (
 /obj/effect/floor_decal/corner/yellow/three_quarters,
 /obj/structure/cable{
@@ -6503,6 +6510,7 @@
 /obj/structure/sign/warning/compressed_gas{
 	pixel_x = 32
 	},
+/obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/atmospherics)
 "TF" = (
@@ -6987,7 +6995,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/plain/orange,
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "WY" = (
@@ -14216,7 +14224,7 @@ fT
 fw
 FJ
 aa
-TD
+Qd
 Rh
 Bv
 po

@@ -67,7 +67,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/library)
 "cc" = (
@@ -2272,7 +2272,6 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/structure/closet/crate/bin,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
 "VI" = (
@@ -2336,7 +2335,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
 "Yq" = (

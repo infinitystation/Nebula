@@ -222,7 +222,7 @@
 /area/labyrinth/science/testing)
 "ku" = (
 /obj/structure/railing/mapped,
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "kH" = (
