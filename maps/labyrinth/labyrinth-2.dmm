@@ -49,6 +49,10 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/reagentgrinder/juicer{
+	pixel_x = -5;
+	pixel_y = 8
+	},
 /turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "cc" = (
@@ -120,6 +124,12 @@
 /obj/random/junk,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
+"fj" = (
+/obj/machinery/light/small/red{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/maintenance/shaft)
 "fE" = (
 /obj/item/stool/padded,
 /obj/effect/decal/cleanable/dirt,
@@ -215,7 +225,7 @@
 /area/labyrinth/science/testing)
 "ku" = (
 /obj/structure/railing/mapped,
-/obj/structure/closet/crate/trashcart,
+/obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "kH" = (
@@ -244,7 +254,6 @@
 /area/labyrinth/civilian/lounge)
 "lG" = (
 /obj/structure/table/standard,
-/obj/machinery/reagentgrinder/juicer,
 /obj/effect/floor_decal/spline/fancy{
 	dir = 1
 	},
@@ -499,6 +508,9 @@
 "yi" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/extinguisher,
+/obj/machinery/light/small/red{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
 "yp" = (
@@ -8902,7 +8914,7 @@ Fu
 HW
 HW
 HW
-Pe
+fj
 rC
 pP
 WP
