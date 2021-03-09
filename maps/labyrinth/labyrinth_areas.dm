@@ -16,6 +16,12 @@
 /area/labyrinth/engineering/power
 	name = "Power Supply"
 
+/area/labyrinth/engineering/protofusionreactor
+	name = "Proto Fusion Reactor Chamber"
+
+/area/labyrinth/engineering/protorcontrol
+	name = "Fusion Reactor Control"
+
 /area/labyrinth/engineering/atmospherics
 	name = "Life Support"
 
