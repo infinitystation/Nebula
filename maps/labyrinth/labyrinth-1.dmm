@@ -1350,9 +1350,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/engineering)
-"ja" = (
-/turf/simulated/floor/plating,
-/area/labyrinth/medical/lobby)
 "jb" = (
 /obj/machinery/light{
 	dir = 4
@@ -13599,7 +13596,7 @@ jI
 ac
 ou
 mN
-ja
+ac
 uQ
 uQ
 uQ

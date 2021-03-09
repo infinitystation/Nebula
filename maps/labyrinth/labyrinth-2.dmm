@@ -153,9 +153,6 @@
 /turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
 "hc" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -432,7 +429,6 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/engineering/communications)
 "sA" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -450,21 +446,11 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
-"tp" = (
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/wood/walnut,
-/area/labyrinth/civilian/lounge)
 "tO" = (
 /obj/effect/landmark/test/space_turf,
 /turf/exterior/concrete,
 /area/exoplanet/volcanic)
 "uC" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -534,9 +520,6 @@
 /turf/simulated/floor/bluegrid,
 /area/labyrinth/engineering/communications)
 "ze" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
@@ -635,9 +618,6 @@
 /turf/simulated/open,
 /area/labyrinth/engineering/communications)
 "Gp" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
@@ -659,9 +639,6 @@
 /turf/simulated/floor/carpet/blue2,
 /area/labyrinth/civilian/lounge)
 "GM" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -769,9 +746,6 @@
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "Kf" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
@@ -797,9 +771,6 @@
 /turf/simulated/open,
 /area/labyrinth/maintenance/shaft)
 "Lp" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
@@ -807,18 +778,12 @@
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "Lv" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "LC" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
@@ -831,9 +796,6 @@
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "LL" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
@@ -6959,7 +6921,7 @@ pP
 aJ
 hB
 aJ
-tp
+Lv
 Ab
 Gt
 Gt
@@ -7089,7 +7051,7 @@ aJ
 aJ
 nx
 qE
-tp
+Lv
 AA
 fY
 AA
@@ -7219,7 +7181,7 @@ aJ
 ku
 nx
 nx
-tp
+Lv
 AR
 GF
 GF
