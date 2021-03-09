@@ -30,7 +30,9 @@
 /area/labyrinth/civilian)
 "ah" = (
 /obj/structure/glass_tank/aquarium,
-/mob/living/simple_animal/aquatic/fish,
+/mob/living/simple_animal/aquatic/fish{
+	name = "Cola"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/labyrinth/civilian)
 "ai" = (
@@ -43,7 +45,9 @@
 /area/labyrinth/civilian)
 "aj" = (
 /obj/structure/glass_tank/aquarium,
-/mob/living/simple_animal/aquatic/fish/grump,
+/mob/living/simple_animal/aquatic/fish/grump{
+	name = "Pepsi"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/labyrinth/civilian)
 "ak" = (
@@ -73,6 +77,12 @@
 "ao" = (
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -130,6 +140,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
 "az" = (
@@ -141,6 +154,12 @@
 "aA" = (
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 6
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -175,8 +194,8 @@
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "aE" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 5
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
 	},
 /obj/structure/table/standard,
 /obj/machinery/reagent_temperature/cooler{
@@ -186,6 +205,9 @@
 /obj/machinery/reagent_temperature{
 	pixel_x = 8;
 	pixel_y = 2
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -322,26 +344,30 @@
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science/testing)
 "bc" = (
-/obj/structure/table/standard,
+/obj/structure/closet/crate/trashcart,
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
-/obj/machinery/recharger,
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
 "bd" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
 	},
 /obj/structure/table/standard,
 /obj/structure/emergency_dispenser/west,
 /obj/item/defibrillator/compact/loaded,
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "bg" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
+/obj/structure/table/standard,
+/obj/machinery/recharger,
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
 "bn" = (
@@ -415,13 +441,13 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/service/cargo/storage)
 "bV" = (
-/obj/effect/floor_decal/corner/paleblue{
+/obj/effect/floor_decal/borderfloorwhite{
 	dir = 9
 	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 4
-	},
 /obj/machinery/chem_master,
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "bZ" = (
@@ -454,6 +480,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 10
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "ci" = (
@@ -595,6 +625,20 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
+"de" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 4
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/labyrinth/medical/lobby)
 "dm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -605,6 +649,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "dn" = (
@@ -613,6 +658,12 @@
 	dir = 8
 	},
 /obj/machinery/reagentgrinder,
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "do" = (
@@ -640,10 +691,9 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 6
-	},
+/obj/effect/floor_decal/borderfloorwhite/corner,
 /obj/structure/closet/secure_closet/medical1,
+/obj/effect/floor_decal/corner/paleblue/bordercorner,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "dz" = (
@@ -743,6 +793,11 @@
 "em" = (
 /turf/simulated/floor/greengrid,
 /area/labyrinth/engineering/reactor)
+"er" = (
+/obj/structure/bed/chair/office/dark,
+/obj/effect/floor_decal/techfloor/corner,
+/turf/simulated/floor/tiled/techfloor,
+/area/labyrinth/engineering)
 "ev" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner/blue{
@@ -753,11 +808,19 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
-"ez" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
+"ex" = (
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/paleblue,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/labyrinth/science)
+"ez" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 10
+	},
 /obj/machinery/light_switch{
 	pixel_y = -24
 	},
@@ -770,11 +833,17 @@
 	dir = 4;
 	pixel_x = -28
 	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "eJ" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 10
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/paleblue/bordercorner{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -789,19 +858,21 @@
 /obj/machinery/firealarm{
 	dir = 1
 	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 10
-	},
+/obj/effect/floor_decal/borderfloorwhite/corner,
+/obj/effect/floor_decal/corner/paleblue/bordercorner,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "eP" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "eT" = (
 /obj/machinery/alarm,
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/civilian/cryo)
 "eY" = (
@@ -819,6 +890,9 @@
 "fj" = (
 /obj/machinery/atm{
 	pixel_y = 32
+	},
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/civilian/cryo)
@@ -855,7 +929,7 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "fL" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
@@ -873,7 +947,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "fT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -903,7 +977,7 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "fZ" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -944,6 +1018,15 @@
 /obj/machinery/suit_cycler/mining/prepared,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
+"gE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/borderfloor/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/labyrinth/civilian)
 "gJ" = (
 /obj/structure/table/rack,
 /obj/random/tech_supply,
@@ -1021,16 +1104,16 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "hn" = (
-/obj/effect/floor_decal/corner/paleblue{
+/obj/effect/floor_decal/borderfloorwhite{
 	dir = 6
-	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 8
 	},
 /obj/structure/sign/goldenplaque/medical{
 	pixel_x = 32
 	},
 /obj/structure/closet/secure_closet/medical3,
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "hp" = (
@@ -1155,19 +1238,21 @@
 	dir = 4
 	},
 /obj/structure/closet/crate,
+/obj/item/storage/lockbox/vials,
+/obj/item/storage/lockbox/vials,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "if" = (
 /obj/effect/floor_decal/industrial/outline/orange,
 /obj/machinery/mech_recharger,
 /mob/living/exosuit/premade/random/normal,
-/turf/simulated/floor/tiled/white/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "ih" = (
 /obj/effect/floor_decal/industrial/outline/orange,
 /obj/machinery/mech_recharger,
 /obj/structure/heavy_vehicle_frame,
-/turf/simulated/floor/tiled/white/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "ii" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -1234,6 +1319,9 @@
 /area/labyrinth/civilian/hygiene)
 "iJ" = (
 /obj/machinery/firealarm,
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "iL" = (
@@ -1255,8 +1343,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/engineering)
 "ja" = (
-/obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/labyrinth/medical/lobby)
 "jb" = (
@@ -1269,11 +1355,14 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science/testing)
 "jc" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
 	},
 /obj/structure/hygiene/sink{
 	pixel_y = 23
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -1304,6 +1393,20 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/labyrinth/science)
+"js" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 5
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/labyrinth/medical)
 "ju" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1385,11 +1488,14 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
 	},
 /obj/machinery/power/apc{
 	dir = 1
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
@@ -1446,13 +1552,13 @@
 /obj/machinery/alarm{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "kt" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "kv" = (
 /obj/effect/floor_decal/techfloor{
@@ -1473,13 +1579,13 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "kx" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "kz" = (
 /obj/structure/table/standard,
@@ -1561,9 +1667,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
 "kX" = (
-/obj/structure/bed/chair{
-	dir = 1
-	},
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
 "lc" = (
@@ -1738,11 +1842,24 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
+"mx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/beakers/insulated,
+/obj/item/chems/glass/beaker/insulated/large,
+/turf/simulated/floor/tiled/white,
+/area/labyrinth/medical)
 "mG" = (
 /obj/machinery/body_scanconsole{
 	dir = 1
@@ -1758,11 +1875,14 @@
 /area/labyrinth/medical/lobby)
 "mO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 6
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 4
 	},
 /obj/machinery/light_switch{
 	pixel_x = 24
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
@@ -1815,6 +1935,9 @@
 "ne" = (
 /obj/structure/closet/secure_closet/cargotech,
 /obj/effect/floor_decal/spline/plain/orange,
+/obj/machinery/status_display/supply_display{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/service/cargo)
 "ng" = (
@@ -1824,7 +1947,7 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "nk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1832,11 +1955,11 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "no" = (
 /obj/effect/floor_decal/industrial/outline/orange,
-/turf/simulated/floor/tiled/white/monotile,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "nr" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -1871,7 +1994,7 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "nB" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -1924,6 +2047,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "oe" = (
@@ -1985,6 +2109,12 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 1
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
 "ou" = (
@@ -2013,7 +2143,10 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/obj/effect/floor_decal/corner/paleblue{
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/paleblue/bordercorner{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -2035,7 +2168,8 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/obj/effect/floor_decal/corner/paleblue,
+/obj/effect/floor_decal/borderfloorwhite/corner,
+/obj/effect/floor_decal/corner/paleblue/bordercorner,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
 "oA" = (
@@ -2065,8 +2199,11 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/paleblue/three_quarters{
-	dir = 4
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
@@ -2121,7 +2258,7 @@
 /obj/machinery/firealarm{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "pf" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -2136,7 +2273,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "pm" = (
 /obj/machinery/door/firedoor,
@@ -2159,7 +2296,7 @@
 /obj/machinery/light_switch{
 	pixel_y = -21
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "pu" = (
 /obj/machinery/door/airlock/external/bolted{
@@ -2180,7 +2317,7 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "pw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2351,6 +2488,9 @@
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 4
 	},
+/obj/machinery/space_heater/wall/on{
+	pixel_x = -32
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/reactor)
 "qP" = (
@@ -2435,10 +2575,13 @@
 /obj/item/chems/ivbag/blood/BPlus,
 /obj/item/chems/ivbag/blood/OMinus,
 /obj/item/chems/ivbag/blood/OPlus,
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
 	},
 /obj/structure/window/reinforced/polarized,
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "rq" = (
@@ -2446,6 +2589,12 @@
 /area/labyrinth/engineering/communications)
 "rw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/paleblue/bordercorner{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "ry" = (
@@ -2480,6 +2629,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc,
+/obj/effect/floor_decal/borderfloorwhite,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/civilian/cryo)
 "rJ" = (
@@ -2526,6 +2676,9 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/civilian/cryo)
 "sb" = (
@@ -2544,10 +2697,13 @@
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/civilian/cryo)
 "si" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 5
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
 	},
 /obj/machinery/chemical_dispenser/full,
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "ss" = (
@@ -2579,7 +2735,13 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science)
 "sN" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2611,14 +2773,14 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/service/cargo/smelter)
 "tc" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/crate,
-/obj/machinery/status_display/supply_display{
-	pixel_x = 32;
-	pixel_y = 34
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techmaint,
-/area/labyrinth/service/cargo/storage)
+/obj/effect/floor_decal/borderfloor/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/labyrinth/civilian)
 "te" = (
 /obj/machinery/status_display/supply_display,
 /turf/simulated/wall/r_wall/prepainted,
@@ -2662,6 +2824,7 @@
 /area/labyrinth/science/fabrication)
 "tR" = (
 /obj/item/stack/material/osmium/ten,
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science/fabrication)
 "tY" = (
@@ -2673,7 +2836,7 @@
 /area/labyrinth/service/cargo/storage)
 "ua" = (
 /obj/structure/curtain/open/black,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/tiled/dark,
 /area/labyrinth/civilian)
 "ub" = (
 /obj/effect/floor_decal/corner/research{
@@ -2724,6 +2887,15 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/labyrinth/engineering/communications)
+"uv" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/labyrinth/civilian)
 "uD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2819,6 +2991,9 @@
 /obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/fire,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical)
 "vd" = (
@@ -2888,6 +3063,12 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "vC" = (
@@ -2909,11 +3090,14 @@
 /turf/exterior/volcanic,
 /area/exoplanet/volcanic)
 "vK" = (
-/obj/effect/floor_decal/corner/research{
-	dir = 6
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 4
 	},
 /obj/structure/bed/chair/office/comfy/purple{
 	dir = 8
+	},
+/obj/effect/floor_decal/corner/research/border{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
@@ -3100,9 +3284,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/labyrinth/civilian/cryo)
 "xn" = (
-/obj/effect/floor_decal/corner/research{
-	dir = 9
-	},
+/obj/effect/floor_decal/corner/research/full,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -3125,7 +3307,13 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science)
 "xz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3136,6 +3324,12 @@
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/research/border{
+	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
@@ -3158,6 +3352,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/research/border,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
 "xF" = (
@@ -3173,6 +3369,8 @@
 /obj/structure/table/standard,
 /obj/item/paper_bin,
 /obj/item/pen,
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/research/border,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
 "xM" = (
@@ -3181,9 +3379,7 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/service/cargo/storage)
 "xO" = (
-/obj/effect/floor_decal/corner/research{
-	dir = 6
-	},
+/obj/effect/floor_decal/corner/research/full,
 /obj/structure/table/standard,
 /obj/item/robotanalyzer,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -3401,7 +3597,10 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science)
 "zV" = (
 /obj/structure/cable{
@@ -3441,9 +3640,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/research{
-	dir = 9
-	},
+/obj/effect/floor_decal/corner/research/full,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -3482,12 +3679,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/research{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/research{
-	dir = 9
-	},
+/obj/effect/floor_decal/corner/research/full,
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
@@ -3706,7 +3898,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science)
 "Ck" = (
 /obj/structure/table/standard,
@@ -3731,7 +3929,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "Cq" = (
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "Cv" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
@@ -3800,6 +3998,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/space_heater/wall/on{
+	pixel_x = -32
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/reactor)
 "CX" = (
@@ -3818,6 +4019,7 @@
 /obj/structure/sign/warning/server_room{
 	pixel_y = 32
 	},
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
 "CZ" = (
@@ -4149,6 +4351,7 @@
 "FV" = (
 /obj/structure/table/standard,
 /obj/machinery/cell_charger,
+/obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "Ge" = (
@@ -4456,6 +4659,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
+"HN" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/white/monotile,
+/area/labyrinth/science)
 "HR" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4883,8 +5096,11 @@
 /area/labyrinth/hallway/lower)
 "Ll" = (
 /obj/machinery/light,
-/obj/effect/floor_decal/corner/paleblue/three_quarters{
-	dir = 4
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
@@ -4911,6 +5127,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-8"
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
@@ -5015,13 +5234,13 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/service/cargo/smelter)
 "Mg" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 1
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 5
 	},
 /obj/machinery/vending/medical,
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "Mj" = (
@@ -5119,9 +5338,7 @@
 /turf/exterior/volcanic,
 /area/exoplanet/volcanic)
 "MX" = (
-/obj/machinery/computer/modular/preset/engineering{
-	dir = 4
-	},
+/obj/structure/table/standard,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "MY" = (
@@ -5135,27 +5352,21 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo)
 "Nb" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 8
-	},
+/obj/machinery/computer/modular/preset/engineering,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Nh" = (
 /obj/structure/sign/atmosplaque{
 	pixel_y = 32
 	},
-/obj/structure/bed/chair/office/dark{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor,
+/obj/machinery/computer/modular/preset/engineering,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Nk" = (
-/obj/machinery/computer/modular/preset/engineering{
-	dir = 8
-	},
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Nq" = (
@@ -5171,8 +5382,20 @@
 /obj/item/stool/padded,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/service/cargo/smelter)
+"Nv" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/research/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/labyrinth/science)
 "NA" = (
 /obj/machinery/fabricator/industrial,
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "NC" = (
@@ -5182,6 +5405,9 @@
 	pixel_x = 4
 	},
 /obj/effect/floor_decal/corner/paleblue/mono,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical)
 "NO" = (
@@ -5196,10 +5422,16 @@
 	id_tag = "cargo_shutter_mechbay";
 	pixel_y = 24
 	},
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "NT" = (
 /obj/machinery/fabricator,
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "NU" = (
@@ -5231,8 +5463,20 @@
 /obj/item/stack/material/osmium/ten,
 /obj/item/stack/material/osmium/ten,
 /obj/item/stack/material/osmium/ten,
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
+"Oh" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
+/obj/machinery/status_display/supply_display{
+	pixel_x = 32;
+	pixel_y = 34
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/service/cargo/storage)
 "Oj" = (
 /obj/machinery/space_heater/wall{
 	pixel_y = 32
@@ -5251,6 +5495,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/firealarm{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/orange{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -5360,7 +5607,7 @@
 	pixel_x = -5;
 	pixel_y = 25
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
 "Ph" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
@@ -5427,15 +5674,11 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
-"PO" = (
-/obj/structure/table/standard,
-/obj/item/clipboard,
-/obj/item/pen,
-/obj/effect/floor_decal/techfloor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/engineering)
 "Qc" = (
-/obj/effect/floor_decal/techfloor,
+/obj/structure/bed/chair/office/dark,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering)
 "Qn" = (
@@ -5454,9 +5697,8 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/engineering)
 "Qr" = (
-/obj/structure/table/standard,
-/obj/random/single/cola,
 /obj/effect/floor_decal/techfloor,
+/obj/structure/table/standard,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Qs" = (
@@ -5480,6 +5722,9 @@
 /obj/machinery/light_switch{
 	pixel_x = -24
 	},
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "QC" = (
@@ -5499,8 +5744,11 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/service/cargo/smelter)
 "QX" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -5713,10 +5961,19 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
+/obj/machinery/space_heater/wall{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/power)
 "Tf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/paleblue/bordercorner{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "Tg" = (
@@ -5748,6 +6005,9 @@
 	},
 /obj/effect/floor_decal/techfloor{
 	dir = 1
+	},
+/obj/machinery/space_heater/wall{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/power)
@@ -5829,6 +6089,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 6
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "TH" = (
@@ -5847,9 +6113,8 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 10
-	},
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/paleblue/border,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
 "TP" = (
@@ -5867,6 +6132,7 @@
 /area/labyrinth/engineering/atmospherics)
 "Um" = (
 /obj/machinery/fabricator/textile,
+/obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "Un" = (
@@ -5882,6 +6148,7 @@
 "Us" = (
 /obj/machinery/fabricator/micro/bartender,
 /obj/structure/table/standard,
+/obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "Uu" = (
@@ -5916,6 +6183,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
@@ -6145,9 +6415,8 @@
 /turf/simulated/floor/tiled/monotile,
 /area/labyrinth/service/cargo/smelter)
 "Wx" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 10
-	},
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/paleblue/border,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
 "Wz" = (
@@ -6204,10 +6473,14 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/engineering)
 "WK" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
 	},
 /obj/structure/table/standard,
+/obj/item/chems/glass/beaker/large,
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "WL" = (
@@ -6217,12 +6490,15 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 "WP" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 6
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 4
 	},
 /obj/structure/hygiene/sink{
 	dir = 4;
 	pixel_x = 12
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -6246,6 +6522,9 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/papershredder,
+/obj/effect/floor_decal/spline/plain/orange{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "WV" = (
@@ -6259,6 +6538,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/floor_decal/spline/plain/orange,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "WY" = (
@@ -6274,6 +6555,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "Xb" = (
@@ -6294,6 +6576,7 @@
 /obj/machinery/alarm{
 	dir = 1
 	},
+/obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "Xm" = (
@@ -6317,6 +6600,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "Xs" = (
@@ -6709,6 +6993,12 @@
 "ZR" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/paleblue/border{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -12505,7 +12795,7 @@ po
 Ws
 ab
 ag
-az
+tc
 zE
 ab
 ua
@@ -12635,7 +12925,7 @@ po
 Ws
 ab
 ah
-az
+uv
 bn
 cW
 ef
@@ -12765,7 +13055,7 @@ po
 Ws
 ab
 ai
-az
+uv
 jC
 jC
 jC
@@ -13025,7 +13315,7 @@ po
 Ws
 ab
 ak
-az
+gE
 hU
 ab
 ua
@@ -13164,7 +13454,7 @@ jH
 ac
 oq
 kX
-ja
+ac
 uQ
 uQ
 uQ
@@ -13554,7 +13844,7 @@ jS
 mq
 ov
 Wx
-ja
+ac
 uQ
 uQ
 uQ
@@ -13684,7 +13974,7 @@ jX
 mG
 oL
 Wx
-ja
+ac
 uQ
 uQ
 uQ
@@ -13808,9 +14098,9 @@ zO
 aC
 Ew
 ds
-ds
+js
 hQ
-ka
+de
 ka
 oz
 Ll
@@ -14214,7 +14504,7 @@ Er
 HC
 Qq
 MX
-PO
+Qr
 TH
 Wh
 Zc
@@ -14474,7 +14764,7 @@ By
 HJ
 Qq
 Nh
-Qc
+er
 TH
 Wz
 Zm
@@ -14586,7 +14876,7 @@ aE
 dv
 dv
 dv
-id
+mx
 dz
 fj
 ia
@@ -15247,7 +15537,7 @@ rf
 sC
 sC
 xw
-zQ
+ex
 nb
 jq
 DP
@@ -15375,9 +15665,9 @@ no
 pr
 qX
 ta
-vG
+Nv
 xz
-zQ
+HN
 BR
 jq
 ES
@@ -15507,7 +15797,7 @@ qX
 tr
 vG
 xD
-zQ
+HN
 BS
 qX
 Et
@@ -16428,8 +16718,8 @@ ne
 na
 od
 pm
+Oh
 Xy
-tc
 hP
 wc
 Kp
