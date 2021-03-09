@@ -2267,7 +2267,9 @@
 /obj/machinery/door/firedoor{
 	dir = 4
 	},
-/obj/structure/sign/bluecross_2,
+/obj/structure/sign/bluecross_2{
+	pixel_y = -24
+	},
 /turf/simulated/floor/plating,
 /area/labyrinth/medical/lobby)
 "oz" = (
@@ -5716,6 +5718,9 @@
 /area/labyrinth/service/cargo)
 "Nb" = (
 /obj/machinery/computer/modular/preset/engineering,
+/obj/structure/sign/atmosplaque{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Ng" = (
@@ -5726,9 +5731,6 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/protofusionreactor)
 "Nh" = (
-/obj/structure/sign/atmosplaque{
-	pixel_y = 32
-	},
 /obj/machinery/computer/modular/preset/engineering,
 /obj/machinery/light{
 	dir = 1
