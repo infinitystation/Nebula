@@ -3681,7 +3681,7 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	dir = 4
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/protofusionreactor)
@@ -4952,7 +4952,7 @@
 "Hl" = (
 /obj/machinery/power/fusion_core/mapped,
 /obj/structure/cable/yellow{
-	dir = 4
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/labyrinth/engineering/protofusionreactor)
@@ -6224,7 +6224,7 @@
 	dir = 1
 	},
 /obj/structure/cable/yellow{
-	dir = 8
+	icon_state = "0-4"
 	},
 /obj/machinery/firealarm{
 	dir = 8
