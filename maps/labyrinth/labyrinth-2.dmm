@@ -446,10 +446,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
-"tO" = (
-/obj/effect/landmark/test/space_turf,
-/turf/exterior/concrete,
-/area/exoplanet/volcanic)
 "uC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -979,7 +975,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/landmark/test/safe_turf,
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/upper)
@@ -7846,7 +7841,7 @@ OA
 RF
 RF
 dx
-tO
+xP
 qz
 RF
 dq

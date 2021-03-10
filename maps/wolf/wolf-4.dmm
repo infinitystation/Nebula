@@ -78,7 +78,6 @@
 /area/ship/wolf/command/hallway)
 "al" = (
 /obj/machinery/hologram/holopad/longrange,
-/obj/effect/landmark/test/safe_turf,
 /obj/effect/floor_decal/techfloor,
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techfloor,
@@ -4371,10 +4370,6 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/wolf/command/bathroom)
-"qm" = (
-/obj/effect/landmark/test/space_turf,
-/turf/simulated/floor/reinforced/airless,
-/area/space)
 "qR" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 9
@@ -13190,7 +13185,7 @@ ab
 ab
 ab
 ab
-qm
+ab
 ab
 gs
 aq

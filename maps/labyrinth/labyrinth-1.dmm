@@ -6433,15 +6433,6 @@
 "Rx" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/service/cargo/storage)
-"Ry" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark,
-/area/labyrinth/security/brig)
 "RC" = (
 /obj/structure/bed/chair/comfy/beige,
 /obj/machinery/light/small{
@@ -12942,7 +12933,7 @@ Se
 zH
 Se
 Se
-Ry
+Se
 WO
 rz
 su
