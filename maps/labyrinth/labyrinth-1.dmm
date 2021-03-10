@@ -66,12 +66,12 @@
 /obj/machinery/alarm{
 	dir = 4
 	},
-/obj/structure/curtain/medical,
+/obj/structure/curtain/open/medical,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "an" = (
 /obj/effect/floor_decal/industrial/hatch/blue,
-/obj/structure/curtain/medical,
+/obj/structure/curtain/open/medical,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "ao" = (
@@ -349,7 +349,7 @@
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science/testing)
 "bc" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
@@ -537,6 +537,9 @@
 /obj/machinery/door/airlock/hatch/labyrinth/sci,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/science/testing)
+"cx" = (
+/turf/simulated/floor/reinforced/airless,
+/area/labyrinth/engineering/protofusionreactor)
 "cG" = (
 /obj/machinery/alarm{
 	dir = 1
@@ -564,6 +567,7 @@
 	dir = 1;
 	pixel_x = -24
 	},
+/obj/structure/closet/radiation,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 "cM" = (
@@ -726,6 +730,14 @@
 /obj/item/chems/glass/bucket,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
+"dG" = (
+/obj/machinery/power/port_gen/pacman/mrs,
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow,
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "dJ" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 1
@@ -756,6 +768,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
+"dT" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch/labyrinth/eng,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/engineering)
 "dW" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/extinguisher,
@@ -822,6 +850,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science)
@@ -895,6 +926,19 @@
 /obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo/storage)
+"fe" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/stack/material/tritium/fifty,
+/obj/item/stack/material/tritium/fifty,
+/obj/item/stack/material/tritium/fifty,
+/obj/item/stack/material/deuterium/fifty,
+/obj/item/stack/material/deuterium/fifty,
+/obj/item/stack/material/deuterium/fifty,
+/obj/structure/closet/crate/radiation,
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "fj" = (
 /obj/machinery/atm{
 	pixel_y = 32
@@ -963,7 +1007,10 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/hatch/labyrinth/eng,
+/obj/machinery/door/airlock/hatch/maintenance/bolted{
+	id_tag = "labr_nucleareactor";
+	name = "eng"
+	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering/power)
@@ -1063,7 +1110,7 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "gS" = (
-/obj/machinery/light/small,
+/obj/machinery/light/small/red,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
@@ -1108,9 +1155,21 @@
 /turf/exterior/volcanic,
 /area/exoplanet/volcanic)
 "hf" = (
-/obj/machinery/light/small,
+/obj/machinery/light/small/red,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
+"hg" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/alarm{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "hn" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 6
@@ -1456,7 +1515,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/hatch/labyrinth/eng,
+/obj/machinery/door/airlock/hatch/maintenance/bolted{
+	id_tag = "labr_nucleareactor";
+	name = "eng"
+	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering/power)
@@ -1533,10 +1595,29 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical/lobby)
+"kd" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/engineering/protorcontrol)
 "ke" = (
 /obj/machinery/sleeper/standard,
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical/lobby)
+"ki" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "kj" = (
 /obj/structure/table/standard,
 /obj/item/newspaper,
@@ -1628,6 +1709,22 @@
 /obj/machinery/recharger,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/workshop)
+"kI" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/engineering/protorcontrol)
 "kJ" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1
@@ -1672,7 +1769,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
 "kX" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
 "lc" = (
@@ -2039,6 +2136,15 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/labyrinth/science/testing)
+"nN" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/research/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/labyrinth/science)
 "nT" = (
 /turf/simulated/floor/plating,
 /area/labyrinth/civilian)
@@ -2161,7 +2267,9 @@
 /obj/machinery/door/firedoor{
 	dir = 4
 	},
-/obj/structure/sign/bluecross_2,
+/obj/structure/sign/bluecross_2{
+	pixel_y = -24
+	},
 /turf/simulated/floor/plating,
 /area/labyrinth/medical/lobby)
 "oz" = (
@@ -2280,6 +2388,14 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/science/workshop)
+"pi" = (
+/obj/effect/wingrille_spawn/reinforced_borosilicate/full,
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id_tag = "labr_rustwindowshut"
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protorcontrol)
 "pm" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced,
@@ -2368,10 +2484,18 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/science/workshop)
 "pA" = (
-/obj/structure/closet/secure_closet/engineering_welding,
 /obj/effect/floor_decal/techfloor{
-	dir = 1
+	dir = 4
 	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "pC" = (
@@ -2390,7 +2514,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/techfloor,
-/obj/machinery/light{
+/obj/machinery/light/small/red{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -2442,6 +2566,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/engineering)
+"qi" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/labyrinth/engineering/protofusionreactor)
 "qm" = (
 /obj/structure/table/standard,
 /obj/random/medical,
@@ -2464,6 +2594,15 @@
 /obj/structure/closet/crate/med_crate/oxyloss,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo/storage)
+"qs" = (
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/engineering/protorcontrol)
 "qv" = (
 /obj/structure/table/standard,
 /obj/random/medical/lite,
@@ -2475,6 +2614,10 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical/lobby)
+"qC" = (
+/obj/structure/bed/chair/office/dark,
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/engineering/protorcontrol)
 "qD" = (
 /obj/structure/closet/firecloset,
 /obj/structure/sign/bluecross_2{
@@ -2498,6 +2641,34 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/reactor)
+"qL" = (
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch/labyrinth/eng,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/engineering/protorcontrol)
+"qM" = (
+/obj/machinery/computer/fusion/core_control{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor/orange,
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_x = 5;
+	pixel_y = -24
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/engineering/protorcontrol)
 "qP" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light{
@@ -2567,7 +2738,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/techfloor,
-/obj/machinery/light{
+/obj/machinery/light/small/red{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -2583,9 +2754,15 @@
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 8
 	},
-/obj/structure/window/reinforced/polarized,
+/obj/structure/window/reinforced/polarized{
+	id = "labyr_surgery_tint"
+	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 8
+	},
+/obj/structure/closet/secure_closet/medical_wall{
+	name = "blood closet";
+	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -2615,6 +2792,16 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/civilian/dorm)
+"rE" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/light,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "rF" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/maintenance/shaft)
@@ -2644,9 +2831,6 @@
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 8
 	},
-/obj/machinery/light_switch{
-	pixel_x = 24
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/reactor)
 "rL" = (
@@ -2668,6 +2852,22 @@
 /obj/structure/closet/crate/med_crate/burn,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo/storage)
+"rS" = (
+/obj/machinery/computer/air_control/fuel_injection{
+	id_tag = "labyr_rust_injector"
+	},
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "labr_rustwindowshut";
+	pixel_y = 28
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/engineering/protorcontrol)
 "sa" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2711,6 +2911,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
+"sl" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "ss" = (
 /obj/machinery/destructive_analyzer,
 /turf/simulated/floor/bluegrid,
@@ -2798,6 +3008,18 @@
 	},
 /turf/exterior/volcanic,
 /area/exoplanet/volcanic)
+"tn" = (
+/obj/structure/window/borosilicate_reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "tr" = (
 /obj/machinery/fabricator/imprinter,
 /obj/item/chems/glass/beaker/sulphuric,
@@ -2827,6 +3049,15 @@
 /obj/machinery/fabricator/industrial,
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science/fabrication)
+"tO" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch/labyrinth/eng,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/engineering/protorcontrol)
 "tR" = (
 /obj/item/stack/material/osmium/ten,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -3095,14 +3326,9 @@
 /turf/exterior/volcanic,
 /area/exoplanet/volcanic)
 "vK" = (
-/obj/effect/floor_decal/borderfloorwhite{
-	dir = 4
-	},
+/obj/effect/floor_decal/corner/research/full,
 /obj/structure/bed/chair/office/comfy/purple{
 	dir = 8
-	},
-/obj/effect/floor_decal/corner/research/border{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
@@ -3115,6 +3341,21 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science/fabrication)
+"vQ" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/labyrinth/engineering)
 "vU" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -3141,6 +3382,11 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/engineering)
 "vY" = (
@@ -3335,6 +3581,15 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
+"xA" = (
+/obj/machinery/power/apc{
+	dir = 4
+	},
+/obj/structure/cable{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "xC" = (
 /obj/machinery/atmospherics/unary/tank/air{
 	start_pressure = 15000
@@ -3371,8 +3626,7 @@
 /obj/structure/table/standard,
 /obj/item/paper_bin,
 /obj/item/pen,
-/obj/effect/floor_decal/borderfloorwhite,
-/obj/effect/floor_decal/corner/research/border,
+/obj/effect/floor_decal/corner/research/full,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
 "xM" = (
@@ -3392,6 +3646,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
+"xQ" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/service/cargo/storage)
 "xR" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 9
@@ -3483,6 +3742,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
+"yV" = (
+/obj/structure/window/borosilicate_reinforced,
+/obj/machinery/fusion_fuel_injector/mapped,
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "yW" = (
 /obj/machinery/material_processing/stacker{
 	input_turf = 1;
@@ -3527,7 +3791,10 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
 "zu" = (
-/obj/machinery/door/airlock/hatch/labyrinth/eng,
+/obj/machinery/door/airlock/hatch/maintenance/bolted{
+	id_tag = "labr_nucleareactor";
+	name = "eng"
+	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering/power)
@@ -3559,14 +3826,14 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
-/obj/structure/reagent_dispensers/watertank,
+/obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "zO" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/structure/curtain/medical,
+/obj/structure/curtain/open/medical,
 /obj/effect/floor_decal/industrial/hatch/blue,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -3576,6 +3843,23 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
+"zR" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 5
+	},
+/obj/machinery/power/apc{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/engineering/protorcontrol)
 "zT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3604,6 +3888,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science)
@@ -3703,6 +3990,9 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering/communications)
+"Aw" = (
+/turf/simulated/wall/ocp_wall,
+/area/labyrinth/engineering/protofusionreactor)
 "AG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -3793,6 +4083,11 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/engineering)
 "Bh" = (
@@ -3857,9 +4152,7 @@
 /obj/item/disk/tech_disk{
 	pixel_x = 6
 	},
-/obj/effect/floor_decal/corner/research{
-	dir = 9
-	},
+/obj/effect/floor_decal/corner/research/three_quarters,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
 "BO" = (
@@ -3897,6 +4190,9 @@
 "BS" = (
 /obj/machinery/alarm{
 	dir = 1
+	},
+/obj/effect/floor_decal/corner/research{
+	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
@@ -3958,8 +4254,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/service/cargo/smelter)
 "CB" = (
-/obj/effect/floor_decal/corner/research{
-	dir = 6
+/obj/effect/floor_decal/corner/research/three_quarters{
+	dir = 4
 	},
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 24
@@ -4027,7 +4323,7 @@
 /obj/structure/sign/warning/server_room{
 	pixel_y = 32
 	},
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
 "CZ" = (
@@ -4527,6 +4823,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
+"Hl" = (
+/obj/machinery/power/fusion_core/mapped,
+/obj/structure/cable/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/labyrinth/engineering/protofusionreactor)
 "Hm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4691,6 +4994,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
+"HU" = (
+/obj/machinery/atmospherics/unary/outlet_injector/engine{
+	dir = 8;
+	id_tag = "labyr_rust_injector"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/labyrinth/engineering/protofusionreactor)
 "HV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4765,6 +5075,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
+"Iy" = (
+/obj/machinery/computer/fusion/gyrotron{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 10
+	},
+/obj/machinery/alarm{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/engineering/protorcontrol)
 "IA" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5026,6 +5348,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
+"KG" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "KL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5075,11 +5403,33 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
+"KQ" = (
+/obj/structure/window/borosilicate_reinforced{
+	dir = 4
+	},
+/obj/machinery/power/emitter/gyrotron/anchored{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "KX" = (
 /obj/effect/floor_decal/techfloor{
-	dir = 1
+	dir = 9
 	},
 /obj/structure/closet/secure_closet/engineering_electrical,
+/obj/structure/sign/warning/radioactive{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Ld" = (
@@ -5116,6 +5466,9 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
+"Lo" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/labyrinth/engineering/protofusionreactor)
 "Lp" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -5365,12 +5718,19 @@
 /area/labyrinth/service/cargo)
 "Nb" = (
 /obj/machinery/computer/modular/preset/engineering,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/engineering)
-"Nh" = (
 /obj/structure/sign/atmosplaque{
 	pixel_y = 32
 	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/engineering)
+"Ng" = (
+/obj/machinery/power/smes/buildable,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
+"Nh" = (
 /obj/machinery/computer/modular/preset/engineering,
 /obj/machinery/light{
 	dir = 1
@@ -5378,7 +5738,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Nk" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Nq" = (
@@ -5419,6 +5779,10 @@
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/machinery/button/windowtint{
+	pixel_x = -6;
+	pixel_y = 30
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical)
@@ -5643,6 +6007,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
+"Py" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	dir = 8
+	},
+/obj/machinery/firealarm{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "PA" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/structure/hygiene/shower{
@@ -5693,8 +6069,24 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering)
+"Qd" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/watertank,
+/turf/simulated/floor/tiled/techfloor,
+/area/labyrinth/engineering/reactor)
 "Qn" = (
 /obj/effect/floor_decal/corner/yellow/three_quarters,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/engineering)
 "Qo" = (
@@ -5779,6 +6171,17 @@
 /obj/effect/floor_decal/spline/plain/orange,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/service/cargo)
+"Rg" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "Rh" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/engineering/reactor)
@@ -5829,6 +6232,9 @@
 /obj/machinery/material_processing/unloader,
 /turf/simulated/floor/plating,
 /area/labyrinth/service/cargo/smelter)
+"RQ" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/labyrinth/engineering/protorcontrol)
 "RS" = (
 /obj/machinery/button/access/exterior{
 	id_tag = "exit_underground";
@@ -5946,6 +6352,11 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "labr_nucleareactor";
+	name = "door lock";
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/power)
 "SJ" = (
@@ -6035,6 +6446,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/power)
+"Tl" = (
+/obj/structure/window/borosilicate_reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "To" = (
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 8
@@ -6095,6 +6512,7 @@
 /obj/structure/sign/warning/compressed_gas{
 	pixel_x = 32
 	},
+/obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/atmospherics)
 "TF" = (
@@ -6141,6 +6559,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/engineering)
+"Ug" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "Uh" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /turf/simulated/floor/tiled/techfloor,
@@ -6155,9 +6582,13 @@
 /area/labyrinth/service/cargo/storage)
 "Up" = (
 /obj/effect/floor_decal/techfloor{
-	dir = 1
+	dir = 5
 	},
-/obj/structure/reagent_dispensers/fueltank,
+/obj/structure/closet/secure_closet/engineering_welding,
+/obj/structure/sign/warning/radioactive{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "Us" = (
@@ -6215,7 +6646,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/service/cargo)
 "UC" = (
-/obj/structure/window/reinforced/polarized,
+/obj/structure/window/reinforced/polarized{
+	id = "labyr_surgery_tint"
+	},
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical)
@@ -6450,6 +6883,16 @@
 /obj/item/stack/material/plastic/fifty,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/engineering)
+"WC" = (
+/obj/machinery/computer/fusion/fuel_control,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 9
+	},
+/obj/machinery/firealarm{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/labyrinth/engineering/protorcontrol)
 "WE" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -6554,7 +6997,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/plain/orange,
-/obj/structure/closet/crate/bin,
+/obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "WY" = (
@@ -6641,6 +7084,16 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/labyrinth/service/cargo)
+"Xx" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "Xy" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/crate,
@@ -6842,8 +7295,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering/power)
 "YN" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
@@ -6855,6 +7308,9 @@
 	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/engineering)
@@ -6871,6 +7327,16 @@
 /obj/effect/catwalk_plated/dark,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering)
+"YR" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/engineering/protofusionreactor)
 "Zc" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -6896,6 +7362,21 @@
 	},
 /obj/effect/catwalk_plated/dark,
 /turf/simulated/floor/plating,
+/area/labyrinth/engineering)
+"Zt" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/labyrinth/engineering)
 "Zz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -13745,7 +14226,7 @@ fT
 fw
 FJ
 aa
-TD
+Qd
 Rh
 Bv
 po
@@ -13877,13 +14358,13 @@ pG
 em
 TD
 Rh
-Bv
-po
-po
-po
-po
-po
-po
+Oy
+hb
+hb
+hb
+hb
+hb
+Gl
 po
 po
 po
@@ -14007,13 +14488,13 @@ rJ
 kv
 ca
 Rh
+RQ
+RQ
+Lo
+Lo
+Lo
+Lo
 Bv
-po
-po
-po
-po
-po
-po
 po
 po
 po
@@ -14137,13 +14618,13 @@ Rh
 Rh
 Rh
 Rh
+RQ
+RQ
+Aw
+Aw
+Aw
+Lo
 Bv
-po
-po
-po
-po
-po
-po
 po
 po
 po
@@ -14265,15 +14746,15 @@ Bc
 Qn
 zM
 Qq
-Oy
-MW
-vI
-po
-po
-po
-po
-po
-po
+WC
+qs
+Iy
+RQ
+Ng
+Py
+Aw
+Lo
+Bv
 po
 po
 po
@@ -14392,18 +14873,18 @@ VZ
 YP
 YE
 ny
-do
+Zt
 Up
 Qq
+rS
+qC
+qM
+RQ
+sl
+rE
+Aw
+Lo
 Bv
-po
-po
-po
-po
-po
-po
-po
-po
 po
 po
 po
@@ -14522,18 +15003,18 @@ Wh
 Zc
 Gt
 wy
-do
+vQ
 pA
-Qq
+dT
+zR
+kI
+kd
+tO
+Rg
+hg
+Aw
+Lo
 Bv
-po
-po
-po
-po
-po
-po
-po
-po
 po
 po
 po
@@ -14655,15 +15136,15 @@ WI
 do
 KX
 Qq
+RQ
+qL
+pi
+RQ
+KG
+YR
+Aw
+Lo
 Bv
-po
-po
-po
-po
-po
-po
-po
-po
 po
 po
 po
@@ -14785,15 +15266,15 @@ qh
 do
 cM
 Qq
+ki
+Xx
+Tl
+KQ
+tn
+dG
+Aw
+Lo
 Bv
-po
-po
-po
-po
-po
-po
-po
-po
 po
 po
 po
@@ -14915,15 +15396,15 @@ cJ
 Oa
 bp
 Qq
+fe
+yV
+cx
+qi
+HU
+Aw
+Aw
+Lo
 Bv
-po
-po
-po
-po
-po
-po
-po
-po
 po
 po
 po
@@ -15045,15 +15526,15 @@ RF
 RF
 RF
 RF
+Ug
+yV
+cx
+Hl
+cx
+Aw
+Lo
+Lo
 Bv
-po
-po
-po
-po
-po
-po
-po
-po
 po
 po
 po
@@ -15175,15 +15656,15 @@ dJ
 cL
 Kc
 RF
+xA
+yV
+cx
+cx
+cx
+Aw
+Lo
 Oy
-hb
-Gl
-po
-po
-po
-po
-po
-po
+vI
 po
 po
 po
@@ -15305,14 +15786,14 @@ WL
 Ed
 rL
 RF
-RF
-RF
+Lo
+Lo
+Aw
+Aw
+Aw
+Aw
+Lo
 Bv
-po
-po
-po
-po
-po
 po
 po
 po
@@ -15437,12 +15918,12 @@ fL
 wn
 wn
 RF
+Lo
+Lo
+Lo
+Lo
+Lo
 Bv
-po
-po
-po
-po
-po
 po
 po
 po
@@ -15567,12 +16048,12 @@ Yo
 jM
 cl
 RF
-Bv
-po
-po
-po
-po
-po
+Oy
+MW
+MW
+MW
+MW
+vI
 po
 po
 po
@@ -15937,7 +16418,7 @@ dC
 ld
 qX
 ss
-vG
+nN
 xF
 zU
 Cf
@@ -16210,7 +16691,7 @@ UB
 UA
 dm
 pm
-Xy
+xQ
 qP
 tx
 fN
