@@ -95,7 +95,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/hatch/labyrinth/sci,
+/obj/machinery/door/airlock/hatch/labyrinth/research,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/science/testing)
@@ -889,7 +889,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/hatch/labyrinth/eng,
+/obj/machinery/door/airlock/hatch/labyrinth/engineering,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/maintenance/shaft)

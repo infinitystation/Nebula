@@ -3,6 +3,7 @@
 	icon_state = "labyrinth"
 	icon       = 'maps/labyrinth/media/areas.dmi'
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+	secure = TRUE
 
 //Engineering
 
@@ -123,3 +124,7 @@
 /area/labyrinth/security
 	name       = "Security"
 	req_access = list(access_security)
+
+/area/labyrinth/security/brig
+	name       = "Brig"
+	req_access = list(list(access_security, access_brig))

@@ -1196,7 +1196,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/hatch/labyrinth/com,
+/obj/machinery/door/airlock/hatch/labyrinth/command,
 /obj/machinery/door/firedoor{
 	dir = 4
 	},
@@ -1241,7 +1241,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/hatch/labyrinth/com,
+/obj/machinery/door/airlock/hatch/labyrinth/command,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -1358,7 +1358,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/hatch/labyrinth/com,
+/obj/machinery/door/airlock/hatch/labyrinth/command,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
@@ -2062,7 +2062,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/hatch/labyrinth/eng,
+/obj/machinery/door/airlock/hatch/labyrinth/engineering,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/maintenance/shaft)
@@ -2318,7 +2318,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/hatch/labyrinth/com,
+/obj/machinery/door/airlock/hatch/labyrinth/command,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/bridge)
 "Yc" = (
