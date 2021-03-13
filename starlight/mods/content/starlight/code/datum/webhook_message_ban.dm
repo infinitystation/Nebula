@@ -33,10 +33,7 @@
 		"value" = data["reason"]
 	)
 	var/list/desc = list(
-		"color" = 0xff0000,
-		"footer" = list(
-			"text" = "За обжалованием обращаться в #подача_заявок"
-		)
+		"color" = 0xff0000
 	)
 	switch(data["bantype"])
 		if(BANTYPE_PERMA)
@@ -63,7 +60,9 @@
 				)
 			))
 		if(BANTYPE_JOB_PERMA)
-			if(!data["banned_jobs"])		data["banned_jobs"] = "ДАННЫЕ УДАЛЕНЫ"
+			if(!data["banned_jobs"])
+				data["banned_jobs"] = "ДАННЫЕ УДАЛЕНЫ"
+
 			var/banned_jobs = list(
 				"name" = "Заблокированные профессии",
 				"value" = data["banned_jobs"],
