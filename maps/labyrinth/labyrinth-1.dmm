@@ -1079,7 +1079,7 @@
 	id_tag = "labyr_nuclearpower"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/engineering/power)
+/area/labyrinth/engineering/reactor)
 "fU" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/tiled/monotile,
@@ -1458,13 +1458,10 @@
 /turf/simulated/floor/reinforced,
 /area/labyrinth/science/testing)
 "iH" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/firealarm{
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -1626,7 +1623,7 @@
 	id_tag = "labyr_nuclearpower"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/engineering/power)
+/area/labyrinth/engineering/reactor)
 "jH" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 1
@@ -1870,21 +1867,13 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/science/workshop)
 "kR" = (
-/obj/structure/hygiene/sink{
-	dir = 4;
-	pixel_x = 12
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/hatch/labyrinth{
+	id_tag = "toilet2"
 	},
-/obj/item/storage/mirror{
-	pixel_x = 24
-	},
-/obj/machinery/light/small,
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/freezer,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/civilian/hygiene)
 "kX" = (
 /obj/structure/closet/crate/trashcart,
@@ -3132,6 +3121,23 @@
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/protofusionreactor)
+"sq" = (
+/obj/structure/hygiene/toilet{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "toilet1";
+	name = "door lock";
+	pixel_y = 24
+	},
+/obj/machinery/alarm{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/labyrinth/civilian/hygiene)
 "ss" = (
 /obj/machinery/destructive_analyzer,
 /turf/simulated/floor/bluegrid,
@@ -3478,23 +3484,6 @@
 /obj/item/storage/ore,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
-"vk" = (
-/obj/structure/hygiene/toilet{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/obj/machinery/button/alternate/door/bolts{
-	id_tag = "toilet2";
-	name = "door lock";
-	pixel_y = 24
-	},
-/obj/machinery/alarm{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/labyrinth/civilian/hygiene)
 "vp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -3651,9 +3640,8 @@
 /turf/simulated/floor/carpet/purple,
 /area/labyrinth/civilian/dorm)
 "wi" = (
-/obj/effect/paint/black,
-/turf/simulated/wall/ocp_wall,
-/area/labyrinth/engineering/power)
+/turf/simulated/wall/r_wall/prepainted,
+/area/labyrinth/engineering/reactor)
 "wl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
@@ -3696,19 +3684,19 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
 "wu" = (
-/obj/structure/hygiene/toilet{
-	dir = 4
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 12
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
+/obj/item/storage/mirror{
+	pixel_x = 24
 	},
-/obj/machinery/button/alternate/door/bolts{
-	id_tag = "toilet1";
-	name = "door lock";
-	pixel_y = 24
-	},
-/obj/machinery/alarm{
+/obj/machinery/light/small,
+/obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
@@ -3998,6 +3986,9 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
+"yE" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/exoplanet/volcanic)
 "yK" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
 	dir = 4
@@ -4061,7 +4052,7 @@
 	id_tag = "labyr_nuclearpower"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/engineering/power)
+/area/labyrinth/engineering/reactor)
 "zv" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -5624,7 +5615,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "JD" = (
-/obj/machinery/light/small,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
@@ -5632,6 +5622,9 @@
 	dir = 5
 	},
 /obj/structure/hygiene/drain,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
 "JL" = (
@@ -5647,7 +5640,7 @@
 	},
 /obj/structure/dogbed,
 /obj/random/snack,
-/mob/living/simple_animal/cat/fluff/ran,
+/mob/living/simple_animal/opossum/poppy,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 "Kj" = (
@@ -7698,8 +7691,8 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
 "XK" = (
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
 "XO" = (
@@ -7714,18 +7707,20 @@
 /area/labyrinth/civilian/hygiene)
 "XS" = (
 /obj/machinery/light/small,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
 "XW" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
 /obj/structure/hygiene/drain,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/firealarm,
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
 "XX" = (
@@ -8054,7 +8049,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/airlock/hatch/labyrinth{
-	id_tag = "toilet2"
+	id_tag = "toilet1"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -8079,13 +8074,21 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 "ZW" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/hatch/labyrinth{
-	id_tag = "toilet1"
+/obj/structure/hygiene/toilet{
+	dir = 4
 	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "toilet2";
+	name = "door lock";
+	pixel_y = 24
+	},
+/obj/machinery/alarm{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
 
 (1,1,1) = {"
@@ -13368,9 +13371,9 @@ hb
 hb
 hb
 hb
+hb
+hb
 Gl
-po
-po
 po
 po
 po
@@ -13498,9 +13501,9 @@ VR
 VR
 VR
 VR
-Oy
-hb
-Gl
+VR
+VR
+Bv
 po
 po
 po
@@ -13628,7 +13631,7 @@ Si
 Vd
 JD
 VR
-VR
+ZW
 VR
 Bv
 po
@@ -13757,8 +13760,8 @@ VR
 VR
 VR
 iH
-VR
-vk
+kR
+wu
 VR
 Bv
 po
@@ -13887,8 +13890,8 @@ PA
 Sj
 Vg
 XK
-ZP
-kR
+VR
+VR
 VR
 Bv
 po
@@ -14018,7 +14021,7 @@ VR
 VR
 XO
 VR
-VR
+sq
 VR
 Bv
 po
@@ -14147,15 +14150,15 @@ PK
 Sl
 Vj
 XS
-VR
+ZP
 wu
 VR
-Bv
-po
-po
-po
-po
-po
+Oy
+hb
+hb
+hb
+hb
+Gl
 po
 po
 po
@@ -14277,15 +14280,15 @@ PM
 Sq
 VR
 XW
-ZW
-kR
 VR
-Oy
-hb
-hb
-hb
-Gl
-po
+VR
+VR
+yE
+yE
+yE
+yE
+yE
+Bv
 po
 po
 po
@@ -14408,14 +14411,14 @@ Sy
 Sy
 Sy
 Sy
-wi
 Rh
 Rh
 Rh
 Rh
 Rh
+Rh
+yE
 Bv
-po
 po
 po
 po
@@ -14544,8 +14547,8 @@ CV
 Mj
 qF
 Rh
+yE
 Bv
-po
 po
 po
 po
@@ -14668,14 +14671,14 @@ SX
 Vy
 Yi
 Dn
-Sy
+wi
 Rh
 ro
 em
 kJ
 Rh
+yE
 Bv
-po
 po
 po
 po
@@ -14804,8 +14807,8 @@ FJ
 aa
 TD
 Rh
+yE
 Bv
-po
 po
 po
 po
@@ -14928,14 +14931,14 @@ Tj
 Vy
 Yu
 Vo
-Sy
+wi
 Rh
 pG
 em
 TD
 Rh
+yE
 Oy
-hb
 hb
 hb
 hb
@@ -15188,7 +15191,7 @@ Sy
 Sy
 YM
 Sy
-wi
+Rh
 Rh
 Rh
 Rh
