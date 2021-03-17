@@ -11,6 +11,8 @@ var/list/natural_walls = list()
 	opacity =    TRUE
 	density =    TRUE
 	blocks_air = TRUE
+	turf_flags = TURF_FLAG_SKIP_ICON_INIT
+
 	var/strata
 	var/paint_color
 	var/image/ore_overlay
@@ -156,9 +158,9 @@ var/list/natural_walls = list()
 	set_opacity(material.opacity >= 0.5)
 	if(update_neighbors)
 		for(var/turf/exterior/T in RANGE_TURFS(src, 1))
-			T.queue_icon_update()
+			T.update_icon()
 	else
-		queue_icon_update()
+		update_icon()
 	if(reinf_material?.ore_icon_overlay)
 		ore_overlay = image('icons/turf/mining_decals.dmi', "[reinf_material.ore_icon_overlay]")
 		ore_overlay.appearance_flags = RESET_COLOR
@@ -200,10 +202,9 @@ var/list/natural_walls = list()
 	var/image/I
 	for(var/i = 1 to 4)
 		var/apply_state = "[wall_connections[i]]"
-		if(check_state_in_icon(apply_state, material_icon_base))
-			I = image(material_icon_base, apply_state, dir = 1<<(i-1))
-			I.color = base_color
-			add_overlay(I)
+		I = image(material_icon_base, apply_state, dir = 1<<(i-1))
+		I.color = base_color
+		add_overlay(I)
 		if(shine)
 			I = image(material_icon_base, "shine[wall_connections[i]]", dir = 1<<(i-1))
 			I.appearance_flags |= RESET_ALPHA
