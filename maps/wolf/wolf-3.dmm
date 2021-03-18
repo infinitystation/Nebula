@@ -1518,10 +1518,10 @@
 	dir = 4
 	},
 /obj/machinery/door/window/brigdoor/westleft{
-	id = "Cell 1"
+	id_tag = "Cell 1"
 	},
 /obj/machinery/door/window/brigdoor/eastright{
-	id = "Cell 1"
+	id_tag = "Cell 1"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -9842,10 +9842,10 @@
 	dir = 4
 	},
 /obj/machinery/door/window/brigdoor/westleft{
-	id = "Cell 2"
+	id_tag = "Cell 2"
 	},
 /obj/machinery/door/window/brigdoor/eastright{
-	id = "Cell 2"
+	id_tag = "Cell 2"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -9892,10 +9892,10 @@
 	dir = 4
 	},
 /obj/machinery/door/window/brigdoor/westleft{
-	id = "Cell 3"
+	id_tag = "Cell 3"
 	},
 /obj/machinery/door/window/brigdoor/eastright{
-	id = "Cell 3"
+	id_tag = "Cell 3"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,

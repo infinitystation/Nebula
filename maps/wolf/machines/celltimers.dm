@@ -4,15 +4,15 @@
 
 /obj/machinery/door_timer/wolf/LateInitialize()
 	for(var/obj/machinery/door/airlock/M in SSmachines.machinery)
-		if (M.id_tag == src.id)
+		if (M.id_tag == src.id_tag)
 			targets += M
 
 	for(var/obj/machinery/flasher/F in SSmachines.machinery)
-		if(F.id_tag == src.id)
+		if(F.id_tag == src.id_tag)
 			targets += F
 
 	for(var/obj/structure/closet/secure_closet/brig/C in world)
-		if(C.id == src.id)
+		if(C.id == src.id_tag)
 			targets += C
 
 	if(targets.len==0)
@@ -51,7 +51,7 @@
 	timing = 0
 
 	if (broadcast_to_huds)
-		broadcast_security_hud_message("The timer for [id] has expired.", src)
+		broadcast_security_hud_message("The timer for [id_tag] has expired.", src)
 
 	for(var/obj/machinery/door/airlock/door in targets)
 		door.open()
