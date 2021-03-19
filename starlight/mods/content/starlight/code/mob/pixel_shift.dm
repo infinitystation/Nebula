@@ -20,6 +20,7 @@
 	if(pixel_y <= 16)
 		pixel_y++
 		is_shifted = TRUE
+		UPDATE_OO_IF_PRESENT
 
 /mob/verb/shiftsouth()
 	set hidden = TRUE
@@ -30,6 +31,7 @@
 	if(pixel_y >= -8)
 		pixel_y--
 		is_shifted = TRUE
+		UPDATE_OO_IF_PRESENT
 
 /mob/verb/shiftwest()
 	set hidden = TRUE
@@ -40,6 +42,7 @@
 	if(pixel_x >= -8)
 		pixel_x--
 		is_shifted = TRUE
+		UPDATE_OO_IF_PRESENT
 
 /mob/verb/shifteast()
 	set hidden = TRUE
@@ -50,3 +53,4 @@
 	if(pixel_x <= 8)
 		pixel_x++
 		is_shifted = TRUE
+		UPDATE_OO_IF_PRESENT
