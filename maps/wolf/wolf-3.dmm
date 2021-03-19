@@ -80,11 +80,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/atmospherics)
 "al" = (
-/obj/machinery/atmospherics/pipe/vent{
-	dir = 4
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 6
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/space)
+/turf/simulated/wall/r_wall/prepainted,
+/area/ship/wolf/security/armory)
 "am" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/zpipe/down/red{
@@ -1798,14 +1799,6 @@
 	},
 /turf/simulated/floor/carpet,
 /area/ship/wolf/habitation/cabins/two)
-"ez" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/table/marble,
-/obj/machinery/door/blast/shutters{
-	id_tag = "barshut"
-	},
-/turf/simulated/floor/lino,
-/area/ship/wolf/habitation/bar)
 "eA" = (
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
 	dir = 4
@@ -1915,7 +1908,7 @@
 /obj/item/stock_parts/smes_coil,
 /obj/item/stock_parts/smes_coil,
 /turf/simulated/floor/plating,
-/area/ship/wolf/engineering/atmospherics/monitoring_room)
+/area/ship/wolf/engineering/shield_generator)
 "eL" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -11699,6 +11692,11 @@
 /obj/item/gun/energy/taser,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/security/armory)
+"Sx" = (
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/visible/red,
+/turf/simulated/wall/r_wall/prepainted,
+/area/ship/wolf/maintenance/deckthree/aftport)
 "Td" = (
 /obj/structure/table/rack,
 /obj/structure/window/basic{
@@ -11806,6 +11804,14 @@
 /obj/item/taperecorder,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/security/lockers)
+"XI" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 1;
+	icon_state = "on";
+	use_power = 1
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/ship/wolf/maintenance/deckthree/aftport)
 "XM" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -17524,7 +17530,7 @@ fB
 fI
 fI
 ab
-al
+ab
 aa
 aa
 aa
@@ -17651,7 +17657,7 @@ jc
 fW
 fI
 fI
-oU
+fI
 aa
 aa
 aa
@@ -17778,9 +17784,9 @@ jd
 ZQ
 tn
 Td
-oU
-fI
-ab
+al
+Sx
+XI
 aa
 aa
 aa
@@ -17906,7 +17912,7 @@ oN
 uo
 Ty
 oU
-fI
+hn
 ab
 vn
 le
@@ -20298,7 +20304,7 @@ yh
 yT
 mF
 uf
-ez
+ev
 eZ
 gB
 ax

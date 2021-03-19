@@ -16,7 +16,7 @@
 
 /datum/map/wolf
 	station_networks = list(
-		NETWORK_EXODUS,
+		NETWORK_PUBLIC,
 		NETWORK_MINE,
 		NETWORK_SECURITY,
 		NETWORK_RESEARCH,
