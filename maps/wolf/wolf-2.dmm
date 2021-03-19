@@ -673,8 +673,7 @@
 "bI" = (
 /obj/item/radio/intercom/bump/north,
 /obj/effect/floor_decal/corner/orange/three_quarters{
-	dir = 8;
-	icon_state = "corner_white_three_quarters"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/engineering/EVA)
@@ -1669,12 +1668,6 @@
 /obj/item/radio/intercom/bump/east,
 /turf/simulated/floor/plating,
 /area/ship/wolf/security/hallway/weapons_bay/starboard)
-"dN" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	dir = 9
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/ship/wolf/engineering/reactor)
 "dO" = (
 /obj/machinery/power/smes/buildable/max_cap_in_out,
 /obj/structure/cable/green{
@@ -5645,9 +5638,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/engineering/reactor)
 "lk" = (
-/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	dir = 5
-	},
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
@@ -6994,7 +6984,6 @@
 "ob" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/open,
 /area/ship/wolf/ladderwell)
 "oc" = (
@@ -9139,7 +9128,6 @@
 "tf" = (
 /obj/structure/ladder,
 /obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/sign/deck/second{
 	dir = 4;
 	pixel_x = -40
@@ -9938,14 +9926,16 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/security/weapons_bay/two)
 "uI" = (
-/obj/machinery/atmospherics/pipe/vent{
-	dir = 1
-	},
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 1;
+	icon_state = "on";
+	use_power = 1
+	},
 /turf/simulated/floor/reinforced/airless,
-/area/space)
+/area/ship/wolf/maintenance/decktwo/aft/port)
 "uJ" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -16703,7 +16693,7 @@ NR
 NR
 oX
 oN
-cx
+oN
 pz
 pz
 oN
@@ -16831,7 +16821,7 @@ NR
 oY
 NR
 oN
-cx
+oN
 oN
 oN
 rB
@@ -18742,7 +18732,7 @@ dZ
 kK
 og
 mv
-dN
+aq
 sj
 sj
 sj

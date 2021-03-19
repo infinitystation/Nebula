@@ -788,10 +788,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/command{
-	autoset_access = 0;
-	req_access = list("ACCESS_BRIDGE")
-	},
+/obj/machinery/door/airlock/autoname/wolf/glass/command,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},

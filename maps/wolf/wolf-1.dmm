@@ -256,10 +256,6 @@
 /obj/structure/lattice,
 /turf/simulated/floor/reinforced/airless,
 /area/space)
-"aI" = (
-/obj/effect/paint/black,
-/turf/simulated/wall/r_wall/prepainted,
-/area/space)
 "aJ" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -459,9 +455,6 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/autoname/wolf/engineering,
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "bo" = (
@@ -2507,7 +2500,6 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
 "fQ" = (
-/obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/autoname/wolf/engineering,
 /turf/simulated/floor/plating,
@@ -4437,9 +4429,6 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "jM" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -5246,7 +5235,7 @@
 /area/ship/wolf/maintenance/deckone/aft/port)
 "lw" = (
 /obj/structure/sign/poster/bay_9{
-	pixel_z = 32
+	pixel_y = 32
 	},
 /obj/random/junk,
 /obj/machinery/atmospherics/pipe/simple/visible/green{
@@ -9502,7 +9491,7 @@
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "As" = (
-/obj/machinery/atmospherics/pipe/vent{
+/obj/machinery/atmospherics/unary/vent_pump{
 	dir = 4
 	},
 /turf/simulated/floor/reinforced,
@@ -17288,7 +17277,7 @@ aa
 aa
 aa
 aa
-aI
+aG
 aa
 aM
 cZ
@@ -17296,7 +17285,7 @@ cZ
 cZ
 aM
 aa
-aI
+bx
 aa
 BF
 Lo
@@ -17414,8 +17403,8 @@ aa
 aa
 aa
 aa
-aI
-aI
+aG
+aG
 aM
 aM
 de
@@ -17423,7 +17412,7 @@ dM
 dM
 aM
 aM
-aI
+bx
 bx
 bx
 Db
@@ -17540,9 +17529,9 @@ aa
 aa
 aa
 aa
-aI
-aI
-aI
+aG
+aG
+aG
 aM
 bj
 df
