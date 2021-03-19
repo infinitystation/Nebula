@@ -9,7 +9,7 @@
 	)
 
 	initial_restricted_waypoints = list(
-		"Exploration Shuttle" = list(
+		/datum/shuttle/autodock/overmap/exploration_shuttle = list(
 			"nav_labyrinth_dock"
 		)
 	)
