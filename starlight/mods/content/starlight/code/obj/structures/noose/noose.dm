@@ -184,7 +184,7 @@ GLOBAL_LIST_INIT(standing_objects, list(/obj/item/stool, /obj/structure/hygiene/
 	add_fingerprint(user)
 
 	if(M == user)
-		var/datum/gender/G = gender_datums[M.get_visible_gender()]
+		var/decl/pronouns/G = M.get_pronouns()
 		M.visible_message(\
 			SPAN_DANGER("[user] attempts to tie \the [src] over [G.his] neck!"),\
 			SPAN_DANGER("You attempt to tie \the [src] over your neck!"))

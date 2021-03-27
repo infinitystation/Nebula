@@ -14,7 +14,7 @@
 
 /decl/hierarchy/outfit/job/wolf/stowaway
 	name = WOLF_OUTFIT_JOB_NAME("Stowaway")
-	id_type = /obj/item/card/id/wolf/civilian/stowaway
+	id_type = /obj/item/card/id/wolf/civilian
 	pda_type = null
 	l_ear    = null
 	l_pocket = /obj/item/wrench
@@ -56,7 +56,7 @@
 /decl/hierarchy/outfit/job/wolf/first_officer
 	name = WOLF_OUTFIT_JOB_NAME("First Officer")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/command/heads/FO
+	id_type = /obj/item/card/id/wolf/command/heads
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	uniform = /obj/item/clothing/under/wolf/blue
 	pda_type = /obj/item/modular_computer/pda/heads/hop
@@ -196,7 +196,7 @@
 /decl/hierarchy/outfit/job/wolf/bridge_officer
 	name = WOLF_OUTFIT_JOB_NAME("Bridge Officer")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/command/bridge_officer
+	id_type = /obj/item/card/id/wolf/command
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	uniform = /obj/item/clothing/under/wolf/blue
 	pda_type = /obj/item/modular_computer/pda
@@ -230,7 +230,7 @@
 /decl/hierarchy/outfit/job/wolf/security/brig_chief
 	name = WOLF_OUTFIT_JOB_NAME("Chief Officer")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/security/brig_chief
+	id_type = /obj/item/card/id/wolf/security
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	uniform = /obj/item/clothing/under/wolf/black
 	pda_type = /obj/item/modular_computer/pda/security
@@ -239,7 +239,7 @@
 /decl/hierarchy/outfit/job/wolf/security/armsman
 	name = WOLF_OUTFIT_JOB_NAME("Armsman")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/security/armsman
+	id_type = /obj/item/card/id/wolf/security
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	uniform = /obj/item/clothing/under/wolf/black
 	pda_type = /obj/item/modular_computer/pda/security
@@ -248,7 +248,7 @@
 /decl/hierarchy/outfit/job/wolf/security/gunship_pilot
 	name = WOLF_OUTFIT_JOB_NAME("Gunship Pilot")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/security/gunship_pilot
+	id_type = /obj/item/card/id/wolf/security
 	shoes = /obj/item/clothing/shoes/jackboots/duty
 	uniform = /obj/item/clothing/under/wolf/black
 	pda_type = /obj/item/modular_computer/pda/security
@@ -260,7 +260,7 @@
 /decl/hierarchy/outfit/job/wolf/engineering
 	name = WOLF_OUTFIT_JOB_NAME("Engineer")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/engineering/engineer
+	id_type = /obj/item/card/id/wolf/engineering
 	shoes = /obj/item/clothing/shoes/workboots
 	uniform = /obj/item/clothing/under/wolf/tan
 	pda_type = /obj/item/modular_computer/pda/engineering
@@ -295,7 +295,7 @@
 /decl/hierarchy/outfit/job/wolf/medical/medtech
 	name = WOLF_OUTFIT_JOB_NAME("Medical Support Technician")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/medical/medtech
+	id_type = /obj/item/card/id/wolf/medical
 	shoes = /obj/item/clothing/shoes/color/black
 	uniform = /obj/item/clothing/under/wolf/white
 	pda_type = /obj/item/modular_computer/pda/medical
@@ -306,7 +306,7 @@
 /decl/hierarchy/outfit/job/wolf/medical/doctor
 	name = WOLF_OUTFIT_JOB_NAME("Doctor")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/medical/doctor
+	id_type = /obj/item/card/id/wolf/medical
 	shoes = /obj/item/clothing/shoes/color/black
 	uniform = /obj/item/clothing/under/wolf/white
 	pda_type = /obj/item/modular_computer/pda/medical
@@ -317,7 +317,7 @@
 /decl/hierarchy/outfit/job/wolf/medical/pharmacist
 	name = WOLF_OUTFIT_JOB_NAME("Pharmacist")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/medical/pharmacist
+	id_type = /obj/item/card/id/wolf/medical
 	shoes = /obj/item/clothing/shoes/color/black
 	uniform = /obj/item/clothing/under/wolf/white
 	pda_type = /obj/item/modular_computer/pda/medical
@@ -342,7 +342,7 @@
 /decl/hierarchy/outfit/job/wolf/research/research_tech
 	name = WOLF_OUTFIT_JOB_NAME("Research Technician")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/science/research_tech
+	id_type = /obj/item/card/id/wolf/science
 	shoes = /obj/item/clothing/shoes/color/black
 	uniform = /obj/item/clothing/under/wolf/white
 	pda_type = /obj/item/modular_computer/pda/science
@@ -352,7 +352,7 @@
 /decl/hierarchy/outfit/job/wolf/research/robotics
 	name = WOLF_OUTFIT_JOB_NAME("Robotics Specialist")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/science/robotics
+	id_type = /obj/item/card/id/wolf/science
 	shoes = /obj/item/clothing/shoes/color/black
 	uniform = /obj/item/clothing/under/wolf/white
 	pda_type = /obj/item/modular_computer/pda/science
@@ -377,7 +377,7 @@
 /decl/hierarchy/outfit/job/wolf/cargo/deck_hand
 	name = WOLF_OUTFIT_JOB_NAME("Deck Hand")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/cargo/deck_hand
+	id_type = /obj/item/card/id/wolf/cargo
 	shoes = /obj/item/clothing/shoes/workboots
 	uniform = /obj/item/clothing/under/wolf/olive
 	pda_type = /obj/item/modular_computer/pda/cargo
@@ -387,7 +387,7 @@
 /decl/hierarchy/outfit/job/wolf/cargo/salvage_technician
 	name = WOLF_OUTFIT_JOB_NAME("Salvage Technician")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/cargo/salvage_technician
+	id_type = /obj/item/card/id/wolf/cargo
 	shoes = /obj/item/clothing/shoes/workboots
 	uniform = /obj/item/clothing/under/wolf/olive
 	pda_type = /obj/item/modular_computer/pda/cargo
@@ -400,7 +400,7 @@
 /decl/hierarchy/outfit/job/wolf/chef
 	name = WOLF_OUTFIT_JOB_NAME("Chef")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/civilian/chef
+	id_type = /obj/item/card/id/wolf/civilian
 	shoes = /obj/item/clothing/shoes/color/white
 	uniform = /obj/item/clothing/under/wolf/white
 	pda_type = /obj/item/modular_computer/pda
@@ -410,7 +410,7 @@
 /decl/hierarchy/outfit/job/wolf/bartender
 	name = WOLF_OUTFIT_JOB_NAME("Bartender")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/civilian/bartender
+	id_type = /obj/item/card/id/wolf/civilian
 	shoes = /obj/item/clothing/shoes/color/white
 	uniform = /obj/item/clothing/under/wolf/white
 	pda_type = /obj/item/modular_computer/pda
@@ -420,7 +420,7 @@
 /decl/hierarchy/outfit/job/wolf/botanist
 	name = WOLF_OUTFIT_JOB_NAME("Botanist")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/civilian/botanist
+	id_type = /obj/item/card/id/wolf/civilian
 	shoes = /obj/item/clothing/shoes/workboots
 	uniform = /obj/item/clothing/under/wolf/black
 	pda_type = /obj/item/modular_computer/pda
@@ -429,7 +429,7 @@
 /decl/hierarchy/outfit/job/wolf/janitor
 	name = WOLF_OUTFIT_JOB_NAME("Janitor")
 	flags = OUTFIT_HAS_BACKPACK
-	id_type = /obj/item/card/id/wolf/civilian/janitor
+	id_type = /obj/item/card/id/wolf/civilian
 	shoes = /obj/item/clothing/shoes/workboots
 	uniform = /obj/item/clothing/under/wolf/black
 	pda_type = /obj/item/modular_computer/pda
@@ -443,81 +443,33 @@
 
 ///CIVILIAN///
 
-/obj/item/card/id/wolf/civilian/
+/obj/item/card/id/wolf/civilian
 	detail_color = COLOR_GREEN
-
-/obj/item/card/id/wolf/civilian/janitor
-	job_access_type = /datum/job/wolf/civilian/janitor
-
-/obj/item/card/id/wolf/civilian/botanist
-	job_access_type = /datum/job/wolf/civilian/botanist
-
-/obj/item/card/id/wolf/civilian/bartender
-	job_access_type = /datum/job/wolf/civilian/bartender
-
-/obj/item/card/id/wolf/civilian/chef
-	job_access_type = /datum/job/wolf/civilian/chef
-
-/obj/item/card/id/wolf/civilian/stowaway
-	job_access_type = /datum/job/wolf/civilian/stowaway
 
 ///CARGO///
 
 /obj/item/card/id/wolf/cargo
 	detail_color = COLOR_BEASTY_BROWN
 
-/obj/item/card/id/wolf/cargo/salvage_technician
-	job_access_type = /datum/job/wolf/civilian/salvage_tech
-
-/obj/item/card/id/wolf/cargo/deck_hand
-	job_access_type = /datum/job/wolf/civilian/deck_hand
-
 ///MEDICAL///
 
 /obj/item/card/id/wolf/medical
 	detail_color = COLOR_DEEP_SKY_BLUE
-
-/obj/item/card/id/wolf/medical/doctor
-	job_access_type = /datum/job/wolf/medical/doctor
-
-/obj/item/card/id/wolf/medical/medtech
-	job_access_type = /datum/job/wolf/medical/medtech
-
-/obj/item/card/id/wolf/medical/pharmacist
-	job_access_type = /datum/job/wolf/medical/pharmacist
 
 ///SECURITY///
 
 /obj/item/card/id/wolf/security
 	detail_color = COLOR_NT_RED
 
-/obj/item/card/id/wolf/security/brig_chief
-	job_access_type = /datum/job/wolf/security/brig_chief
-
-/obj/item/card/id/wolf/security/armsman
-	job_access_type = /datum/job/wolf/security/armsmen
-
-/obj/item/card/id/wolf/security/gunship_pilot
-	job_access_type = /datum/job/wolf/security/gunship_pilot
-
 ///SCIENCE///
 
 /obj/item/card/id/wolf/science
 	detail_color = COLOR_VIOLET
 
-/obj/item/card/id/wolf/science/research_tech
-	job_access_type = /datum/job/wolf/science/research_tech
-
-/obj/item/card/id/wolf/science/robotics
-	job_access_type = /datum/job/wolf/science/robotics
-
 ///ENGINEERING///
 
 /obj/item/card/id/wolf/engineering
 	detail_color = COLOR_AMBER
-
-/obj/item/card/id/wolf/engineering/engineer
-	job_access_type = /datum/job/wolf/engineering/engineer
 
 ///COMMAND///
 
@@ -528,31 +480,20 @@
 	extra_details = list("goldstripe")
 	detail_color = COLOR_AMBER
 
-/obj/item/card/id/wolf/command/bridge_officer
-	job_access_type = /datum/job/wolf/command/bridge_officer
-
 /obj/item/card/id/wolf/command/heads/CE
-	job_access_type = /datum/job/wolf/engineering/CE
 	detail_color = COLOR_DARK_ORANGE
 
 /obj/item/card/id/wolf/command/heads/CMO
-	job_access_type = /datum/job/wolf/medical/CMO
 	detail_color = "#92e7fc"
 
 /obj/item/card/id/wolf/command/heads/SSC
-	job_access_type = /datum/job/wolf/security/SSC
 	detail_color = COLOR_NT_RED
 
 /obj/item/card/id/wolf/command/heads/TD
-	job_access_type = /datum/job/wolf/science/TD
 	detail_color = COLOR_VIOLET
 
 /obj/item/card/id/wolf/command/heads/bosun
-	job_access_type = /datum/job/wolf/civilian/bosun
 	detail_color = COLOR_BEASTY_BROWN
-
-/obj/item/card/id/wolf/command/heads/FO
-	job_access_type = /datum/job/wolf/command/first_officer
 
 /obj/item/card/id/wolf/command/heads/captain
 	color = COLOR_AMBER

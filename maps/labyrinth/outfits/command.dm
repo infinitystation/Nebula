@@ -4,7 +4,7 @@
 	shoes = /obj/item/clothing/shoes/color/black
 	pda_type = /obj/item/modular_computer/pda/heads/captain
 	r_pocket = /obj/item/radio
-	id_type = /obj/item/card/id/gold/director
+	id_type = /obj/item/card/id/gold
 
 /decl/hierarchy/outfit/job/labyrinth/basic/director/post_equip(var/mob/living/carbon/human/H)
 	..()
@@ -22,12 +22,5 @@
 	shoes = /obj/item/clothing/shoes/dress
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	hands = list(/obj/item/clipboard)
-	id_type = /obj/item/card/id/silver/manager
+	id_type = /obj/item/card/id/silver
 	pda_type = /obj/item/modular_computer/pda/heads/hop
-
-//id cards
-/obj/item/card/id/gold/director
-	job_access_type = /datum/job/director
-
-/obj/item/card/id/silver/manager
-	job_access_type = /datum/job/manager

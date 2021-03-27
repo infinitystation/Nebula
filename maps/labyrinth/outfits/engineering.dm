@@ -11,7 +11,6 @@
 /obj/item/card/id/engineering
 	name = "identification card"
 	desc = "A card issued to engineering staff."
-	job_access_type = /datum/job/engineer
 	detail_color = COLOR_SUN
 
 /decl/hierarchy/outfit/job/labyrinth/basic/engineer/head
@@ -31,5 +30,4 @@
 /obj/item/card/id/engineering/head
 	name = "identification card"
 	desc = "A card which represents creativity and ingenuity."
-	job_access_type = /datum/job/engineer/head
 	extra_details = list("goldstripe")
