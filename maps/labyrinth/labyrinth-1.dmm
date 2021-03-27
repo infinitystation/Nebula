@@ -1356,9 +1356,7 @@
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/civilian/cryo)
 "ia" = (
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
+/obj/effect/landmark/latejoin/cryo,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 4
 	},
@@ -2535,9 +2533,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
+/obj/effect/landmark/latejoin/cryo,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 4
 	},
@@ -2876,9 +2872,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
+/obj/effect/landmark/latejoin/cryo,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 4
 	},

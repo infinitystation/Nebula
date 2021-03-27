@@ -677,9 +677,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/habitation/observation)
 "bW" = (
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
+/obj/effect/landmark/latejoin/cryo,
 /obj/effect/floor_decal/industrial/firstaid,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/cryo/one)
@@ -1144,9 +1142,7 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/kitchen)
 "dc" = (
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
+/obj/effect/landmark/latejoin/cryo,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -7038,9 +7034,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
+/obj/effect/landmark/latejoin/cryo,
 /obj/effect/floor_decal/industrial/firstaid{
 	dir = 1
 	},
@@ -7100,9 +7094,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc,
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
+/obj/effect/landmark/latejoin/cryo,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -7115,9 +7107,7 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/cryo/one)
 "oW" = (
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
+/obj/effect/landmark/latejoin/cryo,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -7259,9 +7249,7 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/medical)
 "po" = (
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
+/obj/effect/landmark/latejoin/cryo,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},

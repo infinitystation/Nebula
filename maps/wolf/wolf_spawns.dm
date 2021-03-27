@@ -1,10 +1,7 @@
-GLOBAL_LIST_EMPTY(latejoin_cryo_two)
+var/list/latejoin_cryo_two = list()
 
-/obj/effect/landmark/Initialize()
-	if(name == "JoinLateCryoTwo")
-		GLOB.latejoin_cryo_two += loc
-		delete_me = 1
-	. = ..()
+/obj/effect/landmark/latejoin/cryo_two/add_loc()
+	global.latejoin_cryo_two |= get_turf(src)
 
 /datum/map/wolf
 	allowed_spawns = list("First Deck Cryogenic Storage", "Third Deck Cryogenic Storage")
@@ -13,13 +10,11 @@ GLOBAL_LIST_EMPTY(latejoin_cryo_two)
 /datum/spawnpoint/cryo
 	display_name = "Third Deck Cryogenic Storage"
 	msg = "has completed revival in the Third Deck cryogenics bay"
-	disallow_job = list("Robot")
 
 /datum/spawnpoint/cryo/two
 	display_name = "First Deck Cryogenic Storage"
 	msg = "has completed revival in the First Deck cryogenics bay"
-	disallow_job = list("Robot")
 
 /datum/spawnpoint/cryo/two/New()
 	..()
-	turfs = GLOB.latejoin_cryo_two
+	turfs = global.latejoin_cryo_two

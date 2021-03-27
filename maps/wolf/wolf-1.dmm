@@ -1404,9 +1404,7 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
 "dC" = (
-/obj/effect/landmark{
-	name = "JoinLateCryoTwo"
-	},
+/obj/effect/landmark/latejoin/cryo_two,
 /obj/machinery/newscaster/bump/south,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/cryo/two)
@@ -4826,9 +4824,7 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenoarch/storage)
 "kz" = (
-/obj/effect/landmark{
-	name = "JoinLateCryoTwo"
-	},
+/obj/effect/landmark/latejoin/cryo_two,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/cryo/two)
 "kA" = (
@@ -6719,9 +6715,7 @@
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/salvage)
 "oR" = (
-/obj/effect/landmark{
-	name = "JoinLateCryoTwo"
-	},
+/obj/effect/landmark/latejoin/cryo_two,
 /obj/item/radio/intercom/bump/west,
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/habitation/cryo/two)
@@ -9549,9 +9543,7 @@
 /turf/space,
 /area/space)
 "Ce" = (
-/obj/effect/landmark{
-	name = "JoinLateCryoTwo"
-	},
+/obj/effect/landmark/latejoin/cryo_two,
 /obj/machinery/camera/network/first_deck{
 	dir = 4
 	},
