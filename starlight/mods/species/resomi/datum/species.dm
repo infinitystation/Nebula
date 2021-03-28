@@ -84,6 +84,11 @@
 		/mob/living/proc/toggle_pass_table
 	)
 
+	appearance_descriptors = list(
+		/datum/appearance_descriptor/height = -8,
+		/datum/appearance_descriptor/build = -8
+	)
+
 	available_cultural_info = list(
 		TAG_CULTURE = list(
 			/decl/cultural_info/culture/resomi/eremus,
