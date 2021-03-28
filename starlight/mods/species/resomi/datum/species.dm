@@ -7,8 +7,10 @@
 	hidden_from_codex = FALSE
 
 	sexybits_location = BP_GROIN
-	min_age           = 15
-	max_age           = 45
+
+	meat_type = /obj/item/chems/food/snacks/meat/chicken
+
+	age_descriptor = /datum/appearance_descriptor/age/resomi
 
 	spawn_flags       = SPECIES_CAN_JOIN
 	appearance_flags  = HAS_HAIR_COLOR | HAS_SKIN_COLOR | HAS_EYE_COLOR | HAS_A_SKIN_TONE | HAS_LIPS
@@ -82,11 +84,6 @@
 		/mob/living/proc/toggle_pass_table
 	)
 
-	descriptors = list(
-		/datum/mob_descriptor/height = -8,
-		/datum/mob_descriptor/build = -8
-	)
-
 	available_cultural_info = list(
 		TAG_CULTURE = list(
 			/decl/cultural_info/culture/resomi/eremus,
@@ -156,3 +153,16 @@
 /decl/species/resomi/equip_default_fallback_uniform(var/mob/living/carbon/human/H)
 	if(istype(H))
 		H.equip_to_slot_or_del(new /obj/item/clothing/under/resomi/simple, slot_w_uniform_str)
+
+/datum/appearance_descriptor/age/resomi
+	chargen_min_index = 3
+	chargen_max_index = 6
+	standalone_value_descriptors = list(
+		"a hatchling" =     1,
+		"an fledgeling" =   6,
+		"a young adult" =  12,
+		"an adult" =       25,
+		"middle-aged" =    35,
+		"aging" =          45,
+		"elderly" =        50
+	)
