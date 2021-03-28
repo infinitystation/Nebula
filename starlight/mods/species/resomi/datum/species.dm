@@ -85,8 +85,8 @@
 	)
 
 	appearance_descriptors = list(
-		/datum/appearance_descriptor/height = -8,
-		/datum/appearance_descriptor/build = -8
+		/datum/appearance_descriptor/height = 0.6,
+		/datum/appearance_descriptor/build =  0.6
 	)
 
 	available_cultural_info = list(
