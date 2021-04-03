@@ -2,13 +2,13 @@
 	name = "Odyssey"
 	full_name = "USN Odyssey"
 	path = "odyssey"
-	ground_noun = "deckplate"
+
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
 
 	station_levels = list(1, 2, 3, 4)
 	contact_levels = list(1, 2, 3, 4)
-	player_levels = list(1, 2, 3, 4)
-	admin_levels = list(5)
+	player_levels  = list(1, 2, 3, 4)
+	admin_levels   = list(5)
 
 	station_name  = "USN Odyssey"
 	station_short = "Odyssey"
@@ -32,6 +32,18 @@
 	starting_money = 5000
 	department_money = 0
 	salary_modifier = 0.2
+
+	lobby_screens = list(
+		'maps/odyssey/icons/odyssey_lobby.gif'
+	)
+
+	radiation_detected_sound     = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
+	space_time_anomaly_sound     = 'starlight/mods/content/interpack/sound/announcements/subspace.ogg'
+	unidentified_lifesigns_sound = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
+	command_report_sound         = 'starlight/mods/content/interpack/sound/announcements/attention.ogg'
+	grid_check_sound             = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
+	grid_restored_sound          = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
+	meteor_detected_sound        = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
 
 /datum/map/odyssey/get_map_info()
 	return "You're aboard the <b>[station_name],</b> an exploration vessel owned by the USN and operated by the Department of Exoplanetary Affairs. \

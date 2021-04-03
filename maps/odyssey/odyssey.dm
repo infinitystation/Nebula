@@ -58,7 +58,6 @@
 	#include "odyssey_branches.dm"
 	#include "odyssey_overmap.dm"
 	#include "odyssey_jobs.dm"
-	#include "odyssey_lobby.dm"
 	#include "odyssey_evac.dm"
 	#include "odyssey_areas.dm"
 	#include "odyssey_presets.dm"

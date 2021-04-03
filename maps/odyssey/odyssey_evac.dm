@@ -69,8 +69,8 @@
 	state = EVAC_ODYSSEY_PREPPING
 
 	if(emergency_evacuation)
-		for(var/area/A in world)
-			if(istype(A, /area/odyssey/hallway/))
+		for(var/area/A in global.areas)
+			if(istype(A) && (A.area_flags & AREA_FLAG_HALLWAY))
 				A.readyalert()
 		if(!skip_announce)
 			GLOB.using_map.emergency_shuttle_called_announcement()
