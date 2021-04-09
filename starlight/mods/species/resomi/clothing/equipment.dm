@@ -49,7 +49,7 @@
 	canremove = 0
 
 
-
+//uniform
 /obj/item/clothing/under/resomi
 	name = "small jumpsuit"
 	desc = "A small jumpsuit. Looks pretty much perfect to fit a resomi."
@@ -84,6 +84,18 @@
 /obj/item/clothing/under/resomi/command
 	name = "small command uniform"
 	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/command_uniform.dmi'
+
+/obj/item/clothing/under/resomi/stylish_command
+	name = "small stylish uniform"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/stylish_form.dmi'
+
+/obj/item/clothing/under/resomi/gray_utility
+	name = "small grey uniform"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/gray_utility.dmi'
+
+/obj/item/clothing/under/resomi/black_utility
+	name = "small black uniform"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/black_utility.dmi'
 
 //Shoes
 /obj/item/clothing/shoes/resomi/footwraps
