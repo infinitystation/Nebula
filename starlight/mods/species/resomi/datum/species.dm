@@ -164,10 +164,10 @@
 	chargen_max_index = 6
 	standalone_value_descriptors = list(
 		"a hatchling" =     1,
-		"an fledgeling" =   6,
-		"a young adult" =  12,
-		"an adult" =       25,
-		"middle-aged" =    35,
-		"aging" =          45,
-		"elderly" =        50
+		"an fledgeling" =   7,
+		"a young adult" =  15,
+		"an adult" =       26,
+		"middle-aged" =    34,
+		"aging" =          51,
+		"elderly" =        65
 	)
