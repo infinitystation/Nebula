@@ -3,4 +3,5 @@
 #include "_vatgrown.dm"
 #include "datum\culture.dm"
 #include "datum\species.dm"
+#include "datum\species_bodytypes.dm"
 #endif

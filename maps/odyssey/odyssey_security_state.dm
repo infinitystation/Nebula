@@ -3,7 +3,14 @@
 	security_state = /decl/security_state/default/odyssey
 
 /decl/security_state/default/odyssey
-	all_security_levels = list(/decl/security_level/default/odyssey/code_green, /decl/security_level/default/odyssey/code_blue, /decl/security_level/default/odyssey/code_orange, /decl/security_level/default/odyssey/code_violet, /decl/security_level/default/odyssey/code_red, /decl/security_level/default/odyssey/code_delta)
+	all_security_levels = list(
+		/decl/security_level/default/odyssey/code_green,
+		/decl/security_level/default/odyssey/code_blue,
+		/decl/security_level/default/odyssey/code_orange,
+		/decl/security_level/default/odyssey/code_violet,
+		/decl/security_level/default/odyssey/code_red,
+		/decl/security_level/default/odyssey/code_delta
+	)
 
 /decl/security_level/default/odyssey
 	alarm_appearance = /datum/alarm_appearance/green
@@ -11,9 +18,8 @@
 /decl/security_level/default/odyssey/code_green
 	name = "code green"
 
-	light_max_bright = 0.25
-	light_inner_range = 0.1
-	light_outer_range = 1
+	light_range = 2
+	light_power = 1
 
 	light_color_alarm = COLOR_GREEN
 	light_color_status_display = COLOR_GREEN
@@ -28,9 +34,8 @@
 /decl/security_level/default/odyssey/code_blue
 	name = "code blue"
 
-	light_max_bright = 0.5
-	light_inner_range = 0.1
-	light_outer_range = 2
+	light_range = 2
+	light_power = 1
 	light_color_alarm = COLOR_BLUE
 	light_color_status_display = COLOR_BLUE
 
@@ -45,9 +50,8 @@
 /decl/security_level/default/odyssey/code_orange
 	name = "code orange"
 
-	light_max_bright = 0.5
-	light_inner_range = 0.1
-	light_outer_range = 2
+	light_range = 2
+	light_power = 1
 	light_color_alarm = COLOR_ORANGE
 	light_color_status_display = COLOR_ORANGE
 
@@ -62,9 +66,8 @@
 /decl/security_level/default/odyssey/code_violet
 	name = "code violet"
 
-	light_max_bright = 0.5
-	light_inner_range = 0.1
-	light_outer_range = 2
+	light_range = 2
+	light_power = 1
 	light_color_alarm = COLOR_VIOLET
 	light_color_status_display = COLOR_VIOLET
 
@@ -79,9 +82,8 @@
 /decl/security_level/default/odyssey/code_red
 	name = "code red"
 
-	light_max_bright = 0.5
-	light_inner_range = 0.1
-	light_outer_range = 2
+	light_range = 4
+	light_power = 2
 	light_color_alarm = COLOR_RED
 	light_color_status_display = COLOR_RED
 
@@ -96,9 +98,8 @@
 /decl/security_level/default/odyssey/code_delta
 	name = "code delta"
 
-	light_max_bright = 0.75
-	light_inner_range = 0.1
-	light_outer_range = 3
+	light_range = 4
+	light_power = 2
 	light_color_alarm = COLOR_RED
 	light_color_status_display = COLOR_NAVY_BLUE
 

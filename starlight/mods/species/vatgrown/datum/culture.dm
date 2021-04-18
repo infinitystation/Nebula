@@ -3,7 +3,7 @@
 	description = "You were grown in a vat, either as clone or as a gene-adapt, and your outlook diverges from baseline humanity accordingly."
 
 /decl/cultural_info/culture/human/vatgrown/sanitize_name(name)
-	return sanitizeName(name, allow_numbers=TRUE)
+	return sanitizeName(name, allow_numbers = TRUE)
 
 /decl/cultural_info/culture/human/vatgrown/get_random_name(gender)
 	// #defines so it's easier to read what's actually being generated
