@@ -26,7 +26,6 @@
 //	#include "../../starlight/mods/content/interpack/_interpack.dme"
 
 	#include "../../starlight/mods/species/booster/_booster.dme"
-	#include "../../starlight/mods/species/resomi/_resomi.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
 // STARLIGHT MODS END
 

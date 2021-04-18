@@ -47,10 +47,6 @@
 			COMMAND_JOBS,
 			SECURITY_JOBS
 		),
-		/decl/species/resomi = list(
-			COMMAND_JOBS,
-			SECURITY_JOBS
-		),
 		/decl/species/adherent = list(
 			MEDICAL_JOBS,
 			SCIENCE_JOBS

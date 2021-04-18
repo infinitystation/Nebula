@@ -7667,8 +7667,6 @@
 	dir = 4;
 	pixel_x = -24
 	},
-/obj/item/clothing/suit/space/void/engineering/resomi,
-/obj/item/clothing/head/helmet/space/void/engineering/resomi,
 /obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/plating,
 /area/odyssey/maintenance/decktwo/aft/starboard)
@@ -8183,10 +8181,6 @@
 /obj/random/junk,
 /obj/structure/table/rack,
 /obj/random/contraband,
-/obj/item/clothing/suit/space/void/engineering/resomi,
-/obj/item/clothing/suit/space/void/engineering/resomi,
-/obj/item/clothing/head/helmet/space/void/engineering/resomi,
-/obj/item/clothing/head/helmet/space/void/engineering/resomi,
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/plating,
 /area/odyssey/maintenance/decktwo/aft/starboard)
@@ -10298,7 +10292,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/odyssey/engineering/secure_storage)
 "IO" = (
-/obj/item/clothing/shoes/resomi/footwraps/socks_resomi,
 /turf/simulated/floor/plating,
 /area/odyssey/maintenance/decktwo/aft/starboard)
 "Js" = (
@@ -10344,7 +10337,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/odyssey/command/bridge/cic)
 "MU" = (
-/obj/item/clothing/shoes/resomi/footwraps,
 /turf/simulated/floor/plating,
 /area/odyssey/maintenance/decktwo/aft/starboard)
 "NR" = (

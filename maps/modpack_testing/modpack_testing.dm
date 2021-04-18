@@ -31,7 +31,6 @@
 	#include "../../starlight/mods/content/europa_tileset/_europa_tileset.dme"
 
 	#include "../../starlight/mods/species/booster/_booster.dme"
-	#include "../../starlight/mods/species/resomi/_resomi.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
 // STARLIGHT MODS END
 
