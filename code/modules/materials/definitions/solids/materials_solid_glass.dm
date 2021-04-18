@@ -11,7 +11,9 @@
 	hardness = MAT_VALUE_RIGID + 10
 	door_icon_base = "metal"
 	reflectiveness = MAT_VALUE_SHINY
-	melting_point = T100C
+	melting_point = 1873
+	boiling_point = null
+	ignition_point = null
 	weight = MAT_VALUE_VERY_LIGHT
 	brute_armor = 1
 	burn_armor = 2
@@ -20,6 +22,8 @@
 	hitsound = 'sound/effects/Glasshit.ogg'
 	conductive = 0
 	wall_support_value = MAT_VALUE_LIGHT
+	sheet_singular_name = "sheet"
+	sheet_plural_name = "sheets"
 
 /decl/material/solid/glass/proc/is_reinforced()
 	return (integrity > 75) //todo
@@ -42,3 +46,33 @@
 	stack_origin_tech = "{'materials':4}"
 	construction_difficulty = MAT_VALUE_HARD_DIY
 	value = 1.8
+
+/decl/material/solid/fiberglass
+	name = "fiberglass"
+	lore_text = "A form of glass-reinforced plastic made from glass fibers and a polymer resin."
+	dissolves_into = list(
+		/decl/material/solid/glass = 0.7,
+		/decl/material/solid/plastic = 0.3
+	)
+	color = COLOR_OFF_WHITE
+	opacity = 0.6
+	melting_point = 1400
+	stack_type = /obj/item/stack/material/glass/fiber
+	hardness = MAT_VALUE_HARD
+	weight = MAT_VALUE_LIGHT
+	integrity = 120
+	icon_base = 'icons/turf/walls/plastic.dmi'
+	icon_reinf = 'icons/turf/walls/reinforced.dmi'
+	use_reinf_state = null
+	door_icon_base = "plastic"
+	hardness = MAT_VALUE_FLEXIBLE
+	weight = MAT_VALUE_LIGHT
+	stack_origin_tech = "{'materials':3}"
+	conductive = 0
+	construction_difficulty = MAT_VALUE_NORMAL_DIY
+	reflectiveness = MAT_VALUE_MATTE
+	wall_support_value = MAT_VALUE_LIGHT
+	burn_product = /decl/material/gas/carbon_monoxide
+	dooropen_noise = 'sound/effects/doorcreaky.ogg'
+	sheet_singular_name = "sheet"
+	sheet_plural_name = "sheets"

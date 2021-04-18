@@ -59,13 +59,12 @@
 	desc = "A simple alien device, perhaps some sort of light source."
 	color = COLOR_PURPLE
 	var/global/random_light_color
-	random_tone = FALSE
 
 /obj/item/light/alien/Initialize()
 	. = ..()
 	if(!random_light_color)
 		random_light_color = get_random_colour(FALSE, 100, 255)
-	b_colour = random_light_color
+	b_color = random_light_color
 	color = random_light_color
 
 //Airlock

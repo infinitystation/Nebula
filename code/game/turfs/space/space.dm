@@ -9,7 +9,6 @@
 	thermal_conductivity = OPEN_HEAT_TRANSFER_COEFFICIENT
 	permit_ao = FALSE
 	z_eventually_space = TRUE
-	turf_flags = (TURF_FLAG_SKIP_ICON_INIT | TURF_FLAG_SKIP_AO_INIT)
 	var/static/list/dust_cache
 
 /turf/space/proc/build_dust_cache()
@@ -28,7 +27,7 @@
 
 /turf/space/proc/update_starlight()
 	if(config.starlight && (locate(/turf/simulated) in RANGE_TURFS(src, 1)))
-		set_light(min(0.1*config.starlight, 1), 1, 3, l_color = SSskybox.background_color)
+		set_light(config.starlight, 0.75, l_color = SSskybox.background_color)
 	else
 		set_light(0)
 

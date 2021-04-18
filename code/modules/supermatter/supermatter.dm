@@ -86,7 +86,7 @@ var/list/supermatter_final_thoughts = list(
 	icon_state = "darkmatter"
 	density = 1
 	anchored = 0
-	light_outer_range = 4
+	light_range = 4
 
 	layer = ABOVE_OBJ_LAYER
 
@@ -327,8 +327,8 @@ var/list/supermatter_final_thoughts = list(
 
 //Changes color and luminosity of the light to these values if they were not already set
 /obj/machinery/power/supermatter/proc/shift_light(var/lum, var/clr)
-	if(lum != light_outer_range || clr != light_color)
-		set_light(1, 0.1, lum, l_color = clr)
+	if(lum != light_range || clr != light_color)
+		set_light(lum, l_color = clr)
 
 /obj/machinery/power/supermatter/proc/get_integrity()
 	var/integrity = damage / explosion_point

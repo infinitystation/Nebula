@@ -85,11 +85,6 @@
 	if(eyeobj)
 		eyeobj.possess(src)
 
-	l_plane = new()
-	l_general = new()
-	client.screen += l_plane
-	client.screen += l_general
-
 	refresh_client_images()
 	reload_fullscreen() // Reload any fullscreen overlays this mob has.
 	add_click_catcher()
@@ -114,6 +109,13 @@
 			for(var/obj/screen/ability/spell/screen in ability_master.spell_objects)
 				var/spell/S = screen.spell
 				mind.learned_spells |= S
+
+	if(get_preference_value(/datum/client_preference/show_status_markers) == GLOB.PREF_SHOW)
+		if(status_markers)
+			client.images |= status_markers.mob_image_personal
+		for(var/datum/status_marker_holder/marker as anything in global.status_marker_holders)
+			if(marker != status_markers)
+				client.images |= marker.mob_image
 
 /mob/living/carbon/Login()
 	. = ..()

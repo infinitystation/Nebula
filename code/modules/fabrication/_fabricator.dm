@@ -33,8 +33,10 @@
 	var/list/base_storage_capacity = list(
 		/decl/material/solid/metal/steel =     SHEET_MATERIAL_AMOUNT * 20,
 		/decl/material/solid/metal/aluminium = SHEET_MATERIAL_AMOUNT * 20,
-		/decl/material/solid/glass =     SHEET_MATERIAL_AMOUNT * 10,
-		/decl/material/solid/plastic =   SHEET_MATERIAL_AMOUNT * 10
+		/decl/material/solid/metal/copper =    SHEET_MATERIAL_AMOUNT * 20,
+		/decl/material/solid/fiberglass =      SHEET_MATERIAL_AMOUNT * 10,
+		/decl/material/solid/glass =           SHEET_MATERIAL_AMOUNT * 10,
+		/decl/material/solid/plastic =         SHEET_MATERIAL_AMOUNT * 10
 	)
 
 	var/show_category = "All"
@@ -56,6 +58,9 @@
 	var/initial_network_key
 
 	var/species_variation = /decl/species/human // If this fabricator is a variant for a specific species, this will be checked to unlock species-specific designs.
+
+	// If TRUE, fills fabricator with material on initalize
+	var/prefilled = FALSE
 
 /obj/machinery/fabricator/Destroy()
 	QDEL_NULL(currently_building)
@@ -97,6 +102,9 @@
 				var/decl/material/reg = mat
 				stored_substances_to_names[mat] = lowertext(initial(reg.name))
 
+	if(prefilled)
+		fill_to_capacity()
+
 /obj/machinery/fabricator/modify_mapped_vars(map_hash)
 	..()
 	ADJUST_TAG_VAR(initial_network_id, map_hash)
@@ -106,6 +114,10 @@
 	var/list/base_designs = SSfabrication.get_initial_recipes(fabricator_class)
 	design_cache = islist(base_designs) ? base_designs.Copy() : list() // Don't want to mutate the subsystem cache.
 	refresh_design_cache()
+
+/obj/machinery/fabricator/proc/fill_to_capacity()
+	for(var/mat in storage_capacity)
+		stored_material[mat] = storage_capacity[mat]
 
 /obj/machinery/fabricator/proc/refresh_design_cache(var/list/known_tech)
 	if(length(installed_designs))

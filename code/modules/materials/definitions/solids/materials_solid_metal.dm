@@ -53,12 +53,29 @@
 	ore_data_value = 2
 
 /decl/material/solid/metal/bronze
-	lore_text = "An alloy of copper and tin."
-	color = "#edd12f"
+	name = "bronze"
+	lore_text = "An alloy of copper and tin. Once used in weapons and laboring tools."
+	stack_type = /obj/item/stack/material/bronze
+	color = "#ccbc63"
+	hardness = MAT_VALUE_HARD
+	sheet_singular_name = "sheet"
+	sheet_plural_name = "sheets"
+	value = 1.2
+
+/decl/material/solid/metal/brass
+	name = "brass"
+	lore_text = "An alloy of copper and zinc. Renowned for its golden color."
+	stack_type = /obj/item/stack/material/brass
+	color = "#dab900"
+	reflectiveness = MAT_VALUE_VERY_SHINY
+	sheet_singular_name = "sheet"
+	sheet_plural_name = "sheets"
 	value = 1.2
 
 /decl/material/solid/metal/copper
 	name = "copper"
+	lore_text = "A metal used in some components and many alloys. Known for its color-shifting properties when oxidized."
+	stack_type = /obj/item/stack/material/copper
 	color = COLOR_COPPER
 	weight = MAT_VALUE_NORMAL
 	hardness = MAT_VALUE_FLEXIBLE + 10
@@ -97,6 +114,8 @@
 	hitsound = 'sound/weapons/smash.ogg'
 	construction_difficulty = MAT_VALUE_NORMAL_DIY
 	value = 1.1
+	sheet_singular_name = "sheet"
+	sheet_plural_name = "sheets"
 	dissolves_into = list(
 		/decl/material/solid/metal/iron = 0.98,
 		/decl/material/solid/carbon = 0.02
@@ -160,6 +179,8 @@
 	color = "#cccdcc"
 	hitsound = 'sound/weapons/smash.ogg'
 	taste_description = "metal"
+	sheet_singular_name = "sheet"
+	sheet_plural_name = "sheets"
 
 /decl/material/solid/metal/aluminium/generate_recipes(var/reinforce_material)
 	. = ..()
@@ -195,6 +216,8 @@
 	hitsound = 'sound/weapons/smash.ogg'
 	value = 1.4
 	reflectiveness = MAT_VALUE_MATTE
+	sheet_singular_name = "sheet"
+	sheet_plural_name = "sheets"
 
 /decl/material/solid/metal/plasteel/generate_recipes(var/reinforce_material)
 	. = ..()
@@ -247,6 +270,8 @@
 	stack_origin_tech = "{'materials':3}"
 	construction_difficulty = MAT_VALUE_VERY_HARD_DIY
 	value = 1.8
+	sheet_singular_name = "sheet"
+	sheet_plural_name = "sheets"
 
 /decl/material/solid/metal/osmium
 	name = "osmium"
@@ -293,6 +318,34 @@
 
 	M.add_chemical_effect(CE_BLOODRESTORE, 8 * removed)
 
+/decl/material/solid/metal/tin
+	name = "tin"
+	lore_text = "A soft metal that can be cut without much force. Used in many alloys."
+	stack_type = /obj/item/stack/material/tin
+	color = "#c5c5a8"
+	hardness = MAT_VALUE_SOFT + 10
+	construction_difficulty = MAT_VALUE_EASY_DIY
+	reflectiveness = MAT_VALUE_MATTE
+
+/decl/material/solid/metal/lead
+	name = "lead"
+	lore_text = "A very soft, heavy and poisonous metal. You probably shouldn't lick it."
+	stack_type = /obj/item/stack/material/lead
+	color = "#3f3f4d"
+	hardness = MAT_VALUE_SOFT
+	construction_difficulty = MAT_VALUE_NORMAL_DIY
+	reflectiveness = MAT_VALUE_MATTE
+	taste_description = "metallic sugar"
+	toxicity = 1
+	
+/decl/material/solid/metal/zinc
+	name = "zinc"
+	lore_text = "A dull-looking metal with some use in alloying."
+	stack_type = /obj/item/stack/material/zinc
+	color = "#92aae4"
+	construction_difficulty = MAT_VALUE_NORMAL_DIY
+	reflectiveness = MAT_VALUE_MATTE
+
 // Adminspawn only, do not let anyone get this.
 /decl/material/solid/metal/alienalloy
 	name = "dense alloy"
@@ -316,6 +369,7 @@
 /decl/material/solid/metal/tungsten
 	name = "tungsten"
 	lore_text = "A chemical element, and a strong oxidising agent."
+	stack_type = /obj/item/stack/material/tungsten
 	taste_mult = 0 //no taste
 	color = "#dcdcdc"
 	value = 0.5

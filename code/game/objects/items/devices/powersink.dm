@@ -12,7 +12,7 @@
 	throw_range = 2
 
 	material = /decl/material/solid/metal/steel
-	matter = list(/decl/material/solid/slag = MATTER_AMOUNT_REINFORCEMENT)
+	matter = list(/decl/material/solid/metallic_hydrogen = MATTER_AMOUNT_REINFORCEMENT)
 
 	origin_tech = "{'powerstorage':3,'esoteric':5}"
 	var/drain_rate = 1500000		// amount of power to drain per tick
@@ -130,7 +130,7 @@
 	var/datum/powernet/PN = attached.powernet
 	var/drained = 0
 	if(PN)
-		set_light(0.5, 0.1, 12)
+		set_light(12)
 		PN.trigger_warning()
 		// found a powernet, so drain up to max power from it
 		drained = PN.draw_power(drain_rate)

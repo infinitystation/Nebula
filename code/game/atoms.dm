@@ -55,14 +55,14 @@
 		PRINT_STACK_TRACE("Warning: [src]([type]) initialized multiple times!")
 	atom_flags |= ATOM_FLAG_INITIALIZED
 
-	if(light_max_bright && light_outer_range)
+	if(light_power && light_range)
 		update_light()
 
 	if(opacity)
 		updateVisibility(src)
 		var/turf/T = loc
 		if(istype(T))
-			T.RecalculateOpacity()
+			T.recalc_atom_opacity()
 
 	return INITIALIZE_HINT_NORMAL
 
@@ -75,9 +75,7 @@
 	underlays.Cut()
 	global.is_currently_exploding -= src
 	QDEL_NULL(reagents)
-	if(light)
-		light.destroy()
-		light = null
+	QDEL_NULL(light)
 	if(opacity)
 		updateVisibility(src)
 	. = ..()
@@ -280,11 +278,17 @@ its easier to just keep the beam vertical.
 //called to set the atom's dir and used to add behaviour to dir-changes
 /atom/proc/set_dir(new_dir)
 	SHOULD_CALL_PARENT(TRUE)
-	var/old_dir = dir
-	if(new_dir == old_dir)
-		return FALSE
+	. = new_dir != dir
 	dir = new_dir
-	return TRUE
+	if(.)
+		if(light_source_solo)
+			light_source_solo.source_atom.update_light()
+		else if(light_source_multi)
+			var/datum/light_source/L
+			for(var/thing in light_source_multi)
+				L = thing
+				if(L.light_angle)
+					L.source_atom.update_light()
 
 /atom/proc/set_icon_state(var/new_icon_state)
 	SHOULD_CALL_PARENT(TRUE)

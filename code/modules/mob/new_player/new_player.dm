@@ -106,7 +106,7 @@
 		return TOPIC_NOACTION
 
 	if(href_list["show_preferences"])
-		client.prefs.ShowChoices(src)
+		client.prefs.open_setup_window(src)
 		return 1
 
 	if(href_list["ready"])
@@ -460,7 +460,8 @@
 
 	if(GLOB.random_players)
 		var/decl/species/current_species = get_species_by_key(client.prefs.species || GLOB.using_map.default_species)
-		client.prefs.gender = pick(current_species.genders)
+		var/decl/pronouns/pronouns = pick(current_species.available_pronouns)
+		client.prefs.gender = pronouns.name
 		client.prefs.real_name = client.prefs.get_random_name()
 		client.prefs.randomize_appearance_and_body_for(new_character)
 	client.prefs.copy_to(new_character)

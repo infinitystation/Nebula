@@ -57,7 +57,7 @@ var/list/laser_wavelengths
 	material = /decl/material/solid/metal/steel
 	projectile_type = /obj/item/projectile/beam/variable
 	matter = list(
-		/decl/material/solid/glass = MATTER_AMOUNT_REINFORCEMENT,
+		/decl/material/solid/fiberglass = MATTER_AMOUNT_REINFORCEMENT,
 		/decl/material/solid/gemstone/diamond = MATTER_AMOUNT_TRACE
 	)
 
@@ -73,7 +73,7 @@ var/list/laser_wavelengths
 	. = ..()
 	if(loc == user || distance <= 1)
 		to_chat(user, "The wavelength selector is dialled to [selected_wavelength.name].")
-	
+
 /obj/item/gun/energy/capacitor/Destroy()
 	if(capacitors)
 		QDEL_NULL_LIST(capacitors)
@@ -94,7 +94,7 @@ var/list/laser_wavelengths
 
 /obj/item/gun/energy/capacitor/afterattack(atom/A, mob/living/user, adjacent, params)
 	. = !charging && ..()
-	
+
 /obj/item/gun/energy/capacitor/attackby(obj/item/W, mob/user)
 
 	if(charging)
@@ -213,9 +213,9 @@ var/list/laser_wavelengths
 			I.appearance_flags |= RESET_COLOR
 			add_overlay(I)
 
-	// So much of this item is overlay based that it looks weird when 
+	// So much of this item is overlay based that it looks weird when
 	// being picked up and having all the detail snap in a tick later.
-	compile_overlays() 
+	compile_overlays()
 
 	if(ismob(loc))
 		var/mob/M = loc
@@ -287,5 +287,3 @@ var/list/laser_wavelengths
 		to_chat(user, SPAN_WARNING("\The [src] is hermetically sealed; you can't get the components out."))
 		return TRUE
 	. = ..()
-
-	

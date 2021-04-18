@@ -7,8 +7,8 @@
 	anchored = TRUE
 	unacidable = TRUE
 	light_color = "#00ffff"
-	light_outer_range = 2
-	light_max_bright = 1
+	light_range = 2
+	light_power = 1
 	mouse_opacity = 0
 	appearance_flags = 0
 	var/overlay_state
@@ -19,12 +19,12 @@
 	invisibility = INVISIBILITY_MAXIMUM
 
 /obj/effect/projectile/invislight/proc/copy_from(var/obj/effect/projectile/owner)
-	light_max_bright =    initial(owner.light_max_bright)
-	light_inner_range =   initial(owner.light_inner_range)
-	light_outer_range =   initial(owner.light_outer_range)
-	light_falloff_curve = initial(owner.light_falloff_curve)
-	light_color =         initial(owner.light_color)
-	set_light(light_max_bright, light_inner_range, light_outer_range, light_falloff_curve, light_color)
+	light_range = initial(owner.light_range)
+	light_power = initial(owner.light_power)
+	light_color = initial(owner.light_color)
+	light_wedge = initial(owner.light_wedge)
+
+	set_light(light_range, light_power, light_color, light_wedge)
 
 /obj/effect/projectile/on_update_icon()
 	cut_overlays()
@@ -35,7 +35,7 @@
 		add_overlay(I)
 		// Projectile effects only exist for a tick or two, need to call
 		// this to ensure they show their overlays before expiring.
-		compile_overlays() 
+		compile_overlays()
 
 /obj/effect/projectile/singularity_pull()
 	return

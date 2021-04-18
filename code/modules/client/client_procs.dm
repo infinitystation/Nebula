@@ -233,8 +233,8 @@ var/list/localhost_addresses = list(
 	if(holder)
 		src.control_freak = 0 //Devs need 0 for profiler access
 
-	if(!istype(mob, world.mob))
-		prefs?.apply_post_login_preferences()
+	if(prefs && !istype(mob, world.mob))
+		prefs.apply_post_login_preferences()
 
 	//////////////
 	//DISCONNECT//
@@ -421,7 +421,7 @@ var/list/localhost_addresses = list(
 	set name = "Character Setup"
 	set category = "OOC"
 	if(prefs)
-		prefs.ShowChoices(usr)
+		prefs.open_setup_window(usr)
 
 /client/proc/apply_fps(var/client_fps)
 	if(world.byond_version >= 511 && byond_version >= 511 && client_fps >= CLIENT_MIN_FPS && client_fps <= CLIENT_MAX_FPS)
@@ -508,8 +508,6 @@ var/list/localhost_addresses = list(
 	// Recenter skybox and lighting.
 	set_skybox_offsets(last_view_x_dim, last_view_y_dim)
 	if(mob)
-		if(mob.l_general)
-			mob.l_general.fit_to_client_view(last_view_x_dim, last_view_y_dim)
 		mob.reload_fullscreen()
 
 /client/proc/update_chat_position(use_alternative)
