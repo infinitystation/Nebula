@@ -27,8 +27,13 @@ var/list/labyrinth_paperwork_end_areas = list()
 	return INITIALIZE_HINT_QDEL
 
 /datum/goal/department/paperwork/labyrinth
-	paperwork_types =    list(/obj/item/paperwork/labyrinth)
-	signatory_job_list = list(/datum/job/director, /datum/job/manager)
+	paperwork_types = list(
+		/obj/item/paperwork/labyrinth
+	)
+	signatory_job_list = list(
+		/datum/job/labyrinth/command/director,
+		/datum/job/labyrinth/command/logistics_officer
+	)
 
 /datum/goal/department/paperwork/labyrinth/get_spawn_turfs()
 	return global.labyrinth_paperwork_spawn_turfs
