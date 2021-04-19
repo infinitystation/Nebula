@@ -47,16 +47,7 @@
 	#include "../away/unishi/unishi.dm"
 	#include "../away/yacht/yacht.dm"
 
-	#include "labyrinth_antagonists.dm"
-	#include "labyrinth_areas.dm"
-	#include "labyrinth_jobs.dm"
-	#include "labyrinth_map.dm"
-	#include "labyrinth_overmap.dm"
-	#include "labyrinth_overrides.dm"
-	#include "labyrinth_shuttles.dm"
-	#include "labyrinth_turbolift.dm"
-	#include "labyrinth_unit_testing.dm"
-
+	#include "jobs/_departments.dm"
 	#include "jobs/_goals.dm"
 	#include "jobs/_jobs.dm"
 	#include "jobs/command.dm"
@@ -66,11 +57,15 @@
 
 	#include "machinery/airlock.dm"
 
-	#include "outfits/_outfits.dm"
-	#include "outfits/command.dm"
-	#include "outfits/engineering.dm"
-	#include "outfits/medical.dm"
-	#include "outfits/science.dm"
+	#include "labyrinth_antagonists.dm"
+	#include "labyrinth_areas.dm"
+	#include "labyrinth_elevator.dm"
+	#include "labyrinth_map.dm"
+	#include "labyrinth_outfits.dm"
+	#include "labyrinth_overmap.dm"
+	#include "labyrinth_overrides.dm"
+	#include "labyrinth_shuttles.dm"
+	#include "labyrinth_unit_testing.dm"
 
 	#include "labyrinth-1.dmm"
 	#include "labyrinth-2.dmm"

@@ -1356,9 +1356,9 @@
 	dir = 8
 	},
 /obj/structure/closet,
-/obj/item/clothing/under/color/labyrinth,
-/obj/item/clothing/under/color/labyrinth,
-/obj/item/clothing/under/color/labyrinth,
+/obj/item/clothing/under/color/facility,
+/obj/item/clothing/under/color/facility,
+/obj/item/clothing/under/color/facility,
 /obj/item/clothing/shoes/jackboots/duty,
 /obj/item/clothing/shoes/jackboots/duty,
 /obj/item/clothing/shoes/jackboots/duty,
@@ -2129,9 +2129,9 @@
 /area/labyrinth/medical/lobby)
 "mU" = (
 /obj/structure/closet,
-/obj/item/clothing/under/color/labyrinth,
-/obj/item/clothing/under/color/labyrinth,
-/obj/item/clothing/under/color/labyrinth,
+/obj/item/clothing/under/color/facility,
+/obj/item/clothing/under/color/facility,
+/obj/item/clothing/under/color/facility,
 /obj/item/clothing/shoes/jackboots/duty,
 /obj/item/clothing/shoes/jackboots/duty,
 /obj/item/clothing/shoes/jackboots/duty,
@@ -3315,11 +3315,17 @@
 	name = "equipment closet";
 	req_access = list("ACCESS_ARMORY")
 	},
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/item/gun/projectile/automatic/smg,
+/obj/item/gun/projectile/automatic/smg,
+/obj/item/gun/projectile/automatic/smg,
+/obj/item/gun/projectile/automatic/smg,
+/obj/item/gun/projectile/revolver/lasvolver,
+/obj/item/gun/projectile/revolver/lasvolver,
+/obj/item/gun/projectile/revolver/lasvolver,
+/obj/item/gun/projectile/revolver/lasvolver,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/security/armory)
 "tK" = (
@@ -3489,8 +3495,8 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
 "uQ" = (
-/turf/simulated/floor/plating,
-/area/turbolift/labyrinth_under)
+/turf/unsimulated/mask,
+/area/space)
 "uT" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -4400,8 +4406,8 @@
 /area/labyrinth/medical)
 "AV" = (
 /obj/turbolift_map_holder/labyrinth,
-/turf/simulated/floor/plating,
-/area/turbolift/labyrinth_under)
+/turf/unsimulated/mask,
+/area/space)
 "Bb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
@@ -4745,7 +4751,7 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
 "Du" = (
-/turf/simulated/floor/plating,
+/turf/unsimulated/mask,
 /area/labyrinth/hallway/lower)
 "Dv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5938,25 +5944,15 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/hallway/lower)
 "Lr" = (
-/obj/structure/closet/secure_closet{
-	closet_appearance = /decl/closet_appearance/secure_closet/security;
-	name = "equipment closet";
-	req_access = list("ACCESS_ARMORY")
-	},
-/obj/item/gun/projectile/automatic/smg,
-/obj/item/gun/projectile/automatic/smg,
-/obj/item/gun/projectile/automatic/smg,
-/obj/item/gun/projectile/automatic/smg,
-/obj/item/gun/projectile/revolver/lasvolver,
-/obj/item/gun/projectile/revolver/lasvolver,
-/obj/item/gun/projectile/revolver/lasvolver,
-/obj/item/gun/projectile/revolver/lasvolver,
+/obj/structure/closet/crate,
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 1
 	},
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/glass/fifty,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/security/armory)
 "Lt" = (

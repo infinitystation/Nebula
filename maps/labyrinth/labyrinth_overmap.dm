@@ -14,7 +14,7 @@
 		)
 	)
 
-/obj/effect/overmap/visitable/sector/exoplanet/snow/labyrinth/generate_habitability()
+/obj/effect/overmap/visitable/sector/exoplanet/volcanic/labyrinth/generate_habitability()
 	habitability_class = HABITABILITY_IDEAL
 
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle

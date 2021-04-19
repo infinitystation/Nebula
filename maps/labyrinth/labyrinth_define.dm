@@ -49,6 +49,8 @@
 		'maps/labyrinth/media/labyrinth.png'
 	)
 
+	game_year = 0
+
 /datum/map/labyrinth/get_map_info()
 	return {"<center><small>When I was little,<br> \
 	I caugth a snake <br> \

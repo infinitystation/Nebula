@@ -1,10 +1,30 @@
-/datum/job
-	skill_points    = 26
-	outfit_type     = /decl/hierarchy/outfit/job/labyrinth/basic
+/datum/map/labyrinth
+	default_law_type = /datum/ai_laws/asimov
+	default_assistant_title = "Crewmember"
+	allowed_jobs = list(
+		/datum/job/assistant,
+		/datum/job/labyrinth/command/director,
+		/datum/job/labyrinth/command/logistics_officer,
+		/datum/job/labyrinth/engineering/engineer,
+		/datum/job/labyrinth/medical/doctor,
+		/datum/job/labyrinth/science/researcher
+	)
+
+// God forgive me for this stub
+/datum/job/labyrinth
+	hud_icon = "hudblank"
 
 /datum/job/assistant
-	title = "Facility Member"
-	supervisors = "literally everyone, you bottom feeder"
-	outfit_type = /decl/hierarchy/outfit/job/labyrinth/basic
-	department_types = list(/decl/department/civilian)
-	hud_icon = "hudcargotechnician"
+	title = "Crewmember"
+
+	skill_points = 16
+
+	min_skill = list(
+		SKILL_LITERACY = SKILL_ADEPT,
+		SKILL_EVA = SKILL_ADEPT,
+		SKILL_HAULING = SKILL_ADEPT,
+	)
+
+	max_skill = list(
+		SKILL_HAULING = SKILL_MAX
+	)

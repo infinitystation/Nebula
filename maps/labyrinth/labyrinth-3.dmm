@@ -1447,8 +1447,8 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/civilian/library)
 "ET" = (
-/turf/simulated/open,
-/area/turbolift/labyrinth_tower)
+/turf/unsimulated/mask,
+/area/space)
 "Fb" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -1848,7 +1848,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/hallway/tower)
 "Oz" = (
-/turf/simulated/open,
+/turf/unsimulated/mask,
 /area/labyrinth/hallway/tower)
 "OF" = (
 /obj/structure/reagent_dispensers/fueltank,
