@@ -386,11 +386,9 @@
 //RESEARCH.
 
 /area/exodus/research
-	req_access = list(access_research)
-
-/area/exodus/research/rnd
 	name = "\improper Research and Development"
 	icon_state = "research"
+	req_access = list(access_research)
 
 //Labs
 

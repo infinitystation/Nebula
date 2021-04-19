@@ -30514,7 +30514,12 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/storage)
 "bhO" = (
-/obj/machinery/atmospherics/omni/mixer,
+/obj/machinery/atmospherics/omni/mixer{
+	tag_north = 1;
+	tag_south = 2;
+	tag_west = 1;
+	use_power = 0
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/maintenance/incinerator)
 "bhP" = (
