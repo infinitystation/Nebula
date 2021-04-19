@@ -72,6 +72,7 @@
 	#include "decals/floor_decals.dm"
 
 	#include "jobs/_departmens.dm"
+	#include "jobs/_goals.dm"
 	#include "jobs/_jobs.dm"
 	#include "jobs/civilian.dm"
 	#include "jobs/command.dm"

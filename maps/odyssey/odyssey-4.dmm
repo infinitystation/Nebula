@@ -518,6 +518,8 @@
 	},
 /obj/structure/emergency_dispenser/south,
 /obj/effect/floor_decal/techfloor,
+/obj/effect/landmark/paperwork_spawn_odyssey,
+/obj/effect/landmark/paperwork_finish_odyssey,
 /turf/simulated/floor/tiled/techfloor,
 /area/odyssey/command/bridge)
 "bu" = (
