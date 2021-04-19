@@ -47,60 +47,40 @@
 	#include "../away/unishi/unishi.dm"
 	#include "../away/yacht/yacht.dm"
 
-	#include "odyssey-1.dmm"
-	#include "odyssey-2.dmm"
-	#include "odyssey-3.dmm"
-	#include "odyssey-4.dmm"
-	#include "odyssey-extras.dmm"
-	#include "odyssey-supply.dmm"
+	#include "labyrinth_antagonists.dm"
+	#include "labyrinth_areas.dm"
+	#include "labyrinth_jobs.dm"
+	#include "labyrinth_map.dm"
+	#include "labyrinth_overmap.dm"
+	#include "labyrinth_overrides.dm"
+	#include "labyrinth_shuttles.dm"
+	#include "labyrinth_turbolift.dm"
+	#include "labyrinth_unit_testing.dm"
 
-	#include "odyssey_branches.dm"
-	#include "odyssey_overmap.dm"
-	#include "odyssey_jobs.dm"
-	#include "odyssey_evac.dm"
-	#include "odyssey_areas.dm"
-	#include "odyssey_presets.dm"
-	#include "odyssey_spawnpoints.dm"
-	#include "odyssey_shuttles.dm"
-	#include "odyssey_uniforms.dm"
-	#include "odyssey_outfits.dm"
-	#include "odyssey_misc.dm"
-	#include "odyssey_cameras.dm"
-	#include "odyssey_antag.dm"
-	#include "odyssey_unit_tests.dm"
-
-	#include "decals/floor_decals.dm"
-
-	#include "jobs/_departmens.dm"
 	#include "jobs/_goals.dm"
 	#include "jobs/_jobs.dm"
-	#include "jobs/civilian.dm"
 	#include "jobs/command.dm"
 	#include "jobs/engineering.dm"
 	#include "jobs/medical.dm"
 	#include "jobs/science.dm"
-	#include "jobs/security.dm"
 
-	#include "machines/smes.dm"
-	#include "machines/atmos_machinery.dm"
-	#include "machines/autoset_doors.dm"
-	#include "machines/celltimers.dm"
-	#include "machines/coffeemachine.dm"
-	#include "machines/morgue_machines.dm"
-	#include "machines/consoles.dm"
-	#include "machines/telecomms.dm"
-	#include "machines/shield_generator.dm"
+	#include "machinery/airlock.dm"
 
-	#include "structures/lockers.dm"
+	#include "outfits/_outfits.dm"
+	#include "outfits/command.dm"
+	#include "outfits/engineering.dm"
+	#include "outfits/medical.dm"
+	#include "outfits/science.dm"
 
-	#include "turfs/fuel_tank.dm"
+	#include "labyrinth-1.dmm"
+	#include "labyrinth-2.dmm"
+	#include "labyrinth-3.dmm"
+	#include "labyrinth-admin.dmm"
 
-	#include "odyssey_security_state.dm"
-
-	#define USING_MAP_DATUM /datum/map/odyssey
+	#define USING_MAP_DATUM /datum/map/labyrinth
 
 #elif !defined(MAP_OVERRIDE)
 
-	#warn A map has already been included, ignoring Odyssey
+	#warn A map has already been included, ignoring Labyrinth
 
 #endif
