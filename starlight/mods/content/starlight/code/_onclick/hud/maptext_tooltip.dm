@@ -27,11 +27,10 @@
 /client/New(TopicData)
 	. = ..()
 	maptext_tooltip = new /obj/screen/maptext_tooltip()
-	if(mob)
-		if(mob.get_preference_value(/datum/client_preference/maptext_tooltip) == GLOB.PREF_SHOW)
-			maptext_tooltip.set_state(TRUE)
-		else
-			maptext_tooltip.set_state(FALSE)
+	if(get_preference_value(/datum/client_preference/maptext_tooltip) == GLOB.PREF_SHOW)
+		maptext_tooltip.set_state(TRUE)
+	else
+		maptext_tooltip.set_state(FALSE)
 
 /client/MouseEntered(atom/A, location, control, params)
 	. = ..()
