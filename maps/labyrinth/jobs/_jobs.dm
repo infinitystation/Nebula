@@ -16,6 +16,7 @@
 
 /datum/job/assistant
 	title = "Crewmember"
+	hud_icon = "hudblank"
 
 	skill_points = 16
 
