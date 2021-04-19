@@ -3317,9 +3317,6 @@
 	},
 /obj/item/stack/material/steel/fifty,
 /obj/item/stack/material/glass/fifty,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
 /obj/machinery/light/small{
 	dir = 8
 	},
