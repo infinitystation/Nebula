@@ -1494,9 +1494,6 @@
 /turf/simulated/floor/reinforced,
 /area/labyrinth/science/testing)
 "iN" = (
-/obj/machinery/alarm{
-	dir = 8
-	},
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 4
 	},
@@ -4861,14 +4858,11 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 4
 	},
-/obj/machinery/button/windowtint{
-	dir = 8;
-	id_tag = "labyr_tintcellsmiddle";
-	pixel_x = 28;
-	pixel_y = 2
-	},
 /obj/effect/floor_decal/corner/red/border{
 	dir = 4
+	},
+/obj/machinery/alarm{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/security)
