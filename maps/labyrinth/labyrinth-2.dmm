@@ -547,8 +547,8 @@
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/lounge)
 "Cd" = (
-/turf/unsimulated/mask,
-/area/space)
+/turf/simulated/open,
+/area/turbolift/labyrinth/surface)
 "CU" = (
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
@@ -807,7 +807,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/hallway/upper)
 "Mt" = (
-/turf/unsimulated/mask,
+/turf/simulated/open,
 /area/labyrinth/hallway/upper)
 "NB" = (
 /obj/structure/railing/mapped{

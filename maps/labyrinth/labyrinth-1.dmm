@@ -3495,8 +3495,8 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
 "uQ" = (
-/turf/unsimulated/mask,
-/area/space)
+/turf/simulated/floor/plating,
+/area/turbolift/labyrinth/under)
 "uT" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -4406,8 +4406,8 @@
 /area/labyrinth/medical)
 "AV" = (
 /obj/turbolift_map_holder/labyrinth,
-/turf/unsimulated/mask,
-/area/space)
+/turf/simulated/floor/plating,
+/area/turbolift/labyrinth/under)
 "Bb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
@@ -4751,7 +4751,7 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
 "Du" = (
-/turf/unsimulated/mask,
+/turf/simulated/floor/plating,
 /area/labyrinth/hallway/lower)
 "Dv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
