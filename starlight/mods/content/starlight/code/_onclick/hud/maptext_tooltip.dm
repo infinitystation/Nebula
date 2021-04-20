@@ -6,12 +6,14 @@
 	screen_loc = "TOP, CENTER - 3"
 	plane = HUD_PLANE
 	layer = UNDER_HUD_LAYER
-	maptext_width = 256
-	maptext_x = -16
 	appearance_flags = PIXEL_SCALE
 
+	maptext_width = 256
+	maptext_x = -16
+
 	var/maptext_state = TRUE
-	var/maptext_style = "font-family: 'Small Fonts'; text-shadow: 1px 1px 2px black;"
+	var/maptext_style = "font-family: 'Bahnschrift', Constantia, sans-serif; font-weight: bold; text-shadow: 0px 0px 15px #535ab2;"
+	var/maptext_color = "#535ab2"
 
 /obj/screen/maptext_tooltip/proc/set_state(new_state)
 	if(new_state == maptext_state)
@@ -24,19 +26,26 @@
 	M.Translate(0, maptext_state ? -32 : 32)
 	animate(src, transform = M, time = 10, easing = ELASTIC_EASING | maptext_state ? EASE_IN : EASE_OUT)
 
-/client/New(TopicData)
+/datum/preferences/apply_post_login_preferences()
 	. = ..()
-	maptext_tooltip = new /obj/screen/maptext_tooltip()
-	if(get_preference_value(/datum/client_preference/maptext_tooltip) == GLOB.PREF_SHOW)
-		maptext_tooltip.set_state(TRUE)
+
+	if(!client.maptext_tooltip)
+		client.maptext_tooltip = new()
+
+	if(client.get_preference_value(/datum/client_preference/maptext_tooltip) == GLOB.PREF_SHOW)
+		client.maptext_tooltip.set_state(TRUE)
 	else
-		maptext_tooltip.set_state(FALSE)
+		client.maptext_tooltip.set_state(FALSE)
 
 /client/MouseEntered(atom/A, location, control, params)
 	. = ..()
-	if(maptext_tooltip?.maptext_state && GAME_STATE > RUNLEVEL_SETUP)
-		screen |= maptext_tooltip
-		maptext_tooltip.maptext = "<b><center><span style=\"color:[COLOR_WHITE];[maptext_tooltip.maptext_style]\">[uppertext(A.name)]</span></center></b>"
+	if((GAME_STATE > RUNLEVEL_SETUP))
+		if(maptext_tooltip?.maptext_state)
+			screen |= maptext_tooltip
+			if(A.mouse_opacity)
+				maptext_tooltip.maptext = "<b><center><span style=\"color:[maptext_tooltip.maptext_color];[maptext_tooltip.maptext_style]\">[uppertext(A.name)]</span></center></b>"
+			else
+				maptext_tooltip.maptext = ""
 
 /datum/client_preference/maptext_tooltip
 	description = "Show Maptext Tooltip"
