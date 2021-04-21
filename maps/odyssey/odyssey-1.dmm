@@ -10793,6 +10793,7 @@
 	dir = 5
 	},
 /obj/effect/catwalk_plated/white,
+/obj/effect/landmark/symbiote_start,
 /turf/simulated/floor/plating,
 /area/odyssey/science/xenoarch/storage)
 "WY" = (
