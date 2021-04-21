@@ -5285,7 +5285,10 @@
 /obj/structure/bed/chair/comfy/beige{
 	dir = 1
 	},
-/obj/machinery/newscaster/bump/east,
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/simulated/floor/carpet,
 /area/odyssey/hallway/third_deck/fore)
 "ls" = (
@@ -5884,12 +5887,11 @@
 /turf/simulated/floor/plating,
 /area/odyssey/hallway/third_deck/fore)
 "mB" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/recharger,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/carpet,
 /area/odyssey/hallway/third_deck/fore)
 "mC" = (
@@ -11696,6 +11698,11 @@
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/odyssey/security/armory)
+"Tf" = (
+/obj/structure/bed/chair/comfy/beige,
+/obj/machinery/newscaster/bump/east,
+/turf/simulated/floor/carpet,
+/area/odyssey/hallway/third_deck/fore)
 "Ty" = (
 /obj/structure/table/rack,
 /obj/structure/window/basic{
@@ -20042,7 +20049,7 @@ eq
 eE
 fJ
 cg
-ty
+Tf
 mB
 lr
 lP
