@@ -1,6 +1,6 @@
 /datum/job/odyssey/science/TD
 	title = "Technology Director"
-	department_types = list(/decl/department/command, /decl/department/exploration)
+	department_types = list(/decl/department/exploration, /decl/department/command)
 	head_position = TRUE
 	req_admin_notify = TRUE
 	supervisors = "the Captain and the First Officer"
