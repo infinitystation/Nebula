@@ -21,7 +21,10 @@
 	overmap_event_areas = 250
 	use_overmap = 1
 	num_exoplanets = 2
-	planet_size = list(129, 129)
+
+	lobby_screens = list(
+		'maps/exodus/lobby/exodus.png'
+	)
 
 	evac_controller_type = /datum/evacuation_controller/shuttle
 

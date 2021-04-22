@@ -45,3 +45,31 @@
 	LAZYINITLIST(roles)
 	roles |= list(/datum/job/chief_engineer, /datum/job/rd, /datum/job/roboticist, /datum/job/chemist, /datum/job/engineer)
 	..()
+
+/decl/special_role
+	initial_spawn_req = 1
+	initial_spawn_target = 1
+
+/decl/special_role/mercenary
+	initial_spawn_req = 1
+	initial_spawn_target = 2
+
+/decl/special_role/raider
+	initial_spawn_req = 1
+	initial_spawn_target = 2
+
+/decl/special_role/cultist
+	initial_spawn_req = 1
+	initial_spawn_target = 2
+
+/decl/special_role/renegade
+	initial_spawn_req = 1
+	initial_spawn_target = 2
+
+/decl/special_role/loyalist
+	initial_spawn_req = 1
+	initial_spawn_target = 2
+
+/decl/special_role/revolutionary
+	initial_spawn_req = 1
+	initial_spawn_target = 2

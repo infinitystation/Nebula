@@ -19,6 +19,14 @@
 	#include "../../mods/species/lizard/_lizard.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
 
+// STARLIGHT MODS START
+	#include "../../starlight/mods/content/starlight/_starlight.dme"
+//	#include "../../starlight/mods/content/interpack/_interpack.dme"
+
+	#include "../../starlight/mods/species/booster/_booster.dme"
+	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+// STARLIGHT MODS END
+
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 
 	#include "../../mods/content/government/away_sites/icarus/icarus.dm"
@@ -62,7 +70,6 @@
 	#include "exodus_elevator.dm"
 	#include "exodus_jobs.dm"
 	#include "exodus_loadout.dm"
-	#include "exodus_lobby.dm"
 	#include "exodus_overmap.dm"
 	#include "exodus_setup.dm"
 	#include "exodus_shuttles.dm"
