@@ -1494,9 +1494,6 @@
 /turf/simulated/floor/reinforced,
 /area/labyrinth/science/testing)
 "iN" = (
-/obj/machinery/alarm{
-	dir = 8
-	},
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 4
 	},
@@ -3495,8 +3492,8 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
 "uQ" = (
-/turf/unsimulated/mask,
-/area/space)
+/turf/simulated/floor/plating,
+/area/turbolift/labyrinth/under)
 "uT" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -4406,8 +4403,8 @@
 /area/labyrinth/medical)
 "AV" = (
 /obj/turbolift_map_holder/labyrinth,
-/turf/unsimulated/mask,
-/area/space)
+/turf/simulated/floor/plating,
+/area/turbolift/labyrinth/under)
 "Bb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
@@ -4751,7 +4748,7 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
 "Du" = (
-/turf/unsimulated/mask,
+/turf/simulated/floor/plating,
 /area/labyrinth/hallway/lower)
 "Dv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4861,14 +4858,11 @@
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 4
 	},
-/obj/machinery/button/windowtint{
-	dir = 8;
-	id_tag = "labyr_tintcellsmiddle";
-	pixel_x = 28;
-	pixel_y = 2
-	},
 /obj/effect/floor_decal/corner/red/border{
 	dir = 4
+	},
+/obj/machinery/alarm{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/security)

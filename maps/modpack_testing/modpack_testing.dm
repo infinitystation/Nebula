@@ -32,6 +32,7 @@
 
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
 // STARLIGHT MODS END
 
 	#define USING_MAP_DATUM /datum/map/modpack_testing

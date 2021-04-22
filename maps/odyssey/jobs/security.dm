@@ -1,6 +1,6 @@
 /datum/job/odyssey/security/SSC
 	title = "Ship Security Commander"
-	department_types = list(/decl/department/command, /decl/department/security)
+	department_types = list(/decl/department/security, /decl/department/command)
 	head_position = TRUE
 	req_admin_notify = TRUE
 	supervisors = "the Captain and the First Officer"

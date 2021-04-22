@@ -1,6 +1,6 @@
 /datum/job/odyssey/civilian/bosun
 	title = "Bosun"
-	department_types = list(/decl/department/command, /decl/department/supply)
+	department_types = list(/decl/department/supply, /decl/department/command)
 	head_position = TRUE
 	req_admin_notify = TRUE
 	alt_titles = list("Quartermaster")

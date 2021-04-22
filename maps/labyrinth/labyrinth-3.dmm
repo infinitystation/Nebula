@@ -1395,9 +1395,6 @@
 /obj/item/geiger,
 /turf/simulated/floor/plating,
 /area/labyrinth/exploration_shuttle)
-"DA" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/exoplanet/volcanic)
 "DC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -1447,8 +1444,8 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/civilian/library)
 "ET" = (
-/turf/unsimulated/mask,
-/area/space)
+/turf/simulated/open,
+/area/turbolift/labyrinth/tower)
 "Fb" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -1848,7 +1845,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/hallway/tower)
 "Oz" = (
-/turf/unsimulated/mask,
+/turf/simulated/open,
 /area/labyrinth/hallway/tower)
 "OF" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -8630,7 +8627,7 @@ TC
 Wm
 Wm
 Wm
-DA
+Wm
 Jm
 jb
 jb
@@ -9410,7 +9407,7 @@ TC
 Wm
 Wm
 Wm
-DA
+Wm
 Jm
 jb
 jb

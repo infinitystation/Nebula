@@ -27,6 +27,7 @@
 
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
 // STARLIGHT MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
@@ -54,19 +55,21 @@
 	#include "odyssey-extras.dmm"
 	#include "odyssey-supply.dmm"
 
-	#include "odyssey_branches.dm"
-	#include "odyssey_overmap.dm"
-	#include "odyssey_jobs.dm"
-	#include "odyssey_evac.dm"
+	#include "odyssey_antagonists.dm"
 	#include "odyssey_areas.dm"
-	#include "odyssey_presets.dm"
-	#include "odyssey_spawnpoints.dm"
-	#include "odyssey_shuttles.dm"
-	#include "odyssey_uniforms.dm"
-	#include "odyssey_outfits.dm"
-	#include "odyssey_misc.dm"
+	#include "odyssey_branches.dm"
 	#include "odyssey_cameras.dm"
-	#include "odyssey_antag.dm"
+	#include "odyssey_evac.dm"
+	#include "odyssey_jobs.dm"
+	#include "odyssey_misc.dm"
+	#include "odyssey_outfits.dm"
+	#include "odyssey_overmap.dm"
+	#include "odyssey_papers.dm"
+	#include "odyssey_presets.dm"
+	#include "odyssey_security_state.dm"
+	#include "odyssey_shuttles.dm"
+	#include "odyssey_spawnpoints.dm"
+	#include "odyssey_uniforms.dm"
 	#include "odyssey_unit_tests.dm"
 
 	#include "decals/floor_decals.dm"
@@ -94,8 +97,6 @@
 	#include "structures/lockers.dm"
 
 	#include "turfs/fuel_tank.dm"
-
-	#include "odyssey_security_state.dm"
 
 	#define USING_MAP_DATUM /datum/map/odyssey
 

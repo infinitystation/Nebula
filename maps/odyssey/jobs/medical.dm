@@ -1,6 +1,6 @@
 /datum/job/odyssey/medical/CMO
 	title = "Chief Medical Officer"
-	department_types = list(/decl/department/command, /decl/department/medical)
+	department_types = list(/decl/department/medical, /decl/department/command)
 	access = list()
 	head_position = TRUE
 	req_admin_notify = TRUE

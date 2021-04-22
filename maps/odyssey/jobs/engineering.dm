@@ -1,6 +1,6 @@
 /datum/job/odyssey/engineering/CE
 	title = "Chief Engineer"
-	department_types = list(/decl/department/command, /decl/department/engineering)
+	department_types = list(/decl/department/engineering, /decl/department/command)
 	access = list()
 	head_position = TRUE
 	req_admin_notify = TRUE

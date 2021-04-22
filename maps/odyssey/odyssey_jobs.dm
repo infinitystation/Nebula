@@ -2,7 +2,6 @@
 	default_assistant_title = "Crewmember"
 	allowed_jobs = list(
 		/datum/job/assistant,
-		/datum/job/odyssey/civilian/stowaway,
 		/datum/job/odyssey/command/captain,
 		/datum/job/odyssey/command/first_officer,
 		/datum/job/odyssey/security/SSC,
@@ -24,7 +23,9 @@
 		/datum/job/odyssey/civilian/chef,
 		/datum/job/odyssey/civilian/bartender,
 		/datum/job/odyssey/civilian/botanist,
-		/datum/job/odyssey/civilian/janitor
+		/datum/job/odyssey/civilian/janitor,
+		/datum/job/odyssey/civilian/stowaway,
+		/datum/job/symbiote
 		)
 
 #define HEAD_JOBS        /datum/job/odyssey/security/SSC, /datum/job/odyssey/engineering/CE, /datum/job/odyssey/medical/CMO, /datum/job/odyssey/science/TD
@@ -44,6 +45,10 @@
 		),
 		/decl/species/lizard = list(
 			HEAD_JOBS,
+			COMMAND_JOBS,
+			SECURITY_JOBS
+		),
+		/decl/species/resomi = list(
 			COMMAND_JOBS,
 			SECURITY_JOBS
 		),
