@@ -27,7 +27,6 @@
 
 // STARLIGHT MODS START
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
-	#include "../../starlight/mods/content/interpack/_interpack.dme"
 	#include "../../starlight/mods/content/europa_tileset/_europa_tileset.dme"
 
 	#include "../../starlight/mods/species/booster/_booster.dme"

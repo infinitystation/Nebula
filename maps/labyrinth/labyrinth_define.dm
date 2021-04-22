@@ -37,13 +37,13 @@
 	emergency_shuttle_recall_message = "Attention all hands: emergency evacuation sequence aborted. Return to normal operating conditions."
 	evac_controller_type             = /datum/evacuation_controller/lifepods
 
-	radiation_detected_sound     = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
-	space_time_anomaly_sound     = 'starlight/mods/content/interpack/sound/announcements/subspace.ogg'
-	unidentified_lifesigns_sound = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
-	command_report_sound         = 'starlight/mods/content/interpack/sound/announcements/attention.ogg'
-	grid_check_sound             = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
-	grid_restored_sound          = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
-	meteor_detected_sound        = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
+	radiation_detected_sound     = 'starlight/mods/content/starlight/sound/announcements/threat.ogg'
+	space_time_anomaly_sound     = 'starlight/mods/content/starlight/sound/announcements/subspace.ogg'
+	unidentified_lifesigns_sound = 'starlight/mods/content/starlight/sound/announcements/threat.ogg'
+	command_report_sound         = 'starlight/mods/content/starlight/sound/announcements/attention.ogg'
+	grid_check_sound             = 'starlight/mods/content/starlight/sound/announcements/warning.ogg'
+	grid_restored_sound          = 'starlight/mods/content/starlight/sound/announcements/warning.ogg'
+	meteor_detected_sound        = 'starlight/mods/content/starlight/sound/announcements/threat.ogg'
 
 	lobby_screens = list(
 		'maps/labyrinth/media/labyrinth.png'

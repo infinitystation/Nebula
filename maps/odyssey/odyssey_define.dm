@@ -37,13 +37,13 @@
 		'maps/odyssey/icons/odyssey_lobby.gif'
 	)
 
-	radiation_detected_sound     = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
-	space_time_anomaly_sound     = 'starlight/mods/content/interpack/sound/announcements/subspace.ogg'
-	unidentified_lifesigns_sound = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
-	command_report_sound         = 'starlight/mods/content/interpack/sound/announcements/attention.ogg'
-	grid_check_sound             = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
-	grid_restored_sound          = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
-	meteor_detected_sound        = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
+	radiation_detected_sound     = 'starlight/mods/content/starlight/sound/announcements/threat.ogg'
+	space_time_anomaly_sound     = 'starlight/mods/content/starlight/sound/announcements/subspace.ogg'
+	unidentified_lifesigns_sound = 'starlight/mods/content/starlight/sound/announcements/threat.ogg'
+	command_report_sound         = 'starlight/mods/content/starlight/sound/announcements/attention.ogg'
+	grid_check_sound             = 'starlight/mods/content/starlight/sound/announcements/warning.ogg'
+	grid_restored_sound          = 'starlight/mods/content/starlight/sound/announcements/warning.ogg'
+	meteor_detected_sound        = 'starlight/mods/content/starlight/sound/announcements/threat.ogg'
 
 /datum/map/odyssey/get_map_info()
 	return "You're aboard the <b>[station_name],</b> an exploration vessel owned by the USN and operated by the Department of Exoplanetary Affairs. \

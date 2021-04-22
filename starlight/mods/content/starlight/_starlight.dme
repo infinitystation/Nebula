@@ -26,6 +26,7 @@
 #include "code\obj\tripping.dm"
 #include "code\obj\items\music_player.dm"
 #include "code\obj\items\music_tape.dm"
+#include "code\obj\items\storage.dm"
 #include "code\obj\machinery\crystal.dm"
 #include "code\obj\machinery\jukebox.dm"
 #include "code\obj\machinery\mantrap.dm"
