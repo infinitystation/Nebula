@@ -27,7 +27,7 @@
 	animate(src, transform = M, time = 10, easing = ELASTIC_EASING | maptext_state ? EASE_IN : EASE_OUT)
 
 /datum/preferences/apply_post_login_preferences()
-	. = ..()
+	..()
 
 	if(!client.maptext_tooltip)
 		client.maptext_tooltip = new()
@@ -38,7 +38,8 @@
 		client.maptext_tooltip.set_state(FALSE)
 
 /client/MouseEntered(atom/A, location, control, params)
-	. = ..()
+	..()
+
 	if((GAME_STATE > RUNLEVEL_SETUP))
 		if(maptext_tooltip?.maptext_state)
 			screen |= maptext_tooltip
