@@ -4008,6 +4008,7 @@
 /area/odyssey/maintenance/deckone/fore/starboard)
 "iU" = (
 /obj/machinery/conveyor{
+	dir = 1;
 	id_tag = "disposals"
 	},
 /turf/simulated/floor/plating,
