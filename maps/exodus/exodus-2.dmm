@@ -47641,10 +47641,18 @@
 /obj/machinery/alarm{
 	pixel_y = 22
 	},
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bNM" = (
 /obj/structure/closet/jcloset,
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bNN" = (
@@ -47662,6 +47670,10 @@
 /obj/machinery/camera/network/security{
 	c_tag = "Custodial Closet"
 	},
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bNP" = (
@@ -47719,9 +47731,14 @@
 /obj/machinery/door/window/westright{
 	name = "Janitoral Delivery"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bNX" = (
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bNY" = (
@@ -48513,6 +48530,10 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bPs" = (
@@ -48525,6 +48546,10 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bPt" = (
@@ -48591,6 +48616,10 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bPA" = (
@@ -48608,6 +48637,10 @@
 "bPB" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bPC" = (
@@ -49228,6 +49261,10 @@
 	},
 /obj/item/pen,
 /obj/structure/table/steel,
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bQQ" = (
@@ -49285,6 +49322,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bQW" = (
@@ -49293,10 +49334,18 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bQX" = (
 /obj/structure/reagent_dispensers/watertank,
+/obj/effect/floor_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/janitor)
 "bQY" = (
@@ -49406,7 +49455,6 @@
 /area/exodus/crew_quarters/heads/cmo)
 "bRf" = (
 /obj/machinery/firealarm{
-	dir = 1;
 	pixel_y = 24
 	},
 /obj/structure/table/reinforced,
@@ -50101,6 +50149,9 @@
 /obj/machinery/power/port_gen/pacman{
 	sheets = 25
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
 "bSq" = (
@@ -50553,6 +50604,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6;
+	icon_state = "warning"
 	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
@@ -51026,7 +51081,7 @@
 /area/exodus/research/mixing)
 "bUd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/exodus/engineering/storage)
 "bUe" = (
 /obj/structure/disposaloutlet,
@@ -51877,6 +51932,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
 "bVR" = (
@@ -52381,7 +52437,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 25
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "bWS" = (
 /obj/machinery/air_sensor{
@@ -52486,7 +52542,7 @@
 	name = "west bump";
 	pixel_x = -32
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "bXd" = (
 /obj/machinery/computer/modular/preset/engineering,
@@ -52623,7 +52679,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/exodus/engineering/storage)
 "bXs" = (
 /obj/machinery/atmospherics/unary/tank/oxygen{
@@ -53577,7 +53633,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "bYU" = (
 /obj/structure/cable/green{
@@ -54254,7 +54310,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "cam" = (
 /obj/structure/disposalpipe/segment{
@@ -56021,7 +56077,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "cdz" = (
 /obj/machinery/firealarm{
@@ -56106,7 +56162,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "cdG" = (
 /obj/structure/cable{
@@ -56227,7 +56283,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "cdR" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -56313,7 +56369,7 @@
 	c_tag = "Engineering Break Room";
 	dir = 8
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "cec" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -56342,7 +56398,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "cef" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
@@ -56403,7 +56459,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "cel" = (
 /obj/structure/bed/chair/office/dark{
@@ -56437,7 +56493,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/exodus/engineering/break_room)
 "cen" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -56594,7 +56650,8 @@
 /area/exodus/engineering/foyer)
 "ceB" = (
 /obj/structure/bed/chair/office/dark,
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "ceC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -56603,7 +56660,8 @@
 /area/exodus/medical/virology)
 "ceD" = (
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "ceE" = (
 /obj/structure/cable/green{
@@ -56614,17 +56672,20 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "ceF" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "ceG" = (
 /obj/machinery/hologram/holopad,
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "ceH" = (
 /obj/machinery/button/access/interior{
@@ -56652,7 +56713,8 @@
 /obj/structure/noticeboard{
 	pixel_x = 32
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "ceK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -56810,7 +56872,8 @@
 	dir = 1;
 	pixel_y = -22
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "cfc" = (
 /obj/structure/cable{
@@ -57181,7 +57244,8 @@
 	dir = 1;
 	pixel_y = -22
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "cfW" = (
 /obj/machinery/light,
@@ -57190,7 +57254,8 @@
 	pixel_y = -24
 	},
 /obj/structure/cable/green,
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "cfX" = (
 /obj/machinery/light,
@@ -57198,7 +57263,8 @@
 /obj/machinery/chemical_dispenser/bar_soft/full{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "cfY" = (
 /turf/simulated/wall/prepainted,
@@ -57217,7 +57283,8 @@
 /obj/machinery/vending/snack{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "cgb" = (
 /obj/machinery/door/airlock/medical{
@@ -57345,7 +57412,8 @@
 /obj/machinery/computer/modular/preset/engineering{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "cgn" = (
 /obj/machinery/oxygen_pump,
@@ -58662,6 +58730,9 @@
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/item/tank/emergency/oxygen/engi,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/locker_room)
 "ciN" = (
@@ -58670,11 +58741,17 @@
 	dir = 1
 	},
 /obj/item/tank/emergency/oxygen/engi,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/locker_room)
 "ciO" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/item/tank/emergency/oxygen/engi,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/locker_room)
 "ciP" = (
@@ -58682,6 +58759,9 @@
 /obj/item/tank/emergency/oxygen/engi,
 /obj/machinery/alarm{
 	pixel_y = 22
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/locker_room)
@@ -58694,6 +58774,9 @@
 /obj/structure/cable/green{
 	d2 = 2;
 	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/locker_room)
@@ -59044,7 +59127,7 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/exodus/engineering/storage)
 "cjC" = (
 /obj/structure/table/standard,
@@ -59446,6 +59529,9 @@
 	},
 /obj/machinery/camera/network/engineering{
 	c_tag = "Engineering Storage";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -60488,7 +60574,7 @@
 /area/exodus/medical/virology)
 "cmx" = (
 /mob/living/bot/floorbot/premade,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/exodus/engineering/storage)
 "cmy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
@@ -61735,6 +61821,10 @@
 /area/exodus/research/xenobiology)
 "cpe" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
 "cpf" = (
@@ -62738,9 +62828,11 @@
 /area/space)
 "crJ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/exodus/engineering/storage)
 "crK" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
 "crL" = (
@@ -62980,11 +63072,14 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
 "csy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/exodus/engineering/storage)
 "csz" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
@@ -63791,7 +63886,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/exodus/engineering/storage)
 "cuA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -63800,7 +63895,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/exodus/engineering/storage)
 "cuB" = (
 /obj/machinery/power/emitter,
@@ -64520,6 +64615,9 @@
 /area/exodus/engineering/storage)
 "cwx" = (
 /obj/machinery/shieldwallgen,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
 "cwy" = (
@@ -64729,6 +64827,10 @@
 	oxygentanks = 0
 	},
 /obj/machinery/light,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
 "cxF" = (
@@ -68030,6 +68132,13 @@
 /obj/machinery/material_processing/compressor,
 /turf/simulated/floor/plating,
 /area/exodus/quartermaster/miningdock)
+"cNa" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/plating,
+/area/exodus/engineering/storage)
 "cQw" = (
 /obj/machinery/computer/ship/engines{
 	dir = 4
@@ -68075,6 +68184,11 @@
 /obj/machinery/computer/shuttle_control/explore/mining,
 /turf/simulated/floor/tiled/steel_grid,
 /area/ship/exodus_pod_mining)
+"drB" = (
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/plating,
+/area/exodus/engineering/storage)
 "drR" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/storage/emergency)
@@ -68281,6 +68395,12 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_research)
+"fCE" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/exodus/engineering/storage)
 "fKm" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/titanium,
@@ -68610,6 +68730,13 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
+"jko" = (
+/obj/machinery/power/rad_collector,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/exodus/engineering/storage)
 "jsn" = (
 /obj/item/radio/intercom{
 	dir = 4;
@@ -68657,6 +68784,15 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/exodus_pod_research)
+"kvT" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/mob/living/simple_animal/hostile/retaliate/parrot/Poly,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/crew_quarters/heads/chief)
 "kSt" = (
 /obj/machinery/vending/coffee{
 	dir = 1
@@ -68849,6 +68985,13 @@
 /obj/effect/landmark/latejoin,
 /turf/simulated/floor/tiled/freezer,
 /area/shuttle/arrival/station)
+"nPR" = (
+/obj/machinery/shieldwallgen,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/exodus/engineering/storage)
 "nYi" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -68881,6 +69024,13 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/research/chargebay)
+"ohn" = (
+/obj/machinery/power/emitter,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/exodus/engineering/storage)
 "otj" = (
 /obj/structure/sign/warning/airlock,
 /turf/simulated/wall/prepainted,
@@ -69207,6 +69357,9 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/quartermaster/miningdock)
+"ssg" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/exodus/engineering/storage)
 "sxY" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/machinery/door/firedoor,
@@ -69217,6 +69370,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_research)
+"sBp" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/plating,
+/area/exodus/engineering/storage)
 "sCJ" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -69609,6 +69767,9 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
+"xrP" = (
+/turf/simulated/floor/wood/walnut,
+/area/exodus/engineering/break_room)
 "xFu" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 6
@@ -96814,7 +96975,7 @@ aVv
 cfT
 cae
 cbC
-ccF
+kvT
 bno
 aYr
 chq
@@ -99638,9 +99799,9 @@ bTC
 bSU
 bUX
 bXc
-bWJ
-bWJ
-bWJ
+xrP
+xrP
+xrP
 cdy
 ceB
 cgm
@@ -101193,12 +101354,12 @@ clr
 cmO
 cnR
 bYG
-bYG
+sBp
 bSp
 csx
 cku
 bTo
-crK
+ssg
 cjB
 cpe
 blp
@@ -101450,14 +101611,14 @@ cjS
 cmO
 cnR
 bXg
-bXg
-crK
-crK
+drB
+ssg
+ssg
 cmx
 cuA
-crK
-crK
-crK
+ssg
+ssg
+cNa
 blp
 cBz
 cBz
@@ -101964,14 +102125,14 @@ cll
 cib
 cgs
 cpn
-cpn
-crK
-crK
-crK
-cuB
-cuB
+jko
+fCE
+fCE
+fCE
+ohn
+ohn
 cwx
-cwx
+nPR
 blp
 czO
 czE
