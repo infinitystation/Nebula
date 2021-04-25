@@ -59,7 +59,9 @@
 	},
 /area/centcom)
 "aaz" = (
-/obj/machinery/teleport/station,
+/obj/machinery/teleport/station{
+	dir = 4
+	},
 /turf/unsimulated/floor{
 	icon_state = "steel"
 	},
@@ -79,8 +81,7 @@
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	dir = 8;
 	id_tag = "cargo_bay_centcom";
-	pixel_x = 25;
-	tag_door = "cargo_bay_centcom_hatch"
+	pixel_x = 25
 	},
 /turf/unsimulated/floor{
 	icon_state = "steel"

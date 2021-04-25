@@ -107,7 +107,7 @@ ESCAPE_POD(4)
 	docking_controller = "escape_dock"
 
 /datum/shuttle/autodock/ferry/supply/cargo
-	name = "Supply"
+	name = "Supply Shuttle"
 	warmup_time = 10
 	location = 1
 	dock_target = "supply_shuttle"
