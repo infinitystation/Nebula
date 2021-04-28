@@ -331,7 +331,7 @@ GLOBAL_LIST_EMPTY(music_players)
 		eject(user)
 		update_icon()
 		return TRUE
-	
+
 	. = ..()
 
 /obj/item/music_player/proc/eject(mob/user)
@@ -408,7 +408,7 @@ GLOBAL_LIST_EMPTY(music_players)
 		sound_token.Unpause()
 	else
 		QDEL_NULL(sound_token)
-		sound_token = GLOB.sound_player.PlayLoopingSound(src, sound_id, tape.track.GetTrack(), volume = volume, frequency = frequency, range = 7, falloff = 4, prefer_mute = TRUE, preference = src.preference)
+		sound_token = play_looping_sound(src, sound_id, tape.track.GetTrack(), volume = volume, frequency = frequency, range = 7, falloff = 4, prefer_mute = TRUE, preference = src.preference)
 
 	mode = PLAYER_STATE_PLAY
 	START_PROCESSING(SSobj, src)

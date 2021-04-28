@@ -11,7 +11,7 @@
 	if(!sound_id)
 		sound_id = "[sequential_id("[type]_z[z]")]"
 	if(lightbulb?.enviroment_sound && !lightbulb?.status && powered())
-		sound_token = GLOB.sound_player.PlayLoopingSound(src, sound_id, lightbulb.enviroment_sound, volume = lightbulb.enviroment_sound_volume, range = lightbulb.enviroment_sound_range, falloff = 3)
+		sound_token = play_looping_sound(src, sound_id, lightbulb.enviroment_sound, volume = lightbulb.enviroment_sound_volume, range = lightbulb.enviroment_sound_range, falloff = 3)
 	else
 		QDEL_NULL(sound_token)
 

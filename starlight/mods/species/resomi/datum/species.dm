@@ -25,7 +25,6 @@
 	blood_color       = "#d514f7"
 
 	darksight_range   = 7
-	darksight_tint    = DARKTINT_GOOD
 	flash_mod         = 2
 
 	total_health      = 150
