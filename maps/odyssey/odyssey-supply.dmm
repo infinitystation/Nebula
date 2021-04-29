@@ -69,8 +69,7 @@
 /area/supply_station)
 "aB" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4;
-	icon_state = "map_vent_out"
+	dir = 4
 	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
@@ -80,12 +79,10 @@
 "aC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10;
-	icon_state = "intact-supply"
+	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6;
-	icon_state = "intact-scrubbers"
+	dir = 6
 	},
 /obj/effect/catwalk_plated/dark,
 /turf/simulated/floor/plating,
@@ -121,8 +118,7 @@
 "aJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5;
-	icon_state = "intact-scrubbers"
+	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -169,19 +165,16 @@
 "aO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6;
-	icon_state = "intact-scrubbers"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6;
-	icon_state = "intact-supply"
+	dir = 6
 	},
 /turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9;
-	icon_state = "intact-scrubbers"
+	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -193,8 +186,7 @@
 /obj/structure/bed/padded,
 /obj/item/bedsheet/hos,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	icon_state = "intact-supply"
+	dir = 9
 	},
 /turf/simulated/floor/carpet/red,
 /area/supply_station)
@@ -246,8 +238,7 @@
 /area/supply_station)
 "aZ" = (
 /obj/effect/floor_decal/corner/orange{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
@@ -284,8 +275,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4;
-	icon_state = "map-supply"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
@@ -318,8 +308,7 @@
 /area/supply_station)
 "bk" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8;
-	icon_state = "map_scrubber_on"
+	dir = 8
 	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -349,12 +338,10 @@
 /area/supply_station)
 "bp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6;
-	icon_state = "intact-scrubbers"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6;
-	icon_state = "intact-supply"
+	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
@@ -367,8 +354,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
@@ -378,16 +364,14 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/supply_station)
 "bs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10;
-	icon_state = "intact-scrubbers"
+	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -396,8 +380,7 @@
 /area/supply_station)
 "bt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10;
-	icon_state = "intact-supply"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/supply_station)
@@ -442,8 +425,7 @@
 /area/supply_station)
 "by" = (
 /obj/effect/floor_decal/corner/orange{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -455,31 +437,27 @@
 /area/supply_station)
 "bF" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 6;
-	icon_state = "intact"
+	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "bG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "bH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/supply_station)
 "bI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
@@ -502,12 +480,10 @@
 "bL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1;
-	icon_state = "map-supply"
+	dir = 1
 	},
 /obj/effect/catwalk_plated/dark,
 /obj/structure/cable/yellow{
@@ -531,8 +507,7 @@
 /obj/effect/catwalk_plated/dark,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -558,8 +533,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1;
-	icon_state = "map-scrubbers"
+	dir = 1
 	},
 /obj/effect/catwalk_plated/dark,
 /obj/structure/cable/yellow{
@@ -575,8 +549,7 @@
 /area/supply_station)
 "cf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -595,12 +568,10 @@
 /area/supply_station)
 "ct" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1;
-	icon_state = "map-supply"
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1;
-	icon_state = "map-scrubbers"
+	dir = 1
 	},
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
@@ -613,27 +584,23 @@
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	icon_state = "intact-supply"
+	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9;
-	icon_state = "intact-scrubbers"
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "do" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/lavatory{
-	dir = 1;
-	icon_state = "lavatory"
+	dir = 1
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/supply_station)
 "dz" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1;
-	icon_state = "map_scrubber_on"
+	dir = 1
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/freezer,
@@ -649,8 +616,7 @@
 /area/supply_station)
 "dK" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	icon_state = "map_vent_out"
+	dir = 1
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/supply_station)
@@ -662,8 +628,7 @@
 /area/supply_station)
 "dR" = (
 /obj/effect/floor_decal/corner/orange{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -677,8 +642,7 @@
 /obj/structure/bed/padded,
 /obj/item/bedsheet/rd,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5;
-	icon_state = "intact-supply"
+	dir = 5
 	},
 /turf/simulated/floor/carpet/purple,
 /area/supply_station)
@@ -699,8 +663,7 @@
 /area/supply_station)
 "eC" = (
 /obj/effect/floor_decal/corner/b_green{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/hydroponics,
@@ -710,8 +673,7 @@
 /area/supply_station)
 "eI" = (
 /obj/machinery/atmospherics/binary/pump/on{
-	dir = 4;
-	icon_state = "map_on"
+	dir = 4
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/supply_station)
@@ -726,8 +688,7 @@
 /area/supply_station)
 "eO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1;
-	icon_state = "map_scrubber_on"
+	dir = 1
 	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
@@ -752,13 +713,10 @@
 "fK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
-	dir = 5;
-	icon_state = "intact"
+	dir = 5
 	},
 /obj/machinery/alarm{
 	dir = 1;
-	icon_state = "alarm0";
-	pixel_x = 0;
 	pixel_y = -24
 	},
 /obj/structure/cable/yellow{
@@ -820,8 +778,7 @@
 /area/supply_station)
 "gS" = (
 /obj/effect/floor_decal/corner/orange/three_quarters{
-	dir = 8;
-	icon_state = "corner_white_three_quarters"
+	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -861,8 +818,7 @@
 /area/supply_station)
 "ie" = (
 /obj/effect/floor_decal/corner/orange{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -993,8 +949,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10;
-	icon_state = "intact-supply"
+	dir = 10
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -1172,8 +1127,7 @@
 /area/supply_station)
 "pl" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	icon_state = "map_vent_out"
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
@@ -1288,8 +1242,7 @@
 "rS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 10;
-	icon_state = "intact"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
@@ -1326,12 +1279,10 @@
 "sp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5;
-	icon_state = "intact-supply"
+	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6;
-	icon_state = "intact-scrubbers"
+	dir = 6
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -1345,8 +1296,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -1359,8 +1309,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -1373,8 +1322,7 @@
 /area/supply_station)
 "sH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1388,8 +1336,7 @@
 "tc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1409,8 +1356,7 @@
 "tH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1425,12 +1371,10 @@
 /obj/effect/catwalk_plated/dark,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4;
-	icon_state = "map-supply"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4;
-	icon_state = "map-scrubbers"
+	dir = 4
 	},
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
@@ -1614,8 +1558,7 @@
 	},
 /obj/machinery/light,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1;
-	icon_state = "map_scrubber_on"
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
@@ -1667,8 +1610,7 @@
 "Ad" = (
 /obj/effect/catwalk_plated/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1693,8 +1635,7 @@
 /area/supply_station)
 "Bl" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8;
-	icon_state = "map-scrubbers"
+	dir = 8
 	},
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
@@ -1708,8 +1649,7 @@
 /area/supply_station)
 "Bo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -1719,12 +1659,10 @@
 "Bs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10;
-	icon_state = "intact-scrubbers"
+	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10;
-	icon_state = "intact-supply"
+	dir = 10
 	},
 /turf/simulated/floor/carpet/purple,
 /area/supply_station)
@@ -1741,8 +1679,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -1753,8 +1690,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9;
-	icon_state = "intact-scrubbers"
+	dir = 9
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -1776,8 +1712,7 @@
 /area/supply_station)
 "Dy" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	icon_state = "map_vent_out"
+	dir = 1
 	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
@@ -1823,8 +1758,7 @@
 /area/supply_station)
 "EK" = (
 /obj/effect/floor_decal/corner/orange{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -1920,12 +1854,10 @@
 "HN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6;
-	icon_state = "intact-supply"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
@@ -1935,8 +1867,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
@@ -1946,8 +1877,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
@@ -1960,8 +1890,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
@@ -1971,15 +1900,13 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/supply_station)
 "IB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1989,12 +1916,10 @@
 "Je" = (
 /obj/effect/catwalk_plated/dark,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4;
-	icon_state = "map-supply"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4;
-	icon_state = "map-scrubbers"
+	dir = 4
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -2077,23 +2002,20 @@
 /area/supply_station)
 "Lf" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4;
-	icon_state = "map_vent_out"
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
 "Ll" = (
 /obj/effect/decal/cleanable/champagne,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	icon_state = "intact-supply"
+	dir = 9
 	},
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
 "Ls" = (
 /obj/effect/floor_decal/corner/orange{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/hidden,
@@ -2123,12 +2045,10 @@
 "Mr" = (
 /obj/effect/catwalk_plated/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5;
-	icon_state = "intact-supply"
+	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5;
-	icon_state = "intact-scrubbers"
+	dir = 5
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
@@ -2150,8 +2070,7 @@
 /area/supply_station)
 "MZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/effect/catwalk_plated/dark,
@@ -2162,12 +2081,10 @@
 /area/supply_station)
 "Ng" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1;
-	icon_state = "map-supply"
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1;
-	icon_state = "map-scrubbers"
+	dir = 1
 	},
 /obj/effect/catwalk_plated/dark,
 /obj/structure/cable/yellow{
@@ -2181,8 +2098,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/effect/catwalk_plated/dark,
 /obj/structure/cable/yellow{
@@ -2215,12 +2131,10 @@
 /obj/effect/catwalk_plated/dark,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9;
-	icon_state = "intact-scrubbers"
+	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	icon_state = "intact-supply"
+	dir = 9
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -2280,8 +2194,7 @@
 /area/supply_station)
 "Pi" = (
 /obj/machinery/computer/modular/preset/supply_public{
-	dir = 1;
-	icon_state = "computer"
+	dir = 1
 	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
@@ -2342,8 +2255,6 @@
 	},
 /obj/machinery/alarm{
 	dir = 1;
-	icon_state = "alarm0";
-	pixel_x = 0;
 	pixel_y = -24
 	},
 /turf/simulated/floor/tiled/dark,
@@ -2445,8 +2356,7 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5;
-	icon_state = "intact-supply"
+	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
 /area/supply_station)
@@ -2456,22 +2366,19 @@
 	pixel_y = 8
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8;
-	icon_state = "map_vent_out"
+	dir = 8
 	},
 /obj/structure/table/marble,
 /turf/simulated/floor/tiled/white,
 /area/supply_station)
 "Vb" = (
 /obj/effect/floor_decal/corner/b_green/three_quarters{
-	dir = 8;
-	icon_state = "corner_white_three_quarters"
+	dir = 8
 	},
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/item/seeds/chantermycelium,
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4;
-	icon_state = "map_vent_out"
+	dir = 4
 	},
 /obj/machinery/light{
 	dir = 1
@@ -2480,20 +2387,17 @@
 /area/supply_station)
 "Vd" = (
 /obj/effect/floor_decal/corner/b_green{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	icon_state = "intact-supply"
+	dir = 9
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "Vf" = (
 /obj/effect/floor_decal/corner/b_green{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/hydroponics,
@@ -2505,7 +2409,6 @@
 "Vj" = (
 /obj/machinery/alarm{
 	dir = 8;
-	icon_state = "alarm0";
 	pixel_x = 24
 	},
 /obj/effect/floor_decal/corner/yellow{
@@ -2517,12 +2420,10 @@
 "Vr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1;
-	icon_state = "map-scrubbers"
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6;
-	icon_state = "intact-supply"
+	dir = 6
 	},
 /obj/effect/catwalk_plated/dark,
 /obj/structure/cable/yellow{
@@ -2539,8 +2440,7 @@
 /area/supply_station)
 "VU" = (
 /obj/effect/floor_decal/corner/b_green{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/hydroponics,
@@ -2549,8 +2449,7 @@
 /area/supply_station)
 "VX" = (
 /obj/effect/floor_decal/corner/b_green{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
@@ -2577,12 +2476,10 @@
 /area/supply_station)
 "WF" = (
 /obj/effect/floor_decal/corner/b_green/three_quarters{
-	dir = 1;
-	icon_state = "corner_white_three_quarters"
+	dir = 1
 	},
 /obj/machinery/vending/hydroseeds/generic{
-	dir = 8;
-	icon_state = "seeds_generic"
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
@@ -2600,8 +2497,7 @@
 "WU" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
+	dir = 4
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -2623,8 +2519,7 @@
 "XT" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5;
-	icon_state = "intact-scrubbers"
+	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
 /area/supply_station)
@@ -2633,8 +2528,7 @@
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8;
-	icon_state = "map_scrubber_on"
+	dir = 8
 	},
 /obj/structure/hygiene/sink/kitchen{
 	pixel_x = 32
@@ -2643,8 +2537,7 @@
 /area/supply_station)
 "Yg" = (
 /obj/effect/floor_decal/corner/b_green{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2658,8 +2551,7 @@
 /area/supply_station)
 "Yl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9;
-	icon_state = "intact-scrubbers"
+	dir = 9
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
@@ -2669,23 +2561,20 @@
 /area/supply_station)
 "YU" = (
 /obj/effect/floor_decal/corner/b_green{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "YW" = (
 /obj/effect/floor_decal/corner/b_green/three_quarters{
-	dir = 4;
-	icon_state = "corner_white_three_quarters"
+	dir = 4
 	},
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "Zr" = (
 /obj/effect/floor_decal/corner/b_green{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
@@ -2701,12 +2590,10 @@
 /area/supply_station)
 "ZI" = (
 /obj/effect/floor_decal/corner/b_green/three_quarters{
-	dir = 4;
-	icon_state = "corner_white_three_quarters"
+	dir = 4
 	},
 /obj/machinery/vending/hydronutrients/generic{
-	dir = 8;
-	icon_state = "nutri_generic"
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)

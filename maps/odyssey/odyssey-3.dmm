@@ -4096,6 +4096,9 @@
 /area/odyssey/habitation/cabins/four)
 "iY" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "iZ" = (
@@ -4323,10 +4326,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/odyssey/engineering/atmospherics)
 "jw" = (
-/obj/machinery/fabricator,
 /obj/effect/floor_decal/corner/mauve/three_quarters{
 	dir = 4
 	},
+/obj/machinery/fabricator/imprinter,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "jx" = (
@@ -5416,11 +5419,11 @@
 /turf/simulated/floor/tiled/white,
 /area/odyssey/medical/treatment)
 "lG" = (
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
 /obj/effect/landmark/start{
 	name = "Robotics Specialist"
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
@@ -9740,11 +9743,11 @@
 /turf/simulated/floor/tiled/white,
 /area/odyssey/medical/storage)
 "ut" = (
-/obj/machinery/fabricator/robotics,
 /obj/effect/floor_decal/corner/mauve{
 	dir = 10
 	},
 /obj/item/radio/intercom/bump/south,
+/obj/machinery/fabricator/industrial,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "uu" = (
@@ -9784,20 +9787,21 @@
 /obj/effect/floor_decal/corner/mauve{
 	dir = 9
 	},
+/obj/machinery/fabricator/robotics,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "uy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "uz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
@@ -10137,6 +10141,8 @@
 /obj/effect/floor_decal/corner/mauve{
 	dir = 10
 	},
+/obj/machinery/power/apc,
+/obj/structure/cable/green,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "vc" = (
@@ -10655,9 +10661,7 @@
 /obj/effect/floor_decal/corner/mauve{
 	dir = 10
 	},
-/obj/machinery/power/apc,
-/obj/structure/cable/green,
-/obj/machinery/fabricator/imprinter,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "wn" = (
@@ -10692,7 +10696,7 @@
 /obj/effect/floor_decal/corner/mauve/three_quarters{
 	dir = 4
 	},
-/obj/machinery/recharge_station,
+/obj/structure/mineral_bath,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "wq" = (
@@ -11738,7 +11742,7 @@
 /obj/effect/floor_decal/corner/mauve{
 	dir = 10
 	},
-/obj/structure/mineral_bath,
+/obj/machinery/recharge_station,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "Vp" = (

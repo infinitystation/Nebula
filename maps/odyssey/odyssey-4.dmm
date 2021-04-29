@@ -33,12 +33,14 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/odyssey/command/hallway)
 "ah" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner_techfloor_grid{
 	dir = 8
 	},
 /obj/effect/floor_decal/techfloor{
 	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/odyssey/command/bridge)
@@ -296,14 +298,14 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/odyssey/command/office/maa)
 "aU" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/odyssey/command/bridge)
@@ -509,9 +511,6 @@
 /turf/simulated/floor/plating,
 /area/odyssey/engineering/substation/four)
 "bt" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
 /obj/structure/table/steel_reinforced,
 /obj/machinery/camera/network/command{
 	dir = 1
@@ -2901,9 +2900,6 @@
 /turf/simulated/floor/wood/walnut,
 /area/odyssey/command/meetingroom)
 "fK" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
 /obj/structure/table/steel_reinforced,
 /obj/machinery/button/blast_door{
 	id_tag = "battledoors";
@@ -5232,6 +5228,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/techfloor/corner{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,

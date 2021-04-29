@@ -4106,6 +4106,7 @@
 	dir = 1
 	},
 /obj/item/radio/intercom/bump/south,
+/obj/item/scanner/price,
 /turf/simulated/floor/carpet,
 /area/odyssey/command/office/bosun)
 "jg" = (
@@ -4203,6 +4204,7 @@
 /obj/effect/floor_decal/corner/brown/three_quarters{
 	dir = 8
 	},
+/obj/item/scanner/price,
 /turf/simulated/floor/tiled,
 /area/odyssey/cargo/lockers)
 "jq" = (
@@ -4383,6 +4385,7 @@
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
 	},
+/obj/item/scanner/price,
 /turf/simulated/floor/tiled,
 /area/odyssey/cargo/lockers)
 "jG" = (
@@ -6473,7 +6476,7 @@
 /turf/simulated/floor/plating,
 /area/odyssey/cargo/general)
 "oq" = (
-/obj/machinery/fabricator/industrial,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/odyssey/cargo/general)
 "os" = (
@@ -20215,7 +20218,7 @@ cx
 gy
 op
 mg
-mg
+oq
 mg
 zg
 pi
@@ -20342,13 +20345,13 @@ eh
 Wq
 cA
 ou
-mg
+oq
 ox
 Lz
 nc
 cx
 cx
-cx
+ph
 ph
 rt
 ru
@@ -20479,8 +20482,8 @@ dg
 jh
 jh
 jh
-ph
-ph
+jh
+jh
 jh
 Iy
 Iy
