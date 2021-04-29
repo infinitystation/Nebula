@@ -1,10 +1,10 @@
-GLOBAL_LIST_INIT(standing_objects, list(/obj/item/stool, /obj/structure/hygiene/toilet, /obj/structure/table, /obj/structure/bed))
+var/global/list/standing_objects =  list(/obj/item/stool, /obj/structure/hygiene/toilet, /obj/structure/table, /obj/structure/bed)
 
 /proc/is_standing_on_object(x)
 	if(!x) return FALSE
 
 	for(var/obj/O in get_turf(x))
-		if(is_type_in_list(O, GLOB.standing_objects))
+		if(is_type_in_list(O, global.standing_objects))
 			return TRUE
 	return FALSE
 

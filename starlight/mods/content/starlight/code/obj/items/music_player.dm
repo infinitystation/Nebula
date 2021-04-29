@@ -1,4 +1,4 @@
-GLOBAL_LIST_EMPTY(music_players)
+var/global/list/music_players = list()
 
 #define PANEL_CLOSED 0
 #define PANEL_UNSCREWED 1
@@ -65,7 +65,7 @@ GLOBAL_LIST_EMPTY(music_players)
 		serial_number = sequential_id(/obj/item/music_player)
 		sound_id = "[/obj/item/music_player]_[serial_number]"
 		desc = desc + "<br> You see \"#[serial_number]\" on the cover."
-		GLOB.music_players += src
+		global.music_players += src
 		message_admins("MUSIC PLAYER: <a href='?_src_=holder;adminplayerobservefollow=\ref[src]'>#[serial_number]</a> has been created.")
 		update_icon()
 
@@ -74,7 +74,7 @@ GLOBAL_LIST_EMPTY(music_players)
 	QDEL_NULL(cell)
 	QDEL_NULL(tape)
 	message_admins("MUSIC PLAYER: #[serial_number] is deleted.")
-	GLOB.music_players -= src
+	global.music_players -= src
 	. = ..()
 
 /obj/item/music_player/examine(mob/user)

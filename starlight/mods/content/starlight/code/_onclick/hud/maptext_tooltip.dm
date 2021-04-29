@@ -35,7 +35,7 @@
 	if(!client.maptext_tooltip)
 		client.maptext_tooltip = new()
 
-	if(client.get_preference_value(/datum/client_preference/maptext_tooltip) == GLOB.PREF_SHOW)
+	if(client.get_preference_value(/datum/client_preference/maptext_tooltip) == global.PREF_SHOW)
 		client.maptext_tooltip.set_state(TRUE)
 	else
 		client.maptext_tooltip.set_state(FALSE)
@@ -54,7 +54,7 @@
 /datum/client_preference/maptext_tooltip
 	description = "Show Maptext Tooltip"
 	key = "SHOW_MAPTEXT_TOOLTIP"
-	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
+	options = list(PREF_SHOW, PREF_HIDE)
 
 /datum/client_preference/maptext_tooltip/changed(mob/preference_mob, new_value)
 	var/client/C = preference_mob.client
@@ -65,7 +65,7 @@
 	if(!C.maptext_tooltip)
 		C.maptext_tooltip = new()
 
-	if(new_value == GLOB.PREF_SHOW)
+	if(new_value == PREF_SHOW)
 		C.maptext_tooltip.set_state(TRUE)
 	else
 		C.maptext_tooltip.set_state(FALSE)

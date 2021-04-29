@@ -25,13 +25,13 @@
 	auto_recall_time =  null
 
 	if(emergency_evacuation)
-		evac_recalled.Announce(GLOB.using_map.emergency_shuttle_recall_message)
+		evac_recalled.Announce(global.using_map.emergency_shuttle_recall_message)
 		for(var/area/A in global.areas)
 			if(istype(A) && (A.area_flags & AREA_FLAG_HALLWAY))
 				A.readyreset()
 		emergency_evacuation = 0
 	else
-		priority_announcement.Announce(GLOB.using_map.shuttle_recall_message)
+		priority_announcement.Announce(global.using_map.shuttle_recall_message)
 
 	return 1
 
@@ -73,17 +73,17 @@
 			if(istype(A) && (A.area_flags & AREA_FLAG_HALLWAY))
 				A.readyalert()
 		if(!skip_announce)
-			GLOB.using_map.emergency_shuttle_called_announcement()
+			global.using_map.emergency_shuttle_called_announcement()
 	else
 		if(!skip_announce)
-			priority_announcement.Announce(replacetext(replacetext(GLOB.using_map.shuttle_called_message, "%dock_name%", "[GLOB.using_map.dock_name]"),  "%ETA%", "[round(get_eta()/60)] minute\s"))
+			priority_announcement.Announce(replacetext(replacetext(global.using_map.shuttle_called_message, "%dock_name%", "[global.using_map.dock_name]"),  "%ETA%", "[round(get_eta()/60)] minute\s"))
 
 	return 1
 
 /datum/evacuation_controller/starship/odyssey/launch_evacuation()
 	var/launch_delay = 0
 	for(var/obj/machinery/cryopod/lifepod/LP in SSmachines.machinery)
-		if(LP.z in GLOB.using_map.station_levels)
+		if(LP.z in global.using_map.station_levels)
 			addtimer(CALLBACK(LP, /obj/machinery/cryopod/lifepod/proc/launch), launch_delay SECONDS)
 		launch_delay += 0.2
 	..()
