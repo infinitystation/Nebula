@@ -32,7 +32,7 @@
 	listeners = list()
 	listener_status = list()
 
-	GLOB.destroyed_event.register(source, src, /datum/proc/qdel_self)
+	events_repository.register(/decl/observ/destroyed, source, src, /datum/proc/qdel_self)
 
 	player.subscribe(src)
 
@@ -49,7 +49,7 @@
 /datum/sound_token/instrument/PrivAddListener(var/atom/listener)
 	var/mob/m = listener
 	if(istype(m))
-		if(m.get_preference_value(/datum/client_preference/play_instruments) != GLOB.PREF_YES)
+		if(m.get_preference_value(/datum/client_preference/play_instruments) != PREF_YES)
 			return
 	return ..()
 
@@ -57,7 +57,7 @@
 /datum/sound_token/instrument/PrivUpdateListener(var/listener)
 	var/mob/m = listener
 	if(istype(m))
-		if(m.get_preference_value(/datum/client_preference/play_instruments) != GLOB.PREF_YES)
+		if(m.get_preference_value(/datum/client_preference/play_instruments) != PREF_YES)
 			PrivRemoveListener(listener)
 			return
 	return ..()
