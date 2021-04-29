@@ -499,7 +499,6 @@
 
 /area/exodus/security/brig
 	req_access = list(access_brig)
-	area_flags = AREA_FLAG_SECURITY
 
 /area/exodus/security/brig/processing
 	name = "\improper Security - Processing"
@@ -523,6 +522,7 @@
 	name = "\improper Security - Prison Wing"
 	icon_state = "sec_prison"
 	req_access = list(access_brig)
+	area_flags = AREA_FLAG_PRISON
 
 /area/exodus/security/prison/restroom
 	name = "\improper Security - Prison Wing Restroom"
