@@ -1,8 +1,8 @@
 /decl/department/command
 	goals = list(/datum/goal/department/paperwork/labyrinth)
 
-var/list/labyrinth_paperwork_spawn_turfs = list()
-var/list/labyrinth_paperwork_end_areas = list()
+var/global/list/labyrinth_paperwork_spawn_turfs = list()
+var/global/list/labyrinth_paperwork_end_areas = list()
 
 /obj/effect/landmark/paperwork_spawn_labyrinth
 	name = "Labyrinth Paperwork Goal Spawn Point"

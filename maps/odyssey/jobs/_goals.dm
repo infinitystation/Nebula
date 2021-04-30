@@ -1,8 +1,8 @@
 /decl/department/command
 	goals = list(/datum/goal/department/paperwork/odyssey)
 
-var/list/odyssey_paperwork_spawn_turfs = list()
-var/list/odyssey_paperwork_end_areas = list()
+var/global/list/odyssey_paperwork_spawn_turfs = list()
+var/global/list/odyssey_paperwork_end_areas = list()
 
 /obj/effect/landmark/paperwork_spawn_odyssey
 	name = "USN Odyssey Paperwork Goal Spawn Point"

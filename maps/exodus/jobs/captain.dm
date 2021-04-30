@@ -1,5 +1,3 @@
-var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
-
 /datum/job/captain
 	title = "Captain"
 	head_position = 1
@@ -15,9 +13,9 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	economic_power = 20
 	ideal_character_age = 70
 	outfit_type = /decl/hierarchy/outfit/job/captain
-	guestbanned = 1	
+	guestbanned = 1
 	must_fill = 1
-	not_random_selectable = 1	
+	not_random_selectable = 1
 	min_skill = list(
 		SKILL_LITERACY    = SKILL_ADEPT,
 		SKILL_SCIENCE     = SKILL_ADEPT,
@@ -58,13 +56,13 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	minimal_player_age = 14
 	economic_power = 10
 	ideal_character_age = 50
-	guestbanned = 1	
+	guestbanned = 1
 	not_random_selectable = 1
 	access = list(
 		access_security,
-		access_sec_doors, 
-		access_brig, 
-		access_forensics_lockers, 
+		access_sec_doors,
+		access_brig,
+		access_forensics_lockers,
 		access_heads,
 		access_medical,
 		access_engine,
@@ -98,10 +96,10 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 		access_gateway
 	)
 	minimal_access = list(
-		access_security, 
-		access_sec_doors, 
-		access_brig, 
-		access_forensics_lockers, 
+		access_security,
+		access_sec_doors,
+		access_brig,
+		access_forensics_lockers,
 		access_heads,
 		access_medical,
 		access_engine,
