@@ -4096,9 +4096,6 @@
 /area/odyssey/habitation/cabins/four)
 "iY" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "iZ" = (
@@ -4330,6 +4327,7 @@
 	dir = 4
 	},
 /obj/machinery/fabricator/imprinter,
+/obj/item/chems/glass/beaker,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "jx" = (
@@ -5423,7 +5421,7 @@
 	name = "Robotics Specialist"
 	},
 /obj/structure/cable/green{
-	icon_state = "4-8"
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
@@ -9794,14 +9792,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "uz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
-	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
@@ -10141,8 +10139,7 @@
 /obj/effect/floor_decal/corner/mauve{
 	dir = 10
 	},
-/obj/machinery/power/apc,
-/obj/structure/cable/green,
+/obj/machinery/fabricator,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "vc" = (
@@ -10662,6 +10659,8 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/power/apc,
+/obj/structure/cable/green,
 /turf/simulated/floor/tiled,
 /area/odyssey/science/robotics)
 "wn" = (

@@ -3109,6 +3109,7 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 5
 	},
+/obj/item/chems/glass/beaker,
 /turf/simulated/floor/tiled/white,
 /area/odyssey/science/materials_lab)
 "ha" = (
