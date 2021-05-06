@@ -1,25 +1,6 @@
 //Weapons
 
-/datum/gear/weapons
-	sort_category = "Weaponry"
-	category = /datum/gear/weapons
-
-/datum/gear/weapons/small
-	display_name = "small energy pistol"
-	path = /obj/item/gun/energy/gun/small
-	cost = 2
-
-/datum/gear/weapons/standard
-	display_name = "energy pistol"
-	path = /obj/item/gun/energy/gun
-	cost = 3
-
-/datum/gear/weapons/flash
-	display_name = "flash"
-	path = /obj/item/flash
-
 //Armor
-
 /datum/gear/tactical/armor
 	display_name = "armor suit selection"
 	path = /obj/item/clothing/suit
@@ -42,7 +23,6 @@
 	gear_tweaks += new /datum/gear_tweak/path(arms)
 
 //Helmet
-
 /datum/gear/tactical/helmet
 	display_name = "helmet selection"
 	path = /obj/item/clothing/head
@@ -57,7 +37,6 @@
 	gear_tweaks += new /datum/gear_tweak/path(helms)
 
 //Mask
-
 /datum/gear/tactical/mask
 	display_name = "gas mask selection"
 	path = /obj/item/clothing/mask
@@ -70,6 +49,3 @@
 	masks["half mask"] = /obj/item/clothing/mask/gas/half
 	masks["tactical mask"] = /obj/item/clothing/mask/gas/syndicate
 	gear_tweaks += new /datum/gear_tweak/path(masks)
-
-/datum/gear/tactical/holster
-	cost = 1
