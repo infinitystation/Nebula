@@ -762,6 +762,9 @@
 "bI" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/corner/yellow,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 24
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/maintenance/lower)
 "bJ" = (
@@ -2572,6 +2575,15 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/constellation/brig)
+"BP" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 9
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/maintenance/lower)
 "Cd" = (
 /obj/machinery/mech_recharger,
 /mob/living/exosuit/premade/powerloader/old{
@@ -3053,8 +3065,7 @@
 	},
 /obj/structure/table/standard,
 /obj/machinery/recharger,
-/obj/machinery/recharger/wallcharger{
-	dir = 4;
+/obj/structure/extinguisher_cabinet{
 	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -3174,6 +3185,10 @@
 /area/constellation/cargo/lower)
 "Tb" = (
 /obj/machinery/botany/extractor,
+/obj/structure/extinguisher_cabinet{
+	dir = 8;
+	pixel_y = -24
+	},
 /turf/simulated/floor/tiled/white,
 /area/constellation/science)
 "Tp" = (
@@ -3390,6 +3405,10 @@
 /obj/item/stock_parts/circuitboard/airlock_electronics,
 /obj/structure/table/rack,
 /obj/effect/floor_decal/corner/yellow/full,
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/techstorage)
 "Zd" = (
@@ -6995,7 +7014,7 @@ aA
 aA
 bi
 rN
-VX
+BP
 cS
 VX
 VX

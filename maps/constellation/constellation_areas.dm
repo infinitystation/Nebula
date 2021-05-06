@@ -32,10 +32,10 @@ please do not remove my messages. they just look fancy to sort these areas. i rl
 	name = "Crew Compartments"
 	icon_state = "crew_quarters"
 
-/area/constellation/crew/hallway/port
+/area/constellation/crew/hallway_port
 	name = "Crew Hallway - Port"
 
-/area/constellation/crew/hallway/starboard
+/area/constellation/crew/hallway_starboard
 	name = "Crew Hallway - Starboard"
 
 /area/constellation/crew/kitchen

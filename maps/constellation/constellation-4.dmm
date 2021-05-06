@@ -245,8 +245,24 @@
 /obj/machinery/network/router{
 	initial_network_id = "tradenet"
 	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -24
+	},
 /turf/simulated/floor/bluegrid,
 /area/constellation/comms)
+"eQ" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 8;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/engineering/solars)
 "fi" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/cable{
@@ -570,6 +586,9 @@
 /obj/structure/table/standard,
 /obj/item/paper_bin,
 /obj/item/pen,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 24
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/constellation/command/bridge_upper)
 "wf" = (
@@ -4534,7 +4553,7 @@ GP
 GP
 GP
 GP
-xF
+eQ
 aV
 ax
 ax
