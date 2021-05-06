@@ -52,8 +52,7 @@
 "af" = (
 /obj/structure/disposalpipe/up,
 /obj/effect/floor_decal/corner/beige{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
@@ -99,8 +98,7 @@
 /area/constellation/undercomms)
 "aq" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -117,16 +115,14 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
 "as" = (
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -24
@@ -193,8 +189,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/constellation/bar)
@@ -209,8 +204,7 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/constellation/bar)
@@ -335,8 +329,7 @@
 "aR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner/beige{
-	dir = 1;
-	icon_state = "corner_white"
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
@@ -354,15 +347,13 @@
 /area/constellation/maintenance/fore_port_underside_maint)
 "aT" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 8;
-	icon_state = "corner_white"
+	dir = 8
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -563,9 +554,7 @@
 /turf/simulated/floor/reinforced,
 /area/constellation/maintenance/fore_port_underside_maint)
 "bD" = (
-/obj/machinery/power/apc{
-	dir = 2
-	},
+/obj/machinery/power/apc,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -580,15 +569,13 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
 "bG" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/machinery/vending/cola{
 	dir = 4
@@ -633,8 +620,7 @@
 	icon_state = "2-4"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
@@ -643,8 +629,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
@@ -656,8 +641,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -722,8 +706,7 @@
 	icon_state = "2-8"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 8;
-	icon_state = "corner_white"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
@@ -735,8 +718,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
@@ -772,9 +754,7 @@
 /turf/simulated/floor,
 /area/constellation/maintenance/aft_port_underside_maint)
 "bZ" = (
-/obj/machinery/power/apc{
-	dir = 2
-	},
+/obj/machinery/power/apc,
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
@@ -916,8 +896,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techmaint,
@@ -964,8 +943,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 8;
-	icon_state = "corner_white"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
@@ -980,8 +958,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/constellation/bar)
@@ -1078,8 +1055,7 @@
 "lB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
@@ -1119,8 +1095,7 @@
 /area/constellation/maintenance/fore_port_underside_maint)
 "nU" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/constellation/bar)
@@ -1141,8 +1116,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1173,8 +1147,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/dark,
@@ -1210,12 +1183,10 @@
 /area/constellation/undercomms)
 "rp" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 1;
-	icon_state = "corner_white"
+	dir = 1
 	},
 /obj/machinery/status_display{
 	pixel_y = 32
@@ -1241,8 +1212,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1306,8 +1276,7 @@
 	icon_state = "2-4"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -1319,8 +1288,7 @@
 /area/constellation/loading_bay)
 "ug" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
@@ -1421,9 +1389,7 @@
 /turf/simulated/floor/tiled/white,
 /area/constellation/livestock)
 "xZ" = (
-/obj/machinery/power/apc{
-	dir = 2
-	},
+/obj/machinery/power/apc,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -1454,8 +1420,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -1505,8 +1470,7 @@
 /area/constellation/loading_bay)
 "zi" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/structure/sign/double/barsign{
 	pixel_y = 32
@@ -1521,8 +1485,7 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/constellation/bar)
@@ -1590,8 +1553,7 @@
 "Dz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -1622,8 +1584,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1643,8 +1604,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 1;
-	icon_state = "corner_white"
+	dir = 1
 	},
 /obj/structure/railing/mapped{
 	dir = 4
@@ -1654,8 +1614,7 @@
 "Fl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -1724,9 +1683,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc{
-	dir = 2
-	},
+/obj/machinery/power/apc,
 /turf/simulated/floor/bluegrid,
 /area/constellation/undercomms)
 "HS" = (
@@ -1752,8 +1709,7 @@
 /area/constellation/maintenance/fore_port_underside_maint)
 "Iu" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -1764,9 +1720,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/constellation/bar)
 "IG" = (
-/obj/machinery/power/apc{
-	dir = 2
-	},
+/obj/machinery/power/apc,
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
@@ -1798,8 +1752,7 @@
 /area/constellation/loading_bay)
 "Jy" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 5;
-	icon_state = "corner_white"
+	dir = 5
 	},
 /obj/structure/extinguisher_cabinet{
 	dir = 4;
@@ -1845,8 +1798,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1921,8 +1873,7 @@
 /area/constellation/livestock)
 "LO" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/light{
 	dir = 4
@@ -1948,8 +1899,7 @@
 /area/constellation/livestock)
 "MK" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -2010,8 +1960,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2118,8 +2067,7 @@
 "TJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
+	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2163,8 +2111,7 @@
 /area/constellation/bar)
 "UI" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 10;
-	icon_state = "corner_white"
+	dir = 10
 	},
 /obj/machinery/vending/coffee{
 	dir = 4
@@ -2259,8 +2206,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/beige{
-	dir = 6;
-	icon_state = "corner_white"
+	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2276,9 +2222,7 @@
 /turf/simulated/floor,
 /area/constellation/maintenance/aft_starboard_underside_maint)
 "Zz" = (
-/obj/machinery/power/apc{
-	dir = 2
-	},
+/obj/machinery/power/apc,
 /obj/structure/cable{
 	icon_state = "0-4"
 	},

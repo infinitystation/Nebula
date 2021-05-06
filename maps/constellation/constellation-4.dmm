@@ -173,8 +173,7 @@
 /area/space)
 "aL" = (
 /obj/machinery/power/terminal{
-	dir = 8;
-	icon_state = "term"
+	dir = 8
 	},
 /obj/structure/cable/yellow{
 	icon_state = "0-4"

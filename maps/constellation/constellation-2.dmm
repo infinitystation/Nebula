@@ -581,6 +581,9 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 9
 	},
+/obj/machinery/light_switch{
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/maintenance/lower)
 "bj" = (
@@ -904,6 +907,9 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/machinery/light_switch{
+	pixel_y = 24
+	},
 /turf/simulated/floor/lino,
 /area/constellation/crew/dorms2)
 "cr" = (
@@ -1010,9 +1016,6 @@
 /obj/random/hat,
 /obj/machinery/alarm{
 	dir = 4
-	},
-/obj/machinery/light_switch{
-	pixel_y = -24
 	},
 /turf/simulated/floor/lino,
 /area/constellation/crew/dorms2)
@@ -2594,9 +2597,6 @@
 /area/constellation/maintenance/lower)
 "Cr" = (
 /obj/effect/floor_decal/corner/beige{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/beige{
 	dir = 10
 	},
 /obj/item/stack/material/osmium/ten{
@@ -2832,14 +2832,6 @@
 /obj/random/material,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/cargo/lower)
-"JI" = (
-/obj/machinery/mech_recharger,
-/mob/living/exosuit/premade/powerloader{
-	hatch_closed = 1
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/techfloor,
-/area/constellation/maintenance/lower)
 "JM" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/hatch/autoname/science,
@@ -2996,6 +2988,9 @@
 "On" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 4
+	},
+/obj/machinery/light_switch{
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/maintenance/lower)
@@ -6696,7 +6691,7 @@ al
 IT
 al
 dU
-JI
+yP
 eb
 en
 eA
