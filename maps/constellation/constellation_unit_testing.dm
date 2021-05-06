@@ -14,9 +14,5 @@
 		/area/constellation/engineering/atmos = NO_SCRUBBER
 	)
 
-	area_coherency_test_subarea_count = list(
-		/area/constellation/crew/hallway/port = 2
-	)
-
 /obj/effect/landmark/map_data/constellation
 	height = 4
