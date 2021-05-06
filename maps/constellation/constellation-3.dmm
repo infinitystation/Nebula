@@ -1287,11 +1287,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
+	},
+/obj/structure/disposalpipe/segment/bent{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/crew/hallway/port)
@@ -1322,9 +1322,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 2
-	},
+/obj/structure/disposalpipe/segment/bent,
 /turf/simulated/floor/lino,
 /area/constellation/crew/saloon)
 "dB" = (
@@ -1799,9 +1797,6 @@
 /turf/simulated/floor/tiled/white,
 /area/constellation/crew/kitchen)
 "eR" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
@@ -1812,6 +1807,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/disposalpipe/segment/bent{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/constellation/crew/kitchen)
 "eS" = (
@@ -2477,9 +2475,6 @@
 /turf/simulated/floor/plating,
 /area/constellation/hidden)
 "hr" = (
-/obj/structure/disposalpipe/segment{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
@@ -2491,6 +2486,9 @@
 	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 4
+	},
+/obj/structure/disposalpipe/segment/bent{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/maintenance/hallway)
@@ -6171,9 +6169,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/exploration_shuttle)
 "Nc" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/machinery/power/apc{
 	dir = 1
 	},
@@ -6184,6 +6179,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment/bent{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/freezer,

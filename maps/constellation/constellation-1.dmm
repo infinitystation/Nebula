@@ -1529,9 +1529,6 @@
 /turf/simulated/floor/plating,
 /area/constellation/loading_bay)
 "AG" = (
-/obj/structure/disposalpipe/segment{
-	dir = 1
-	},
 /obj/machinery/alarm{
 	dir = 4
 	},
@@ -1539,6 +1536,9 @@
 /obj/structure/hygiene/sink{
 	dir = 8;
 	pixel_x = -13
+	},
+/obj/structure/disposalpipe/segment/bent{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/constellation/livestock)
@@ -1922,9 +1922,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/undercomms)
 "Ms" = (
-/obj/structure/disposalpipe/segment{
-	dir = 2
-	},
+/obj/structure/disposalpipe/segment/bent,
 /turf/simulated/floor/tiled/white,
 /area/constellation/livestock)
 "MK" = (
@@ -2143,15 +2141,15 @@
 /turf/simulated/floor/carpet/red,
 /area/constellation/bar)
 "UI" = (
-/obj/structure/disposalpipe/segment{
-	dir = 1
-	},
 /obj/effect/floor_decal/corner/beige{
 	dir = 10;
 	icon_state = "corner_white"
 	},
 /obj/machinery/vending/coffee{
 	dir = 4
+	},
+/obj/structure/disposalpipe/segment/bent{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)

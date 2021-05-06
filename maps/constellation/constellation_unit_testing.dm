@@ -7,8 +7,6 @@
 		/area/turbolift = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/space = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/exoplanet = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/constellation/crew/hallway/port = NO_SCRUBBER|NO_VENT,
-		/area/constellation/crew/hallway/starboard = NO_SCRUBBER|NO_VENT,
 		/area/constellation/maintenance/hallway = NO_SCRUBBER|NO_VENT,
 		/area/constellation/maintenance/lower = NO_SCRUBBER|NO_VENT,
 		/area/constellation/escape_port = NO_SCRUBBER|NO_VENT,
