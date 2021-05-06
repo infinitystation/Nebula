@@ -30,16 +30,12 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /turf/simulated/open,
 /area/constellation/engineering/solars)
 "ai" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/structure/catwalk,
@@ -50,13 +46,9 @@
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
@@ -70,14 +62,16 @@
 	dir = 5
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/constellation/engineering/solars)
 "ao" = (
 /obj/item/stool/padded,
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/solars)
 "ap" = (
@@ -86,8 +80,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	pixel_y = 0
+	dir = 9
 	},
 /obj/structure/catwalk,
 /turf/simulated/open,
@@ -100,19 +93,15 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-8"
 	},
-/obj/machinery/light/small,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/constellation/engineering/solars)
 "at" = (
@@ -141,13 +130,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/power/apc,
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
@@ -156,8 +143,6 @@
 /area/space)
 "aB" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "0-2"
 	},
 /obj/structure/railing/mapped{
@@ -169,12 +154,13 @@
 "aG" = (
 /obj/structure/closet/crate/solar,
 /obj/item/stack/material/glass/fifty,
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/solars)
 "aH" = (
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/warning,
@@ -191,21 +177,18 @@
 	icon_state = "term"
 	},
 /obj/structure/cable/yellow{
-	d2 = 4;
 	icon_state = "0-4"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/light_switch{
-	pixel_y = 24
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
 "aR" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -219,7 +202,6 @@
 /area/constellation/engineering/solars)
 "bd" = (
 /obj/structure/cable/yellow{
-	d2 = 8;
 	icon_state = "0-8"
 	},
 /obj/machinery/power/solar,
@@ -230,9 +212,6 @@
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
 /obj/structure/cable{
-	d1 = 32;
-	d2 = 2;
-	dir = 2;
 	icon_state = "32-2"
 	},
 /obj/structure/lattice,
@@ -246,6 +225,9 @@
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 1
 	},
+/obj/machinery/status_display{
+	pixel_x = -32
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/constellation/command/bridge_upper)
 "cO" = (
@@ -254,8 +236,6 @@
 /area/constellation/command/bridge_unused)
 "dq" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/catwalk,
@@ -265,13 +245,27 @@
 /obj/machinery/network/router{
 	initial_network_id = "tradenet"
 	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -24
+	},
 /turf/simulated/floor/bluegrid,
 /area/constellation/comms)
+"eQ" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 8;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/engineering/solars)
 "fi" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -282,7 +276,6 @@
 "fE" = (
 /obj/machinery/power/tracker,
 /obj/structure/cable/yellow{
-	d2 = 2;
 	icon_state = "0-2"
 	},
 /obj/effect/floor_decal/solarpanel,
@@ -291,8 +284,6 @@
 "gw" = (
 /obj/item/caution/cone,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -307,8 +298,6 @@
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -329,8 +318,6 @@
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
@@ -338,18 +325,13 @@
 /area/space)
 "hJ" = (
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1;
-	icon_state = "map-scrubbers"
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -360,12 +342,21 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plating,
 /area/constellation/command/bridge_unused)
+"iv" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/constellation/engineering/solars)
 "jy" = (
 /obj/machinery/computer/modular/preset/engineering{
 	dir = 8
 	},
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/solars)
@@ -383,27 +374,20 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	pixel_x = 0
+	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/comms)
 "ke" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/airless,
-/area/space)
+/obj/machinery/firealarm,
+/turf/simulated/floor/plating,
+/area/constellation/command/bridge_unused)
 "kF" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/atmospherics/portables_connector{
-	dir = 4;
-	icon_state = "map_connector"
+	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -432,18 +416,22 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/solars)
+"mf" = (
+/obj/machinery/power/apc,
+/obj/structure/cable,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/engineering/solars)
 "mn" = (
 /turf/simulated/floor/tiled/dark,
 /area/constellation/command/bridge_upper)
 "mV" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/cable/yellow{
@@ -460,15 +448,10 @@
 	dir = 10
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
 /area/constellation/command/bridge_upper)
@@ -478,8 +461,6 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "0-2"
 	},
 /obj/random/trash,
@@ -493,10 +474,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
 /area/constellation/command/bridge_upper)
@@ -507,13 +485,15 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
+"qS" = (
+/obj/structure/table/standard,
+/obj/item/modular_computer/laptop/preset/custom_loadout/cheap,
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/engineering/solars)
 "rl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
+	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 9
@@ -530,16 +510,13 @@
 /area/space)
 "sR" = (
 /obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -24
+	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/constellation/command/bridge_unused)
 "sX" = (
 /obj/machinery/door/window/westleft,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -552,10 +529,7 @@
 /area/constellation/comms)
 "ts" = (
 /obj/machinery/alarm{
-	dir = 1;
-	icon_state = "alarm0";
-	pixel_x = 0;
-	pixel_y = -32
+	dir = 1
 	},
 /obj/machinery/computer/modular/preset/full{
 	dir = 4
@@ -578,8 +552,6 @@
 /area/constellation/engineering/solars)
 "vi" = (
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -591,8 +563,6 @@
 "vC" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -611,13 +581,14 @@
 	dir = 1
 	},
 /obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2";
-	pixel_y = 1
+	icon_state = "0-2"
 	},
 /obj/structure/table/standard,
 /obj/item/paper_bin,
 /obj/item/pen,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 24
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/constellation/command/bridge_upper)
 "wf" = (
@@ -660,9 +631,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/alarm{
-	dir = 8;
-	icon_state = "alarm0";
-	pixel_x = 24
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/comms)
@@ -673,8 +642,7 @@
 	},
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 5;
-	icon_state = "intact"
+	dir = 5
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/solars)
@@ -693,13 +661,9 @@
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
@@ -710,8 +674,6 @@
 /area/constellation/command/bridge_unused)
 "Al" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/railing/mapped{
@@ -724,21 +686,20 @@
 /area/constellation/engineering/solars)
 "Bp" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	level = 2
+	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/constellation/command/bridge_unused)
 "BD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8;
-	level = 2
+	dir = 8
 	},
 /obj/item/stool/padded,
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/light_switch{
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
@@ -746,10 +707,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
+	icon_state = "1-2"
 	},
 /obj/machinery/light/small{
 	dir = 4
@@ -766,8 +724,6 @@
 	locked = 1
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -795,8 +751,7 @@
 /area/constellation/engineering/solars)
 "Eg" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	level = 2
+	dir = 1
 	},
 /obj/item/radio/intercom{
 	dir = 1;
@@ -808,12 +763,13 @@
 /obj/structure/table/rack,
 /obj/item/storage/toolbox/electrical,
 /obj/item/multitool,
+/obj/machinery/firealarm{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/comms)
 "Fe" = (
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/structure/railing/mapped{
@@ -827,10 +783,19 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
+"FQ" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/structure/sealant_injector{
+	anchored = 1;
+	density = 1
+	},
+/obj/item/gun/launcher/sealant/mapped,
+/turf/simulated/floor/tiled/techfloor,
+/area/constellation/engineering/solars)
 "FY" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/railing/mapped{
@@ -844,6 +809,13 @@
 "GP" = (
 /turf/simulated/open,
 /area/constellation/engineering/solars)
+"GZ" = (
+/obj/item/stool/padded,
+/obj/machinery/firealarm{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/engineering/solars)
 "Hh" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "solars_in"
@@ -855,6 +827,10 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
+/area/constellation/engineering/solars)
+"Hq" = (
+/obj/machinery/fabricator/textile,
+/turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/solars)
 "HN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -912,8 +888,6 @@
 /area/constellation/engineering/solars)
 "KG" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
@@ -923,10 +897,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/constellation/command/bridge_upper)
@@ -937,8 +908,6 @@
 /area/constellation/command/bridge_unused)
 "Lf" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/machinery/light/small{
@@ -975,16 +944,12 @@
 /area/constellation/comms)
 "Oy" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
@@ -992,8 +957,6 @@
 /area/space)
 "Pg" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/machinery/light/small{
@@ -1014,28 +977,23 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
 "PP" = (
-/obj/structure/closet/coffin,
+/obj/structure/grille,
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "PZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	level = 2
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/constellation/command/bridge_upper)
 "Rg" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
@@ -1061,16 +1019,12 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/obj/machinery/alarm{
-	pixel_y = 17
-	},
+/obj/machinery/alarm,
 /obj/machinery/computer/ship/navigation,
 /turf/simulated/floor/tiled/monotile,
 /area/constellation/command/bridge_upper)
 "Sc" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor,
@@ -1086,8 +1040,7 @@
 /area/constellation/comms)
 "SO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
+	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -1106,8 +1059,6 @@
 /area/constellation/command/bridge_upper)
 "Tt" = (
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
@@ -1130,7 +1081,6 @@
 /area/constellation/command/bridge_unused)
 "Ua" = (
 /obj/structure/cable/yellow{
-	d2 = 4;
 	icon_state = "0-4"
 	},
 /obj/machinery/power/solar,
@@ -1139,8 +1089,6 @@
 /area/space)
 "UY" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/power/sensor{
@@ -1160,10 +1108,8 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/item/stool/padded,
 /obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -24
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
@@ -1182,13 +1128,9 @@
 /area/constellation/comms)
 "Xu" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/effect/floor_decal/industrial/warning,
@@ -1204,8 +1146,6 @@
 "XQ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/hatch/autoname/engineering,
@@ -1221,8 +1161,6 @@
 /area/constellation/comms)
 "Yq" = (
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
@@ -1234,10 +1172,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
+	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -1247,8 +1182,10 @@
 	dir = 8
 	},
 /obj/structure/cable/yellow{
-	d2 = 8;
 	icon_state = "0-8"
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/solars)
@@ -1258,11 +1195,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/power/apc{
-	dir = 4;
-	name = "Communications APC"
+	dir = 4
 	},
 /obj/structure/cable{
-	d2 = 2;
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -1276,8 +1211,6 @@
 	dir = 1
 	},
 /obj/structure/cable{
-	d1 = 32;
-	d2 = 1;
 	icon_state = "32-1"
 	},
 /obj/structure/lattice,
@@ -3568,9 +3501,9 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
+ax
+ax
+ax
 aa
 aa
 aa
@@ -3620,8 +3553,6 @@ aa
 aa
 aa
 aa
-aa
-aa
 ax
 ax
 ax
@@ -3630,30 +3561,32 @@ ax
 ax
 ax
 ax
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
 ax
 ax
 ax
 ax
 ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-aa
-aa
-aa
 aa
 aa
 aa
@@ -3698,11 +3631,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+PP
+PP
+PP
+PP
 ax
 ax
 ax
@@ -3724,20 +3665,12 @@ ax
 ax
 ax
 ax
+PP
+PP
+PP
 ax
 ax
 ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -3767,24 +3700,24 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
 ax
 ax
 ax
@@ -3816,10 +3749,10 @@ Ua
 ax
 ax
 ax
+PP
+PP
+PP
 ax
-aa
-aa
-aa
 aa
 aa
 aa
@@ -3862,10 +3795,10 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
-aa
+ax
+ax
+ax
+ax
 ax
 ax
 ax
@@ -3899,10 +3832,10 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
-aa
+ax
+ax
+ax
+ax
 aa
 aa
 aa
@@ -3945,13 +3878,13 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
 ax
 ax
 ax
 ax
+ax
+ax
+PP
 ax
 Tt
 ax
@@ -3982,9 +3915,9 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
+ax
+PP
+ax
 aa
 aa
 aa
@@ -4033,7 +3966,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 Tt
 ax
@@ -4065,8 +3998,8 @@ ax
 ax
 ax
 ax
-aa
-aa
+PP
+ax
 aa
 aa
 aa
@@ -4115,7 +4048,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 Tt
 ax
@@ -4136,6 +4069,7 @@ aV
 aV
 aV
 aV
+aV
 ax
 ax
 ax
@@ -4146,8 +4080,7 @@ ax
 ax
 ax
 ax
-ax
-ax
+PP
 ax
 aa
 aa
@@ -4197,7 +4130,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 Tt
 ax
@@ -4217,6 +4150,7 @@ ax
 aV
 bf
 ak
+Hq
 aV
 ax
 ax
@@ -4228,8 +4162,7 @@ ax
 ax
 ax
 ax
-ax
-ax
+PP
 ax
 aa
 aa
@@ -4279,7 +4212,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 Tt
 ax
@@ -4299,6 +4232,7 @@ ax
 aV
 aB
 as
+iv
 aV
 ax
 ax
@@ -4310,8 +4244,7 @@ ax
 ax
 ax
 ax
-ax
-ax
+PP
 ax
 aa
 aa
@@ -4354,14 +4287,14 @@ ax
 ax
 ax
 ax
+PP
+PP
+PP
+PP
 ax
 ax
 ax
-ax
-ax
-ax
-ax
-ax
+PP
 ax
 Yq
 aV
@@ -4381,8 +4314,8 @@ aV
 aV
 aL
 av
+mf
 aV
-ax
 ax
 ax
 ax
@@ -4393,7 +4326,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 aa
 aa
@@ -4463,6 +4396,7 @@ UY
 Sc
 ah
 ap
+qS
 aV
 ax
 ax
@@ -4474,8 +4408,7 @@ ax
 ax
 ax
 ax
-ax
-ax
+PP
 ax
 aa
 aa
@@ -4521,12 +4454,12 @@ ax
 ax
 ax
 fE
-ke
-ke
-ke
-ke
-ke
-ke
+KG
+KG
+KG
+KG
+KG
+KG
 Xu
 yt
 af
@@ -4545,6 +4478,7 @@ aV
 aV
 BD
 We
+GZ
 aV
 ax
 ax
@@ -4556,8 +4490,7 @@ ax
 ax
 ax
 ax
-ax
-ax
+PP
 ax
 aa
 aa
@@ -4620,13 +4553,14 @@ GP
 GP
 GP
 GP
-xF
+eQ
 aV
 ax
 ax
 aV
 Zx
 jy
+FQ
 aV
 ax
 ax
@@ -4638,8 +4572,7 @@ ax
 ax
 ax
 ax
-ax
-ax
+PP
 ax
 aa
 aa
@@ -4667,7 +4600,7 @@ aa
 ax
 ax
 zY
-XF
+ke
 oq
 gw
 sR
@@ -4682,14 +4615,14 @@ ax
 ax
 ax
 ax
+PP
+PP
+PP
+PP
 ax
 ax
 ax
-ax
-ax
-ax
-ax
-ax
+PP
 ax
 Tt
 ax
@@ -4710,6 +4643,8 @@ aV
 aV
 aV
 aV
+aV
+ax
 ax
 ax
 ax
@@ -4720,8 +4655,6 @@ ax
 ax
 ax
 PP
-ax
-ax
 ax
 aa
 aa
@@ -4771,7 +4704,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 Tt
 ax
@@ -4803,7 +4736,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 aa
 aa
@@ -4853,7 +4786,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 Tt
 ax
@@ -4885,7 +4818,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 aa
 aa
@@ -4935,7 +4868,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 Tt
 ax
@@ -4967,7 +4900,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 aa
 aa
@@ -5017,7 +4950,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 Tt
 ax
@@ -5049,8 +4982,8 @@ ax
 ax
 ax
 ax
-aa
-aa
+PP
+ax
 aa
 aa
 aa
@@ -5093,13 +5026,13 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
 ax
 ax
 ax
 ax
+ax
+ax
+PP
 ax
 Tt
 ax
@@ -5130,9 +5063,9 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
+ax
+PP
+ax
 aa
 aa
 aa
@@ -5174,10 +5107,10 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
-aa
+ax
+ax
+ax
+ax
 ax
 ax
 ax
@@ -5211,10 +5144,10 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
-aa
+ax
+ax
+ax
+ax
 aa
 aa
 aa
@@ -5243,24 +5176,24 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
 ax
 ax
 ax
@@ -5292,10 +5225,10 @@ bd
 ax
 ax
 ax
+PP
+PP
+PP
 ax
-aa
-aa
-aa
 aa
 aa
 aa
@@ -5338,11 +5271,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+ax
+PP
+PP
+PP
+PP
 ax
 ax
 ax
@@ -5364,20 +5305,12 @@ ax
 ax
 ax
 ax
+PP
+PP
+PP
 ax
 ax
 ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -5424,8 +5357,6 @@ aa
 aa
 aa
 aa
-aa
-aa
 ax
 ax
 ax
@@ -5434,30 +5365,32 @@ ax
 ax
 ax
 ax
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
+PP
 ax
 ax
 ax
 ax
 ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-ax
-aa
-aa
-aa
 aa
 aa
 aa
@@ -5536,9 +5469,9 @@ ax
 ax
 ax
 ax
-aa
-aa
-aa
+ax
+ax
+ax
 aa
 aa
 aa
