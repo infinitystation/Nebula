@@ -2038,6 +2038,12 @@
 /obj/machinery/light_switch{
 	pixel_x = 24
 	},
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/tiled,
 /area/constellation/crew/hydro)
 "fE" = (
@@ -2164,7 +2170,10 @@
 /area/constellation/crew/library)
 "gh" = (
 /obj/effect/floor_decal/corner/green{
-	dir = 8
+	dir = 10
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/constellation/crew/hydro)
@@ -2351,11 +2360,10 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/constellation/hidden)
 "gQ" = (
-/obj/effect/floor_decal/corner/green{
-	dir = 9
-	},
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled,
+/obj/structure/closet/crate/hydroponics/prespawned,
+/obj/effect/floor_decal/corner/green/mono,
+/turf/simulated/floor/tiled/monotile,
 /area/constellation/crew/hydro)
 "gS" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2427,7 +2435,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/power)
 "hf" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/floor_decal/corner/green{
 	dir = 10
 	},
@@ -4159,10 +4166,10 @@
 /area/constellation/command/bridge)
 "pb" = (
 /obj/machinery/portable_atmospherics/hydroponics,
-/obj/effect/floor_decal/corner/green/mono,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/floor_decal/corner/green/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/constellation/crew/hydro)
 "pc" = (
@@ -4250,7 +4257,6 @@
 /turf/simulated/floor/plating,
 /area/constellation/engineering)
 "qb" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/biogenerator,
 /obj/effect/floor_decal/corner/green/mono,
 /obj/machinery/firealarm{
@@ -4430,9 +4436,6 @@
 "sb" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
 	},
 /obj/structure/table/standard,
 /obj/item/chems/glass/bottle/eznutrient,
@@ -4624,14 +4627,14 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
 /obj/effect/floor_decal/corner/green{
 	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
 	},
 /turf/simulated/floor/tiled,
 /area/constellation/crew/hydro)
@@ -5020,6 +5023,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/crew/hallway_starboard)
+"yS" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 5
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/constellation/crew/hydro)
 "zb" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8;
@@ -7086,7 +7098,8 @@
 /obj/machinery/power/apc,
 /obj/item/chems/glass/bucket,
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/tiled,
+/obj/effect/floor_decal/corner/green/mono,
+/turf/simulated/floor/tiled/monotile,
 /area/constellation/crew/hydro)
 "Vd" = (
 /obj/machinery/button/blast_door{
@@ -7218,9 +7231,6 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 1
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
 /obj/machinery/vending/hydronutrients/generic{
 	dir = 1
 	},
@@ -7286,9 +7296,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/atmos)
 "WO" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/green{
 	dir = 5
 	},
@@ -10118,7 +10125,7 @@ gp
 gB
 mb
 pb
-WO
+yS
 gh
 gQ
 hD
