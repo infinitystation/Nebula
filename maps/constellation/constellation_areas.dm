@@ -200,9 +200,15 @@ please do not remove my messages. they just look fancy to sort these areas. i rl
 		'sound/ambience/ambieng1.ogg'
 	)
 
+/area/constellation/engineering/upper
+	name = "Upper Engineering"
+
 /area/constellation/engineering/storage
 	name = "Engineering Storage"
 	icon_state = "engineering_storage"
+
+/area/constellation/engineering/storage/canister
+	name = "Canister Storage"
 
 /area/constellation/engineering/techstorage
 	name = "Parts Storage"

@@ -27,6 +27,7 @@
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
 	#include "../../starlight/mods/species/resomi/_resomi.dme"
+	#include "../../starlight/mods/species/android/_android.dme"
 // STARLIGHT MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
