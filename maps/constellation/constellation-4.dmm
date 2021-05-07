@@ -189,11 +189,11 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
+	},
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/upper)
@@ -216,6 +216,7 @@
 	name = "button (exterior crystal replacement)";
 	pixel_x = -24
 	},
+/obj/machinery/light/small/red,
 /turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "aU" = (
@@ -301,9 +302,6 @@
 "ep" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
-/obj/machinery/light/small/red{
-	dir = 1
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -312,6 +310,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/machinery/light/small/red{
+	dir = 1
 	},
 /turf/simulated/open,
 /area/constellation/engineering/engine)
@@ -325,12 +326,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/light/small/red{
-	dir = 1
-	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4;
 	id_tag = "upper_eva_pump"
+	},
+/obj/machinery/light/small/red{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/storage/canister)
@@ -449,11 +450,11 @@
 /obj/machinery/computer/modular/preset/engineering{
 	dir = 8
 	},
-/obj/machinery/light/small{
-	dir = 4
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 8
+	},
+/obj/machinery/light/small{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/upper)
@@ -530,9 +531,6 @@
 	initial_network_id = "tradenet"
 	},
 /obj/structure/catwalk,
-/obj/machinery/light/small/red{
-	dir = 8
-	},
 /turf/simulated/floor/plating,
 /area/constellation/comms)
 "ma" = (
@@ -600,6 +598,9 @@
 	},
 /obj/structure/sign/warning/caution{
 	pixel_x = 32
+	},
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/command/bridge_upper)
@@ -712,14 +713,12 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/command/bridge_upper)
 "qo" = (
-/obj/machinery/light/small/red,
 /obj/item/hoist_kit,
 /obj/random/toolbox,
 /obj/structure/table/rack,
 /turf/simulated/floor/airless,
 /area/constellation/engineering/engine)
 "qu" = (
-/obj/machinery/light/small,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -753,11 +752,18 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/storage/canister)
 "qD" = (
-/obj/machinery/light/small/red{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/airless,
-/area/constellation/engineering/engine)
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/beige{
+	dir = 10
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/engineering/solars)
 "qI" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -779,7 +785,6 @@
 "qS" = (
 /obj/structure/table/standard,
 /obj/item/modular_computer/laptop/preset/custom_loadout/cheap,
-/obj/machinery/light/small,
 /obj/effect/floor_decal/corner/yellow{
 	dir = 5
 	},
@@ -814,9 +819,6 @@
 /area/constellation/engineering/storage/canister)
 "sx" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
-/obj/machinery/light/small/red{
-	dir = 1
-	},
 /obj/item/weldingtool/largetank,
 /turf/simulated/floor/airless,
 /area/constellation/engineering/engine)
@@ -848,14 +850,14 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/obj/machinery/light/small/red{
-	dir = 8
-	},
 /turf/simulated/floor/plating,
 /area/constellation/comms)
 "tD" = (
-/obj/machinery/light/small/red,
-/turf/simulated/open,
+/obj/random/trash,
+/obj/machinery/light/small/red{
+	dir = 8
+	},
+/turf/simulated/floor/airless,
 /area/constellation/engineering/engine)
 "tJ" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -879,13 +881,24 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
+"un" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light_switch{
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/engineering/storage/canister)
 "uo" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/effect/floor_decal/techfloor{
 	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/storage/canister)
@@ -1192,9 +1205,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/light/small{
-	dir = 4
-	},
 /obj/structure/sign/warning/server_room{
 	pixel_x = -32
 	},
@@ -1284,13 +1294,13 @@
 /obj/machinery/firealarm{
 	dir = 4
 	},
-/obj/machinery/light/small/red{
-	dir = 4
-	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/stock_parts/power/battery/buildable/stock,
 /obj/item/stock_parts/power/battery/buildable/stock,
 /obj/item/stock_parts/power/battery/buildable/stock,
+/obj/machinery/light/small/red{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/comms)
 "Em" = (
@@ -1452,9 +1462,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 4
 	},
-/obj/machinery/light/small{
-	dir = 8
-	},
+/obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/upper)
 "HN" = (
@@ -1487,11 +1495,11 @@
 /obj/effect/floor_decal/corner/beige/three_quarters{
 	dir = 1
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "2-8"
+	},
+/obj/machinery/light/small{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
@@ -1518,10 +1526,10 @@
 /obj/item/stock_parts/computer/processor_unit,
 /obj/item/stock_parts/computer/hard_drive/small,
 /obj/item/stock_parts/computer/hard_drive/small,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/small/red{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/comms)
 "Ko" = (
@@ -1572,7 +1580,7 @@
 /obj/effect/floor_decal/corner/beige/three_quarters{
 	dir = 8
 	},
-/obj/machinery/light{
+/obj/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -1581,14 +1589,14 @@
 /obj/effect/floor_decal/corner/beige/three_quarters{
 	dir = 4
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
 "Mk" = (
@@ -1697,12 +1705,12 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/beige/three_quarters,
-/obj/machinery/light{
-	dir = 8
-	},
 /obj/structure/extinguisher_cabinet{
 	dir = 8;
 	pixel_y = -24
+	},
+/obj/machinery/light/small{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
@@ -1783,7 +1791,6 @@
 /area/constellation/engineering/solars)
 "Rv" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
-/obj/machinery/light/small/red,
 /turf/simulated/floor/airless,
 /area/constellation/engineering/engine)
 "RF" = (
@@ -1890,6 +1897,9 @@
 	dir = 8
 	},
 /obj/machinery/firealarm,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/storage/canister)
 "TN" = (
@@ -1912,9 +1922,6 @@
 /area/space)
 "Ud" = (
 /obj/structure/catwalk,
-/obj/machinery/light/small/red{
-	dir = 1
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -2070,13 +2077,13 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/upper)
 "ZA" = (
-/obj/machinery/light/small,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/storage/canister)
 "ZD" = (
@@ -2106,8 +2113,8 @@
 /obj/machinery/light_switch{
 	pixel_x = 24
 	},
-/obj/machinery/light,
 /obj/structure/catwalk,
+/obj/machinery/light/small,
 /turf/simulated/open,
 /area/constellation/command/bridge_upper)
 "ZU" = (
@@ -4814,7 +4821,7 @@ ax
 ax
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -4896,7 +4903,7 @@ ax
 ax
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -4978,7 +4985,7 @@ pr
 ax
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5060,7 +5067,7 @@ pr
 pr
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5135,14 +5142,14 @@ hu
 Tm
 aT
 pr
-YM
+tD
 YM
 lk
 pr
 pr
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5224,7 +5231,7 @@ pr
 pr
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5306,7 +5313,7 @@ pr
 pr
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5369,7 +5376,7 @@ GP
 GP
 GP
 GP
-xF
+qD
 sp
 cx
 ZA
@@ -5379,7 +5386,7 @@ We
 GZ
 wX
 Gp
-tD
+RJ
 pr
 kR
 Wu
@@ -5388,7 +5395,7 @@ pr
 pr
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5463,14 +5470,14 @@ wX
 Ta
 RJ
 pr
-qD
+Wu
 Wu
 qo
 pr
 pr
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5552,7 +5559,7 @@ pr
 pr
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5620,7 +5627,7 @@ ng
 Xw
 qI
 uG
-Xw
+un
 NG
 Xw
 Fu
@@ -5634,7 +5641,7 @@ pr
 pr
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5716,7 +5723,7 @@ pr
 pr
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5798,7 +5805,7 @@ pr
 ax
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5880,7 +5887,7 @@ ax
 ax
 ax
 ax
-PP
+ax
 ax
 aa
 aa
@@ -5962,7 +5969,7 @@ ax
 ax
 ax
 ax
-PP
+ax
 ax
 aa
 aa
