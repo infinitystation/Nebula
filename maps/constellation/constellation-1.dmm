@@ -1730,6 +1730,9 @@
 /area/constellation/bar)
 "II" = (
 /obj/structure/stairs/west,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
 "IQ" = (
