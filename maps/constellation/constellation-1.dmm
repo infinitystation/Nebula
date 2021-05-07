@@ -1171,18 +1171,6 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 6
 	},
-/obj/machinery/button/blast_door{
-	id_tag = "bar_privacy";
-	name = "button (hallway privacy)";
-	pixel_x = 24;
-	pixel_y = -3
-	},
-/obj/machinery/button/blast_door{
-	id_tag = "bar_space";
-	name = "button (window shutters)";
-	pixel_x = 24;
-	pixel_y = 6
-	},
 /obj/machinery/light/small{
 	dir = 4
 	},
@@ -1568,6 +1556,9 @@
 /obj/machinery/vending/boozeomat{
 	initial_access = null
 	},
+/obj/machinery/alarm{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/bar)
 "EZ" = (
@@ -1877,8 +1868,17 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/alarm{
-	dir = 8
+/obj/machinery/button/blast_door{
+	id_tag = "bar_privacy";
+	name = "button (hallway privacy)";
+	pixel_x = 24;
+	pixel_y = -3
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "bar_space";
+	name = "button (window shutters)";
+	pixel_x = 24;
+	pixel_y = 6
 	},
 /turf/simulated/floor/lino,
 /area/constellation/bar)

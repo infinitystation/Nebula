@@ -227,7 +227,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/alarm,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/dock)
 "ay" = (
@@ -516,6 +518,9 @@
 /area/constellation/command/hallway)
 "bd" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
+/obj/structure/sign/warning/compressed_gas{
+	pixel_x = 32
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/atmos)
 "be" = (
@@ -832,7 +837,7 @@
 /obj/machinery/button/access/interior{
 	id_tag = "constellation_starboard_dock";
 	pixel_x = -10;
-	pixel_y = 24
+	pixel_y = -24
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -945,7 +950,8 @@
 	dir = 5
 	},
 /obj/structure/sign/warning/vacuum{
-	pixel_x = -30
+	pixel_x = -30;
+	pixel_y = -3
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3996,7 +4002,8 @@
 	dir = 9
 	},
 /obj/structure/sign/warning/vacuum{
-	pixel_x = 30
+	pixel_x = 30;
+	pixel_y = -3
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4162,7 +4169,7 @@
 /obj/machinery/button/access/interior{
 	id_tag = "constellation_dock_port";
 	pixel_x = 10;
-	pixel_y = 24
+	pixel_y = -24
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -7278,9 +7285,6 @@
 	},
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
-	},
-/obj/structure/sign/warning/compressed_gas{
-	pixel_y = 30
 	},
 /obj/machinery/light{
 	dir = 1

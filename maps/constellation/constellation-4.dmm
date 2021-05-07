@@ -531,6 +531,9 @@
 	initial_network_id = "tradenet"
 	},
 /obj/structure/catwalk,
+/obj/machinery/light/small/red{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/constellation/comms)
 "ma" = (
@@ -1298,9 +1301,6 @@
 /obj/item/stock_parts/power/battery/buildable/stock,
 /obj/item/stock_parts/power/battery/buildable/stock,
 /obj/item/stock_parts/power/battery/buildable/stock,
-/obj/machinery/light/small/red{
-	dir = 4
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/comms)
 "Em" = (
