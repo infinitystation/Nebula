@@ -1537,7 +1537,6 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/door/window/northright,
 /turf/simulated/open,
 /area/constellation/crew/saloon)
 "dV" = (
