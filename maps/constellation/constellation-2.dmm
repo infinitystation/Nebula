@@ -972,10 +972,10 @@
 /area/constellation/crew/dorms2)
 "cG" = (
 /obj/structure/table/standard,
-/obj/item/deck/cards,
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/item/flashlight/lamp/lava/purple,
 /turf/simulated/floor/lino,
 /area/constellation/crew/dorms2)
 "cJ" = (
@@ -2228,6 +2228,7 @@
 /obj/machinery/alarm{
 	dir = 1
 	},
+/obj/item/storage/box/lights/bulbs,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/techstorage)
 "nn" = (

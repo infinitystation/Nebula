@@ -4188,10 +4188,14 @@
 	dir = 4
 	},
 /obj/structure/railing/mapped,
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/techfloor{
 	dir = 4
 	},
+/obj/item/flashlight,
+/obj/structure/table/rack,
+/obj/item/flashlight,
+/obj/item/flashlight,
+/obj/item/flashlight,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/crew/hallway_port)
 "pu" = (
@@ -4756,6 +4760,12 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/item/gun/energy/captain,
+/obj/item/clothing/suit/armor/pcarrier/medium,
+/obj/item/stamp/captain,
+/obj/item/stamp/denied,
+/obj/item/folder/blue,
+/obj/item/storage/secure/briefcase,
 /turf/simulated/floor/wood/mahogany,
 /area/constellation/command/captain)
 "vS" = (
@@ -5425,6 +5435,14 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/item/gun/energy/gun,
+/obj/item/clothing/suit/armor/pcarrier/medium,
+/obj/item/stamp/boss,
+/obj/item/stamp/denied,
+/obj/item/folder/yellow,
+/obj/item/folder/yellow,
+/obj/item/folder/yellow,
+/obj/item/storage/secure/briefcase,
 /turf/simulated/floor/wood/mahogany,
 /area/constellation/command/fmate)
 "Ec" = (
@@ -5994,6 +6012,8 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -24
 	},
+/obj/item/storage/box/glowsticks,
+/obj/item/storage/box/glowsticks,
 /turf/simulated/floor/lino,
 /area/constellation/crew/saloon)
 "JS" = (
@@ -6838,6 +6858,7 @@
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 4
 	},
+/obj/item/storage/box/lights/bulbs,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/maintenance/hallway)
 "Sy" = (
