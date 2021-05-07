@@ -9,3 +9,7 @@
 /obj/machinery/suit_cycler/constellation/salvage
 	helmet = /obj/item/clothing/head/helmet/space/void/engineering/salvage
 	suit = /obj/item/clothing/suit/space/void/engineering/salvage
+
+/obj/machinery/suit_cycler/constellation/heavy
+	helmet = /obj/item/clothing/head/helmet/space/void/stargazer
+	suit = /obj/item/clothing/suit/space/void/stargazer

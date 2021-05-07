@@ -22,6 +22,7 @@
 #include "code\mob\living.dm"
 #include "code\mob\malnourished.dm"
 #include "code\mob\pixel_shift.dm"
+#include "code\modules\clothing\spacesuits\stargazer.dm"
 #include "code\music_tracks\darkspace1.dm"
 #include "code\music_tracks\intermissi0n.dm"
 #include "code\obj\tripping.dm"
