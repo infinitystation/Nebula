@@ -1,8 +1,9 @@
 /datum/map/labyrinth
 	default_law_type = /datum/ai_laws/asimov
-	default_assistant_title = "Crewmember"
+	default_job_title = "Crewmember"
+	default_job_type = /datum/job/labyrnith/civilian/crewmember
 	allowed_jobs = list(
-		/datum/job/assistant,
+		/datum/job/labyrnith/civilian/crewmember,
 		/datum/job/labyrinth/command/director,
 		/datum/job/labyrinth/command/logistics_officer,
 		/datum/job/labyrinth/engineering/engineer,
@@ -10,13 +11,9 @@
 		/datum/job/labyrinth/science/researcher
 	)
 
-// God forgive me for this stub
-/datum/job/labyrinth
-	hud_icon = "hudblank"
+/datum/job/labyrnith
 
-/datum/job/assistant
-	title = "Crewmember"
-	hud_icon = "hudblank"
+	outfit_type = /decl/hierarchy/outfit/job/labyrnith
 
 	skill_points = 16
 
@@ -29,3 +26,8 @@
 	max_skill = list(
 		SKILL_HAULING = SKILL_MAX
 	)
+
+	hud_icon = "hudblank"
+
+/datum/job/labyrnith/civilian/crewmember
+	title = "Crewmember"
