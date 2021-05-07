@@ -23,7 +23,7 @@
 		/decl/pronouns/male
 	)
 
-/decl/species/get_blood_colour(var/mob/living/carbon/human/H)
+/decl/species/utility_frame/android/get_blood_colour(var/mob/living/carbon/human/H)
 	return COLOR_INDIGO
 
 /decl/species/utility_frame/android/post_organ_rejuvenate(obj/item/organ/org, mob/living/carbon/human/H)
@@ -34,6 +34,13 @@
 
 /decl/species/utility_frame/android/handle_post_species_pref_set(var/datum/preferences/pref)
 	return
+
+/obj/item/organ/internal/augment/active/cyberbrain/android_preset
+	parent_organ = BP_HEAD
+
+/decl/species/utility_frame/android/handle_post_spawn(mob/living/carbon/human/H)
+	. = ..()
+	new/obj/item/organ/internal/augment/active/cyberbrain/android_preset(H)
 
 //Limbs
 
