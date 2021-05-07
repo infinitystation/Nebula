@@ -5830,6 +5830,15 @@
 	},
 /turf/simulated/floor/lino,
 /area/constellation/crew/hallway_starboard)
+"HV" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/structure/sign/deck/first{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/crew/hallway_starboard)
 "HZ" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/warning,
@@ -6988,9 +6997,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/crew/hallway_port)
 "TR" = (
-/obj/structure/sign/deck/first{
-	pixel_x = 32
-	},
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
 	},
@@ -11166,7 +11172,7 @@ de
 de
 du
 kF
-eh
+HV
 TR
 eh
 lZ
