@@ -24,6 +24,7 @@
 	},
 /obj/machinery/door/firedoor/autoset,
 /obj/machinery/door/airlock/hatch/autoname/general,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/undercomms)
 "ad" = (
@@ -38,6 +39,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/autoset,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/bar)
 "ae" = (
@@ -54,6 +56,7 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 5
 	},
+/obj/structure/emergency_dispenser/north,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
 "ag" = (
@@ -97,17 +100,14 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/undercomms)
 "aq" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 9
-	},
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/effect/floor_decal/corner/beige,
 /obj/machinery/light_switch{
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green/three_quarters,
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "ar" = (
 /obj/machinery/light,
@@ -155,6 +155,7 @@
 	id_tag = "scraplock";
 	name = "EXTERNAL LOCKDOWN"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/loading_bay)
 "av" = (
@@ -168,6 +169,7 @@
 	id_tag = "scraplock";
 	name = "EXTERNAL LOCKDOWN"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/loading_bay)
 "aw" = (
@@ -182,16 +184,19 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
+/obj/machinery/light/small/red{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/loading_bay)
 "ax" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/beige{
+/obj/effect/floor_decal/corner/green{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "az" = (
 /obj/structure/cable{
@@ -203,10 +208,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/obj/effect/floor_decal/corner/beige{
+/obj/effect/floor_decal/corner/green{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "aA" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
@@ -225,15 +230,15 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
+/obj/machinery/light/small/red{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/loading_bay)
 "aB" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4;
 	id_tag = "lower_cargo_pump"
-	},
-/obj/machinery/light{
-	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -265,9 +270,6 @@
 	dir = 8;
 	id_tag = "lower_cargo_pump"
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
 	},
@@ -290,6 +292,11 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
+/obj/item/radio/intercom{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/machinery/light/small/red,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/loading_bay)
 "aL" = (
@@ -300,6 +307,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
+/obj/machinery/light/small/red,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/loading_bay)
 "aN" = (
@@ -312,6 +320,7 @@
 	id_tag = "scraplock";
 	name = "EXTERNAL LOCKDOWN"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/loading_bay)
 "aO" = (
@@ -343,21 +352,19 @@
 /obj/machinery/door/airlock/hatch/autoname/general{
 	locked = 1
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/maintenance/fore_port_underside_maint)
 "aT" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 8
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green/three_quarters{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "aV" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -379,16 +386,6 @@
 /obj/machinery/door/firedoor/autoset,
 /turf/simulated/floor/plating,
 /area/constellation/livestock)
-"aX" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor/autoset,
-/obj/machinery/door/blast/regular/open{
-	icon_state = "pdoor0";
-	id_tag = "scraplock";
-	name = "EXTERNAL LOCKDOWN"
-	},
-/turf/simulated/floor/plating,
-/area/constellation/loading_bay)
 "aY" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor/autoset,
@@ -514,6 +511,7 @@
 /obj/effect/floor_decal/corner/beige/three_quarters{
 	dir = 4
 	},
+/obj/structure/emergency_dispenser/south,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
 "by" = (
@@ -607,6 +605,7 @@
 "bM" = (
 /obj/machinery/door/airlock/hatch/autoname/general,
 /obj/machinery/door/firedoor/autoset,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/loading_bay)
 "bN" = (
@@ -675,6 +674,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	icon_state = "1-4"
+	},
+/obj/machinery/light/small/red{
+	dir = 8
 	},
 /turf/simulated/floor,
 /area/constellation/maintenance/aft_starboard_underside_maint)
@@ -806,6 +808,7 @@
 	id_tag = "scraplock";
 	name = "EXTERNAL LOCKDOWN"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/loading_bay)
 "cW" = (
@@ -933,6 +936,7 @@
 /obj/machinery/door/airlock/hatch/autoname/general,
 /obj/machinery/door/firedoor,
 /obj/item/taperoll/engineering/applied,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/loading_bay)
 "hF" = (
@@ -957,10 +961,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/beige{
+/obj/effect/floor_decal/corner/green{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "iD" = (
 /obj/machinery/door/airlock/hatch/autoname/general{
@@ -972,6 +976,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor/autoset,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/maintenance/fore_port_underside_maint)
 "iY" = (
@@ -998,6 +1003,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/constellation/livestock)
 "jT" = (
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/constellation/livestock)
 "kO" = (
@@ -1077,7 +1083,7 @@
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id_tag = "xenovent";
-	name = "Specimen Consignment Shutter"
+	name = "blast shutters (specimen)"
 	},
 /turf/simulated/floor/plating,
 /area/constellation/livestock)
@@ -1094,7 +1100,7 @@
 /turf/simulated/floor/reinforced,
 /area/constellation/maintenance/fore_port_underside_maint)
 "nU" = (
-/obj/effect/floor_decal/corner/beige{
+/obj/effect/floor_decal/corner/green{
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -1146,10 +1152,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/beige{
+/obj/machinery/light/small,
+/obj/effect/floor_decal/corner/green{
 	dir = 10
 	},
-/obj/machinery/light/small,
 /turf/simulated/floor/tiled/dark,
 /area/constellation/bar)
 "pG" = (
@@ -1160,7 +1166,7 @@
 	dir = 1
 	},
 /obj/item/stool/bar/padded,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "pU" = (
 /obj/structure/table/reinforced,
@@ -1173,7 +1179,7 @@
 /area/constellation/maintenance/fore_port_underside_maint)
 "qt" = (
 /obj/item/stool/bar/padded,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "qQ" = (
 /obj/machinery/network/relay{
@@ -1182,12 +1188,6 @@
 /turf/simulated/floor/bluegrid,
 /area/constellation/undercomms)
 "rp" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/beige{
-	dir = 1
-	},
 /obj/machinery/status_display{
 	pixel_y = 32
 	},
@@ -1196,7 +1196,10 @@
 	name = "privacy shutters";
 	pixel_x = 24
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green{
+	dir = 6
+	},
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "rt" = (
 /obj/structure/table/reinforced,
@@ -1259,6 +1262,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/livestock)
 "sZ" = (
@@ -1269,6 +1273,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/loading_bay)
 "tD" = (
@@ -1419,16 +1424,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/beige{
-	dir = 9
-	},
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green{
+	dir = 9
+	},
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "yE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1484,7 +1489,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/obj/effect/floor_decal/corner/beige{
+/obj/effect/floor_decal/corner/green{
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -1577,7 +1582,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/item/stool/bar/padded,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "EZ" = (
 /obj/structure/cable{
@@ -1708,16 +1713,16 @@
 /turf/simulated/floor,
 /area/constellation/maintenance/fore_port_underside_maint)
 "Iu" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green{
+	dir = 6
+	},
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "IG" = (
 /obj/machinery/power/apc,
@@ -1811,7 +1816,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/machinery/light/small{
+/obj/machinery/light/small/red{
 	dir = 4
 	},
 /turf/simulated/floor,
@@ -1825,6 +1830,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/item/taperoll/engineering/applied,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/loading_bay)
 "Lx" = (
@@ -1872,15 +1878,15 @@
 /turf/simulated/floor/tiled/white,
 /area/constellation/livestock)
 "LO" = (
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
-	},
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green{
+	dir = 6
+	},
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "Mb" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -1953,18 +1959,18 @@
 	dir = 9
 	},
 /obj/item/stool/bar/padded,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "Pq" = (
 /obj/machinery/alarm{
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/beige{
-	dir = 6
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green{
+	dir = 6
+	},
+/turf/simulated/floor/lino,
 /area/constellation/bar)
 "PZ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2056,6 +2062,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/item/taperoll/engineering/applied,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/loading_bay)
 "SS" = (
@@ -2097,6 +2104,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/hatch/autoname/general,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/bar)
 "Ux" = (
@@ -2153,6 +2161,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/bar)
 "Yc" = (
@@ -2169,7 +2178,7 @@
 /area/constellation/loading_bay)
 "Yh" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/light/small{
+/obj/machinery/light/small/red{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -5573,11 +5582,11 @@ yQ
 bz
 FD
 bQ
-aX
+yO
 aA
 aE
 aL
-aX
+yO
 JF
 aa
 aa
