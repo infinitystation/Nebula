@@ -1327,7 +1327,7 @@
 /area/constellation/engineering/storage/canister)
 "EY" = (
 /obj/structure/closet/crate/solar,
-/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
 /obj/effect/floor_decal/techfloor{
 	dir = 8
 	},

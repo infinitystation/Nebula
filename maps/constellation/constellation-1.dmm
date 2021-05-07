@@ -260,8 +260,8 @@
 "aD" = (
 /obj/random/maintenance,
 /obj/random/trash,
-/obj/item/stack/material/deuterium/fifty,
-/obj/item/stack/material/deuterium/fifty,
+/obj/item/stack/material/aerogel/mapped/deuterium/fifty,
+/obj/item/stack/material/aerogel/mapped/deuterium/fifty,
 /obj/structure/closet/crate,
 /turf/simulated/floor,
 /area/constellation/maintenance/aft_starboard_underside_maint)

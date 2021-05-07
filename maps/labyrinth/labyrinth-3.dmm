@@ -787,10 +787,10 @@
 /obj/structure/bed/chair/office/comfy/blue{
 	dir = 1
 	},
-/obj/item/stack/material/deuterium/fifty{
+/obj/item/stack/material/aerogel/mapped/deuterium/fifty{
 	pixel_x = 8
 	},
-/obj/item/stack/material/deuterium/fifty{
+/obj/item/stack/material/aerogel/mapped/deuterium/fifty{
 	pixel_y = -7
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -1558,9 +1558,9 @@
 	dir = 8
 	},
 /obj/structure/closet/crate/uranium,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
 /turf/simulated/floor/plating,
 /area/labyrinth/exploration_shuttle)
 "It" = (
@@ -1775,8 +1775,8 @@
 "MQ" = (
 /obj/machinery/fabricator/book,
 /obj/structure/table/standard,
-/obj/item/stack/material/wood/ten,
-/obj/item/stack/material/plastic/ten,
+/obj/item/stack/material/plank/mapped/wood/ten,
+/obj/item/stack/material/panel/mapped/plastic/ten,
 /obj/machinery/firealarm{
 	dir = 4
 	},

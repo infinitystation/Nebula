@@ -3159,7 +3159,7 @@
 	},
 /obj/item/integrated_circuit_printer/debug,
 /obj/structure/table/reinforced,
-/obj/item/stack/material/steel/ten,
+/obj/item/stack/material/sheet/mapped/steel/ten,
 /obj/random/assembly,
 /turf/simulated/floor/tiled/white,
 /area/odyssey/science/science_hall)
@@ -3578,8 +3578,8 @@
 	dir = 6
 	},
 /obj/structure/table/reinforced,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
 /turf/simulated/floor/tiled/white,
 /area/odyssey/science/materials_lab)
 "ib" = (
@@ -4195,8 +4195,8 @@
 	dir = 4
 	},
 /obj/structure/table/reinforced,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
 /turf/simulated/floor/tiled/white,
 /area/odyssey/science/circuit_lab)
 "jp" = (
@@ -7350,8 +7350,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
 /obj/random/loot,
 /obj/random/maintenance/clean,
 /turf/simulated/floor/tiled,
@@ -10779,9 +10779,9 @@
 /area/odyssey/command/office/rd/bed)
 "WS" = (
 /obj/structure/closet/crate,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
 	},

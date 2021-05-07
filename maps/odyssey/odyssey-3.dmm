@@ -2748,7 +2748,7 @@
 	},
 /obj/structure/table/marble,
 /obj/machinery/fabricator/micro/bartender,
-/obj/item/stack/material/glass/ten,
+/obj/item/stack/material/pane/mapped/glass/ten,
 /turf/simulated/floor/lino,
 /area/odyssey/habitation/bar)
 "gv" = (
@@ -4083,10 +4083,10 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/reinforced/fifty,
-/obj/item/stack/material/glass/reinforced/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/rglass/fifty,
+/obj/item/stack/material/pane/mapped/rglass/fifty,
 /turf/simulated/floor/plating,
 /area/odyssey/engineering/hallway/upper)
 "iX" = (
@@ -5009,10 +5009,10 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/item/stack/material/plasteel/ten,
-/obj/item/stack/material/plasteel/ten,
-/obj/item/stack/material/plasteel/ten,
-/obj/item/stack/material/plastic/fifty,
+/obj/item/stack/material/reinforced/mapped/plasteel/ten,
+/obj/item/stack/material/reinforced/mapped/plasteel/ten,
+/obj/item/stack/material/reinforced/mapped/plasteel/ten,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
 /turf/simulated/floor/plating,
 /area/odyssey/engineering/hallway/upper)
 "kN" = (
@@ -8330,9 +8330,9 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
 /turf/simulated/floor/plating,
 /area/odyssey/engineering/hallway/upper)
 "ry" = (
@@ -8537,12 +8537,12 @@
 	dir = 5
 	},
 /obj/structure/table/rack,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/plasteel/ten,
-/obj/item/stack/material/plasteel/ten,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/reinforced/mapped/plasteel/ten,
+/obj/item/stack/material/reinforced/mapped/plasteel/ten,
 /obj/machinery/button/windowtint{
 	id_tag = "odyssey_roboticstint";
 	pixel_y = 24
@@ -8969,8 +8969,8 @@
 	dir = 4
 	},
 /obj/item/stack/material/rods/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/aluminium/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
 /turf/simulated/floor/plating,
 /area/odyssey/engineering/hallway/upper)
 "sH" = (
@@ -9487,10 +9487,10 @@
 	id_tag = "kitchenshut"
 	},
 /obj/effect/floor_decal/corner/brown/diagonal,
-/obj/item/stack/material/aluminium/ten{
+/obj/item/stack/material/shiny/mapped/aluminium/ten{
 	pixel_y = -4
 	},
-/obj/item/stack/material/glass/ten,
+/obj/item/stack/material/pane/mapped/glass/ten,
 /obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/tiled/white,
 /area/odyssey/habitation/kitchen)
@@ -11265,9 +11265,9 @@
 /obj/item/stack/cable_coil,
 /obj/item/radio/intercom/bump/north,
 /obj/item/clothing/glasses/meson,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
 /obj/item/storage/belt/utility,
 /turf/simulated/floor/tiled/techmaint,
 /area/odyssey/eva)

@@ -1008,9 +1008,9 @@
 	dir = 8
 	},
 /obj/structure/closet/crate/uranium,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "cE" = (
@@ -2174,8 +2174,8 @@
 /area/constellation/crew/library)
 "ge" = (
 /obj/machinery/fabricator/book,
-/obj/item/stack/material/plastic/ten,
-/obj/item/stack/material/wood/ten,
+/obj/item/stack/material/panel/mapped/plastic/ten,
+/obj/item/stack/material/plank/mapped/wood/ten,
 /obj/structure/table/standard,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -2418,9 +2418,9 @@
 	pixel_x = -24
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/power)
 "hf" = (
@@ -5152,11 +5152,11 @@
 /area/constellation/cargo)
 "Ap" = (
 /obj/structure/catwalk,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
 /obj/structure/table/rack,
-/obj/item/stack/material/glass/reinforced_borosilicate/ten,
-/obj/item/stack/material/glass/reinforced_borosilicate/ten,
+/obj/item/stack/material/pane/mapped/rborosilicate/ten,
+/obj/item/stack/material/pane/mapped/rborosilicate/ten,
 /obj/structure/railing/mapped{
 	dir = 1
 	},
@@ -7220,9 +7220,9 @@
 	icon_state = "0-2"
 	},
 /obj/item/stack/material/rods/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
 /obj/structure/table/rack,
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techfloor/grid,

@@ -2728,7 +2728,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
 /turf/simulated/floor/plating,
 /area/odyssey/security/weapons_bay/two)
 "gi" = (
@@ -9167,7 +9167,7 @@
 /area/odyssey/engineering/secure_storage)
 "ti" = (
 /obj/structure/closet/crate,
-/obj/item/stack/material/deuterium/fifty,
+/obj/item/stack/material/aerogel/mapped/deuterium/fifty,
 /turf/simulated/floor/tiled/techfloor,
 /area/odyssey/engineering/secure_storage)
 "tj" = (
@@ -9917,7 +9917,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "uH" = (
-/obj/item/stack/material/wood/walnut/twentyfive,
+/obj/item/stack/material/plank/mapped/walnut/twentyfive,
 /turf/simulated/floor/plating,
 /area/odyssey/security/weapons_bay/two)
 "uI" = (

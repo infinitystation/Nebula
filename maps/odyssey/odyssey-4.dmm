@@ -3727,8 +3727,8 @@
 /area/odyssey/command/office/captain/bedroom)
 "hu" = (
 /obj/structure/closet/crate/secure,
-/obj/item/stack/material/gold/ten,
-/obj/item/stack/material/gold/ten,
+/obj/item/stack/material/ingot/mapped/gold/ten,
+/obj/item/stack/material/ingot/mapped/gold/ten,
 /obj/effect/floor_decal/techfloor{
 	dir = 5
 	},
@@ -3914,7 +3914,7 @@
 "hO" = (
 /obj/structure/closet/crate/secure,
 /obj/item/coin/platinum,
-/obj/item/stack/material/platinum/ten,
+/obj/item/stack/material/ingot/mapped/platinum/ten,
 /obj/effect/floor_decal/techfloor{
 	dir = 4
 	},
@@ -3944,8 +3944,8 @@
 /obj/item/coin/platinum,
 /obj/item/coin/platinum,
 /obj/item/coin/uranium,
-/obj/item/stack/material/platinum/ten,
-/obj/item/stack/material/diamond/ten,
+/obj/item/stack/material/ingot/mapped/platinum/ten,
+/obj/item/stack/material/gemstone/mapped/diamond/ten,
 /obj/effect/floor_decal/techfloor{
 	dir = 4
 	},

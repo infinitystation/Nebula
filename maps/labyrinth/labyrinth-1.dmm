@@ -963,12 +963,12 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/item/stack/material/tritium/fifty,
-/obj/item/stack/material/tritium/fifty,
-/obj/item/stack/material/tritium/fifty,
-/obj/item/stack/material/deuterium/fifty,
-/obj/item/stack/material/deuterium/fifty,
-/obj/item/stack/material/deuterium/fifty,
+/obj/item/stack/material/aerogel/mapped/tritium/fifty,
+/obj/item/stack/material/aerogel/mapped/tritium/fifty,
+/obj/item/stack/material/aerogel/mapped/tritium/fifty,
+/obj/item/stack/material/aerogel/mapped/deuterium/fifty,
+/obj/item/stack/material/aerogel/mapped/deuterium/fifty,
+/obj/item/stack/material/aerogel/mapped/deuterium/fifty,
 /obj/structure/closet/crate/radiation,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/protofusionreactor)
@@ -1013,10 +1013,10 @@
 /area/labyrinth/engineering/reactor)
 "fz" = (
 /obj/structure/table/rack,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/ten,
-/obj/item/stack/material/glass/ten,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/ten,
+/obj/item/stack/material/pane/mapped/glass/ten,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 "fB" = (
@@ -2156,15 +2156,15 @@
 /area/labyrinth/service/cargo)
 "nb" = (
 /obj/structure/closet/crate,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
 /obj/effect/floor_decal/corner/research{
 	dir = 10
 	},
@@ -3344,7 +3344,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering/protorcontrol)
 "tR" = (
-/obj/item/stack/material/osmium/ten,
+/obj/item/stack/material/ingot/mapped/osmium/ten,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science/fabrication)
@@ -4495,16 +4495,16 @@
 /area/labyrinth/science)
 "BO" = (
 /obj/structure/closet/crate,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/osmium/ten,
-/obj/item/stack/material/osmium/ten,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
+/obj/item/stack/material/ingot/mapped/osmium/ten,
+/obj/item/stack/material/ingot/mapped/osmium/ten,
 /obj/effect/floor_decal/corner/research{
 	dir = 10
 	},
@@ -4512,14 +4512,14 @@
 /area/labyrinth/science)
 "BR" = (
 /obj/structure/closet/crate,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/plastic/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
 /obj/effect/floor_decal/corner/research{
 	dir = 10
 	},
@@ -5945,8 +5945,8 @@
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/security/armory)
 "Lt" = (
@@ -6332,12 +6332,12 @@
 /obj/random/material,
 /obj/random/material,
 /obj/random/material,
-/obj/item/stack/material/osmium/ten,
-/obj/item/stack/material/osmium/ten,
-/obj/item/stack/material/osmium/ten,
-/obj/item/stack/material/osmium/ten,
-/obj/item/stack/material/osmium/ten,
-/obj/item/stack/material/osmium/ten,
+/obj/item/stack/material/ingot/mapped/osmium/ten,
+/obj/item/stack/material/ingot/mapped/osmium/ten,
+/obj/item/stack/material/ingot/mapped/osmium/ten,
+/obj/item/stack/material/ingot/mapped/osmium/ten,
+/obj/item/stack/material/ingot/mapped/osmium/ten,
+/obj/item/stack/material/ingot/mapped/osmium/ten,
 /obj/effect/floor_decal/spline/plain/orange{
 	dir = 1
 	},
@@ -7316,9 +7316,9 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "Va" = (
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
+/obj/item/stack/material/puck/mapped/uranium/ten,
 /obj/structure/closet/crate/radiation,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
@@ -7526,17 +7526,17 @@
 "Wz" = (
 /obj/structure/closet/crate,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/reinforced/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/rglass/fifty,
 /obj/item/stack/material/rods/fifty,
 /obj/item/stack/material/rods/fifty,
-/obj/item/stack/material/plasteel/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/plastic/fifty,
+/obj/item/stack/material/reinforced/mapped/plasteel/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/engineering)
 "WC" = (
@@ -7567,18 +7567,18 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/closet/crate,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/aluminium/fifty,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/plastic/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
+/obj/item/stack/material/shiny/mapped/aluminium/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
 /turf/simulated/floor/plating,
 /area/labyrinth/service/cargo)
 "WI" = (

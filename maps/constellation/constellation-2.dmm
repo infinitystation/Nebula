@@ -513,9 +513,7 @@
 /obj/random/maintenance,
 /obj/random/maintenance,
 /obj/random/maintenance,
-/obj/item/stack/material/osmium/ten{
-	amount = 60
-	},
+/obj/item/stack/material/ingot/mapped/osmium/ten,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/cargo/lower)
 "be" = (
@@ -2224,8 +2222,8 @@
 "ni" = (
 /obj/structure/table/rack,
 /obj/item/stock_parts/circuitboard/pacman/super/potato,
-/obj/item/stack/material/glass/reinforced_borosilicate/ten,
-/obj/item/stack/material/ocp/ten,
+/obj/item/stack/material/pane/mapped/rborosilicate/ten,
+/obj/item/stack/material/reinforced/mapped/ocp/ten,
 /obj/item/stock_parts/circuitboard/unary_atmos/engine,
 /obj/item/stock_parts/circuitboard/unary_atmos/engine,
 /obj/item/stock_parts/circuitboard/unary_atmos/engine,
@@ -2679,9 +2677,7 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 10
 	},
-/obj/item/stack/material/osmium/ten{
-	amount = 60
-	},
+/obj/item/stack/material/ingot/mapped/osmium/ten,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "Db" = (
@@ -3364,17 +3360,17 @@
 /area/constellation/maintenance/lower)
 "Vm" = (
 /obj/item/tape_roll,
-/obj/item/stack/material/plasteel/fifty,
+/obj/item/stack/material/reinforced/mapped/plasteel/fifty,
 /obj/item/stack/material/rods/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
+/obj/item/stack/material/panel/mapped/plastic/fifty,
+/obj/item/stack/material/sheet/mapped/steel/fifty,
 /obj/structure/closet/crate,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/reinforced/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/item/stack/material/pane/mapped/rglass/fifty,
 /obj/item/clothing/head/welding,
-/obj/item/stack/material/cardboard/fifty,
+/obj/item/stack/material/cardstock/mapped/cardboard/fifty,
 /obj/item/tape_roll,
 /obj/item/taperoll/engineering,
 /obj/effect/floor_decal/corner/yellow{

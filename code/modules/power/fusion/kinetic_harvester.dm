@@ -45,7 +45,7 @@
 	var/datum/extension/local_network_member/lanm = get_extension(src, /datum/extension/local_network_member)
 	var/datum/local_network/lan = lanm.get_local_network()
 
-	if(lan)	
+	if(lan)
 		var/list/fusion_cores = lan.get_devices(/obj/machinery/power/fusion_core)
 		if(fusion_cores && fusion_cores.len)
 			harvest_from = fusion_cores[1]
@@ -114,7 +114,7 @@
 			var/sheet_cost = (SHEET_MATERIAL_AMOUNT * 1.5)
 			var/sheets = Floor(stored[material.type]/sheet_cost)
 			if(sheets > 0)
-				material.place_sheet(loc, sheets)
+				material.create_object(loc, sheets)
 				stored[material.type] -= (sheets * sheet_cost)
 				if(stored[material.type] <= 0)
 					stored -= material.type
