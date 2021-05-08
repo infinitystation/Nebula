@@ -60,10 +60,12 @@
 
 			if(new_name)
 				to_chat(user, SPAN_NOTICE("You label \the [src] '[new_name]'."))
-				track.title = "tape - \"[new_name]\""
+				if(track)
+					track.title = "tape - \"[new_name]\""
 			else
 				to_chat(user, SPAN_NOTICE("You scratch off the label."))
-				track.title = "tape - unknown"
+				if(track)
+					track.title = "tape - unknown"
 		return
 	..()
 
