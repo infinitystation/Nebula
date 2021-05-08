@@ -13,7 +13,7 @@
 
 /datum/job/labyrnith
 
-	outfit_type = /decl/hierarchy/outfit/job/labyrnith
+	outfit_type = /decl/hierarchy/outfit/job/labyrinth
 
 	skill_points = 16
 
