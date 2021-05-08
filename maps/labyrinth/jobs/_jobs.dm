@@ -1,9 +1,9 @@
 /datum/map/labyrinth
 	default_law_type = /datum/ai_laws/asimov
 	default_job_title = "Crewmember"
-	default_job_type = /datum/job/labyrnith/civilian/crewmember
+	default_job_type = /datum/job/labyrinth/civilian/crewmember
 	allowed_jobs = list(
-		/datum/job/labyrnith/civilian/crewmember,
+		/datum/job/labyrinth/civilian/crewmember,
 		/datum/job/labyrinth/command/director,
 		/datum/job/labyrinth/command/logistics_officer,
 		/datum/job/labyrinth/engineering/engineer,
@@ -11,7 +11,7 @@
 		/datum/job/labyrinth/science/researcher
 	)
 
-/datum/job/labyrnith
+/datum/job/labyrinth
 
 	outfit_type = /decl/hierarchy/outfit/job/labyrinth
 
@@ -29,5 +29,5 @@
 
 	hud_icon = "hudblank"
 
-/datum/job/labyrnith/civilian/crewmember
+/datum/job/labyrinth/civilian/crewmember
 	title = "Crewmember"
