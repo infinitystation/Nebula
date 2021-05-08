@@ -10,7 +10,7 @@
 	anchored = 1 //There's a reason this is here, Mport. God fucking damn it -Agouri. Find&Fix by Pete. The reason this is here is to stop the curving of emitter shots.
 	pass_flags = PASS_FLAG_TABLE
 	mouse_opacity = 0
-	randpixel = 0	
+	randpixel = 0
 	var/bumped = 0		//Prevents it from hitting more than one guy at once
 	var/def_zone = ""	//Aiming at
 	var/mob/firer = null//Who shot it
@@ -235,10 +235,10 @@
 
 		if(damage_type == BRUTE)
 			playsound(target_mob, pick(list(
-				'starlight/mods/content/starlight/sound/effects/gore/bullethit1.ogg',
-				'starlight/mods/content/starlight/sound/effects/gore/bullethit2.ogg',
-				'starlight/mods/content/starlight/sound/effects/gore/bullethit3.ogg',
-				'starlight/mods/content/starlight/sound/effects/gore/bullethit4.ogg')), 50, 1)
+				'starlight/mods/content/starlight/datum/atom/mob/living/gore/bullethit1.ogg',
+				'starlight/mods/content/starlight/datum/atom/mob/living/gore/bullethit2.ogg',
+				'starlight/mods/content/starlight/datum/atom/mob/living/gore/bullethit3.ogg',
+				'starlight/mods/content/starlight/datum/atom/mob/living/gore/bullethit4.ogg')), 50, 1)
 
 	//admin logs
 	if(!no_attack_log)

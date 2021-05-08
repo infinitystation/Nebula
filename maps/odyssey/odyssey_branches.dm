@@ -59,8 +59,6 @@
 		/datum/mil_rank/exo/o6
 		)
 
-	assistant_job = DEFAULT_JOB_TYPE
-
 	// Email addresses will be created under this domain name. Mostly for the looks.
 	email_domain = "odyssey.exo.usn.net"
 

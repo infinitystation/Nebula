@@ -46,13 +46,13 @@
 	// pulse mod starts out as just the chemical effect amount
 	var/pulse_mod = GET_CHEMICAL_EFFECT(owner, CE_PULSE)
 	var/is_stable = GET_CHEMICAL_EFFECT(owner, CE_STABLE)
-		
+
 	// If you have enough heart chemicals to be over 2, you're likely to take extra damage.
 	if(pulse_mod > 2 && !is_stable)
 		var/damage_chance = (pulse_mod - 2) ** 2
 		if(prob(damage_chance))
 			take_internal_damage(0.5)
-	
+
 	// Now pulse mod is impacted by shock stage and other things too
 	if(owner.shock_stage > 30)
 		pulse_mod++
@@ -178,7 +178,7 @@
 			SET_STATUS_MAX(owner, STAT_STUN, 1)
 			owner.set_status(STAT_BLURRY, 2)
 
-			playsound(owner, 'starlight/mods/content/starlight/sound/effects/gore/blood_splat.ogg', 100, 0, -2)
+			playsound(owner, 'starlight/mods/content/starlight/datum/atom/mob/living/gore/blood_splat.ogg', 100, 0, -2)
 
 			//AB occurs every heartbeat, this only throttles the visible effect
 			next_blood_squirt = world.time + 80

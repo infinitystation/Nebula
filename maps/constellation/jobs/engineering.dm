@@ -3,7 +3,7 @@
 	total_positions = 3
 	spawn_positions = 3
 
-	outfit_type = /decl/hierarchy/outfit/job/constellation/engineering
+	skill_points = 24
 
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,

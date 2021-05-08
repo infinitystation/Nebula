@@ -1,8 +1,9 @@
 /datum/map/constellation
 	default_law_type = /datum/ai_laws/corporate
-	default_assistant_title = "Crewmember"
+	default_job_title = "Crewmember"
+	default_job_type = /datum/job/constellation/civilian/crewmember
 	allowed_jobs = list(
-		/datum/job/assistant,
+		/datum/job/constellation/civilian/crewmember,
 		/datum/job/constellation/command/captain,
 		/datum/job/constellation/command/logistics_officer,
 		/datum/job/constellation/engineering/engineer,
@@ -10,12 +11,9 @@
 		/datum/job/constellation/science/researcher
 	)
 
-// God forgive me for this stub
 /datum/job/constellation
-	hud_icon = "hudblank"
 
-/datum/job/assistant
-	title = "Crewmember"
+	outfit_type = /decl/hierarchy/outfit/job/constellation
 
 	skill_points = 16
 
@@ -30,3 +28,6 @@
 	)
 
 	hud_icon = "hudblank"
+
+/datum/job/constellation/civilian/crewmember
+	title = "Crewmember"
