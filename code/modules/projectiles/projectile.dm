@@ -237,7 +237,7 @@
 			playsound(target_mob, pick(list(
 				'starlight/mods/content/starlight/datum/atom/mob/living/gore/bullethit1.ogg',
 				'starlight/mods/content/starlight/datum/atom/mob/living/gore/bullethit2.ogg',
-				'starlight/mods/content/starlight/datum/atom/mob/living/gore//bullethit3.ogg',
+				'starlight/mods/content/starlight/datum/atom/mob/living/gore/bullethit3.ogg',
 				'starlight/mods/content/starlight/datum/atom/mob/living/gore/bullethit4.ogg')), 50, 1)
 
 	//admin logs
