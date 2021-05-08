@@ -511,9 +511,6 @@
 					to_chat(M, "<span class='warning'>The reason is: [reason]</span>")
 					to_chat(M, "<span class='warning'>This jobban will be lifted in [mins_readable].</span>")
 					href_list["jobban_panel_target"] = 1 // lets it fall through and refresh
-
-					SSwebhooks.send("webhook_message_ban", list("bantype" = BANTYPE_JOB_TEMP, "setter" = get_key(usr), "banned" = get_key(M), "reason" = reason, "duration" = mins, "banned_jobs" = msg))
-
 					return 1
 				if("No")
 					if(!check_rights(R_BAN))  return
@@ -535,9 +532,6 @@
 						to_chat(M, "<span class='warning'>The reason is: [reason]</span>")
 						to_chat(M, "<span class='warning'>Jobban can be lifted only upon request.</span>")
 						href_list["jobban_panel_target"] = 1 // lets it fall through and refresh
-
-						SSwebhooks.send("webhook_message_ban", list("bantype" = BANTYPE_JOB_PERMA, "setter" = get_key(usr), "banned" = get_key(M), "reason" = reason, "banned_jobs" = msg))
-
 						return 1
 				if("Cancel")
 					return
