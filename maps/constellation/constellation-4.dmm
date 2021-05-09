@@ -322,6 +322,11 @@
 	},
 /turf/simulated/floor/airless,
 /area/constellation/engineering/engine)
+"fa" = (
+/obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "fd" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -478,6 +483,23 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/comms)
+"jN" = (
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 8
+	},
+/obj/machinery/light/small/red,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
+"jO" = (
+/obj/machinery/atmospherics/pipe/cap/visible/fuel{
+	dir = 1
+	},
+/obj/structure/catwalk,
+/obj/machinery/door/blast/regular{
+	name = "blast shutters (fuel bay)"
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "ke" = (
 /obj/machinery/firealarm,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -499,6 +521,17 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/airless,
+/area/constellation/engineering/engine)
+"kS" = (
+/obj/structure/ladder,
+/obj/machinery/atmospherics/pipe/zpipe/down/fuel{
+	dir = 4
+	},
+/obj/structure/lattice,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/open,
 /area/constellation/engineering/engine)
 "kT" = (
 /obj/structure/cable/yellow{
@@ -536,6 +569,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/constellation/comms)
+"lW" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "ma" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	id_tag = "solars";
@@ -607,6 +644,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/command/bridge_upper)
+"mz" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "mE" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -701,6 +744,14 @@
 /obj/machinery/power/solar,
 /turf/simulated/floor/airless,
 /area/space)
+"ph" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 10
+	},
+/obj/structure/lattice,
+/obj/item/hoist_kit,
+/turf/simulated/open,
+/area/constellation/engineering/engine)
 "pr" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/constellation/engineering/engine)
@@ -767,6 +818,13 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
+"qG" = (
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 4
+	},
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/constellation/engineering/engine)
 "qI" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -809,6 +867,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/storage/canister)
+"re" = (
+/obj/machinery/atmospherics/unary/tank/carbon_dioxide{
+	start_pressure = 15000
+	},
+/obj/machinery/light/small/red{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "rl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
@@ -824,6 +891,18 @@
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /obj/item/weldingtool/largetank,
 /turf/simulated/floor/airless,
+/area/constellation/engineering/engine)
+"sH" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 9
+	},
+/obj/structure/lattice,
+/obj/structure/railing/mapped,
+/obj/item/radio/intercom{
+	dir = 8;
+	pixel_x = 22
+	},
+/turf/simulated/open,
 /area/constellation/engineering/engine)
 "sR" = (
 /obj/machinery/alarm{
@@ -884,6 +963,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
+"ul" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 5
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "un" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -1029,10 +1114,10 @@
 /area/constellation/engineering/engine)
 "wN" = (
 /obj/effect/floor_decal/techfloor,
-/obj/machinery/suit_cycler/constellation,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
+/obj/machinery/suit_cycler/constellation/heavy,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/storage/canister)
 "wQ" = (
@@ -1042,6 +1127,17 @@
 "wX" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/constellation/engineering/upper)
+"xf" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/obj/structure/lattice,
+/obj/machinery/meter,
+/obj/machinery/light/small/red{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/constellation/engineering/engine)
 "xF" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -1202,6 +1298,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/storage/canister)
+"Ch" = (
+/obj/machinery/atmospherics/unary/tank/carbon_dioxide{
+	start_pressure = 15000
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "Dg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1405,6 +1510,11 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/engineering/solars)
+"Gc" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel,
+/obj/machinery/light/small/red,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "Gp" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
@@ -1424,9 +1534,16 @@
 /area/constellation/engineering/engine)
 "GC" = (
 /obj/effect/floor_decal/techfloor,
-/obj/machinery/suit_cycler/constellation,
+/obj/machinery/suit_cycler/constellation/heavy,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/storage/canister)
+"GG" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/obj/machinery/meter,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "GP" = (
 /turf/simulated/open,
 /area/constellation/engineering/solars)
@@ -1474,6 +1591,15 @@
 "Iz" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/airless,
+/area/constellation/engineering/engine)
+"ID" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel,
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/hatch/autoname/engineering,
+/obj/machinery/door/blast/regular{
+	name = "blast shutters (fuel bay)"
+	},
+/turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "IH" = (
 /obj/random/shoes,
@@ -1532,6 +1658,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/comms)
+"JK" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 1
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "Ko" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -1759,6 +1892,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/storage/canister)
+"QP" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "Rg" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -2031,6 +2173,19 @@
 /obj/machinery/door/airlock/hatch/autoname/engineering,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/storage/canister)
+"XV" = (
+/obj/machinery/atmospherics/unary/tank/carbon_dioxide{
+	start_pressure = 15000
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
+"Yd" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 8
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "Yk" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -2128,6 +2283,12 @@
 /obj/machinery/cell_charger,
 /turf/simulated/floor/plating,
 /area/constellation/comms)
+"ZX" = (
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 
 (1,1,1) = {"
 aa
@@ -4379,7 +4540,7 @@ aa
 aa
 aa
 aa
-aa
+ax
 ax
 ax
 ax
@@ -4982,11 +5143,11 @@ pr
 wA
 pr
 pr
-ax
-ax
-ax
-ax
-ax
+pr
+pr
+pr
+pr
+pr
 aa
 aa
 aa
@@ -5065,11 +5226,11 @@ yd
 pr
 pr
 pr
-ax
-ax
-ax
-ax
-aa
+pr
+pr
+pr
+pr
+pr
 aa
 aa
 aa
@@ -5146,12 +5307,12 @@ tD
 YM
 lk
 pr
+XV
+ul
+XV
+ul
 pr
-ax
-ax
-ax
-ax
-aa
+pr
 aa
 aa
 aa
@@ -5228,12 +5389,12 @@ sx
 RF
 Rv
 pr
+re
+lW
+XV
+Gc
 pr
-ax
-ax
-ax
-ax
-aa
+pr
 aa
 aa
 aa
@@ -5310,12 +5471,12 @@ eH
 lr
 Ec
 pr
+Ch
+lW
+Ch
+lW
 pr
-ax
-ax
-ax
-ax
-aa
+pr
 aa
 aa
 aa
@@ -5392,12 +5553,12 @@ kR
 Wu
 Iz
 pr
-pr
-ax
-ax
-ax
-ax
-aa
+wQ
+JK
+Yd
+fa
+ID
+jO
 aa
 aa
 aa
@@ -5474,12 +5635,12 @@ Wu
 Wu
 qo
 pr
+kS
+QP
+GG
+QP
 pr
-ax
-ax
-ax
-ax
-aa
+pr
 aa
 aa
 aa
@@ -5556,12 +5717,12 @@ aU
 Wu
 Wu
 pr
+xf
+qG
+ZX
+jN
 pr
-ax
-ax
-ax
-ax
-aa
+pr
 aa
 aa
 aa
@@ -5638,12 +5799,12 @@ aU
 aU
 aU
 pr
+ph
+sH
+mz
+mz
 pr
-ax
-ax
-ax
-ax
-aa
+pr
 aa
 aa
 aa
@@ -5721,11 +5882,11 @@ pr
 pr
 pr
 pr
-ax
-ax
-ax
-ax
-aa
+pr
+pr
+pr
+pr
+pr
 aa
 aa
 aa
@@ -5802,11 +5963,11 @@ pr
 pr
 pr
 pr
-ax
-ax
-ax
-ax
-ax
+pr
+pr
+pr
+pr
+pr
 aa
 aa
 aa
@@ -6347,7 +6508,7 @@ aa
 aa
 aa
 aa
-aa
+ax
 ax
 ax
 ax

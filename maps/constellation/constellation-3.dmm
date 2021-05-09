@@ -1022,18 +1022,29 @@
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "cC" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/structure/closet/crate/uranium,
-/obj/item/stack/material/puck/mapped/uranium/ten,
-/obj/item/stack/material/puck/mapped/uranium/ten,
-/obj/item/stack/material/puck/mapped/uranium/ten,
 /obj/machinery/light/small/red{
 	dir = 4
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/structure/catwalk,
+/obj/machinery/power/smes/buildable/max_cap_in_out,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
+"cD" = (
+/obj/structure/window/borosilicate_reinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/constellation/engineering/engine)
 "cE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1059,7 +1070,8 @@
 /area/constellation/exploration_shuttle)
 "cI" = (
 /obj/machinery/power/port_gen/pacman/super/potato,
-/obj/structure/cable,
+/obj/structure/cable/yellow,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "cN" = (
@@ -2168,6 +2180,16 @@
 /obj/machinery/firealarm,
 /turf/simulated/floor/tiled/dark,
 /area/constellation/crew/library)
+"ge" = (
+/obj/structure/window/borosilicate_reinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel,
+/turf/simulated/floor/tiled/techfloor,
+/area/constellation/engineering/engine)
 "gh" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 10
@@ -2183,6 +2205,12 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -24
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 5
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/engine)
@@ -3637,6 +3665,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "kc" = (
@@ -3674,6 +3703,7 @@
 	dir = 4
 	},
 /obj/structure/handrail,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "ki" = (
@@ -3697,32 +3727,35 @@
 	emp_hardened = 1
 	},
 /obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/structure/cable{
 	icon_state = "2-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "kk" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
 	},
 /obj/machinery/alarm{
 	dir = 4
 	},
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "kl" = (
@@ -3762,7 +3795,9 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 8
 	},
-/obj/machinery/fabricator/pipe,
+/obj/machinery/fabricator/pipe{
+	anchored = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/atmos)
 "kt" = (
@@ -3774,8 +3809,10 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 8
 	},
-/obj/machinery/fabricator/pipe/disposal,
 /obj/machinery/light/small,
+/obj/machinery/fabricator/pipe/disposal{
+	anchored = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/atmos)
 "kx" = (
@@ -3911,6 +3948,9 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/orange/mono,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 10
+	},
 /turf/simulated/floor/reinforced/nitrogen/engine,
 /area/constellation/engineering/engine)
 "ms" = (
@@ -4128,6 +4168,9 @@
 /obj/structure/window/borosilicate_reinforced{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 6
+	},
 /turf/simulated/floor/reinforced/nitrogen/engine,
 /area/constellation/engineering/engine)
 "oG" = (
@@ -4344,7 +4387,7 @@
 /turf/simulated/floor/airless,
 /area/constellation/command/fmate)
 "qZ" = (
-/obj/machinery/suit_cycler/constellation/salvage,
+/obj/machinery/suit_cycler/constellation/heavy,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/storage)
 "ra" = (
@@ -4500,10 +4543,10 @@
 /area/constellation/crew/hydro)
 "tc" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
-/obj/machinery/meter,
 /obj/machinery/firealarm{
 	dir = 1
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "tg" = (
@@ -4540,15 +4583,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/constellation/engineering/engine)
-"tT" = (
-/obj/structure/catwalk,
-/obj/structure/extinguisher_cabinet{
-	dir = 8;
-	pixel_y = -24
-	},
-/obj/structure/closet/firecloset,
-/turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "tW" = (
 /obj/machinery/door/blast/regular/open{
@@ -4597,18 +4631,12 @@
 	},
 /turf/simulated/floor/reinforced/nitrogen/engine,
 /area/constellation/engineering/engine)
-"ur" = (
-/obj/effect/paint{
-	color = "#7c3a9a"
-	},
-/turf/simulated/wall/ocp_wall,
-/area/constellation/engineering/engine)
 "uE" = (
-/obj/machinery/atmospherics/pipe/simple/visible/cyan{
-	dir = 4
-	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/engine)
@@ -4712,9 +4740,6 @@
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
-/obj/structure/window/borosilicate_reinforced{
-	dir = 8
-	},
 /turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "vt" = (
@@ -4809,6 +4834,7 @@
 "wi" = (
 /obj/structure/catwalk,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "wn" = (
@@ -4835,6 +4861,7 @@
 	dir = 8;
 	pixel_y = -24
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "wB" = (
@@ -4892,6 +4919,10 @@
 /turf/simulated/floor/lino,
 /area/constellation/crew/saloon)
 "xv" = (
+/obj/machinery/atmospherics/pipe/zpipe/up/fuel{
+	dir = 8
+	},
+/obj/structure/ladder,
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/engine)
 "xB" = (
@@ -5085,11 +5116,12 @@
 /turf/simulated/floor/airless,
 /area/constellation/command/fmate)
 "zI" = (
-/obj/machinery/fabricator/pipe,
-/obj/structure/railing/mapped{
-	dir = 1
+/obj/structure/catwalk,
+/obj/structure/railing/mapped,
+/obj/machinery/fabricator/pipe{
+	anchored = 1
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "zO" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -5178,15 +5210,19 @@
 /area/constellation/cargo)
 "Ap" = (
 /obj/structure/catwalk,
-/obj/item/stack/material/sheet/mapped/steel/fifty,
-/obj/item/stack/material/pane/mapped/glass/fifty,
+/obj/structure/railing/mapped,
 /obj/structure/table/rack,
-/obj/item/stack/material/pane/mapped/rborosilicate/ten,
-/obj/item/stack/material/pane/mapped/rborosilicate/ten,
-/obj/structure/railing/mapped{
-	dir = 1
+/obj/item/stack/material/pane/mapped/rborosilicate/twenty,
+/obj/item/stack/material/sheet/mapped/steel/thirty,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
+"Ar" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 6
 	},
-/obj/machinery/light/small,
+/obj/machinery/light/small/red{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "As" = (
@@ -5238,7 +5274,9 @@
 /obj/effect/floor_decal/corner/orange/half{
 	dir = 1
 	},
-/obj/machinery/meter/turf,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
+	dir = 1
+	},
 /turf/simulated/floor/reinforced/nitrogen/engine,
 /area/constellation/engineering/engine)
 "BD" = (
@@ -5294,6 +5332,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/constellation/engineering/power)
+"CF" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel,
+/obj/machinery/meter,
+/obj/machinery/light/small/red{
+	dir = 8
+	},
+/obj/structure/railing/mapped,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "CG" = (
 /obj/structure/table/standard,
 /obj/effect/landmark/paperwork_spawn_constellation,
@@ -5406,6 +5453,7 @@
 	dir = 6
 	},
 /obj/machinery/suit_cycler/constellation/salvage,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "DE" = (
@@ -5476,11 +5524,11 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/cargo)
 "Eo" = (
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 8
-	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/engine)
@@ -5491,7 +5539,7 @@
 /turf/simulated/floor/tiled/white,
 /area/constellation/medical)
 "EO" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red{
+/obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -5561,8 +5609,9 @@
 /turf/simulated/floor/lino,
 /area/constellation/crew/hallway_starboard)
 "Fv" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/hatch/autoname,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/medical)
 "FD" = (
 /obj/machinery/door/firedoor,
@@ -5684,6 +5733,9 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/storage)
+"GB" = (
+/turf/simulated/floor/reinforced/airless,
+/area/space)
 "GJ" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 4
@@ -5967,6 +6019,10 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/constellation/command/bridge)
+"IW" = (
+/obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "Jb" = (
 /obj/structure/table/rack,
 /obj/random/powercell,
@@ -6038,10 +6094,13 @@
 /turf/simulated/floor/lino,
 /area/constellation/crew/saloon)
 "JS" = (
-/obj/machinery/ion_thruster{
+/obj/structure/window/borosilicate_reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/airless,
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/constellation/engineering/engine)
 "JW" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -6177,6 +6236,12 @@
 /obj/machinery/door/airlock/hatch/autoname/engineering,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/power)
+"KP" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "KQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/corner/yellow{
@@ -6260,8 +6325,11 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/crew/hallway_port)
 "Lz" = (
-/obj/machinery/atmospherics/binary/pump/high_power{
+/obj/effect/floor_decal/industrial/loading{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/engine)
@@ -6283,6 +6351,10 @@
 /area/constellation/engineering/engine)
 "LL" = (
 /obj/structure/catwalk,
+/obj/item/modular_computer/telescreen/preset/engineering{
+	pixel_x = 32;
+	pixel_y = -4
+	},
 /turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "LP" = (
@@ -6448,6 +6520,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
+"Nk" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 10
+	},
+/obj/machinery/light/small/red{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "Np" = (
 /obj/item/radio/intercom{
 	dir = 4;
@@ -6545,13 +6626,15 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
 /obj/machinery/portable_atmospherics/canister/air/airlock{
 	start_pressure = 1460
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
-/obj/item/geiger,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "OP" = (
@@ -6655,6 +6738,12 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/engineering/power)
+"PP" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/constellation/engineering/engine)
 "PU" = (
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -6765,6 +6854,7 @@
 /obj/structure/table/standard,
 /obj/machinery/cell_charger,
 /obj/machinery/light/small,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "QS" = (
@@ -6985,6 +7075,9 @@
 	dir = 9
 	},
 /obj/structure/emergency_dispenser/east,
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/engine)
 "TL" = (
@@ -7128,15 +7221,23 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/crew/hallway_port)
 "VA" = (
-/obj/machinery/power/smes/buildable/max_cap_in_out,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
 /obj/structure/catwalk,
+/obj/machinery/power/smes/buildable/preset{
+	_fully_charged = 1;
+	_input_maxed = 1;
+	_input_on = 1;
+	_output_maxed = 1;
+	_output_on = 1;
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil/super_io = 1)
+	},
 /turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "VD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "VF" = (
@@ -7372,6 +7473,9 @@
 /obj/structure/window/borosilicate_reinforced{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
+	dir = 1
+	},
 /turf/simulated/floor/reinforced/nitrogen/engine,
 /area/constellation/engineering/engine)
 "Ya" = (
@@ -7459,6 +7563,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "Za" = (
@@ -7499,6 +7604,7 @@
 	dir = 9
 	},
 /obj/machinery/recharge_station,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/constellation/exploration_shuttle)
 "Zo" = (
@@ -9783,24 +9889,24 @@ Bw
 wc
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
 hD
 hD
 hD
@@ -9863,9 +9969,9 @@ kk
 cI
 Bw
 km
-aa
-aa
-aa
+GB
+GB
+GB
 cU
 cU
 dZ
@@ -9945,7 +10051,7 @@ cC
 Bw
 Bw
 km
-aa
+GB
 cU
 cU
 cU
@@ -10027,7 +10133,7 @@ eN
 iy
 qo
 aa
-aa
+GB
 cU
 dh
 iN
@@ -10469,8 +10575,8 @@ hD
 hD
 iQ
 iQ
-iQ
-iQ
+IA
+Ar
 JS
 aa
 aa
@@ -10547,12 +10653,12 @@ jd
 LP
 De
 uq
-ur
+iQ
 ou
 XU
 gi
 zI
-iQ
+KP
 JS
 aa
 aa
@@ -10629,12 +10735,12 @@ HM
 kl
 vy
 Sy
-ur
+iQ
 mp
 BA
-gi
+ge
 Ap
-iQ
+KP
 JS
 aa
 aa
@@ -10711,12 +10817,12 @@ oG
 kI
 VF
 eK
-ur
+iQ
 Qn
 zX
-gi
-tT
+cD
 iQ
+KP
 JS
 aa
 aa
@@ -10796,9 +10902,9 @@ tC
 vl
 cR
 by
-xv
-LL
-iQ
+PP
+CF
+IW
 JS
 aa
 aa
@@ -10879,8 +10985,8 @@ br
 Lz
 EO
 xv
-wi
 iQ
+KP
 JS
 aa
 aa
@@ -10962,7 +11068,7 @@ Uw
 LF
 QS
 wi
-iQ
+KP
 JS
 aa
 aa
@@ -11044,7 +11150,7 @@ FU
 Qh
 NZ
 wi
-iQ
+KP
 JS
 aa
 aa
@@ -11125,8 +11231,8 @@ hL
 hL
 iQ
 iQ
-iQ
-iQ
+IA
+Nk
 JS
 aa
 aa
@@ -11503,7 +11609,7 @@ aa
 aa
 aa
 aa
-aa
+GB
 dd
 ds
 dJ
@@ -11585,7 +11691,7 @@ aa
 aa
 aa
 aa
-aa
+GB
 dd
 dd
 dd
@@ -11667,9 +11773,9 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+GB
+GB
+GB
 dd
 dd
 ev
@@ -11751,24 +11857,24 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
+GB
 hL
 hL
 hL

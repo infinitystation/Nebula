@@ -7,14 +7,15 @@
 
 	armor = list(
 		melee = ARMOR_MELEE_VERY_HIGH,
-		bullet = ARMOR_BALLISTIC_RIFLE,
-		laser = ARMOR_LASER_HANDGUNS,
-		bomb = ARMOR_BOMB_RESISTANT,
+		bullet = ARMOR_BALLISTIC_AP,
+		laser = ARMOR_LASER_RIFLES,
+		bomb = ARMOR_BOMB_SHIELDED,
 		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_SHIELDED
 		)
+	max_heat_protection_temperature = FIRE_HELMET_MAX_HEAT_PROTECTION_TEMPERATURE
 	max_pressure_protection = FIRESUIT_MAX_PRESSURE
-	siemens_coefficient = 0.1
+	siemens_coefficient = 0
 
 /obj/item/clothing/suit/space/void/stargazer
 	name = "stargazer suit"
@@ -23,21 +24,22 @@
 
 	armor = list(
 		melee = ARMOR_MELEE_VERY_HIGH,
-		bullet = ARMOR_BALLISTIC_RIFLE,
-		laser = ARMOR_LASER_HANDGUNS,
-		bomb = ARMOR_BOMB_RESISTANT,
+		bullet = ARMOR_BALLISTIC_AP,
+		laser = ARMOR_LASER_RIFLES,
+		bomb = ARMOR_BOMB_SHIELDED,
 		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_SHIELDED
 		)
+	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	max_pressure_protection = FIRESUIT_MAX_PRESSURE
-	siemens_coefficient = 0.1
+	siemens_coefficient = 0
 
 	can_breach = FALSE
 	allowed = list(/obj/item/tank,/obj/item/suit_cooling_unit)
 
 /obj/item/clothing/suit/space/void/stargazer/Initialize()
 	. = ..()
-	LAZYSET(slowdown_per_slot, slot_wear_suit_str, 6)
+	LAZYSET(slowdown_per_slot, slot_wear_suit_str, 8)
 
 /obj/item/clothing/suit/space/void/stargazer/prepared
 	helmet = /obj/item/clothing/head/helmet/space/void/stargazer
