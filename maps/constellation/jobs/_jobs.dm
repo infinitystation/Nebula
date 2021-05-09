@@ -31,3 +31,17 @@
 
 /datum/job/constellation/civilian/crewmember
 	title = "Crewmember"
+
+	total_positions = -1
+	spawn_positions = -1
+
+	access = list()
+	minimal_access = list()
+
+	economic_power = 1
+
+	alt_titles = list(
+		"Technical Assistant",
+		"Medical Intern",
+		"Research Assistant"
+	)
