@@ -620,6 +620,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
 "bQ" = (
@@ -632,6 +633,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/loading_bay)
 "bR" = (
@@ -1446,6 +1448,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/constellation/loading_bay)
+"zh" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/beige{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/loading_bay)
 "zi" = (
 /obj/effect/floor_decal/corner/beige{
 	dir = 5
@@ -1697,6 +1714,19 @@
 	},
 /turf/simulated/floor,
 /area/constellation/maintenance/fore_port_underside_maint)
+"Ii" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/beige{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/loading_bay)
 "Iu" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 6
@@ -5411,7 +5441,7 @@ JI
 II
 bz
 yQ
-bQ
+Ii
 au
 aC
 Rg
@@ -5575,7 +5605,7 @@ bg
 yQ
 bz
 FD
-bQ
+zh
 yO
 aA
 aE

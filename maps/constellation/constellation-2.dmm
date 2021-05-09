@@ -277,6 +277,12 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 9
 	},
+/obj/structure/sign/warning/vacuum{
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "aG" = (
@@ -402,6 +408,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/floor_decal/corner/beige{
 	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
@@ -1606,6 +1615,7 @@
 	dir = 5
 	},
 /obj/structure/railing/mapped,
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "ey" = (
@@ -1875,6 +1885,13 @@
 /obj/machinery/suit_cycler/constellation/salvage,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/engineering/eva)
+"fr" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/cargo/lower)
 "fs" = (
 /obj/structure/closet/wardrobe/mixed,
 /obj/item/storage/backpack/dufflebag,
@@ -1938,6 +1955,9 @@
 	},
 /obj/effect/floor_decal/corner/beige{
 	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
@@ -2084,6 +2104,7 @@
 /obj/machinery/vending/materials{
 	dir = 8
 	},
+/obj/structure/emergency_dispenser/south,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "kr" = (
@@ -2128,6 +2149,9 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -2240,6 +2264,18 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/constellation/science)
+"nx" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 9
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/cargo/lower)
 "nz" = (
 /obj/machinery/vending/tool{
 	dir = 4
@@ -2273,6 +2309,9 @@
 	id_tag = "con"
 	},
 /obj/structure/catwalk,
+/obj/structure/sign/warning/moving_parts{
+	pixel_x = 32
+	},
 /turf/simulated/floor/plating,
 /area/constellation/cargo/lower)
 "qb" = (
@@ -2638,13 +2677,13 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "By" = (
 /obj/effect/floor_decal/corner/beige{
 	dir = 9
 	},
-/obj/structure/emergency_dispenser/west,
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -3000,6 +3039,7 @@
 /obj/effect/floor_decal/corner/beige/three_quarters{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "Mb" = (
@@ -3139,6 +3179,9 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "Qb" = (
@@ -3276,6 +3319,15 @@
 /obj/machinery/material_processing/unloader,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
+/area/constellation/cargo/lower)
+"SU" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "Tb" = (
 /obj/machinery/botany/extractor,
@@ -6707,7 +6759,7 @@ LA
 LN
 dK
 du
-Dh
+SU
 at
 aO
 Dh
@@ -6953,7 +7005,7 @@ LA
 ew
 tz
 Rl
-tR
+nx
 HH
 Lx
 aV
@@ -7032,7 +7084,7 @@ aa
 aa
 aa
 LA
-ao
+fr
 zC
 oC
 gh
