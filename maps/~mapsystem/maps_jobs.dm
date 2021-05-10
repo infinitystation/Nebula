@@ -5,7 +5,7 @@
 	var/job_to_species_blacklist = list()
 
 	/// Default job title which will be set in some cases.
-	var/default_job_title = "Assistant"
+	var/default_job_title
 	/// Default job type which will be used if map lack of any jobs or for respawn.
 	var/datum/job/default_job_type = /datum/job/assistant
 

@@ -1,5 +1,4 @@
 /datum/map/odyssey
-	default_job_title = "Crewmember"
 	allowed_jobs = list(
 		/datum/job/assistant,
 		/datum/job/odyssey/command/captain,

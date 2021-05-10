@@ -1,6 +1,5 @@
 /datum/map/labyrinth
 	default_law_type = /datum/ai_laws/asimov
-	default_job_title = "Crewmember"
 	default_job_type = /datum/job/labyrinth/civilian/crewmember
 	allowed_jobs = list(
 		/datum/job/labyrinth/civilian/crewmember,

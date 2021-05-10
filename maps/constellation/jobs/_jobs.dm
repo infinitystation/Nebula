@@ -1,6 +1,5 @@
 /datum/map/constellation
 	default_law_type = /datum/ai_laws/corporate
-	default_job_title = "Crewmember"
 	default_job_type = /datum/job/constellation/civilian/crewmember
 	allowed_jobs = list(
 		/datum/job/constellation/civilian/crewmember,
