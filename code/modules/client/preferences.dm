@@ -235,7 +235,7 @@ var/global/list/time_prefs_fixed = list()
 	// Sanitizing rather than saving as someone might still be editing when copy_to occurs.
 	player_setup.sanitize_setup()
 	character.set_species(species)
-	character.set_bodytype((character.species.get_bodytype_by_name(bodytype) || character.species.default_bodytype), TRUE) 
+	character.set_bodytype((character.species.get_bodytype_by_name(bodytype) || character.species.default_bodytype), TRUE)
 
 	if(be_random_name)
 		var/decl/cultural_info/culture = GET_DECL(cultural_info[TAG_CULTURE])
@@ -374,12 +374,6 @@ var/global/list/time_prefs_fixed = list()
 	character.flavor_texts["legs"] = flavor_texts["legs"]
 	character.flavor_texts["feet"] = flavor_texts["feet"]
 
-	character.public_record = public_record
-	character.med_record = med_record
-	character.sec_record = sec_record
-	character.gen_record = gen_record
-	character.exploit_record = exploit_record
-
 	if(!character.isSynthetic())
 		character.set_nutrition(rand(140,360))
 		character.set_hydration(rand(140,360))
@@ -417,7 +411,5 @@ var/global/list/time_prefs_fixed = list()
 	set waitfor = 0
 	if(!client)
 		return
-	if(client.get_preference_value(/datum/client_preference/chat_position) == PREF_YES)
-		client.update_chat_position(TRUE)
 	if(client.get_preference_value(/datum/client_preference/fullscreen_mode) != PREF_OFF)
 		client.toggle_fullscreen(client.get_preference_value(/datum/client_preference/fullscreen_mode))
