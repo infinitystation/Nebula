@@ -2,7 +2,7 @@
 name: Запрос функции
 about: Предложите идею для этого проекта
 title: "[FEATURE]"
-labels: ''
+labels: новая функция
 assignees: ''
 
 ---
