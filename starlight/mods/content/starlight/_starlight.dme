@@ -21,6 +21,7 @@
 #include "datum\atom\obj\machinery\wall_heater\wall_heater.dm"
 #include "datum\atom\obj\structure\barsign\barsign.dm"
 #include "datum\atom\obj\structure\noose\noose.dm"
+#include "datum\decl\bodytype\body_female.dm"
 #include "datum\decl\emote\_species.dm"
 #include "datum\decl\emote\audible.dm"
 #include "datum\decl\footsteps\_footsteps.dm"
