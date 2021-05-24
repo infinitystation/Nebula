@@ -1,12 +1,13 @@
 // smart mode feature for light switches. Ported from Infinity Station.
 // Feature by Archemagus (aka Laxesh).
 
-#define SMART_MODE_MANUAL 0
-#define SMART_MODE_ONLY_OFF 1
-#define SMART_MODE_FULL_AUTO 2
+#define SMART_MODE_MANUAL "Manual"
+#define SMART_MODE_ONLY_OFF "Only Off"
+#define SMART_MODE_FULL_AUTO "Full Auto"
 
 /obj/machinery/light_switch
-	var/smart_mode = SMART_MODE_ONLY_OFF
+	var/smart_mode = SMART_MODE_MANUAL
+	var/list/smart_mode_list = list(SMART_MODE_MANUAL, SMART_MODE_ONLY_OFF, SMART_MODE_FULL_AUTO)
 
 /obj/machinery/light_switch/examine(mob/user, distance)
 	. = ..()
@@ -20,15 +21,18 @@
 				L.smart_mode = smart_mode
 
 /obj/machinery/light_switch/proc/motion_detect(area/myarea, atom/movable/detected)
-	// Furniture - doesn't care
+	// Furniture - doesn't care.
 	if(!isliving(detected))
 		return
 
-	// Regular manual lightswitch
+	if(!(smart_mode in smart_mode_list))
+		smart_mode = initial(smart_mode)
+
+	// Regular manual lightswitch.
 	if(smart_mode == SMART_MODE_MANUAL)
 		return
 
-	// smart_mode 1 only turns off light. Turn on it manualy
+	// smart_mode 1 only turns off light. Turn on it manualy.
 	if(smart_mode == SMART_MODE_ONLY_OFF && !on)
 		return
 
@@ -36,12 +40,14 @@
 	if(locate(detected) in connected_area)
 		anyone_else = TRUE
 
-	// We won't turn lights off if there other humans presented
+	// We won't turn lights off if there other living mobs presented.
 	if(!(on ^ anyone_else))
 		return
 
-	set_state(!on)
-	visible_message("The light switch was turned [on ? "on": "off"] after \the [detected] [on ? "entered": "leaved from"] the room.")
+	if(on)
+		addtimer(CALLBACK(src, .proc/set_state, !on), 3 SECONDS, (TIMER_UNIQUE | TIMER_OVERRIDE))
+	else
+		set_state(!on)
 
 /obj/machinery/light_switch/Initialize()
 	. = ..()
@@ -55,27 +61,16 @@
 		events_repository.unregister(/decl/observ/exited, connected_area, src, /obj/machinery/light_switch/proc/motion_detect)
 	. = ..()
 
-/obj/machinery/light_switch/verb/configure_motion_detector()
-	set name = "Toggle motion sensor"
-	set desc = "Adjust light switch's motion sensors"
-	set category = "Object"
-	set src in view(1)
-
-	if(!CanPhysicallyInteract(usr))
+/obj/machinery/light_switch/AltClick(mob/user)
+	if(!CanPhysicallyInteract(usr) || !Adjacent(usr, src))
 		return
 
-	var/selection = input(usr, "Set smart_mode motion detectors mode.", "Mode" , "") as null|anything in list("Manual", "Only turn off", "Full auto")
-	if(!CanPhysicallyInteract(usr) || isnull(selection))
+	var/selection = input(usr, "Set smart mode motion detectors mode.", "Mode" , smart_mode) as null|anything in smart_mode_list
+	
+	if(!CanPhysicallyInteract(usr) || !Adjacent(usr, src) || isnull(selection))
 		return
 
-	switch(selection)
-		if("Manual")
-			smart_mode = SMART_MODE_MANUAL
-		if("Only turn off")
-			smart_mode = SMART_MODE_ONLY_OFF
-		if("Full auto")
-			smart_mode = SMART_MODE_FULL_AUTO
-
+	smart_mode = selection
 	sync_motion_mode()
 
 #undef SMART_MODE_FULL_AUTO
