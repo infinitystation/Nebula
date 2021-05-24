@@ -81,7 +81,7 @@ var/global/list/music_players = list()
 	. = ..(user)
 	if(.)
 		if(tape)
-			to_chat(user, SPAN_NOTICE("You can see \a [tape] inside it."))
+			to_chat(user, SPAN_NOTICE("You can see \the [tape] inside it."))
 
 		switch(panel)
 			if(PANEL_OPENED)
@@ -144,7 +144,7 @@ var/global/list/music_players = list()
 	if(istype(I, /obj/item/music_tape))
 		var/obj/item/music_tape/C = I
 		if(tape)
-			to_chat(user, SPAN_NOTICE("There is already \a [tape] inside."))
+			to_chat(user, SPAN_NOTICE("There is already \the [tape] inside."))
 			return
 
 		if(C.ruined)
@@ -157,17 +157,17 @@ var/global/list/music_players = list()
 		I.forceMove(src)
 		tape = C
 		user.visible_message(
-			SPAN_NOTICE("[user] insert \a [tape] into \the [src]."),
-			SPAN_NOTICE("You insert \a [tape] into \the [src]."))
+			SPAN_NOTICE("[user] insert \the [tape] into \the [src]."),
+			SPAN_NOTICE("You insert \the [tape] into \the [src]."))
 		playsound(src, 'sound/weapons/TargetOn.ogg', 35, 1)
 		update_icon()
 		return
 
-	if(istype(I, /obj/item/cell/device))
+	else if(istype(I, /obj/item/cell/device))
 		var/obj/item/cell/device/C = I
 		if(panel == PANEL_OPENED)
 			if(cell)
-				to_chat(user, SPAN_NOTICE("[src] already has \a [cell] installed."))
+				to_chat(user, SPAN_NOTICE("[src] already has \the [cell] installed."))
 				return
 
 			if(!user.unEquip(C))
@@ -175,20 +175,24 @@ var/global/list/music_players = list()
 
 			I.forceMove(src)
 			cell = C
-			to_chat(user, SPAN_NOTICE("You insert \a [cell] into \the [src]."))
+			to_chat(user, SPAN_NOTICE("You insert \the [cell] into \the [src]."))
 			update_icon()
 		return
 
-	if(isScrewdriver(I))
+	else if(isScrewdriver(I))
 		switch(panel)
 			if(PANEL_UNSCREWED)
-				user.visible_message(SPAN_NOTICE("\The [user] screw \the [src]'s front panel with \the [I]."), SPAN_NOTICE("You screw \the [src]'s front panel."))
+				user.visible_message(
+					SPAN_NOTICE("\The [user] screw \the [src]'s front panel with \the [I]."),
+					SPAN_NOTICE("You screw \the [src]'s front panel."))
 				playsound(src, 'sound/items/Screwdriver.ogg', 50, 1)
 				panel = PANEL_CLOSED
 				return TRUE
 
 			if(PANEL_CLOSED)
-				user.visible_message(SPAN_NOTICE("\The [user] unscrew \the [src]'s front panel with \the [I]."), SPAN_NOTICE("You unscrew \the [src]'s front panel."))
+				user.visible_message(
+					SPAN_NOTICE("\The [user] unscrew \the [src]'s front panel with \the [I]."),
+					SPAN_NOTICE("You unscrew \the [src]'s front panel."))
 				playsound(src, 'sound/items/Screwdriver.ogg', 50, 1)
 				panel = PANEL_UNSCREWED
 				return TRUE
@@ -202,7 +206,8 @@ var/global/list/music_players = list()
 
 				var/response = input(user, "What do you want to do?", "[src]") as null|anything in choices
 
-				if(!Adjacent(user) || !response)	//moved away or cancelled
+				// Moved away or cancelled
+				if(!Adjacent(user) || !response)
 					return
 
 				switch(response)
@@ -211,7 +216,7 @@ var/global/list/music_players = list()
 							if(!MayAdjust(user))
 								return FALSE
 							playsound(src, 'sound/items/Screwdriver.ogg', 45, 1)
-							to_chat(user, SPAN_NOTICE("You pulled out [cell] out of [src] with [I]."))
+							to_chat(user, SPAN_NOTICE("You pulled out \the [cell] out of \the [src] with [I]."))
 							user.put_in_hands(cell)
 							cell = null
 							update_icon()
@@ -223,42 +228,52 @@ var/global/list/music_players = list()
 							return TRUE
 		return
 
-	if(isCrowbar(I))
+	else if(isCrowbar(I))
 		switch(panel)
 			if(PANEL_OPENED)
-				user.visible_message(SPAN_NOTICE("\The [user] re-attaches \the [src]'s front panel with \the [I]."), SPAN_NOTICE("You re-attach \the [src]'s front panel."))
+				user.visible_message(
+					SPAN_NOTICE("\The [user] re-attaches \the [src]'s front panel with \the [I]."),
+					SPAN_NOTICE("You re-attach \the [src]'s front panel."))
 				playsound(src, 'sound/items/Crowbar.ogg', 100, 1)
 				panel = PANEL_UNSCREWED
 				update_icon()
 				return TRUE
 
 			if(PANEL_UNSCREWED)
-				user.visible_message(SPAN_NOTICE("\The [user] unhinges \the [src]'s front panel with \the [I]."), SPAN_NOTICE("You unhinge \the [src]'s front panel."))
+				user.visible_message(
+					SPAN_NOTICE("\The [user] unhinges \the [src]'s front panel with \the [I]."), 
+					SPAN_NOTICE("You unhinge \the [src]'s front panel."))
 				playsound(src, 'sound/items/Crowbar.ogg', 100, 1)
 				panel = PANEL_OPENED
 				update_icon()
 				return TRUE
 		return
 
-	if(istype(I,/obj/item/stack/nanopaste))
+	else if(istype(I,/obj/item/stack/nanopaste))
 		var/obj/item/stack/S = I
 		if(broken && panel == PANEL_OPENED)
 			if(S.use(1))
-				user.visible_message(SPAN_NOTICE("\The [user] pours some of \the [S] onto \the [src]."), SPAN_NOTICE("You pour some of \the [S] over \the [src]'s internals and watch as it retraces and resolders paths."))
+				user.visible_message(
+					SPAN_NOTICE("\The [user] pours some of \the [S] onto \the [src]."), 
+					SPAN_NOTICE("You pour some of \the [S] over \the [src]'s internals and watch as it retraces and resolders paths."))
 				broken = FALSE
 			else
 				to_chat(user, SPAN_NOTICE("\The [S] is empty."))
 		return
 
-	if(isCoil(I))
+	else if(isCoil(I))
 		var/obj/item/stack/S = I
 		if(broken && panel == PANEL_OPENED)
 			if(user.skill_check(SKILL_ELECTRICAL, SKILL_BASIC))
 				if(S.use(5))
-					user.visible_message(SPAN_NOTICE("\The [user] starts replace burned out wires in \the [src]."), SPAN_NOTICE("You are replacing burned out wires in \the [src]'."))
+					user.visible_message(
+						SPAN_NOTICE("\The [user] starts replace burned out wires in \the [src]."),
+						SPAN_NOTICE("You are replacing burned out wires in \the [src]'."))
 					if(!do_after(user, 60, src))
 						return
-					user.visible_message(SPAN_NOTICE("\The [user] replaces burned out wires in \the [src]."), SPAN_NOTICE("You replace burned out wires in \the [src]."))
+					user.visible_message(
+						SPAN_NOTICE("\The [user] replaces burned out wires in \the [src]."),
+						SPAN_NOTICE("You replace burned out wires in \the [src]."))
 					broken = FALSE
 				else
 					to_chat(user, SPAN_NOTICE("You need more [I] to fix \the [src]."))
@@ -305,7 +320,9 @@ var/global/list/music_players = list()
 		frequency -= 0.1
 	frequency = Clamp(frequency, MIN_FREQUENCY, MAX_FREQUENCY)
 
-	user.visible_message(SPAN_NOTICE("\The [user] adjusts \the [src]'s player head."), SPAN_NOTICE("You adjust \the [src]'s player head."))
+	user.visible_message(
+		SPAN_NOTICE("\The [user] adjusts \the [src]'s player head."), 
+		SPAN_NOTICE("You adjust \the [src]'s player head."))
 	playsound(src, 'sound/items/Screwdriver.ogg', 50, 1)
 
 	if(frequency > 1.0)
@@ -331,7 +348,6 @@ var/global/list/music_players = list()
 		eject(user)
 		update_icon()
 		return TRUE
-
 	. = ..()
 
 /obj/item/music_player/proc/eject(mob/user)
@@ -345,8 +361,8 @@ var/global/list/music_players = list()
 	playsound(src, 'starlight/mods/content/starlight/datum/atom/obj/item/music_player/custom_open.ogg', 20, 1)
 	if(user)
 		visible_message(
-			SPAN_NOTICE("[user] eject \a [tape] from \the [src]."),
-			SPAN_NOTICE("You eject \a [tape] from \the [src]."))
+			SPAN_NOTICE("[user] eject \the [tape] from \the [src]."),
+			SPAN_NOTICE("You eject \the [tape] from \the [src]."))
 	if(user)
 		user.put_in_hands(tape)
 	else
@@ -377,10 +393,7 @@ var/global/list/music_players = list()
 	src.visible_message(SPAN_DANGER("\The [src] blows apart!"), 1)
 
 	explosion(src.loc, 1, 1, 1, rand(3, 4), 1)
-
-	var/datum/effect/effect/system/spark_spread/s = new /datum/effect/effect/system/spark_spread
-	s.set_up(3, 1, src)
-	s.start()
+	spark_at(src, amount = 3, cardinal_only = TRUE)
 
 	new /obj/effect/decal/cleanable/blood/oil(src.loc)
 	qdel(src)
@@ -412,7 +425,7 @@ var/global/list/music_players = list()
 
 	mode = PLAYER_STATE_PLAY
 	START_PROCESSING(SSobj, src)
-	log_and_message_admins("launched [src] <a href='?_src_=holder;adminplayerobservefollow=\ref[src]'>#[serial_number]</a> with the song \"[tape.track.title]\".")
+	log_and_message_admins("launched \the [src] <a href='?_src_=holder;adminplayerobservefollow=\ref[src]'>#[serial_number]</a> with the song \"[tape.track.title]\".")
 
 	if(prob(break_chance))
 		break_act()
