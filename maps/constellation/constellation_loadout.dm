@@ -1,51 +1,30 @@
 //Weapons
 
-//Armor
-/datum/gear/tactical/armor
-	display_name = "armor suit selection"
-	path = /obj/item/clothing/suit
-	slot = slot_wear_suit_str
+/datum/gear/utility/sidearm
+	display_name = "sidearm selection"
+	cost = 6
+	path = /obj/item/gun
 
-/obj/item/clothing/suit/armor/pcarrier/filled
-	starting_accessories = list(
-		/obj/item/clothing/accessory/armor/plate/medium,
-		/obj/item/clothing/accessory/storage/pouches,
-		/obj/item/clothing/accessory/armguards,
-		/obj/item/clothing/accessory/legguards
+/datum/gear/utility/sidearm/get_gear_tweak_options()
+	. = ..()
+	LAZYINITLIST(.[/datum/gear_tweak/path])
+	.[/datum/gear_tweak/path] |= list(
+		"pistol" = /obj/item/gun/projectile/pistol/random,
+		"lasvolver" = /obj/item/gun/projectile/revolver/lasvolver
 	)
 
-/datum/gear/tactical/armor/New()
-	..()
-	var/arms = list()
-	arms["plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/filled
-	arms["riot armor"] = /obj/item/clothing/suit/armor/riot
-	arms["ballistic armor"] = /obj/item/clothing/suit/armor/bulletproof
-	gear_tweaks += new /datum/gear_tweak/path(arms)
+//Masks
 
-//Helmet
-/datum/gear/tactical/helmet
-	display_name = "helmet selection"
-	path = /obj/item/clothing/head
-	slot = slot_head_str
-
-/datum/gear/tactical/helmet/New()
-	..()
-	var/helms = list()
-	helms["helmet"] = /obj/item/clothing/head/helmet
-	helms["riot helmet"] = /obj/item/clothing/head/helmet/riot
-	helms["ballistic helmet"] = /obj/item/clothing/head/helmet/ballistic
-	gear_tweaks += new /datum/gear_tweak/path(helms)
-
-//Mask
-/datum/gear/tactical/mask
+/datum/gear/utility/mask
 	display_name = "gas mask selection"
+	cost = 2
 	path = /obj/item/clothing/mask
 	slot = slot_wear_mask_str
 
-/datum/gear/tactical/mask/New()
-	..()
-	var/masks = list()
-	masks["full mask"] = /obj/item/clothing/mask/gas
-	masks["half mask"] = /obj/item/clothing/mask/gas/half
-	masks["tactical mask"] = /obj/item/clothing/mask/gas/syndicate
-	gear_tweaks += new /datum/gear_tweak/path(masks)
+/datum/gear/utility/mask/get_gear_tweak_options()
+	. = ..()
+	LAZYINITLIST(.[/datum/gear_tweak/path])
+	.[/datum/gear_tweak/path] |= list(
+		"full mask" = /obj/item/clothing/mask/gas,
+		"half mask" = /obj/item/clothing/mask/gas/half
+	)

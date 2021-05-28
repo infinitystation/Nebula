@@ -10,37 +10,41 @@
 	name = "Exploration Shuttle"
 	shuttle_area = /area/constellation/exploration_shuttle
 	dock_target = "constellation_shuttle"
-	current_location = "nav_constellation_port_dock_shuttle"
+	current_location = "nav_constellation_dock_cargo"
 
 /area/constellation/exploration_shuttle
 	name       = "\improper Exploration Shuttle"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
 
-//In case multiple shuttles can dock at a location,
-//subtypes can be used to hold the shuttle-specific data
-/obj/effect/shuttle_landmark/docking_arm_starboard
-	name = "Constellation Starboard-side Docking Arm"
-	docking_controller = "constellation_starboard_dock"
+//Shuttle Landmarks (Docking)
 
-/obj/effect/shuttle_landmark/docking_arm_starboard/pod
-	landmark_tag = "nav_constellation_starboard_dock_pod"
-
-/obj/effect/shuttle_landmark/docking_arm_port
-	name = "Constellation Port-side Docking Arm"
+/obj/effect/shuttle_landmark/constellation/port_dock
+	name = "Constellation Port Docking Arm"
+	landmark_tag = "nav_constellation_dock_port"
 	docking_controller = "constellation_dock_port"
 
-/obj/effect/shuttle_landmark/docking_arm_port/shuttle
-	landmark_tag = "nav_constellation_port_dock_shuttle"
+/obj/effect/shuttle_landmark/constellation/starboard_dock 
+	name = "Constellation Starboard Docking Arm"
+	landmark_tag = "nav_constellation_dock_starboard"
+	docking_controller = "constellation_dock_starboard"
 
-/obj/effect/shuttle_landmark/below_deck_bow
-	name = "Near Constellation Bow"
-	landmark_tag = "nav_constellation_below_bow"
+/obj/effect/shuttle_landmark/constellation/cargo_dock
+	name = "Constellation Cargo Dock"
+	landmark_tag = "nav_constellation_dock_cargo"
+	docking_controller = "cargo"
 
-/obj/effect/shuttle_landmark/below_deck_starboardastern
-	name = "Near Constellation Starboard Astern"
-	landmark_tag = "nav_constellation_below_starboardastern"
+//Shuttle Landmarks (Misc)
 
-// Essentially a bare platform that moves up and down.
+/obj/effect/shuttle_landmark/constellation/port_bow
+	name = "Constellation Port Bow"
+	landmark_tag = "nav_constellation_port_bow"
+
+/obj/effect/shuttle_landmark/constellation/starboard_bow
+	name = "Constellation Starboard Bow"
+	landmark_tag = "nav_constellation_starboard_bow"
+
+// Essentially a bare platform that moves up and down. \\ the future is now, old man. it's an elevator now. '2021
+
 /obj/turbolift_map_holder/constellation
 	name = "Constellation cargo elevator placeholder"
 	depth = 4

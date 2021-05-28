@@ -211,7 +211,7 @@
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	dir = 8;
 	id_tag = "lower_cargo";
-	pixel_x = 24;
+	pixel_x = 22;
 	tag_airpump = "lower_cargo_pump";
 	tag_chamber_sensor = "lower_cargo_sensor";
 	tag_exterior_door = "lower_cargo_out";
@@ -2134,6 +2134,8 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/item/chems/food/drinks/shaker,
+/obj/item/chems/food/drinks/shaker,
 /turf/simulated/floor/carpet/red,
 /area/constellation/bar)
 "UI" = (
@@ -2152,6 +2154,7 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/table/reinforced,
 /obj/item/book/manual/barman_recipes,
+/obj/item/chems/food/drinks/shaker,
 /turf/simulated/floor/wood/walnut,
 /area/constellation/bar)
 "Xe" = (

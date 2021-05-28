@@ -243,10 +243,6 @@
 /obj/machinery/suit_cycler/constellation,
 /turf/simulated/floor/plating,
 /area/constellation/engineering/upper)
-"br" = (
-/obj/structure/inflatable/door,
-/turf/simulated/floor/plating,
-/area/constellation/command/bridge_unused)
 "bE" = (
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 1
@@ -259,6 +255,11 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/command/bridge_upper)
+"cr" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel,
+/obj/machinery/door/window/eastleft,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "cx" = (
 /obj/structure/extinguisher_cabinet{
 	dir = 4;
@@ -426,7 +427,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/obj/structure/inflatable/door,
 /turf/simulated/floor/plating,
 /area/constellation/command/bridge_unused)
 "iv" = (
@@ -528,7 +528,7 @@
 	dir = 4
 	},
 /obj/structure/lattice,
-/obj/structure/railing/mapped{
+/obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/simulated/open,
@@ -575,8 +575,9 @@
 /area/constellation/engineering/engine)
 "ma" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 8;
 	id_tag = "solars";
-	pixel_x = 32;
+	pixel_x = 22;
 	tag_airpump = "solars_pump";
 	tag_chamber_sensor = "solars_sensor";
 	tag_exterior_door = "solars_out";
@@ -823,6 +824,7 @@
 	dir = 4
 	},
 /obj/structure/lattice,
+/obj/structure/window/reinforced,
 /turf/simulated/open,
 /area/constellation/engineering/engine)
 "qI" = (
@@ -897,11 +899,11 @@
 	dir = 9
 	},
 /obj/structure/lattice,
-/obj/structure/railing/mapped,
 /obj/item/radio/intercom{
 	dir = 8;
 	pixel_x = 22
 	},
+/obj/structure/window/reinforced,
 /turf/simulated/open,
 /area/constellation/engineering/engine)
 "sR" = (
@@ -990,6 +992,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/storage/canister)
+"uu" = (
+/obj/machinery/atmospherics/unary/tank/carbon_dioxide{
+	start_pressure = 15000
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "uG" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -1302,7 +1313,7 @@
 /obj/machinery/atmospherics/unary/tank/carbon_dioxide{
 	start_pressure = 15000
 	},
-/obj/structure/railing/mapped{
+/obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -1513,6 +1524,18 @@
 "Gc" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel,
 /obj/machinery/light/small/red,
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
+"Gl" = (
+/obj/machinery/atmospherics/unary/tank/carbon_dioxide{
+	start_pressure = 15000
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/constellation/engineering/engine)
 "Gp" = (
@@ -1896,10 +1919,10 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
+/obj/structure/lattice,
+/obj/structure/window/reinforced,
+/obj/machinery/door/window/westright,
+/turf/simulated/open,
 /area/constellation/engineering/engine)
 "Rg" = (
 /obj/structure/cable/yellow{
@@ -1968,6 +1991,12 @@
 /obj/item/caution/cone,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/constellation/comms)
+"SN" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/constellation/engineering/engine)
 "SO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -5309,7 +5338,7 @@ lk
 pr
 XV
 ul
-XV
+uu
 ul
 pr
 pr
@@ -5391,7 +5420,7 @@ Rv
 pr
 re
 lW
-XV
+uu
 Gc
 pr
 pr
@@ -5472,9 +5501,9 @@ lr
 Ec
 pr
 Ch
-lW
-Ch
-lW
+cr
+Gl
+cr
 pr
 pr
 aa
@@ -5638,7 +5667,7 @@ pr
 kS
 QP
 GG
-QP
+SN
 pr
 pr
 aa
@@ -5747,7 +5776,7 @@ aa
 aa
 zY
 zY
-br
+zY
 hN
 wq
 zn
