@@ -528,9 +528,6 @@
 	dir = 4
 	},
 /obj/structure/lattice,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /turf/simulated/open,
 /area/constellation/engineering/engine)
 "kT" = (
@@ -824,7 +821,7 @@
 	dir = 4
 	},
 /obj/structure/lattice,
-/obj/structure/window/reinforced,
+/obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/constellation/engineering/engine)
 "qI" = (
@@ -903,7 +900,7 @@
 	dir = 8;
 	pixel_x = 22
 	},
-/obj/structure/window/reinforced,
+/obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/constellation/engineering/engine)
 "sR" = (
@@ -1920,8 +1917,7 @@
 	dir = 4
 	},
 /obj/structure/lattice,
-/obj/structure/window/reinforced,
-/obj/machinery/door/window/westright,
+/obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/constellation/engineering/engine)
 "Rg" = (

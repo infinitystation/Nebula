@@ -152,6 +152,9 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "au" = (
@@ -394,6 +397,9 @@
 "aO" = (
 /obj/effect/floor_decal/corner/beige{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
@@ -677,6 +683,9 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/simulated/open,
 /area/constellation/cargo/lower)
 "bw" = (
@@ -1818,6 +1827,15 @@
 "eN" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/constellation/engineering/techstorage)
+"eP" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/cargo/lower)
 "eQ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2878,6 +2896,15 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/maintenance/lower)
+"uC" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/cargo/lower)
 "uQ" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
@@ -3182,6 +3209,9 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
 "BO" = (
@@ -3227,6 +3257,9 @@
 "Dh" = (
 /obj/effect/floor_decal/corner/beige{
 	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
@@ -4092,6 +4125,15 @@
 	},
 /obj/machinery/light/small{
 	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/constellation/cargo/lower)
+"Xa" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/constellation/cargo/lower)
@@ -7174,7 +7216,7 @@ ak
 av
 aH
 aS
-Sq
+Xa
 Cr
 aR
 bd
@@ -7256,7 +7298,7 @@ al
 al
 al
 aT
-ao
+uC
 Lx
 Js
 gb
@@ -7341,7 +7383,7 @@ SU
 at
 aO
 Dh
-at
+eP
 bv
 bV
 bV
