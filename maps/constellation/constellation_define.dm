@@ -17,7 +17,7 @@
 
 	overmap_event_areas = 6
 	use_overmap = 1
-	num_exoplanets = 2
+	num_exoplanets = 1
 	planet_size = list(129,129)
 
 	welcome_sound = 'sound/effects/cowboysting.ogg'
