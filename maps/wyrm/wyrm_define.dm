@@ -4,16 +4,15 @@
 	path = "wyrm"
 	ground_noun = "deck"
 
+//	lobby_icon = 'maps/torch/icons/lobby.dmi'
+
 	station_levels = list(1,2)
 	contact_levels = list(1,2)
-	player_levels  = list(1,2)
-	admin_levels   = list(3)
+	player_levels = list(1,2)
+	admin_levels = list(3)
 
 	overmap_size = 30
 	overmap_event_areas = 25
-
-	allowed_spawns = list("Cryogenic Storage", "Cyborg Storage", "Captain Compartment")
-	default_spawn = "Cryogenic Storage"
 
 	station_name  = "ISC Wyrm"
 	station_short = "Wyrm"

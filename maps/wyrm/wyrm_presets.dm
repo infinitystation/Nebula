@@ -1,7 +1,7 @@
-var/const/NETWORK_SUBWYRM		= "Sub Deck"
-var/const/NETWORK_PRIMWYRM		= "Primary Deck"
-var/const/NETWORK_COMMAND		= "Command"
-var/const/NETWORK_HATCHLING		= "Hatchling"
+#define NETWORK_SUBWYRM "Sub Deck"
+#define NETWORK_PRIMWYRM "Primary Deck"
+#define NETWORK_COMMAND "Command"
+#define NETWORK_HATCHLING "Hatchling"
 
 /datum/map/wyrm/get_network_access(var/network)
 	switch(network)
@@ -277,24 +277,6 @@ var/const/NETWORK_HATCHLING		= "Hatchling"
 		"security" = COLOR_BABY_BLUE
 	)
 
-/decl/item_modifier/space_suit/salvage
-	name = "Salvage"
-	type_setups = list(
-		/obj/item/clothing/head/helmet/space/void = /obj/item/clothing/head/helmet/space/void/engineering/salvage,
-		/obj/item/clothing/suit/space/void =        /obj/item/clothing/suit/space/void/engineering/salvage
-	)
-
-/obj/machinery/suit_cycler/salvage
-	name = "salvaged suit cycler"
-	model_text = "Engineering"
-	initial_access = list()
-	suit = /obj/item/clothing/suit/space/void/engineering/salvage
-	helmet = /obj/item/clothing/head/helmet/space/void/engineering/salvage
-	boots = /obj/item/clothing/shoes/magboots
-	available_modifications = list(
-		/decl/item_modifier/space_suit/salvage
-	)
-
 /obj/effect/floor_decal/corner/gold
 	name = "gold corner"
 	color = COLOR_GOLD
@@ -328,3 +310,39 @@ var/const/NETWORK_HATCHLING		= "Hatchling"
 
 /obj/effect/floor_decal/corner/gold/bordercee
 	icon_state = "bordercolorcee"
+
+/obj/effect/floor_decal/industrial/danger
+	icon_state = "danger"
+
+/obj/effect/floor_decal/industrial/danger/corner
+	icon_state = "dangercorner"
+
+/turf/simulated/floor/plating/airless
+	initial_gas = null
+
+/decl/item_modifier/space_suit/salvage
+	name = "Salvage"
+	type_setups = list(
+		/obj/item/clothing/head/helmet/space/void = /obj/item/clothing/head/helmet/space/void/engineering/salvage,
+		/obj/item/clothing/suit/space/void =        /obj/item/clothing/suit/space/void/engineering/salvage
+	)
+
+/obj/machinery/suit_cycler/salvage
+	name = "salvaged suit cycler"
+	model_text = "Engineering"
+	initial_access = list()
+	suit = /obj/item/clothing/suit/space/void/engineering/salvage
+	helmet = /obj/item/clothing/head/helmet/space/void/engineering/salvage
+	boots = /obj/item/clothing/shoes/magboots
+	available_modifications = list(
+		/decl/item_modifier/space_suit/salvage
+	)
+
+/obj/machinery/light/small/d_green
+	light_type = /obj/item/light/bulb/d_green
+
+/obj/item/light/bulb/d_green
+	color = "#4b734b"
+	b_color = "#4b734b"
+	b_power = 0.8
+	b_range = 5

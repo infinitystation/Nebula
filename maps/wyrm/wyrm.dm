@@ -40,6 +40,7 @@
 	#include "wyrm_shuttles.dm"
 	#include "wyrm_holodecks.dm"
 	#include "wyrm_datum_access.dm"
+	#include "wyrm_spawnpoints.dm"
 	#include "wyrm_unit_testing.dm"
 
 	#include "wyrm-1.dmm"
@@ -66,7 +67,6 @@
 	#include "jobs/engineering.dm"
 	#include "jobs/medical.dm"
 	#include "jobs/science.dm"
-
 	#include "outfits/_outfits.dm"
 	#include "outfits/cargo.dm"
 	#include "outfits/civilian.dm"
@@ -75,7 +75,6 @@
 	#include "outfits/medical.dm"
 	#include "outfits/science.dm"
 
-	#include "items/lighting.dm"
 	#include "turf/generic.dm"
 
 	#define USING_MAP_DATUM /datum/map/wyrm
