@@ -26,10 +26,10 @@
 	drop_sound = 'sound/foley/paperpickup1.ogg'
 	pickup_sound = 'sound/foley/paperpickup2.ogg'
 
-	var/info		//What's actually written on the paper.
-	var/info_links	//A different version of the paper which includes html links at fields and EOF
-	var/stamps		//The (text for the) stamps on the paper.
-	var/fields		//Amount of user created fields
+	var/info		// What's actually written on the paper.
+	var/info_links	// A different version of the paper which includes html links at fields and EOF
+	var/stamps		// The (text for the) stamps on the paper.
+	var/fields		// Amount of user created fields
 	var/free_space = MAX_PAPER_MESSAGE_LEN
 	var/list/stamped
 	var/list/ico[0]      //Icons and
@@ -263,7 +263,7 @@
 			class = "rose"
 
 		var/decl/pronouns/G = user.get_pronouns()
-		user.visible_message("<span class='[class]'>[user] holds \the [P] up to \the [src], it looks like [G.he]'s trying to burn it!</span>", \
+		user.visible_message("<span class='[class]'>[user] holds \the [P] up to \the [src], it looks like [G.he] [G.is] trying to burn it!</span>", \
 		"<span class='[class]'>You hold \the [P] up to \the [src], burning it slowly.</span>")
 
 		spawn(20)

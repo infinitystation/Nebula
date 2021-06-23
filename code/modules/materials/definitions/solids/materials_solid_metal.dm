@@ -7,6 +7,10 @@
 	weight = MAT_VALUE_HEAVY
 	hardness = MAT_VALUE_RIGID
 	wall_support_value = MAT_VALUE_HEAVY
+	wall_blend_icons = list(
+		'icons/turf/walls/wood.dmi' = TRUE,
+		'icons/turf/walls/stone.dmi' = TRUE
+	)
 	default_solid_form = /obj/item/stack/material/ingot
 
 /decl/material/solid/metal/uranium
@@ -16,6 +20,7 @@
 	taste_description = "the inside of a reactor"
 	radioactivity = 12
 	icon_base = 'icons/turf/walls/stone.dmi'
+	wall_flags = 0
 	table_icon_base = "stone"
 	icon_reinf = 'icons/turf/walls/reinforced_stone.dmi'
 	color = "#007a00"
@@ -58,6 +63,7 @@
 	hardness = MAT_VALUE_RIGID + 10
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
+	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
 	use_reinf_state = null
 	value = 1.2
 	default_solid_form = /obj/item/stack/material/sheet
@@ -71,6 +77,7 @@
 	reflectiveness = MAT_VALUE_MATTE
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
+	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
 	use_reinf_state = null
 	value = 1.4
 
@@ -123,6 +130,7 @@
 	brute_armor = 5
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
+	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
 	use_reinf_state = null
 	color = COLOR_STEEL
 	hitsound = 'sound/weapons/smash.ogg'
@@ -188,6 +196,7 @@
 	color = "#a5a5a5"
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
+	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
 	use_reinf_state = null
 	hitsound = 'sound/weapons/smash.ogg'
 	construction_difficulty = MAT_VALUE_VERY_HARD_DIY
@@ -201,6 +210,7 @@
 	weight = MAT_VALUE_LIGHT
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
+	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
 	use_reinf_state = null
 	color = "#cccdcc"
 	hitsound = 'sound/weapons/smash.ogg'
@@ -229,6 +239,7 @@
 	melting_point = 6000
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
+	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
 	use_reinf_state = null
 	color = "#a8a9b2"
 	explosion_resistance = 25
@@ -258,6 +269,7 @@
 	melting_point = 3000
 	weight = MAT_VALUE_LIGHT
 	icon_base = 'icons/turf/walls/metal.dmi'
+	wall_flags = PAINT_PAINTABLE
 	door_icon_base = "metal"
 	color = "#d1e6e3"
 	icon_reinf = 'icons/turf/walls/reinforced_metal.dmi'
@@ -284,6 +296,7 @@
 	melting_point = 12000
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
+	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
 	use_reinf_state = null
 	color = "#9bc6f2"
 	brute_armor = 4
@@ -351,7 +364,7 @@
 	reflectiveness = MAT_VALUE_MATTE
 	taste_description = "metallic sugar"
 	toxicity = 1
-	
+
 /decl/material/solid/metal/zinc
 	name = "zinc"
 	lore_text = "A dull-looking metal with some use in alloying."
@@ -368,6 +381,7 @@
 	melting_point = 6000
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
+	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
 	use_reinf_state = null
 	value = 1.5
 	weight = MAT_VALUE_VERY_HEAVY

@@ -26,6 +26,7 @@
 	var/force_layer
 	var/req_CO2_moles    = 1.0// Moles of CO2 required for photosynthesis.
 	var/hydrotray_only
+	var/base_seed_value = 5 // Used when generating price.
 
 /datum/seed/New()
 
@@ -82,7 +83,7 @@
 	// Negatives!
 	. -= 2 * get_trait(TRAIT_STINGS)
 	. -= 2 * get_trait(TRAIT_EXPLOSIVE)
-	. = max(1, round(.))
+	. = max(1, round(. * base_seed_value))
 
 /datum/seed/proc/get_trait(var/trait)
 	return traits["[trait]"]
@@ -474,6 +475,7 @@
 
 	if(additional_chems)
 		var/list/banned_chems = list(
+			/decl/material/placeholder,
 			/decl/material/liquid/adminordrazine,
 			/decl/material/liquid/nutriment,
 			/decl/material/liquid/weedkiller
