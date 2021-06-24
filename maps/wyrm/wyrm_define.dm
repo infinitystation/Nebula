@@ -4,7 +4,7 @@
 	path = "wyrm"
 	ground_noun = "deck"
 
-//	lobby_icon = 'maps/torch/icons/lobby.dmi'
+	lobby_screens = list('maps/wyrm/wyrm_lobby.png')
 
 	station_levels = list(1,2)
 	contact_levels = list(1,2)
@@ -42,6 +42,14 @@
 	starting_money = 5000
 	department_money = 0
 	salary_modifier = 0.5
+
+	radiation_detected_sound     = 'starlight/mods/content/starlight/datum/sound/announcements/threat.ogg'
+	space_time_anomaly_sound     = 'starlight/mods/content/starlight/datum/sound/announcements/subspace.ogg'
+	unidentified_lifesigns_sound = 'starlight/mods/content/starlight/datum/sound/announcements/threat.ogg'
+	command_report_sound         = 'starlight/mods/content/starlight/datum/sound/announcements/attention.ogg'
+	grid_check_sound             = 'starlight/mods/content/starlight/datum/sound/announcements/warning.ogg'
+	grid_restored_sound          = 'starlight/mods/content/starlight/datum/sound/announcements/warning.ogg'
+	meteor_detected_sound        = 'starlight/mods/content/starlight/datum/sound/announcements/threat.ogg'
 
 //Having lost its enigmatic benefactor during the years of the conflict, funding and luck have been in short supply for the vessel.
 //Yet, with the slow return of galactic normalcy, some hope has returned to the eclectic group that remains.
