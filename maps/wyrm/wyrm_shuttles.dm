@@ -1,5 +1,6 @@
 /obj/turbolift_map_holder/wyrm
 	name = "Wyrm cargo elevator placeholder"
+	icon = 'icons/obj/turbolift_preview_nowalls_3x3.dmi'
 	depth = 2
 	lift_size_x = 2
 	lift_size_y = 2
@@ -17,12 +18,11 @@
 	floor_departure_sound = 'sound/effects/lift_heavy_start.ogg'
 	floor_arrival_sound =   'sound/effects/lift_heavy_stop.ogg'
 
-
 /area/turbolift
 	name = "\improper Turbolift"
 	icon_state = "shuttle"
-	requires_power = 0
-	dynamic_lighting = 1
+	requires_power = FALSE
+	dynamic_lighting = TRUE
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/turbolift/freightmain
@@ -37,7 +37,7 @@
 	name = "Supply Drone"
 	location = 1
 	warmup_time = 10
-	shuttle_area = /area/supply/dock
+	shuttle_area = /area/shuttle/supply
 	waypoint_offsite = "nav_cargo_start"
 	waypoint_station = "nav_cargo_station"
 
@@ -48,7 +48,7 @@
 /obj/effect/shuttle_landmark/supply/station
 	name = "Hangar"
 	landmark_tag = "nav_cargo_station"
-	base_area = /area/supply/external
+	base_area = /area/wyrm/supply/external
 	base_turf = /turf/simulated/floor/reinforced
 
 /area/pod/start

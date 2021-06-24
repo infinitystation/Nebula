@@ -1,14 +1,14 @@
 //Areas
 
-/area/hatchling/start
+/area/shuttle/hatchling
 	name = "\improper Hatchling"
 	icon_state = "shuttlered"
-	area_flags = AREA_FLAG_RAD_SHIELDED
+	requires_power = TRUE
 
-/area/rescue/start
+/area/shuttle/rescue
 	name = "\improper Rescue Pod"
 	icon_state = "shuttlered"
-	area_flags = AREA_FLAG_RAD_SHIELDED
+	requires_power = TRUE
 
 /obj/effect/overmap/visitable/ship/wyrm
 	name = "ISC Wyrm"
@@ -16,6 +16,7 @@
 	max_speed = 1/(4 SECONDS)
 	burn_delay = 2 SECONDS
 	fore_dir = WEST
+
 	initial_generic_waypoints = list(
 		"wyrm_prim_fore",
 		"wyrm_prim_star",
@@ -24,9 +25,12 @@
 		"wyrm_sub_fore",
 		"wyrm_sub_star",
 		"wyrm_sub_port",
-		"wyrm_sub_aft",
-		"wyrm_docked_hatchling",
-		"wyrm_docked_rescue"
+		"wyrm_sub_aft"
+	)
+
+	initial_restricted_waypoints = list(
+		/datum/shuttle/autodock/overmap/hatchling = list("wyrm_docked_hatchling"),
+		/datum/shuttle/autodock/overmap/rescue = list("wyrm_docked_rescue")
 	)
 
 /obj/effect/shuttle_landmark/wyrm/primary/fore
@@ -76,7 +80,7 @@
 /datum/shuttle/autodock/overmap/hatchling
 	name = "Hatchling"
 	move_time = 10 SECONDS
-	shuttle_area = /area/hatchling/start
+	shuttle_area = /area/shuttle/hatchling
 	dock_target = "hatchling_dock"
 	current_location = "wyrm_docked_hatchling"
 
@@ -93,7 +97,7 @@
 /datum/shuttle/autodock/overmap/rescue
 	name = "Rescue Pod"
 	move_time = 30
-	shuttle_area = /area/rescue/start
+	shuttle_area = /area/shuttle/rescue
 	current_location = "wyrm_docked_rescue"
 
 /obj/machinery/computer/shuttle_control/explore/rescue

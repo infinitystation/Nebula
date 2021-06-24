@@ -39,7 +39,6 @@
 	#include "wyrm_presets.dm"
 	#include "wyrm_shuttles.dm"
 	#include "wyrm_holodecks.dm"
-	#include "wyrm_datum_access.dm"
 	#include "wyrm_spawnpoints.dm"
 	#include "wyrm_unit_testing.dm"
 
