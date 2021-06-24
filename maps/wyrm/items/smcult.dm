@@ -44,7 +44,8 @@
 	update_icon()
 	. = ..()
 
-/obj/item/weapon/book/smcult/random/New()
+/obj/item/weapon/book/smcult/random/Initialize()
+	. = ..()
 	title = pick("lex tenebris", "ritualis sui sanguinis", "potestate sacra", "re sacra", "de musicis rebus re vera", "contrita est deus", "ad animum secum colligendum", "rite componendis", "confractionis ritual")
 	name = title
 	dat = {"<html>
