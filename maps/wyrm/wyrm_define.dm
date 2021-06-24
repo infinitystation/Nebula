@@ -5,6 +5,7 @@
 	ground_noun = "deck"
 
 	lobby_screens = list('maps/wyrm/wyrm_lobby.png')
+	welcome_sound = 'maps/wyrm/welcome.ogg'
 
 	station_levels = list(1,2)
 	contact_levels = list(1,2)
