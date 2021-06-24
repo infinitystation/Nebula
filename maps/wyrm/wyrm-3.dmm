@@ -7,11 +7,16 @@
 /turf/simulated/floor/tiled/dark/airless,
 /area/space)
 "ac" = (
-/obj/effect/paint/silver,
-/obj/machinery/button/blast_door{
+/obj/machinery/door/blast/shutters{
 	id_tag = "cargodrone"
 	},
-/turf/simulated/wall/titanium,
+/obj/machinery/button/blast_door{
+	id_tag = "cargodrone";
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/white/monotile{
+	initial_gas = null
+	},
 /area/shuttle/supply)
 "al" = (
 /turf/unsimulated/wall,
@@ -290,12 +295,6 @@
 /obj/random/junk,
 /turf/simulated/floor/tiled/dark,
 /area/fightclub)
-"aZ" = (
-/turf/unsimulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
 "ba" = (
 /obj/structure/grille{
 	desc = "A flimsy fence of metal rods, with screws to secure it to the floor.";
@@ -551,16 +550,6 @@
 /obj/machinery/chemical_dispenser/bar_soft/full,
 /turf/simulated/floor/tiled/dark,
 /area/fightclub)
-"bD" = (
-/obj/machinery/door/airlock/centcom{
-	name = "General Access";
-	req_access = null
-	},
-/turf/unsimulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
 "bE" = (
 /obj/machinery/disposal/deliveryChute,
 /obj/structure/disposalpipe/trunk{
@@ -15931,8 +15920,8 @@ aa
 aa
 aa
 aa
-al
-al
+bK
+bK
 bK
 bK
 bK
@@ -16188,8 +16177,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bL
 bL
 bL
@@ -16445,8 +16434,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bK
 bK
 bK
@@ -16702,8 +16691,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bK
 bT
 bT
@@ -16959,8 +16948,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bK
 bU
 bU
@@ -17037,7 +17026,7 @@ pQ
 qw
 qB
 qw
-ac
+pQ
 iN
 aa
 aa
@@ -17216,8 +17205,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bK
 bU
 bU
@@ -17290,11 +17279,11 @@ pP
 pP
 pP
 iN
-qp
+ac
 qB
 qB
 qB
-qp
+ac
 iN
 aa
 aa
@@ -17473,8 +17462,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bM
 bU
 bU
@@ -17730,8 +17719,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bK
 bU
 bU
@@ -17987,8 +17976,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bK
 bV
 bV
@@ -18244,8 +18233,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bK
 bK
 bK
@@ -18501,8 +18490,8 @@ aa
 aa
 aa
 aa
-al
-aZ
+bK
+bL
 bL
 bK
 cf
@@ -18753,13 +18742,13 @@ aa
 aa
 aa
 aa
-al
-al
-al
-al
-al
-al
-al
+bK
+bK
+bK
+bK
+bK
+bK
+bK
 bL
 bK
 cg
@@ -19010,13 +18999,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-al
+bK
+bL
+bL
+bL
+bL
+bL
+bK
 bL
 bK
 ch
@@ -19267,13 +19256,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-al
+bK
+bL
+bL
+bL
+bL
+bL
+bK
 bL
 bK
 cg
@@ -19524,13 +19513,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-al
+bK
+bL
+bL
+bL
+bL
+bL
+bK
 bL
 bK
 ci
@@ -19781,13 +19770,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-bD
+bK
+bL
+bL
+bL
+bL
+bL
+bM
 bL
 bK
 cj
@@ -20038,13 +20027,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-al
+bK
+bL
+bL
+bL
+bL
+bL
+bK
 bK
 bK
 cj
@@ -20295,13 +20284,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-bD
+bK
+bL
+bL
+bL
+bL
+bL
+bM
 bL
 bW
 cj
@@ -20552,13 +20541,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-al
+bK
+bL
+bL
+bL
+bL
+bL
+bK
 bK
 bK
 cj
@@ -20809,13 +20798,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-bD
+bK
+bL
+bL
+bL
+bL
+bL
+bM
 bL
 bK
 cj
@@ -21066,13 +21055,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-al
+bK
+bL
+bL
+bL
+bL
+bL
+bK
 bL
 bK
 ci
@@ -21323,13 +21312,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-al
+bK
+bL
+bL
+bL
+bL
+bL
+bK
 bL
 bK
 cj
@@ -21580,13 +21569,13 @@ aa
 aa
 aa
 aa
-al
-aZ
-aZ
-aZ
-aZ
-aZ
-al
+bK
+bL
+bL
+bL
+bL
+bL
+bK
 bL
 bK
 ci
@@ -21837,13 +21826,13 @@ aa
 aa
 aa
 aa
-al
-al
-al
-al
-al
-al
-al
+bK
+bK
+bK
+bK
+bK
+bK
+bK
 bL
 bK
 cj
@@ -22100,7 +22089,7 @@ aa
 aa
 aa
 aa
-al
+bK
 bL
 bK
 ck
@@ -22357,7 +22346,7 @@ aa
 aa
 aa
 aa
-al
+bK
 bL
 bK
 bK
@@ -22614,7 +22603,7 @@ aa
 aa
 aa
 aa
-al
+bK
 bL
 bL
 bL
@@ -22871,7 +22860,7 @@ aa
 aa
 aa
 aa
-al
+bK
 bK
 bK
 bK
