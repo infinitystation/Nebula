@@ -998,8 +998,8 @@ window "mainwindow"
 		type = MAIN
 		pos = 281,0
 		size = 640x440
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		is-default = true
 		saved-params = "pos;size;is-minimized;is-maximized"
 		on-size = "OnResize"
@@ -1020,16 +1020,17 @@ window "mainwindow"
 		type = BROWSER
 		pos = 0,0
 		size = 200x200
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		is-visible = false
 		saved-params = ""
 	elem "tooltip"
 		type = BROWSER
 		pos = 0,0
 		size = 999x999
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
+		background-color = none
 		is-visible = false
 		saved-params = ""
 
@@ -1038,8 +1039,8 @@ window "mapwindow"
 		type = MAIN
 		pos = 281,0
 		size = 640x480
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
@@ -1073,7 +1074,7 @@ window "mapwindow"
 		pos = 0,464
 		size = 280x16
 		anchor1 = 0,100
-		anchor2 = -1,-1
+		anchor2 = none
 		text-color = #ffffff
 		background-color = #222222
 		is-visible = false
@@ -1087,8 +1088,8 @@ window "outputwindow"
 		type = MAIN
 		pos = 281,-30
 		size = 640x480
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
@@ -1113,7 +1114,7 @@ window "outputwindow"
 		pos = 519,460
 		size = 40x20
 		anchor1 = 100,100
-		anchor2 = -1,-1
+		anchor2 = none
 		background-color = none
 		saved-params = "is-checked"
 		text = "Chat"
@@ -1134,7 +1135,7 @@ window "outputwindow"
 		pos = 560,460
 		size = 80x20
 		anchor1 = 100,100
-		anchor2 = -1,-1
+		anchor2 = none
 		background-color = none
 		saved-params = ""
 		text = "Hotkey Toggle"
@@ -1146,8 +1147,8 @@ window "rpane"
 		type = MAIN
 		pos = 281,0
 		size = 640x480
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		is-pane = true
 	elem "rpanewindow"
@@ -1163,8 +1164,8 @@ window "rpane"
 		type = BUTTON
 		pos = 520,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "is-checked"
 		text = "GitHub"
 		command = "GitHub"
@@ -1172,8 +1173,8 @@ window "rpane"
 		type = BUTTON
 		pos = 580,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "is-checked"
 		text = "Bug Report"
 		command = "Bug-Report"
@@ -1181,8 +1182,8 @@ window "rpane"
 		type = BUTTON
 		pos = 205,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "is-checked"
 		text = "Rules"
 		command = "rules"
@@ -1191,8 +1192,8 @@ window "rpane"
 		type = BUTTON
 		pos = 460,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "is-checked"
 		text = "Changelog"
 		command = "Changelog"
@@ -1201,8 +1202,8 @@ window "rpane"
 		type = BUTTON
 		pos = 265,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "is-checked"
 		text = "Lore"
 		command = "Lore"
@@ -1211,8 +1212,8 @@ window "rpane"
 		type = BUTTON
 		pos = 385,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "is-checked"
 		text = "Forum"
 		command = "forum"
@@ -1221,8 +1222,8 @@ window "rpane"
 		type = BUTTON
 		pos = 325,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "is-checked"
 		text = "Wiki"
 		command = "wiki"
@@ -1231,8 +1232,8 @@ window "rpane"
 		type = BUTTON
 		pos = 0,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		is-visible = false
 		saved-params = "is-checked"
 		text = "Text"
@@ -1244,8 +1245,8 @@ window "rpane"
 		type = BUTTON
 		pos = 60,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		is-visible = false
 		saved-params = "is-checked"
 		text = "Info"
@@ -1256,8 +1257,8 @@ window "rpane"
 		type = BUTTON
 		pos = 133,0
 		size = 60x15
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "is-checked"
 		text = "Codex"
 		command = "Codex"
@@ -1268,8 +1269,8 @@ window "preferences_window"
 		type = MAIN
 		pos = 281,0
 		size = 1000x800
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		is-visible = false
 		saved-params = "pos;size;is-minimized;is-maximized"
 		statusbar = false
@@ -1294,8 +1295,8 @@ window "infowindow"
 		type = MAIN
 		pos = 281,0
 		size = 640x480
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = none
+		anchor2 = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		title = "Info"
 		is-pane = true
