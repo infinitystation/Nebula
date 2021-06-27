@@ -645,7 +645,7 @@
 // 
 
 /obj/item/stock_parts/circuitboard/ftl_shunt
-	name = "Circuit board (superluminal shunt)"
+	name = "circuit board (superluminal shunt)"
 	board_type = "machine"
 	build_path = /obj/machinery/ftl_shunt/core
 	origin_tech = "{'programming':3,'magnets':5,'materials':5,'wormholes':5}"
