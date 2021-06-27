@@ -32,7 +32,7 @@
 /datum/job/wyrm/command/captain/get_access()
 	return get_all_station_access()
 
-/datum/job/wyrm/command/hop
+/datum/job/wyrm/command/mate
 	title = "First Mate"
 	supervisors = "the Captain"
 	outfit_type = /decl/hierarchy/outfit/job/wyrm/mate

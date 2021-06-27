@@ -1,4 +1,4 @@
-/decl/hierarchy/outfit/job/wyrm/hand/cook
+/decl/hierarchy/outfit/job/wyrm/crewmember/cook
 	name = WYRM_OUTFIT_JOB_NAME("Cook")
 	head = /obj/item/clothing/head/chefhat
 

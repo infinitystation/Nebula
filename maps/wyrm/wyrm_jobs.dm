@@ -2,7 +2,7 @@
 	default_job_type = /datum/job/wyrm/civilian/crewmember
 	allowed_jobs = list(
 		/datum/job/wyrm/command/captain,
-		/datum/job/wyrm/command/hop,
+		/datum/job/wyrm/command/mate,
 		/datum/job/wyrm/command/officer,
 		/datum/job/wyrm/supply/logistics,
 		/datum/job/wyrm/supply/logistics/salvage,
