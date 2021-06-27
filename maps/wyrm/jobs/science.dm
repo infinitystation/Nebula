@@ -1,7 +1,6 @@
-/datum/job/scientist
+/datum/job/wyrm/science/scientist
 	title = "Researcher"
 	supervisors = "the Captain and the Head of Security's tolerance"
-	hud_icon = "hudscientist"
 	total_positions = 2
 	spawn_positions = 2
 	outfit_type = /decl/hierarchy/outfit/job/wyrm/researcher
@@ -48,10 +47,9 @@
 		access_tcomsat
 	)
 
-/datum/job/scientist/roboticist
+/datum/job/wyrm/science/scientist/roboticist
 	title = "Roboticist"
 	supervisors = "the Surgeon and the researchers"
-	hud_icon = "hudroboticist"
 	total_positions = 1
 	spawn_positions = 1
 	outfit_type = /decl/hierarchy/outfit/job/wyrm/researcher/roboticist

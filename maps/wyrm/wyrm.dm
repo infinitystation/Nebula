@@ -60,19 +60,22 @@
 	#include "../away/unishi/unishi.dm"
 	#include "../away/yacht/yacht.dm"
 
+	#include "jobs/_departments.dm"
 	#include "jobs/_jobs.dm"
-	#include "jobs/cargo.dm"
 	#include "jobs/command.dm"
 	#include "jobs/engineering.dm"
 	#include "jobs/medical.dm"
 	#include "jobs/science.dm"
+	#include "jobs/supply.dm"
+	#include "jobs/synthetics.dm"
+
 	#include "outfits/_outfits.dm"
-	#include "outfits/cargo.dm"
 	#include "outfits/civilian.dm"
 	#include "outfits/command.dm"
 	#include "outfits/engineering.dm"
 	#include "outfits/medical.dm"
 	#include "outfits/science.dm"
+	#include "outfits/supply.dm"
 
 	#include "turf/generic.dm"
 

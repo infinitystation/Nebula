@@ -1,11 +1,9 @@
-/datum/job/logistics
+/datum/job/wyrm/supply/logistics
 	title = "Supply Tech"
 	supervisors = "the First Mate"
 	total_positions = 2
 	spawn_positions = 2
-	hud_icon = "hudcargotechnician"
 	outfit_type = /decl/hierarchy/outfit/job/wyrm/logistics
-	department_types = list(/decl/department/supply)
 	selection_color = COLOR_BROWN
 	access = list(
 		access_maint_tunnels,
@@ -49,10 +47,9 @@
 	)
 	skill_points = 20
 
-/datum/job/logistics/salvage
+/datum/job/wyrm/supply/logistics/salvage
 	title = "Salvage Tech"
 	supervisors = "the reseachers and the First Mate"
-	hud_icon = "hudscientist"
 	total_positions = 1
 	spawn_positions = 1
 	outfit_type = /decl/hierarchy/outfit/job/wyrm/salvage

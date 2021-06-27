@@ -1,21 +1,52 @@
-/datum/job/cyborg
-	supervisors = "your laws and the Captain"
-	total_positions = 1
-	spawn_positions = 1
-	alt_titles = list()
+/datum/job/wyrm
+	hud_icon = "hudblank"
 
-/datum/job/assistant
-	title = "Assistant"
+// Command
+/datum/job/wyrm/command
+	department_types = list(/decl/department/command)
+	supervisors = "your conscience, law, and command orders"
+
+// Engineering
+/datum/job/wyrm/engineering
+	department_types = list(/decl/department/engineering)
+	supervisors = "the Captain and your wrench"
+
+// Medical
+/datum/job/wyrm/medical
+	department_types = list(/decl/department/medical)
+	supervisors = "the Captain and the hippocratic oath"
+
+// Science
+/datum/job/wyrm/science
+	department_types = list(/decl/department/science)
+	supervisors = "the Captain and your big brains"
+
+// Supply
+/datum/job/wyrm/supply
+	department_types = list(/decl/department/supply)
+	supervisors = "the Captain and your logistics calculations"
+
+/datum/job/wyrm/miscellaneous
+	department_types = list(/decl/department/miscellaneous)
+
+// Civilian
+/datum/job/wyrm/civilian
+	department_types = list(/decl/department/civilian)
+	supervisors = "the Captain and your lazy bone"
+
+/datum/job/wyrm/civilian/crewmember
+	title = "Crewmember"
+	total_positions = -1
+	spawn_positions = -1
 	event_categories = list("Janitor", "Gardener")
 	supervisors = "the First Mate, if they ever asked"
-	outfit_type = /decl/hierarchy/outfit/job/wyrm/hand
+	outfit_type = /decl/hierarchy/outfit/job/wyrm/crewmember
 	alt_titles = list(
-		"Cook" = /decl/hierarchy/outfit/job/wyrm/hand/cook,
+		"Assistant",
+		"Cook" = /decl/hierarchy/outfit/job/wyrm/crewmember/cook,
 		"Librarian" = /decl/hierarchy/outfit/job/wyrm/librarian,
-		"Journalist" = /decl/hierarchy/outfit/job/wyrm/journalist,
-		"Clown",
-		"Mime")
-	hud_icon = "hudcargotechnician"
+		"Journalist" = /decl/hierarchy/outfit/job/wyrm/journalist
+	)
 	access = list(
 		access_eva,
 		access_maint_tunnels

@@ -39,6 +39,7 @@
 
 	use_overmap = TRUE
 	num_exoplanets = 1
+	away_site_budget = 2
 
 	starting_money = 5000
 	department_money = 0
