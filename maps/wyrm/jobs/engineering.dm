@@ -1,11 +1,9 @@
-/datum/job/engineer
+/datum/job/wyrm/engineering/engineer
 	title = "Junior Engineer"
 	supervisors = "the Head Engineer"
 	total_positions = 2
 	spawn_positions = 2
-	hud_icon = "hudengineer"
-	outfit_type = /decl/hierarchy/outfit/job/wyrm/hand/engine
-	department_types = list(/decl/department/engineering)
+	outfit_type = /decl/hierarchy/outfit/job/wyrm/engineer
 	selection_color = "#5b4d20"
 	minimal_player_age = 7
 	access = list(
@@ -53,7 +51,7 @@
 		"Atmospherics Technician"
 	)
 
-/datum/job/engineer/head
+/datum/job/wyrm/engineering/engineer/head
 	title = "Head Engineer"
 	head_position = 1
 	department_types = list(
@@ -62,7 +60,7 @@
 	)
 	total_positions = 1
 	spawn_positions = 1
-	outfit_type = /decl/hierarchy/outfit/job/wyrm/chief_engineer
+	outfit_type = /decl/hierarchy/outfit/job/wyrm/engineer/head
 	selection_color = "#7f6e2c"
 	req_admin_notify = 1
 	economic_power = 10

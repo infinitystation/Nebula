@@ -1,12 +1,10 @@
-/datum/job/doctor
+/datum/job/wyrm/medical/doctor
 	title = "Junior Doctor"
-	department_types = list(/decl/department/medical)
 	supervisors = "the Surgeon's expertise and the Captain"
 	total_positions = 2
 	spawn_positions = 2
-	outfit_type = /decl/hierarchy/outfit/job/wyrm/doc
+	outfit_type = /decl/hierarchy/outfit/job/wyrm/doctor
 	skill_points = 24
-	hud_icon = "hudmedicaldoctor"
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 	    SKILL_MEDICAL   = SKILL_EXPERT,
@@ -41,15 +39,14 @@
 		access_maint_tunnels
 	)
 	alt_titles = list(
-		"Chemist" = /decl/hierarchy/outfit/job/wyrm/doc/chemist,
+		"Chemist" = /decl/hierarchy/outfit/job/wyrm/doctor/chemist,
 		"Psychologist"
 	)
 
-
-/datum/job/doctor/surgeon
+/datum/job/wyrm/medical/doctor/surgeon
 	title = "Surgeon"
 	supervisors = "the Captain and your own ethics"
-	outfit_type = /decl/hierarchy/outfit/job/wyrm/doc/surgeon
+	outfit_type = /decl/hierarchy/outfit/job/wyrm/doctor/surgeon
 	total_positions = 1
 	spawn_positions = 1
 	skill_points = 28

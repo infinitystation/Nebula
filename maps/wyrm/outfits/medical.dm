@@ -3,7 +3,7 @@
 	desc = "A card issued to medical staff."
 	detail_color = COLOR_PALE_BLUE_GRAY
 
-/decl/hierarchy/outfit/job/wyrm/doc/surgeon
+/decl/hierarchy/outfit/job/wyrm/doctor/surgeon
 	name = WYRM_OUTFIT_JOB_NAME("Surgeon")
 	uniform = /obj/item/clothing/under/medical/scrubs/teal
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/cmo
@@ -11,7 +11,7 @@
 	belt = /obj/item/scanner/health
 	r_pocket = /obj/item/sutures
 
-/decl/hierarchy/outfit/job/wyrm/doc
+/decl/hierarchy/outfit/job/wyrm/doctor
 	name = WYRM_OUTFIT_JOB_NAME("Junior Doctor")
 	uniform = /obj/item/clothing/under/det/black
 	shoes = /obj/item/clothing/shoes/dress
@@ -20,7 +20,7 @@
 	backpack_contents = list(/obj/item/storage/firstaid/adv)
 	l_ear = /obj/item/radio/headset/headset_med
 
-/decl/hierarchy/outfit/job/wyrm/doc/chemist
+/decl/hierarchy/outfit/job/wyrm/doctor/chemist
 	name = WYRM_OUTFIT_JOB_NAME("Chemist")
 	uniform = /obj/item/clothing/under/medical/scrubs/black
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/rd/chemist

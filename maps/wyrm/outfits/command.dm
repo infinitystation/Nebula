@@ -6,7 +6,7 @@
 	id_type = /obj/item/card/id/gold
 	l_ear = /obj/item/radio/headset/heads/captain
 
-/decl/hierarchy/outfit/job/wyrm/captain/post_equip(var/mob/living/carbon/human/H)
+/decl/hierarchy/outfit/job/wyrm/captain/post_equip(mob/living/carbon/human/H)
 	..()
 	var/obj/item/clothing/uniform = H.w_uniform
 	if(uniform)
@@ -24,7 +24,7 @@
 	pda_type = /obj/item/modular_computer/pda/heads/hop
 	l_ear = /obj/item/radio/headset/heads/hop/wyrm
 
-/decl/hierarchy/outfit/job/wyrm/mate/post_equip(var/mob/living/carbon/human/H)
+/decl/hierarchy/outfit/job/wyrm/mate/post_equip(mob/living/carbon/human/H)
 	..()
 	var/obj/item/clothing/uniform = H.w_uniform
 	if(uniform)
@@ -42,7 +42,7 @@
 /obj/item/radio/headset/heads/hop/wyrm
 	name = "first mate's headset"
 
-/decl/hierarchy/outfit/job/wyrm/hos
+/decl/hierarchy/outfit/job/wyrm/officer
 	name = WYRM_OUTFIT_JOB_NAME("Security Officer")
 	uniform = /obj/item/clothing/under/guard/wyrm
 	shoes = /obj/item/clothing/shoes/jackboots

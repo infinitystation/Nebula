@@ -1,4 +1,4 @@
-/datum/job/captain
+/datum/job/wyrm/command/captain
 	title = "Captain"
 	supervisors = "the Benefactor, not that you're seeing them anytime soon"
 	outfit_type = /decl/hierarchy/outfit/job/wyrm/captain
@@ -15,7 +15,6 @@
 	)
 	skill_points = 30
 	head_position = 1
-	department_types = list(/decl/department/command)
 	total_positions = 1
 	spawn_positions = 1
 	selection_color = "#1d1d4f"
@@ -30,14 +29,13 @@
 	not_random_selectable = 1
 	forced_spawnpoint = "Captain Compartment"
 
-/datum/job/captain/get_access()
+/datum/job/wyrm/command/captain/get_access()
 	return get_all_station_access()
 
-/datum/job/hop
+/datum/job/wyrm/command/hop
 	title = "First Mate"
 	supervisors = "the Captain"
 	outfit_type = /decl/hierarchy/outfit/job/wyrm/mate
-	hud_icon = "hudheadofpersonnel"
 	head_position = 1
 	department_types = list(
 		/decl/department/command,
@@ -140,13 +138,12 @@
 	skill_points = 30
 	alt_titles = list()
 
-/datum/job/hos
+/datum/job/wyrm/command/officer
 	title = "Security Officer"
 	supervisors = "the Captain"
 	total_positions = 2
 	spawn_positions = 2
 	selection_color = "#2f45c4"
-	hud_icon = "hudheadofsecurity"
 	head_position = 1
 	req_admin_notify = 1
 	minimal_player_age = 14
@@ -154,8 +151,7 @@
 	ideal_character_age = 40
 	guestbanned = 1
 	not_random_selectable = 1
-	outfit_type = /decl/hierarchy/outfit/job/wyrm/hos
-	department_types = list(/decl/department/command)
+	outfit_type = /decl/hierarchy/outfit/job/wyrm/officer
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_WEAPONS  = SKILL_ADEPT,
