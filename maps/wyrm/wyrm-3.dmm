@@ -6,18 +6,6 @@
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/tiled/dark/airless,
 /area/space)
-"ac" = (
-/obj/machinery/door/blast/shutters{
-	id_tag = "cargodrone"
-	},
-/obj/machinery/button/blast_door{
-	id_tag = "cargodrone";
-	pixel_x = -32
-	},
-/turf/simulated/floor/tiled/white/monotile{
-	initial_gas = null
-	},
-/area/shuttle/supply)
 "al" = (
 /turf/unsimulated/wall,
 /area/space)
@@ -1353,7 +1341,8 @@
 /area/acting/stage)
 "dn" = (
 /obj/machinery/light{
-	dir = 1
+	dir = 1;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled,
 /area/acting/stage)
@@ -2575,6 +2564,14 @@
 /obj/effect/floor_decal/industrial/warning/full,
 /turf/simulated/floor/plating,
 /area/drone_test)
+"lj" = (
+/obj/machinery/door/blast/shutters{
+	id_tag = "cargodrone"
+	},
+/turf/simulated/floor/tiled/white/monotile{
+	initial_gas = null
+	},
+/area/shuttle/supply)
 "lk" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8;
@@ -3297,13 +3294,18 @@
 /obj/machinery/door/blast/shutters{
 	id_tag = "cargodrone"
 	},
+/obj/machinery/button/blast_door{
+	id_tag = "cargodrone";
+	pixel_x = -32
+	},
 /turf/simulated/floor/tiled/white/monotile{
 	initial_gas = null
 	},
 /area/shuttle/supply)
 "qw" = (
 /obj/machinery/light{
-	dir = 8
+	dir = 8;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/supply)
@@ -3312,7 +3314,8 @@
 /area/shuttle/supply)
 "qC" = (
 /obj/machinery/light{
-	dir = 1
+	dir = 1;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/supply)
@@ -17279,11 +17282,11 @@ pP
 pP
 pP
 iN
-ac
+qp
 qB
 qB
 qB
-ac
+qp
 iN
 aa
 aa
@@ -17536,11 +17539,11 @@ pP
 pP
 pP
 ab
-qp
+lj
 qB
 qL
 qB
-qp
+lj
 iN
 aa
 aa
@@ -17793,11 +17796,11 @@ pP
 pP
 pP
 iN
-qp
+lj
 qB
 qB
 qB
-qp
+lj
 iN
 aa
 aa
