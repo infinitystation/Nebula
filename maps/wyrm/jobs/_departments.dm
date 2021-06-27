@@ -68,36 +68,3 @@
 
 /obj/machinery/network/pager/supply
 	department = /decl/department/supply
-
-// Command
-/datum/job/wyrm/command
-	department_types = list(/decl/department/command)
-	supervisors = "your conscience, law, and command orders"
-
-// Engineering
-/datum/job/wyrm/engineering
-	department_types = list(/decl/department/engineering)
-	supervisors = "the Captain and your wrench"
-
-// Medical
-/datum/job/wyrm/medical
-	department_types = list(/decl/department/medical)
-	supervisors = "the Captain and the hippocratic oath"
-
-// Science
-/datum/job/wyrm/science
-	department_types = list(/decl/department/science)
-	supervisors = "the Captain and your big brains"
-
-// Supply
-/datum/job/wyrm/supply
-	department_types = list(/decl/department/supply)
-	supervisors = "the Captain and your logistics calculations"
-
-/datum/job/wyrm/miscellaneous
-	department_types = list(/decl/department/miscellaneous)
-
-// Civilian
-/datum/job/wyrm/civilian
-	department_types = list(/decl/department/civilian)
-	supervisors = "the Captain and your lazy bone"
