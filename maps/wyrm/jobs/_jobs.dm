@@ -43,7 +43,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/wyrm/crewmember
 	alt_titles = list(
 		"Assistant",
-		"Cook" = /decl/hierarchy/outfit/job/wyrm/civillian/cook,
+		"Cook" = /decl/hierarchy/outfit/job/wyrm/crewmember/cook,
 		"Librarian" = /decl/hierarchy/outfit/job/wyrm/librarian,
 		"Journalist" = /decl/hierarchy/outfit/job/wyrm/journalist
 	)
