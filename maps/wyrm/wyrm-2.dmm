@@ -221,20 +221,17 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/wyrm/security/brig)
 "aC" = (
-/obj/structure/table/standard,
-/obj/item/binoculars,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/obj/random/maintenance/clean,
-/obj/random/maintenance/clean,
 /turf/simulated/floor/wood/walnut,
 /area/wyrm/maintenance/primary/cargo)
 "aF" = (
-/obj/structure/bed/chair/wood/walnut{
-	dir = 1
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
 	},
-/turf/simulated/floor/carpet/blue3,
+/obj/structure/easel,
+/turf/simulated/floor/wood/walnut,
 /area/wyrm/maintenance/primary/cargo)
 "aH" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -251,8 +248,10 @@
 /turf/simulated/floor/grass,
 /area/wyrm/civilian/hydro)
 "aK" = (
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
+/obj/structure/bed/chair/wood/walnut{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/blue3,
 /area/wyrm/maintenance/primary/cargo)
 "aL" = (
 /obj/structure/lattice,
@@ -17692,6 +17691,24 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/wyrm/supply/external)
+"Mg" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/closet/crate{
+	name = "painting supply"
+	},
+/obj/item/canvas/twentythree_twentythree,
+/obj/item/canvas/twentythree_twentythree,
+/obj/item/canvas/twentythree_nineteen,
+/obj/item/canvas/twentythree_nineteen,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/canvas,
+/obj/item/canvas,
+/obj/item/storage/fancy/crayons,
+/turf/simulated/floor/wood/walnut,
+/area/wyrm/maintenance/primary/cargo)
 "Mn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
@@ -17919,6 +17936,16 @@
 	},
 /turf/simulated/wall/r_wall,
 /area/wyrm/engineering/externalmaint)
+"Oo" = (
+/obj/structure/table/standard,
+/obj/item/binoculars,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/random/maintenance/clean,
+/obj/random/maintenance/clean,
+/turf/simulated/floor/wood/walnut,
+/area/wyrm/maintenance/primary/cargo)
 "Or" = (
 /obj/machinery/light/small/d_green{
 	dir = 8
@@ -18845,6 +18872,10 @@
 	},
 /turf/simulated/floor/tiled/old_tile/med,
 /area/wyrm/engineering/rustmon)
+"Yf" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/wyrm/maintenance/primary/cargo)
 "Ym" = (
 /obj/structure/bed/chair/office/comfy/teal{
 	dir = 4
@@ -47416,7 +47447,7 @@ aa
 aa
 ae
 ae
-ae
+an
 an
 an
 an
@@ -47673,8 +47704,8 @@ aa
 aa
 ae
 aa
-aa
 aH
+Oo
 aC
 aY
 an
@@ -47930,8 +47961,8 @@ aa
 aa
 ae
 aa
-aa
-aK
+Yf
+bb
 bb
 bb
 ao
@@ -48187,9 +48218,9 @@ aa
 aa
 aa
 aa
-aa
+Yf
 aK
-aF
+bb
 ba
 ao
 dI
@@ -48444,9 +48475,9 @@ aa
 aa
 aa
 aa
-aa
+Yf
 aK
-aF
+bb
 bb
 ao
 dJ
@@ -48701,9 +48732,9 @@ aa
 aa
 aa
 ae
-aa
 aH
-bc
+Mg
+aF
 bc
 ao
 ao
@@ -48958,7 +48989,7 @@ aa
 aa
 ae
 ae
-ae
+aH
 aH
 aH
 cp
