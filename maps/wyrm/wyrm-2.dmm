@@ -9560,7 +9560,9 @@
 /obj/machinery/door/airlock/maintenance{
 	req_access = null
 	},
-/obj/item/tape/atmos,
+/obj/item/taperoll/atmos{
+	apply_tape = 1
+	},
 /turf/simulated/floor/plating,
 /area/wyrm/maintenance/primary/fp)
 "sK" = (

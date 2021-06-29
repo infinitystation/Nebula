@@ -4,6 +4,7 @@
 	icon = 'starlight/mods/content/starlight/datum/atom/obj/structure/easel/easel.dmi'
 	icon_state = "easel"
 	density = TRUE
+
 	var/obj/item/canvas/painting = null
 
 /obj/structure/easel/Initialize(ml, _mat, _reinf_mat)
