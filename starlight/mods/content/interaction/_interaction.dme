@@ -1,0 +1,19 @@
+#ifndef MODPACK_INTERACTION
+#define MODPACK_INTERACTION
+// BEGIN_INCLUDE
+#include "_interaction.dm"
+#include "interaction_bodytype.dm"
+#include "interaction_core.dm"
+#include "interaction_human.dm"
+#include "interaction_types.dm"
+#include "interaction_types_nsfw.dm"
+#include "~interaction_undef.dm"
+// END_INCLUDE
+#endif
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+// END_PREFERENCES
