@@ -34,7 +34,7 @@
 	if(istype(W, /obj/item/music_tape))
 		var/obj/item/music_tape/D = W
 		if(tape)
-			to_chat(user, SPAN_NOTICE("There is already \a [tape] inside."))
+			to_chat(user, SPAN_NOTICE("There is already \the [tape] inside."))
 			return
 
 		if(D.ruined)
@@ -43,7 +43,7 @@
 
 		if(user.unEquip(D, src))
 			tape = D
-			visible_message(SPAN_NOTICE("[usr] insert \a [tape] into \the [src]."))
+			visible_message(SPAN_NOTICE("[usr] insert \the [tape] into \the [src]."))
 			tracks.Insert(1, tape.track)
 			verbs |= .verb/eject
 		return
@@ -67,6 +67,6 @@
 		if(!usr.put_in_hands(tape))
 			tape.dropInto(loc)
 
-		visible_message(SPAN_NOTICE("[usr] eject \a [tape] from \the [src]."))
+		visible_message(SPAN_NOTICE("[usr] eject \the [tape] from \the [src]."))
 		tape = null
 		verbs -= .verb/eject
