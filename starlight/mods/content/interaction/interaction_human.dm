@@ -26,31 +26,30 @@
 
 /mob/living/carbon/human/OnTopic(mob/user, href_list)
 	. = ..()
-
 	if(href_list["interaction"])
-		
 		if(!ishuman(user))
-			return
-			
+			return TOPIC_NOACTION
+
 		var/interaction_type = href_list["interaction"]
 		var/list/interactions = decls_repository.get_decls_of_subtype(/decl/interaction)
 		for(var/interaction in interactions)
 			var/decl/interaction/I = interactions[interaction]
 			if(ckey(I.interact_name) == interaction_type)
 				I.handle_interaction(user, src)
-				return TOPIC_REFRESH
+				break
+
+		return TOPIC_HANDLED
 
 /mob/living/carbon/human/proc/underwear_access()
 	var/obj/item/clothing/under/U = w_uniform
-	. = !underwear_closed() && (U?.zipper || !U)
+	. = !underwear_closed() && (!U?.zipped)
 
 /mob/living/carbon/human/proc/underwear_closed()
 	. = locate(/obj/item/underwear/bottom) in worn_underwear
 
-/mob/living/carbon/human/proc/hands_check()
-	var/obj/item/organ/external/rhand = organs_by_name[BP_R_HAND]
-	var/obj/item/organ/external/lhand = organs_by_name[BP_L_HAND]
-	return rhand?.is_usable() || lhand?.is_usable()
+/mob/living/carbon/human/proc/hand_check()
+	var/obj/item/organ/external/hand = get_organ(get_active_held_item_slot())
+	. = !hand?.is_stump()
 
 /mob/living/carbon/human/proc/get_age_pitch()
 	. = 1.0 + 0.5 * (30 - get_age()) / 80
@@ -65,10 +64,17 @@
 
 /mob/living/carbon/human/examine(mob/user, distance)
 	. = ..()
-
-	if(!underwear_closed())
+	if(underwear_access())
+		var/decl/pronouns/G = get_pronouns()
 		switch(bodytype.associated_gender)
 			if(MALE)
-				to_chat(user, "They have an exposed penis.[lust > 5 ? " It is erect." : ""]")
+				to_chat(user, "[G.He] have an exposed penis.[lust > 5 ? " It is erect." : ""]")
 			if(FEMALE)
-				to_chat(user, "They have an exposed vagina.[lust > 5 ? " It is wet." : ""]")
+				to_chat(user, "[G.He] have an exposed vagina.[lust > 5 ? " It is wet." : ""]")
+
+/mob/living/carbon/human/verb/interact_verb(mob/living/carbon/human/target as mob in view())
+	set name = "Interact"
+	set category = "IC"
+	set src = usr
+
+	interact_with(target)

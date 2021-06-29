@@ -3,7 +3,7 @@
 	storage_capacity *= 3
 
 /decl/interaction/sex
-	interact_flags = INTERACT_HANDS | INTERACT_CONSCIOUS | INTERACT_CUFFED | INTERACT_PENIS
+	interact_flags = INTERACT_HAND | INTERACT_CONSCIOUS | INTERACT_CUFFED | INTERACT_PENIS
 	interact_sound = list(
 		'starlight/mods/content/interaction/sound/bang1.ogg',
 		'starlight/mods/content/interaction/sound/bang2.ogg',
@@ -75,27 +75,6 @@
 	if(message) 
 		H.visible_message("<b>\The [H]</b> [message].")
 
-/decl/interaction/sex/proc/animate_with(mob/living/carbon/human/H, mob/living/carbon/human/P)
-	var/pixel_x_diff = 0
-	var/pixel_y_diff = 0
-
-	var/direction = get_dir(H, P)
-	if(direction & NORTH) 
-		pixel_y_diff = 8
-	else if(direction & SOUTH) 
-		pixel_y_diff = -8
-	if(direction & EAST) 
-		pixel_x_diff = 8
-	else if(direction & WEST) 
-		pixel_x_diff = -8
-
-	if(pixel_x_diff == 0 && pixel_y_diff == 0)
-		pixel_x_diff = rand(-3,3)
-		pixel_y_diff = rand(-3,3)
-
-	animate(H, pixel_x = H.pixel_x + pixel_x_diff, pixel_y = H.pixel_y + pixel_y_diff, time = 2)
-	animate(H, pixel_x = initial(H.pixel_x), pixel_y = initial(H.pixel_y), time = 2)
-
 /decl/interaction/sex/handle_other(mob/living/carbon/human/H, mob/living/carbon/human/P)
 	if(H.lust >= H.max_lust) 
 		cum(H, P, hole)
@@ -103,13 +82,12 @@
 	if(P.lust >= P.max_lust) 
 		cum(P, H, null)
 
-	H.lust += 10 * rand(0.4,0.9)
-	P.lust += 10 * rand(0.4,0.9)
+	H.lust += 10 * rand(0.4, 0.9)
+	P.lust += 10 * rand(0.4, 0.9)
 
 	moan(H)
 	moan(P)
-
-	animate_with(H,P)
+	H.do_attack_animation(P)
 
 	if(istype(P.loc, /obj/structure/closet)) 
 		playsound(get_turf(P), 'sound/effects/clang.ogg', 50, 0, 0)
@@ -149,7 +127,7 @@
 
 /decl/interaction/sex/oral/handle_other(mob/living/carbon/human/H, mob/living/carbon/human/P)
 	if(H.lust >= H.max_lust) 
-		cum(H,P,hole)
+		cum(H, P, hole)
 
 	if(P.lust >= P.max_lust) 
 		cum(P, H, null)
@@ -157,13 +135,13 @@
 	H.lust += 10 * rand(0.4, 0.9)
 
 	moan(H)
-	animate_with(H,P)
-
+	H.do_attack_animation(P)
+	H.face_atom(P)
 	P.muzzled_until = world.time + (10 SECONDS)
 
 /decl/interaction/sex/oral/blowjob
 	interact_name = "Suck them off"
-	interact_flags = INTERACT_HANDS | INTERACT_CONSCIOUS | INTERACT_CUFFED | INTERACT_MOUTH
+	interact_flags = INTERACT_HAND | INTERACT_CONSCIOUS | INTERACT_CUFFED | INTERACT_MOUTH
 	interact_flags_partner = INTERACT_PENIS
 	interact_sound = list(
 		'starlight/mods/content/interaction/sound/bj1.ogg',
@@ -183,15 +161,15 @@
 	return "<b>[H]</b> [pick("sucks <b>\the [P]</b>'s cock", "sucks <b>\the [P]</b> off")]"
 
 /decl/interaction/sex/oral/blowjob/handle_other(mob/living/carbon/human/H, mob/living/carbon/human/P)
-	if(P.lust >= P.max_lust) 
-		cum(P, H, hole)
-	
 	if(H.lust >= H.max_lust) 
 		cum(H, P, null)
 
-	P.lust += 10 * rand(0.4,0.9)
+	if(P.lust >= P.max_lust) 
+		cum(P, H, hole)
+
+	P.lust += 10 * rand(0.4, 0.9)
 
 	moan(P)
-	animate_with(P,H)
-
+	H.do_attack_animation(P)
+	H.face_atom(P)
 	H.muzzled_until = world.time + (5 SECONDS)

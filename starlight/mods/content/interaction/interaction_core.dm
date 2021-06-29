@@ -35,23 +35,23 @@
 			return FALSE
 
 	if(flags & INTERACT_VAGINAL)
-		if(!(H.bodytype.interact_flags & INTERACT_VAGINAL) || H.underwear_access())
+		if(!(H.bodytype.interact_flags & INTERACT_VAGINAL) || !H.underwear_access())
 			return FALSE
 
 	if(flags & INTERACT_BREAST)
-		if(!(H.bodytype.interact_flags & INTERACT_BREAST) || H.underwear_access())
+		if(!(H.bodytype.interact_flags & INTERACT_BREAST) || !H.underwear_access())
 			return FALSE
 
 	if(flags & INTERACT_PENIS)
-		if(!(H.bodytype.interact_flags & INTERACT_PENIS) || H.underwear_access())
+		if(!(H.bodytype.interact_flags & INTERACT_PENIS) || !H.underwear_access())
 			return FALSE
 
 	if(flags & INTERACT_ASS)
-		if(!(H.bodytype.interact_flags & INTERACT_ASS) || H.underwear_access())
+		if(!(H.bodytype.interact_flags & INTERACT_ASS) || !H.underwear_access())
 			return FALSE
 
-	if(flags & INTERACT_HANDS)
-		if(!H.hands_check())
+	if(flags & INTERACT_HAND)
+		if(!H.hand_check())
 			return FALSE
 
 	if(flags & INTERACT_CONSCIOUS)
@@ -68,7 +68,7 @@
 	if(!H || H.last_interact + (interact_delay) > world.time)
 		return FALSE
 
-	if(interact_range && !(H.Adjacent(P) || H.loc == P.loc))
+	if(interact_range && !(get_dist(H, P) <= interact_range || H.loc == P.loc))
 		return FALSE
 
 	if(!(check_for(H, interact_flags) && check_for(P, interact_flags_partner))) 
