@@ -40,6 +40,10 @@
 				I.handle_interaction(user, src)
 				return TOPIC_REFRESH
 
+/mob/living/carbon/human/proc/underfluffies_access()
+	var/obj/item/clothing/under/U = w_uniform
+	. = !underfluffies_closed() && (U && U.zipper || !U)
+
 /mob/living/carbon/human/proc/underfluffies_closed()
 	. = locate(/obj/item/underwear/bottom) in worn_underwear
 

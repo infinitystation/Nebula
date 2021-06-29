@@ -3,6 +3,7 @@
 // BEGIN_INCLUDE
 #include "_interaction.dm"
 #include "interaction_bodytype.dm"
+#include "interaction_clothing.dm"
 #include "interaction_core.dm"
 #include "interaction_human.dm"
 #include "interaction_types.dm"
