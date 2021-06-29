@@ -77,4 +77,5 @@
 	set category = "IC"
 	set src = usr
 
-	interact_with(target)
+	if(!QDELETED(target) && (target in view())
+		interact_with(target)
