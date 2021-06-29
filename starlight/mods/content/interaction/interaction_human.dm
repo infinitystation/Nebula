@@ -66,11 +66,10 @@
 	. = ..()
 	if(underwear_access())
 		var/decl/pronouns/G = get_pronouns()
-		switch(bodytype.associated_gender)
-			if(MALE)
-				to_chat(user, "[G.He] have an exposed penis.[lust > 5 ? " It is erect." : ""]")
-			if(FEMALE)
-				to_chat(user, "[G.He] have an exposed vagina.[lust > 5 ? " It is wet." : ""]")
+		if(bodytype.interact_flags & INTERACT_PENIS)
+			to_chat(user, "[G.He] has an exposed penis.[lust > 5 ? " It is erect." : ""]")
+		if(bodytype.interact_flags & INTERACT_VAGINAL)
+			to_chat(user, "[G.He] has an exposed vagina.[lust > 5 ? " It is wet." : ""]")
 
 /mob/living/carbon/human/verb/interact_verb(mob/living/carbon/human/target as mob in view())
 	set name = "Interact"

@@ -79,7 +79,6 @@
 
 	return TRUE
 
-// Essentialy, H is initator, P is partner.
 /decl/interaction/proc/handle_interaction(mob/living/carbon/human/H, mob/living/carbon/human/P)
 	if(!available_for(H, P)) 
 		return

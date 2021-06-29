@@ -2,6 +2,12 @@
 	. = ..()
 	storage_capacity *= 3
 
+/obj/effect/decal/cleanable/cum
+	name = "cum"
+	desc = "It's pie cream from a cream pie. Or not..."
+	icon = 'starlight/mods/content/interaction/icons/effects.dmi'
+	random_icon_states = list("cum1", "cum3", "cum4", "cum5", "cum6", "cum7", "cum8", "cum9", "cum10", "cum11", "cum12")
+
 /decl/interaction/sex
 	interact_flags = INTERACT_HAND | INTERACT_CONSCIOUS | INTERACT_CUFFED | INTERACT_PENIS
 	interact_sound = list(
@@ -15,64 +21,94 @@
 
 	var/hole
 
-/obj/effect/decal/cleanable/cum
-	name = "cum"
-	desc = "It's pie cream from a cream pie. Or not..."
-	icon = 'starlight/mods/content/interaction/icons/effects.dmi'
-	random_icon_states = list("cum1", "cum3", "cum4", "cum5", "cum6", "cum7", "cum8", "cum9", "cum10", "cum11", "cum12")
+	var/list/moan_list = list(
+		FEMALE = list(
+			'starlight/mods/content/interaction/sound/moan_f1.ogg',
+			'starlight/mods/content/interaction/sound/moan_f2.ogg',
+			'starlight/mods/content/interaction/sound/moan_f3.ogg',
+			'starlight/mods/content/interaction/sound/moan_f4.ogg',
+			'starlight/mods/content/interaction/sound/moan_f5.ogg',
+			'starlight/mods/content/interaction/sound/moan_f6.ogg',
+			'starlight/mods/content/interaction/sound/moan_f7.ogg',
+		),
+		MALE = list(
+			'starlight/mods/content/interaction/sound/moan_m1.ogg',
+			'starlight/mods/content/interaction/sound/moan_m2.ogg',
+			'starlight/mods/content/interaction/sound/moan_m3.ogg',
+			'starlight/mods/content/interaction/sound/moan_m4.ogg',
+			'starlight/mods/content/interaction/sound/moan_m5.ogg',
+			'starlight/mods/content/interaction/sound/moan_m6.ogg',
+			'starlight/mods/content/interaction/sound/moan_m7.ogg',
+			'starlight/mods/content/interaction/sound/moan_m8.ogg',
+			'starlight/mods/content/interaction/sound/moan_m9.ogg'
+		)
+	)
+	
+	var/list/moan_list_closet = list(
+		FEMALE = list(
+			'starlight/mods/content/interaction/sound/moan_under_f1.ogg',
+			'starlight/mods/content/interaction/sound/moan_under_f2.ogg',
+			'starlight/mods/content/interaction/sound/moan_under_f3.ogg',
+			'starlight/mods/content/interaction/sound/moan_under_f4.ogg',
+		)
+	)
+
+	var/list/final_list = list(
+		FEMALE = list(
+			'starlight/mods/content/interaction/sound/final_f1.ogg',
+			'starlight/mods/content/interaction/sound/final_f2.ogg',
+			'starlight/mods/content/interaction/sound/final_f3.ogg'
+		),
+		MALE = list(
+			'starlight/mods/content/interaction/sound/final_m1.ogg',
+			'starlight/mods/content/interaction/sound/final_m2.ogg',
+			'starlight/mods/content/interaction/sound/final_m3.ogg',
+			'starlight/mods/content/interaction/sound/final_m4.ogg',
+			'starlight/mods/content/interaction/sound/final_m5.ogg'
+		)
+	)
 
 /decl/interaction/sex/proc/cum(mob/living/carbon/human/H, mob/living/carbon/human/P, flag)
 	if(H.stat) 
 		return
 
 	var/message = pick("twists in orgasm", "orgasms", "shivers in arousal", "shivers, their eyes closed")
-	var/turf/T = get_turf(H)
+	var/turf/T = get_turf(P)
 
-	var/gender_suffix = (H.bodytype.associated_gender == MALE)
-	if(gender_suffix)
-
+	var/bodytype_gender = H.bodytype.associated_gender
+	if(bodytype_gender == MALE)
 		new /obj/effect/decal/cleanable/cum(T)
 
 		if(flag == INTERACT_MOUTH)
 			message = pick("cums in <b>\the [P]</b>'s mouth", "cums onto <b>\the [P]</b>'s face", "covers <b>\the [P]</b>'s face with cum")
-
 		else if(flag == INTERACT_VAGINAL)
 			message = pick("cums into <b>\the [P]</b>", "pulls out from \the <b>[P]</b>, then cums onto \the [T]", "penetrates <b>\the [P]</b> at last, shivering")
-
 		else if(flag == INTERACT_ASS)
 			message = pick("cums in <b>\the [P]</b>'s ass", "pulls out from <b>\the [P]</b>'s asshole, splattering their cum on them")
-
 		else
+			T = get_turf(H)
 			message = "cums onto \the [T]"
 
 	H.lust = 0
 	ADJ_STATUS(H, STAT_DRUGGY, 5)
 	H.visible_message("<font color='[interact_color_text]'><b>\The [H]</b> [message].</font>")
-	playsound(get_turf(H), "starlight/mods/content/interaction/sound/final_[gender_suffix ? "m" : "f"][gender_suffix ? rand(1,5) : rand(1,3)].ogg", 40 + (gender_suffix ? 0 : 40), 1, frequency = H.get_age_pitch())
+	var/list/sound_to_play = SAFEPICK(final_list[bodytype_gender])
+	playsound(get_turf(H), sound_to_play, 40 + (bodytype_gender == MALE ? 0 : 40), 1, frequency = H.get_age_pitch())
 
 /decl/interaction/sex/proc/moan(mob/living/carbon/human/H)
-	if(H.stat) 
+	if(H.stat)
 		return
 
+	var/bodytype_gender = H.bodytype.associated_gender
+	var/obj/structure/closet/C = istype(H.loc)
 	var/message
 
-	if(prob(H.lust / H.max_lust * (H.gender == MALE ? 5 : 60)))
+	if(prob(H.lust / H.max_lust * (bodytype_gender == MALE ? 30 : 60)))
 		message = pick("moans", "moans in arousal", "closes their eyes", "bites their lips")
+		var/list/sound_to_play = C ? moan_list_closet[bodytype_gender] : moan_list[bodytype_gender]
+		playsound(get_turf(H), SAFEPICK(sound_to_play), 70, 1, frequency = H.get_age_pitch())
 
-		var/gender_suffix = H.bodytype.associated_gender == FEMALE ? "f" : "m"
-		var/moan_sound = rand(1, 7)
-
-		if(moan_sound == H.last_moan && moan_sound != 1) 
-			moan_sound--
-	
-		if(!istype(H.loc, /obj/structure/closet)) 
-			playsound(get_turf(H), "starlight/mods/content/interaction/sound/moan_[gender_suffix][moan_sound].ogg", 70, 1, frequency = H.get_age_pitch())
-		else if (gender_suffix == "f") 
-			playsound(get_turf(H), "starlight/mods/content/interaction/sound/under_moan_f[rand(1, 4)].ogg", 70, 1, frequency = H.get_age_pitch())
-
-		H.last_moan = moan_sound
-
-	if(message) 
+	if(message && !C)
 		H.visible_message("<b>\The [H]</b> [message].")
 
 /decl/interaction/sex/handle_other(mob/living/carbon/human/H, mob/living/carbon/human/P)
@@ -89,8 +125,10 @@
 	moan(P)
 	H.do_attack_animation(P)
 
-	if(istype(P.loc, /obj/structure/closet)) 
-		playsound(get_turf(P), 'sound/effects/clang.ogg', 50, 0, 0)
+	var/obj/structure/closet/C = P.loc
+	if(istype(C))
+		playsound(get_turf(C), 'sound/effects/clang.ogg', 40, 0, 0)
+		C.shake_animation()
 
 /decl/interaction/sex/vaginal
 	interact_name = "Fuck their pussy"
@@ -161,10 +199,10 @@
 	return "<b>[H]</b> [pick("sucks <b>\the [P]</b>'s cock", "sucks <b>\the [P]</b> off")]"
 
 /decl/interaction/sex/oral/blowjob/handle_other(mob/living/carbon/human/H, mob/living/carbon/human/P)
-	if(H.lust >= H.max_lust) 
+	if(H.lust >= H.max_lust)
 		cum(H, P, null)
 
-	if(P.lust >= P.max_lust) 
+	if(P.lust >= P.max_lust)
 		cum(P, H, hole)
 
 	P.lust += 10 * rand(0.4, 0.9)
