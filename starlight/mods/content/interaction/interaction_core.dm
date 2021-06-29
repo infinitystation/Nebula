@@ -35,19 +35,19 @@
 			return FALSE
 
 	if(flags & INTERACT_VAGINAL)
-		if(!(H.bodytype.interact_flags & INTERACT_VAGINAL) || !H.underfluffies_access())
+		if(!(H.bodytype.interact_flags & INTERACT_VAGINAL) || H.underwear_access())
 			return FALSE
 
 	if(flags & INTERACT_BREAST)
-		if(!(H.bodytype.interact_flags & INTERACT_BREAST) || !H.underfluffies_access())
+		if(!(H.bodytype.interact_flags & INTERACT_BREAST) || H.underwear_access())
 			return FALSE
 
 	if(flags & INTERACT_PENIS)
-		if(!(H.bodytype.interact_flags & INTERACT_PENIS) || !H.underfluffies_access())
+		if(!(H.bodytype.interact_flags & INTERACT_PENIS) || H.underwear_access())
 			return FALSE
 
 	if(flags & INTERACT_ASS)
-		if(!(H.bodytype.interact_flags & INTERACT_ASS) || !H.underfluffies_access())
+		if(!(H.bodytype.interact_flags & INTERACT_ASS) || H.underwear_access())
 			return FALSE
 
 	if(flags & INTERACT_HANDS)

@@ -40,11 +40,11 @@
 				I.handle_interaction(user, src)
 				return TOPIC_REFRESH
 
-/mob/living/carbon/human/proc/underfluffies_access()
+/mob/living/carbon/human/proc/underwear_access()
 	var/obj/item/clothing/under/U = w_uniform
-	. = !underfluffies_closed() && (U && U.zipper || !U)
+	. = !underwear_closed() && (U?.zipper || !U)
 
-/mob/living/carbon/human/proc/underfluffies_closed()
+/mob/living/carbon/human/proc/underwear_closed()
 	. = locate(/obj/item/underwear/bottom) in worn_underwear
 
 /mob/living/carbon/human/proc/hands_check()
@@ -66,7 +66,7 @@
 /mob/living/carbon/human/examine(mob/user, distance)
 	. = ..()
 
-	if(!underfluffies_closed())
+	if(!underwear_closed())
 		switch(bodytype.associated_gender)
 			if(MALE)
 				to_chat(user, "They have an exposed penis.[lust > 5 ? " It is erect." : ""]")
