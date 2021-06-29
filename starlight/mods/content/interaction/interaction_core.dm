@@ -1,5 +1,3 @@
-//entire datum
-
 /decl/interaction
 	/// Name of the action.
 	var/interact_name
@@ -29,27 +27,6 @@
 	if(!istype(H))
 		return FALSE
 
-	var/list/face_covering = H.get_covering_equipped_items(SLOT_FACE)
-	if(flags & INTERACT_MOUTH)
-		if(face_covering.len || !(H.species.appearance_flags & HAS_LIPS))
-			return FALSE
-
-	if(flags & INTERACT_VAGINAL)
-		if(!(H.bodytype.interact_flags & INTERACT_VAGINAL) || !H.underwear_access())
-			return FALSE
-
-	if(flags & INTERACT_BREAST)
-		if(!(H.bodytype.interact_flags & INTERACT_BREAST) || !H.underwear_access())
-			return FALSE
-
-	if(flags & INTERACT_PENIS)
-		if(!(H.bodytype.interact_flags & INTERACT_PENIS) || !H.underwear_access())
-			return FALSE
-
-	if(flags & INTERACT_ASS)
-		if(!(H.bodytype.interact_flags & INTERACT_ASS) || !H.underwear_access())
-			return FALSE
-
 	if(flags & INTERACT_HAND)
 		if(!H.hand_check())
 			return FALSE
@@ -59,7 +36,7 @@
 			return FALSE
 
 	if(flags & INTERACT_CUFFED)
-		if(H.restrained())
+		if(H.handcuffed)
 			return FALSE
 
 	return TRUE

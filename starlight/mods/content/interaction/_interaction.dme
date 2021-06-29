@@ -2,13 +2,9 @@
 #define MODPACK_INTERACTION
 // BEGIN_INCLUDE
 #include "_interaction.dm"
-#include "interaction_bodytype.dm"
-#include "interaction_clothing.dm"
 #include "interaction_core.dm"
 #include "interaction_human.dm"
 #include "interaction_types.dm"
-#include "interaction_types_nsfw.dm"
-#include "~interaction_undef.dm"
 // END_INCLUDE
 #endif
 // BEGIN_INTERNALS
