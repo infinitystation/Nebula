@@ -7,3 +7,9 @@
 
 /decl/bodytype/human/masculine
 	interact_flags = INTERACT_ASS | INTERACT_PENIS
+
+/decl/bodytype/lizard
+	interact_flags = INTERACT_ASS | INTERACT_VAGINAL | INTERACT_BREAST
+
+/decl/bodytype/lizard/masculine
+	interact_flags = INTERACT_ASS | INTERACT_PENIS
