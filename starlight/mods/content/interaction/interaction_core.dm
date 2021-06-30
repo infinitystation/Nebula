@@ -67,6 +67,8 @@
 	H.last_interact = world.time
 
 /decl/interaction/proc/handle_text(mob/living/carbon/human/H, mob/living/carbon/human/P)
+	if(istype(H.loc, /obj/structure/closet) || istype(P.loc, /obj/structure/closet))
+		return
 	H.visible_message("<font color='[interact_color_text]'>[get_message(H, P)].</font>")
 
 /decl/interaction/proc/handle_sounds(mob/living/carbon/human/H, mob/living/carbon/human/P)

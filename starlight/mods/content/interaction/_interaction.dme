@@ -5,6 +5,11 @@
 #include "interaction_core.dm"
 #include "interaction_human.dm"
 #include "interaction_types.dm"
+#include "nsfw\interaction_bodytype.dm"
+#include "nsfw\interaction_clothing.dm"
+#include "nsfw\interaction_human.dm"
+#include "nsfw\interaction_misc.dm"
+#include "nsfw\interaction_types.dm"
 // END_INCLUDE
 #endif
 // BEGIN_INTERNALS
