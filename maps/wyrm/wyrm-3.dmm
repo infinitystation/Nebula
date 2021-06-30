@@ -2142,6 +2142,12 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/plating,
 /area/drone_test)
+"gZ" = (
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/reinforced,
+/area/holodeck/source_battle_arena)
 "hb" = (
 /obj/structure/flora/tree/dead,
 /turf/simulated/floor/holofloor/snow,
@@ -3208,17 +3214,6 @@
 "pw" = (
 /turf/simulated/floor/holofloor/reinforced,
 /area/holodeck/source_plating)
-"px" = (
-/turf/simulated/floor/holofloor/beach/water{
-	icon_state = "desert4"
-	},
-/area/holodeck/source_beach)
-"py" = (
-/turf/simulated/floor/holofloor/beach/water{
-	dir = 4;
-	icon_state = "beach"
-	},
-/area/holodeck/source_beach)
 "pz" = (
 /turf/simulated/floor/holofloor/beach/water{
 	dir = 8;
@@ -3237,16 +3232,8 @@
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/tiled/dark,
 /area/space)
-"pK" = (
-/turf/simulated/floor/holofloor/beach/water{
-	icon_state = "beach"
-	},
-/area/holodeck/source_beach)
 "pL" = (
-/turf/simulated/floor/holofloor/beach/water{
-	dir = 6;
-	icon_state = "beach"
-	},
+/turf/simulated/floor/holofloor/beach/water,
 /area/holodeck/source_beach)
 "pP" = (
 /turf/simulated/floor/tiled/dark/airless,
@@ -3413,6 +3400,46 @@
 /obj/structure/table/holotable,
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_surgery)
+"uD" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/reinforced,
+/area/holodeck/source_battle_arena)
+"ya" = (
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/reinforced,
+/area/holodeck/source_battle_arena)
+"Ih" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/reinforced,
+/area/holodeck/source_battle_arena)
+"Ji" = (
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/reinforced,
+/area/holodeck/source_battle_arena)
+"JT" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/reinforced,
+/area/holodeck/source_battle_arena)
+"RI" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/reinforced,
+/area/holodeck/source_battle_arena)
+"Yl" = (
+/obj/effect/floor_decal/corner/red/three_quarters,
+/turf/simulated/floor/holofloor/reinforced,
+/area/holodeck/source_battle_arena)
 
 (1,1,1) = {"
 aa
@@ -7520,9 +7547,9 @@ pw
 al
 al
 qE
-qE
-qE
-qE
+ya
+RI
+Yl
 qE
 al
 "}
@@ -7777,9 +7804,9 @@ pw
 al
 al
 qE
+Ih
 qE
-qE
-qE
+uD
 qE
 al
 "}
@@ -8034,9 +8061,9 @@ pw
 al
 al
 qE
-qE
-qE
-qE
+gZ
+JT
+Ji
 qE
 al
 "}
@@ -9054,8 +9081,8 @@ as
 as
 as
 al
-px
-pK
+pL
+pL
 pR
 pB
 pA
@@ -9311,7 +9338,7 @@ as
 as
 hb
 al
-py
+pL
 pL
 pR
 pA

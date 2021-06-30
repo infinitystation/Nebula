@@ -536,7 +536,7 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -639,7 +639,7 @@
 /turf/simulated/floor/tiled/old_tile/hallway,
 /area/wyrm/logistics/loading)
 "bA" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -1065,14 +1065,14 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/wyrm/supply/bsa)
 "cF" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	dir = 8
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/railing/mapped,
+/obj/structure/railing/mapped/wyrm,
 /turf/simulated/floor/tiled/old_tile/hallway,
 /area/wyrm/supply/bsa)
 "cI" = (
@@ -1223,7 +1223,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
@@ -4022,7 +4022,7 @@
 	dir = 1;
 	icon_state = "warningcorner"
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/simulated/floor/plating,
@@ -6019,7 +6019,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/wyrm/science/shuttleprep)
 "mo" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -7143,7 +7143,7 @@
 "os" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -7595,7 +7595,7 @@
 /obj/effect/floor_decal/industrial/danger{
 	dir = 5
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -7632,7 +7632,7 @@
 /obj/effect/floor_decal/industrial/danger{
 	dir = 9
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -9205,7 +9205,7 @@
 /area/wyrm/engineering/tcommsmon)
 "si" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/simulated/floor/tiled/monotile,
@@ -9216,7 +9216,7 @@
 	icon_state = "console"
 	},
 /obj/effect/floor_decal/industrial/warning,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/simulated/floor/tiled/monotile,
@@ -9234,7 +9234,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/space,
@@ -10157,7 +10157,7 @@
 /turf/space,
 /area/space)
 "uB" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/machinery/power/solar,
@@ -10171,11 +10171,11 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/wyrm/supply/bsa)
 "uT" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/space,
@@ -10184,7 +10184,7 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 1
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/simulated/floor/tiled/techfloor/grid{
@@ -10213,7 +10213,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/wyrm/science/shuttleprep)
 "vc" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/random/maintenance,
@@ -10314,7 +10314,7 @@
 /area/wyrm/science/shuttleprep)
 "wj" = (
 /obj/effect/floor_decal/borderfloor,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -10324,7 +10324,7 @@
 /area/wyrm/supply/bsa)
 "wr" = (
 /obj/structure/lattice,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -10364,7 +10364,7 @@
 /turf/simulated/floor/plating,
 /area/wyrm/civilian/cryo1)
 "wY" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/machinery/power/solar,
@@ -10375,10 +10375,10 @@
 /turf/simulated/floor/plating/airless,
 /area/wyrm/supply/external)
 "xo" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -10485,11 +10485,11 @@
 /turf/simulated/floor/asteroid,
 /area/wyrm/engineering/tcommsmon)
 "yg" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
@@ -10571,7 +10571,7 @@
 /area/wyrm/engineering/tcommsmon)
 "zb" = (
 /obj/effect/floor_decal/borderfloor,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -10616,7 +10616,7 @@
 /area/wyrm/civilian/cryo1)
 "zm" = (
 /obj/structure/lattice,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
@@ -10726,7 +10726,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -10801,7 +10801,7 @@
 /turf/simulated/floor/plating/airless,
 /area/wyrm/engineering/extsubmaint)
 "AD" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
@@ -10859,7 +10859,7 @@
 /area/wyrm/engineering/extsubmaint)
 "AV" = (
 /obj/effect/floor_decal/borderfloor,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -10882,7 +10882,7 @@
 /turf/simulated/floor/plating,
 /area/wyrm/supply/bsa)
 "Be" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/machinery/power/solar,
@@ -10903,7 +10903,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/wyrm/maintenance/sub/mid)
 "Bh" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
@@ -10916,17 +10916,17 @@
 /area/wyrm/engineering/extsubmaint)
 "Bv" = (
 /obj/structure/lattice,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/space,
 /area/wyrm/engineering/extsubmaint)
 "Bw" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
@@ -10979,7 +10979,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/wyrm/supply/bsa)
 "BU" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	dir = 8
 	},
 /obj/structure/table/reinforced,
@@ -11092,7 +11092,7 @@
 /turf/simulated/floor/tiled/old_cargo/dblue,
 /area/shuttle/hatchling)
 "CV" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/structure/lattice,
@@ -11106,7 +11106,7 @@
 /obj/effect/spider/stickyweb,
 /obj/item/storage/box/monkeycubes/spidercubes,
 /obj/structure/closet/crate,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/simulated/floor/plating,
@@ -11156,7 +11156,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/wyrm/science/shuttleprep)
 "Dr" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -11167,7 +11167,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/wyrm/science/shuttleprep)
 "Dz" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/space,
@@ -11177,7 +11177,7 @@
 /turf/simulated/wall/r_wall/false,
 /area/wyrm/maintenance/sub/aft)
 "DJ" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/effect/floor_decal/borderfloor,
@@ -11455,7 +11455,7 @@
 /turf/simulated/floor/plating,
 /area/wyrm/civilian/cryo1)
 "GO" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
@@ -11490,10 +11490,10 @@
 /turf/simulated/floor/plating,
 /area/wyrm/maintenance/drone)
 "Hs" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
@@ -11543,7 +11543,7 @@
 /turf/simulated/floor/tiled,
 /area/wyrm/supply/bsa)
 "Ie" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
@@ -11571,7 +11571,7 @@
 /area/wyrm/civilian/cryo1)
 "In" = (
 /obj/structure/lattice,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -11619,7 +11619,7 @@
 /area/wyrm/logistics/loading)
 "IK" = (
 /obj/item/stack/material/rods,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/space,
@@ -11905,11 +11905,11 @@
 /turf/simulated/wall/prepainted,
 /area/wyrm/civilian/cryo1)
 "LG" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
@@ -11953,7 +11953,7 @@
 /obj/effect/floor_decal/borderfloor{
 	dir = 9
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -12107,14 +12107,14 @@
 /turf/simulated/floor/tiled/old_tile/dgrey,
 /area/wyrm/engineering/tcommsmon)
 "Ox" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
 /turf/simulated/floor/plating/airless,
 /area/wyrm/supply/external)
 "OL" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /obj/machinery/power/solar,
@@ -12147,7 +12147,7 @@
 /turf/space,
 /area/space)
 "Pq" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
@@ -12380,7 +12380,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/wyrm/supply/external)
 "Sf" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -12436,11 +12436,11 @@
 /turf/simulated/floor/plating/airless,
 /area/wyrm/logistics/loading)
 "SK" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 1
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -12456,7 +12456,7 @@
 /area/wyrm/supply/bsa)
 "Tg" = (
 /obj/structure/lattice,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
@@ -12554,7 +12554,7 @@
 	},
 /area/wyrm/supply/external)
 "Um" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
@@ -12623,10 +12623,10 @@
 /turf/simulated/floor/reinforced/airless,
 /area/wyrm/supply/external)
 "Vp" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 4
 	},
@@ -12640,7 +12640,7 @@
 /turf/simulated/wall/titanium,
 /area/space)
 "Vy" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900";
 	dir = 8
 	},
@@ -12665,7 +12665,7 @@
 /turf/simulated/floor/plating,
 /area/wyrm/supply/external)
 "VC" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/simulated/floor/plating/airless,
@@ -12995,7 +12995,7 @@
 /turf/simulated/floor/plating,
 /area/wyrm/logistics/loading)
 "Zb" = (
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/simulated/floor/plating,
@@ -13008,7 +13008,7 @@
 /area/wyrm/maintenance/sub/mid)
 "Zr" = (
 /obj/structure/lattice,
-/obj/structure/railing/mapped{
+/obj/structure/railing/mapped/wyrm{
 	color = "#ff7900"
 	},
 /turf/space,

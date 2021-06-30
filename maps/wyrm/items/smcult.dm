@@ -39,9 +39,14 @@
 /obj/structure/bookcase/smcult/Initialize()
 	new /obj/item/weapon/book/smcult/random(src)
 	new /obj/item/weapon/book/smcult/random(src)
-	if(prob(50))	new /obj/item/weapon/book/smcult/random(src)
-	if(prob(25))	new /obj/item/weapon/book/smcult/random(src)
+
+	if(prob(50))
+		new /obj/item/weapon/book/smcult/random(src)
+	if(prob(25))
+		new /obj/item/weapon/book/smcult/random(src)
+
 	update_icon()
+	
 	. = ..()
 
 /obj/item/weapon/book/smcult/random/Initialize()

@@ -35,12 +35,14 @@
 
 	#include "wyrm_areas.dm"
 	#include "wyrm_jobs.dm"
+	#include "wyrm_network.dm"
 	#include "wyrm_overmap.dm"
 	#include "wyrm_overrides.dm"
 	#include "wyrm_presets.dm"
 	#include "wyrm_shuttles.dm"
 	#include "wyrm_holodecks.dm"
 	#include "wyrm_spawnpoints.dm"
+	#include "wyrm_telecomms.dm"
 	#include "wyrm_unit_testing.dm"
 
 	#include "wyrm-1.dmm"
