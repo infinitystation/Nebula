@@ -221,16 +221,21 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/wyrm/security/brig)
 "aC" = (
+/obj/structure/closet/crate{
+	name = "painting supply"
+	},
+/obj/item/canvas/twentythree_twentythree,
+/obj/item/canvas/twentythree_twentythree,
+/obj/item/canvas/twentythree_nineteen,
+/obj/item/canvas/twentythree_nineteen,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/canvas/nineteen_nineteen,
+/obj/item/canvas,
+/obj/item/canvas,
+/obj/item/storage/fancy/crayons,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/turf/simulated/floor/wood/walnut,
-/area/wyrm/maintenance/primary/cargo)
-"aF" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
-/obj/structure/easel,
 /turf/simulated/floor/wood/walnut,
 /area/wyrm/maintenance/primary/cargo)
 "aH" = (
@@ -17697,18 +17702,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/structure/closet/crate{
-	name = "painting supply"
-	},
-/obj/item/canvas/twentythree_twentythree,
-/obj/item/canvas/twentythree_twentythree,
-/obj/item/canvas/twentythree_nineteen,
-/obj/item/canvas/twentythree_nineteen,
-/obj/item/canvas/nineteen_nineteen,
-/obj/item/canvas/nineteen_nineteen,
-/obj/item/canvas,
-/obj/item/canvas,
-/obj/item/storage/fancy/crayons,
+/obj/structure/easel,
 /turf/simulated/floor/wood/walnut,
 /area/wyrm/maintenance/primary/cargo)
 "Mn" = (
@@ -48736,7 +48730,7 @@ aa
 ae
 aH
 Mg
-aF
+bc
 bc
 ao
 ao
