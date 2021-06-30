@@ -28,7 +28,7 @@
 	flash_mod         = 2
 
 	total_health      = 150
-	slowdown          = -1.5
+	slowdown          = -1
 	brute_mod         = 1.4
 	burn_mod          =  1.4
 	metabolism_mod    = 2.0
