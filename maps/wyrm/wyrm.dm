@@ -21,15 +21,16 @@
 	#include "../../mods/species/adherent/_adherent.dme"
 // NEBULA MODS END
 
-// STARLIGHT MODS START
-	#include "../../mods_infinity/content/starlight/_starlight.dme"
+// INFINITY MODS START
+	#include "../../mods_infinity/content/infinity/_infinity.dme"
 	#include "../../mods_infinity/content/interaction/_interaction.dme"
+	#include "../../mods_infinity/content/europa_tileset/_europa_tileset.dme"
 
 	#include "../../mods_infinity/species/booster/_booster.dme"
 	#include "../../mods_infinity/species/vatgrown/_vatgrown.dme"
 	#include "../../mods_infinity/species/resomi/_resomi.dme"
 	#include "../../mods_infinity/species/android/_android.dme"
-// STARLIGHT MODS END
+// INFINITY MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 

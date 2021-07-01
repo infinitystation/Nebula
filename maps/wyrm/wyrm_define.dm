@@ -45,13 +45,13 @@
 	department_money = 0
 	salary_modifier = 0.5
 
-	radiation_detected_sound     = 'mods_infinity/content/starlight/datum/sound/announcements/threat.ogg'
-	space_time_anomaly_sound     = 'mods_infinity/content/starlight/datum/sound/announcements/subspace.ogg'
-	unidentified_lifesigns_sound = 'mods_infinity/content/starlight/datum/sound/announcements/threat.ogg'
-	command_report_sound         = 'mods_infinity/content/starlight/datum/sound/announcements/attention.ogg'
-	grid_check_sound             = 'mods_infinity/content/starlight/datum/sound/announcements/warning.ogg'
-	grid_restored_sound          = 'mods_infinity/content/starlight/datum/sound/announcements/warning.ogg'
-	meteor_detected_sound        = 'mods_infinity/content/starlight/datum/sound/announcements/threat.ogg'
+	radiation_detected_sound     = 'mods_infinity/content/infinity/datum/sound/announcements/threat.ogg'
+	space_time_anomaly_sound     = 'mods_infinity/content/infinity/datum/sound/announcements/subspace.ogg'
+	unidentified_lifesigns_sound = 'mods_infinity/content/infinity/datum/sound/announcements/threat.ogg'
+	command_report_sound         = 'mods_infinity/content/infinity/datum/sound/announcements/attention.ogg'
+	grid_check_sound             = 'mods_infinity/content/infinity/datum/sound/announcements/warning.ogg'
+	grid_restored_sound          = 'mods_infinity/content/infinity/datum/sound/announcements/warning.ogg'
+	meteor_detected_sound        = 'mods_infinity/content/infinity/datum/sound/announcements/threat.ogg'
 
 //Having lost its enigmatic benefactor during the years of the conflict, funding and luck have been in short supply for the vessel.
 //Yet, with the slow return of galactic normalcy, some hope has returned to the eclectic group that remains.

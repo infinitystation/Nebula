@@ -25,15 +25,6 @@
 	#include "../../mods/species/vox/_vox.dme"
 	#include "../../mods/species/adherent/_adherent.dme"
 
-// STARLIGHT MODS START
-	#include "../../mods_infinity/content/starlight/_starlight.dme"
-	#include "../../mods_infinity/content/europa_tileset/_europa_tileset.dme"
-
-	#include "../../mods_infinity/species/booster/_booster.dme"
-	#include "../../mods_infinity/species/vatgrown/_vatgrown.dme"
-	#include "../../mods_infinity/species/resomi/_resomi.dme"
-// STARLIGHT MODS END
-
 	#define USING_MAP_DATUM /datum/map/modpack_testing
 
 #elif !defined(MAP_OVERRIDE)
