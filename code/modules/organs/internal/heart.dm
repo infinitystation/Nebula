@@ -178,7 +178,7 @@
 			SET_STATUS_MAX(owner, STAT_STUN, 1)
 			owner.set_status(STAT_BLURRY, 2)
 
-			playsound(owner, 'starlight/mods/content/starlight/datum/atom/mob/living/gore/blood_splat.ogg', 100, 0, -2)
+			playsound(owner, 'mods_infinity/content/starlight/datum/atom/mob/living/gore/blood_splat.ogg', 100, 0, -2)
 
 			//AB occurs every heartbeat, this only throttles the visible effect
 			next_blood_squirt = world.time + 80

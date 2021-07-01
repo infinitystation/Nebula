@@ -26,12 +26,12 @@
 	#include "../../mods/species/adherent/_adherent.dme"
 
 // STARLIGHT MODS START
-	#include "../../starlight/mods/content/starlight/_starlight.dme"
-	#include "../../starlight/mods/content/europa_tileset/_europa_tileset.dme"
+	#include "../../mods_infinity/content/starlight/_starlight.dme"
+	#include "../../mods_infinity/content/europa_tileset/_europa_tileset.dme"
 
-	#include "../../starlight/mods/species/booster/_booster.dme"
-	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
-	#include "../../starlight/mods/species/resomi/_resomi.dme"
+	#include "../../mods_infinity/species/booster/_booster.dme"
+	#include "../../mods_infinity/species/vatgrown/_vatgrown.dme"
+	#include "../../mods_infinity/species/resomi/_resomi.dme"
 // STARLIGHT MODS END
 
 	#define USING_MAP_DATUM /datum/map/modpack_testing

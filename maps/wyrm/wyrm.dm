@@ -22,13 +22,13 @@
 // NEBULA MODS END
 
 // STARLIGHT MODS START
-	#include "../../starlight/mods/content/starlight/_starlight.dme"
-	#include "../../starlight/mods/content/interaction/_interaction.dme"
+	#include "../../mods_infinity/content/starlight/_starlight.dme"
+	#include "../../mods_infinity/content/interaction/_interaction.dme"
 
-	#include "../../starlight/mods/species/booster/_booster.dme"
-	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
-	#include "../../starlight/mods/species/resomi/_resomi.dme"
-	#include "../../starlight/mods/species/android/_android.dme"
+	#include "../../mods_infinity/species/booster/_booster.dme"
+	#include "../../mods_infinity/species/vatgrown/_vatgrown.dme"
+	#include "../../mods_infinity/species/resomi/_resomi.dme"
+	#include "../../mods_infinity/species/android/_android.dme"
 // STARLIGHT MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
