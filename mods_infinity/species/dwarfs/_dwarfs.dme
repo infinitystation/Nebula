@@ -1,0 +1,6 @@
+#ifndef MODPACK_DWARFS
+#define MODPACK_DWARFS
+#include "_dwarfs.dm"
+#include "datum\dwarfs_descriptors.dm"
+#include "datum\dwarfs_species.dm"
+#endif
