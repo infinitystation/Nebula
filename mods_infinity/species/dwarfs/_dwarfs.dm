@@ -1,8 +1,8 @@
 #define SPECIES_DWARF "Dwarf"
 
-/decl/modpack/booster
+/decl/modpack/dwarfs
 	name = "Dwarfs"
-	desc = "Dwarfs modpack! Includes the human subtype species. For maximum drarfism use <b>scaling modpack</b>."
+	desc = "Dwarfs modpack! Includes the human subtype species. For maximum drarfism use the <b>scaling modpack</b>."
 	author = "quardbreak."
 
 /mob/living/carbon/human/dwarf/Initialize(mapload)
