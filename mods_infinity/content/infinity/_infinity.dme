@@ -20,6 +20,7 @@
 #include "datum\atom\obj\machinery\stasis.dm"
 #include "datum\atom\obj\machinery\airlock\airlock.dm"
 #include "datum\atom\obj\machinery\mantrap\mantrap.dm"
+#include "datum\atom\obj\machinery\vending\clothing\clothing.dm"
 #include "datum\atom\obj\machinery\vent\vent.dm"
 #include "datum\atom\obj\machinery\wall_heater\wall_heater.dm"
 #include "datum\atom\obj\structure\barsign\barsign.dm"

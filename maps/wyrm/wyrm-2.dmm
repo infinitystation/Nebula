@@ -1777,11 +1777,12 @@
 	dir = 4;
 	icon_state = "warning"
 	},
-/obj/effect/landmark/latejoin/cryo,
 /turf/simulated/floor/tiled/white,
 /area/wyrm/civilian/cryo2)
 "eC" = (
-/obj/machinery/cryopod,
+/obj/machinery/vending/clothing/outerspace{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/wyrm/civilian/cryo2)
 "eD" = (
