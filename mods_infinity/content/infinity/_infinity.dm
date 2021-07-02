@@ -1,4 +1,4 @@
 /decl/modpack/infinity
 	name = "Infinity Station Content Pack"
-	desc = "Модпак, предназначенный для хранения изменений проекта Infinity Station."
+	desc = "A Infinity Station Project modpack with edits specially for Infinity Station."
 	author = "quardbreak и проект Infinity Station."
