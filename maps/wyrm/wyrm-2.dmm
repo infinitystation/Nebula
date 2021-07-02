@@ -2222,7 +2222,7 @@
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/engine)
 "fG" = (
-/obj/machinery/fusion_fuel_compressor,
+/obj/machinery/fuel_compressor,
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/engine)
 "fH" = (

@@ -1,17 +1,16 @@
-/datum/gear/resomi
-	sort_category = "Xenowear"
+/decl/loadout_option/resomi
 	whitelisted   = list(SPECIES_RESOMI)
-	category      = /datum/gear/resomi
+	category      = /decl/loadout_option/resomi
 	slot          = slot_w_uniform_str
 
 //Uniforms
 
-/datum/gear/resomi/uniform_selection
-	display_name = "resomi uniform selection"
+/decl/loadout_option/resomi/uniform_selection
+	name = "resomi uniform selection"
 	path         = /obj/item/clothing/under/resomi
 
-/datum/gear/resomi/uniform_selection/New()
-	..()
+/decl/loadout_option/resomi/uniform_selection/Initialize()
+	. = ..()
 	var/list/uniforms = list()
 	uniforms["grey smock"]        = /obj/item/clothing/under/resomi/simple
 	uniforms["rainbow smock"]     = /obj/item/clothing/under/resomi/rainbow
@@ -23,40 +22,40 @@
 	uniforms["stylish uniform"]   = /obj/item/clothing/under/resomi/stylish_command
 	uniforms["gray uniform"]      =/obj/item/clothing/under/resomi/gray_utility
 	uniforms["black uniform"]      =/obj/item/clothing/under/resomi/black_utility
-	gear_tweaks += new/datum/gear_tweak/path(uniforms)
+	gear_tweaks += new /datum/gear_tweak/path(uniforms)
 
-/datum/gear/resomi/uniform_color
-	display_name = "colorable resomi jumpsuit"
+/decl/loadout_option/resomi/uniform_color
+	name = "colorable resomi jumpsuit"
 	path         = /obj/item/clothing/under/resomi
 	flags        = GEAR_HAS_COLOR_SELECTION
 
-/datum/gear/resomi/space
-	display_name = "resomi pressure suit"
+/decl/loadout_option/resomi/space
+	name = "resomi pressure suit"
 	path         = /obj/item/clothing/under/resomi/space
 
-/datum/gear/resomi/polychromic_cloak
-	display_name = "resomi polychromic cloak"
+/decl/loadout_option/resomi/polychromic_cloak
+	name = "resomi polychromic cloak"
 	path         = /obj/item/clothing/suit/storage/hooded/polychromic
 	flags        = GEAR_HAS_COLOR_SELECTION
 	slot         = slot_wear_suit_str
 
-/datum/gear/resomi/shoes
-	display_name = "resomi footwear selection"
+/decl/loadout_option/resomi/shoes
+	name = "resomi footwear selection"
 	path         = /obj/item/clothing/shoes/resomi
 	flags        = GEAR_HAS_COLOR_SELECTION
 	slot         = slot_shoes_str
 
-/datum/gear/resomi/shoes/New()
-	..()
+/decl/loadout_option/resomi/shoes/Initialize()
+	. = ..()
 	var/list/footwear = list()
 	footwear["koishi"]      = /obj/item/clothing/shoes/resomi/footwraps/socks_resomi
 	footwear["footwraps"]    = /obj/item/clothing/shoes/resomi/footwraps
 	footwear["small shoes"] = /obj/item/clothing/shoes/resomi
-	gear_tweaks += new/datum/gear_tweak/path(footwear)
+	gear_tweaks += new /datum/gear_tweak/path(footwear)
 
 //toys
 
-/datum/gear/plush_toy/get_gear_tweak_options()
+/decl/loadout_option/plush_toy/get_gear_tweak_options()
 	. = ..()
 	.[/datum/gear_tweak/path] |= list(
 		"resomi brown plush" =  /obj/item/toy/plushie/resomi_plush,

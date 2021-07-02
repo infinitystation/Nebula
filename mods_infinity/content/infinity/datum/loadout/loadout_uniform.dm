@@ -1,3 +1,3 @@
-/datum/gear/uniform/harness
-	display_name = "gear harness"
+/decl/loadout_option/uniform/harness
+	name = "gear harness"
 	path = /obj/item/clothing/under/harness
