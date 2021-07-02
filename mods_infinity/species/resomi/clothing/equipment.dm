@@ -106,7 +106,7 @@
 	item_flags = ITEM_FLAG_SILENT
 	w_class = ITEM_SIZE_SMALL
 
-/obj/item/clothing/shoes/resomi/footwraps/socks_resomi
+/obj/item/clothing/shoes/resomi/footwraps/socks
 	name = "koishi"
 	desc = "Looks like socks but with toe holes and thick sole."
 	icon = 'mods_infinity/species/resomi/icons/clothing/exp/feet/koishi.dmi'
@@ -130,8 +130,9 @@
 	min_pressure_protection         = 0
 	max_pressure_protection         = 303
 	siemens_coefficient             = 0 //It's rubber, okay?
-	var/obj/item/clothing/head/resomi_space/helmet
 	action_button_name = "Toggle Helmet"
+
+	var/obj/item/clothing/head/resomi_space/helmet
 
 /obj/item/clothing/under/resomi/space/Initialize()
 	. = ..()

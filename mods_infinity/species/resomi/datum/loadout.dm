@@ -1,66 +1,72 @@
+/decl/loadout_category/xenowear
+	name = "Xenowear"
+
 /decl/loadout_option/resomi
-	whitelisted   = list(SPECIES_RESOMI)
-	category      = /decl/loadout_option/resomi
-	slot          = slot_w_uniform_str
+	whitelisted = list(SPECIES_RESOMI)
+	category = /decl/loadout_category/xenowear
 
 //Uniforms
 
 /decl/loadout_option/resomi/uniform_selection
 	name = "resomi uniform selection"
-	path         = /obj/item/clothing/under/resomi
+	path = /obj/item/clothing/under/resomi
+	slot = slot_w_uniform_str
 
-/decl/loadout_option/resomi/uniform_selection/Initialize()
+/decl/loadout_option/resomi/uniform_selection/get_gear_tweak_options()
 	. = ..()
-	var/list/uniforms = list()
-	uniforms["grey smock"]        = /obj/item/clothing/under/resomi/simple
-	uniforms["rainbow smock"]     = /obj/item/clothing/under/resomi/rainbow
-	uniforms["engineering smock"] = /obj/item/clothing/under/resomi/engine
-	uniforms["medical smock"]     = /obj/item/clothing/under/resomi/medical
-	uniforms["security smock"]    = /obj/item/clothing/under/resomi/security
-	uniforms["science smock"]     = /obj/item/clothing/under/resomi/science
-	uniforms["command uniform"]   = /obj/item/clothing/under/resomi/command
-	uniforms["stylish uniform"]   = /obj/item/clothing/under/resomi/stylish_command
-	uniforms["gray uniform"]      =/obj/item/clothing/under/resomi/gray_utility
-	uniforms["black uniform"]      =/obj/item/clothing/under/resomi/black_utility
-	gear_tweaks += new /datum/gear_tweak/path(uniforms)
+	LAZYINITLIST(.[/datum/gear_tweak/path/specified_types_list])
+	.[/datum/gear_tweak/path/specified_types_list] |= list(
+		/obj/item/clothing/under/resomi/simple,
+		/obj/item/clothing/under/resomi/rainbow,
+		/obj/item/clothing/under/resomi/engine,
+		/obj/item/clothing/under/resomi/medical,
+		/obj/item/clothing/under/resomi/security,
+		/obj/item/clothing/under/resomi/science,
+		/obj/item/clothing/under/resomi/command,
+		/obj/item/clothing/under/resomi/stylish_command,
+		/obj/item/clothing/under/resomi/gray_utility,
+		/obj/item/clothing/under/resomi/black_utility
+	)
 
 /decl/loadout_option/resomi/uniform_color
 	name = "colorable resomi jumpsuit"
-	path         = /obj/item/clothing/under/resomi
-	flags        = GEAR_HAS_COLOR_SELECTION
+	path = /obj/item/clothing/under/resomi
+	slot = slot_w_uniform_str
+	flags = GEAR_HAS_COLOR_SELECTION
 
-/decl/loadout_option/resomi/space
+/decl/loadout_option/resomi/uniform_space
 	name = "resomi pressure suit"
-	path         = /obj/item/clothing/under/resomi/space
+	path = /obj/item/clothing/under/resomi/space
+	slot = slot_w_uniform_str
 
-/decl/loadout_option/resomi/polychromic_cloak
+/decl/loadout_option/resomi/cloak_polychromic
 	name = "resomi polychromic cloak"
-	path         = /obj/item/clothing/suit/storage/hooded/polychromic
-	flags        = GEAR_HAS_COLOR_SELECTION
-	slot         = slot_wear_suit_str
+	path = /obj/item/clothing/suit/storage/hooded/polychromic
+	slot = slot_wear_suit_str
+	flags = GEAR_HAS_COLOR_SELECTION
 
 /decl/loadout_option/resomi/shoes
 	name = "resomi footwear selection"
-	path         = /obj/item/clothing/shoes/resomi
-	flags        = GEAR_HAS_COLOR_SELECTION
-	slot         = slot_shoes_str
+	path = /obj/item/clothing/shoes/resomi
+	slot = slot_shoes_str
+	flags = GEAR_HAS_COLOR_SELECTION
 
-/decl/loadout_option/resomi/shoes/Initialize()
+/decl/loadout_option/resomi/shoes/get_gear_tweak_options()
 	. = ..()
-	var/list/footwear = list()
-	footwear["koishi"]      = /obj/item/clothing/shoes/resomi/footwraps/socks_resomi
-	footwear["footwraps"]    = /obj/item/clothing/shoes/resomi/footwraps
-	footwear["small shoes"] = /obj/item/clothing/shoes/resomi
-	gear_tweaks += new /datum/gear_tweak/path(footwear)
+	LAZYINITLIST(.[/datum/gear_tweak/path/specified_types_list])
+	.[/datum/gear_tweak/path/specified_types_list] |= list(
+		/obj/item/clothing/shoes/resomi/footwraps/socks,
+		/obj/item/clothing/shoes/resomi/footwraps,
+		/obj/item/clothing/shoes/resomi
+	)
 
-//toys
-
+// toys
 /decl/loadout_option/plush_toy/get_gear_tweak_options()
 	. = ..()
 	.[/datum/gear_tweak/path] |= list(
-		"resomi brown plush" =  /obj/item/toy/plushie/resomi_plush,
-		"resomi black plush" = /obj/item/toy/plushie/resomi_plush/black,
-		"resomi yellow plush" = /obj/item/toy/plushie/resomi_plush/yellow,
-		"resomi white plush" = /obj/item/toy/plushie/resomi_plush/white,
-		"resomi grey plush" = /obj/item/toy/plushie/resomi_plush/grey
+		"resomi brown plush" =  /obj/item/toy/plushie/resomi,
+		"resomi black plush" = /obj/item/toy/plushie/resomi/black,
+		"resomi yellow plush" = /obj/item/toy/plushie/resomi/yellow,
+		"resomi white plush" = /obj/item/toy/plushie/resomi/white,
+		"resomi grey plush" = /obj/item/toy/plushie/resomi/grey
 	)
