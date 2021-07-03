@@ -23,7 +23,7 @@
 
 // INFINITY MODS START
 	#include "../../mods_infinity/content/infinity/_infinity.dme"
-	#include "../../mods_infinity/content/interaction/_interaction.dme"
+	#include "../../mods_infinity/content/interactions/_interactions.dme"
 	#include "../../mods_infinity/content/europa_tileset/_europa_tileset.dme"
 
 	#include "../../mods_infinity/species/booster/_booster.dme"

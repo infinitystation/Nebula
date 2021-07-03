@@ -24,9 +24,9 @@
 /decl/interaction/sex
 	interact_flags = INTERACT_HAND | INTERACT_CONSCIOUS | INTERACT_CUFFED | INTERACT_PENIS
 	interact_sound = list(
-		'mods_infinity/content/interaction/nsfw/sound/bang1.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bang2.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bang3.ogg'
+		'mods_infinity/content/interactions/nsfw/sound/bang1.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bang2.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bang3.ogg'
 	)
 
 	interact_color_button = COLOR_VIOLET
@@ -36,48 +36,48 @@
 
 	var/list/moan_list = list(
 		FEMALE = list(
-			'mods_infinity/content/interaction/nsfw/sound/moan_f1.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_f2.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_f3.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_f4.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_f5.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_f6.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_f7.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_f1.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_f2.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_f3.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_f4.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_f5.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_f6.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_f7.ogg',
 		),
 		MALE = list(
-			'mods_infinity/content/interaction/nsfw/sound/moan_m1.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_m2.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_m3.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_m4.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_m5.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_m6.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_m7.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_m8.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_m9.ogg'
+			'mods_infinity/content/interactions/nsfw/sound/moan_m1.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_m2.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_m3.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_m4.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_m5.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_m6.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_m7.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_m8.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_m9.ogg'
 		)
 	)
 
 	var/list/moan_list_closet = list(
 		FEMALE = list(
-			'mods_infinity/content/interaction/nsfw/sound/moan_under_f1.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_under_f2.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_under_f3.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/moan_under_f4.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_under_f1.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_under_f2.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_under_f3.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/moan_under_f4.ogg',
 		)
 	)
 
 	var/list/final_list = list(
 		FEMALE = list(
-			'mods_infinity/content/interaction/nsfw/sound/final_f1.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/final_f2.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/final_f3.ogg'
+			'mods_infinity/content/interactions/nsfw/sound/final_f1.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/final_f2.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/final_f3.ogg'
 		),
 		MALE = list(
-			'mods_infinity/content/interaction/nsfw/sound/final_m1.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/final_m2.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/final_m3.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/final_m4.ogg',
-			'mods_infinity/content/interaction/nsfw/sound/final_m5.ogg'
+			'mods_infinity/content/interactions/nsfw/sound/final_m1.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/final_m2.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/final_m3.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/final_m4.ogg',
+			'mods_infinity/content/interactions/nsfw/sound/final_m5.ogg'
 		)
 	)
 
@@ -150,9 +150,9 @@
 	interact_name = "Fuck their pussy"
 	interact_flags_partner = INTERACT_VAGINAL
 	interact_sound = list(
-		'mods_infinity/content/interaction/nsfw/sound/bang4.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bang5.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bang6.ogg'
+		'mods_infinity/content/interactions/nsfw/sound/bang4.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bang5.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bang6.ogg'
 	)
 	hole = INTERACT_VAGINAL
 
@@ -171,8 +171,8 @@
 	interact_name = "Fuck their mouth"
 	interact_flags_partner = INTERACT_MOUTH
 	interact_sound = list(
-		'mods_infinity/content/interaction/nsfw/sound/oral1.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/oral2.ogg'
+		'mods_infinity/content/interactions/nsfw/sound/oral1.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/oral2.ogg'
 	)
 	hole = INTERACT_MOUTH
 
@@ -198,17 +198,17 @@
 	interact_flags = INTERACT_HAND | INTERACT_CONSCIOUS | INTERACT_CUFFED | INTERACT_MOUTH
 	interact_flags_partner = INTERACT_PENIS
 	interact_sound = list(
-		'mods_infinity/content/interaction/nsfw/sound/bj1.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj2.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj3.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj4.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj5.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj6.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj7.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj8.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj9.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj10.ogg',
-		'mods_infinity/content/interaction/nsfw/sound/bj11.ogg'
+		'mods_infinity/content/interactions/nsfw/sound/bj1.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj2.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj3.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj4.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj5.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj6.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj7.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj8.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj9.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj10.ogg',
+		'mods_infinity/content/interactions/nsfw/sound/bj11.ogg'
 	)
 
 /decl/interaction/sex/oral/blowjob/get_message(mob/living/carbon/human/H, mob/living/carbon/human/P)
