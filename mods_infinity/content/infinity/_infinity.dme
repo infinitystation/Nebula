@@ -8,6 +8,7 @@
 #include "datum\atom\mob\pixel_shift.dm"
 #include "datum\atom\mob\living\living.dm"
 #include "datum\atom\movable\damage_number.dm"
+#include "datum\atom\movable\screen_tip.dm"
 #include "datum\atom\obj\tripping.dm"
 #include "datum\atom\obj\item\storage.dm"
 #include "datum\atom\obj\item\canvas\canvas.dm"
