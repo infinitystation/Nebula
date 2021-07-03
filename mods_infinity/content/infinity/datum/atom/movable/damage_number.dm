@@ -98,7 +98,9 @@
 
 	updatehealth()
 
+#ifndef UNIT_TEST
 	apply_damage_number_effect(src, damage)
+#endif
 
 	return TRUE
 
@@ -127,7 +129,9 @@
 		spark_at(src)
 	updatehealth()
 
+#ifndef UNIT_TEST
 	apply_damage_number_effect(src, damage)
+#endif
 
 	return TRUE
 
@@ -186,6 +190,8 @@
 	updatehealth()
 	BITSET(hud_updateflag, HEALTH_HUD)
 
+#ifndef UNIT_TEST
 	apply_damage_number_effect(src, damage)
+#endif
 
 	return created_wound
