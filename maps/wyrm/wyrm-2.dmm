@@ -2991,7 +2991,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/wyrm/engineering/lobby)
 "hi" = (
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/open{
@@ -3030,7 +3030,7 @@
 /turf/simulated/floor/tiled/old_tile/med,
 /area/wyrm/engineering/rustmon)
 "hp" = (
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/open,
@@ -4445,7 +4445,7 @@
 	dir = 8;
 	icon_state = "warning"
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/effect/floor_decal/borderfloor{
@@ -4463,7 +4463,7 @@
 "ki" = (
 /obj/structure/closet/crate,
 /obj/random/snack,
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/borderfloor{
@@ -5281,7 +5281,7 @@
 	dir = 1;
 	icon_state = "warningcorner"
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/effect/floor_decal/borderfloor{
@@ -5293,7 +5293,7 @@
 /turf/simulated/floor/tiled/old_tile/hallway,
 /area/wyrm/logistics/storage)
 "lI" = (
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/borderfloor{
@@ -5921,7 +5921,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/orange/border,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5944,7 +5944,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/orange/border,
 /turf/simulated/floor/tiled/old_tile/hallway,
@@ -7970,7 +7970,7 @@
 /turf/simulated/floor/tiled/old_tile/hallway,
 /area/wyrm/hallway/primary/fore)
 "qj" = (
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/wyrm/hallway/primary/fore)
 "qk" = (
@@ -9597,7 +9597,7 @@
 /area/wyrm/hallway/primary/fore)
 "sN" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/old_tile/hallway,
 /area/wyrm/hallway/primary/fore)
 "sO" = (
@@ -9605,7 +9605,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/warning,
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/old_tile/hallway,
 /area/wyrm/hallway/primary/fore)
 "sR" = (
@@ -10269,7 +10269,7 @@
 /area/wyrm/hallway/primary/central)
 "ue" = (
 /obj/structure/catwalk,
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/lattice,
@@ -10455,10 +10455,10 @@
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 9
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/atmos)
 "uB" = (
@@ -10932,7 +10932,7 @@
 /area/wyrm/science/robotics)
 "vG" = (
 /obj/structure/catwalk,
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -11115,7 +11115,7 @@
 	pixel_x = -22;
 	pixel_y = 6
 	},
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/atmos)
 "vY" = (
@@ -11126,7 +11126,7 @@
 	name = "Waste to Filtering";
 	target_pressure = 15000
 	},
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/atmos)
 "vZ" = (
@@ -11134,7 +11134,7 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/blue{
 	dir = 1
 	},
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/atmos)
 "wa" = (
@@ -11143,8 +11143,8 @@
 	},
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/railing/mapped/wyrm,
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -11906,13 +11906,13 @@
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 8
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/atmos)
 "xy" = (
@@ -12769,10 +12769,10 @@
 	dir = 10;
 	initialize_directions = 10
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -12837,7 +12837,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -13613,10 +13613,10 @@
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
 	dir = 4
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/atmos)
 "AW" = (
@@ -13673,7 +13673,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 9
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -14230,7 +14230,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/old_tile/dgrey,
 /area/wyrm/science/hallway)
@@ -14245,7 +14245,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/old_tile/dgrey,
 /area/wyrm/science/hallway)
 "Cf" = (
@@ -14595,10 +14595,10 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
@@ -15471,10 +15471,10 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 9
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
@@ -15488,7 +15488,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 5
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -15934,7 +15934,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -15953,7 +15953,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -17203,7 +17203,7 @@
 /turf/simulated/floor/tiled/old_tile/dgrey,
 /area/wyrm/science/hallway)
 "HJ" = (
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -17255,7 +17255,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/structure/table/standard,
@@ -17406,7 +17406,7 @@
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/engine)
 "IX" = (
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/structure/closet/crate/secure/biohazard/blanks,
@@ -17469,7 +17469,7 @@
 /turf/simulated/floor/plating,
 /area/wyrm/security/brig)
 "JW" = (
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /turf/simulated/open{
 	initial_gas = null
 	},
@@ -17579,7 +17579,7 @@
 "Lx" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/outline/blue,
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -18334,7 +18334,7 @@
 /turf/simulated/floor/tiled,
 /area/wyrm/civilian/storage)
 "Su" = (
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/effect/floor_decal/borderfloor{
@@ -18474,7 +18474,7 @@
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/rustmon)
 "UE" = (
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/simulated/floor/reinforced/airless,
@@ -18808,7 +18808,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/wyrm/medical/treatment)
 "Xy" = (
-/obj/structure/railing/mapped/wyrm,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/asteroid,
 /area/wyrm/maintenance/primary/fp)
@@ -18933,7 +18933,7 @@
 /turf/simulated/floor/tiled/old_tile/med,
 /area/wyrm/engineering/rustmon)
 "Zn" = (
-/obj/structure/railing/mapped/wyrm{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/simulated/floor/plating/airless,

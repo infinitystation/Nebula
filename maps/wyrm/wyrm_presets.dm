@@ -231,11 +231,3 @@
 	b_color = "#4b734b"
 	b_power = 1
 	b_range = 5
-
-/decl/material/solid/metal/aluminium/orange
-	name = "orange-painted aluminium"
-	lore_text = "A low-density ductile metal with a silvery-white sheen. This one painted with orange color."
-	color = "#ff7900"
-
-/obj/structure/railing/mapped/wyrm
-	material = /decl/material/solid/metal/aluminium/orange
