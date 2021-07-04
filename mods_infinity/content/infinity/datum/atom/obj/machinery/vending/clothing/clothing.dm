@@ -19,5 +19,6 @@
 	vend_reply = "Outerspace designer thanks you!"
 
 	products = list(
-		/obj/item/clothing/accessory/sweater_stripped = 5
+		/obj/item/clothing/accessory/sweater_stripped = 5,
+		/obj/item/clothing/accessory/scarf_stripped = 5
 	)

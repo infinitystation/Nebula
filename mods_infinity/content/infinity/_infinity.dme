@@ -12,6 +12,7 @@
 #include "datum\atom\obj\tripping.dm"
 #include "datum\atom\obj\item\storage.dm"
 #include "datum\atom\obj\item\canvas\canvas.dm"
+#include "datum\atom\obj\item\clothing\accessory\scarf_stripped\scarf_stripped.dm"
 #include "datum\atom\obj\item\clothing\accessory\sweater_stripped\sweater_stripped.dm"
 #include "datum\atom\obj\item\clothing\stargazer\stargazer.dm"
 #include "datum\atom\obj\item\food\bottle.dm"
