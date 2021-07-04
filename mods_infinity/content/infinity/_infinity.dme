@@ -14,6 +14,7 @@
 #include "datum\atom\obj\item\canvas\canvas.dm"
 #include "datum\atom\obj\item\clothing\accessory\sweater_stripped\sweater_stripped.dm"
 #include "datum\atom\obj\item\clothing\stargazer\stargazer.dm"
+#include "datum\atom\obj\item\food\bottle.dm"
 #include "datum\atom\obj\item\music_player\music_player.dm"
 #include "datum\atom\obj\item\music_tape\music_tape.dm"
 #include "datum\atom\obj\machinery\crystal.dm"

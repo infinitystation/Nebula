@@ -9,3 +9,14 @@
 	glass_name = "kompot"
 	glass_desc = "A glass of refreshing kompot."
 	glass_special = list(DRINK_FIZZ)
+
+/decl/material/liquid/drink/tarkhun
+	name = "tarkhun"
+	lore_text = "Tastes like tarkhun. Cool!"
+	taste_description = "a trakhun"
+	color = "#004200"  // rgb: 0, 66, 0
+	adj_temp = -8
+
+	glass_name = "tarkhun"
+	glass_desc = "A glass of green tarkhun. It helps keep you cool."
+	glass_special = list(DRINK_FIZZ)

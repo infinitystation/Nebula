@@ -15594,7 +15594,7 @@
 /turf/space,
 /area/space)
 "Ev" = (
-/obj/random/maintenance,
+/obj/random/keg,
 /turf/simulated/floor/plating,
 /area/wyrm/maintenance/primary/fp)
 "Ew" = (
@@ -18573,6 +18573,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/wyrm/engineering/engine)
+"Vz" = (
+/obj/random/maintenance,
+/turf/simulated/floor/asteroid,
+/area/wyrm/maintenance/primary/fp)
 "VC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -41001,7 +41005,7 @@ tC
 tC
 tC
 CK
-Lk
+Vz
 Fw
 iV
 Tb
