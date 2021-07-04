@@ -20,5 +20,5 @@
 
 	products = list(
 		/obj/item/clothing/accessory/sweater_stripped = 5,
-		/obj/item/clothing/accessory/scarf_stripped = 5
+		/obj/item/clothing/accessory/scarf_stripped/random = 5
 	)
