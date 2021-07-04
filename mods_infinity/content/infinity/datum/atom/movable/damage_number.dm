@@ -34,7 +34,6 @@
 /atom/movable/damage_number/proc/add_value(desired_value, desired_color = "#ffffff", desired_size = 0.5)
 	if(current_value)
 		current_value += desired_value
-		animate(src, alpha = 255, flags = ANIMATION_END_NOW)
 	else
 		current_value = desired_value
 		alpha = 255
