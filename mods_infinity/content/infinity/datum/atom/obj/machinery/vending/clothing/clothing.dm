@@ -1,9 +1,10 @@
 /obj/machinery/vending/clothing
 	name = "clothing vendor"
 	desc = "A clothing vendor. It seems it can sell some clothes."
-	icon_state = "uniform"
-	icon_deny = "uniform-deny"
-	icon_vend = "uniform-vend"
+	icon = 'mods_infinity/content/infinity/datum/atom/obj/machinery/vending/clothing/clothing.dmi'
+	icon_state = "clothing"
+	icon_deny = "clothing-deny"
+	icon_vend = "clothing-vend"
 
 	product_slogans = "It's time for a new clothe-experience!;What? Never see that before?"
 
