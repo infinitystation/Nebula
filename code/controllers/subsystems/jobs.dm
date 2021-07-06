@@ -501,7 +501,7 @@ SUBSYSTEM_DEF(jobs)
 		if(istype(S, /obj/effect/landmark/start) && istype(S.loc, /turf))
 			H.forceMove(S.loc)
 		else
-			var/datum/spawnpoint/spawnpoint = job.get_spawnpoint(H.client)
+			var/decl/spawnpoint/spawnpoint = job.get_spawnpoint(H.client)
 			H.forceMove(pick(spawnpoint.turfs))
 			spawnpoint.after_join(H)
 
@@ -554,13 +554,6 @@ SUBSYSTEM_DEF(jobs)
 
 	if(job.req_admin_notify)
 		to_chat(H, "<b>You are playing a job that is important for Game Progression. If you have to disconnect, please notify the admins via adminhelp.</b>")
-
-	//Gives glasses to the vision impaired
-	if(H.disabilities & NEARSIGHTED)
-		var/equipped = H.equip_to_slot_or_del(new /obj/item/clothing/glasses/prescription(H), slot_glasses_str)
-		if(equipped)
-			var/obj/item/clothing/glasses/G = H.glasses
-			G.prescription = 7
 
 	if(H.needs_wheelchair())
 		equip_wheelchair(H)
