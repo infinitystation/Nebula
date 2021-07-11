@@ -10007,7 +10007,7 @@
 /obj/machinery/firealarm,
 /obj/structure/crematorium{
 	dir = 4;
-	id = "wyrm_crematorium"
+	id_tag = "wyrm_crematorium"
 	},
 /obj/machinery/camera/network/medbay{
 	c_tag = "Morgue";

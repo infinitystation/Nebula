@@ -59,14 +59,3 @@
 		/obj/item/clothing/shoes/resomi/footwraps,
 		/obj/item/clothing/shoes/resomi
 	)
-
-// toys
-/decl/loadout_option/plush_toy/get_gear_tweak_options()
-	. = ..()
-	.[/datum/gear_tweak/path] |= list(
-		"resomi brown plush" =  /obj/item/toy/plushie/resomi,
-		"resomi black plush" = /obj/item/toy/plushie/resomi/black,
-		"resomi yellow plush" = /obj/item/toy/plushie/resomi/yellow,
-		"resomi white plush" = /obj/item/toy/plushie/resomi/white,
-		"resomi grey plush" = /obj/item/toy/plushie/resomi/grey
-	)
