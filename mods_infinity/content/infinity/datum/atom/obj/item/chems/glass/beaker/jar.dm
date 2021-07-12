@@ -11,5 +11,5 @@
 
 /obj/item/chems/glass/beaker/jar/filled/Initialize()
 	. = ..()
-	reagents.add_reagent(/decl/material/liquid/urine, 60)
+	reagents.add_reagent(/decl/material/liquid/water/urine, 60)
 	update_icon()
