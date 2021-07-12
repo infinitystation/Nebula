@@ -13,6 +13,9 @@ body:
     attributes:
       label: Шаги воспроизведения
       description: Опишите способ воспроизведения бага.
+      value: |
+          Шаги чтобы воспроизвести баг:
+          1. 
     validations:
       required: true
   - type: textarea
@@ -25,36 +28,10 @@ body:
   - type: textarea
     id: additional_info
     attributes:
-      label: (Опционально) Дополнительная информация
+      label: (Опционально) Характеристики
       description: Здесь можете описать любую дополнительную информацию, которая касается бага. Также можете приложить скриншоты.
-  - type: markdown
-    attributes:
-      value: "## Характеристики"
-  - type: input
-    id: os
-    attributes:
-      label: Операционная система
-      description: Выберите операционную систему, на которой произошёл баг.
-    validations:
-      required: true
-  - type: input
-    id: client_version
-    attributes:
-      label: Версия клиента
-      description: Укажите версию клиента, на которой произошёл баг. Указана в клиенте BYOND в меню 'About BYOND...'.
-    validations:
-      required: true
-  - type: input
-    id: server_version
-    attributes:
-      label: Версия сервера
-      description: Укажите версию сервера, на которой произошёл баг. Команда "Show Server Revision" в вкладке ООС на сервере.
-    validations:
-      required: true
-  - type: input
-    id: round_id
-    attributes:
-      label: Идентификатор раунда
-      description: Укажите идентификатор раунда, в котором произошёл баг. Можно найти там же где и версию сервера.
-    validations:
-      required: true
+      value: |
+          - OS: [e.g. Windows/Linux, эмулятор]
+          - Версия клиента [смотрите в BYOND]
+          - Версия сервера [команда "Show Server Revision" в вкладке ООС на сервере]
+          - ID игры [там же]
