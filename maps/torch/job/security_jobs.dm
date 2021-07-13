@@ -42,6 +42,7 @@
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
 							 /datum/computer_file/program/camera_monitor)
 	selection_color = COMMS_COLOR_SECURITY
+	event_categories = list(ASSIGNMENT_SECURITY)
 
 /datum/job/detective
 	title = "Forensic Technician"
@@ -93,6 +94,7 @@
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
 							 /datum/computer_file/program/camera_monitor)
 	selection_color = COMMS_COLOR_SECURITY
+	event_categories = list(ASSIGNMENT_SECURITY)
 
 /datum/job/officer
 	title = "Master at Arms"
@@ -141,3 +143,4 @@
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
 							 /datum/computer_file/program/camera_monitor)
 	selection_color = COMMS_COLOR_SECURITY
+	event_categories = list(ASSIGNMENT_SECURITY)

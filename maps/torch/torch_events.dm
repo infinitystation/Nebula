@@ -1,6 +1,4 @@
-#define ASSIGNMENT_ENGINEER "Engineer"
 #define ASSIGNMENT_SUPPLY "Supply"
-#define ASSIGNMENT_SECURITY "Security"
 
 /*
 /datum/map/torch/setup_events()
@@ -44,7 +42,3 @@
 	available_events = list(
 		new/datum/event_meta(EVENT_LEVEL_MAJOR, "Containment Breach",				/datum/event/prison_break/station,	0,	list(ASSIGNMENT_ANY = 5))
 		)
-
-#undef ASSIGNMENT_ENGINEER
-#undef ASSIGNMENT_SUPPLY
-#undef ASSIGNMENT_SECURITY

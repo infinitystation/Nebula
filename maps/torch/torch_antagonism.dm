@@ -1,27 +1,27 @@
 //Makes sure we don't get any merchant antags as a balance concern. Can also be used for future Torch specific antag restrictions.
 /decl/special_role/changeling
-	blacklisted_jobs = list(/datum/job/ai, /datum/job/cyborg, /datum/job/merchant, /datum/job/captain, /datum/job/hop, /datum/job/submap)
+	blacklisted_jobs = list(/datum/job/computer, /datum/job/robot, /datum/job/merchant, /datum/job/captain, /datum/job/hop, /datum/job/submap)
 	protected_jobs = list(/datum/job/medical_trainee, /datum/job/engineer_trainee)
 
 /decl/special_role/godcultist
-	blacklisted_jobs = list(/datum/job/ai, /datum/job/cyborg, /datum/job/chaplain, /datum/job/merchant, /datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/submap)
+	blacklisted_jobs = list(/datum/job/computer, /datum/job/robot, /datum/job/chaplain, /datum/job/merchant, /datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/submap)
 	protected_jobs = list(/datum/job/medical_trainee, /datum/job/engineer_trainee)
 
 /decl/special_role/cultist
-	blacklisted_jobs = list(/datum/job/ai, /datum/job/cyborg, /datum/job/chaplain, /datum/job/psychiatrist, /datum/job/merchant, /datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/submap)
+	blacklisted_jobs = list(/datum/job/computer, /datum/job/robot, /datum/job/chaplain, /datum/job/psychiatrist, /datum/job/merchant, /datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/submap)
 	protected_jobs = list(/datum/job/medical_trainee, /datum/job/engineer_trainee)
 
 /decl/special_role/loyalists
-	blacklisted_jobs = list(/datum/job/ai, /datum/job/cyborg, /datum/job/submap, /datum/job/merchant)
+	blacklisted_jobs = list(/datum/job/computer, /datum/job/robot, /datum/job/submap, /datum/job/merchant)
 	protected_jobs = list(/datum/job/officer, /datum/job/medical_trainee, /datum/job/engineer_trainee)
 
 /decl/special_role/revolutionary
-	blacklisted_jobs = list(/datum/job/ai, /datum/job/cyborg, /datum/job/submap, /datum/job/merchant)
+	blacklisted_jobs = list(/datum/job/computer, /datum/job/robot, /datum/job/submap, /datum/job/merchant)
 	restricted_jobs = list(/datum/job/captain, /datum/job/hop)
 	protected_jobs = list(/datum/job/officer, /datum/job/medical_trainee, /datum/job/engineer_trainee)
 
 /decl/special_role/traitor
-	blacklisted_jobs = list(/datum/job/merchant, /datum/job/captain, /datum/job/hop, /datum/job/ai, /datum/job/submap, /datum/job/hos)
+	blacklisted_jobs = list(/datum/job/merchant, /datum/job/captain, /datum/job/hop, /datum/job/computer, /datum/job/submap, /datum/job/hos)
 	protected_jobs = list(/datum/job/medical_trainee, /datum/job/engineer_trainee)
 
 /decl/special_role/ert

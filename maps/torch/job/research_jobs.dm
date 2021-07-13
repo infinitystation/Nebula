@@ -41,6 +41,7 @@
 	                    SKILL_SCIENCE     = SKILL_MAX)
 	skill_points = 20
 	selection_color = "#633d63"
+	event_categories = list(ASSIGNMENT_SCIENTIST)
 
 /datum/job/scientist
 	title = "Scientist"
@@ -88,6 +89,7 @@
 	minimal_access = list()
 	skill_points = 20
 	selection_color = "#633d63"
+	event_categories = list(ASSIGNMENT_SCIENTIST)
 
 /datum/job/scientist_assistant
 	title = "Research Assistant"
@@ -125,3 +127,4 @@
 		access_curiosity_analysis, access_curiosity_phoron, access_curiosity_toxins, access_curiosity_chemistry,
 		access_radio_sci, access_radio_exp
 	)
+	event_categories = list(ASSIGNMENT_SCIENTIST)

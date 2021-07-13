@@ -41,6 +41,7 @@
 							 /datum/computer_file/program/deck_management,
 							 /datum/computer_file/program/reports)
 	selection_color = COMMS_COLOR_SUPPLY
+	event_categories = list(ASSIGNMENT_SUPPLY)
 
 /datum/job/cargo_tech
 	title = "Deck Technician"
@@ -82,6 +83,7 @@
 							 /datum/computer_file/program/deck_management,
 							 /datum/computer_file/program/reports)
 	selection_color = COMMS_COLOR_SUPPLY
+	event_categories = list(ASSIGNMENT_SUPPLY)
 
 /datum/job/mining
 	title = "Prospector"
@@ -115,3 +117,4 @@
 
 	minimal_access = list()
 	selection_color = COMMS_COLOR_SUPPLY
+	event_categories = list(ASSIGNMENT_SUPPLY)

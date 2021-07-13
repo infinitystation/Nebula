@@ -42,6 +42,7 @@
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
+	event_categories = list(ASSIGNMENT_MEDICAL)
 
 /datum/job/junior_doctor
 	title = "Medical Resident"
@@ -84,6 +85,7 @@
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
 	selection_color = COMMS_COLOR_MEDICAL
+	event_categories = list(ASSIGNMENT_MEDICAL)
 
 /datum/job/doctor
 	title = "Medical Technician"
@@ -130,6 +132,7 @@
 							 /datum/computer_file/program/camera_monitor)
 	skill_points = 22
 	selection_color = COMMS_COLOR_MEDICAL
+	event_categories = list(ASSIGNMENT_MEDICAL)
 
 /datum/job/medical_trainee
 	title = "Trainee Medical Technician"
@@ -176,6 +179,7 @@
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
+	event_categories = list(ASSIGNMENT_MEDICAL)
 
 /datum/job/medical_trainee/get_description_blurb()
 	return "You are a Trainee Medical Technician. You are learning how to treat and recover wounded crew from the more experienced medical personnel aboard. You are subordinate to the rest of the medical team."
@@ -210,6 +214,7 @@
 	)
 
 	minimal_access = list()
+	event_categories = list(ASSIGNMENT_MEDICAL)
 
 /datum/job/chemist/get_description_blurb()
 	return "You are a Laboratory Technician. You make medicine. You are not a doctor or medic, but have surface level knowledge in those fields. You should not be treating patients, but rather providing the the medicine to do so. You are subordinate to Physicians and Medical Techncians."
@@ -260,6 +265,7 @@
 		/datum/computer_file/program/camera_monitor
 	)
 	give_psionic_implant_on_join = FALSE
+	event_categories = list(ASSIGNMENT_MEDICAL)
 
 /datum/job/psychiatrist/equip(var/mob/living/carbon/human/H)
 	if(H.mind.role_alt_title == "Psionic Counselor")
