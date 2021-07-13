@@ -1,74 +1,74 @@
-/obj/random/summarydocument
+/obj/random/document_summary
 	name = "all summary documents"
 	desc = "Don't use this. This may spawn one of any of the Summary Documents."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "docs_generic"
 	spawn_nothing_percentage = 11
 
-/obj/random/summarydocument/spawn_choices()
+/obj/random/document_summary/spawn_choices()
 	return typesof(/obj/item/document/generic)
 
-/obj/random/summarydocument/scgr
+/obj/random/document_summary/scgr
 	name = "scgr summary documents"
 	desc = "This may spawn one of the SCGR Summary Documents."
 
-/obj/random/summarydocument/scgr/spawn_choices()
+/obj/random/document_summary/scgr/spawn_choices()
 	return subtypesof(/obj/item/documents/generic/scgr) + typesof(/obj/item/documents/generic/dept)
 
-/obj/random/summarydocument/sol
+/obj/random/document_summary/sol
 	name = "sol summary documents"
 	desc = "This may spawn one of the Sol Summary Documents."
 
-/obj/random/summarydocument/sol/spawn_choices()
+/obj/random/document_summary/sol/spawn_choices()
 	return subtypesof(/obj/item/documents/generic/sol) + typesof(/obj/item/documents/generic/dept)
 
-/obj/random/summarydocument/sup
+/obj/random/document_summary/sup
 	name = "sup summary documents"
 	desc = "This may spawn one of the Sup Summary Documents."
 
-/obj/random/summarydocument/sup/spawn_choices()
+/obj/random/document_summary/sup/spawn_choices()
 	return subtypesof(/obj/item/documents/generic/sup) + typesof(/obj/item/documents/generic/dept)
 
-/obj/random/summarydocument/eng
+/obj/random/document_summary/eng
 	name = "eng summary documents"
 	desc = "This may spawn one of the Eng Summary Documents."
 
-/obj/random/summarydocument/eng/spawn_choices()
+/obj/random/document_summary/eng/spawn_choices()
 	return subtypesof(/obj/item/documents/generic/eng) + typesof(/obj/item/documents/generic/dept)
 
-/obj/random/summarydocument/med
+/obj/random/document_summary/med
 	name = "med summary documents"
 	desc = "This may spawn one of the Med Summary Documents."
 
-/obj/random/summarydocument/med/spawn_choices()
+/obj/random/document_summary/med/spawn_choices()
 	return subtypesof(/obj/item/documents/generic/med) + typesof(/obj/item/documents/generic/dept)
 
-/obj/random/summarydocument/explo
+/obj/random/document_summary/explo
 	name = "explo summary documents"
 	desc = "This may spawn one of the Explo Summary Documents."
 
-/obj/random/summarydocument/explo/spawn_choices()
+/obj/random/document_summary/explo/spawn_choices()
 	return subtypesof(/obj/item/documents/generic/explo) + typesof(/obj/item/documents/generic/dept)
 
-/obj/random/summarydocument/sci
+/obj/random/document_summary/sci
 	name = "sci summary documents"
 	desc = "This may spawn one of the Sci Summary Documents."
 
-/obj/random/summarydocument/sci/spawn_choices()
+/obj/random/document_summary/sci/spawn_choices()
 	return subtypesof(/obj/item/documents/generic/sci) + typesof(/obj/item/documents/generic/dept)
 
-/obj/random/summarydocument/corp
+/obj/random/document_summary/corp
 	name = "corp summary documents"
 	desc = "This may spawn one of the Corp Summary Documents."
 
-/obj/random/summarydocument/corp/spawn_choices()
+/obj/random/document_summary/corp/spawn_choices()
 	return subtypesof(/obj/item/documents/generic/corp) + typesof(/obj/item/documents/generic/dept)
 
-/obj/random/summarydocument/sec
+/obj/random/document_summary/sec
 	name = "sec summary documents"
 	desc = "This may spawn one of the Sec Summary Documents."
 
-/obj/random/summarydocument/sec/spawn_choices()
+/obj/random/document_summary/sec/spawn_choices()
 	return subtypesof(/obj/item/documents/generic/sec) + typesof(/obj/item/documents/generic/dept)
 /*
  * Multipoint of the above
@@ -77,52 +77,52 @@
 /obj/random_multi/single_item/summarydocuments //god please don't use this
 	name = "Multi Point - Summary Document"
 	id = "Summary Document"
-	item_path = /obj/random/summarydocument
+	item_path = /obj/random/document_summary
 
 /obj/random_multi/single_item/summarydocuments/scgr
 	name = "Multi Point - Summary Document SCGR"
 	id = "SCGR Summary Document"
-	item_path = /obj/random/summarydocument/scgr
+	item_path = /obj/random/document_summary/scgr
 
 /obj/random_multi/single_item/summarydocuments/sol
 	name = "Multi Point - Summary Document Sol"
 	id = "Sol Summary Document"
-	item_path = /obj/random/summarydocument/sol
+	item_path = /obj/random/document_summary/sol
 
 /obj/random_multi/single_item/summarydocuments/sup
 	name = "Multi Point - Summary Document Sup"
 	id = "Sup Summary Document"
-	item_path = /obj/random/summarydocument/sup
+	item_path = /obj/random/document_summary/sup
 
 /obj/random_multi/single_item/summarydocuments/eng
 	name = "Multi Point - Summary Document Eng"
 	id = "Eng Summary Document"
-	item_path = /obj/random/summarydocument/eng
+	item_path = /obj/random/document_summary/eng
 
 /obj/random_multi/single_item/summarydocuments/med
 	name = "Multi Point - Summary Document Med"
 	id = "Med Summary Document"
-	item_path = /obj/random/summarydocument/med
+	item_path = /obj/random/document_summary/med
 
 /obj/random_multi/single_item/summarydocuments/explo
 	name = "Multi Point - Summary Document Explo"
 	id = "Explo Summary Document"
-	item_path = /obj/random/summarydocument/explo
+	item_path = /obj/random/document_summary/explo
 
 /obj/random_multi/single_item/summarydocuments/sci
 	name = "Multi Point - Summary Document Sci"
 	id = "Sci Summary Document"
-	item_path = /obj/random/summarydocument/sci
+	item_path = /obj/random/document_summary/sci
 
 /obj/random_multi/single_item/summarydocuments/corp
 	name = "Multi Point - Summary Document Corp"
 	id = "Corp Summary Document"
-	item_path = /obj/random/summarydocument/corp
+	item_path = /obj/random/document_summary/corp
 
 /obj/random_multi/single_item/summarydocuments/sec
 	name = "Multi Point - Summary Document Sec"
 	id = "Sec Summary Document"
-	item_path = /obj/random/summarydocument/sec
+	item_path = /obj/random/document_summary/sec
 
 /*
  * Documents Start

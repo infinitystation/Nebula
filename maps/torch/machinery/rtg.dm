@@ -1,8 +1,10 @@
-/obj/machinery/atmospherics/unary/rtg //Like a heater, but uses no power. Icons from Natakilar's fission reactor PR on Nebula, #1284
+// Like a heater, but uses no power. Icons from Natakilar's fission reactor PR on Nebula, #1284
+/obj/machinery/atmospherics/unary/rtg
 	name = "radiothermal heater"
 	desc = "A gas-cooled radiopile which generates heat. Self-regulating to maintain a temperature of approximately 1000k, rated output 150kw."
 	icon = 'maps/torch/icons/obj/fission_core.dmi'
 	icon_state = "fission_core"
+
 	var/regulate_temp = 1000 //kelvin
 	var/heating_power = 150 KILOWATTS
 

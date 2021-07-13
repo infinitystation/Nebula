@@ -3,15 +3,26 @@
 	full_name = "\improper ISEO Endeavour"
 	path = "torch"
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
-	//config_path = "config/torch_config.txt"
 
 	admin_levels = list(7)
 	empty_levels = list(9)
-	accessible_z_levels = list("1"=1,"2"=3,"3"=1,"4"=1,"5"=1,"6"=1,"9"=30)
+	accessible_z_levels = list(
+		"1" = 1,
+		"2" = 3, 
+		"3" = 1,
+		"4" = 1,
+		"5" = 1,
+		"6" = 1,
+		"9" = 30
+	)
 	contact_levels = list(1,2,3,4,5,6)
 	overmap_size = 35
 	overmap_event_areas = 34
-	usable_email_tlds = list("endeavour.issc.iseo", "endeavour.espatier.mil", "freemail.net")
+	usable_email_tlds = list(
+		"endeavour.issc.iseo", 
+		"endeavour.espatier.mil", 
+		"freemail.net"
+	)
 
 	allowed_spawns = list(/decl/spawnpoint/cryo)
 	default_spawn = /decl/spawnpoint/cryo
