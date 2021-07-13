@@ -11,6 +11,13 @@
 /obj/machinery/network/pager/engineering
 	department = /decl/department/engineering
 
+/decl/department/security
+	name = "Security"
+	announce_channel = "Security"
+	colour = "#dd0000"
+	display_priority = 2
+	display_color = "#ffddf0"
+
 /obj/item/robot_module/security
 	associated_department = /decl/department/security
 
