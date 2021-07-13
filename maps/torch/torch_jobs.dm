@@ -1,4 +1,7 @@
 /datum/map/torch
+	default_job_type = /datum/job/assistant
+	default_law_type = /datum/ai_laws/solgov
+
 /*
 	species_to_job_whitelist = list(
 		/datum/species/adherent = list(/datum/job/computer, /datum/job/robot, /datum/job/assistant, /datum/job/janitor, /datum/job/chef, /datum/job/bartender, /datum/job/cargo_tech,
