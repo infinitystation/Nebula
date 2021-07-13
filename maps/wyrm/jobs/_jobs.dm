@@ -10,16 +10,19 @@
 /datum/job/wyrm/engineering
 	department_types = list(/decl/department/engineering)
 	supervisors = "the Captain and your wrench"
+	event_categories = list(ASSIGNMENT_ENGINEER)
 
 // Medical
 /datum/job/wyrm/medical
 	department_types = list(/decl/department/medical)
 	supervisors = "the Captain and the hippocratic oath"
+	event_categories = list(ASSIGNMENT_MEDICAL)
 
 // Science
 /datum/job/wyrm/science
 	department_types = list(/decl/department/science)
 	supervisors = "the Captain and your big brains"
+	event_categories = list(ASSIGNMENT_SCIENTIST)
 
 // Supply
 /datum/job/wyrm/supply
@@ -33,6 +36,7 @@
 /datum/job/wyrm/civilian
 	department_types = list(/decl/department/civilian)
 	supervisors = "the Captain and your lazy bone"
+	event_categories = list(ASSIGNMENT_GARDENER, ASSIGNMENT_JANITOR)
 
 /datum/job/wyrm/civilian/crewmember
 	title = "Crewmember"
