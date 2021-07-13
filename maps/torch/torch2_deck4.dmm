@@ -23,13 +23,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/fourthdeck/aft)
-"ah" = (
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/open,
-/area/quartermaster/hangar/top)
 "aj" = (
 /obj/structure/sign/warning/docking_area,
 /turf/simulated/wall/r_wall/map_preset/tan,
@@ -662,6 +655,7 @@
 /obj/machinery/light_switch{
 	pixel_y = -24
 	},
+/obj/structure/mineral_bath,
 /turf/simulated/floor/crystal,
 /area/crew_quarters/adherent)
 "cu" = (
@@ -2329,17 +2323,6 @@
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
 /area/storage/primary)
-"hN" = (
-/obj/structure/railing/mapped{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
-/obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/open,
-/area/quartermaster/hangar/top)
 "hO" = (
 /obj/structure/table/rack,
 /obj/random/tech_supply,
@@ -4610,14 +4593,6 @@
 /obj/machinery/door/airlock/hatch/maintenance,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
-"qx" = (
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/open,
-/area/quartermaster/hangar/top)
 "qy" = (
 /obj/machinery/door/airlock/civilian{
 	name = "Custodial Closet"
@@ -4635,6 +4610,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/charge_pylon,
 /turf/simulated/floor/crystal,
 /area/crew_quarters/adherent)
 "qJ" = (
@@ -5540,6 +5516,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/door/diamond{
+	dir = 4;
 	name = "Adherent Maintenance"
 	},
 /obj/machinery/door/firedoor,
@@ -5984,6 +5961,7 @@
 /obj/structure/sign/warning/high_voltage{
 	pixel_y = 32
 	},
+/obj/structure/mineral_bath,
 /turf/simulated/floor/crystal,
 /area/crew_quarters/adherent)
 "ut" = (
@@ -8402,6 +8380,17 @@
 /obj/effect/paint_stripe/supply,
 /turf/simulated/floor/plating,
 /area/quartermaster/sorting)
+"Dm" = (
+/obj/structure/railing/mapped{
+	dir = 1;
+	icon_state = "railing0-1"
+	},
+/obj/structure/railing/mapped{
+	dir = 8;
+	icon_state = "railing0-1"
+	},
+/turf/simulated/open,
+/area/quartermaster/hangar/top)
 "Dq" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance{
@@ -9933,6 +9922,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/charge_pylon,
 /turf/simulated/floor/crystal,
 /area/crew_quarters/adherent)
 "IF" = (
@@ -10993,17 +10983,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/eva)
-"Mj" = (
-/obj/structure/railing/mapped{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/open,
-/area/quartermaster/hangar/top)
 "Mk" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1;
@@ -11814,6 +11793,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
+"Ot" = (
+/obj/structure/railing/mapped{
+	dir = 8;
+	icon_state = "railing0-1"
+	},
+/turf/simulated/open,
+/area/quartermaster/hangar/top)
 "Ou" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -14885,6 +14871,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
+"WQ" = (
+/obj/structure/railing/mapped{
+	dir = 1;
+	icon_state = "railing0-1"
+	},
+/obj/structure/railing/mapped{
+	dir = 4;
+	icon_state = "railing0-1"
+	},
+/turf/simulated/open,
+/area/quartermaster/hangar/top)
 "WR" = (
 /obj/effect/floor_decal/corner/mauve/half{
 	dir = 1
@@ -16161,6 +16158,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
+"ZT" = (
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 8;
+	icon_state = "railing0-1"
+	},
+/turf/simulated/open,
+/area/quartermaster/hangar/top)
 "ZU" = (
 /obj/effect/catwalk_plated/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -34896,7 +34901,7 @@ Ga
 Ga
 mG
 lr
-hN
+WQ
 Rg
 Rg
 Rg
@@ -35300,17 +35305,17 @@ lr
 lr
 lr
 lr
-Mj
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-qx
+Dm
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+ZT
 lr
 Yd
 EZ
