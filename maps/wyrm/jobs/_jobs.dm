@@ -28,7 +28,6 @@
 /datum/job/wyrm/supply
 	department_types = list(/decl/department/supply)
 	supervisors = "the Captain and your logistics calculations"
-	event_categories = list(ASSIGNMENT_SUPPLY)
 
 /datum/job/wyrm/miscellaneous
 	department_types = list(/decl/department/miscellaneous)
