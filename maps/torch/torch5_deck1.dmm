@@ -15547,9 +15547,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
-"fLK" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/space)
 "fMr" = (
 /obj/effect/wallframe_spawn/reinforced/no_grille,
 /obj/machinery/door/blast/shutters{
@@ -35321,7 +35318,7 @@ aaa
 aaa
 aaa
 aaa
-fLK
+tAS
 tAS
 tAS
 tAS
@@ -35522,7 +35519,7 @@ aaa
 aaa
 aaa
 aaa
-fLK
+tAS
 tAS
 uBg
 uBg
@@ -35723,8 +35720,8 @@ aaa
 aaa
 aaa
 aaa
-fLK
-sik
+tAS
+tAS
 xCS
 xCS
 cZi
@@ -54918,7 +54915,7 @@ xhX
 xhX
 xhX
 xOU
-fLK
+bDK
 acd
 aNB
 aNB
