@@ -3387,7 +3387,7 @@
 	req_access = list("ACCESS_MAINT")
 	},
 /turf/simulated/floor/reinforced/airless,
-/area/hallway/primary/bridge/aft)
+/area/space)
 "go" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -10208,9 +10208,6 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/forestarboard)
-"Bl" = (
-/turf/simulated/floor/reinforced/airless,
-/area/hallway/primary/bridge/aft)
 "Bp" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light{
@@ -31935,7 +31932,7 @@ bD
 ad
 ad
 ad
-Bl
+ad
 gV
 hJ
 hJ
@@ -32137,7 +32134,7 @@ ad
 ad
 ad
 ad
-Bl
+ad
 gX
 hK
 is

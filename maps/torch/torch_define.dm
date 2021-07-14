@@ -15,7 +15,14 @@
 		"6" = 1,
 		"9" = 30
 	)
-	contact_levels = list(1,2,3,4,5,6)
+	contact_levels = list(
+		1,
+		2,
+		3,
+		4,
+		5,
+		6
+	)
 	overmap_size = 35
 	overmap_event_areas = 34
 	usable_email_tlds = list(
@@ -52,8 +59,8 @@
 
 	evac_controller_type = /datum/evacuation_controller/starship
 
-	use_overmap = 1
-	num_exoplanets = 1
+	use_overmap = TRUE
+	num_exoplanets = 2
 
 	away_site_budget = 3
 	id_hud_icons = 'maps/torch/icons/assignment_hud.dmi'
