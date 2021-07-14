@@ -375,6 +375,7 @@
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/cockpit)
 "bh" = (
@@ -398,6 +399,7 @@
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/crew)
 "bm" = (
@@ -475,6 +477,7 @@
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/cockpit)
 "bw" = (
@@ -495,6 +498,7 @@
 "bz" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/cockpit)
 "bA" = (
@@ -626,6 +630,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
 "bP" = (
@@ -778,6 +783,7 @@
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/crew)
 "cd" = (
@@ -1107,6 +1113,7 @@
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/airlock)
 "cK" = (
@@ -1159,6 +1166,7 @@
 "cN" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/airlock)
 "cO" = (
@@ -2361,6 +2369,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/power)
 "fz" = (
@@ -2928,6 +2937,7 @@
 "hl" = (
 /obj/effect/wallframe_spawn/no_grille,
 /obj/effect/paint_stripe/science,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/quartermaster/exploration)
 "hm" = (
@@ -3140,8 +3150,7 @@
 	name = "Obstruction Field Disperser Maintenance Internal Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/disperser)
@@ -3270,6 +3279,7 @@
 "iy" = (
 /obj/effect/wallframe_spawn/no_grille,
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/command/pilot)
 "iz" = (
@@ -5551,6 +5561,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/fore)
 "ny" = (
@@ -6648,6 +6659,7 @@
 /area/maintenance/fifthdeck/aftport)
 "pF" = (
 /obj/effect/wallframe_spawn/reinforced/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/quartermaster/hangar)
 "pG" = (
@@ -8395,6 +8407,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/maintenance/substation/fifthdeck)
 "tn" = (
@@ -8692,6 +8705,11 @@
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
+	},
+/obj/machinery/alarm{
+	alarm_id = null;
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftport)
@@ -9204,12 +9222,14 @@
 	name = "Security Shutter";
 	opacity = 0
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/curiosity_hangar/start)
 "vj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
 "vm" = (
@@ -9491,9 +9511,6 @@
 	dir = 8;
 	icon_state = "warningcorner"
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
 /turf/simulated/floor/airless,
 /area/command/disperser)
 "xg" = (
@@ -9525,10 +9542,6 @@
 /obj/structure/railing/mapped{
 	dir = 1;
 	icon_state = "railing0-1"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/blue{
-	dir = 5;
-	icon_state = "intact"
 	},
 /obj/random/trash,
 /obj/machinery/light{
@@ -9711,6 +9724,7 @@
 "yv" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/cargo)
 "yw" = (
@@ -9917,8 +9931,7 @@
 /area/command/disperser)
 "zu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
+	dir = 4
 	},
 /obj/structure/sign/warning/airlock{
 	dir = 1;
@@ -9996,6 +10009,7 @@
 	name = "Obstruction Field Disperser Magazine";
 	secured_wires = 1
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/disperser)
 "zL" = (
@@ -10789,10 +10803,6 @@
 /obj/machinery/computer/ship/navigation{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/blue{
-	dir = 10;
-	icon_state = "intact"
-	},
 /turf/simulated/floor/tiled/monotile,
 /area/command/disperser)
 "EC" = (
@@ -10874,21 +10884,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/vacant/infirmary)
-"EW" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
-/obj/machinery/door/blast/regular/open{
-	dir = 4;
-	icon_state = "pdoor0";
-	id_tag = "bsa-window";
-	name = "Observation Blast Door"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/blue{
-	dir = 4;
-	icon_state = "intact"
-	},
-/obj/effect/paint_stripe/command,
-/turf/simulated/floor/plating,
-/area/command/disperser)
 "EX" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -11021,10 +11016,6 @@
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/r_wall/prepainted,
 /area/maintenance/fifthdeck/aftport)
-"Gi" = (
-/obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/prepainted,
-/area/maintenance/fifthdeck/fore)
 "Gj" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/button/access/exterior{
@@ -11547,6 +11538,7 @@
 	name = "Observation Blast Door"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/command/disperser)
 "IJ" = (
@@ -11657,6 +11649,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
 "Jn" = (
@@ -11774,22 +11767,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
-"Ka" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/alarm{
-	alarm_id = "curiosity1";
-	dir = 4;
-	pixel_x = -24
-	},
-/obj/machinery/door/airlock/maintenance,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/maintenance/fifthdeck/aftport)
 "Kd" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -12367,6 +12344,7 @@
 	name = "Obstruction Field Disperser Magazine";
 	secured_wires = 1
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/disperser)
 "Np" = (
@@ -12706,6 +12684,7 @@
 	id_tag = "auxbar";
 	name = "Blast Shutters"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/vacant/bar)
 "QP" = (
@@ -13436,7 +13415,7 @@
 	dir = 9
 	},
 /obj/machinery/alarm{
-	alarm_id = "xenobio2_alarm";
+	alarm_id = null;
 	dir = 4;
 	pixel_x = -24
 	},
@@ -13562,8 +13541,7 @@
 /area/maintenance/fifthdeck/aftstarboard)
 "Wk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
+	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/command/disperser)
@@ -24547,7 +24525,7 @@ Eo
 JE
 eN
 eN
-Gi
+eN
 an
 an
 an
@@ -24749,7 +24727,7 @@ vw
 Gj
 yF
 zE
-Gi
+eN
 an
 an
 an
@@ -24951,7 +24929,7 @@ FI
 xe
 Rk
 hW
-Gi
+eN
 an
 an
 an
@@ -25150,10 +25128,10 @@ Sx
 II
 II
 II
-EW
+II
 II
 zu
-Gi
+eN
 an
 an
 an
@@ -25355,7 +25333,7 @@ Cx
 EA
 xn
 Wk
-Gi
+eN
 an
 an
 an
@@ -25557,7 +25535,7 @@ Hi
 ZR
 Kd
 Wk
-Gi
+eN
 an
 DC
 DC
@@ -25759,7 +25737,7 @@ eP
 hD
 bR
 Jb
-Gi
+eN
 DC
 DC
 pi
@@ -25961,7 +25939,7 @@ MV
 Hg
 Cj
 ZS
-Gi
+eN
 DC
 mh
 mh
@@ -26163,7 +26141,7 @@ Jr
 LJ
 LJ
 LJ
-Gi
+eN
 DC
 mh
 ra
@@ -37080,7 +37058,7 @@ ub
 uc
 ud
 aC
-Ka
+cp
 Ij
 Ij
 cp

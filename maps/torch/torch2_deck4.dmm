@@ -187,6 +187,7 @@
 /area/maintenance/fourthdeck/starboard)
 "aJ" = (
 /obj/effect/wallframe_spawn/reinforced/hull,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "aK" = (
@@ -2321,6 +2322,7 @@
 /area/maintenance/fourthdeck/starboard)
 "hE" = (
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "hO" = (
@@ -3749,6 +3751,7 @@
 "ng" = (
 /obj/effect/wallframe_spawn/no_grille,
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/eva)
 "ni" = (
@@ -3757,6 +3760,7 @@
 /obj/machinery/door/airlock/glass/command{
 	name = "E.V.A. Storage"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/eva)
 "nk" = (
@@ -4089,6 +4093,7 @@
 /area/teleporter/fourthdeck)
 "oB" = (
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "oC" = (
@@ -5601,6 +5606,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/paint_stripe/supply,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/quartermaster/sorting)
 "tA" = (
@@ -5818,6 +5824,7 @@
 	dir = 4
 	},
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "ud" = (
@@ -6978,6 +6985,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/eva)
 "xR" = (
@@ -8378,6 +8386,7 @@
 "Dl" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/effect/paint_stripe/supply,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/quartermaster/sorting)
 "Dm" = (
@@ -9056,6 +9065,7 @@
 /area/crew_quarters/lounge)
 "FK" = (
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/quartermaster/sorting)
 "FL" = (
@@ -10479,6 +10489,7 @@
 /area/quartermaster/sorting)
 "KF" = (
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/quartermaster/expedition/storage)
 "KG" = (
@@ -10507,6 +10518,7 @@
 	icon_state = "0-4"
 	},
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "KI" = (
@@ -11408,6 +11420,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "Nn" = (
@@ -11595,6 +11608,7 @@
 	},
 /obj/structure/cable/green,
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "NP" = (
@@ -11737,6 +11751,7 @@
 	icon_state = "0-2"
 	},
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "Ol" = (
@@ -11954,6 +11969,7 @@
 	pixel_y = -4
 	},
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "OV" = (
@@ -12365,6 +12381,7 @@
 	},
 /obj/effect/wallframe_spawn/no_grille,
 /obj/effect/paint_stripe/supply,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/quartermaster/office)
 "PY" = (
@@ -12449,6 +12466,7 @@
 	},
 /obj/effect/wallframe_spawn/no_grille,
 /obj/effect/paint_stripe/supply,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/quartermaster/storage/upper)
 "Qn" = (
@@ -12780,6 +12798,7 @@
 	dir = 4
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/eva)
 "Rq" = (
@@ -12871,6 +12890,7 @@
 	pixel_y = -4
 	},
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "RA" = (
@@ -13326,6 +13346,7 @@
 	},
 /obj/structure/cable/green,
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "SE" = (
@@ -13567,6 +13588,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/eva)
 "Ta" = (
@@ -13838,12 +13860,6 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille,
 /turf/simulated/floor/plating,
 /area/command/pathfinder)
-"TU" = (
-/obj/machinery/door/airlock/civilian{
-	name = "Commissary Counter"
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/crew_quarters/commissary)
 "TW" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -15009,6 +15025,7 @@
 	pixel_y = -4
 	},
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "Xl" = (
@@ -15289,6 +15306,7 @@
 	},
 /obj/structure/cable/green,
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "XS" = (
@@ -15970,6 +15988,7 @@
 /area/maintenance/fourthdeck/starboard)
 "Zy" = (
 /obj/effect/wallframe_spawn/reinforced/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/maintenance/waterstore)
 "Zz" = (
@@ -28633,7 +28652,7 @@ Gt
 PM
 XH
 XS
-TU
+XD
 Ks
 ZF
 PY

@@ -8,6 +8,7 @@
 	},
 /obj/structure/cable/green,
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
 "ac" = (
@@ -872,6 +873,7 @@
 	icon_state = "0-4"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
 "bQ" = (
@@ -891,6 +893,7 @@
 	opacity = 0
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/xo)
 "bR" = (
@@ -965,6 +968,7 @@
 	id = "meeting_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
 "bY" = (
@@ -1492,6 +1496,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/maintenance/substation/bridge)
 "cK" = (
@@ -1882,7 +1887,7 @@
 	id = "ce_windows"
 	},
 /obj/effect/paint_stripe/command,
-/obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/ce)
 "dq" = (
@@ -2632,6 +2637,7 @@
 	name = "XO Queue Privacy Shutters"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/xo)
 "eT" = (
@@ -2995,6 +3001,7 @@
 "fD" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/fore)
 "fE" = (
@@ -3250,6 +3257,7 @@
 	id = "cmo_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cmo)
 "fX" = (
@@ -3610,6 +3618,7 @@
 /area/perseverance/cockpit)
 "ha" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/perseverance/cockpit)
 "hb" = (
@@ -3717,7 +3726,7 @@
 	id = "ce_windows"
 	},
 /obj/effect/paint_stripe/command,
-/obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/ce)
 "hC" = (
@@ -3866,6 +3875,7 @@
 	id = "meeting_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
 "ie" = (
@@ -4059,6 +4069,7 @@
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/perseverance/passenger)
 "iA" = (
@@ -4097,6 +4108,7 @@
 	id = "bridge_starboard"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "iJ" = (
@@ -4108,6 +4120,7 @@
 	id = "bridge_starboard"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "iP" = (
@@ -4457,6 +4470,7 @@
 	id = "meeting_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
 "jR" = (
@@ -4813,6 +4827,7 @@
 	icon_state = "0-2"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "kU" = (
@@ -5069,6 +5084,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/paint_stripe/command,
 /obj/structure/network_cable,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "lN" = (
@@ -5284,6 +5300,7 @@
 	opacity = 0
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/bridgecheck)
 "mE" = (
@@ -5368,6 +5385,7 @@
 	opacity = 0
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/bridgecheck)
 "mO" = (
@@ -5503,6 +5521,7 @@
 /obj/effect/wallframe_spawn/reinforced,
 /obj/structure/cable/green,
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "ne" = (
@@ -5858,6 +5877,7 @@
 	id = "cmo_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cmo)
 "of" = (
@@ -5873,6 +5893,7 @@
 	id = "cmo_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cmo)
 "og" = (
@@ -5884,6 +5905,7 @@
 	id = "cmo_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cmo)
 "oh" = (
@@ -5909,6 +5931,7 @@
 	icon_state = "0-8"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/aux_eva)
 "on" = (
@@ -5925,6 +5948,7 @@
 	id = "bridge_port"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "oy" = (
@@ -5936,6 +5960,7 @@
 	id = "bridge_port"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "oz" = (
@@ -5999,6 +6024,7 @@
 	icon_state = "0-2"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
 "oK" = (
@@ -6016,6 +6042,7 @@
 	icon_state = "0-4"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/bridgecheck)
 "oO" = (
@@ -6090,6 +6117,7 @@
 "oU" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/perseverance/medical)
 "oW" = (
@@ -6273,6 +6301,7 @@
 	id = "cmo_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cmo)
 "pJ" = (
@@ -6604,6 +6633,7 @@
 	id = "cos_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cos)
 "qq" = (
@@ -6615,6 +6645,7 @@
 	id = "cos_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cos)
 "qs" = (
@@ -7154,6 +7185,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/co)
 "rQ" = (
@@ -7396,6 +7428,7 @@
 	id = "sea_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/sea)
 "sz" = (
@@ -7456,6 +7489,7 @@
 	id = "sgr_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/sgr)
 "sI" = (
@@ -7471,6 +7505,7 @@
 	id = "sgr_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/sgr)
 "sJ" = (
@@ -7498,6 +7533,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/rd)
 "sS" = (
@@ -7715,6 +7751,7 @@
 	id = "sgr_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/sgr)
 "tt" = (
@@ -7962,6 +7999,7 @@
 	dir = 4
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/sgr)
 "uh" = (
@@ -9507,6 +9545,7 @@
 	icon_state = "0-2"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
 "yf" = (
@@ -9519,6 +9558,7 @@
 	icon_state = "0-8"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "yg" = (
@@ -9696,6 +9736,7 @@
 	id = "bridge_port"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "zo" = (
@@ -9881,6 +9922,7 @@
 	icon_state = "0-4"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/bridgecheck)
 "zW" = (
@@ -9955,6 +9997,7 @@
 	opacity = 0
 	},
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/perseverance/passenger)
 "Ah" = (
@@ -10113,6 +10156,7 @@
 	icon_state = "0-2"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "AI" = (
@@ -10136,6 +10180,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/security/bridgecheck)
 "AJ" = (
@@ -10535,6 +10580,7 @@
 	dir = 4
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cmo)
 "Cx" = (
@@ -10554,6 +10600,7 @@
 	opacity = 0
 	},
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/perseverance/airlock)
 "CE" = (
@@ -10767,6 +10814,7 @@
 	id = "co_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/co)
 "DE" = (
@@ -11293,6 +11341,7 @@
 	id = "cl_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cl)
 "GD" = (
@@ -11508,6 +11557,7 @@
 	opacity = 0
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/xo)
 "Hs" = (
@@ -11550,6 +11600,7 @@
 	icon_state = "0-4"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
 "Hx" = (
@@ -13107,6 +13158,7 @@
 	id = "cl_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cl)
 "OK" = (
@@ -13849,6 +13901,7 @@
 	id = "sea_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/sea)
 "RU" = (
@@ -14712,6 +14765,7 @@
 	id = "meeting_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
 "Vs" = (
@@ -14798,6 +14852,7 @@
 	icon_state = "0-8"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "VP" = (
@@ -15179,6 +15234,7 @@
 "XI" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/tan,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/perseverance/airlock)
 "XJ" = (
@@ -15225,6 +15281,7 @@
 	id = "co_windows"
 	},
 /obj/effect/paint_stripe/command,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge)
 "Yb" = (
