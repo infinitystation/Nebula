@@ -139,7 +139,6 @@
 /obj/effect/wallframe_spawn/no_grille,
 /obj/machinery/door/firedoor,
 /obj/effect/paint_stripe/common,
-/obj/effect/paint_stripe/common,
 /turf/simulated/floor/plating,
 /area/crew_quarters/mess)
 "aI" = (
@@ -3891,6 +3890,11 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/galley)
 "im" = (
@@ -7074,7 +7078,6 @@
 /obj/effect/wallframe_spawn/no_grille,
 /obj/machinery/door/firedoor,
 /obj/effect/paint_stripe/common,
-/obj/effect/paint_stripe/common,
 /turf/simulated/floor/plating,
 /area/crew_quarters/mess)
 "pZ" = (
@@ -7700,6 +7703,11 @@
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/fore)
