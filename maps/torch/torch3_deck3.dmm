@@ -10837,7 +10837,6 @@
 "zR" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder,
-/obj/structure/catwalk,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "zS" = (
@@ -18855,7 +18854,6 @@
 /obj/structure/ladder,
 /obj/effect/floor_decal/corner/red/mono,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/effect/catwalk_plated/dark,
 /obj/machinery/light,
 /obj/machinery/alarm{
 	dir = 8;
