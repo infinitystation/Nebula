@@ -20,10 +20,10 @@
 	. = ..()
 
 /obj/machinery/power/supermatter/energy/attack_hand(var/mob/user)
-	visible_message(SPAN_NOTICE("[user] gently taps \the [src]."))
+	visible_message(SPAN_NOTICE("\The [user] gently taps \the [src]."))
 
 /obj/machinery/power/supermatter/energy/attackby(var/obj/item/W, var/mob/living/user)
-	visible_message(SPAN_NOTICE("[user] gently taps \the [src] with [W]."))
+	visible_message(SPAN_NOTICE("\The [user] gently taps \the [src] with \the [W]."))
 
 /obj/machinery/power/supermatter/energy/Bumped()
 	return
