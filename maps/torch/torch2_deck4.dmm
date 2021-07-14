@@ -14073,6 +14073,8 @@
 /area/maintenance/fourthdeck/forestarboard)
 "UD" = (
 /obj/machinery/fabricator/book,
+/obj/structure/table/woodentable,
+/obj/item/stack/material/plank/mapped/wood/ten,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge)
 "UE" = (

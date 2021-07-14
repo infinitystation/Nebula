@@ -870,15 +870,15 @@
 	name = "\improper Cryogenic Storage Wardrobe"
 	icon_state = "locker"
 
-/area/crew_quarters/head
-	name = "\improper Third Deck Head"
+/area/crew_quarters/restroom
+	name = "\improper Third Deck Restroom"
 	icon_state = "toilet"
 	sound_env = SMALL_ENCLOSED
 
-/area/crew_quarters/head/aux
-	name = "\improper First Deck Head"
+/area/crew_quarters/restroom/aux
+	name = "\improper First Deck Restroom"
 
-/area/crew_quarters/head/sauna
+/area/crew_quarters/restroom/sauna
 	name = "\improper Sauna"
 	icon_state = "sauna"
 

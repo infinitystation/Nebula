@@ -62,7 +62,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "aar" = (
 /obj/effect/shuttle_landmark/skipjack/deck2{
 	name = "1st Deck, Fore"
@@ -89,7 +89,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "aaQ" = (
 /obj/structure/sign/warning/airlock{
 	dir = 1;
@@ -347,7 +347,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "abA" = (
 /obj/effect/floor_decal/corner/beige{
 	dir = 5
@@ -525,7 +525,7 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "abS" = (
 /obj/machinery/light/small,
 /obj/structure/cable/green{
@@ -538,7 +538,7 @@
 	level = 2
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "abT" = (
 /obj/effect/floor_decal/corner/beige{
 	dir = 10
@@ -1251,7 +1251,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "adl" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
@@ -1294,7 +1294,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "adp" = (
 /obj/structure/hygiene/sink{
 	dir = 4;
@@ -1304,13 +1304,13 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "adq" = (
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "ads" = (
 /obj/effect/floor_decal/corner/paleblue,
 /turf/simulated/floor/tiled/white,
@@ -1693,7 +1693,7 @@
 	},
 /obj/item/soap,
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "aef" = (
 /obj/structure/table/rack,
 /obj/random/maintenance/solgov,
@@ -4931,14 +4931,14 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "ala" = (
 /obj/machinery/light/small{
 	dir = 4;
 	icon_state = "bulb1"
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "alh" = (
 /obj/structure/cable{
 	d1 = 32;
@@ -5149,7 +5149,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "amn" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
@@ -7583,7 +7583,7 @@
 /area/hallway/primary/firstdeck/fore)
 "aAm" = (
 /turf/simulated/wall/map_preset/tan,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "aAn" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -7593,7 +7593,7 @@
 	},
 /obj/item/taperoll/bog,
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "aAs" = (
 /obj/machinery/status_display,
 /obj/effect/paint/eggshell,
@@ -18235,7 +18235,7 @@
 "jvU" = (
 /obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "jxa" = (
 /turf/simulated/floor/tiled/dark,
 /area/medical/morgue/autopsy)
@@ -18928,7 +18928,7 @@
 	},
 /obj/item/taperoll/bog,
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "kss" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -19670,7 +19670,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "ltl" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced_borosilicate,
@@ -21999,7 +21999,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "oHP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -23865,7 +23865,7 @@
 	pixel_x = -22
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "qLb" = (
 /obj/machinery/portable_atmospherics/hydroponics{
 	closed_system = 1;
@@ -24269,7 +24269,7 @@
 /area/security/bo)
 "riD" = (
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "riX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -25951,7 +25951,7 @@
 "sYU" = (
 /obj/structure/curtain/open/shower,
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/head/aux)
+/area/crew_quarters/restroom/aux)
 "taR" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/door/firedoor,
