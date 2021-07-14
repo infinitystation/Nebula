@@ -15,11 +15,6 @@
 	name = "\improper Xenoflora Storage"
 	icon_state = "xeno_f_store"
 
-/area/security/brig
-	name = "\improper Security - Brig"
-	icon_state = "brig"
-	req_access = list(access_brig)
-
 //Fifth Deck (Z-0)
 /area/hallway/primary/fifthdeck/fore
 	name = "\improper Fifth Deck Fore Hallway"
@@ -557,6 +552,10 @@
 	base_turf = /turf/simulated/floor
 
 // Command
+/area/command
+	name = "Command"
+	req_access = list(access_bridge)
+	secure = TRUE
 
 /area/command/captainmess
 	name = "Officer's Mess"
@@ -642,6 +641,9 @@
 	req_access = list(access_senadv)
 
 // Engineering
+/area/engineering
+	name = "Engineering"
+	req_access = list(access_engine)
 
 /area/engineering/shieldbay
 	name = "Shield Bay"
@@ -832,6 +834,10 @@
 	req_access = list(access_hangar)
 
 // Research
+/area/rnd
+	name = "Research and Development"
+	req_access = list(access_research)
+
 /area/rnd/canister
 	name = "\improper Canister Storage"
 	icon_state = "toxstorage"
@@ -973,6 +979,15 @@
 	req_access = list(access_ai_upload)
 
 // Security
+/area/security
+	name = "\improper Security"
+	req_access = list(access_sec_doors)
+	secure = TRUE
+
+/area/security/brig
+	name = "\improper Security - Brig"
+	icon_state = "brig"
+	req_access = list(access_brig)
 
 /area/security/bo
 	name = "\improper Security - Brig Chief"
@@ -1028,6 +1043,10 @@
 	icon_state = "checkpoint"
 
 // Medbay
+
+/area/medical
+	name = "\improper Medical"
+	req_access = list(access_medical)
 
 /area/medical/equipstorage
 	name = "\improper Medical Equipment Storage"
