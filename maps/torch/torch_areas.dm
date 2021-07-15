@@ -5,7 +5,7 @@
 
 /area/torch
 	// Might be worth to replace later.
-	name = "\improper SEV Torch"
+//	name = "\improper ISEO Endeavour"
 	secure = TRUE
 
 /area/torch/hallway

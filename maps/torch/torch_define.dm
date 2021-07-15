@@ -73,7 +73,7 @@
 	evac_controller_type = /datum/evacuation_controller/starship
 
 	use_overmap = TRUE
-	num_exoplanets = 2
+	num_exoplanets = 0
 
 	away_site_budget = 3
 	id_hud_icons = 'maps/torch/icons/assignment_hud.dmi'

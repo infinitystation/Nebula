@@ -5,6 +5,7 @@
 	allowed_ranks = list(/datum/mil_rank/civ/civ)
 	required_language = null
 
+/*
 /datum/mil_branch/skrell_fleet
 	name = "Skrellian Defense Task Force"
 	name_short = "SDTF"
@@ -15,6 +16,7 @@
 
 /datum/mil_rank/skrell_fleet
 	name = "NULL"
+*/
 
 /datum/map/torch
 	branch_types = list(
@@ -22,8 +24,8 @@
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/government,
 		/datum/mil_branch/espatier_corps,
-		/datum/mil_branch/alien,
-		/datum/mil_branch/skrell_fleet
+	//	/datum/mil_branch/skrell_fleet,
+		/datum/mil_branch/alien
 	)
 
 	spawn_branch_types = list(
@@ -31,60 +33,49 @@
 		/datum/mil_branch/espatier_corps,
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/government,
-		/datum/mil_branch/alien,
-		/datum/mil_branch/skrell_fleet
+	//	/datum/mil_branch/skrell_fleet,
+		/datum/mil_branch/alien
 	)
 
-/*	species_to_branch_blacklist = list(
-		/datum/species/human   = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet),
-		/datum/species/machine = list(/datum/mil_branch/alien, /datum/mil_branch/skrell_fleet),
-		/datum/species/vox     = list(
-			/datum/mil_branch/iseo_issc,
-			/datum/mil_branch/fleet,
-			/datum/mil_branch/civilian,
-			/datum/mil_branch/solgov,
-			/datum/mil_branch/skrell_fleet
-		)
+	species_to_branch_blacklist = list(
+		/decl/species/human   = list(/datum/mil_branch/alien),
+		/decl/species/utility_frame = list(/datum/mil_branch/alien)
 	)
 
 	species_to_branch_whitelist = list(
-		/datum/species/diona        = list(/datum/mil_branch/civilian),
-		/datum/species/nabber       = list(/datum/mil_branch/civilian),
-		/datum/species/skrell       = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc, /datum/mil_branch/skrell_fleet),
-		/datum/species/unathi       = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc),
-		/datum/species/unathi/yeosa = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc),
-		/datum/species/adherent     = list(/datum/mil_branch/civilian),
-		/datum/species/vox          = list(/datum/mil_branch/alien)
+		/decl/bodytype/serpentid   = list(/datum/mil_branch/civilian),
+	//	/decl/species/skrell       = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc, /datum/mil_branch/skrell_fleet),
+		/decl/species/lizard       = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc),
+		/decl/species/adherent     = list(/datum/mil_branch/civilian)
 	)
 
 	species_to_rank_blacklist = list(
-		/datum/species/machine = list(
-			/datum/mil_branch/solgov = list(
-				/datum/mil_rank/sol/agent
+		/decl/species/utility_frame = list(
+			/datum/mil_branch/government = list(
+				/datum/mil_rank/government/gov
 			)
 		)
 	)
 
 	species_to_rank_whitelist = list(
-		/datum/species/machine = list(
+		/decl/species/utility_frame = list(
 			/datum/mil_branch/iseo_issc = list(
-				/datum/mil_rank/sc/e3,
-				/datum/mil_rank/sc/e5,
-				/datum/mil_rank/sc/e7,
+				/datum/mil_rank/sc/t3,
 				/datum/mil_rank/sc/s1
 			),
-			/datum/mil_branch/fleet = list(
-				/datum/mil_rank/fleet/e1,
-				/datum/mil_rank/fleet/e2,
-				/datum/mil_rank/fleet/e3,
-				/datum/mil_rank/fleet/e4,
-				/datum/mil_rank/fleet/e5,
-				/datum/mil_rank/fleet/e6,
-				/datum/mil_rank/fleet/e7,
-				/datum/mil_rank/fleet/o1
+			/datum/mil_branch/espatier_corps = list(
+				/datum/mil_rank/espatier/e1,
+				/datum/mil_rank/espatier/e2,
+				/datum/mil_rank/espatier/e3,
+				/datum/mil_rank/espatier/e4,
+				/datum/mil_rank/espatier/e5,
+				/datum/mil_rank/espatier/e6,
+				/datum/mil_rank/espatier/e7,
+				/datum/mil_rank/espatier/o1
 			)
 		),
-		/datum/species/skrell = list(
+/*
+		/decl/species/skrell = list(
 			/datum/mil_branch/iseo_issc = list(
 				/datum/mil_rank/sc/e3,
 				/datum/mil_rank/sc/e5,
@@ -92,25 +83,15 @@
 				/datum/mil_rank/sc/s1
 			)
 		),
-		/datum/species/unathi = list(
+*/
+		/decl/species/lizard = list(
 			/datum/mil_branch/iseo_issc = list(
-				/datum/mil_rank/sc/e3,
-				/datum/mil_rank/sc/e5
-			)
-		),
-		/datum/species/unathi/yeosa = list(
-			/datum/mil_branch/iseo_issc = list(
-				/datum/mil_rank/sc/e3,
-				/datum/mil_rank/sc/e5
-			)
-		),
-		/datum/species/vox = list(
-			/datum/mil_branch/alien = list(
-				/datum/mil_rank/alien
+				/datum/mil_rank/sc/s4,
+				/datum/mil_rank/sc/s6
 			)
 		)
 	)
-*/
+
 
 /*
  *  Branches
