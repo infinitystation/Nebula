@@ -19697,6 +19697,9 @@
 /area/torch/hallway/primary/firstdeck/aft)
 "ltb" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/computer/design_console{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/research/development)
 "lte" = (

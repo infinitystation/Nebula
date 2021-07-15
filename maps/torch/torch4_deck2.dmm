@@ -12523,8 +12523,8 @@
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/torch/storage/research)
 "Ei" = (
-/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/design_database,
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/storage/research)
 "Ej" = (
