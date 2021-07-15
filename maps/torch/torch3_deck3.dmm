@@ -3649,7 +3649,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/thirddeck/aft)
 "hS" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -4321,7 +4321,7 @@
 	c_tag = "Third Deck - Ladders";
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/thirddeck/aft)
 "jn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5686,6 +5686,9 @@
 /obj/machinery/suit_cycler/engineering/prepared,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/engineering/hardstorage)
+"my" = (
+/turf/simulated/floor/glass,
+/area/torch/hallway/primary/thirddeck/aft)
 "mB" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
@@ -5711,7 +5714,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/thirddeck/aft)
 "mF" = (
 /obj/effect/floor_decal/corner/grey/diagonal{
@@ -9474,13 +9477,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/thirddeck/aft)
 "wk" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/thirddeck/aft)
 "wl" = (
 /turf/simulated/wall/map_preset/tan,
@@ -10144,7 +10147,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/thirddeck/aft)
 "xT" = (
 /obj/structure/cable/green{
@@ -15058,7 +15061,7 @@
 	name = "lightsout"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/thirddeck/aft)
 "Lk" = (
 /obj/structure/catwalk,
@@ -15747,7 +15750,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/thirddeck/aft)
 "Nj" = (
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -41901,7 +41904,7 @@ sW
 rp
 wk
 Lj
-sW
+my
 jm
 PA
 AK

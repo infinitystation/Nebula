@@ -436,7 +436,7 @@
 /area/torch/janitor/storage)
 "bE" = (
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "bF" = (
 /obj/structure/cable/green{
@@ -3599,6 +3599,9 @@
 /obj/effect/paint_stripe/supply,
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/torch/quartermaster/deckchief)
+"mx" = (
+/turf/simulated/floor/glass,
+/area/torch/hallway/primary/fourthdeck/aft)
 "my" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/mauve/half{
@@ -6250,7 +6253,7 @@
 	pixel_y = -25;
 	req_access = list(list("ACCESS_CARGO","ACCESS_MINING"))
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "vk" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -6858,7 +6861,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "xn" = (
 /obj/effect/floor_decal/corner/brown{
@@ -7264,7 +7267,7 @@
 "yD" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "yF" = (
 /obj/structure/ladder,
@@ -7290,7 +7293,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "yN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -7655,7 +7658,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "Ad" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -8663,7 +8666,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "Et" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
@@ -11259,7 +11262,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "MU" = (
 /obj/machinery/door/firedoor,
@@ -12410,7 +12413,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "Qc" = (
 /obj/structure/table/steel,
@@ -15571,7 +15574,7 @@
 	c_tag = "Fourth Deck - Ladders";
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "YC" = (
 /obj/structure/cable/green{
@@ -16033,7 +16036,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "ZF" = (
 /obj/machinery/newscaster{
@@ -16178,7 +16181,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
 "ZT" = (
 /obj/structure/railing/mapped,
@@ -37760,7 +37763,7 @@ rz
 ZE
 yD
 ZS
-yC
+mx
 gM
 ZS
 bE
@@ -37964,7 +37967,7 @@ Er
 Er
 Er
 gM
-yC
+mx
 vi
 fA
 sj

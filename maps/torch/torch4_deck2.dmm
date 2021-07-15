@@ -3,7 +3,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/foyer)
 "ab" = (
 /obj/structure/disposalpipe/segment{
@@ -444,6 +444,9 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/seconddeck/forestarboard)
+"bd" = (
+/turf/simulated/floor/glass,
+/area/torch/engineering/engineering_bay)
 "be" = (
 /obj/structure/table/rack,
 /obj/random/maintenance/solgov,
@@ -1522,7 +1525,7 @@
 "dn" = (
 /obj/structure/bed/roller,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "do" = (
 /obj/effect/decal/cleanable/cobweb2,
@@ -3608,7 +3611,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/engineering_bay)
 "hV" = (
 /obj/machinery/power/apc/super/critical{
@@ -3619,7 +3622,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/engineering_bay)
 "hW" = (
 /obj/structure/table/rack{
@@ -4406,7 +4409,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/foyer)
 "jQ" = (
 /obj/machinery/door/airlock/external/escapepod{
@@ -4429,7 +4432,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/foyer)
 "jT" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -4441,7 +4444,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/foyer)
 "jV" = (
 /obj/effect/paint_stripe/engineering,
@@ -4837,7 +4840,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/torch/engineering/engine_monitoring)
 "kR" = (
-/obj/effect/catwalk_plated,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
@@ -4849,6 +4851,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/torch/engineering/engineering_bay)
 "kS" = (
@@ -5506,7 +5509,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/torch/engineering/engine_monitoring)
 "mE" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/engineering_monitoring)
 "mF" = (
 /obj/structure/disposalpipe/segment,
@@ -6174,7 +6177,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/torch/engineering/foyer)
 "oc" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/foyer)
 "od" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -6724,7 +6727,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "pJ" = (
 /obj/item/radio/beacon,
@@ -7333,7 +7336,7 @@
 "qN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/foyer)
 "qO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
@@ -7591,7 +7594,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "rn" = (
 /obj/structure/cable/green{
@@ -7876,7 +7879,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/foyer)
 "sc" = (
 /obj/effect/floor_decal/corner/yellow/half,
@@ -8327,7 +8330,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/glass,
 /area/torch/engineering/engineering_bay)
 "tj" = (
 /obj/structure/table/rack{
@@ -8436,7 +8439,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/foyer)
 "tx" = (
 /obj/structure/cable{
@@ -8461,7 +8464,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/engineering/foyer)
 "tz" = (
 /obj/structure/table/steel_reinforced,
@@ -10956,7 +10959,7 @@
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "An" = (
 /obj/structure/cable/green{
@@ -12993,7 +12996,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "Fn" = (
 /obj/structure/cable/green{
@@ -13412,7 +13415,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "Gn" = (
 /obj/structure/cable/green{
@@ -14268,7 +14271,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "IB" = (
 /obj/machinery/door/airlock/glass/engineering{
@@ -14634,7 +14637,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "Jv" = (
 /obj/structure/closet/secure_closet/engineering_senior,
@@ -16322,7 +16325,7 @@
 	c_tag = "Second Deck Hallway - Elevator Landing";
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "On" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -17093,7 +17096,7 @@
 	dir = 4;
 	level = 2
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/hallway/primary/seconddeck/elevator)
 "Qu" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
@@ -41965,8 +41968,8 @@ iL
 iN
 ho
 Ed
-hK
-vN
+bd
+ti
 hU
 iN
 pG
@@ -42167,7 +42170,7 @@ gq
 iN
 RG
 QK
-hK
+bd
 ti
 hV
 iN
@@ -42369,7 +42372,7 @@ HU
 iN
 jA
 lJ
-hK
+bd
 ti
 hW
 HN
@@ -42571,8 +42574,8 @@ iN
 iN
 AS
 SC
-hK
-vN
+bd
+ti
 mE
 pb
 iG
@@ -42773,8 +42776,8 @@ wA
 OE
 fs
 Xv
-hK
-vN
+bd
+ti
 mE
 pb
 iG

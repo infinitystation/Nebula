@@ -16918,7 +16918,7 @@
 	dir = 1;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "hFk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -16941,7 +16941,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "hGs" = (
 /obj/effect/paint_stripe/security,
@@ -17138,7 +17138,7 @@
 	icon_state = "warning"
 	},
 /obj/item/stool/padded,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "hVG" = (
 /turf/simulated/wall/r_wall/map_preset/tan,
@@ -17330,7 +17330,7 @@
 	dir = 8;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "imK" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -19604,7 +19604,7 @@
 	dir = 8;
 	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "lkn" = (
 /obj/structure/disposaloutlet,
@@ -19821,7 +19821,7 @@
 /obj/machinery/network/pager/science{
 	pixel_x = -25
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "lym" = (
 /turf/simulated/floor/tiled,
@@ -21482,13 +21482,13 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "nSb" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "nUp" = (
 /obj/structure/cable/green{
@@ -21643,7 +21643,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "oby" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -21677,7 +21677,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/glass,
 /area/torch/research/entry)
 "ocG" = (
 /obj/structure/filingcabinet/chestdrawer{
