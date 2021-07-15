@@ -29,37 +29,11 @@
 	total_positions = 1
 	spawn_positions = 1
 
-	access = list(
-		access_security, access_brig, access_armory, access_forensics_lockers, access_heads, access_medical, access_morgue, access_tox, access_tox_storage,
-		access_engine, access_engine_equip, access_maint_tunnels, access_external_airlocks, access_emergency_storage, access_change_ids,
-		access_ai_upload, access_teleporter, access_eva, access_bridge, access_all_personal_lockers, access_chapel_office, access_tech_storage,
-		access_atmospherics, access_bar, access_janitor, access_crematorium, access_kitchen, access_robotics, access_cargo, access_construction,
-		access_chemistry, access_cargo_bot, access_hydroponics, access_manufacturing, access_library, access_lawyer, access_virology, access_cmo,
-		access_qm, access_network, access_surgery, access_research, access_mining, access_mining_office, access_mailsorting, access_heads_vault,
-		access_mining_station, access_xenobiology, access_ce, access_hop, access_hos, access_RC_announce, access_keycard_auth, access_tcomsat,
-		access_gateway, access_sec_doors, access_psychiatrist, access_xenoarch, access_medical_equip, access_heads, access_hangar, access_opportunity_helm,
-		access_expedition_shuttle_helm, access_perseverance, access_perseverance_helm, access_solgov_crew, access_nanotrasen,
-		access_emergency_armory, access_sec_guard, access_gun, access_expedition_shuttle, access_opportunity, access_seneng, access_senmed, access_senadv,
-		access_explorer, access_pathfinder, access_pilot, access_commissary, access_curiosity, access_curiosity_helm, access_curiosity_analysis, access_curiosity_phoron,
-		access_curiosity_toxins, access_curiosity_chemistry, access_curiosity_security, access_curiosity_maint, access_rd, access_curiosity_rd, access_torch_fax, access_torch_helm,
-		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_sup, access_radio_serv, access_radio_exp, access_radio_sci, access_captain
-	)
+	access = list()
+	minimal_access = list()
 
-	minimal_access = list(
-		access_security, access_brig, access_armory, access_forensics_lockers, access_heads, access_medical, access_morgue, access_tox, access_tox_storage,
-		access_engine, access_engine_equip, access_maint_tunnels, access_external_airlocks, access_emergency_storage, access_change_ids,
-		access_ai_upload, access_teleporter, access_eva, access_bridge, access_all_personal_lockers, access_chapel_office, access_tech_storage,
-		access_atmospherics, access_bar, access_janitor, access_crematorium, access_kitchen, access_robotics, access_cargo, access_construction,
-		access_chemistry, access_cargo_bot, access_hydroponics, access_manufacturing, access_library, access_lawyer, access_virology, access_cmo,
-		access_qm, access_network, access_surgery, access_research, access_mining, access_mining_office, access_mailsorting, access_heads_vault,
-		access_mining_station, access_xenobiology, access_ce, access_hop, access_hos, access_RC_announce, access_keycard_auth, access_tcomsat,
-		access_gateway, access_sec_doors, access_psychiatrist, access_xenoarch, access_medical_equip, access_heads, access_hangar, access_opportunity_helm,
-		access_expedition_shuttle_helm, access_perseverance, access_perseverance_helm, access_solgov_crew, access_nanotrasen,
-		access_emergency_armory, access_sec_guard, access_gun, access_expedition_shuttle, access_opportunity, access_seneng, access_senmed, access_senadv,
-		access_explorer, access_pathfinder, access_pilot, access_commissary, access_curiosity, access_curiosity_helm, access_curiosity_analysis, access_curiosity_phoron,
-		access_curiosity_toxins, access_curiosity_chemistry, access_curiosity_security, access_curiosity_maint, access_rd, access_curiosity_rd, access_torch_fax, access_torch_helm,
-		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_sup, access_radio_serv, access_radio_exp, access_radio_sci
-	)
+/datum/job/captain/get_access()
+	return get_all_station_access()
 	
 /datum/job/captain/get_description_blurb()
 	return "You are the Commanding Officer. You are the top dog. You are an experienced professional officer in control of an entire ship, and ultimately responsible for all that happens onboard. Your job is to make sure [using_map.full_name] fulfils its space exploration mission. Delegate to your Executive Officer, your department heads, and your Senior Enlisted Advisor to effectively manage the ship, and listen to and trust their expertise."
