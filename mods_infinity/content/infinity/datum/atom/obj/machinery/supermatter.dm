@@ -1,5 +1,7 @@
-//Safe supermatter
+/obj/machinery/power/supermatter
+	explosion_power = 20
 
+//Safe supermatter
 /obj/machinery/power/supermatter/energy
 	name = "energy crystal"
 	desc = "A strangely translucent and iridescent crystal."
