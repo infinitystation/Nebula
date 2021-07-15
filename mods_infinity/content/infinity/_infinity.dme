@@ -20,6 +20,7 @@
 #include "datum\atom\obj\item\food\bottle.dm"
 #include "datum\atom\obj\item\music_player\music_player.dm"
 #include "datum\atom\obj\item\music_tape\music_tape.dm"
+#include "datum\atom\obj\item\scanner\security\security.dm"
 #include "datum\atom\obj\machinery\jukebox.dm"
 #include "datum\atom\obj\machinery\lightswitch.dm"
 #include "datum\atom\obj\machinery\stasis.dm"
