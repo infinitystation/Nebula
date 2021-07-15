@@ -3,24 +3,24 @@
 	apc_test_exempt_areas = list(
 		/area/space = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/exoplanet = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/perseverance/maintenance = NO_SCRUBBER|NO_VENT,
-		/area/engineering/atmos/storage = NO_SCRUBBER|NO_VENT,
-		/area/engineering/auxpower = NO_SCRUBBER|NO_VENT,
-		/area/engineering/engine_smes = NO_SCRUBBER|NO_VENT,
-		/area/engineering/fuelbay = NO_SCRUBBER|NO_VENT,
-		/area/engineering/wastetank = NO_SCRUBBER|NO_VENT,
-		/area/hallway/primary/seconddeck/center = NO_SCRUBBER|NO_VENT,
+		/area/torch/perseverance/maintenance = NO_SCRUBBER|NO_VENT,
+		/area/torch/engineering/atmos/storage = NO_SCRUBBER|NO_VENT,
+		/area/torch/engineering/auxpower = NO_SCRUBBER|NO_VENT,
+		/area/torch/engineering/engine_smes = NO_SCRUBBER|NO_VENT,
+		/area/torch/engineering/fuelbay = NO_SCRUBBER|NO_VENT,
+		/area/torch/engineering/wastetank = NO_SCRUBBER|NO_VENT,
+		/area/torch/hallway/primary/seconddeck/center = NO_SCRUBBER|NO_VENT,
 		/area/holodeck = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/maintenance = NO_SCRUBBER|NO_VENT,
-		/area/endeavour_exterior = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/maintenance/firstdeck/foreport = NO_SCRUBBER|NO_VENT,
-		/area/maintenance/firstdeck/forestarboard = NO_SCRUBBER|NO_VENT,
-		/area/maintenance/disposal = NO_SCRUBBER,
-		/area/maintenance/seconddeck/aftport = NO_SCRUBBER|NO_VENT,
-		/area/maintenance/seconddeck/forestarboard = NO_SCRUBBER|NO_VENT,
-		/area/maintenance/thirddeck/aftstarboard = NO_SCRUBBER|NO_VENT,
-		/area/maintenance/fifthdeck/aftstarboard = NO_SCRUBBER|NO_VENT,
-		/area/maintenance/waterstore = 0,
+		/area/torch/maintenance = NO_SCRUBBER|NO_VENT,
+		/area/torch/exterior = NO_SCRUBBER|NO_VENT|NO_APC,
+		/area/torch/maintenance/firstdeck/foreport = NO_SCRUBBER|NO_VENT,
+		/area/torch/maintenance/firstdeck/forestarboard = NO_SCRUBBER|NO_VENT,
+		/area/torch/maintenance/disposal = NO_SCRUBBER,
+		/area/torch/maintenance/seconddeck/aftport = NO_SCRUBBER|NO_VENT,
+		/area/torch/maintenance/seconddeck/forestarboard = NO_SCRUBBER|NO_VENT,
+		/area/torch/maintenance/thirddeck/aftstarboard = NO_SCRUBBER|NO_VENT,
+		/area/torch/maintenance/fifthdeck/aftstarboard = NO_SCRUBBER|NO_VENT,
+		/area/torch/maintenance/waterstore = 0,
 		/area/shuttle = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/shuttle/merchant = NO_SCRUBBER|NO_APC,
 		/area/shuttle/escape_pod6/station = NO_SCRUBBER|NO_APC|NO_VENT,
@@ -29,44 +29,44 @@
 		/area/shuttle/escape_pod9/station = NO_SCRUBBER|NO_APC|NO_VENT,
 		/area/shuttle/escape_pod10/station = NO_SCRUBBER|NO_APC|NO_VENT,
 		/area/shuttle/escape_pod11/station = NO_SCRUBBER|NO_APC|NO_VENT,
-		/area/storage = NO_SCRUBBER|NO_VENT,
-		/area/storage/auxillary/port = 0,
-		/area/storage/auxillary/starboard = 0,
-		/area/storage/primary = 0,
-		/area/storage/tech = 0,
-		/area/storage/tools = 0,
-		/area/supply = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/thruster = NO_SCRUBBER,
+		/area/torch/storage = NO_SCRUBBER|NO_VENT,
+		/area/torch/storage/auxillary/port = 0,
+		/area/torch/storage/auxillary/starboard = 0,
+		/area/torch/storage/primary = 0,
+		/area/torch/storage/tech = 0,
+		/area/torch/storage/tools = 0,
+		/area/torch/supply = NO_SCRUBBER|NO_VENT|NO_APC,
+		/area/torch/thruster = NO_SCRUBBER,
 		/area/turbolift = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/vacant/bar = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/vacant = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/vacant/prototype/control = 0,
-		/area/vacant/prototype/engine = 0,
-		/area/vacant/cargo = NO_SCRUBBER|NO_VENT,
-		/area/vacant/infirmary = NO_SCRUBBER|NO_VENT,
-		/area/vacant/monitoring = NO_SCRUBBER|NO_VENT,
-		/area/vacant/mess = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/tcommsat/network_relay/d1 = NO_SCRUBBER|NO_VENT,
-		/area/tcommsat/network_relay/d2 = NO_SCRUBBER|NO_VENT,
-		/area/tcommsat/network_relay/d4 = NO_SCRUBBER|NO_VENT,
-		/area/tcommsat/network_relay/d5 = NO_SCRUBBER|NO_VENT,
-		/area/tcommsat/network_relay/bridge = NO_SCRUBBER|NO_VENT,
-		/area/curiosity_hangar/start = NO_SCRUBBER,
-		/area/opportunity_hangar/start = NO_SCRUBBER,
-		/area/engineering/auxpowergen = NO_SCRUBBER|NO_VENT,
-		/area/storage/emergency = 0,
+		/area/torch/vacant/bar = NO_SCRUBBER|NO_VENT|NO_APC,
+		/area/torch/vacant = NO_SCRUBBER|NO_VENT|NO_APC,
+		/area/torch/vacant/prototype/control = 0,
+		/area/torch/vacant/prototype/engine = 0,
+		/area/torch/vacant/cargo = NO_SCRUBBER|NO_VENT,
+		/area/torch/vacant/infirmary = NO_SCRUBBER|NO_VENT,
+		/area/torch/vacant/monitoring = NO_SCRUBBER|NO_VENT,
+		/area/torch/vacant/mess = NO_SCRUBBER|NO_VENT|NO_APC,
+		/area/torch/tcommsat/network_relay/d1 = NO_SCRUBBER|NO_VENT,
+		/area/torch/tcommsat/network_relay/d2 = NO_SCRUBBER|NO_VENT,
+		/area/torch/tcommsat/network_relay/d4 = NO_SCRUBBER|NO_VENT,
+		/area/torch/tcommsat/network_relay/d5 = NO_SCRUBBER|NO_VENT,
+		/area/torch/tcommsat/network_relay/bridge = NO_SCRUBBER|NO_VENT,
+		/area/torch/curiosity_hangar/start = NO_SCRUBBER,
+		/area/torch/opportunity_hangar/start = NO_SCRUBBER,
+		/area/torch/engineering/auxpowergen = NO_SCRUBBER|NO_VENT,
+		/area/torch/storage/emergency = 0,
 	)
 
 	area_coherency_test_exempt_areas = list(
-		/area/perseverance/airlock,
+		/area/torch/perseverance/airlock,
 		/area/centcom/control,
-		/area/endeavour_exterior,
+		/area/torch/exterior,
 		/area/space
 	)
 
 	area_usage_test_exempted_areas = list(
 		/area/overmap,
-		/area/rnd/xenobiology/xenoflora_storage,
+		/area/torch/research/xenobiology/xenoflora_storage,
 		/area/turbolift,
 		/area/turbolift/start,
 		/area/turbolift/bridge,
@@ -79,12 +79,12 @@
 
 /datum/unit_test/zas_area_test/cargo_bay
 	name = "ZAS: Cargo Bay"
-	area_path = /area/quartermaster/storage
+	area_path = /area/torch/quartermaster/storage
 
 /datum/unit_test/zas_area_test/supply_centcomm
 	name = "ZAS: Supply Shuttle (CentComm)"
-	area_path = /area/supply/dock
+	area_path = /area/torch/supply/dock
 
 /datum/unit_test/zas_area_test/xenobio
 	name = "ZAS: Xenobiology"
-	area_path = /area/rnd/xenobiology
+	area_path = /area/torch/research/xenobiology
