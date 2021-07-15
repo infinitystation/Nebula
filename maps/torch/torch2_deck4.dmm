@@ -477,10 +477,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/hallway/primary/fourthdeck/aft)
-"bM" = (
-/obj/effect/shuttle_landmark/merchant/out,
-/turf/space,
-/area/space)
 "bN" = (
 /obj/effect/paint_stripe/engineering,
 /turf/simulated/wall/r_wall/prepainted,
@@ -28247,7 +28243,7 @@ Gt
 Gt
 Gt
 Gt
-bM
+Gt
 cu
 dh
 dK

@@ -22,7 +22,6 @@
 		/area/torch/maintenance/fifthdeck/aftstarboard = NO_SCRUBBER|NO_VENT,
 		/area/torch/maintenance/waterstore = 0,
 		/area/shuttle = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/shuttle/merchant = NO_SCRUBBER|NO_APC,
 		/area/shuttle/escape_pod6/station = NO_SCRUBBER|NO_APC|NO_VENT,
 		/area/shuttle/escape_pod7/station = NO_SCRUBBER|NO_APC|NO_VENT,
 		/area/shuttle/escape_pod8/station = NO_SCRUBBER|NO_APC|NO_VENT,
@@ -65,6 +64,10 @@
 	)
 
 	area_usage_test_exempted_areas = list(
+		/area/ship,
+		/area/hallway,
+		/area/maintenance,
+		/area/shuttle,
 		/area/overmap,
 		/area/torch/research/xenobiology/xenoflora_storage,
 		/area/turbolift,

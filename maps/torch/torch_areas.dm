@@ -517,14 +517,6 @@
 	icon_state = "shuttle3"
 	base_turf = /turf/simulated/open
 
-//Merchant
-
-/area/shuttle/merchant/home
-	name = "\improper Merchant Vessel"
-	icon_state = "shuttlegrn"
-	req_access = list(access_merchant)
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
-
 // Elevator areas.
 /area/turbolift/endeavour_top
 	name = "lift (bridge)"
@@ -1271,9 +1263,6 @@
 /area/centcom/evac
 	name = "\improper Centcom Emergency Shuttle"
 
-/area/centcom/ferry
-	name = "\improper Centcom Transport Shuttle"
-
 /area/centcom/living
 	name = "\improper Centcom Living Quarters"
 
@@ -1586,21 +1575,6 @@
 	req_access = list(access_chapel_office)
 	color = COLOR_GRAY80
 	sound_env = SMALL_SOFTFLOOR
-
-// ACTORS GUILD
-/area/acting
-	name = "\improper Centcom Acting Guild"
-	icon_state = "red"
-	dynamic_lighting = 0
-	requires_power = 0
-
-/area/acting/backstage
-	name = "\improper Backstage"
-
-/area/acting/stage
-	name = "\improper Stage"
-	dynamic_lighting = 1
-	icon_state = "yellow"
 
 // Thunderdome
 
