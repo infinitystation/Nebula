@@ -5139,7 +5139,7 @@
 	id_tag = "perseverance_shuttle_dock_sensor";
 	pixel_y = 24
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8;
 	id_tag = "perseverance_shuttle_dock_pump"
 	},
@@ -11043,7 +11043,7 @@
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/bridge/fore)
 "Fc" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4;
 	id_tag = "perseverance_shuttle_pump_out_external"
 	},
@@ -11460,7 +11460,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/storage)
 "Hg" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
 	id_tag = "perseverance_shuttle_pump_out_internal"
 	},
@@ -12092,7 +12092,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/storage)
 "Jg" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "perseverance_shuttle_pump"
 	},
 /obj/machinery/oxygen_pump{
@@ -12637,7 +12637,7 @@
 	req_access = list("ACCESS_TORCH_CREW");
 	tag_exterior_sensor = "perseverance_shuttle_sensor_external"
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "perseverance_shuttle_pump"
 	},
 /obj/structure/handrail,
