@@ -11,25 +11,25 @@
 /datum/event/prison_break/xenobiology
 	eventDept = "Science"
 	areaName = list("Xenobiology")
-	areaType = list(/area/rnd/xenobiology)
-	areaNotType = list(/area/rnd/xenobiology/xenoflora, /area/rnd/xenobiology/xenoflora_storage)
+	areaType = list(/area/torch/research/xenobiology)
+	areaNotType = list(/area/torch/research/xenobiology/xenoflora, /area/torch/research/xenobiology/xenoflora_storage)
 
 /datum/event/prison_break/station
 	eventDept = "Local"
 	areaName = list("Brig","Supply Warehouse","Xenobiology","Engineering Hard Storage")
-	areaType = list(/area/security/brig, /area/quartermaster/storage, /area/rnd/xenobiology, /area/engineering/hardstorage)
-	areaNotType = list(/area/rnd/xenobiology/xenoflora, /area/rnd/xenobiology/xenoflora_storage, /area/quartermaster/storage/upper)
+	areaType = list(/area/torch/security/brig, /area/torch/quartermaster/storage, /area/torch/research/xenobiology, /area/torch/engineering/hardstorage)
+	areaNotType = list(/area/torch/research/xenobiology/xenoflora, /area/torch/research/xenobiology/xenoflora_storage, /area/torch/quartermaster/storage/upper)
 
 /datum/event/prison_break/warehouse
 	eventDept = "Supply"
 	areaName = list("Supply Warehouse")
-	areaType = list(/area/quartermaster/storage)
-	areaNotType = list(/area/quartermaster/storage/upper)
+	areaType = list(/area/torch/quartermaster/storage)
+	areaNotType = list(/area/torch/quartermaster/storage/upper)
 
 /datum/event/prison_break/hardstorage
 	eventDept = "Engineering"
 	areaName = list("Engineering Hard Storage")
-	areaType = list(/area/engineering/hardstorage)
+	areaType = list(/area/torch/engineering/hardstorage)
 
 /datum/event_container/moderate/torch
 	available_events = list(

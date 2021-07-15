@@ -97,26 +97,6 @@ TORCH_ESCAPE_POD(19)
 	name = "Southeast of Bridge"
 	landmark_tag = "nav_ninja_deck5"
 
-//Merchant
-
-/datum/shuttle/autodock/ferry/merchant
-	name = "Merchant"
-	warmup_time = 10
-	shuttle_area = /area/shuttle/merchant/home
-	waypoint_station = "nav_merchant_start"
-	waypoint_offsite = "nav_merchant_out"
-	dock_target = "merchant_ship_dock"
-
-/obj/effect/shuttle_landmark/merchant/start
-	name = "Merchant Base"
-	landmark_tag = "nav_merchant_start"
-	docking_controller = "merchant_station_dock"
-
-/obj/effect/shuttle_landmark/merchant/out
-	name = "Docking Bay"
-	landmark_tag = "nav_merchant_out"
-	docking_controller = "merchant_shuttle_station_dock"
-
 //Admin
 
 /datum/shuttle/autodock/ferry/administration
@@ -266,7 +246,7 @@ TORCH_ESCAPE_POD(19)
 	name = "Supply Drone"
 	location = 1
 	warmup_time = 10
-	shuttle_area = /area/supply/dock
+	shuttle_area = /area/torch/supply/dock
 	dock_target = "supply_shuttle"
 	waypoint_offsite = "nav_cargo_start"
 	waypoint_station = "nav_cargo_station"
@@ -285,7 +265,7 @@ TORCH_ESCAPE_POD(19)
 /datum/shuttle/autodock/overmap/exploration_shuttle
 	name = "Spirit"
 	move_time = 90
-	shuttle_area = list(/area/exploration_shuttle/cockpit, /area/exploration_shuttle/atmos, /area/exploration_shuttle/power, /area/exploration_shuttle/crew, /area/exploration_shuttle/cargo, /area/exploration_shuttle/airlock)
+	shuttle_area = list(/area/torch/exploration_shuttle/cockpit, /area/torch/exploration_shuttle/atmos, /area/torch/exploration_shuttle/power, /area/torch/exploration_shuttle/crew, /area/torch/exploration_shuttle/cargo, /area/torch/exploration_shuttle/airlock)
 	dock_target = "spirit_shuttle"
 	current_location = "nav_hangar_spirit"
 	landmark_transition = "nav_transit_spirit"
@@ -298,7 +278,7 @@ TORCH_ESCAPE_POD(19)
 /obj/effect/shuttle_landmark/torch/hangar/exploration_shuttle
 	name = "Spirit Hangar"
 	landmark_tag = "nav_hangar_spirit"
-	base_area = /area/quartermaster/hangar
+	base_area = /area/torch/quartermaster/hangar
 	base_turf = /turf/simulated/floor/plating
 
 /obj/effect/shuttle_landmark/torch/deck1/exploration_shuttle
@@ -329,7 +309,7 @@ TORCH_ESCAPE_POD(19)
 	name = "Opportunity"
 	warmup_time = 5
 	move_time = 30
-	shuttle_area = /area/opportunity_hangar/start
+	shuttle_area = /area/torch/opportunity_hangar/start
 	dock_target ="opportunity_shuttle"
 	current_location = "nav_hangar_opportunity"
 	landmark_transition = "nav_transit_opportunity"
@@ -345,7 +325,7 @@ TORCH_ESCAPE_POD(19)
 /obj/effect/shuttle_landmark/torch/hangar/opportunity
 	name = "Opportunity Hangar"
 	landmark_tag = "nav_hangar_opportunity"
-	base_area = /area/quartermaster/hangar
+	base_area = /area/torch/quartermaster/hangar
 	base_turf = /turf/simulated/floor/plating
 
 /obj/effect/shuttle_landmark/torch/deck1/opportunity
@@ -375,7 +355,7 @@ TORCH_ESCAPE_POD(19)
 /datum/shuttle/autodock/overmap/perseverance
 	name = "Perseverance"
 	move_time = 60
-	shuttle_area = list(/area/perseverance/cockpit, /area/perseverance/maintenance, /area/perseverance/storage, /area/perseverance/secure_storage, /area/perseverance/mess, /area/perseverance/passenger, /area/perseverance/medical, /area/perseverance/head, /area/perseverance/airlock)
+	shuttle_area = list(/area/torch/perseverance/cockpit, /area/torch/perseverance/maintenance, /area/torch/perseverance/storage, /area/torch/perseverance/secure_storage, /area/torch/perseverance/mess, /area/torch/perseverance/passenger, /area/torch/perseverance/medical, /area/torch/perseverance/head, /area/torch/perseverance/airlock)
 	current_location = "nav_hangar_perseverance"
 	landmark_transition = "nav_transit_perseverance"
 	dock_target = "perseverance_shuttle"
@@ -418,7 +398,7 @@ TORCH_ESCAPE_POD(19)
 	name = "Curiosity"
 	warmup_time = 5
 	move_time = 30
-	shuttle_area = /area/curiosity_hangar/start
+	shuttle_area = /area/torch/curiosity_hangar/start
 	dock_target ="curiosity"
 	current_location = "nav_hangar_curiosity"
 	landmark_transition = "nav_transit_curiosity"
@@ -434,7 +414,7 @@ TORCH_ESCAPE_POD(19)
 	name = "Curiosity Hangar"
 	landmark_tag = "nav_hangar_curiosity"
 	base_turf = /turf/simulated/floor/plating
-	base_area = /area/quartermaster/hangar
+	base_area = /area/torch/quartermaster/hangar
 
 /obj/effect/shuttle_landmark/torch/transit/curiosity
 	name = "Curiosity Transit Point"
