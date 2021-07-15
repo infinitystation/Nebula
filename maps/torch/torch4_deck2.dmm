@@ -9322,7 +9322,7 @@
 	name = "south bump";
 	pixel_y = -24
 	},
-/obj/item/stack/material/aerogel/mapped/deuterium/thirty,
+/obj/item/stack/material/aerogel/mapped/deuterium/fifty,
 /obj/structure/closet/crate/radiation,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/engineering/bluespace)
