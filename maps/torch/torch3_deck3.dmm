@@ -2200,7 +2200,9 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/smes/buildable/preset{
-	RCon_tag = "Substation - Telecommunications"
+	RCon_tag = "Substation - Telecommunications";
+	_input_on = 1;
+	_output_on = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/tcommsat/computer)
