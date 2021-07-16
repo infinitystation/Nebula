@@ -24,7 +24,6 @@
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/government,
 		/datum/mil_branch/espatier_corps,
-	//	/datum/mil_branch/skrell_fleet,
 		/datum/mil_branch/alien
 	)
 
@@ -33,7 +32,6 @@
 		/datum/mil_branch/espatier_corps,
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/government,
-	//	/datum/mil_branch/skrell_fleet,
 		/datum/mil_branch/alien
 	)
 
@@ -44,7 +42,6 @@
 
 	species_to_branch_whitelist = list(
 		/decl/bodytype/serpentid   = list(/datum/mil_branch/civilian),
-	//	/decl/species/skrell       = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc, /datum/mil_branch/skrell_fleet),
 		/decl/species/lizard       = list(/datum/mil_branch/civilian, /datum/mil_branch/iseo_issc),
 		/decl/species/adherent     = list(/datum/mil_branch/civilian)
 	)
@@ -74,16 +71,6 @@
 				/datum/mil_rank/espatier/o1
 			)
 		),
-/*
-		/decl/species/skrell = list(
-			/datum/mil_branch/iseo_issc = list(
-				/datum/mil_rank/sc/e3,
-				/datum/mil_rank/sc/e5,
-				/datum/mil_rank/sc/e7,
-				/datum/mil_rank/sc/s1
-			)
-		),
-*/
 		/decl/species/lizard = list(
 			/datum/mil_branch/iseo_issc = list(
 				/datum/mil_rank/sc/s4,
@@ -183,9 +170,11 @@
 	)
 
 	assistant_job = /datum/job/crew
-	min_skill = list(	SKILL_HAULING = SKILL_ADEPT,
-	                    SKILL_WEAPONS = SKILL_BASIC,
-	                    SKILL_COMBAT  = SKILL_BASIC)
+	min_skill = list(
+		SKILL_HAULING = SKILL_ADEPT,
+		SKILL_WEAPONS = SKILL_BASIC,
+		SKILL_COMBAT  = SKILL_BASIC
+	)
 
 /datum/mil_branch/civilian
 	name = "Civilian"
