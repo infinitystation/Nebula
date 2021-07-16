@@ -4,7 +4,6 @@
 #include "_infinity.dm"
 #include "world.dm"
 #include "datum\atom\mob\malnutrition.dm"
-#include "datum\atom\mob\mob.dm.dm"
 #include "datum\atom\mob\pixel_shift.dm"
 #include "datum\atom\mob\living\living.dm"
 #include "datum\atom\mob\living\stat_emote.dm"
