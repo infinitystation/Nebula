@@ -6,8 +6,7 @@
 	name = "energy crystal"
 	desc = "A strangely translucent and iridescent crystal."
 
-	icon_state      = "darkmatter_shard"
-	base_icon_state = "darkmatter_shard"
+	icon_state      = "supermatter_shard"
 
 	critical_temperature       = 8000
 	decay_factor = 300

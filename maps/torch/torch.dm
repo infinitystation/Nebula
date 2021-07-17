@@ -152,6 +152,7 @@
 	#include "structures/closets/services.dm"
 	#include "structures/closets/supply.dm"
 	#include "structures/closets/exploration.dm"
+	#include "structures/door.dm"
 
 	#include "loadout/_defines.dm"
 	#include "loadout/loadout_accessories.dm"

@@ -888,7 +888,11 @@
 /area/torch/crew_quarters/restroom/aux
 	name = "\improper First Deck Restroom"
 
-/area/torch/crew_quarters/restroom/sauna
+/area/torch/crew_quarters/pool
+	name = "\improper Pool"
+	icon_state = "fitness"
+
+/area/torch/crew_quarters/sauna
 	name = "\improper Sauna"
 	icon_state = "sauna"
 
