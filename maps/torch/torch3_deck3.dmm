@@ -8341,6 +8341,7 @@
 	dir = 4;
 	pixel_x = -21
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/torch/crew_quarters/cryolocker)
 "sN" = (
