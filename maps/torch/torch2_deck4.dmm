@@ -3632,9 +3632,12 @@
 /turf/simulated/floor/tiled/monotile,
 /area/torch/quartermaster/office)
 "mB" = (
-/obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	dir = 8;
+	dir = 1;
+	icon_state = "railing0-1"
+	},
+/obj/structure/railing/mapped{
+	dir = 4;
 	icon_state = "railing0-1"
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
@@ -4190,19 +4193,22 @@
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/torch/quartermaster/office)
 "oQ" = (
-/obj/structure/catwalk,
 /obj/machinery/light/spot{
 	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 4;
+	icon_state = "railing0-1"
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
 /area/torch/quartermaster/hangar/top)
 "oR" = (
 /obj/structure/railing/mapped{
-	dir = 1;
+	dir = 8;
 	icon_state = "railing0-1"
 	},
 /obj/structure/railing/mapped{
-	dir = 8;
+	dir = 1;
 	icon_state = "railing0-1"
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
@@ -8134,7 +8140,7 @@
 "Cg" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	dir = 4;
+	dir = 8;
 	icon_state = "railing0-1"
 	},
 /turf/simulated/floor/shuttle_ceiling/air,
@@ -8402,7 +8408,7 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/open,
+/turf/simulated/floor/shuttle_ceiling/air,
 /area/torch/quartermaster/hangar/top)
 "Dq" = (
 /obj/machinery/door/firedoor,
@@ -11817,7 +11823,7 @@
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/turf/simulated/open,
+/turf/simulated/floor/shuttle_ceiling/air,
 /area/torch/quartermaster/hangar/top)
 "Ou" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -12137,7 +12143,7 @@
 /area/torch/maintenance/fourthdeck/aft)
 "Pn" = (
 /obj/structure/railing/mapped{
-	dir = 8;
+	dir = 4;
 	icon_state = "railing0-1"
 	},
 /obj/structure/railing/mapped{
@@ -13683,13 +13689,6 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fourthdeck/aft)
-"Tp" = (
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/floor/shuttle_ceiling/air,
-/area/torch/quartermaster/hangar/top)
 "Ts" = (
 /obj/structure/bed/chair/office/comfy/purple,
 /obj/effect/floor_decal/corner/mauve{
@@ -14893,17 +14892,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fourthdeck/aft)
-"WQ" = (
-/obj/structure/railing/mapped{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
-/obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/open,
-/area/torch/quartermaster/hangar/top)
 "WR" = (
 /obj/effect/floor_decal/corner/mauve/half{
 	dir = 1
@@ -16183,14 +16171,6 @@
 	},
 /turf/simulated/floor/glass,
 /area/torch/hallway/primary/fourthdeck/aft)
-"ZT" = (
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/open,
-/area/torch/quartermaster/hangar/top)
 "ZU" = (
 /obj/effect/catwalk_plated/dark,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -32710,11 +32690,11 @@ rp
 MW
 rp
 rp
-wS
-wS
-wS
-wS
-Cg
+aY
+aY
+aY
+aY
+Wf
 WI
 Yd
 WD
@@ -32903,20 +32883,20 @@ Xm
 bo
 MF
 ko
-WI
-WI
-WI
+mB
+wS
+wS
 oQ
+wS
+Cs
 WI
-WI
-WI
-WI
+Pn
 oQ
-WI
-WI
-WI
-WI
-WI
+wS
+wS
+wS
+wS
+Cs
 WI
 Yd
 ZV
@@ -33105,20 +33085,20 @@ Xh
 Pf
 Tm
 uB
-Pn
-mB
 WI
-oR
-Tp
-Tp
-Tp
-Tp
-Tp
-Tp
-Tp
-Tp
-Tp
-mB
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+WI
 WI
 Sd
 Xt
@@ -33307,20 +33287,20 @@ pW
 Qd
 Sf
 Mb
-vH
-Wf
+oR
+Cg
 WI
-vH
-aY
-aY
-aY
-aY
-aY
-aY
-aY
-aY
-aY
-Wf
+Dm
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Cg
 WI
 Yd
 Wh
@@ -34926,17 +34906,17 @@ Ga
 Ga
 mG
 lr
-WQ
-Rg
-Rg
-Rg
-Rg
-Rg
-Rg
-Rg
-Rg
-Rg
-lk
+oW
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+mG
 lr
 Yd
 Wh
@@ -35128,17 +35108,17 @@ Rg
 Rg
 lk
 lr
-lr
-lr
-lr
-lr
-lr
-lr
-lr
-lr
-lr
-lr
-lr
+oW
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+mG
 lr
 Yd
 EY
@@ -35330,17 +35310,17 @@ lr
 lr
 lr
 lr
-Dm
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-ZT
+oW
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+Ga
+mG
 lr
 Yd
 EZ
