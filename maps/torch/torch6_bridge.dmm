@@ -2870,6 +2870,11 @@
 /area/torch/crew_quarters/heads/office/rd)
 "fm" = (
 /obj/structure/table/steel_reinforced,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/cockpit)
 "fn" = (
@@ -2887,6 +2892,16 @@
 /obj/structure/bed/chair/shuttle/blue{
 	dir = 1;
 	icon_state = "shuttle_chair_preview"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/cockpit)
@@ -3100,6 +3115,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/cockpit)
 "fK" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/cockpit)
 "fL" = (
@@ -3440,6 +3460,11 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/cockpit)
 "gr" = (
@@ -3691,15 +3716,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
-"hv" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled/dark,
-/area/torch/perseverance/airlock)
 "hx" = (
 /obj/structure/sign/warning/high_voltage{
 	dir = 1
@@ -3807,6 +3823,11 @@
 /obj/machinery/camera/network/perseverance{
 	c_tag = "Perseverance - Crew Compartment"
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/mess)
 "hM" = (
@@ -3814,6 +3835,11 @@
 	name = "plastic table frame"
 	},
 /obj/random/snack,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/mess)
 "hN" = (
@@ -3832,6 +3858,11 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/mess)
 "hO" = (
@@ -3840,11 +3871,16 @@
 	name = "north bump";
 	pixel_y = 24
 	},
+/obj/structure/bed/chair/shuttle/blue,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /obj/structure/cable/cyan{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/structure/bed/chair/shuttle/blue,
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/mess)
 "hV" = (
@@ -4441,6 +4477,15 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white,
 /area/torch/crew_quarters/heads/office/cmo)
+"jE" = (
+/obj/effect/paint/tan,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/wall/titanium,
+/area/torch/perseverance/head)
 "jH" = (
 /obj/effect/floor_decal/corner/darkblue{
 	dir = 6
@@ -6230,6 +6275,15 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/torch/perseverance/medical)
+"ps" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/dark,
+/area/torch/perseverance/airlock)
 "py" = (
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
@@ -7377,8 +7431,7 @@
 "so" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
-	dir = 10;
-	icon_state = "intact"
+	dir = 10
 	},
 /obj/structure/cable{
 	d1 = 1;
@@ -8295,6 +8348,17 @@
 /obj/machinery/atmospherics/valve/shutoff,
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"uL" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/pointdefense{
+	initial_id_tag = "gunship_pd"
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/torch/perseverance/cockpit)
 "uM" = (
 /obj/machinery/camera/network/command{
 	c_tag = "Sol Government Representative - Office";
@@ -9831,6 +9895,15 @@
 /obj/effect/floor_decal/corner/darkblue,
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"zG" = (
+/obj/effect/paint/tan,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/wall/titanium,
+/area/torch/perseverance/passenger)
 "zM" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/door/blast/shutters{
@@ -9939,6 +10012,15 @@
 /obj/effect/floor_decal/corner/red/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/fore)
+"Aa" = (
+/obj/effect/paint/tan,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/wall/titanium,
+/area/torch/perseverance/head)
 "Ab" = (
 /obj/effect/shuttle_landmark/ninja/deck1{
 	name = "B-Deck, Aft Port"
@@ -9955,8 +10037,7 @@
 /obj/item/storage/bag/trash,
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
-	dir = 9;
-	icon_state = "intact"
+	dir = 9
 	},
 /obj/machinery/power/terminal{
 	dir = 4
@@ -10259,6 +10340,17 @@
 /obj/machinery/suit_cycler/command/prepared,
 /turf/simulated/floor/tiled/dark,
 /area/torch/aux_eva)
+"Br" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/pointdefense{
+	initial_id_tag = "gunship_pd"
+	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/torch/perseverance/cockpit)
 "Bs" = (
 /obj/machinery/light{
 	dir = 8;
@@ -11096,13 +11188,6 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/torch/crew_quarters/heads/office/co)
-"Fh" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/pointdefense{
-	initial_id_tag = "gunship_pd"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/torch/perseverance/cockpit)
 "Fi" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -11348,6 +11433,23 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/crew_quarters/heads/office/cl)
+"GC" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id_tag = "perseverance_shutters";
+	name = "Protective Shutters";
+	opacity = 0
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/torch/perseverance/cockpit)
 "GD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -12382,7 +12484,7 @@
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techfloor,
-/area/torch/perseverance/medical)
+/area/torch/perseverance/maintenance)
 "KP" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/table/glass,
@@ -13168,6 +13270,17 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/crew_quarters/heads/office/cl)
+"OG" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/pointdefense{
+	initial_id_tag = "gunship_pd"
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/torch/perseverance/cockpit)
 "OK" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/bridge/aftport)
@@ -13208,6 +13321,11 @@
 "OX" = (
 /obj/machinery/shipsensors,
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/airless,
 /area/torch/perseverance/passenger)
 "Pb" = (
@@ -13344,7 +13462,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/torch/perseverance/medical)
+/area/torch/perseverance/maintenance)
 "PQ" = (
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/secure_storage)
@@ -33608,8 +33726,8 @@ ad
 ad
 ad
 gY
-Fh
-DR
+Br
+Aa
 DR
 jf
 kb
@@ -33811,7 +33929,7 @@ eb
 eb
 fk
 gZ
-DR
+jE
 iu
 jg
 kc
@@ -34009,11 +34127,11 @@ ad
 fj
 eb
 fk
-Fh
+uL
 qO
 RZ
 qO
-DR
+jE
 DR
 DR
 Db
@@ -34211,7 +34329,7 @@ ad
 gY
 ec
 SA
-SA
+GC
 ec
 go
 ec
@@ -34222,7 +34340,7 @@ ke
 XI
 lX
 nk
-hv
+ps
 pd
 pW
 Ok
@@ -35019,7 +35137,7 @@ ad
 gY
 ec
 SA
-SA
+GC
 ec
 gs
 ec
@@ -35221,11 +35339,11 @@ ad
 fp
 eg
 nr
-Fh
+OG
 qO
 RZ
 qO
-QF
+zG
 QF
 QF
 QF
@@ -35235,7 +35353,7 @@ QF
 gw
 oU
 Tb
-gw
+Ww
 KN
 PP
 td
@@ -35427,7 +35545,7 @@ eg
 eg
 nr
 hc
-QF
+zG
 QF
 jl
 ki
@@ -35628,7 +35746,7 @@ ad
 ad
 ad
 gY
-Fh
+Br
 OX
 iz
 JV
