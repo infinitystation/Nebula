@@ -8827,6 +8827,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/crew_quarters/pool)
 "tS" = (
@@ -17481,10 +17482,6 @@
 /obj/item/chems/food/drinks/cans/waterbottle,
 /obj/item/chems/food/drinks/cans/waterbottle,
 /obj/item/chems/food/drinks/cans/waterbottle,
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /turf/simulated/floor/tiled/freezer,
 /area/torch/crew_quarters/pool)
 "Sj" = (
