@@ -5345,7 +5345,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/crew_quarters/safe_room/thirddeck)
 "lG" = (
-/obj/structure/hygiene/drain/bath,
+/obj/item/bikehorn/rubberducky,
 /turf/simulated/floor/pool,
 /area/torch/crew_quarters/pool)
 "lI" = (
@@ -11524,7 +11524,9 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/port)
 "BT" = (
-/obj/structure/hygiene/faucet,
+/obj/structure/hygiene/faucet{
+	dir = 8
+	},
 /turf/simulated/floor/pool,
 /area/torch/crew_quarters/pool)
 "BU" = (
@@ -15737,7 +15739,6 @@
 /area/torch/hallway/primary/thirddeck/aft)
 "Nh" = (
 /obj/structure/table/standard,
-/obj/item/storage/firstaid/trauma,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
@@ -17269,7 +17270,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/aftstarboard)
 "Rt" = (
-/obj/item/bikehorn/rubberducky,
+/obj/structure/hygiene/drain/bath,
 /turf/simulated/floor/pool,
 /area/torch/crew_quarters/pool)
 "Rv" = (
@@ -18245,6 +18246,13 @@
 /obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/restroom)
+"Ua" = (
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/torch/crew_quarters/pool)
 "Ub" = (
 /obj/structure/closet/medical_wall/filled{
 	pixel_y = -32
@@ -18601,7 +18609,7 @@
 /obj/machinery/light/spot{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/freezer,
+/turf/simulated/floor/pool,
 /area/torch/crew_quarters/pool)
 "UQ" = (
 /obj/item/radio/intercom{
@@ -29012,11 +29020,11 @@ yH
 ZM
 ZM
 UO
-ZM
-ZM
+Yz
+Yz
 UO
-ZM
-ZM
+Yz
+Yz
 ZM
 VO
 VO
@@ -29214,7 +29222,7 @@ WU
 Yd
 vH
 Yz
-Yz
+lG
 Yz
 Yz
 Yz
@@ -29419,7 +29427,7 @@ Yz
 Rt
 Yz
 Yz
-Yz
+Rt
 Yz
 hF
 ZM
@@ -29617,11 +29625,11 @@ Ip
 WU
 ZM
 ly
-BT
-lG
 Yz
 Yz
-lG
+Yz
+Yz
+Yz
 FQ
 hF
 Cm
@@ -30022,10 +30030,10 @@ WU
 wL
 GS
 Yz
+BT
 Yz
 Yz
-Yz
-Yz
+BT
 Yz
 HU
 TF
@@ -30429,9 +30437,9 @@ Iy
 ZM
 ZM
 RO
-ZM
+Ua
 Mf
-ZM
+Ua
 oD
 kX
 kX
