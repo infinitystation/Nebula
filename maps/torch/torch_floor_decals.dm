@@ -31,3 +31,10 @@
 
 /obj/effect/floor_decal/corner/darkblue/bordercee
 	icon_state = "bordercolorcee"
+
+/obj/effect/floor_decal/industrial/danger
+	name = "danger stripes"
+	icon_state = "danger"
+
+/obj/effect/floor_decal/industrial/danger/corner
+	icon_state = "dangercorner"

@@ -1058,9 +1058,10 @@
 	ambience = list('sound/ambience/signal.ogg')
 	req_access = list(access_medical_equip)
 
-/area/torch/medical/medicalhallway
+/area/torch/medical/hallway
 	name = "\improper Medical Public Hallway"
 	icon_state = "medbay"
+	req_access = list()
 
 /area/torch/medical/foyer
 	name = "\improper Medical Foyer"

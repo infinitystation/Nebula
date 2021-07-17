@@ -8285,6 +8285,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/vacant/infirmary)
+"sV" = (
+/obj/structure/bed,
+/obj/item/bedsheet/green,
+/turf/simulated/floor/tiled/dark,
+/area/torch/maintenance/fifthdeck/fore)
 "sW" = (
 /obj/structure/sign/warning/biohazard,
 /turf/simulated/wall/r_wall/prepainted,
@@ -8319,6 +8324,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fifthdeck/fore)
 "tc" = (
@@ -9159,6 +9165,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/wallframe_spawn/no_grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fifthdeck/fore)
 "uV" = (
@@ -10135,9 +10142,13 @@
 /turf/simulated/wall/prepainted,
 /area/torch/maintenance/fifthdeck/aftport)
 "Am" = (
-/obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/maintenance/fifthdeck/aftstarboard)
+/obj/item/sticky_pad{
+	name = "I am door"
+	},
+/turf/simulated/wall/r_wall/map_preset/tan{
+	can_open = 1
+	},
+/area/torch/maintenance/fifthdeck/fore)
 "An" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -11117,9 +11128,9 @@
 /turf/simulated/floor/tiled/monotile,
 /area/torch/quartermaster/hangar)
 "Ge" = (
-/obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/maintenance/fifthdeck/aftport)
+/obj/machinery/door/airlock/external,
+/turf/simulated/floor/plating,
+/area/torch/maintenance/fifthdeck/fore)
 "Gj" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/button/access/exterior{
@@ -11519,8 +11530,8 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fifthdeck/aftport)
 "HT" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/bridge/ai/ai_upload)
+/turf/simulated/floor/tiled/dark,
+/area/torch/maintenance/fifthdeck/fore)
 "HU" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/steel,
@@ -11606,8 +11617,10 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fifthdeck/aftstarboard)
 "It" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/bridge/ai/ai_upload_foyer)
+/obj/structure/table/steel,
+/obj/item/chems/food/drinks/bottle/rum,
+/turf/simulated/floor/tiled/dark,
+/area/torch/maintenance/fifthdeck/fore)
 "Iu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -12091,6 +12104,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fifthdeck/aftport)
+"Ln" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/maintenance/fifthdeck/fore)
 "Lo" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -13602,8 +13621,9 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/escape_pod19/station)
 "VW" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/bridge/ai/ai_upload_foyer)
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/plating,
+/area/torch/maintenance/fifthdeck/fore)
 "VX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
@@ -24455,7 +24475,7 @@ Vh
 pX
 eN
 Cv
-an
+Cv
 an
 aa
 aa
@@ -24659,7 +24679,7 @@ eN
 eN
 eN
 an
-an
+Am
 an
 an
 aa
@@ -24861,8 +24881,8 @@ yF
 zE
 eN
 an
-an
-an
+hN
+VW
 an
 an
 aa
@@ -25063,7 +25083,7 @@ Rk
 hW
 eN
 an
-an
+Ge
 an
 an
 an
@@ -25265,9 +25285,9 @@ II
 zu
 eN
 an
-an
-an
-an
+HT
+HT
+HT
 an
 aa
 aa
@@ -25467,9 +25487,9 @@ xn
 Wk
 eN
 an
-an
-an
-an
+It
+Ln
+sV
 an
 an
 an
@@ -37375,15 +37395,15 @@ af
 Nd
 Nd
 Nd
-Am
-vF
+Nd
+Nd
 vF
 vF
 vD
 vF
 vF
-vF
-Ge
+oA
+oA
 oA
 oA
 vK
@@ -37577,15 +37597,15 @@ sy
 ZG
 ZG
 ZG
-It
-It
+Nd
+Nd
 vF
 pw
 vE
 eB
 vF
-It
-It
+oA
+oA
 ws
 ws
 ws
@@ -37778,17 +37798,17 @@ aT
 BS
 aT
 Vm
-VW
-It
-It
+ZG
+Nd
+Nd
 vF
 PT
 tG
 fE
 vF
-It
-It
-VW
+oA
+oA
+ws
 BG
 Ot
 WE
@@ -37980,17 +38000,17 @@ bt
 zm
 bt
 Vm
-VW
-It
-It
+ZG
+Nd
+Nd
 vF
 LQ
 CW
 LQ
 vF
-It
-It
-VW
+oA
+oA
+ws
 BG
 Qj
 KF
@@ -38182,8 +38202,8 @@ ec
 Cs
 SB
 Vm
-HT
-LQ
+ZG
+Nd
 XX
 XX
 Sz
@@ -38191,8 +38211,8 @@ va
 Og
 XX
 XX
-LQ
-HT
+oA
+ws
 BG
 Rf
 VV
@@ -38384,8 +38404,8 @@ hL
 GQ
 Tt
 Vm
-HT
-LQ
+ZG
+Nd
 XX
 Cd
 GG
@@ -38393,8 +38413,8 @@ yP
 Gr
 BR
 XX
-LQ
-HT
+oA
+ws
 BG
 So
 WJ
@@ -38586,8 +38606,8 @@ hP
 Hk
 TA
 Vm
-HT
-LQ
+ZG
+Nd
 XX
 Sf
 Og
@@ -38595,8 +38615,8 @@ EM
 Og
 yT
 XX
-LQ
-HT
+oA
+ws
 BG
 Sw
 KZ
@@ -38788,8 +38808,8 @@ hP
 Hk
 TA
 Vm
-HT
-LQ
+ZG
+Nd
 XX
 Hp
 Og
@@ -38797,8 +38817,8 @@ EM
 Og
 eJ
 XX
-LQ
-HT
+oA
+ws
 BG
 Sw
 KZ
@@ -38990,8 +39010,8 @@ sb
 HH
 VG
 Vm
-HT
-LQ
+ZG
+Nd
 XX
 XX
 XX
@@ -38999,8 +39019,8 @@ Hr
 XX
 XX
 XX
-LQ
-HT
+oA
+ws
 BG
 Tj
 Bj

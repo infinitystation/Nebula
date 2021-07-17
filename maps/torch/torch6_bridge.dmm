@@ -31,9 +31,9 @@
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/torch/maintenance/bridge/forestarboard)
 "ag" = (
-/obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/maintenance/bridge/aftstarboard)
+/obj/machinery/design_database,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/crew_quarters/heads/office/rd)
 "ai" = (
 /obj/item/radio/intercom{
 	pixel_y = 23
@@ -3400,7 +3400,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/structure/closet/emcloset,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/alarm{
 	dir = 4;
@@ -3409,6 +3408,10 @@
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -26
+	},
+/obj/machinery/pointdefense_control{
+	initial_id_tag = "gunship_pd";
+	name = "Point Defense Controller"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/cockpit)
@@ -3688,6 +3691,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"hv" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/dark,
+/area/torch/perseverance/airlock)
 "hx" = (
 /obj/structure/sign/warning/high_voltage{
 	dir = 1
@@ -4512,7 +4524,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/bridge/aft)
 "jV" = (
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/steel_ridged,
 /area/torch/hallway/primary/bridge/aft)
 "jW" = (
 /obj/structure/sign/directions/infirmary{
@@ -11084,6 +11096,13 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/torch/crew_quarters/heads/office/co)
+"Fh" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/pointdefense{
+	initial_id_tag = "gunship_pd"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/torch/perseverance/cockpit)
 "Fi" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -13097,6 +13116,9 @@
 /turf/simulated/floor/tiled/freezer,
 /area/torch/crew_quarters/heads/cobed)
 "Oj" = (
+/obj/machinery/computer/design_console{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/crew_quarters/heads/office/rd)
 "Ok" = (
@@ -29139,7 +29161,7 @@ Zi
 hj
 RQ
 Oj
-Oj
+ag
 sT
 uJ
 zo
@@ -30144,7 +30166,7 @@ gz
 aS
 bx
 bm
-ag
+sT
 sT
 sT
 sT
@@ -33383,8 +33405,8 @@ ad
 ad
 ad
 ad
-ad
-gY
+fj
+fk
 DR
 it
 je
@@ -33585,8 +33607,8 @@ ad
 ad
 ad
 ad
-fj
-fk
+gY
+Fh
 DR
 DR
 jf
@@ -33784,8 +33806,8 @@ ad
 ad
 ad
 ad
-ad
 fj
+eb
 eb
 fk
 gZ
@@ -33986,8 +34008,8 @@ ad
 ad
 fj
 eb
-eb
 fk
+Fh
 qO
 RZ
 qO
@@ -34200,7 +34222,7 @@ ke
 XI
 lX
 nk
-pd
+hv
 pd
 pW
 Ok
@@ -35198,8 +35220,8 @@ ad
 ad
 fp
 eg
-eg
 nr
+Fh
 qO
 RZ
 qO
@@ -35400,8 +35422,8 @@ ad
 ad
 ad
 ad
-ad
 fp
+eg
 eg
 nr
 hc
@@ -35605,8 +35627,8 @@ ad
 ad
 ad
 ad
-fp
-nr
+gY
+Fh
 OX
 iz
 JV
@@ -35807,8 +35829,8 @@ ad
 ad
 ad
 ad
-ad
-gY
+fp
+nr
 QF
 QF
 So

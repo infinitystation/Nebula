@@ -5162,7 +5162,9 @@
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_cafe)
 "qIk" = (
-/obj/structure/door/sandstone,
+/obj/structure/door/sandstone{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/tiled/stone,
 /area/holodeck/source_temple)
 "qMl" = (
@@ -5197,7 +5199,9 @@
 	},
 /area/holodeck/source_volleyball)
 "rqJ" = (
-/obj/structure/door/wood,
+/obj/structure/door/wood{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_cafe)
 "rxE" = (

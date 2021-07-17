@@ -6192,7 +6192,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/substation/fourthdeck)
 "uT" = (
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/random/keg,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/storage/auxillary/port)
 "uY" = (
