@@ -10,7 +10,8 @@
 		/datum/shuttle/autodock/overmap/exploration_shuttle = list("nav_hangar_spirit"),
 		/datum/shuttle/autodock/overmap/opportunity = list("nav_hangar_opportunity"),
 		/datum/shuttle/autodock/overmap/perseverance = list("nav_hangar_perseverance"),
-		/datum/shuttle/autodock/overmap/curiosity = list("nav_hangar_curiosity")
+		/datum/shuttle/autodock/overmap/curiosity = list("nav_hangar_curiosity"),
+		/datum/shuttle/autodock/overmap/crew_ferry = list("nav_dock_crew_ferry_torch")
 	)
 
 	initial_generic_waypoints = list(
@@ -67,6 +68,16 @@
 		"nav_skrellscoutsh_altdock"
 	)
 
+/obj/effect/overmap/visitable/sector/cryogenics_station
+	name = "cryogenics space station"
+	desc = "Sensors detect an small cryogenics station."
+	icon_state = "object"
+	free_landing = TRUE
+
+	initial_restricted_waypoints = list(
+		/datum/shuttle/autodock/overmap/crew_ferry = list("nav_dock_crew_ferry_cryogenics_station"),
+	)
+
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle
 	name = "Spirit"
 	desc = "An SSE-U11 long range shuttle, broadcasting ISEO codes and the callsign \"Endeavour-2 Spirit\"."
@@ -110,6 +121,17 @@
 	skill_needed = SKILL_BASIC
 	vessel_size = SHIP_SIZE_TINY
 
+/obj/effect/overmap/visitable/ship/landable/crew_ferry
+	name = "Crew Ferry"
+	desc = "A standart crew ferry for a crew transfers."
+	shuttle = "Crew Ferry"
+	max_speed = 1/(3 SECONDS)
+	burn_delay = 2 SECONDS
+	vessel_mass = 3000 //very inefficient pod
+	fore_dir = EAST
+	skill_needed = SKILL_BASIC
+	vessel_size = SHIP_SIZE_TINY
+
 /obj/machinery/computer/shuttle_control/explore/perseverance
 	name = "Perseverance control console"
 	shuttle_tag = "Perseverance"
@@ -129,6 +151,10 @@
 	name = "Curiosity control console"
 	shuttle_tag = "Curiosity"
 	req_access = list(access_curiosity_helm)
+
+/obj/machinery/computer/shuttle_control/explore/crew_ferry
+	name = "crew ferry control console"
+	shuttle_tag = "Crew Ferry"
 
 /*
 /obj/effect/overmap/visitable/ship/torch/Initialize()

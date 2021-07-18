@@ -53,6 +53,7 @@
 	#include "torch_security_state.dm"
 	#include "torch_setup.dm"
 	#include "torch_shuttles.dm"
+	#include "torch_spawnpoints.dm"
 	#include "torch_submaps.dm"
 	#include "torch_turfs.dm"
 	#include "torch_unit_testing.dm"
@@ -186,6 +187,7 @@
 	#include "torch4_deck2.dmm"
 	#include "torch5_deck1.dmm"
 	#include "torch6_bridge.dmm"
+	#include "torch7_cryogenics_station.dmm"
 	#include "z1_admin.dmm"
 	#include "z2_transit.dmm"
 

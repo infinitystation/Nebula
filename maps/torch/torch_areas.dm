@@ -1248,13 +1248,13 @@
 	name = "\improper AI Chamber"
 	icon_state = "ai_chamber"
 
-/area/torch/bridge/ai/ai_upload
-	name = "\improper AI Upload Chamber"
-	icon_state = "ai_upload"
-
-/area/torch/bridge/ai/ai_upload_foyer
-	name = "\improper AI Upload Access"
+/area/torch/bridge/ai/ai_foyer
+	name = "\improper AI Chamber Foyer"
 	icon_state = "ai_foyer"
+
+/area/torch/bridge/ai/ai_outer_chamber
+	name = "\improper Outer AI Chamber"
+	icon_state = "checkpoint"
 
 
 // CentCom
@@ -1508,6 +1508,11 @@
 	requires_power = 0
 	req_access = list(access_cent_storage)
 
+/area/shuttle/crew_ferry
+	name = "Crew Ferry"
+	requires_power = FALSE
+	dynamic_lighting = TRUE
+
 // Secure
 
 /area/torch/security/nuke_storage
@@ -1606,3 +1611,20 @@
 /area/tdome/tdomeobserve
 	name = "\improper Thunderdome (Observer.)"
 	icon_state = "purple"
+
+
+// Cryogenics Station
+
+/area/cryogenics_station
+	requires_power = FALSE
+	dynamic_lighting = TRUE
+
+/area/cryogenics_station/security
+	name = "Cryogenics Station - Checkpoint"
+	req_access = list(access_sec_doors)
+
+/area/cryogenics_station/cryogenics
+	name = "Cryogenics Station - Main Cryogenic Room"
+
+/area/cryogenics_station/dock
+	name = "Cryogenics Station - Docking Hall"
