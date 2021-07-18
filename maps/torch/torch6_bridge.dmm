@@ -13997,11 +13997,6 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/bridge/aftstarboard)
 "KL" = (
-/obj/machinery/door/blast/regular/open{
-	dir = 4;
-	id_tag = "torch_ai_upload_blast";
-	name = "AI Upload Blast Door"
-	},
 /turf/simulated/open,
 /area/torch/bridge/ai/ai_upload)
 "KN" = (
@@ -15636,6 +15631,11 @@
 /area/torch/maintenance/bridge/forestarboard)
 "QZ" = (
 /obj/effect/floor_decal/industrial/warning,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_upload_blast";
+	name = "AI Upload Blast Door"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "Ra" = (

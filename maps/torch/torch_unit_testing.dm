@@ -84,7 +84,6 @@
 
 /obj/effect/landmark/map_data/torch
 	height = 6
-	UT_turf_exceptions_by_door_type = list(/obj/machinery/door/blast/regular/open = list(/turf/simulated/open))
 
 /datum/unit_test/zas_area_test/cargo_bay
 	name = "ZAS: Cargo Bay"

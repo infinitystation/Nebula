@@ -5285,10 +5285,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/storage/emergency)
 "amV" = (
-/obj/effect/floor_decal/techfloor{
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/suit_cycler/generic/prepared,
+/obj/machinery/light/small{
 	dir = 1
 	},
-/obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/storage/emergency)
 "amZ" = (
@@ -12691,7 +12692,7 @@
 "bCp" = (
 /obj/structure/stairs/north,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/torch/storage/emergency)
+/area/torch/bridge/ai/ai_upload)
 "bCX" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Auxiliary Power Storage"
@@ -13639,6 +13640,20 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/crew_quarters/safe_room/medical)
+"cNh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_upload)
 "cNn" = (
 /obj/structure/closet/secure_closet{
 	name = "Secure Evidence Locker";
@@ -15417,7 +15432,7 @@
 	icon_state = "16-0"
 	},
 /turf/simulated/floor/plating,
-/area/torch/storage/emergency)
+/area/torch/bridge/ai/ai_upload)
 "fyU" = (
 /obj/effect/paint_stripe/science,
 /obj/structure/disposalpipe/segment,
@@ -16189,6 +16204,12 @@
 /obj/effect/paint_stripe/medical,
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/medical/washroom)
+"gSK" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/suit_cycler/generic/prepared,
+/obj/machinery/light/small,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/torch/storage/emergency)
 "gUp" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/corner/red{
@@ -20586,6 +20607,9 @@
 	},
 /turf/simulated/floor/reinforced/oxygen,
 /area/torch/thruster/d1starboard)
+"mHL" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/torch/bridge/ai/ai_upload)
 "mJb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -25811,11 +25835,16 @@
 /area/torch/security/armoury)
 "sHT" = (
 /obj/effect/floor_decal/techfloor,
-/obj/machinery/light/small{
-	dir = 1
+/obj/machinery/door/airlock/highsecurity{
+	name = "AI Upload"
+	},
+/obj/machinery/door/blast/regular/open{
+	dir = 2;
+	id_tag = "torch_ai_upload_blast";
+	name = "AI Upload Blast Door"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/torch/storage/emergency)
+/area/torch/bridge/ai/ai_upload)
 "sJc" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 1
@@ -26225,8 +26254,13 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/door/blast/regular/open{
+	dir = 2;
+	id_tag = "torch_ai_upload_blast";
+	name = "AI Upload Blast Door"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/torch/storage/emergency)
+/area/torch/bridge/ai/ai_upload)
 "tAS" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/foreport)
@@ -26496,6 +26530,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/storage/emergency)
+"tYF" = (
+/obj/effect/paint_stripe/command,
+/turf/simulated/wall/r_wall/prepainted,
+/area/torch/bridge/ai/ai_upload)
 "tYV" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -26730,8 +26768,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
-/area/torch/storage/emergency)
+/area/torch/bridge/ai/ai_upload)
 "uAE" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/floor_decal/corner/research/mono,
@@ -27831,6 +27872,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/firstdeck/centralport)
+"xtS" = (
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/torch/bridge/ai/ai_upload)
 "xuW" = (
 /turf/simulated/floor/tiled/dark,
 /area/torch/medical/foyer/storeroom)
@@ -56220,11 +56265,11 @@ xOU
 xOU
 xOU
 xhX
-wss
+amV
 kYz
 ouX
 dqA
-wss
+gSK
 xhX
 xOU
 xOU
@@ -56622,15 +56667,15 @@ xqk
 xqk
 xqk
 xqk
-xOU
-xhX
-xhX
-sHT
-lAZ
-amV
-xhX
-xhX
-xOU
+mHL
+tYF
+tYF
+tYF
+cNh
+tYF
+tYF
+tYF
+mHL
 xqk
 xqk
 xqk
@@ -56824,15 +56869,15 @@ xqk
 xqk
 xqk
 xqk
-xOU
+mHL
 bCp
-vNo
-vNo
+xtS
+sHT
 uxk
 tzH
 fyH
-xhX
-xOU
+tYF
+mHL
 xqk
 xqk
 xqk
@@ -57026,15 +57071,15 @@ bLo
 bLo
 bLo
 bLo
-xOU
-xhX
-xhX
-xhX
-xhX
-xhX
-xhX
-xhX
-xOU
+mHL
+tYF
+tYF
+tYF
+tYF
+tYF
+tYF
+tYF
+mHL
 bLo
 bLo
 bLo
@@ -57228,15 +57273,15 @@ xqk
 xqk
 xqk
 xqk
-xOU
-xOU
-xOU
-xOU
-xOU
-xOU
-xOU
-xOU
-xOU
+mHL
+mHL
+mHL
+mHL
+mHL
+mHL
+mHL
+mHL
+mHL
 xqk
 xqk
 xqk
