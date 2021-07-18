@@ -12668,6 +12668,11 @@
 /obj/machinery/door/airlock/highsecurity{
 	name = "AI Upload"
 	},
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_upload_blast";
+	name = "AI Upload Blast Door"
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/ai/ai_upload)
 "Ge" = (
