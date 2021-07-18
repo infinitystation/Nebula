@@ -4,7 +4,9 @@
 	fore_dir = WEST
 	vessel_mass = 100000
 	burn_delay = 2 SECONDS
-	//base = TRUE
+
+	start_x = 4
+	start_y = 4
 
 	initial_restricted_waypoints = list(
 		/datum/shuttle/autodock/overmap/exploration_shuttle = list("nav_hangar_spirit"),
@@ -73,6 +75,9 @@
 	desc = "Sensors detect an small cryogenics station."
 	icon_state = "object"
 	free_landing = TRUE
+
+	start_x = 4
+	start_y = 4
 
 	initial_restricted_waypoints = list(
 		/datum/shuttle/autodock/overmap/crew_ferry = list("nav_dock_crew_ferry_cryogenics_station"),

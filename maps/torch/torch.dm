@@ -187,7 +187,7 @@
 	#include "torch4_deck2.dmm"
 	#include "torch5_deck1.dmm"
 	#include "torch6_bridge.dmm"
-	#include "torch7_cryogenics_station.dmm"
+	#include "torch7_station.dmm"
 	#include "z1_admin.dmm"
 	#include "z2_transit.dmm"
 
