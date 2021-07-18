@@ -10,7 +10,7 @@
 		/datum/species/nabber = list(/datum/job/computer, /datum/job/robot, /datum/job/janitor, /datum/job/scientist_assistant, /datum/job/chemist,
 									 /datum/job/roboticist, /datum/job/cargo_tech, /datum/job/chef, /datum/job/engineer, /datum/job/doctor, /datum/job/bartender),
 		/datum/species/vox = list(/datum/job/computer, /datum/job/robot),
-		/datum/species/human/mule = list(/datum/job/computer, /datum/job/robot, /datum/job/merchant)
+		/datum/species/human/mule = list(/datum/job/computer, /datum/job/robot, /datum/job/submap)
 	)
 
 #define HUMAN_ONLY_JOBS /datum/job/captain, /datum/job/hop, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/representative, /datum/job/sea, /datum/job/pathfinder, /datum/job/rd
@@ -35,8 +35,7 @@
 		/datum/job/janitor, /datum/job/chef, /datum/job/bartender,
 		/datum/job/senior_scientist, /datum/job/scientist, /datum/job/scientist_assistant,
 		/datum/job/robot,
-		/datum/job/crew, /datum/job/assistant,
-		/datum/job/merchant
+		/datum/job/crew, /datum/job/assistant
 	)
 
 	access_modify_region = list(

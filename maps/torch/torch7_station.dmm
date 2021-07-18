@@ -984,6 +984,7 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
+/obj/machinery/portable_atmospherics/canister/empty,
 /turf/simulated/floor/tiled/techmaint,
 /area/cryogenics_station/dock)
 "Kv" = (
@@ -1362,6 +1363,10 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 9
 	},
+/turf/simulated/floor/tiled/techmaint,
+/area/cryogenics_station/dock)
+"XS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /turf/simulated/floor/tiled/techmaint,
 /area/cryogenics_station/dock)
 "Yd" = (
@@ -20937,8 +20942,8 @@ JQ
 JQ
 JQ
 xo
-WT
-WT
+XS
+SQ
 wT
 xU
 wS

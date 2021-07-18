@@ -8,8 +8,8 @@
 	allowed_roles = MEDICAL_ROLES
 
 /decl/loadout_option/suit/trenchcoat
-	//allowed_roles = list(/datum/job/assistant, /datum/job/bartender, /datum/job/detective, /datum/job/merchant, /datum/job/submap/bearcat_captain, /datum/job/submap/bearcat_crewman, /datum/job/submap/CTI_pilot, /datum/job/submap/CTI_engineer, /datum/job/submap/CTI_Undergraduate_Xenoscience_Researcher,  /datum/job/submap/colonist, /datum/job/submap/pod)
-	allowed_roles = list(/datum/job/assistant, /datum/job/bartender, /datum/job/detective, /datum/job/merchant)
+	//allowed_roles = list(/datum/job/assistant, /datum/job/bartender, /datum/job/detective, /datum/job/submap, /datum/job/submap/bearcat_captain, /datum/job/submap/bearcat_crewman, /datum/job/submap/CTI_pilot, /datum/job/submap/CTI_engineer, /datum/job/submap/CTI_Undergraduate_Xenoscience_Researcher,  /datum/job/submap/colonist, /datum/job/submap/pod)
+	allowed_roles = list(/datum/job/assistant, /datum/job/bartender, /datum/job/detective, /datum/job/submap)
 	allowed_branches = CIVILIAN_BRANCHES
 
 /decl/loadout_option/suit/poncho
@@ -17,15 +17,15 @@
 	allowed_branches = CIVILIAN_BRANCHES
 
 /decl/loadout_option/suit/security_poncho
-	allowed_roles = list(/datum/job/merchant, /datum/job/detective)
+	allowed_roles = list(/datum/job/submap, /datum/job/detective)
 	allowed_branches = CIVILIAN_BRANCHES
 
 /decl/loadout_option/suit/medical_poncho
-	allowed_roles = list(/datum/job/senior_doctor, /datum/job/junior_doctor, /datum/job/doctor, /datum/job/psychiatrist, /datum/job/merchant, /datum/job/chemist)
+	allowed_roles = list(/datum/job/senior_doctor, /datum/job/junior_doctor, /datum/job/doctor, /datum/job/psychiatrist, /datum/job/submap, /datum/job/chemist)
 	allowed_branches = CIVILIAN_BRANCHES
 
 /decl/loadout_option/suit/engineering_poncho
-	allowed_roles = list(/datum/job/engineer, /datum/job/roboticist, /datum/job/merchant)
+	allowed_roles = list(/datum/job/engineer, /datum/job/roboticist, /datum/job/submap)
 	allowed_branches = CIVILIAN_BRANCHES
 
 /decl/loadout_option/suit/science_poncho
@@ -33,11 +33,11 @@
 	allowed_branches = CIVILIAN_BRANCHES
 
 /decl/loadout_option/suit/nanotrasen_poncho
-	allowed_roles = list(/datum/job/scientist, /datum/job/scientist_assistant, /datum/job/senior_scientist, /datum/job/merchant)
+	allowed_roles = list(/datum/job/scientist, /datum/job/scientist_assistant, /datum/job/senior_scientist, /datum/job/submap)
 	allowed_branches = CIVILIAN_BRANCHES
 
 /decl/loadout_option/suit/cargo_poncho
-	allowed_roles = list(/datum/job/cargo_tech, /datum/job/merchant)
+	allowed_roles = list(/datum/job/cargo_tech, /datum/job/submap)
 	allowed_branches = CIVILIAN_BRANCHES
 
 /decl/loadout_option/suit/suit_jacket

@@ -4891,12 +4891,12 @@
 /turf/simulated/floor/plating,
 /area/torch/tcommsat/computer)
 "kz" = (
-/turf/simulated/floor/lino,
-/area/torch/tcommsat/computer)
-"kA" = (
 /obj/structure/table/steel,
 /obj/item/flashlight/lamp,
 /obj/random_multi/single_item/boombox,
+/turf/simulated/floor/lino,
+/area/torch/tcommsat/computer)
+"kA" = (
 /turf/simulated/floor/lino,
 /area/torch/tcommsat/computer)
 "kB" = (
@@ -13015,12 +13015,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/observation)
-"FQ" = (
-/obj/structure/hygiene/faucet{
-	dir = 1
-	},
-/turf/simulated/floor/pool,
-/area/torch/crew_quarters/pool)
 "FR" = (
 /obj/structure/window/borosilicate{
 	dir = 8;
@@ -29630,7 +29624,7 @@ Yz
 Yz
 Yz
 Yz
-FQ
+Yz
 hF
 Cm
 kX
