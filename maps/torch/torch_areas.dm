@@ -1256,6 +1256,10 @@
 	name = "\improper Outer AI Chamber"
 	icon_state = "checkpoint"
 
+/area/torch/bridge/ai/ai_upload
+	name = "\improper AI Upload"
+	icon_state = "checkpoint"
+
 
 // CentCom
 
