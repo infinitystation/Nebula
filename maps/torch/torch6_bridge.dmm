@@ -13565,7 +13565,6 @@
 	locked = 1;
 	name = "Bridge EVA External Access"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
