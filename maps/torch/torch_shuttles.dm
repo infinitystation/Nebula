@@ -434,7 +434,6 @@ TORCH_ESCAPE_POD(19)
 	sound_takeoff = 'sound/effects/rocket.ogg'
 	sound_landing = 'sound/effects/rocket_backwards.ogg'
 	dock_target = "crew_ferry"
-	fuel_consumption = 2
 	skill_needed = SKILL_NONE
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
 
