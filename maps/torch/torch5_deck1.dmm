@@ -13600,6 +13600,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass/command{
+	name = "Primary Emergency Storage"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/storage/emergency)
 "cNb" = (
@@ -23466,6 +23469,9 @@
 "qiT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass/command{
+	name = "Primary Emergency Storage"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/storage/emergency)
 "qjb" = (
@@ -27342,8 +27348,10 @@
 /area/torch/security/locker)
 "vNo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/double/command,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass/command{
+	name = "Primary Emergency Storage"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/storage/emergency)
 "vTH" = (
