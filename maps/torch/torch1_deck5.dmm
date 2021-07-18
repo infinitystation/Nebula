@@ -33,9 +33,6 @@
 /obj/machinery/suit_cycler/mining/prepared,
 /turf/simulated/floor/tiled/monotile,
 /area/torch/quartermaster/expedition/eva)
-"an" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/fifthdeck/fore)
 "ao" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -313,7 +310,7 @@
 /area/shuttle/escape_pod18/station)
 "aW" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/tcommsat/network_relay/d5)
 "aX" = (
 /obj/effect/catwalk_plated,
@@ -357,7 +354,6 @@
 /obj/machinery/light/spot{
 	pixel_y = 32
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/cockpit)
 "bg" = (
@@ -369,19 +365,16 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/cockpit)
 "bh" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/cockpit)
 "bi" = (
 /turf/simulated/floor/plating,
 /area/torch/quartermaster/hangar)
 "bj" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/crew)
 "bk" = (
@@ -393,7 +386,6 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/crew)
@@ -413,7 +405,6 @@
 /obj/machinery/light/spot{
 	pixel_y = 32
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/crew)
 "bp" = (
@@ -471,7 +462,6 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/cockpit)
@@ -492,7 +482,6 @@
 /area/torch/exploration_shuttle/cockpit)
 "bz" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/cockpit)
@@ -555,7 +544,6 @@
 /area/torch/maintenance/fifthdeck/aftstarboard)
 "bH" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/opportunity_hangar/start)
 "bI" = (
@@ -595,7 +583,6 @@
 /obj/structure/sign/warning/hot_exhaust{
 	dir = 1
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/opportunity_hangar/start)
 "bM" = (
@@ -714,7 +701,7 @@
 /area/torch/exploration_shuttle/cockpit)
 "bX" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/aft)
 "bY" = (
 /obj/structure/cable/cyan{
@@ -766,7 +753,6 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/crew)
@@ -846,7 +832,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/opportunity_hangar/start)
 "cj" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/opportunity_hangar/start)
 "cl" = (
@@ -959,7 +944,7 @@
 	dir = 1;
 	pixel_y = -4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/fore)
 "cu" = (
 /obj/structure/bed/padded,
@@ -994,7 +979,6 @@
 /turf/simulated/floor/tiled,
 /area/torch/exploration_shuttle/crew)
 "cw" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/airlock)
 "cy" = (
@@ -1018,7 +1002,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/fifthdeck/aftport)
 "cD" = (
 /obj/machinery/door/airlock/hatch{
@@ -1035,7 +1019,6 @@
 /area/torch/exploration_shuttle/crew)
 "cE" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/crew)
 "cF" = (
@@ -1096,7 +1079,6 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/airlock)
@@ -1149,7 +1131,6 @@
 /area/torch/exploration_shuttle/airlock)
 "cN" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/airlock)
@@ -1799,7 +1780,6 @@
 /area/torch/quartermaster/hangar)
 "ef" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/opportunity_hangar/start)
@@ -1971,7 +1951,7 @@
 /area/torch/exploration_shuttle/airlock)
 "eu" = (
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/quartermaster/exploration)
 "ev" = (
 /obj/effect/catwalk_plated,
@@ -1985,7 +1965,6 @@
 /turf/simulated/floor/plating,
 /area/torch/quartermaster/hangar)
 "ew" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/atmos)
 "ey" = (
@@ -2059,7 +2038,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/exploration_shuttle/power)
 "eF" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/power)
 "eH" = (
@@ -2246,7 +2224,7 @@
 /turf/simulated/floor/plating,
 /area/torch/quartermaster/hangar)
 "fl" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/fore)
 "fm" = (
 /obj/machinery/light{
@@ -2340,7 +2318,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/power)
@@ -2605,7 +2582,6 @@
 /area/torch/exploration_shuttle/cargo)
 "go" = (
 /obj/structure/fuel_port,
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/cargo)
 "gp" = (
@@ -2633,7 +2609,7 @@
 	},
 /obj/structure/sign/warning/compressed_gas,
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/fifthdeck/aftport)
 "gv" = (
 /obj/effect/floor_decal/corner/brown{
@@ -2654,7 +2630,6 @@
 /area/torch/exploration_shuttle/cargo)
 "gy" = (
 /obj/structure/sign/warning/hot_exhaust,
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/cargo)
 "gz" = (
@@ -2724,9 +2699,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/fifthdeck/aft)
-"gI" = (
-/turf/simulated/wall/map_preset/tan,
-/area/torch/maintenance/fifthdeck/aftport)
 "gK" = (
 /obj/effect/catwalk_plated,
 /obj/structure/disposalpipe/segment,
@@ -2753,7 +2725,7 @@
 /area/torch/quartermaster/expedition/atmos)
 "gO" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/quartermaster/shuttlefuel)
 "gP" = (
 /obj/machinery/camera/network/supply{
@@ -2766,7 +2738,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/quartermaster/storage)
 "gT" = (
-/obj/effect/paint/tan,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 6
 	},
@@ -2875,7 +2846,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/sign/warning/pods/south,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/aft)
 "hk" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2953,7 +2924,7 @@
 "hy" = (
 /obj/machinery/status_display/supply_display,
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/quartermaster/storage)
 "hz" = (
 /turf/simulated/floor/tiled,
@@ -3172,7 +3143,6 @@
 /area/torch/hallway/primary/fifthdeck/fore)
 "iq" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel,
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/opportunity_hangar/start)
 "ir" = (
@@ -4008,7 +3978,6 @@
 /area/torch/quartermaster/hangar)
 "kd" = (
 /obj/structure/fuel_port,
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/opportunity_hangar/start)
 "kf" = (
@@ -4352,12 +4321,12 @@
 /area/torch/quartermaster/exploration)
 "kR" = (
 /obj/machinery/status_display,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/fore)
 "kS" = (
 /obj/machinery/status_display,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/quartermaster/exploration)
 "kT" = (
 /obj/effect/catwalk_plated,
@@ -4772,12 +4741,12 @@
 /area/torch/quartermaster/hangar)
 "lS" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/quartermaster/hangar)
 "lT" = (
 /obj/machinery/status_display,
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/quartermaster/hangar)
 "lV" = (
 /obj/machinery/light/spot,
@@ -6129,9 +6098,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/monotile,
 /area/torch/quartermaster/storage)
-"oA" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/maintenance/fifthdeck/aftport)
 "oB" = (
 /obj/structure/table/rack{
 	dir = 4
@@ -6499,7 +6465,7 @@
 	dir = 1;
 	pixel_y = -4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/fore)
 "pq" = (
 /obj/structure/sign/directions/science{
@@ -6510,7 +6476,7 @@
 	dir = 1;
 	pixel_y = -4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/fore)
 "pr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -7107,7 +7073,7 @@
 /area/torch/hallway/primary/fifthdeck/aft)
 "qG" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/quartermaster/hangar)
 "qH" = (
 /obj/effect/floor_decal/corner/brown/half,
@@ -7384,7 +7350,7 @@
 /area/torch/maintenance/substation/fifthdeck)
 "rd" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/command/pilot)
 "re" = (
 /obj/machinery/door/firedoor,
@@ -9334,7 +9300,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/quartermaster/expedition/atmos)
 "ws" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/fifthdeck/aftport)
 "wt" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -9384,7 +9350,7 @@
 /area/torch/maintenance/fifthdeck/aftport)
 "wF" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/command/pilot)
 "wH" = (
 /obj/structure/cable{
@@ -9674,12 +9640,10 @@
 /area/shuttle/escape_pod18/station)
 "yv" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/exploration_shuttle/cargo)
 "yw" = (
-/obj/effect/paint/tan,
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 10
 	},
@@ -9973,9 +9937,6 @@
 	icon_state = "walnut_broken0"
 	},
 /area/torch/vacant/bar)
-"zS" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/hallway/primary/fifthdeck/aft)
 "zV" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -10012,7 +9973,7 @@
 /obj/item/sticky_pad{
 	name = "I am door"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan{
+/turf/simulated/wall/r_wall/prepainted{
 	can_open = 1
 	},
 /area/torch/maintenance/fifthdeck/fore)
@@ -10108,9 +10069,6 @@
 "AZ" = (
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod18/station)
-"Bb" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/research/canister)
 "Be" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -10118,7 +10076,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/fifthdeck/aftport)
 "Bj" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
@@ -10172,7 +10130,7 @@
 /turf/simulated/floor/tiled,
 /area/torch/quartermaster/expedition/eva)
 "BC" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/canister)
 "BE" = (
 /obj/structure/catwalk,
@@ -10300,7 +10258,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/escape_pod18/station)
 "Cv" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/command/disperser)
 "Cx" = (
 /obj/machinery/camera/network/command{
@@ -10531,7 +10489,7 @@
 /area/torch/maintenance/fifthdeck/fore)
 "DI" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/quartermaster/expedition/atmos)
 "DM" = (
 /obj/effect/floor_decal/corner/blue{
@@ -10648,7 +10606,7 @@
 /area/torch/maintenance/fifthdeck/aftstarboard)
 "Em" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/quartermaster/storage)
 "Eo" = (
 /obj/machinery/disperser/middle{
@@ -10842,7 +10800,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fifthdeck/fore)
 "Fk" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/aft)
 "Fn" = (
 /obj/structure/disposalpipe/segment{
@@ -11092,7 +11050,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod18/station)
 "Hl" = (
-/obj/effect/paint/tan,
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 9
 	},
@@ -11172,7 +11129,7 @@
 /area/torch/vacant/infirmary)
 "HG" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/quartermaster/storage)
 "HH" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
@@ -11325,7 +11282,6 @@
 /area/torch/maintenance/fifthdeck/fore)
 "Io" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/cargo)
 "Iq" = (
@@ -11897,7 +11853,6 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "LS" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/exploration_shuttle/cargo)
 "LT" = (
@@ -12111,9 +12066,6 @@
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/fifthdeck/aftstarboard)
-"Nd" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/maintenance/fifthdeck/aftstarboard)
 "Ne" = (
 /turf/simulated/floor/wood/walnut,
 /area/torch/vacant/bar)
@@ -12213,7 +12165,7 @@
 	pixel_y = -4
 	},
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/fore)
 "Ol" = (
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -12296,7 +12248,7 @@
 /area/torch/maintenance/fifthdeck/fore)
 "OX" = (
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/quartermaster/exploration)
 "OY" = (
 /obj/effect/catwalk_plated,
@@ -12394,7 +12346,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/aft)
 "Qd" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/vacant/bar)
 "Qg" = (
 /obj/structure/cable{
@@ -12419,7 +12371,7 @@
 /area/shuttle/escape_pod19/station)
 "Qn" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/quartermaster/expedition/eva)
 "Qy" = (
 /obj/structure/cable/cyan{
@@ -12624,7 +12576,7 @@
 /area/torch/command/disperser)
 "Rp" = (
 /obj/structure/sign/warning/pods,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/aft)
 "Rv" = (
 /obj/structure/cable/cyan{
@@ -12692,7 +12644,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/command/disperser)
 "RQ" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/vacant/infirmary)
 "RU" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
@@ -12731,7 +12683,7 @@
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/fifthdeck/aft)
 "Sd" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/fore)
 "So" = (
 /obj/machinery/sleeper,
@@ -12986,7 +12938,7 @@
 /area/torch/command/disperser)
 "Ua" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/fore)
 "Ud" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -13207,7 +13159,7 @@
 /area/shuttle/escape_pod18/station)
 "VH" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/quartermaster/expedition/storage)
 "VN" = (
 /obj/structure/closet/hydrant{
@@ -13395,7 +13347,7 @@
 /area/space)
 "WU" = (
 /obj/effect/paint_stripe/supply,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/quartermaster/expedition)
 "Xb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -13416,7 +13368,6 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fifthdeck/aftstarboard)
 "Xc" = (
-/obj/effect/paint/tan,
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
 	},
@@ -13442,7 +13393,6 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fifthdeck/fore)
 "Xg" = (
-/obj/effect/paint/tan,
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 6
 	},
@@ -13541,7 +13491,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/sign/warning/compressed_gas,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/aft)
 "XI" = (
 /turf/simulated/wall/prepainted,
@@ -13717,7 +13667,7 @@
 	dir = 1;
 	pixel_y = -4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/aft)
 "Zd" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -13804,7 +13754,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/torch/quartermaster/exploration)
 "ZG" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/fifthdeck/aftstarboard)
 "ZL" = (
 /obj/structure/sign/directions/science{
@@ -13815,7 +13765,7 @@
 	dir = 1;
 	pixel_y = -4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/fifthdeck/aft)
 "ZN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -24057,7 +24007,7 @@ pX
 eN
 Cv
 Cv
-an
+DC
 aa
 aa
 aa
@@ -24259,10 +24209,10 @@ JE
 eN
 eN
 eN
-an
+DC
 Am
-an
-an
+DC
+DC
 aa
 aa
 aa
@@ -24461,11 +24411,11 @@ Gj
 yF
 zE
 eN
-an
+DC
 hN
 VW
-an
-an
+DC
+DC
 aa
 aa
 aa
@@ -24663,11 +24613,11 @@ xe
 Rk
 hW
 eN
-an
+DC
 Ge
-an
-an
-an
+DC
+DC
+DC
 aa
 aa
 aa
@@ -24865,11 +24815,11 @@ II
 II
 zu
 eN
-an
+DC
 HT
 HT
 HT
-an
+DC
 aa
 aa
 aa
@@ -25048,7 +24998,7 @@ aa
 aa
 aa
 aa
-an
+DC
 RQ
 RQ
 RQ
@@ -25067,16 +25017,16 @@ EA
 xn
 Wk
 eN
-an
+DC
 It
 Ln
 sV
-an
-an
-an
-an
-an
-an
+DC
+DC
+DC
+DC
+DC
+DC
 aa
 aa
 aa
@@ -25249,8 +25199,8 @@ aa
 aa
 aa
 aa
-an
-an
+DC
+DC
 er
 er
 er
@@ -25269,7 +25219,6 @@ ZR
 Kd
 Wk
 eN
-an
 DC
 DC
 DC
@@ -25278,8 +25227,9 @@ DC
 DC
 DC
 DC
-an
-an
+DC
+DC
+DC
 aa
 aa
 aa
@@ -25451,7 +25401,7 @@ aa
 aa
 aa
 aa
-an
+DC
 yq
 er
 rW
@@ -25481,7 +25431,7 @@ ux
 ux
 DC
 DC
-an
+DC
 aa
 aa
 aa
@@ -25653,7 +25603,7 @@ aa
 aa
 aa
 aa
-an
+DC
 yq
 pV
 sT
@@ -25683,7 +25633,7 @@ mh
 mh
 uy
 DC
-an
+DC
 aa
 aa
 aa
@@ -25855,7 +25805,7 @@ aa
 aa
 aa
 aa
-an
+DC
 yq
 pW
 sI
@@ -25885,7 +25835,7 @@ rn
 mh
 uA
 DC
-an
+DC
 aa
 aa
 aa
@@ -26057,7 +26007,7 @@ aa
 aa
 aa
 aa
-an
+DC
 yq
 SF
 sq
@@ -26087,7 +26037,7 @@ ro
 mh
 uz
 DC
-an
+DC
 aa
 aa
 aa
@@ -26258,8 +26208,8 @@ aa
 aa
 aa
 aa
-an
-an
+DC
+DC
 yq
 er
 ET
@@ -26289,8 +26239,8 @@ rp
 IN
 yq
 DC
-an
-an
+DC
+DC
 aa
 aa
 aa
@@ -26460,7 +26410,7 @@ aa
 aa
 aa
 aa
-an
+DC
 se
 Jc
 er
@@ -26492,7 +26442,7 @@ rr
 Bp
 ru
 rH
-an
+DC
 aa
 aa
 aa
@@ -26662,7 +26612,7 @@ aa
 aa
 aa
 aa
-an
+DC
 jk
 jk
 er
@@ -26694,7 +26644,7 @@ ph
 ph
 rg
 rI
-an
+DC
 aa
 aa
 aa
@@ -26863,8 +26813,8 @@ aa
 aa
 aa
 aa
-an
-an
+DC
+DC
 pS
 XD
 XD
@@ -26896,8 +26846,8 @@ qY
 rx
 xS
 rI
-an
-an
+DC
+DC
 aa
 aa
 aa
@@ -27065,7 +27015,7 @@ aa
 aa
 aa
 aa
-an
+DC
 mp
 rV
 uI
@@ -27099,7 +27049,7 @@ rb
 rg
 rI
 jk
-an
+DC
 aa
 aa
 aa
@@ -27267,7 +27217,7 @@ aa
 aa
 aa
 aa
-an
+DC
 mq
 pT
 mh
@@ -27301,7 +27251,7 @@ ph
 gB
 rI
 py
-an
+DC
 aa
 aa
 aa
@@ -27469,7 +27419,7 @@ aa
 aa
 aa
 aa
-an
+DC
 mq
 cd
 VA
@@ -27503,7 +27453,7 @@ nx
 ne
 ng
 ni
-an
+DC
 aa
 aa
 aa
@@ -27669,9 +27619,9 @@ aa
 aa
 aa
 aa
-an
-an
-an
+DC
+DC
+DC
 mt
 QY
 ZN
@@ -27705,7 +27655,7 @@ pn
 zs
 rK
 nk
-an
+DC
 aa
 aa
 aa
@@ -27871,9 +27821,9 @@ aa
 aa
 aa
 aa
-an
-an
-an
+DC
+DC
+DC
 gG
 hS
 ce
@@ -27907,7 +27857,7 @@ eu
 eu
 Ds
 rE
-an
+DC
 aa
 aa
 aa
@@ -28073,7 +28023,7 @@ aa
 aa
 aa
 aa
-an
+DC
 Lf
 YW
 qa
@@ -28109,9 +28059,9 @@ kP
 eu
 hM
 nn
-an
-an
-an
+DC
+DC
+DC
 aa
 aa
 aa
@@ -28275,7 +28225,7 @@ aa
 aa
 aa
 aa
-an
+DC
 as
 yB
 Tw
@@ -28313,7 +28263,7 @@ mn
 nr
 ns
 nt
-an
+DC
 aa
 aa
 aa
@@ -28477,7 +28427,7 @@ aa
 aa
 aa
 aa
-an
+DC
 DY
 Fh
 xP
@@ -28515,8 +28465,8 @@ nf
 si
 to
 nu
-an
-an
+DC
+DC
 aa
 aa
 aa
@@ -28678,8 +28628,8 @@ aa
 aa
 aa
 aa
-an
-an
+DC
+DC
 aL
 BE
 qc
@@ -28717,8 +28667,8 @@ mx
 nB
 nb
 nv
-an
-an
+DC
+DC
 aa
 aa
 aa
@@ -28880,7 +28830,7 @@ aa
 aa
 aa
 aa
-an
+DC
 ar
 aO
 mg
@@ -28920,7 +28870,7 @@ nC
 nF
 nw
 nZ
-an
+DC
 aa
 aa
 aa
@@ -29082,7 +29032,7 @@ aa
 aa
 aa
 aa
-an
+DC
 bU
 lY
 lY
@@ -29122,7 +29072,7 @@ lS
 lS
 uZ
 Ds
-an
+DC
 aa
 aa
 aa
@@ -35972,11 +35922,11 @@ WU
 qB
 Sc
 tQ
-zS
-zS
-zS
-zS
-zS
+PT
+PT
+PT
+PT
+PT
 HG
 MS
 MS
@@ -36392,7 +36342,7 @@ jm
 jp
 Em
 tw
-gI
+Gu
 ws
 ws
 aa
@@ -36776,11 +36726,11 @@ wH
 wH
 wH
 EL
-zS
+PT
 ba
 qC
 tF
-zS
+PT
 YL
 HS
 aC
@@ -36970,27 +36920,27 @@ An
 wk
 Na
 HM
-Nd
+ZG
 af
 af
-Nd
-Nd
-Nd
-Nd
-Nd
+ZG
+ZG
+ZG
+ZG
+ZG
 PT
 PT
 vD
 PT
 PT
-oA
-oA
-oA
-oA
+ws
+ws
+ws
+ws
 vK
 vK
-oA
-oA
+ws
+ws
 ue
 zr
 ug
@@ -37166,11 +37116,11 @@ aa
 aa
 ZG
 ye
-Bb
-Bb
+BC
+BC
 tf
-Bb
-Bb
+BC
+BC
 BC
 ZG
 ZG
@@ -37372,7 +37322,7 @@ sW
 hc
 tg
 tn
-Bb
+BC
 BC
 Vm
 aT
@@ -37570,11 +37520,11 @@ aa
 aa
 ZG
 ye
-Bb
+BC
 sX
 tg
 tc
-Bb
+BC
 BC
 Vm
 bt
@@ -37772,11 +37722,11 @@ aa
 aa
 ZG
 ye
-Bb
+BC
 hg
 th
 tk
-Bb
+BC
 BC
 Vm
 ec
@@ -37974,11 +37924,11 @@ aa
 aa
 ZG
 ye
-Bb
+BC
 sY
 tl
 td
-Bb
+BC
 BC
 Vm
 hL
@@ -38180,7 +38130,7 @@ sW
 sZ
 ti
 te
-Bb
+BC
 BC
 Vm
 hP
@@ -38378,11 +38328,11 @@ aa
 aa
 ZG
 aw
-Bb
-Bb
+BC
+BC
 tj
-Bb
-Bb
+BC
+BC
 BC
 Vm
 hP
@@ -38584,7 +38534,7 @@ bG
 ye
 La
 eo
-Nd
+ZG
 ZG
 Vm
 sb
@@ -38786,7 +38736,7 @@ ye
 ye
 La
 Py
-Nd
+ZG
 ZG
 Vm
 ve
@@ -38988,7 +38938,7 @@ ye
 ye
 La
 Py
-Nd
+ZG
 ZG
 Vm
 yu
@@ -39189,7 +39139,7 @@ ye
 ye
 ye
 La
-Nd
+ZG
 ZG
 ZG
 Vm

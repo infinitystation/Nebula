@@ -110,7 +110,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/torch/engineering/fuelbay/aux)
 "aq" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/fuelbay/aux)
 "ar" = (
 /obj/machinery/atmospherics/unary/tank/hydrogen{
@@ -195,10 +195,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/disposal)
-"ax" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/engineering/engine_room)
 "ay" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -236,7 +232,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/disposal)
 "aC" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/seconddeck/central)
 "aD" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible,
@@ -436,7 +432,7 @@
 /area/torch/maintenance/seconddeck/aftstarboard)
 "bb" = (
 /obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/seconddeck/forestarboard)
 "bc" = (
 /obj/structure/closet/crate,
@@ -715,9 +711,6 @@
 "bH" = (
 /turf/simulated/floor/plating,
 /area/torch/vacant/armory)
-"bI" = (
-/turf/simulated/wall/map_preset/tan,
-/area/torch/maintenance/seconddeck/forestarboard)
 "bJ" = (
 /obj/machinery/deployable/barrier,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -2479,7 +2472,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/structure/sign/warning/secure_area,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "fi" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -2521,7 +2514,7 @@
 /area/shuttle/escape_pod11/station)
 "fp" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/storage)
 "fs" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2775,7 +2768,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/seconddeck/foreport)
 "fT" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "fU" = (
 /obj/effect/paint/sun,
@@ -3111,7 +3104,7 @@
 	},
 /obj/effect/paint_stripe/engineering,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "gB" = (
 /obj/machinery/power/sensor{
@@ -3160,7 +3153,7 @@
 /area/torch/hallway/primary/seconddeck)
 "gE" = (
 /obj/structure/sign/warning/radioactive,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "gF" = (
 /obj/machinery/power/smes/buildable/preset/torch/substation{
@@ -3467,7 +3460,7 @@
 /area/torch/engineering/engineering_bay)
 "hp" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_smes)
 "hq" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
@@ -3477,9 +3470,6 @@
 "hr" = (
 /turf/simulated/floor/tiled/dark,
 /area/torch/engineering/storage)
-"hu" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/maintenance/seconddeck/aftstarboard)
 "hw" = (
 /obj/structure/bed/chair/shuttle{
 	dir = 1;
@@ -3734,7 +3724,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "ij" = (
 /obj/structure/cable/green{
@@ -3780,12 +3770,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/research/xenobiology)
-"il" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 9
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/engineering/engine_room)
 "io" = (
 /obj/machinery/light/small,
 /obj/structure/bed/chair/shuttle{
@@ -3861,7 +3845,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 6
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/auxpowergen)
 "ix" = (
 /obj/structure/disposalpipe/segment,
@@ -4003,7 +3987,7 @@
 /area/torch/hallway/primary/seconddeck/fore)
 "iN" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/engineering/engineering_bay)
 "iO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4110,7 +4094,7 @@
 "iX" = (
 /obj/machinery/status_display,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_smes)
 "iY" = (
 /obj/machinery/alarm{
@@ -4269,7 +4253,7 @@
 /area/torch/engineering/engineering_bay)
 "jy" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/engineering/storage)
 "jz" = (
 /obj/structure/railing/mapped{
@@ -4448,7 +4432,7 @@
 /area/torch/engineering/foyer)
 "jV" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/bluespace)
 "jW" = (
 /obj/machinery/atmospherics/unary/tank/hydrogen{
@@ -4487,7 +4471,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 9
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "kb" = (
 /obj/machinery/alarm{
@@ -5559,7 +5543,7 @@
 	dir = 1
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "mK" = (
 /obj/machinery/light{
@@ -5703,7 +5687,7 @@
 	dir = 4;
 	pixel_z = 10
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/seconddeck/elevator)
 "nb" = (
 /obj/machinery/disposal/deliveryChute{
@@ -5892,7 +5876,7 @@
 /area/torch/engineering/engine_monitoring)
 "nv" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/engineering/locker_room)
 "nw" = (
 /obj/structure/cable/cyan{
@@ -5907,7 +5891,7 @@
 	name = "\improper RADIATION GEAR REQUIRED"
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "ny" = (
 /obj/machinery/alarm{
@@ -6130,7 +6114,7 @@
 	dir = 1;
 	pixel_z = 6
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/seconddeck/elevator)
 "nS" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -6148,7 +6132,7 @@
 /obj/structure/sign/directions/science{
 	pixel_z = 6
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/seconddeck/elevator)
 "nW" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -6157,7 +6141,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/assembly/robotics)
 "nY" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/engineering/foyer)
 "oa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6382,7 +6366,7 @@
 /obj/structure/sign/warning/vent_port{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/exterior)
 "oI" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -6420,7 +6404,7 @@
 /obj/structure/sign/warning/vent_port{
 	dir = 1
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "oT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -6926,7 +6910,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 6
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "pX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7125,10 +7109,10 @@
 /area/space)
 "qv" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/drone_fabrication)
 "qw" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/vacant/prototype/engine)
 "qy" = (
 /obj/machinery/power/smes/buildable/preset/torch/substation_full,
@@ -7192,7 +7176,7 @@
 /obj/structure/sign/warning/hot_exhaust{
 	dir = 8
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/vacant/prototype/engine)
 "qG" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
@@ -7426,7 +7410,7 @@
 /area/torch/engineering/engineering_monitoring)
 "qV" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_monitoring)
 "qW" = (
 /obj/structure/disposalpipe/segment{
@@ -7811,7 +7795,7 @@
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/seconddeck)
 "rP" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/disposal)
 "rR" = (
 /obj/structure/sign/directions/supply{
@@ -7826,7 +7810,7 @@
 	pixel_y = 10
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/engineering/foyer)
 "rS" = (
 /obj/machinery/door/firedoor,
@@ -7930,7 +7914,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology)
 "si" = (
 /obj/effect/floor_decal/corner/yellow/half{
@@ -7984,9 +7968,6 @@
 /obj/machinery/meter,
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/engineering/engine_room)
-"sp" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/maintenance/seconddeck/aftport)
 "sq" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -8057,7 +8038,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "sA" = (
 /obj/machinery/door/airlock/engineering{
@@ -8220,7 +8201,7 @@
 	pixel_y = 3
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engineering_monitoring)
 "sV" = (
 /turf/simulated/wall/prepainted,
@@ -8257,7 +8238,7 @@
 /area/torch/engineering/engineering_monitoring)
 "sZ" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "tb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
@@ -9053,9 +9034,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/torch/research/xenobiology)
-"uX" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/engineering/engine_room)
 "uY" = (
 /obj/effect/floor_decal/corner/yellow/half,
 /obj/effect/floor_decal/industrial/warning,
@@ -9754,7 +9732,7 @@
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/seconddeck/fore)
 "wU" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/seconddeck/aftport)
 "wV" = (
 /obj/machinery/door/blast/regular{
@@ -9908,7 +9886,7 @@
 /obj/structure/sign/warning/deathsposal{
 	icon_state = "space"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/disposal)
 "xu" = (
 /obj/structure/closet/crate,
@@ -9973,7 +9951,7 @@
 	dir = 1
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "xI" = (
 /obj/structure/fireaxecabinet{
@@ -10287,7 +10265,7 @@
 	dir = 4
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "yA" = (
 /obj/machinery/atmospherics/omni/mixer{
@@ -10365,7 +10343,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology)
 "yJ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -10570,7 +10548,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/engineering/atmos)
 "zo" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/auxpowergen)
 "zp" = (
 /obj/structure/catwalk,
@@ -10685,7 +10663,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "zF" = (
 /obj/structure/cable{
@@ -10801,7 +10779,7 @@
 /area/torch/engineering/atmos)
 "zO" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos/storage)
 "zP" = (
 /obj/structure/railing/mapped{
@@ -11011,7 +10989,7 @@
 	},
 /obj/structure/sign/warning/compressed_gas,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "Ar" = (
 /obj/structure/cable/green{
@@ -11334,9 +11312,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/seconddeck/foreport)
-"Bk" = (
-/turf/simulated/wall/map_preset/tan,
-/area/torch/vacant/cargo)
 "Bl" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/mining{
@@ -11522,9 +11497,6 @@
 /obj/random/tool,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/seconddeck/aftport)
-"BI" = (
-/turf/simulated/wall/map_preset/tan,
-/area/torch/maintenance/seconddeck/aftport)
 "BJ" = (
 /obj/structure/ladder,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -11641,13 +11613,13 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/vacant/cargo)
 "BY" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/seconddeck)
 "Cb" = (
 /obj/structure/sign/warning/compressed_gas{
 	dir = 8
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/fuelbay/aux)
 "Cc" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
@@ -12080,7 +12052,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/torch/engineering/fuelbay/aux)
 "Dc" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/storage/cargo)
 "Dd" = (
 /obj/structure/table/steel,
@@ -12247,7 +12219,7 @@
 /area/torch/research/xenobiology/entry)
 "Dv" = (
 /obj/structure/sign/warning/biohazard,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology/entry)
 "Dw" = (
 /obj/structure/dispenser/oxygen,
@@ -12520,7 +12492,7 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/xenobiology/entry)
 "Eh" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/storage/research)
 "Ei" = (
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -12656,7 +12628,7 @@
 /area/torch/research/xenobiology)
 "Ez" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/seconddeck/foreport)
 "EB" = (
 /obj/structure/cable/green{
@@ -12696,7 +12668,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/torch/engineering/fuelbay/aux)
 "ED" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology)
 "EE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
@@ -12751,7 +12723,7 @@
 /obj/structure/sign/warning/compressed_gas{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/fuelbay/aux)
 "EN" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
@@ -13079,7 +13051,7 @@
 /area/torch/engineering/atmos)
 "Fu" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "Fv" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -13258,7 +13230,7 @@
 /area/space)
 "FU" = (
 /obj/structure/sign/iseo,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/seconddeck/forestarboard)
 "FV" = (
 /obj/machinery/computer/teleporter{
@@ -13270,7 +13242,7 @@
 /obj/structure/sign/warning/radioactive{
 	dir = 1
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "FZ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
@@ -13384,7 +13356,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology)
 "Gl" = (
 /obj/structure/sign/warning/compressed_gas{
@@ -13615,7 +13587,7 @@
 /turf/simulated/floor/plating,
 /area/torch/engineering/atmos)
 "GW" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/medical/morgue)
 "GX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -13740,7 +13712,7 @@
 "Hk" = (
 /obj/structure/sign/atmosplaque,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/locker_room)
 "Hl" = (
 /obj/structure/cable/green{
@@ -14017,7 +13989,7 @@
 	},
 /obj/structure/sign/warning/vacuum,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "HX" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction,
@@ -14037,7 +14009,7 @@
 /area/torch/research/xenobiology)
 "Ia" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/engineering/engineering_monitoring)
 "Ib" = (
 /obj/effect/wallframe_spawn/reinforced/hull,
@@ -14212,7 +14184,7 @@
 /turf/simulated/open,
 /area/torch/engineering/engineering_bay)
 "Ir" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology/entry)
 "Is" = (
 /obj/machinery/shieldgen,
@@ -14221,7 +14193,7 @@
 "It" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology)
 "Iv" = (
 /obj/machinery/alarm{
@@ -14291,11 +14263,11 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/engineering/engine_monitoring)
 "IE" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/seconddeck/aftstarboard)
 "IF" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "IG" = (
 /obj/structure/lattice,
@@ -14687,7 +14659,7 @@
 /turf/simulated/floor/plating,
 /area/torch/engineering/drone_fabrication)
 "JF" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/fuelbay)
 "JG" = (
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -14771,9 +14743,6 @@
 	},
 /turf/simulated/open,
 /area/torch/maintenance/seconddeck/aftport)
-"JX" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/seconddeck/forestarboard)
 "JY" = (
 /turf/simulated/wall/ocp_wall,
 /area/torch/engineering/fuelbay)
@@ -14808,7 +14777,7 @@
 	dir = 1
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "Kd" = (
 /obj/effect/engine_setup/smes,
@@ -15057,7 +15026,7 @@
 /obj/structure/sign/warning/deathsposal{
 	icon_state = "space"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology)
 "KS" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
@@ -15073,7 +15042,7 @@
 "KV" = (
 /obj/structure/sign/warning/compressed_gas,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "KZ" = (
 /obj/machinery/power/apc{
@@ -15210,7 +15179,7 @@
 /area/torch/maintenance/seconddeck/aftport)
 "Lp" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/synth/borg_upload)
 "Lr" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -15578,7 +15547,7 @@
 	},
 /obj/machinery/meter,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "Mr" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -15651,7 +15620,7 @@
 /area/torch/maintenance/seconddeck/aftstarboard)
 "ME" = (
 /obj/structure/sign/warning/vent_port,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "MG" = (
 /obj/random/obstruction,
@@ -15895,7 +15864,7 @@
 	dir = 9
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "Np" = (
 /obj/machinery/door/firedoor,
@@ -16060,7 +16029,7 @@
 /area/torch/maintenance/seconddeck/aftport)
 "NJ" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/tcommsat/network_relay/d2)
 "NN" = (
 /obj/structure/closet/crate/med_crate/toxin,
@@ -16409,7 +16378,7 @@
 /area/torch/engineering/engine_room)
 "OB" = (
 /obj/structure/sign/warning/vent_port,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "OC" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -16527,10 +16496,10 @@
 	},
 /obj/structure/sign/warning/fire,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "OV" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/seconddeck/elevator)
 "OW" = (
 /obj/structure/cable/green{
@@ -16564,7 +16533,7 @@
 	dir = 6
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "Pd" = (
 /obj/machinery/power/terminal{
@@ -16777,7 +16746,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/torch/engineering/storage)
 "PC" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/storage/tech)
 "PD" = (
 /turf/simulated/wall/prepainted,
@@ -16791,7 +16760,7 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/green{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/auxpowergen)
 "PH" = (
 /obj/structure/cable/green{
@@ -16988,7 +16957,7 @@
 /area/torch/engineering/engine_smes)
 "Qe" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/vacant/prototype/control)
 "Qf" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -17103,7 +17072,7 @@
 	dir = 4
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "Qv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -17264,7 +17233,7 @@
 /obj/structure/sign/warning/vent_port{
 	dir = 1
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "QU" = (
 /obj/machinery/computer/modular/preset/engineering{
@@ -17513,7 +17482,7 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/green{
 	dir = 1
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/auxpowergen)
 "Rz" = (
 /obj/structure/cable/green{
@@ -17672,7 +17641,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/torch/engineering/engineering_monitoring)
 "RT" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/vacant/cargo)
 "RV" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -18186,7 +18155,7 @@
 "Tp" = (
 /obj/structure/sign/warning/vacuum,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "Tq" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -18297,7 +18266,7 @@
 /area/torch/maintenance/seconddeck/forestarboard)
 "TJ" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/shieldbay)
 "TK" = (
 /obj/structure/grille,
@@ -18333,7 +18302,7 @@
 /area/torch/engineering/auxpowergen)
 "TS" = (
 /obj/structure/sign/iseo,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/seconddeck/foreport)
 "TV" = (
 /obj/structure/ladder,
@@ -18505,7 +18474,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "Ut" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
@@ -18534,7 +18503,7 @@
 /area/torch/engineering/storage)
 "UA" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/green,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/auxpowergen)
 "UB" = (
 /obj/machinery/door/airlock/atmos{
@@ -18578,7 +18547,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology)
 "UK" = (
 /turf/space,
@@ -18621,7 +18590,7 @@
 "UU" = (
 /obj/structure/sign/warning/nosmoking_1,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "UY" = (
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -18754,7 +18723,7 @@
 /turf/simulated/floor/plating,
 /area/torch/engineering/engine_room)
 "Vq" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/wastetank)
 "Vr" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -18771,7 +18740,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 9
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "VB" = (
 /obj/effect/floor_decal/techfloor/corner,
@@ -18807,14 +18776,14 @@
 /turf/simulated/floor/plating,
 /area/torch/assembly/robotics/surgery)
 "VK" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/seconddeck)
 "VL" = (
 /obj/structure/sign/warning/radioactive{
 	dir = 4
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/vacant/prototype/control)
 "VM" = (
 /obj/structure/cable{
@@ -18989,11 +18958,8 @@
 /obj/structure/sign/warning/radioactive{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
-"Wp" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/seconddeck/foreport)
 "Wq" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -19131,7 +19097,7 @@
 	dir = 9
 	},
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos)
 "WH" = (
 /obj/effect/floor_decal/corner/yellow{
@@ -19278,7 +19244,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology)
 "WZ" = (
 /obj/machinery/atmospherics/binary/pump,
@@ -19545,7 +19511,7 @@
 /area/torch/assembly/robotics)
 "XP" = (
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/assembly/robotics)
 "XR" = (
 /obj/effect/paint_stripe/medical,
@@ -19741,7 +19707,7 @@
 /area/torch/storage/tech)
 "Yy" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/teleporter/seconddeck)
 "Yz" = (
 /obj/structure/catwalk,
@@ -19792,7 +19758,7 @@
 "YI" = (
 /obj/structure/sign/warning/high_voltage,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_smes)
 "YJ" = (
 /turf/simulated/floor/tiled/white,
@@ -20000,7 +19966,7 @@
 /area/torch/engineering/drone_fabrication)
 "Zk" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/vacant/prototype/engine)
 "Zl" = (
 /obj/structure/disposalpipe/segment,
@@ -20059,7 +20025,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/seconddeck/forestarboard)
 "Zs" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "Zt" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -20118,11 +20084,11 @@
 /area/torch/storage/tech)
 "ZG" = (
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/assembly/robotics/surgery)
 "ZH" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engineering_monitoring)
 "ZI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
@@ -20181,14 +20147,14 @@
 /area/torch/maintenance/seconddeck/aftstarboard)
 "ZM" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "ZP" = (
 /obj/effect/paint_stripe/engineering,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 6
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/engine_room)
 "ZQ" = (
 /obj/machinery/door/blast/regular{
@@ -20230,7 +20196,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology)
 "ZX" = (
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -29841,7 +29807,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 PP
 PP
 PP
@@ -29865,7 +29831,7 @@ MQ
 MQ
 MQ
 MQ
-Wp
+WO
 Hb
 Hb
 Hb
@@ -30043,7 +30009,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 fU
 Og
@@ -30067,7 +30033,7 @@ vt
 Wl
 vt
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -30245,7 +30211,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 xe
 hz
@@ -30269,7 +30235,7 @@ ol
 wl
 Sl
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -30447,7 +30413,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 gG
 eB
@@ -30471,7 +30437,7 @@ wi
 RP
 xW
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -30649,13 +30615,13 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 gH
 Up
 ip
 fU
-JX
+Pz
 qw
 Zk
 Xe
@@ -30667,13 +30633,13 @@ Mj
 Si
 Zk
 qw
-Wp
+WO
 vt
 wj
 Pq
 xX
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -30851,13 +30817,13 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 WC
 fn
 iq
 fU
-JX
+Pz
 OY
 Zk
 ew
@@ -30869,13 +30835,13 @@ Nj
 ay
 Zk
 ub
-Wp
+WO
 vt
 wk
 OO
 hw
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -31053,7 +31019,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 gH
 Up
@@ -31077,7 +31043,7 @@ wl
 Pq
 xX
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -31255,13 +31221,13 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 gI
 hA
 ir
 fU
-JX
+Pz
 Sx
 Qe
 mf
@@ -31273,13 +31239,13 @@ Hl
 Vj
 Qe
 Bq
-Wp
+WO
 vt
 wm
 xf
 xY
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -31457,13 +31423,13 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 gJ
 hB
 is
 fU
-JX
+Pz
 xR
 Qe
 Mi
@@ -31475,13 +31441,13 @@ Qj
 VL
 Qe
 ZV
-Wp
+WO
 vt
 wn
 xg
 xZ
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -31659,13 +31625,13 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 gK
 gK
 gK
 fU
-JX
+Pz
 LT
 Qe
 Gf
@@ -31677,13 +31643,13 @@ Rj
 Wj
 Qe
 uf
-Wp
+WO
 vt
 wo
 wo
 wo
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -31861,13 +31827,13 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 fU
 gL
 gL
 gL
 fU
-JX
+Pz
 xR
 Qe
 Hf
@@ -31879,13 +31845,13 @@ Sj
 Xi
 Qe
 ZV
-Wp
+WO
 vt
 wp
 wp
 wp
 vt
-Wp
+WO
 Hb
 Hb
 Hb
@@ -32063,13 +32029,13 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
-JX
-JX
-JX
-JX
-JX
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
 SU
 Qe
 Ug
@@ -32081,13 +32047,13 @@ Oi
 Nl
 Qe
 Mz
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
-Wp
+WO
+WO
+WO
+WO
+WO
+WO
+WO
 Hb
 Hb
 Hb
@@ -32264,8 +32230,8 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
+Pz
+Pz
 iR
 gM
 Rx
@@ -32289,8 +32255,8 @@ nc
 wq
 xh
 ya
-Wp
-Wp
+WO
+WO
 Hb
 Hb
 Hb
@@ -32465,8 +32431,8 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
+Pz
+Pz
 fd
 QR
 QR
@@ -32492,8 +32458,8 @@ xi
 pi
 pi
 pi
-Wp
-Wp
+WO
+WO
 Hb
 Hb
 Hb
@@ -32666,8 +32632,8 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
+Pz
+Pz
 ex
 fe
 fY
@@ -32695,8 +32661,8 @@ aK
 aK
 pi
 pi
-Wp
-Wp
+WO
+WO
 Hb
 Hb
 Hb
@@ -32868,7 +32834,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 cH
 bE
 bE
@@ -32898,7 +32864,7 @@ aK
 zA
 pi
 Be
-Wp
+WO
 Hb
 Hb
 Hb
@@ -33069,8 +33035,8 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
+Pz
+Pz
 Hz
 ey
 ff
@@ -33100,7 +33066,7 @@ aK
 nc
 GZ
 Bf
-Wp
+WO
 Hb
 Hb
 Hb
@@ -33271,8 +33237,8 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
+Pz
+Pz
 dO
 EQ
 EQ
@@ -33302,8 +33268,8 @@ aK
 zB
 pi
 pi
-Wp
-Wp
+WO
+WO
 Hb
 Hb
 Hb
@@ -33472,8 +33438,8 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
+Pz
+Pz
 wR
 EQ
 dr
@@ -33505,9 +33471,9 @@ zC
 Bg
 pi
 pi
-Wp
-Wp
-Wp
+WO
+WO
+WO
 af
 af
 af
@@ -33674,7 +33640,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 Po
 dr
 Hz
@@ -33876,7 +33842,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 cG
 ds
 oV
@@ -34075,10 +34041,10 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
-JX
-JX
+Pz
+Pz
+Pz
+Pz
 bE
 bE
 bE
@@ -34479,9 +34445,9 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 FU
-JX
+Pz
 ce
 ce
 sV
@@ -34882,10 +34848,10 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
+Pz
+Pz
 bb
-JX
+Pz
 sV
 sV
 sV
@@ -34922,7 +34888,7 @@ Cm
 Cm
 Cm
 zo
-Wp
+WO
 af
 af
 af
@@ -35086,7 +35052,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 bG
 RO
 NQ
@@ -35124,7 +35090,7 @@ BM
 Cp
 CS
 Dq
-Wp
+WO
 Hb
 Hb
 Hb
@@ -35288,7 +35254,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 Lt
 PO
 Ip
@@ -35326,7 +35292,7 @@ Bj
 Bj
 Bj
 Dr
-Wp
+WO
 Hb
 Hb
 Hb
@@ -35489,8 +35455,8 @@ Hb
 Hb
 Hb
 Hb
-JX
-JX
+Pz
+Pz
 sV
 cg
 sV
@@ -35527,9 +35493,9 @@ nc
 nc
 WO
 yi
-Wp
-Wp
-Wp
+WO
+WO
+WO
 Hb
 Hb
 Hb
@@ -35691,7 +35657,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 bc
 PO
 ch
@@ -35731,7 +35697,7 @@ WO
 pi
 pi
 pi
-Wp
+WO
 Hb
 Hb
 Hb
@@ -35893,7 +35859,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 NW
 vR
 ci
@@ -35912,7 +35878,7 @@ QR
 QR
 fC
 QR
-bI
+sV
 ZS
 gn
 NJ
@@ -35933,7 +35899,7 @@ OX
 CT
 OX
 pi
-Wp
+WO
 Hb
 Hb
 Hb
@@ -36095,7 +36061,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 Zr
 wx
 cj
@@ -36114,7 +36080,7 @@ fv
 sV
 fv
 sV
-bI
+sV
 fQ
 gi
 NJ
@@ -36135,7 +36101,7 @@ Cq
 CU
 mT
 pi
-Wp
+WO
 Hb
 Hb
 Hb
@@ -36297,7 +36263,7 @@ Hb
 Hb
 Hb
 Hb
-JX
+Pz
 QR
 xr
 EY
@@ -36316,7 +36282,7 @@ oq
 sV
 fw
 sV
-bI
+sV
 fR
 gm
 NJ
@@ -36337,7 +36303,7 @@ Cr
 CV
 mT
 pi
-Wp
+WO
 Hb
 Hb
 Hb
@@ -36518,7 +36484,7 @@ SQ
 fB
 fx
 sV
-bI
+sV
 fV
 xj
 gV
@@ -36539,7 +36505,7 @@ Cs
 Cs
 OX
 DR
-Wp
+WO
 Hb
 Hb
 Hb
@@ -36741,7 +36707,7 @@ Ct
 CW
 mT
 pi
-Wp
+WO
 Hb
 Hb
 Hb
@@ -36943,7 +36909,7 @@ Cu
 CX
 mT
 lG
-Wp
+WO
 Hb
 Hb
 Hb
@@ -37145,7 +37111,7 @@ pN
 CY
 mT
 yq
-Wp
+WO
 Hb
 Hb
 Hb
@@ -37347,7 +37313,7 @@ Cv
 OX
 OX
 pi
-Wp
+WO
 Hb
 Hb
 Hb
@@ -37549,7 +37515,7 @@ MG
 mT
 pi
 pi
-Wp
+WO
 Hb
 Hb
 ED
@@ -37750,8 +37716,8 @@ BV
 MG
 mT
 Ds
-Wp
-Wp
+WO
+WO
 Hb
 ED
 ED
@@ -37950,9 +37916,9 @@ Tg
 mT
 BW
 MG
-Bk
-Wp
-Wp
+OX
+WO
+WO
 Hb
 Hb
 ED
@@ -38153,7 +38119,7 @@ mT
 BX
 YD
 RT
-Wp
+WO
 ag
 Hb
 Hb
@@ -39360,10 +39326,10 @@ hF
 Ma
 Ky
 Fn
-BI
-BI
-BI
-BI
+Rs
+Rs
+Rs
+Rs
 wU
 Ir
 Ir
@@ -45998,9 +45964,9 @@ Hb
 Hb
 IE
 IE
-hu
-hu
-hu
+IE
+IE
+IE
 do
 gy
 ZM
@@ -46026,10 +45992,10 @@ Tn
 Ne
 ZM
 At
-sp
+wU
 Ox
-sp
-sp
+wU
+wU
 wU
 rX
 rX
@@ -46200,9 +46166,9 @@ Hb
 Hb
 Hb
 IE
-hu
-hu
-hu
+IE
+IE
+IE
 ZM
 ZM
 ZM
@@ -46228,9 +46194,9 @@ Un
 Zn
 ZP
 gA
-ax
-il
-uX
+IF
+VA
+Zs
 wU
 wU
 rX

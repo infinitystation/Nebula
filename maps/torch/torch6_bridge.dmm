@@ -28,7 +28,7 @@
 /turf/space,
 /area/space)
 "af" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/bridge/forestarboard)
 "ag" = (
 /obj/machinery/design_database,
@@ -749,7 +749,7 @@
 /turf/simulated/wall/prepainted,
 /area/torch/maintenance/substation/bridge)
 "bD" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/substation/bridge)
 "bF" = (
 /obj/structure/cable/green{
@@ -2229,7 +2229,6 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "ec" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/cockpit)
 "ed" = (
@@ -2280,10 +2279,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/ai/ai_outer_chamber)
-"ei" = (
-/obj/effect/paint/tan,
-/turf/simulated/wall/titanium,
-/area/torch/perseverance/secure_storage)
 "ek" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2995,7 +2990,7 @@
 /obj/structure/sign/warning/high_voltage{
 	dir = 8
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/bridge/forestarboard)
 "fv" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -3623,12 +3618,8 @@
 /turf/simulated/floor/carpet/blue2,
 /area/torch/crew_quarters/heads/office/sgr)
 "gw" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/medical)
-"gz" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/bridge/aftstarboard)
 "gJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -3729,7 +3720,7 @@
 /area/torch/hallway/primary/bridge/aft)
 "gX" = (
 /obj/structure/sign/warning/airlock,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/bridge/aft)
 "gY" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -4328,7 +4319,6 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/perseverance/passenger)
@@ -4747,7 +4737,6 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/crew_quarters/heads/office/cmo)
 "jE" = (
-/obj/effect/paint/tan,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -5756,7 +5745,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 5
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/medical)
 "mz" = (
@@ -6691,7 +6679,6 @@
 /area/torch/maintenance/bridge/aftport)
 "oU" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/perseverance/medical)
@@ -7564,9 +7551,6 @@
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/bridge/fore)
-"ri" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/hallway/primary/bridge/aft)
 "rk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -8306,9 +8290,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/torch/perseverance/medical)
-"tg" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/bridge/foreport)
 "th" = (
 /obj/machinery/light{
 	dir = 8;
@@ -9817,7 +9798,7 @@
 /obj/structure/sign/warning/airlock{
 	dir = 8
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/bridge/aftport)
 "wX" = (
 /obj/structure/table/steel_reinforced,
@@ -10677,7 +10658,6 @@
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
 "zG" = (
-/obj/effect/paint/tan,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -10811,7 +10791,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/fore)
 "Aa" = (
-/obj/effect/paint/tan,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 4;
@@ -10872,7 +10851,6 @@
 	name = "Protective Shutters";
 	opacity = 0
 	},
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/perseverance/passenger)
@@ -10987,7 +10965,7 @@
 /obj/structure/sign/warning/high_voltage{
 	dir = 8
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/bridge)
 "Ay" = (
 /obj/machinery/alarm{
@@ -11119,7 +11097,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 10
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/medical)
 "AV" = (
@@ -11570,7 +11547,6 @@
 	name = "Protective Shutters";
 	opacity = 0
 	},
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/perseverance/airlock)
@@ -11608,9 +11584,6 @@
 /obj/machinery/teleport/hub,
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_foyer)
-"CN" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/bridge/aftport)
 "CO" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/aux_eva)
@@ -11869,7 +11842,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/bridge/ai/ai_outer_chamber)
 "DN" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/bridge/aft)
 "DQ" = (
 /obj/structure/bed/chair/comfy/captain{
@@ -11879,7 +11852,6 @@
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/cobed)
 "DR" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/head)
 "DW" = (
@@ -12050,7 +12022,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 6
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/secure_storage)
 "EE" = (
@@ -12275,7 +12246,6 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/ai/ai_outer_chamber)
 "FK" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/airlock)
 "FL" = (
@@ -12347,7 +12317,6 @@
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/head)
 "Ge" = (
@@ -13238,7 +13207,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 9
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/secure_storage)
 "IK" = (
@@ -13524,7 +13492,6 @@
 /area/torch/crew_quarters/heads/office/rd)
 "Kc" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/airlock)
 "Kd" = (
@@ -14530,7 +14497,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/maintenance)
 "Om" = (
@@ -15096,7 +15062,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/aux_eva)
 "QF" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/passenger)
 "QK" = (
@@ -15112,7 +15077,6 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/hallway/primary/bridge/fore)
 "QL" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/storage)
 "QN" = (
@@ -16861,7 +16825,6 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/storage)
 "Ww" = (
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/maintenance)
 "Wx" = (
@@ -16989,7 +16952,7 @@
 	pixel_y = -6
 	},
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/bridge/meeting_room)
 "Xa" = (
 /obj/structure/closet/firecloset,
@@ -17169,7 +17132,6 @@
 /area/torch/bridge)
 "XI" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/tan,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/perseverance/airlock)
@@ -17685,7 +17647,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
 	},
-/obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/maintenance)
 "ZD" = (
@@ -24774,16 +24735,16 @@ aa
 aa
 ae
 qA
-tg
-tg
-tg
-tg
-tg
-tg
-tg
-tg
-tg
-tg
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
 aa
 aa
 aa
@@ -24975,18 +24936,18 @@ vA
 aa
 aa
 ae
-tg
-tg
-tg
-tg
-tg
-tg
-tg
-tg
-tg
-tg
-tg
-tg
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
+Gu
 aa
 aa
 aa
@@ -25187,8 +25148,8 @@ uy
 uy
 uy
 uy
-tg
-tg
+Gu
+Gu
 ad
 aa
 aa
@@ -25390,7 +25351,7 @@ fV
 Av
 uy
 uy
-tg
+Gu
 ad
 aa
 aa
@@ -25592,7 +25553,7 @@ EJ
 DQ
 xx
 uy
-tg
+Gu
 ad
 aa
 aa
@@ -25794,7 +25755,7 @@ lu
 mT
 ND
 uy
-tg
+Gu
 ad
 aa
 aa
@@ -25996,7 +25957,7 @@ Cr
 CV
 zP
 uy
-tg
+Gu
 ad
 aa
 aa
@@ -26198,7 +26159,7 @@ DY
 dG
 SG
 uy
-tg
+Gu
 ad
 aa
 aa
@@ -26400,7 +26361,7 @@ KC
 dG
 Cx
 uy
-tg
+Gu
 ad
 aa
 aa
@@ -26602,7 +26563,7 @@ uy
 SV
 uy
 uy
-tg
+Gu
 ad
 aa
 aa
@@ -26804,7 +26765,7 @@ Rl
 jc
 bH
 aK
-tg
+Gu
 ad
 aa
 aa
@@ -27006,7 +26967,7 @@ Oi
 lT
 Ht
 aK
-tg
+Gu
 ad
 aa
 aa
@@ -27208,7 +27169,7 @@ aK
 aK
 aK
 aK
-tg
+Gu
 ad
 ad
 aa
@@ -27410,7 +27371,7 @@ xc
 xc
 xc
 xc
-tg
+Gu
 ad
 ad
 aa
@@ -27612,7 +27573,7 @@ xc
 Ji
 KZ
 Ma
-tg
+Gu
 ad
 ad
 aa
@@ -27814,7 +27775,7 @@ ti
 ti
 rT
 Ma
-tg
+Gu
 ad
 ad
 aa
@@ -28016,7 +27977,7 @@ Xa
 ti
 oB
 Ma
-tg
+Gu
 ad
 ad
 aa
@@ -28218,7 +28179,7 @@ nK
 xe
 WX
 Ma
-tg
+Gu
 ad
 ad
 ad
@@ -28420,7 +28381,7 @@ yL
 ti
 xy
 xc
-tg
+Gu
 ad
 ad
 ad
@@ -28622,7 +28583,7 @@ ti
 ti
 wT
 xE
-tg
+Gu
 ad
 ad
 ad
@@ -28824,7 +28785,7 @@ xb
 oB
 xz
 xF
-tg
+Gu
 ad
 ad
 ad
@@ -29026,7 +28987,7 @@ UE
 UE
 lW
 oB
-tg
+Gu
 ad
 ad
 ad
@@ -29228,7 +29189,7 @@ oB
 oB
 xj
 xJ
-tg
+Gu
 ad
 ad
 ad
@@ -29430,7 +29391,7 @@ NW
 NW
 gP
 NW
-tg
+Gu
 ad
 ad
 ad
@@ -29632,7 +29593,7 @@ JG
 GI
 BG
 xK
-tg
+Gu
 ad
 ad
 aa
@@ -29834,7 +29795,7 @@ JG
 Ma
 Xq
 Fz
-tg
+Gu
 ad
 ad
 aa
@@ -30036,7 +29997,7 @@ JG
 Ma
 Xq
 Fz
-tg
+Gu
 ad
 ad
 aa
@@ -30238,7 +30199,7 @@ xh
 Ma
 Xq
 Fz
-tg
+Gu
 ad
 ad
 aa
@@ -30439,8 +30400,8 @@ vv
 xi
 xr
 xB
-tg
-tg
+Gu
+Gu
 ad
 ad
 aa
@@ -30640,8 +30601,8 @@ wI
 vv
 Lr
 vs
-tg
-tg
+Gu
+Gu
 ad
 ad
 aa
@@ -30842,7 +30803,7 @@ wJ
 vv
 xj
 xs
-tg
+Gu
 ad
 ad
 aa
@@ -31008,7 +30969,7 @@ aa
 aa
 ad
 ad
-gz
+mM
 aQ
 bx
 sT
@@ -31044,7 +31005,7 @@ vv
 vv
 xk
 xc
-tg
+Gu
 ad
 ad
 aa
@@ -31210,7 +31171,7 @@ aa
 aa
 ad
 ad
-gz
+mM
 cb
 bx
 sT
@@ -31246,7 +31207,7 @@ gg
 TX
 xl
 xt
-CN
+CR
 ad
 ad
 aa
@@ -31412,7 +31373,7 @@ aa
 aa
 ad
 ad
-gz
+mM
 fd
 gh
 sT
@@ -31448,7 +31409,7 @@ wL
 TX
 xl
 xt
-CN
+CR
 ad
 ad
 aa
@@ -31614,7 +31575,7 @@ aa
 aa
 ad
 ad
-gz
+mM
 cc
 bx
 sT
@@ -31649,8 +31610,8 @@ wg
 Nb
 TX
 xl
-CN
-CN
+CR
+CR
 ad
 ad
 aa
@@ -31816,7 +31777,7 @@ aa
 aa
 aa
 ad
-gz
+mM
 cd
 bx
 sT
@@ -31851,7 +31812,7 @@ wh
 wN
 TX
 xm
-CN
+CR
 ad
 ad
 aa
@@ -32018,7 +31979,7 @@ aa
 aa
 aa
 ad
-gz
+mM
 aR
 bx
 sT
@@ -32053,7 +32014,7 @@ Mb
 Jo
 YN
 xl
-CN
+CR
 ad
 ad
 aa
@@ -32220,7 +32181,7 @@ aa
 aa
 aa
 ad
-gz
+mM
 aS
 bx
 bm
@@ -32255,7 +32216,7 @@ TX
 TX
 TX
 xn
-CN
+CR
 ad
 ad
 aa
@@ -32422,7 +32383,7 @@ aa
 aa
 ad
 ad
-gz
+mM
 mM
 bB
 Qi
@@ -32457,8 +32418,8 @@ vE
 wP
 wY
 Cn
-CN
-CN
+CR
+CR
 ad
 ad
 aa
@@ -32623,8 +32584,8 @@ aa
 aa
 ad
 ad
-gz
-gz
+mM
+mM
 mM
 gi
 bx
@@ -32660,8 +32621,8 @@ wQ
 us
 Km
 yy
-CN
-CN
+CR
+CR
 ad
 ad
 aa
@@ -32825,7 +32786,7 @@ aa
 aa
 ad
 ad
-gz
+mM
 Jc
 Jc
 Jc
@@ -32863,7 +32824,7 @@ Np
 LM
 yy
 wP
-CN
+CR
 ad
 ad
 aa
@@ -33027,7 +32988,7 @@ aa
 ad
 ad
 ad
-gz
+mM
 Jc
 fe
 Ni
@@ -33065,7 +33026,7 @@ wR
 XJ
 xv
 xD
-CN
+CR
 ad
 ad
 ad
@@ -33229,7 +33190,7 @@ aa
 ad
 ad
 ad
-gz
+mM
 Jc
 Jc
 Jc
@@ -33265,9 +33226,9 @@ wm
 wS
 wS
 xo
-CN
-CN
-CN
+CR
+CR
+CR
 ad
 ad
 ad
@@ -33431,24 +33392,24 @@ aa
 ad
 ad
 ad
-gz
-gz
-gz
-gz
+mM
+mM
+mM
+mM
 bD
 cf
 cK
 du
 bD
-gz
-gz
-gz
-gz
+mM
+mM
+mM
+mM
 DN
 DN
 DN
 DN
-ri
+DN
 kP
 aV
 mZ
@@ -33465,9 +33426,9 @@ CR
 Pc
 wn
 wS
-CN
-CN
-CN
+CR
+CR
+CR
 ad
 ad
 ad
@@ -33645,12 +33606,12 @@ bD
 ad
 ad
 ad
-gz
+mM
 DN
 xg
 ip
 ja
-ri
+DN
 kQ
 aU
 na
@@ -33663,11 +33624,11 @@ IW
 Bp
 Ci
 on
-CN
+CR
 vI
 wo
 wU
-CN
+CR
 ad
 ad
 ad
@@ -33865,11 +33826,11 @@ Rz
 SU
 YW
 on
-CN
+CR
 vJ
 wp
 OK
-CN
+CR
 ad
 ad
 ad
@@ -34067,11 +34028,11 @@ yD
 Fi
 Dt
 on
-CN
-CN
+CR
+CR
 wq
 wW
-CN
+CR
 ad
 ad
 ad
@@ -34256,7 +34217,7 @@ gX
 hK
 is
 hK
-ri
+DN
 kT
 lO
 nd
@@ -34269,11 +34230,11 @@ Ai
 Ai
 Zy
 on
-CN
-CN
+CR
+CR
 Tc
-CN
-CN
+CR
+CR
 ad
 ad
 ad
@@ -34458,7 +34419,7 @@ DN
 DN
 DN
 DN
-ri
+DN
 kU
 Sg
 ne
@@ -34471,10 +34432,10 @@ IW
 zz
 IW
 on
-CN
-CN
+CR
+CR
 ws
-CN
+CR
 ad
 ad
 ad
@@ -34660,10 +34621,10 @@ ad
 ad
 ad
 ad
-ri
-ri
+DN
+DN
 Tg
-ri
+DN
 CO
 CO
 CO
@@ -34673,7 +34634,7 @@ CO
 CO
 CO
 CO
-CN
+CR
 ad
 ad
 ad
@@ -34863,9 +34824,9 @@ ad
 ad
 fj
 oa
-ri
+DN
 lR
-ri
+DN
 oa
 oa
 oa
@@ -35065,9 +35026,9 @@ eb
 eb
 Ec
 Fc
-ri
+DN
 Ug
-ri
+DN
 QL
 QL
 QL
@@ -35881,11 +35842,11 @@ QL
 Sb
 QL
 QL
-ei
-ei
+PQ
+PQ
 Ez
 IJ
-ei
+PQ
 vL
 ad
 ad

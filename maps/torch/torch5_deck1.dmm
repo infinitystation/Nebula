@@ -185,9 +185,8 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/firstdeck/aftstarboard)
 "abk" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/counselor)
 "abl" = (
 /obj/machinery/chemical_dispenser/full,
@@ -485,9 +484,6 @@
 /obj/structure/grille,
 /turf/space,
 /area/space)
-"abN" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/thruster/d1starboard)
 "abO" = (
 /obj/machinery/button/access/exterior{
 	id_tag = "bridgestarboard_airlock";
@@ -500,7 +496,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/torch/maintenance/firstdeck/forestarboard)
 "abP" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/centralstarboard)
 "abQ" = (
 /obj/machinery/disposal,
@@ -621,7 +617,7 @@
 /area/torch/thruster/d1starboard)
 "acb" = (
 /obj/structure/sign/warning/airlock,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/forestarboard)
 "acc" = (
 /obj/machinery/door/airlock/external{
@@ -891,9 +887,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/firstdeck/aftstarboard)
-"acD" = (
-/turf/simulated/wall/map_preset/tan,
-/area/torch/maintenance/firstdeck/centralstarboard)
 "acE" = (
 /obj/effect/wallframe_spawn/reinforced/polarized/full{
 	id = "roboticlab_window"
@@ -1025,7 +1018,6 @@
 	name = "Chemistry Counter Shutters";
 	opacity = 0
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -1071,7 +1063,6 @@
 	name = "Chemistry Counter Shutters";
 	opacity = 0
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -1593,9 +1584,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/maintenance/firstdeck/forestarboard)
-"adS" = (
-/turf/simulated/wall/map_preset/tan,
-/area/torch/maintenance/firstdeck/forestarboard)
 "adT" = (
 /obj/machinery/door/airlock/external{
 	icon_state = "closed";
@@ -1608,7 +1596,7 @@
 /area/torch/maintenance/firstdeck/forestarboard)
 "adU" = (
 /obj/structure/sign/warning/airlock,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/maintenance/firstdeck/forestarboard)
 "adV" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -2949,7 +2937,6 @@
 	name = "Infirmary Window Lockdown";
 	opacity = 0
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /turf/simulated/floor/plating,
 /area/torch/medical/sleeper)
@@ -3051,7 +3038,6 @@
 	id = "counselor_office"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /turf/simulated/floor/plating,
 /area/torch/medical/counselor)
@@ -3481,22 +3467,19 @@
 	name = "Infirmary Reception Window Lockdown";
 	opacity = 0
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/medical/staging)
 "ahd" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/counselor/therapy)
 "ahe" = (
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "counselor_therapy"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /turf/simulated/floor/plating,
 /area/torch/medical/counselor/therapy)
@@ -4238,9 +4221,8 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/medical/counselor/therapy)
 "aiu" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/medical/counselor/therapy)
 "aiG" = (
 /obj/machinery/alarm{
@@ -4255,7 +4237,7 @@
 /area/torch/maintenance/firstdeck/aftstarboard)
 "aiI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d1starboard)
 "aiK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
@@ -4928,7 +4910,6 @@
 /area/torch/hallway/primary/firstdeck/fore)
 "akX" = (
 /obj/effect/wallframe_spawn/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -5151,9 +5132,8 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/security/detectives_office)
 "amh" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/assembly/robotics/laboratory)
 "ami" = (
 /obj/structure/door/plastic,
@@ -5720,9 +5700,8 @@
 /area/torch/medical/hallway)
 "aqM" = (
 /obj/machinery/status_display,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/hallway)
 "aqP" = (
 /obj/effect/floor_decal/corner/paleblue/three_quarters{
@@ -6546,10 +6525,10 @@
 /area/torch/hallway/primary/firstdeck/center)
 "auM" = (
 /obj/structure/sign/warning/pods/south,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/firstdeck/center)
 "auN" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/firstdeck/center)
 "auO" = (
 /obj/machinery/mech_recharger,
@@ -6793,7 +6772,7 @@
 /obj/structure/sign/directions/supply{
 	pixel_y = -4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/firstdeck/center)
 "awa" = (
 /turf/simulated/floor/tiled/steel_ridged,
@@ -6809,7 +6788,7 @@
 	pixel_x = -5;
 	pixel_y = 3
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/firstdeck/center)
 "awc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -7596,7 +7575,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/firstdeck/fore)
 "aAm" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/restroom/aux)
 "aAn" = (
 /obj/machinery/light/small{
@@ -7610,9 +7589,8 @@
 /area/torch/crew_quarters/restroom/aux)
 "aAs" = (
 /obj/machinery/status_display,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenoarch/analysis)
 "aAI" = (
 /obj/machinery/forensic/microscope,
@@ -7632,15 +7610,13 @@
 	icon_state = "0-8"
 	},
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/research/development)
 "aAK" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/development)
 "aAT" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -7691,7 +7667,7 @@
 /obj/structure/sign/warning/pods/south{
 	dir = 1
 	},
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/firstdeck/center)
 "aBy" = (
 /obj/machinery/artifact_scanpad,
@@ -7797,18 +7773,16 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/xenoarch/equipment)
 "aBO" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/tcommsat/network_relay/d1)
 "aBP" = (
 /obj/effect/paint_stripe/security,
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/entry)
 "aCf" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/research/development)
 "aCp" = (
 /obj/machinery/teleport/hub,
@@ -8351,7 +8325,6 @@
 	icon_state = "0-4"
 	},
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -8639,7 +8612,6 @@
 /area/torch/medical/staging)
 "aGE" = (
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -8761,14 +8733,12 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/xenoarch/equipment)
 "aHn" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/research/locker)
 "aHQ" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/misc_lab)
 "aHR" = (
 /obj/structure/cable/green{
@@ -8992,9 +8962,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/freezer,
 /area/torch/security/brig)
-"aIr" = (
-/turf/simulated/wall/map_preset/tan,
-/area/torch/maintenance/firstdeck/foreport)
 "aIs" = (
 /obj/structure/table/standard,
 /obj/machinery/atmospherics/pipe/simple/visible/red,
@@ -9479,9 +9446,8 @@
 /turf/simulated/floor/plating,
 /area/torch/security/bo)
 "aKF" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenoarch/anom_storage)
 "aKG" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -10085,7 +10051,7 @@
 /area/torch/maintenance/firstdeck/foreport)
 "aNa" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/tcommsat/network_relay/d1)
 "aNb" = (
 /obj/machinery/sparker{
@@ -10438,7 +10404,7 @@
 /area/torch/thruster/d1port)
 "aPs" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d1port)
 "aPu" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -11662,9 +11628,8 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/firstdeck/centralport)
 "aSK" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology/xenoflora)
 "aSS" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -12080,7 +12045,7 @@
 /obj/structure/sign/warning/airlock{
 	dir = 1
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/foreport)
 "aUa" = (
 /obj/machinery/door/airlock/external{
@@ -12482,7 +12447,6 @@
 /area/torch/medical/equipstorage)
 "bmb" = (
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -12616,9 +12580,8 @@
 /turf/simulated/floor/tiled,
 /area/torch/security/wing)
 "bsu" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenoarch/equipment)
 "bta" = (
 /obj/effect/floor_decal/corner/research{
@@ -12728,9 +12691,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/engineering/auxpower)
-"bDK" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/firstdeck/aftport)
 "bEQ" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -13381,9 +13341,8 @@
 /turf/simulated/wall/prepainted,
 /area/torch/security/brig)
 "cva" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/medical/counselor)
 "cvb" = (
 /obj/effect/floor_decal/techfloor{
@@ -13715,9 +13674,8 @@
 /area/torch/medical/surgery2)
 "cPW" = (
 /obj/machinery/status_display,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenoarch/equipment)
 "cPY" = (
 /obj/structure/bed/padded,
@@ -14149,7 +14107,7 @@
 	dir = 1;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/centralport)
 "dqb" = (
 /obj/structure/hygiene/sink{
@@ -14259,9 +14217,8 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/research)
 "dDb" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/medical/chemistry)
 "dDc" = (
 /obj/structure/cable/green{
@@ -15450,10 +15407,9 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/torch/medical/surgery2)
 "fyU" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenoarch/anom_storage)
 "fza" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -15589,7 +15545,6 @@
 	name = "Infirmary Window Lockdown";
 	opacity = 0
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -15868,7 +15823,6 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille/regular{
 	id = "or1"
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -16020,7 +15974,6 @@
 /area/torch/engineering/hardstorage/aux)
 "gyV" = (
 /obj/effect/wallframe_spawn/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /turf/simulated/floor/plating,
 /area/torch/medical/sleeper)
@@ -16110,7 +16063,6 @@
 	name = "Infirmary Window Lockdown";
 	opacity = 0
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -16222,9 +16174,8 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/medical/exam_room)
 "gSb" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/medical/washroom)
 "gUp" = (
 /obj/structure/disposalpipe/segment,
@@ -16252,7 +16203,6 @@
 	name = "Infirmary Window Lockdown";
 	opacity = 0
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -16274,7 +16224,6 @@
 	name = "Infirmary Window Lockdown";
 	opacity = 0
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -16294,9 +16243,8 @@
 /obj/structure/sign/warning/high_voltage{
 	dir = 1
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/development)
 "haV" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -16721,9 +16669,8 @@
 	dir = 8;
 	pixel_y = -4
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/development)
 "hwx" = (
 /obj/effect/floor_decal/corner/paleblue/three_quarters{
@@ -16750,7 +16697,6 @@
 	icon_state = "2-4"
 	},
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -16831,9 +16777,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/security/opscheck)
-"hBr" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/firstdeck/forestarboard)
 "hCb" = (
 /obj/structure/table/rack,
 /obj/item/radio,
@@ -16975,9 +16918,8 @@
 /obj/structure/sign/directions/engineering{
 	pixel_y = 3
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/development)
 "hIl" = (
 /obj/machinery/cryopod,
@@ -17097,9 +17039,8 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/xenoarch/equipment)
 "hRS" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenoarch/cell2)
 "hUb" = (
 /obj/machinery/door/blast/shutters{
@@ -17165,7 +17106,7 @@
 /turf/simulated/floor/glass,
 /area/torch/research/entry)
 "hVG" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/firstdeck/center)
 "hVH" = (
 /obj/effect/floor_decal/corner/green{
@@ -17238,7 +17179,6 @@
 	icon_state = "0-2"
 	},
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -17507,9 +17447,8 @@
 /area/torch/maintenance/firstdeck/aftport)
 "ivh" = (
 /obj/machinery/status_display,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/misc_lab)
 "ivT" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -17649,7 +17588,6 @@
 	},
 /obj/structure/cable/green,
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -17798,9 +17736,8 @@
 /area/torch/research/xenoarch/analysis)
 "iRb" = (
 /obj/machinery/status_display,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/development)
 "iSb" = (
 /obj/structure/table/standard,
@@ -17915,10 +17852,6 @@
 /obj/effect/floor_decal/corner/research/half,
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/firstdeck/aft)
-"jbk" = (
-/obj/structure/lattice,
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/thruster/d1port)
 "jbR" = (
 /obj/machinery/atmospherics/unary/vent_pump/tank{
 	dir = 8;
@@ -17982,9 +17915,8 @@
 /obj/structure/sign/xenobio_1{
 	dir = 1
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/research)
 "jeb" = (
 /obj/structure/disposalpipe/segment,
@@ -18108,7 +18040,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/torch/research/development)
 "jjh" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/centralport)
 "jjK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -18410,9 +18342,8 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/xenoarch/equipment)
 "jCM" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/morgue/autopsy)
 "jCU" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -18718,7 +18649,6 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "misc_lab"
 	},
-/obj/effect/paint/eggshell,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/research/misc_lab)
@@ -18863,9 +18793,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/assembly/robotics/office)
-"kif" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/maintenance/firstdeck/foreport)
 "kiR" = (
 /obj/structure/table/steel,
 /obj/machinery/recharger,
@@ -19066,9 +18993,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/crew_quarters/safe_room/firstdeck)
 "kCb" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/surgery)
 "kCe" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/blue{
@@ -19196,7 +19122,6 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille/regular{
 	id = "postop_window"
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -19261,7 +19186,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d1port)
 "kQb" = (
 /obj/effect/floor_decal/corner/pink{
@@ -19468,9 +19393,8 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/turbolift/medical_lift)
 "kZb" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/foyer/storeroom)
 "lab" = (
 /obj/machinery/button/windowtint{
@@ -19556,9 +19480,8 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/torch/assembly/robotics/laboratory)
 "leb" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/staging)
 "lfb" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -19969,9 +19892,8 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/medical/equipstorage)
 "lHO" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/sleeper)
 "lJb" = (
 /obj/structure/window/reinforced,
@@ -20102,9 +20024,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/storage/emergency)
 "mav" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/research/office)
 "mbb" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
@@ -20360,9 +20281,6 @@
 /obj/machinery/atmospherics/valve/shutoff,
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/firstdeck/aft)
-"mpy" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/firstdeck/aftstarboard)
 "mrW" = (
 /obj/structure/closet/secure_closet/medical_torchsenior,
 /obj/effect/floor_decal/corner/paleblue/mono,
@@ -20622,7 +20540,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d1starboard)
 "mHb" = (
 /obj/effect/floor_decal/borderfloor{
@@ -20832,9 +20750,8 @@
 /area/torch/security/nuke_storage)
 "mUm" = (
 /obj/structure/sign/warning/nosmoking_1,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/entry)
 "mVb" = (
 /obj/machinery/nuclearbomb/station{
@@ -21098,7 +21015,7 @@
 /obj/structure/sign/warning/airlock{
 	dir = 1
 	},
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/maintenance/firstdeck/foreport)
 "nkG" = (
 /obj/structure/table/standard,
@@ -21297,15 +21214,13 @@
 	name = "Infirmary Window Lockdown";
 	opacity = 0
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/medical/exam_room)
 "nCb" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/exam_room)
 "nDd" = (
 /obj/effect/floor_decal/corner/paleblue/mono,
@@ -22053,7 +21968,7 @@
 /obj/structure/sign/warning/pods/south{
 	dir = 1
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/centralport)
 "oAO" = (
 /obj/machinery/door/airlock/security{
@@ -22141,7 +22056,7 @@
 /area/torch/maintenance/firstdeck/foreport)
 "oJb" = (
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/assembly/robotics/laboratory)
 "oJU" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -22639,9 +22554,8 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/xenoarch/analysis)
 "pkb" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/research/research)
 "plb" = (
 /obj/machinery/door/firedoor,
@@ -22684,9 +22598,8 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/security/armoury)
 "poS" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/safe_room/medical)
 "pqb" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -22860,9 +22773,8 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/security/brig)
 "pzb" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/research)
 "pzH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -22908,12 +22820,10 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "misc_lab"
 	},
-/obj/effect/paint/eggshell,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/research/misc_lab)
 "pBL" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/common,
 /turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/sleep/cryo/aux)
@@ -23266,9 +23176,8 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/torch/medical/equipstorage)
 "pWW" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/locker)
 "pXm" = (
 /obj/machinery/door/firedoor,
@@ -23550,7 +23459,6 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille/regular{
 	id = "or2"
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -23580,7 +23488,6 @@
 /obj/effect/wallframe_spawn/reinforced/polarized/full{
 	id = "sci_office"
 	},
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -23610,7 +23517,6 @@
 /area/torch/research/office)
 "qtb" = (
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /turf/simulated/floor/reinforced,
 /area/torch/research/xenobiology/xenoflora)
@@ -23711,7 +23617,6 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/machinery/meter,
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /turf/simulated/floor/reinforced,
 /area/torch/research/xenobiology/xenoflora)
@@ -24196,9 +24101,8 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/security/armoury)
 "qXb" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/office)
 "qYb" = (
 /obj/structure/cable/green{
@@ -24312,7 +24216,6 @@
 	dir = 4
 	},
 /obj/effect/wallframe_spawn/reinforced/no_grille,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -24704,9 +24607,8 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/research)
 "rAu" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/washroom)
 "rBb" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -24886,7 +24788,6 @@
 	opacity = 0
 	},
 /obj/machinery/meter,
-/obj/effect/paint/eggshell,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/reinforced,
 /area/torch/research/misc_lab)
@@ -24921,7 +24822,6 @@
 	opacity = 0
 	},
 /obj/machinery/meter,
-/obj/effect/paint/eggshell,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/reinforced,
 /area/torch/research/misc_lab)
@@ -25348,7 +25248,7 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/xenobiology/xenoflora)
 "sik" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/security/locker)
 "siI" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -25639,9 +25539,8 @@
 /area/torch/research/xenobiology/xenoflora)
 "swb" = (
 /obj/machinery/status_display,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenobiology/xenoflora)
 "sww" = (
 /obj/structure/railing/mapped{
@@ -26114,7 +26013,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/centralport)
 "tgg" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -26275,7 +26174,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/crew_quarters/safe_room/firstdeck)
 "tAS" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/foreport)
 "tCu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -26660,9 +26559,8 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/firstdeck/aftport)
 "uiY" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/equipstorage)
 "ujx" = (
 /obj/machinery/light{
@@ -26897,7 +26795,7 @@
 /area/torch/security/storage)
 "uSl" = (
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/assembly/chargebay)
 "uTh" = (
 /obj/machinery/disposal/deliveryChute{
@@ -27127,9 +27025,8 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/torch/research/xenoarch/analysis)
 "vwT" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenoarch/cell1)
 "vzp" = (
 /obj/effect/catwalk_plated,
@@ -27157,9 +27054,8 @@
 /turf/simulated/floor/plating,
 /area/torch/security/wing)
 "vzy" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/surgery2)
 "vBa" = (
 /obj/machinery/atmospherics/unary/vent_pump/tank{
@@ -27235,9 +27131,6 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/torch/thruster/d1port)
-"vHu" = (
-/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d1port)
 "vHB" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -27369,9 +27262,8 @@
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/firstdeck/fore)
 "wdX" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenoarch/cell3)
 "whd" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -27596,9 +27488,8 @@
 /turf/simulated/floor/tiled/freezer,
 /area/torch/security/brig)
 "wBV" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/xenoarch/analysis)
 "wDm" = (
 /obj/effect/paint_stripe/security,
@@ -27614,7 +27505,7 @@
 /turf/simulated/floor/tiled/old_cargo,
 /area/torch/security/wing)
 "wEn" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/security/questioning)
 "wHE" = (
 /obj/structure/dispenser/oxygen,
@@ -27789,7 +27680,7 @@
 /area/torch/storage/emergency)
 "xcW" = (
 /obj/effect/paint_stripe/science,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/assembly/robotics/office)
 "xhX" = (
 /obj/effect/paint_stripe/command,
@@ -27992,7 +27883,7 @@
 /area/torch/hallway/primary/firstdeck/fore)
 "xEq" = (
 /obj/structure/sign/warning/pods/south,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/firstdeck/centralstarboard)
 "xFb" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -28072,7 +27963,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/research/misc_lab)
 "xOU" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/storage/emergency)
 "xPl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -28084,7 +27975,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/storage/emergency)
 "xPU" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d1port)
 "xQH" = (
 /obj/machinery/camera/network/research{
@@ -28197,9 +28088,8 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/torch/research/office)
 "xYM" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/medical,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/medical/physicianoffice)
 "ybv" = (
 /turf/simulated/floor/tiled,
@@ -35430,16 +35320,16 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
 aaa
 aaa
 aaa
@@ -35631,19 +35521,19 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
-hBr
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
+oJU
 aaa
 aaa
 aaa
@@ -35832,7 +35722,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 oJU
 adK
 adK
@@ -35844,11 +35734,11 @@ adK
 adK
 adK
 oJU
-hBr
-hBr
-hBr
-hBr
-hBr
+oJU
+oJU
+oJU
+oJU
+oJU
 aaa
 aaa
 aaa
@@ -36034,7 +35924,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adK
 akN
 alS
@@ -36046,11 +35936,11 @@ qWE
 qSx
 cPY
 oJU
-hBr
-hBr
-hBr
-hBr
-hBr
+oJU
+oJU
+oJU
+oJU
+oJU
 wEn
 wEn
 wEn
@@ -36236,7 +36126,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adK
 aeA
 tzv
@@ -36438,7 +36328,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adK
 adK
 abY
@@ -36640,7 +36530,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adK
 eQK
 afC
@@ -36842,7 +36732,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adK
 tcA
 ahC
@@ -37044,7 +36934,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adK
 lAC
 afE
@@ -37246,7 +37136,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adK
 emQ
 afF
@@ -37448,7 +37338,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adK
 tWZ
 gvC
@@ -37487,7 +37377,7 @@ aOI
 aPv
 tkr
 vrM
-kif
+tAS
 tAS
 aaa
 aaa
@@ -37650,7 +37540,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adK
 adK
 adK
@@ -37689,7 +37579,7 @@ aNG
 dkV
 tkr
 kSc
-kif
+tAS
 tAS
 aaa
 aaa
@@ -37852,7 +37742,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 afG
 csb
 afG
@@ -38054,7 +37944,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 alT
 alT
 alX
@@ -38256,7 +38146,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 riX
 aeD
 lvm
@@ -38458,7 +38348,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adP
 aeE
 lvm
@@ -38659,8 +38549,8 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
+oJU
+oJU
 adR
 aeG
 lvm
@@ -38860,10 +38750,10 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
-hBr
-adS
+oJU
+oJU
+oJU
+kXS
 aeH
 afI
 afI
@@ -38901,7 +38791,7 @@ tkr
 tkr
 tkr
 aRq
-aIr
+qDj
 tAS
 tAS
 tAS
@@ -39466,10 +39356,10 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
-hBr
-adS
+oJU
+oJU
+oJU
+kXS
 aeK
 pBL
 pBL
@@ -39507,7 +39397,7 @@ aGP
 aNH
 aNH
 aRt
-aIr
+qDj
 tAS
 tAS
 tAS
@@ -39669,8 +39559,8 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
+oJU
+oJU
 adV
 aeL
 aqb
@@ -39872,7 +39762,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 jkm
 aeL
 pBL
@@ -40074,7 +39964,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adW
 aeM
 pBL
@@ -40276,7 +40166,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adX
 aeN
 pBL
@@ -40478,7 +40368,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adY
 uXJ
 aiX
@@ -40680,7 +40570,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 adZ
 jjK
 tnV
@@ -40882,8 +40772,8 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
+oJU
+oJU
 sbJ
 tTY
 pBL
@@ -41085,7 +40975,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 aeN
 kXS
 pBL
@@ -41287,7 +41177,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 aeO
 afL
 agJ
@@ -41489,8 +41379,8 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
+oJU
+oJU
 afM
 aeO
 bLb
@@ -41692,7 +41582,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 kXS
 kXS
 dWA
@@ -41894,7 +41784,7 @@ aaa
 aaa
 aaa
 aaa
-hBr
+oJU
 afO
 aiZ
 ahM
@@ -42096,8 +41986,8 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
+oJU
+oJU
 ajb
 ahN
 gyP
@@ -42126,7 +42016,7 @@ aph
 jTV
 aJG
 aKR
-kif
+tAS
 aMS
 aMS
 jTV
@@ -42298,8 +42188,8 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
+oJU
+oJU
 ajc
 ahM
 bMb
@@ -42500,8 +42390,8 @@ aaa
 aaa
 aaa
 aaa
-hBr
-hBr
+oJU
+oJU
 adN
 ahM
 bMb
@@ -43923,10 +43813,10 @@ akg
 agN
 agN
 anr
-acD
+gAv
 rhO
 fMI
-acD
+gAv
 abF
 fDR
 auM
@@ -44125,10 +44015,10 @@ akh
 ali
 ali
 ans
-acD
+gAv
 cap
 aeh
-acD
+gAv
 xTc
 atH
 auN
@@ -48756,9 +48646,9 @@ aaa
 aaa
 aaa
 aaa
-mpy
-mpy
-mpy
+sRV
+sRV
+sRV
 acC
 ckb
 poS
@@ -48958,9 +48848,9 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 qHc
-mpy
+sRV
 uXe
 ckb
 poS
@@ -49564,9 +49454,9 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 bdi
-mpy
+sRV
 rjM
 ckb
 poS
@@ -49610,7 +49500,7 @@ aSK
 aSK
 aTe
 aaR
-bDK
+fwN
 iKN
 jjh
 aaa
@@ -49766,9 +49656,9 @@ aaa
 aaa
 aaa
 aaa
-mpy
-mpy
-mpy
+sRV
+sRV
+sRV
 acH
 adt
 uXe
@@ -49812,7 +49702,7 @@ stb
 aSK
 aTe
 aTE
-bDK
+fwN
 jjh
 jjh
 aaa
@@ -49970,7 +49860,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 ejQ
 adt
 sde
@@ -50014,7 +49904,7 @@ sab
 aSK
 aTe
 aFM
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -50172,7 +50062,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 acJ
 adt
 sde
@@ -50216,7 +50106,7 @@ sub
 aSK
 aTe
 aTF
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -50374,7 +50264,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 acK
 adt
 sde
@@ -50418,7 +50308,7 @@ svb
 aSK
 aTe
 mjt
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -50576,7 +50466,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 xTT
 aaB
 sde
@@ -50620,7 +50510,7 @@ swb
 aSK
 aTe
 aTH
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -50778,7 +50668,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 acM
 aaB
 kZb
@@ -50822,7 +50712,7 @@ sxb
 aSK
 aTe
 uhl
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -50980,7 +50870,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 acN
 adt
 kZb
@@ -51024,7 +50914,7 @@ syb
 aSK
 aTe
 aTI
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -51181,8 +51071,8 @@ aaa
 aaa
 aaa
 aaa
-mpy
-mpy
+sRV
+sRV
 chb
 adt
 kZb
@@ -51226,7 +51116,7 @@ kkN
 seb
 aTe
 aTJ
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -51383,7 +51273,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 acP
 uXe
 adt
@@ -51428,7 +51318,7 @@ szb
 aSK
 aTe
 uhl
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -51585,7 +51475,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 acQ
 uXe
 aaB
@@ -51630,7 +51520,7 @@ sAb
 aSK
 aTf
 aTK
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -51787,7 +51677,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 acS
 uXe
 adt
@@ -51832,7 +51722,7 @@ sBb
 aSK
 aTe
 aTL
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -51989,7 +51879,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 acT
 uXe
 adt
@@ -52034,7 +51924,7 @@ sAb
 aSK
 aTe
 aTM
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -52191,8 +52081,8 @@ aaa
 aaa
 aaa
 aaa
-mpy
-mpy
+sRV
+sRV
 acR
 adt
 kZb
@@ -52236,7 +52126,7 @@ aHQ
 aHQ
 aTe
 aTN
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -52394,7 +52284,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 dQb
 bGb
 kZb
@@ -52438,7 +52328,7 @@ ryb
 aHQ
 aTe
 aTO
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -52596,7 +52486,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 cqb
 aaB
 pZE
@@ -52640,7 +52530,7 @@ auY
 aHQ
 aTe
 aTP
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -52798,7 +52688,7 @@ aaa
 aaa
 aaa
 aaa
-mpy
+sRV
 acV
 adt
 pZE
@@ -52842,7 +52732,7 @@ ryb
 aHQ
 aTe
 shb
-bDK
+fwN
 aaa
 aaa
 aaa
@@ -52999,9 +52889,9 @@ aaa
 aaa
 aaa
 aaa
-abN
-abN
-abN
+afq
+afq
+afq
 ady
 acL
 jCM
@@ -53201,7 +53091,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 acg
 acW
 adz
@@ -53403,7 +53293,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 ach
 afq
 tVi
@@ -53605,7 +53495,7 @@ aaa
 aaa
 aaa
 abM
-abN
+afq
 aci
 afq
 sRV
@@ -53649,7 +53539,7 @@ uHz
 aSf
 dIA
 bUZ
-vHu
+xPU
 bvI
 xPU
 abM
@@ -53807,7 +53697,7 @@ aaa
 aaa
 aaa
 abM
-abN
+afq
 aci
 afq
 sRV
@@ -53851,9 +53741,9 @@ aRf
 tCu
 nPT
 xaC
-vHu
+xPU
 bvI
-jbk
+xpJ
 abM
 aaa
 aaa
@@ -54009,7 +53899,7 @@ aaa
 aaa
 aaa
 abM
-abN
+afq
 aci
 afq
 sRV
@@ -54053,9 +53943,9 @@ aNy
 fwN
 fwN
 fwN
-vHu
+xPU
 bvI
-jbk
+xpJ
 abM
 aaa
 aaa
@@ -54211,7 +54101,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 aci
 afq
 sRV
@@ -54255,7 +54145,7 @@ aNy
 fwN
 fwN
 fwN
-vHu
+xPU
 aUf
 xPU
 aaa
@@ -54412,8 +54302,8 @@ aaa
 aaa
 aaa
 aaa
-abN
-abN
+afq
+afq
 acj
 afq
 afq
@@ -54457,7 +54347,7 @@ sOo
 xpJ
 xpJ
 ddP
-vHu
+xPU
 aUg
 xPU
 xPU
@@ -54614,7 +54504,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 abV
 ack
 fTU
@@ -54652,11 +54542,11 @@ pyb
 pUb
 aMy
 aNA
-bDK
-bDK
-bDK
+fwN
+fwN
+fwN
 xPU
-vHu
+xPU
 rUh
 pIW
 mer
@@ -54816,7 +54706,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 abW
 jhS
 uVf
@@ -54825,11 +54715,11 @@ vVe
 cHm
 afq
 sRV
-mpy
-mpy
+sRV
+sRV
 hfA
 trc
-mpy
+sRV
 bBt
 xKq
 acL
@@ -54851,10 +54741,10 @@ aTK
 gyY
 tvO
 hYX
-bDK
-bDK
-bDK
-bDK
+fwN
+fwN
+fwN
+fwN
 acd
 acd
 xPU
@@ -55018,20 +54908,20 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 lxE
 acl
 acX
 trC
 eGl
 vVe
-abN
-mpy
-mpy
+afq
+sRV
+sRV
 acd
 xIT
 mBv
-mpy
+sRV
 xOU
 aDL
 xhX
@@ -55053,7 +54943,7 @@ xhX
 xhX
 xhX
 xOU
-bDK
+fwN
 acd
 aNB
 aNB
@@ -55219,17 +55109,17 @@ aaa
 aaa
 aaa
 aaa
-abN
-abN
+afq
+afq
 mGj
 acm
 acY
 adC
 afq
 afq
-abN
+afq
 acd
-mpy
+sRV
 acd
 acd
 xIT
@@ -55262,8 +55152,8 @@ aNB
 acd
 acd
 xPU
-vHu
-vHu
+xPU
+xPU
 aTi
 aTS
 aUj
@@ -55421,7 +55311,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 fuV
 nZR
 bqv
@@ -55429,7 +55319,7 @@ acZ
 adD
 afq
 aet
-abN
+afq
 adA
 abM
 acd
@@ -55465,7 +55355,7 @@ abM
 adA
 xPU
 aPq
-vHu
+xPU
 aTj
 aTT
 dqU
@@ -55623,7 +55513,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 mHr
 izd
 nys
@@ -55632,7 +55522,7 @@ adE
 bbb
 acv
 aet
-abN
+afq
 abM
 acd
 acd
@@ -55825,7 +55715,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 sCx
 vci
 acn
@@ -55835,7 +55725,7 @@ aet
 afw
 agw
 aet
-abN
+afq
 aaa
 acd
 acd
@@ -56027,7 +55917,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 vBa
 vci
 hUE
@@ -56229,7 +56119,7 @@ aaa
 aaa
 aaa
 aaa
-abN
+afq
 hml
 vci
 bqv
@@ -56239,7 +56129,7 @@ aet
 aet
 aet
 aet
-abN
+afq
 aaa
 aaa
 acd
@@ -56431,9 +56321,9 @@ aaa
 aaa
 aaa
 aaa
-abN
-abN
-abN
+afq
+afq
+afq
 acp
 add
 adI
@@ -56633,8 +56523,8 @@ aaa
 aaa
 aaa
 aaa
-abN
-abN
+afq
+afq
 abZ
 acq
 ade
@@ -56643,7 +56533,7 @@ jDX
 kPp
 jDX
 ahB
-abN
+afq
 aaa
 aaa
 acd
@@ -56835,17 +56725,17 @@ aaa
 aaa
 aaa
 aaa
-abN
-abN
+afq
+afq
 aca
 aca
-abN
+afq
 aca
 aca
-abN
+afq
 aca
 aca
-abN
+afq
 aaa
 aaa
 acd

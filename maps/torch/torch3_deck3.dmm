@@ -146,9 +146,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/thruster/d3port)
-"az" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/torch/maintenance/thirddeck/aftport)
 "aA" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -185,20 +182,20 @@
 /area/torch/crew_quarters/sleep/dorms/three)
 "aM" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/tcommsat/chamber)
 "aN" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/tcommsat/storage)
 "aO" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/thirddeck/forestarboard)
 "aP" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hydroponics/storage)
 "aQ" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/thirddeck/starboard)
 "aR" = (
 /obj/effect/paint_stripe/common,
@@ -206,9 +203,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/hydroponics)
-"aT" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/maintenance/thirddeck/aftstarboard)
 "aU" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -229,7 +223,7 @@
 /turf/simulated/floor/reinforced/oxygen,
 /area/torch/thruster/d3starboard)
 "aW" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hydroponics)
 "aX" = (
 /obj/random/torchcloset,
@@ -254,9 +248,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/thirddeck/aft)
-"bd" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/thruster/d3starboard)
 "be" = (
 /obj/effect/wallframe_spawn/reinforced/hull,
 /obj/machinery/door/firedoor,
@@ -282,7 +273,7 @@
 	pixel_y = 12
 	},
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/storage/tools)
 "bh" = (
 /obj/structure/bed/roller,
@@ -326,7 +317,7 @@
 /area/torch/tcommsat/chamber)
 "bk" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/tcommsat/storage)
 "bl" = (
 /obj/item/stock_parts/subspace/amplifier,
@@ -452,7 +443,7 @@
 /area/torch/engineering/hardstorage)
 "bA" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hydroponics)
 "bB" = (
 /obj/effect/floor_decal/corner/grey/diagonal{
@@ -695,7 +686,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/thirddeck/forestarboard)
 "ca" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hydroponics/storage)
 "cb" = (
 /obj/effect/floor_decal/corner/green{
@@ -979,9 +970,6 @@
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/tiled/techfloor,
-/area/torch/maintenance/thirddeck/forestarboard)
-"cG" = (
-/turf/simulated/wall/map_preset/tan,
 /area/torch/maintenance/thirddeck/forestarboard)
 "cH" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
@@ -1492,7 +1480,7 @@
 /area/torch/crew_quarters/galley)
 "dv" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/engineering/atmos/aux)
 "dw" = (
 /obj/random/obstruction,
@@ -1512,7 +1500,7 @@
 /area/torch/maintenance/thirddeck/forestarboard)
 "dy" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/galleybackroom)
 "dz" = (
 /obj/structure/bed/chair/wood/walnut,
@@ -1887,7 +1875,7 @@
 /area/torch/tcommsat/chamber)
 "en" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/tcommsat/computer)
 "eo" = (
 /obj/machinery/door/airlock/highsecurity{
@@ -1904,7 +1892,7 @@
 /area/torch/tcommsat/computer)
 "ep" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/tcommsat/computer)
 "eq" = (
 /obj/structure/fountain/mundane,
@@ -2458,13 +2446,12 @@
 /area/torch/crew_quarters/mess)
 "fz" = (
 /obj/structure/sign/poster,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/restroom)
 "fB" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/mess)
 "fC" = (
 /obj/structure/disposalpipe/segment{
@@ -4749,7 +4736,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/mess)
 "jZ" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/thirddeck/aftport)
 "kb" = (
 /obj/structure/cable/green{
@@ -5006,7 +4993,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/forestarboard)
 "kK" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/thirddeck/center)
 "kM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5106,14 +5093,14 @@
 	},
 /obj/effect/paint_stripe/common,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/galley)
 "kU" = (
 /turf/simulated/floor/plating,
 /area/torch/crew_quarters/restroom)
 "kX" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/pool)
 "kY" = (
 /obj/machinery/button/blast_door{
@@ -5206,7 +5193,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d3starboard)
 "lm" = (
 /obj/machinery/disposal,
@@ -5243,7 +5230,7 @@
 "lq" = (
 /obj/structure/sign/warning/secure_area,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/engineering/atmos/aux)
 "lr" = (
 /obj/machinery/door/airlock/atmos{
@@ -5634,7 +5621,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/forestarboard)
 "mj" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/thirddeck/fore)
 "mk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5895,9 +5882,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/forestarboard)
-"mX" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/hallway/primary/thirddeck/fore)
 "mY" = (
 /obj/structure/sign/directions/bridge{
 	dir = 1;
@@ -5909,7 +5893,7 @@
 	pixel_x = -4;
 	pixel_y = -5
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/thirddeck/fore)
 "mZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6089,7 +6073,7 @@
 /area/torch/maintenance/thirddeck/aftstarboard)
 "nA" = (
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/hardstorage)
 "nB" = (
 /obj/machinery/light_switch{
@@ -6174,7 +6158,7 @@
 "nN" = (
 /obj/effect/paint_stripe/common,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/galley)
 "nO" = (
 /obj/structure/cable/green{
@@ -6444,7 +6428,7 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/crew_quarters/galley)
 "ol" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/sauna)
 "om" = (
 /obj/structure/bed/chair/pew,
@@ -6998,9 +6982,8 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/aftstarboard)
 "pD" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/cryolocker)
 "pE" = (
 /obj/structure/cable/green{
@@ -7008,7 +6991,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hydroponics)
 "pF" = (
 /obj/structure/cable/green{
@@ -7043,9 +7026,6 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/recreation)
-"pI" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
-/area/torch/thruster/d3port)
 "pJ" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/machinery/atmospherics/unary/vent_pump/on,
@@ -7132,7 +7112,7 @@
 	dir = 1;
 	pixel_y = 3
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/thirddeck/center)
 "pT" = (
 /turf/simulated/floor/tiled/steel_ridged,
@@ -7148,7 +7128,7 @@
 	},
 /obj/effect/paint_stripe/common,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/thirddeck/center)
 "pV" = (
 /obj/machinery/door/firedoor,
@@ -7198,7 +7178,7 @@
 /area/torch/crew_quarters/observation)
 "qc" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/sleep/dorms/hallway)
 "qe" = (
 /obj/machinery/vending/coffee,
@@ -7650,7 +7630,7 @@
 /area/torch/hallway/primary/thirddeck/aft)
 "rv" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/sleep/dorms/three)
 "rw" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
@@ -7715,7 +7695,7 @@
 /area/torch/engineering/hardstorage)
 "rD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d3port)
 "rF" = (
 /obj/structure/disposalpipe/segment{
@@ -8593,9 +8573,8 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/sleep/cryo)
 "tn" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/thirddeck/foreport)
 "tp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -8761,7 +8740,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d3port)
 "tL" = (
 /obj/machinery/camera/network/third_deck{
@@ -9176,9 +9155,8 @@
 /turf/space,
 /area/space)
 "uP" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/sleep/cryo)
 "uQ" = (
 /obj/machinery/door/firedoor,
@@ -9217,22 +9195,18 @@
 /area/torch/crew_quarters/sleep/cryo)
 "uT" = (
 /obj/machinery/status_display,
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/sleep/cryo)
 "uU" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/restroom)
 "uV" = (
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/aftport)
-"uX" = (
-/turf/simulated/wall/prepainted,
-/area/torch/maintenance/thirddeck/port)
 "vb" = (
 /obj/machinery/alarm{
 	pixel_y = 24
@@ -9256,7 +9230,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/crew_quarters/bar)
 "ve" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/maintenance/thirddeck/aftstarboard)
 "vg" = (
 /obj/effect/wallframe_spawn/no_grille,
@@ -9266,7 +9240,7 @@
 /area/torch/crew_quarters/office)
 "vh" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/office)
 "vi" = (
 /obj/machinery/vending/snack{
@@ -9325,7 +9299,7 @@
 /area/torch/chapel/main)
 "vp" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/thirddeck/aft)
 "vs" = (
 /obj/structure/cable/green{
@@ -9455,7 +9429,7 @@
 /area/torch/maintenance/thirddeck/foreport)
 "vN" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hydroponics/storage)
 "vR" = (
 /obj/machinery/light/spot{
@@ -9613,7 +9587,7 @@
 /turf/simulated/floor/glass,
 /area/torch/hallway/primary/thirddeck/aft)
 "wl" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hallway/primary/thirddeck/aft)
 "wm" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -9938,7 +9912,7 @@
 /area/torch/crew_quarters/sleep/cryo)
 "wZ" = (
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/atmos/aux)
 "xb" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -10330,7 +10304,7 @@
 /area/torch/hallway/primary/thirddeck/fore)
 "xY" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/sleep/dorms/four)
 "xZ" = (
 /obj/structure/table/standard,
@@ -10560,7 +10534,7 @@
 /area/torch/crew_quarters/observation)
 "yH" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/observation)
 "yI" = (
 /obj/effect/floor_decal/corner/green/half,
@@ -10686,7 +10660,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/crew_quarters/sleep/cryo)
 "zc" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/observation)
 "zf" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -10887,7 +10861,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/crew_quarters/sauna)
 "zG" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/cryolocker)
 "zH" = (
 /obj/machinery/computer/teleporter,
@@ -10964,7 +10938,7 @@
 /area/torch/crew_quarters/sleep/cryo)
 "zX" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/storage/tools)
 "zY" = (
 /obj/machinery/door/firedoor,
@@ -11240,7 +11214,7 @@
 /area/torch/storage/tools)
 "AN" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/storage/tools)
 "AP" = (
 /obj/structure/bed/chair/office/dark{
@@ -11448,7 +11422,7 @@
 /area/torch/storage/tools)
 "BE" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/chapel/office)
 "BF" = (
 /obj/item/radio/intercom/entertainment{
@@ -11538,7 +11512,7 @@
 /turf/simulated/floor/carpet/purple,
 /area/torch/chapel/office)
 "BV" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/thirddeck/foreport)
 "BX" = (
 /turf/simulated/floor/plating,
@@ -11559,7 +11533,7 @@
 /area/torch/thruster/d3starboard)
 "BZ" = (
 /obj/structure/lattice,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d3starboard)
 "Ca" = (
 /obj/structure/cable/green{
@@ -11819,7 +11793,7 @@
 /area/torch/maintenance/thirddeck/port)
 "CF" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/recreation)
 "CH" = (
 /obj/structure/disposalpipe/segment{
@@ -11874,7 +11848,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d3port)
 "CQ" = (
 /obj/structure/memorial{
@@ -12202,7 +12176,7 @@
 /area/torch/hallway/primary/thirddeck/aft)
 "DH" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/recreation)
 "DI" = (
 /obj/structure/table/standard,
@@ -12517,7 +12491,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/port)
 "Ez" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/maintenance/thirddeck/port)
 "EA" = (
 /obj/structure/cable/green{
@@ -12590,7 +12564,7 @@
 /area/torch/maintenance/thirddeck/aftport)
 "EH" = (
 /obj/structure/lattice,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d3port)
 "EI" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -12599,7 +12573,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/thirddeck/forestarboard)
 "EJ" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/tcommsat/storage)
 "EK" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -12718,7 +12692,7 @@
 /area/torch/crew_quarters/galley)
 "EX" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/thirddeck/center)
 "EZ" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -12753,9 +12727,8 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/port)
 "Fd" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/sleep/cryo)
 "Fe" = (
 /obj/structure/ladder,
@@ -12913,9 +12886,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/security/habcheck)
 "FB" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/cryolocker)
 "FC" = (
 /obj/machinery/door/firedoor,
@@ -13301,7 +13273,7 @@
 /obj/machinery/door/airlock/civilian{
 	name = "Cryogenic Storage Wardrobe"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/cryolocker)
 "GC" = (
 /obj/effect/floor_decal/corner/green{
@@ -13458,7 +13430,7 @@
 /turf/simulated/floor/glass,
 /area/torch/crew_quarters/sleep/cryo)
 "Hf" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/thirddeck/port)
 "Hg" = (
 /obj/machinery/button/alternate/door/bolts{
@@ -14122,7 +14094,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d3starboard)
 "Jp" = (
 /obj/structure/lattice,
@@ -14649,9 +14621,8 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/aftport)
 "Kj" = (
-/obj/effect/paint/eggshell,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/restroom)
 "Kk" = (
 /obj/random/junk,
@@ -15259,7 +15230,7 @@
 /area/torch/crew_quarters/observation)
 "LH" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/thruster/d3starboard)
 "LI" = (
 /obj/structure/cable/green{
@@ -15512,7 +15483,7 @@
 	pixel_y = 32
 	},
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/galleybackroom)
 "Mx" = (
 /turf/simulated/floor/tiled,
@@ -15564,7 +15535,7 @@
 	dir = 1;
 	pixel_y = -4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/thirddeck/fore)
 "MG" = (
 /turf/simulated/floor/tiled/dark,
@@ -15590,7 +15561,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/thirddeck/starboard)
 "MM" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/thirddeck/aft)
 "MN" = (
 /obj/structure/sign/directions/security{
@@ -15598,7 +15569,7 @@
 	pixel_y = 12
 	},
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/storage/tools)
 "MO" = (
 /obj/structure/curtain/open/bed,
@@ -15615,7 +15586,7 @@
 "MR" = (
 /obj/structure/lattice,
 /obj/structure/grille,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "MS" = (
 /obj/machinery/fabricator/micro/bartender,
@@ -15817,7 +15788,7 @@
 /area/torch/tcommsat/chamber)
 "Nu" = (
 /obj/structure/lattice,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "Nw" = (
 /obj/effect/wallframe_spawn/no_grille,
@@ -15884,7 +15855,7 @@
 "ND" = (
 /obj/structure/sign/warning/server_room,
 /obj/effect/paint_stripe/command,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/tcommsat/computer)
 "NE" = (
 /obj/effect/floor_decal/corner/green{
@@ -15931,7 +15902,7 @@
 /area/torch/maintenance/thirddeck/foreport)
 "NK" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/sleep/dorms/two)
 "NL" = (
 /obj/effect/floor_decal/spline/fancy/black{
@@ -16123,7 +16094,7 @@
 /turf/simulated/floor/tiled,
 /area/torch/crew_quarters/sleep/dorms/hallway)
 "Or" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "Os" = (
 /obj/structure/cable/green{
@@ -16343,7 +16314,7 @@
 /area/torch/engineering/hardstorage)
 "OU" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/sleep/dorms/one)
 "OW" = (
 /obj/structure/sign/directions/engineering{
@@ -16537,7 +16508,7 @@
 	pixel_y = 12
 	},
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/storage/tools)
 "PB" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
@@ -16677,7 +16648,7 @@
 /area/torch/engineering/hardstorage)
 "PR" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/chapel/main)
 "PT" = (
 /obj/effect/floor_decal/corner/lime/three_quarters{
@@ -17234,7 +17205,7 @@
 /obj/machinery/status_display,
 /obj/effect/paint_stripe/common,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/galley)
 "Rr" = (
 /obj/structure/cable{
@@ -17321,7 +17292,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/bar)
 "RG" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/chapel/main)
 "RH" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -17577,7 +17548,7 @@
 	icon_state = "hydro"
 	},
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hydroponics)
 "Sr" = (
 /obj/structure/disposalpipe/trunk{
@@ -17624,7 +17595,7 @@
 "Sw" = (
 /obj/structure/sign/hydro,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/hydroponics)
 "Sx" = (
 /obj/structure/glass_tank/aquarium,
@@ -18070,10 +18041,10 @@
 /area/torch/hallway/primary/thirddeck/aft)
 "TD" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/thirddeck/aft)
 "TE" = (
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/chapel/office)
 "TF" = (
 /obj/machinery/alarm{
@@ -18288,7 +18259,7 @@
 /area/torch/thruster/d3port)
 "Ug" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/galley)
 "Uh" = (
 /obj/effect/floor_decal/spline/fancy/black/corner,
@@ -18328,7 +18299,7 @@
 "Un" = (
 /obj/machinery/status_display,
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/office)
 "Uo" = (
 /obj/structure/cable/green{
@@ -18806,7 +18777,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/thirddeck/port)
 "Vs" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
@@ -18979,7 +18950,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/thirddeck/center)
 "VO" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/pool)
 "VQ" = (
 /obj/machinery/firealarm{
@@ -19054,7 +19025,7 @@
 /area/torch/engineering/hardstorage)
 "Wb" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/gym)
 "We" = (
 /obj/structure/disposalpipe/segment{
@@ -19104,7 +19075,7 @@
 "Wp" = (
 /obj/structure/sign/warning/engineering_access,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/hardstorage)
 "Wq" = (
 /obj/structure/cable/green{
@@ -19157,7 +19128,7 @@
 /area/torch/thruster/d3port)
 "Ww" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/observation)
 "Wz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -19275,7 +19246,7 @@
 "WP" = (
 /obj/structure/sign/warning/fire,
 /obj/effect/paint_stripe/engineering,
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/engineering/hardstorage)
 "WQ" = (
 /obj/structure/table/steel,
@@ -20165,7 +20136,7 @@
 /obj/structure/sign/directions/supply{
 	pixel_y = -4
 	},
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/thirddeck/fore)
 "Zp" = (
 /obj/effect/floor_decal/techfloor{
@@ -20354,7 +20325,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/torch/crew_quarters/pool)
 "ZN" = (
-/turf/simulated/wall/r_wall/map_preset/tan,
+/turf/simulated/wall/r_wall/prepainted,
 /area/torch/tcommsat/chamber)
 "ZQ" = (
 /obj/effect/floor_decal/corner/green/half{
@@ -20390,7 +20361,7 @@
 /area/torch/crew_quarters/observation)
 "ZV" = (
 /obj/effect/paint_stripe/common,
-/turf/simulated/wall/map_preset/tan,
+/turf/simulated/wall/prepainted,
 /area/torch/crew_quarters/bar)
 "ZW" = (
 /obj/structure/table/woodentable_reinforced/mahogany,
@@ -31623,7 +31594,7 @@ bp
 jG
 xr
 lp
-cG
+mw
 mj
 nT
 CF
@@ -33850,7 +33821,7 @@ mY
 oc
 oU
 pP
-mX
+EM
 se
 tp
 VU
@@ -38512,8 +38483,8 @@ uP
 sV
 uP
 Fd
-uX
-uX
+Ez
+Ez
 Lk
 EL
 Hf
@@ -39320,8 +39291,8 @@ Kj
 Kj
 CE
 Vf
-uX
-uX
+Ez
+Ez
 DD
 KW
 Vr
@@ -39522,7 +39493,7 @@ RZ
 Kj
 TP
 kq
-uX
+Ez
 xk
 CE
 Ge
@@ -39724,7 +39695,7 @@ kU
 Kj
 CE
 TQ
-uX
+Ez
 Ck
 CE
 Ge
@@ -39925,11 +39896,11 @@ kU
 kM
 Kj
 zZ
-uX
-uX
-uX
+Ez
+Ez
+Ez
 OZ
-uX
+Ez
 Hf
 aa
 aa
@@ -40329,9 +40300,9 @@ kU
 TZ
 Kj
 CE
-uX
+Ez
 Ff
-uX
+Ez
 HD
 Ts
 Hf
@@ -40531,9 +40502,9 @@ Kj
 Kj
 Kj
 CE
-uX
+Ez
 Fe
-uX
+Ez
 Qy
 Ts
 Hf
@@ -40733,9 +40704,9 @@ wf
 Dk
 wf
 EA
-uX
-uX
-uX
+Ez
+Ez
+Ez
 Hy
 Hh
 Hx
@@ -40928,12 +40899,12 @@ Ez
 Ts
 Ts
 BS
-uX
+Ez
 LK
 OO
 Dv
-uX
-uX
+Ez
+Ez
 DT
 Dn
 Dn
@@ -42718,7 +42689,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 kZ
 bK
 nC
@@ -42920,7 +42891,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 mG
 bL
 nC
@@ -43122,8 +43093,8 @@ aa
 aa
 aa
 aa
-aT
-aT
+qz
+qz
 bL
 cn
 dj
@@ -43325,7 +43296,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 bL
 nC
 Ms
@@ -43527,7 +43498,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 zv
 nC
 nC
@@ -43729,7 +43700,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 bL
 OA
 OA
@@ -43931,7 +43902,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 bM
 co
 co
@@ -44133,7 +44104,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 bN
 cp
 dl
@@ -44335,7 +44306,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 bN
 OA
 dm
@@ -44537,7 +44508,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 qv
 cr
 dl
@@ -44739,7 +44710,7 @@ aa
 aa
 aa
 aa
-aT
+qz
 pz
 Dp
 dl
@@ -44940,8 +44911,8 @@ aa
 aa
 aa
 aa
-bd
-bd
+NQ
+NQ
 NQ
 IS
 dl
@@ -44981,8 +44952,8 @@ Ki
 Kb
 Kl
 Ml
-pI
-pI
+Ml
+Ml
 aa
 aa
 aa
@@ -45142,7 +45113,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 eO
 QX
 Ea
@@ -45184,7 +45155,7 @@ EE
 Kk
 VA
 ps
-pI
+Ml
 aa
 aa
 aa
@@ -45344,7 +45315,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 eP
 NQ
 Hr
@@ -45386,7 +45357,7 @@ Hz
 YX
 Ml
 Ks
-pI
+Ml
 aa
 aa
 aa
@@ -45546,7 +45517,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 fY
 NQ
 qz
@@ -45585,10 +45556,10 @@ EE
 EE
 Gr
 EE
-az
+jZ
 Ml
 Ku
-pI
+Ml
 aa
 aa
 aa
@@ -45748,7 +45719,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 fY
 NQ
 qz
@@ -45787,10 +45758,10 @@ qM
 uV
 lM
 EE
-az
+jZ
 Ml
 Ku
-pI
+Ml
 aa
 aa
 aa
@@ -45950,7 +45921,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 fY
 NQ
 qz
@@ -45989,10 +45960,10 @@ Fo
 hN
 zt
 EE
-az
+jZ
 Ml
 Ku
-pI
+Ml
 aa
 aa
 aa
@@ -46152,7 +46123,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 fY
 NQ
 qz
@@ -46190,11 +46161,11 @@ EG
 Fp
 Nc
 Qm
-az
-az
+jZ
+jZ
 Ml
 Ku
-pI
+Ml
 aa
 aa
 aa
@@ -46353,14 +46324,14 @@ aa
 aa
 aa
 aa
-bd
-bd
+NQ
+NQ
 nE
 NQ
 BZ
-bd
+NQ
 BZ
-aT
+qz
 Xp
 dn
 JB
@@ -46391,13 +46362,13 @@ Ra
 Wr
 Ne
 jZ
-pI
-pI
+Ml
+Ml
 EH
 Ml
 YT
-pI
-pI
+Ml
+Ml
 aa
 aa
 aa
@@ -46555,15 +46526,15 @@ aa
 aa
 aa
 aa
-bd
+NQ
 kp
 ql
 zf
 DX
 Jp
 BZ
-bd
-aT
+NQ
+qz
 gX
 Ys
 JD
@@ -46592,14 +46563,14 @@ JU
 Ee
 Rr
 gx
-pI
-pI
+Ml
+Ml
 Sg
 Uf
 Wo
 ap
 BJ
-pI
+Ml
 aa
 aa
 aa
@@ -46757,24 +46728,24 @@ aa
 aa
 aa
 aa
-bd
+NQ
 hI
 uf
 Aj
 cv
 Jx
 Kg
-bd
-aT
-aT
-aT
-aT
-aT
-aT
-aT
-aT
-aT
-aT
+NQ
+qz
+qz
+qz
+qz
+qz
+qz
+qz
+qz
+qz
+qz
 MM
 Su
 qt
@@ -46794,14 +46765,14 @@ jZ
 jZ
 jZ
 jZ
-pI
+Ml
 Rv
 SJ
 RS
 Xb
 No
 JA
-pI
+Ml
 aa
 aa
 aa
@@ -46959,14 +46930,14 @@ aa
 aa
 aa
 aa
-bd
+NQ
 iA
 vj
 Al
 Jj
 Jy
 Kh
-bd
+NQ
 aa
 aa
 aa
@@ -46996,14 +46967,14 @@ aa
 aa
 bb
 bb
-pI
+Ml
 RI
 To
 VV
 Xt
 at
 Qb
-pI
+Ml
 aa
 aa
 aa
@@ -47160,15 +47131,15 @@ aa
 aa
 aa
 aa
-bd
-bd
+NQ
+NQ
 lk
 PW
 BY
 Jo
-bd
-bd
-bd
+NQ
+NQ
+NQ
 bb
 aa
 aa
@@ -47198,15 +47169,15 @@ aa
 aa
 bb
 bb
-pI
-pI
-pI
+Ml
+Ml
+Ml
 tK
 Ye
 RH
 CP
-pI
-pI
+Ml
+Ml
 aa
 aa
 aa
@@ -47362,15 +47333,15 @@ aa
 aa
 aa
 aa
-bd
+NQ
 aV
 LE
 Jh
 JS
 PC
-bd
+NQ
 KP
-bd
+NQ
 bb
 Li
 aa
@@ -47400,15 +47371,15 @@ aa
 aa
 Li
 Nu
-pI
+Ml
 La
-pI
+Ml
 QZ
 kk
 Jk
 Wu
 fI
-pI
+Ml
 aa
 aa
 aa
@@ -47564,7 +47535,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 cu
 bO
 Vp
@@ -47573,7 +47544,7 @@ oB
 lI
 si
 KP
-bd
+NQ
 aa
 aa
 aa
@@ -47610,7 +47581,7 @@ qW
 Kv
 KA
 Sk
-pI
+Ml
 aa
 aa
 aa
@@ -47766,7 +47737,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 ee
 qp
 gW
@@ -47776,7 +47747,7 @@ Bl
 WC
 Kr
 KP
-bd
+NQ
 aa
 aa
 aa
@@ -47802,7 +47773,7 @@ aa
 aa
 aa
 aa
-pI
+Ml
 La
 PY
 it
@@ -47812,7 +47783,7 @@ Lq
 Kw
 RS
 HF
-pI
+Ml
 aa
 aa
 aa
@@ -47968,7 +47939,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 gV
 qp
 hO
@@ -48014,7 +47985,7 @@ Kp
 Kx
 RS
 CV
-pI
+Ml
 aa
 aa
 aa
@@ -48170,7 +48141,7 @@ aa
 aa
 aa
 aa
-bd
+NQ
 TG
 qp
 Jh
@@ -48180,7 +48151,7 @@ KP
 KP
 KP
 KP
-bd
+NQ
 aa
 aa
 aa
@@ -48206,7 +48177,7 @@ aa
 aa
 aa
 aa
-pI
+Ml
 La
 La
 La
@@ -48216,7 +48187,7 @@ OS
 Jk
 RS
 ZR
-pI
+Ml
 aa
 aa
 aa
@@ -48372,9 +48343,9 @@ aa
 aa
 aa
 aa
-bd
-bd
-bd
+NQ
+NQ
+NQ
 Xe
 KJ
 KL
@@ -48416,9 +48387,9 @@ Qi
 Ll
 Ls
 la
-pI
-pI
-pI
+Ml
+Ml
+Ml
 aa
 aa
 aa
@@ -48574,8 +48545,8 @@ aa
 aa
 aa
 aa
-bd
-bd
+NQ
+NQ
 WF
 KF
 KK
@@ -48584,7 +48555,7 @@ UR
 KV
 UR
 Lc
-bd
+NQ
 aa
 aa
 aa
@@ -48610,7 +48581,7 @@ aa
 aa
 aa
 aa
-pI
+Ml
 Pq
 Ri
 Le
@@ -48619,8 +48590,8 @@ Lm
 Lt
 Lu
 tb
-pI
-pI
+Ml
+Ml
 aa
 aa
 aa
@@ -48776,17 +48747,17 @@ aa
 aa
 aa
 aa
-bd
-bd
+NQ
+NQ
 PL
 PL
-bd
+NQ
 PL
 PL
-bd
+NQ
 PL
 PL
-bd
+NQ
 aa
 aa
 aa
@@ -48812,17 +48783,17 @@ aa
 aa
 aa
 aa
-pI
+Ml
 ZI
 ZI
-pI
+Ml
 ZI
 ZI
-pI
+Ml
 ZI
 ZI
-pI
-pI
+Ml
+Ml
 aa
 aa
 aa
