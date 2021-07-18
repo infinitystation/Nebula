@@ -1102,6 +1102,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/crew_ferry)
+"Xj" = (
+/obj/machinery/computer/cryopod{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/cryogenics_station/cryogenics)
 "XE" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -17230,7 +17236,7 @@ cs
 pl
 uF
 AS
-AS
+Xj
 aI
 QB
 cs

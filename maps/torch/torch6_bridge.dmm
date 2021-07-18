@@ -6326,6 +6326,10 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai)
 "nZ" = (
@@ -13567,6 +13571,8 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/hallway/primary/bridge/aft)
 "Kj" = (
@@ -16686,6 +16692,11 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/ai/ai_outer_chamber)
 "VT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai)
 "VW" = (
@@ -17361,6 +17372,10 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/plating,
 /area/torch/bridge/ai/ai)
 "Yr" = (
@@ -17621,12 +17636,6 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/torch/perseverance/head)
-"Zq" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/space)
 "Zs" = (
 /obj/machinery/computer/account_database,
 /obj/machinery/recharger/wallcharger{
@@ -34846,7 +34855,7 @@ ad
 ad
 ad
 Hj
-Zq
+vC
 oQ
 ad
 ad
@@ -35652,7 +35661,7 @@ ad
 ad
 ad
 Hj
-Zq
+vC
 oQ
 ad
 ad
