@@ -386,12 +386,8 @@
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/aft)
 "aW" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/structure/cable/green{
 	d1 = 2;
@@ -404,6 +400,11 @@
 	icon_state = "4-8"
 	},
 /obj/effect/catwalk_plated,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/bridge/aft)
 "aX" = (
@@ -1659,6 +1660,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/meeting_room)
+"cX" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "cY" = (
 /obj/structure/table/woodentable/walnut,
 /obj/effect/floor_decal/corner/darkblue{
@@ -1863,6 +1868,20 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/meeting_room)
+"dm" = (
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "dn" = (
 /turf/simulated/floor/carpet,
 /area/torch/crew_quarters/heads/office/cl/backroom)
@@ -1970,6 +1989,30 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/maintenance/substation/bridge)
+"dx" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/computer/modular/preset/civilian{
+	dir = 8;
+	icon_state = "console"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
+"dC" = (
+/obj/machinery/turretid/stun{
+	pixel_x = -32
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
+"dD" = (
+/obj/machinery/computer/robotics{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "dE" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -2230,6 +2273,13 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"eh" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "ei" = (
 /obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
@@ -2926,6 +2976,21 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"fs" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
+"ft" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "fu" = (
 /obj/structure/sign/warning/high_voltage{
 	dir = 8
@@ -3311,6 +3376,21 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/fore)
+"gb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "gc" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -3379,6 +3459,18 @@
 "gi" = (
 /turf/simulated/wall/prepainted,
 /area/torch/maintenance/bridge/aftstarboard)
+"gj" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "gk" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -3414,7 +3506,15 @@
 	pixel_x = -24;
 	req_access = list("ACCESS_MAINT")
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/catwalk,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
 /area/space)
 "go" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -3694,6 +3794,15 @@
 "hn" = (
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge)
+"hp" = (
+/obj/machinery/door/airlock/command,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_outer_chamber)
 "hq" = (
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/prepainted,
@@ -3723,6 +3832,15 @@
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/heads/office/ce)
+"hy" = (
+/obj/machinery/porta_turret/stationary,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 1;
+	pixel_y = -28
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
 "hz" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -3757,6 +3875,9 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/crew_quarters/heads/office/ce)
+"hB" = (
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "hC" = (
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/r_wall/prepainted,
@@ -3796,6 +3917,13 @@
 "hI" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/hallway/primary/bridge/aft)
@@ -3883,6 +4011,40 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/mess)
+"hP" = (
+/obj/machinery/light/spot,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
+"hU" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
 "hV" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/sol{
@@ -3906,6 +4068,37 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge)
+"hZ" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
+"ia" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
+"ic" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "id" = (
 /obj/machinery/door/blast/shutters{
 	density = 0;
@@ -3930,6 +4123,18 @@
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/crew_quarters/heads/office/ce)
+"if" = (
+/obj/machinery/door/airlock/command,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_outer_chamber)
 "ig" = (
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
@@ -4039,6 +4244,13 @@
 /area/torch/hallway/primary/bridge/aft)
 "iq" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/hallway/primary/bridge/aft)
 "is" = (
@@ -4171,6 +4383,35 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/bridge)
+"iN" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
+"iO" = (
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core - Outer";
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "iP" = (
 /obj/machinery/recharger/wallcharger{
 	dir = 4;
@@ -4396,6 +4637,34 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/passenger)
+"jp" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
+"jt" = (
+/obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "jw" = (
 /obj/effect/floor_decal/corner/darkblue,
 /turf/simulated/floor/tiled/dark,
@@ -4486,6 +4755,15 @@
 	},
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/head)
+"jG" = (
+/obj/machinery/porta_turret/stationary,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
 "jH" = (
 /obj/effect/floor_decal/corner/darkblue{
 	dir = 6
@@ -4530,6 +4808,30 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/bridge/meeting_room)
+"jP" = (
+/obj/machinery/tracking_beacon,
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "jR" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -4603,6 +4905,13 @@
 	locked = 1;
 	name = "Bridge EVA Internal Access"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/hallway/primary/bridge/aft)
 "jZ" = (
@@ -4641,6 +4950,17 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/torch/perseverance/head)
+"kd" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green,
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
 "ke" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4755,6 +5075,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/hallway/port)
+"ky" = (
+/obj/machinery/power/smes/buildable/max_cap_in_out,
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "kA" = (
 /obj/structure/cable/green{
 	d2 = 4;
@@ -4870,6 +5201,13 @@
 /obj/effect/floor_decal/corner/darkblue{
 	dir = 5
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/aft)
 "kS" = (
@@ -4944,6 +5282,27 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/security/bridgecheck)
+"lc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
+"ld" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/aicard,
+/obj/machinery/computer/ship/navigation/telescreen{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
+"lj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "lm" = (
 /obj/machinery/hologram/holopad/longrange,
 /obj/effect/landmark{
@@ -4979,6 +5338,18 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/heads/office/cos)
+"ls" = (
+/obj/machinery/computer/message_monitor,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "lt" = (
 /obj/structure/table/glass,
 /obj/effect/floor_decal/corner/darkblue{
@@ -5125,6 +5496,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/bridge/aft)
+"lI" = (
+/obj/machinery/teleport/station{
+	dir = 1
+	},
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_foyer)
 "lL" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/structure/cable/green{
@@ -5254,6 +5634,21 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/airlock)
+"lY" = (
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "lZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5271,6 +5666,37 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/airlock)
+"ma" = (
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 1;
+	pixel_y = -28
+	},
+/obj/machinery/newscaster{
+	pixel_x = 32;
+	pixel_y = -32
+	},
+/obj/structure/aicore/deactivated,
+/obj/item/radio/intercom/custom{
+	pixel_y = 23
+	},
+/obj/item/radio/intercom{
+	dir = 8;
+	pixel_x = 21
+	},
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core";
+	dir = 8
+	},
+/obj/machinery/network/requests_console{
+	pixel_x = -32;
+	pixel_y = -32
+	},
+/obj/machinery/turretid/stun{
+	pixel_x = -32;
+	pixel_y = 32
+	},
+/turf/simulated/floor/greengrid,
+/area/torch/bridge/ai/ai)
 "mb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -5304,6 +5730,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/bridge)
+"mn" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "mq" = (
 /obj/effect/floor_decal/iseologo{
 	icon_state = "bottom_center"
@@ -5360,6 +5802,10 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/security/bridgecheck)
+"mD" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "mE" = (
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/r_wall/prepainted,
@@ -5725,6 +6171,15 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"nu" = (
+/obj/effect/paint_stripe/turquoise,
+/turf/simulated/wall/r_wall/prepainted,
+/area/torch/bridge/ai/ai)
+"nC" = (
+/obj/effect/paint_stripe/turquoise,
+/obj/effect/paint_stripe/turquoise,
+/turf/simulated/wall/r_wall/prepainted,
+/area/torch/bridge/ai/ai_outer_chamber)
 "nE" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1;
@@ -5864,6 +6319,19 @@
 /obj/structure/bed/chair/comfy/red,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/heads/office/cos)
+"nW" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai)
 "nZ" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -5995,6 +6463,9 @@
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/aux_eva)
+"ow" = (
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "ox" = (
 /obj/structure/cable/green,
 /obj/structure/cable/green{
@@ -6044,6 +6515,27 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
 /area/torch/crew_quarters/heads/office/cos)
+"oG" = (
+/obj/item/radio/intercom/locked/ai_private{
+	pixel_y = 23
+	},
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core - Auxiliary Access";
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_outer_chamber)
 "oI" = (
 /obj/machinery/light_switch{
 	pixel_x = 23;
@@ -6102,6 +6594,17 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/security/bridgecheck)
+"oL" = (
+/obj/machinery/door/airlock/command,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_outer_chamber)
 "oO" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/cable/green{
@@ -6133,6 +6636,21 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/torch/crew_quarters/heads/office/cmo)
+"oQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/catwalk,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "oR" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/flora/pottedplant/overgrown,
@@ -6284,6 +6802,10 @@
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/airlock)
+"pw" = (
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "py" = (
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
@@ -6339,6 +6861,21 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/heads/office/cos)
+"pC" = (
+/obj/machinery/power/apc/shuttle/perseverance{
+	name = "south bump";
+	pixel_y = -28
+	},
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core - Teleporter";
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/cable/green,
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_foyer)
 "pE" = (
 /obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 1;
@@ -6442,6 +6979,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/perseverance/storage)
+"pV" = (
+/obj/structure/table/steel_reinforced,
+/obj/machinery/button/blast_door{
+	id_tag = "aiblast";
+	name = "AI Core Blast Door Control"
+	},
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "pW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -7075,6 +7624,10 @@
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/torch/crew_quarters/heads/office/cmo)
+"rq" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "rt" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -7803,6 +8356,14 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/crew_quarters/safe_room/bridge)
+"tq" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "ts" = (
 /obj/structure/cable/green{
 	d2 = 8;
@@ -7920,6 +8481,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/disciplinary_board_room)
+"tF" = (
+/obj/machinery/firealarm{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "tH" = (
 /obj/structure/cable/green{
 	d2 = 2;
@@ -7982,6 +8549,20 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/co)
+"tS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "tT" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -7993,6 +8574,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/co)
+"tU" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
 "tW" = (
 /obj/machinery/disposal,
 /obj/effect/floor_decal/corner/darkblue/mono,
@@ -8173,6 +8767,11 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/disciplinary_board_room)
+"ur" = (
+/obj/structure/table/steel_reinforced,
+/obj/machinery/computer/atmoscontrol/laptop,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "us" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -8389,6 +8988,21 @@
 /obj/item/chems/food/drinks/glass2/coffeecup/metal,
 /turf/simulated/floor/carpet/blue2,
 /area/torch/crew_quarters/heads/office/sgr)
+"uQ" = (
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "uT" = (
 /obj/effect/floor_decal/corner/darkblue{
 	dir = 9
@@ -8606,6 +9220,17 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"vC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/catwalk,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -8956,6 +9581,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/maintenance/bridge/aftport)
+"wt" = (
+/obj/machinery/papershredder,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "ww" = (
 /obj/structure/closet/secure_closet/sea,
 /obj/effect/floor_decal/corner/darkblue/mono,
@@ -9041,6 +9670,9 @@
 	},
 /turf/simulated/floor/carpet/blue2,
 /area/torch/crew_quarters/heads/office/sgr)
+"wG" = (
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "wH" = (
 /obj/structure/bed/chair/padded/beige{
 	dir = 4;
@@ -9169,12 +9801,28 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/bridge/aftport)
+"wV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "wW" = (
 /obj/structure/sign/warning/airlock{
 	dir = 8
 	},
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/torch/maintenance/bridge/aftport)
+"wX" = (
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "wY" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -9183,6 +9831,12 @@
 /obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/torch/maintenance/bridge/aftport)
+"xa" = (
+/obj/machinery/computer/teleporter{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_foyer)
 "xb" = (
 /obj/structure/closet/crate,
 /obj/random/maintenance/solgov,
@@ -9464,6 +10118,19 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/bridge/foreport)
+"xH" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "xJ" = (
 /obj/structure/ladder,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -9481,6 +10148,23 @@
 	},
 /turf/simulated/open,
 /area/torch/maintenance/bridge/foreport)
+"xL" = (
+/obj/machinery/computer/ship/navigation/telescreen{
+	pixel_x = 32
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "xN" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -9580,6 +10264,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/bridge/fore)
+"ya" = (
+/obj/machinery/porta_turret/stationary,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/radio/intercom/locked/ai_private{
+	pixel_y = 23
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
 "yb" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -9705,6 +10397,55 @@
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/bridge/storage)
+"yO" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
+"yQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "yR" = (
 /obj/machinery/door/airlock/security{
 	name = "Security Checkpoint";
@@ -9761,6 +10502,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/perseverance/maintenance)
+"ze" = (
+/obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "zf" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 4;
@@ -9800,6 +10546,33 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/bridge)
+"zi" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green,
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
+"zn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "zo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -9883,6 +10656,14 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/storage)
+"zD" = (
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core - Fore Starboard Access";
+	dir = 4
+	},
+/obj/machinery/computer/ship/sensors,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "zF" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -9962,6 +10743,23 @@
 	},
 /turf/simulated/open,
 /area/torch/maintenance/bridge/aftport)
+"zR" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "zS" = (
 /obj/item/flashlight/lamp,
 /obj/structure/table/woodentable/walnut,
@@ -10163,6 +10961,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"Au" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "Av" = (
 /obj/machinery/newscaster{
 	pixel_x = -32
@@ -10277,6 +11086,23 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/bridge/hallway/port)
+"AL" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "AN" = (
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/mess)
@@ -10296,6 +11122,16 @@
 /obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/medical)
+"AV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "AX" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -10331,6 +11167,15 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/bridge/forestarboard)
+"Bf" = (
+/obj/structure/table/steel_reinforced,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/radio/phone,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Bp" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light{
@@ -10358,6 +11203,19 @@
 	},
 /turf/simulated/floor/carpet,
 /area/torch/crew_quarters/heads/office/xo)
+"Bv" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
 "Bw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -10617,6 +11475,15 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/torch/crew_quarters/heads/cobed)
+"Cm" = (
+/obj/structure/table/steel_reinforced,
+/obj/structure/flora/pottedplant/smallcactus,
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Cn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -10635,6 +11502,17 @@
 /obj/structure/catwalk,
 /turf/simulated/open,
 /area/torch/maintenance/bridge/aftport)
+"Cq" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/obj/structure/closet/firecloset,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4;
+	level = 2
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Cr" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
@@ -10678,6 +11556,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/cobed)
+"CB" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "CD" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/machinery/door/blast/regular/open{
@@ -10714,6 +11596,18 @@
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/bridge/fore)
+"CL" = (
+/obj/machinery/computer/modular/preset/cardslot/command{
+	dir = 4;
+	icon_state = "console";
+	wired_connection = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
+"CM" = (
+/obj/machinery/teleport/hub,
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_foyer)
 "CN" = (
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/torch/maintenance/bridge/aftport)
@@ -10840,6 +11734,46 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/cl)
+"Dn" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
+"Dp" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "AI Upload"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai)
 "Dq" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack{
@@ -10925,6 +11859,15 @@
 /obj/random/maintenance/solgov/clean,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/bridge/forestarboard)
+"DL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "DN" = (
 /turf/simulated/wall/r_wall/map_preset/tan,
 /area/torch/hallway/primary/bridge/aft)
@@ -10939,6 +11882,32 @@
 /obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/head)
+"DW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_outer_chamber)
+"DX" = (
+/obj/machinery/computer/modular/preset/engineering,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "DY" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -11018,6 +11987,11 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/aft)
+"Em" = (
+/obj/machinery/porta_turret/stationary,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
 "En" = (
 /obj/effect/floor_decal/corner/darkblue{
 	dir = 9
@@ -11056,6 +12030,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/bridge)
+"Eu" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Ey" = (
 /obj/machinery/light,
 /obj/machinery/disposal,
@@ -11217,9 +12197,35 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/disciplinary_board_room)
+"Fo" = (
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Fp" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/bridge/storage)
+"Fq" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green,
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
 "Fy" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -11260,6 +12266,14 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/xo)
+"FJ" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/storage/box/donut,
+/obj/machinery/computer/ship/navigation/telescreen{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "FK" = (
 /obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
@@ -11293,6 +12307,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"FX" = (
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Ga" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
@@ -11360,6 +12377,33 @@
 /obj/structure/network_cable,
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge)
+"Gh" = (
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core - Fore Port Center";
+	dir = 8
+	},
+/obj/machinery/power/apc/shuttle/perseverance{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Gi" = (
 /obj/random/closet,
 /obj/random/maintenance/solgov,
@@ -11369,6 +12413,17 @@
 "Gj" = (
 /turf/simulated/floor/tiled,
 /area/torch/crew_quarters/heads/office/rd)
+"Gl" = (
+/obj/structure/closet/firecloset,
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/machinery/firealarm{
+	pixel_y = 21
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Gn" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -11619,6 +12674,21 @@
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/bridge/aftport)
+"Hj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/catwalk,
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "Ho" = (
 /obj/machinery/door/airlock/sol{
 	id_tag = "hopdoor";
@@ -11798,6 +12868,12 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/cl)
+"HH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "HI" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/command{
@@ -11810,6 +12886,10 @@
 /obj/structure/network_cable,
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge)
+"HO" = (
+/obj/structure/bed/chair/comfy,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "HP" = (
 /obj/machinery/computer/modular/preset/supply_public{
 	dir = 1;
@@ -11875,6 +12955,18 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge)
+"HZ" = (
+/obj/machinery/computer/modular/preset/security{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Ia" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -11899,6 +12991,13 @@
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /turf/simulated/floor/plating,
 /area/torch/perseverance/cockpit)
+"Ic" = (
+/obj/machinery/computer/modular/preset/cardslot/command,
+/obj/item/radio/intercom/locked/ai_private{
+	pixel_y = 23
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Id" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -12068,6 +13167,30 @@
 /obj/structure/bookcase,
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/cobed)
+"ID" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
 "IE" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -12168,6 +13291,20 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/crew_quarters/heads/office/rd)
+"IU" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "IW" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/suit_cycler/command/prepared,
@@ -12242,6 +13379,29 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/crew_quarters/heads/office/rd)
+"Jl" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
+"Jm" = (
+/obj/machinery/door/airlock/command,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Jo" = (
 /obj/effect/floor_decal/corner/darkblue/mono,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -12271,6 +13431,10 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/fore)
+"Jz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "JA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -12286,6 +13450,24 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/perseverance/storage)
+"JB" = (
+/obj/machinery/computer/ship/helm{
+	dir = 4;
+	req_access = list(list("ACCESS_TORCH_HELM"))
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
+"JC" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "JE" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -12304,6 +13486,20 @@
 /obj/structure/catwalk,
 /turf/simulated/open,
 /area/torch/maintenance/bridge/foreport)
+"JK" = (
+/obj/machinery/flasher{
+	pixel_y = -24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "JT" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
@@ -12361,6 +13557,23 @@
 /obj/random/smokes,
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/co)
+"Ki" = (
+/obj/machinery/shield_diffuser,
+/obj/machinery/door/airlock/external{
+	icon_state = "closed";
+	id_tag = "bridge_eva_outer";
+	locked = 1;
+	name = "Bridge EVA External Access"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/torch/hallway/primary/bridge/aft)
 "Kj" = (
 /obj/machinery/camera/network/command{
 	c_tag = "Chief Science Officer - Office";
@@ -12389,6 +13602,10 @@
 /obj/structure/catwalk,
 /turf/simulated/open,
 /area/torch/maintenance/bridge/aftport)
+"Ko" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "Kq" = (
 /obj/structure/closet/secure_closet/CO,
 /obj/structure/noticeboard{
@@ -12485,6 +13702,12 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/perseverance/maintenance)
+"KO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "KP" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/table/glass,
@@ -12696,6 +13919,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge)
+"LB" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table/steel_reinforced,
+/obj/item/modular_computer/tablet/lease/preset/command,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "LJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/light{
@@ -12733,6 +13964,11 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
 /turf/simulated/floor/airless,
 /area/torch/perseverance/maintenance)
+"LZ" = (
+/obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Ma" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -12846,6 +14082,35 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/bridge/aftstarboard)
+"MF" = (
+/obj/machinery/porta_turret/stationary,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/radio/intercom/locked/ai_private{
+	pixel_y = 23
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
+"MP" = (
+/obj/structure/bed/chair/comfy,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
+"MQ" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "MU" = (
 /obj/machinery/light{
 	dir = 4
@@ -12982,6 +14247,12 @@
 /obj/effect/floor_decal/industrial/shutoff,
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"Nm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Nn" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -13024,6 +14295,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/crew_quarters/heads/office/rd)
+"Nu" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Nw" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
@@ -13056,6 +14339,20 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/security/bridgecheck)
+"NG" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "NH" = (
 /obj/effect/floor_decal/corner/darkblue/mono,
 /obj/structure/bed/chair/comfy/beige{
@@ -13063,6 +14360,10 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/heads/office/xo)
+"NJ" = (
+/obj/machinery/computer/ship/engines,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "NL" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/cable/green{
@@ -13248,6 +14549,21 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"Ov" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/green,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
 "OD" = (
 /obj/effect/floor_decal/corner/darkblue{
 	dir = 9
@@ -13281,9 +14597,29 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/torch/perseverance/cockpit)
+"OH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "OK" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/bridge/aftport)
+"OL" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "OM" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -13301,6 +14637,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/torch/crew_quarters/heads/office/cmo)
+"OP" = (
+/obj/machinery/suit_cycler/security/prepared,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "OR" = (
 /obj/effect/floor_decal/iseologo{
 	icon_state = "top_center"
@@ -13406,9 +14747,36 @@
 /obj/effect/paint_stripe/command,
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/bridge/disciplinary_board_room)
+"Pk" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
+"Po" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 1;
+	pixel_y = -28
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Pt" = (
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/co)
+"Pw" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "Py" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 4;
@@ -13466,6 +14834,46 @@
 "PQ" = (
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/secure_storage)
+"PS" = (
+/obj/machinery/computer/ship/navigation/telescreen{
+	pixel_x = 32
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
+"PW" = (
+/obj/machinery/porta_turret/stationary,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
+"PY" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai_outer_chamber)
+"Qa" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 26
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Qb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -13623,6 +15031,15 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge)
+"Qr" = (
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core - Starboard Access"
+	},
+/obj/item/radio/intercom/locked/ai_private{
+	pixel_y = 23
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Qv" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -13704,6 +15121,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"QP" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/paper_bin,
+/obj/item/pen/fancy,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "QQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/light/small{
@@ -13718,6 +15146,10 @@
 /obj/item/stool/padded,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/storage)
+"QR" = (
+/obj/effect/paint_stripe/turquoise,
+/turf/simulated/wall/r_wall/prepainted,
+/area/torch/bridge/ai/ai_outer_chamber)
 "QS" = (
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/firealarm{
@@ -13896,6 +15328,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/aft)
+"Ro" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "Rp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -13951,6 +15391,17 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/aux_eva)
+"RA" = (
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "RC" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -14009,6 +15460,30 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/xo)
+"RL" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
+"RM" = (
+/obj/structure/table/steel_reinforced,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_y = 8
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door Control"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "RQ" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -14171,6 +15646,51 @@
 /obj/machinery/cryopod,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/perseverance/passenger)
+"Sp" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
+"Ss" = (
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core - Center Starboard";
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
+"Su" = (
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 1;
+	wired_connection = 1
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "SA" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/machinery/door/blast/regular/open{
@@ -14220,6 +15740,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/cobed)
+"SI" = (
+/obj/machinery/porta_turret/stationary,
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
 "SJ" = (
 /obj/effect/floor_decal/corner/darkblue{
 	dir = 10
@@ -14250,6 +15774,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/aft)
+"SP" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "SQ" = (
 /obj/machinery/atmospherics/unary/engine{
 	dir = 1
@@ -14276,6 +15804,13 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/freezer,
 /area/torch/crew_quarters/heads/cobed)
+"SX" = (
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core - Fore Port Access";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Ta" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -14400,6 +15935,18 @@
 /obj/structure/closet/secure_closet/RD_torch,
 /turf/simulated/floor/tiled/monotile,
 /area/torch/crew_quarters/heads/office/rd)
+"Tj" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Tl" = (
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/storage)
@@ -14428,6 +15975,58 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/cobed)
+"Tp" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
+"Tr" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
+"Ts" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "AI Upload"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "torch_ai_outer_core_blast";
+	name = "AI Outer Core Blast Door"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_outer_chamber)
+"Tt" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/catwalk,
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "Tx" = (
 /obj/machinery/atmospherics/tvalve/mirrored/bypass{
 	dir = 8
@@ -14457,6 +16056,16 @@
 "TB" = (
 /turf/simulated/floor/reinforced/airless,
 /area/torch/bridge/storage)
+"TH" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "TI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -14485,6 +16094,22 @@
 /obj/structure/network_cable,
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge)
+"TL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door Control";
+	pixel_y = -24
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "TM" = (
 /obj/structure/disposalpipe/junction{
 	dir = 4
@@ -14528,6 +16153,17 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/crew_quarters/safe_room/bridge)
+"TU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "TV" = (
 /obj/structure/closet/secure_closet/liaison,
 /obj/machinery/camera/network/command{
@@ -14671,6 +16307,13 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/bridge/hallway/starboard)
+"Um" = (
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_foyer)
 "Uo" = (
 /obj/structure/bed/chair/padded/green,
 /turf/simulated/floor/wood/walnut,
@@ -14680,6 +16323,20 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/security/bridgecheck)
+"Ux" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Uy" = (
 /obj/structure/table/glass,
 /obj/structure/cable/green{
@@ -14715,6 +16372,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/bridge/foreport)
+"UF" = (
+/obj/machinery/camera/network/command{
+	c_tag = "AI Core - Port Access";
+	dir = 1
+	},
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 1;
+	pixel_y = -28
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "UL" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -14732,6 +16400,19 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/fore)
+"UQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
+"UT" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "UU" = (
 /obj/effect/shuttle_landmark/ert/deck1{
 	name = "B-Deck, Fore"
@@ -14758,6 +16439,25 @@
 /obj/item/modular_computer/tablet/lease/preset/command,
 /turf/simulated/floor/carpet/blue,
 /area/torch/crew_quarters/heads/office/co)
+"UZ" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass/command,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai)
 "Vb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -14959,6 +16659,9 @@
 /obj/effect/floor_decal/corner/red/half,
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/fore)
+"VM" = (
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "VN" = (
 /obj/effect/wallframe_spawn/reinforced/polarized{
 	id = "bridge_port"
@@ -14981,6 +16684,20 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/aft)
+"VR" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
+"VT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai)
 "VW" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/captain,
@@ -15147,6 +16864,56 @@
 /obj/effect/paint/tan,
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/maintenance)
+"Wx" = (
+/obj/effect/paint_stripe/turquoise,
+/turf/simulated/wall/r_wall/prepainted,
+/area/torch/bridge/ai/ai_foyer)
+"Wy" = (
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_outer_chamber)
+"WF" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"WG" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_foyer)
 "WK" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -15163,6 +16930,17 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/xo)
+"WP" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "WQ" = (
 /obj/effect/floor_decal/corner/darkblue/half{
 	dir = 1
@@ -15172,6 +16950,16 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/aft)
+"WU" = (
+/obj/structure/closet/secure_closet/guncabinet/PPE,
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "WW" = (
 /obj/structure/table/glass,
 /obj/effect/floor_decal/corner/darkblue/mono,
@@ -15237,6 +17025,10 @@
 /obj/structure/bed/chair/comfy/blue,
 /turf/simulated/floor/carpet/blue2,
 /area/torch/bridge/meeting_room)
+"Xf" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Xg" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 8;
@@ -15290,6 +17082,21 @@
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"Xp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/catwalk,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "Xq" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -15338,6 +17145,15 @@
 /obj/structure/closet/secure_closet/guncabinet/PPE,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/storage)
+"XA" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/rig_module/ai_container,
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "XB" = (
 /obj/structure/bed/chair/comfy/captain,
 /turf/simulated/floor/plating,
@@ -15365,6 +17181,15 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/bridge/aftport)
+"XK" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai)
 "XN" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -15404,6 +17229,18 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/bridge)
+"XS" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Yb" = (
 /obj/structure/catwalk,
 /obj/machinery/alarm{
@@ -15521,6 +17358,32 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"Yq" = (
+/obj/machinery/porta_turret/stationary,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/power/apc/shuttle/perseverance{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/torch/bridge/ai/ai)
+"Yr" = (
+/obj/structure/window/reinforced,
+/obj/machinery/computer/modular/preset/security{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Ys" = (
 /obj/random_multi/single_item/poppy,
 /turf/simulated/floor/plating,
@@ -15620,6 +17483,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/bridge/aft)
+"YT" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "YW" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8;
@@ -15654,6 +17523,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/perseverance/mess)
+"Za" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai)
 "Zb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /obj/structure/cable{
@@ -15664,6 +17542,25 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/torch/perseverance/maintenance)
+"Zc" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass/command,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "torch_ai_core_blast";
+	name = "AI Core Blast Door"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai)
 "Ze" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -15798,6 +17695,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/crew_quarters/heads/office/rd)
+"ZE" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "ZI" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -15817,6 +17724,17 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/heads/office/cl)
+"ZK" = (
+/obj/structure/table/steel_reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/photocopier/faxmachine/torch,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "ZM" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -15833,6 +17751,20 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/bridge/fore)
+"ZQ" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/torch/bridge/ai/ai_outer_chamber)
 "ZR" = (
 /obj/machinery/firealarm{
 	pixel_y = 24
@@ -15852,6 +17784,14 @@
 /mob/living/simple_animal/corgi/Ian,
 /turf/simulated/floor/tiled/dark,
 /area/torch/crew_quarters/heads/office/xo)
+"ZU" = (
+/obj/machinery/suit_cycler/security/prepared,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "ZX" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/bed/chair/padded/teal,
@@ -31905,10 +33845,10 @@ cM
 dw
 bD
 ad
-ad
-ad
+Hj
+vC
 gn
-gV
+Ki
 hI
 iq
 iq
@@ -32107,7 +34047,7 @@ cN
 bD
 bD
 ad
-ad
+WF
 ad
 ad
 gV
@@ -32309,7 +34249,7 @@ bD
 bD
 ad
 ad
-ad
+WF
 ad
 ad
 gX
@@ -32511,7 +34451,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 DN
 DN
@@ -32713,7 +34653,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -32913,9 +34853,9 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
+Hj
+vC
+oQ
 ad
 ad
 ad
@@ -33115,7 +35055,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -33317,7 +35257,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -33519,7 +35459,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -33719,9 +35659,9 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
+Hj
+vC
+oQ
 ad
 ad
 ad
@@ -33921,7 +35861,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 fj
@@ -34123,7 +36063,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 fj
 eb
 fk
@@ -34325,7 +36265,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 gY
 ec
 SA
@@ -34527,7 +36467,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 gY
 Ib
 eH
@@ -34729,7 +36669,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 gY
 Ib
 eI
@@ -34931,7 +36871,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 gY
 Ib
 eJ
@@ -35133,7 +37073,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 gY
 ec
 SA
@@ -35335,7 +37275,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 fp
 eg
 nr
@@ -35537,7 +37477,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 fp
@@ -35739,8 +37679,8 @@ ad
 ad
 ad
 ad
-ad
-ad
+Tt
+Xp
 ad
 ad
 ad
@@ -35942,7 +37882,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -36144,7 +38084,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -36346,7 +38286,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -36548,7 +38488,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -36750,7 +38690,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -36952,7 +38892,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -37154,7 +39094,7 @@ ad
 ad
 ad
 ad
-ad
+WF
 ad
 ad
 ad
@@ -37356,6 +39296,7 @@ ad
 ad
 ad
 ad
+WF
 ad
 ad
 ad
@@ -37365,12 +39306,11 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
+Wx
+Wx
+Wx
+Wx
+Wx
 ad
 ad
 ad
@@ -37558,25 +39498,25 @@ ad
 ad
 ad
 ad
+WF
 ad
 ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+QR
+Wx
+CM
+lI
+xa
+Wx
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -37760,26 +39700,26 @@ ad
 ad
 ad
 ad
+WF
 ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+QR
+QR
+Wx
+Um
+WG
+pC
+Wx
+QR
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -37962,27 +39902,27 @@ ad
 ad
 ad
 ad
+WF
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+QR
+nu
+nu
+nu
+nu
+Dp
+nu
+nu
+nu
+nu
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -38164,28 +40104,28 @@ ad
 ad
 ad
 ad
+WF
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+QR
+QR
+nu
+ky
+AL
+VT
+NG
+nW
+uQ
+hP
+nu
+QR
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -38366,29 +40306,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+nC
+QR
+QR
+QR
+JB
+nu
+Yq
+zn
+nu
+SI
+nu
+Au
+PW
+nu
+CL
+QR
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -38568,29 +40508,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+Em
+zD
+Eu
+Bv
+tq
+TL
+nu
+ma
+nu
+Au
+VM
+Bv
+Eu
+SX
+Em
+QR
+QR
+QR
 ad
 ad
 ad
@@ -38770,29 +40710,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+NJ
+hB
+ze
+FX
+UZ
+xH
+JK
+nu
+nu
+nu
+mn
+Ro
+Zc
+FX
+ze
+hB
+wX
+QR
+QR
 ad
 ad
 ad
@@ -38972,29 +40912,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+Ic
+CB
+lc
+ic
+Pk
+ft
+hZ
+Za
+jP
+Tp
+WP
+Pw
+Pk
+rq
+ia
+fs
+Po
+QR
+QR
 ad
 ad
 ad
@@ -39174,29 +41114,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+Em
+jp
+DL
+RA
+nu
+MF
+JC
+XK
+iO
+Ko
+Tr
+jG
+nu
+Gl
+DL
+jp
+Em
+QR
+QR
 ad
 ad
 ad
@@ -39376,29 +41316,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+QR
+oL
+QR
+nu
+nu
+nu
+Sp
+yO
+Fq
+nu
+nu
+nu
+QR
+oL
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -39578,29 +41518,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+OP
+ZU
+DL
+QR
+FJ
+Cm
+WU
+ls
+MP
+Su
+Cq
+XA
+ld
+QR
+DL
+ZU
+OP
+QR
+QR
 ad
 ad
 ad
@@ -39780,29 +41720,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+ya
+FX
+DL
+QR
+ur
+yQ
+XS
+gb
+jt
+AV
+gj
+Ux
+pV
+QR
+DL
+FX
+hy
+QR
+QR
 ad
 ad
 ad
@@ -39982,29 +41922,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+Xf
+wV
+IU
+Jm
+Qa
+Ss
+Em
+DX
+tS
+dD
+Em
+Gh
+Qa
+if
+IU
+Nu
+YT
+QR
+QR
 ad
 ad
 ad
@@ -40184,29 +42124,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+hB
+Fo
+QR
+QR
+QR
+QR
+PY
+ID
+hU
+zi
+kd
+QR
+QR
+QR
+QR
+dm
+hB
+QR
+QR
 ad
 ad
 ad
@@ -40386,29 +42326,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+hB
+Jl
+Ov
+ow
+RL
+dC
+UQ
+QP
+HZ
+pw
+Nm
+lj
+TH
+wt
+Dn
+TU
+hB
+QR
+QR
 ad
 ad
 ad
@@ -40588,29 +42528,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+SP
+KO
+tU
+ow
+HO
+Yr
+OL
+ZE
+Tj
+Jz
+OH
+wG
+wG
+mD
+tU
+HH
+MQ
+QR
+QR
 ad
 ad
 ad
@@ -40790,29 +42730,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+hB
+UT
+QR
+Qr
+LB
+Bf
+ZQ
+ZK
+dx
+RM
+wG
+wG
+wG
+UF
+QR
+tF
+hB
+QR
+QR
 ad
 ad
 ad
@@ -40992,29 +42932,29 @@ ad
 ad
 ad
 ad
+WF
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+hB
+hp
+ow
+cX
+eh
+xL
+lY
+zR
+iN
+PS
+eh
+VR
+ow
+hp
+hB
+QR
+QR
+QR
 ad
 ad
 ad
@@ -41194,28 +43134,28 @@ ad
 ad
 ad
 ad
+WF
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+QR
+Em
+LZ
+QR
+QR
+QR
+Ts
+QR
+QR
+QR
+LZ
+Em
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -41396,27 +43336,27 @@ ad
 ad
 ad
 ad
+Tt
+Xp
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+QR
+QR
+QR
+QR
+QR
+oG
+QR
+QR
+QR
+QR
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -41599,25 +43539,25 @@ ad
 ad
 ad
 ad
+Tt
+Xp
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+QR
+QR
+QR
+Em
+DW
+Em
+QR
+QR
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -41802,23 +43742,23 @@ ad
 ad
 ad
 ad
+Tt
+Xp
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+QR
+QR
+QR
+QR
+QR
+QR
+Wy
+QR
+QR
+QR
+QR
+QR
+QR
 ad
 ad
 ad
@@ -42005,17 +43945,17 @@ ad
 ad
 ad
 ad
+Tt
+Xp
 ad
 ad
 ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
+QR
+Ts
+QR
 ad
 ad
 ad
@@ -42208,15 +44148,15 @@ ad
 ad
 ad
 ad
+Tt
+vC
+vC
+vC
+vC
+Xp
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+WF
 ad
 ad
 ad
@@ -42415,10 +44355,10 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
+Tt
+vC
+vC
+oQ
 ad
 ad
 ad

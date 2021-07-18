@@ -44,9 +44,6 @@
 		"freemail.net"
 	)
 
-	allowed_spawns = list(/decl/spawnpoint/cryo)
-	default_spawn = /decl/spawnpoint/cryo
-
 	station_name  = "\improper ISEO Endeavour"
 	station_short = "\improper Endeavour"
 	dock_name     = "TBD"

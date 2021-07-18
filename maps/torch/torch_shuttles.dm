@@ -424,3 +424,30 @@ TORCH_ESCAPE_POD(19)
 	name = "Space near Third Deck"
 	landmark_tag = "nav_deck2_perseverance"
 
+/datum/shuttle/autodock/overmap/crew_ferry
+	name = "Crew Ferry"
+	warmup_time = 5
+	flags = SHUTTLE_FLAGS_PROCESS | SHUTTLE_FLAGS_ZERO_G | SHUTTLE_FLAGS_NO_CODE
+	move_time = 30
+	shuttle_area = /area/shuttle/crew_ferry
+	current_location = "nav_dock_crew_ferry_cryogenics_station"
+	sound_takeoff = 'sound/effects/rocket.ogg'
+	sound_landing = 'sound/effects/rocket_backwards.ogg'
+	dock_target = "crew_ferry"
+	skill_needed = SKILL_NONE
+	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
+
+/obj/effect/shuttle_landmark/cryogenics_station
+	name = "Crew Ferry Dock"
+	landmark_tag = "nav_dock_crew_ferry_cryogenics_station"
+	docking_controller = "cryogenics_station_dock"
+	base_area = /area/space
+	base_turf = /turf/space
+
+/obj/effect/shuttle_landmark/torch/deck5/crew_ferry
+	name = "Crew Ferry Dock"
+	landmark_tag = "nav_dock_crew_ferry_torch"
+	docking_controller = "torch_dock_crew_ferry"
+	base_area = /area/space
+	base_turf = /turf/simulated/floor/reinforced/airless
+
