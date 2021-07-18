@@ -161,7 +161,7 @@
 	density = 0;
 	dir = 4;
 	icon_state = "pdoor0";
-	id_tag = "cryogenics_checkpoint_blastdoor_upper_left";
+	id_tag = "cryogenics_station_checkpoint_blastdoor_upper_left";
 	name = "Cryogenics Checkpoint Upper";
 	opacity = 0
 	},
@@ -183,6 +183,7 @@
 "gY" = (
 /obj/effect/wallframe_spawn/reinforced/hull,
 /obj/machinery/door/firedoor,
+/obj/effect/paint_stripe/brown,
 /turf/simulated/floor/plating,
 /area/cryogenics_station/dock)
 "hd" = (
@@ -276,7 +277,7 @@
 	density = 0;
 	dir = 4;
 	icon_state = "pdoor0";
-	id_tag = "cryogenics_checkpoint_blastdoor_lower_right";
+	id_tag = "cryogenics_station_checkpoint_blastdoor_lower_right";
 	name = "Cryogenics Checkpoint Lower";
 	opacity = 0
 	},
@@ -460,9 +461,6 @@
 /area/cryogenics_station/cryogenics)
 "tt" = (
 /obj/structure/table/steel_reinforced,
-/obj/machinery/door/blast/shutters/open{
-	id_tag = "cryogenics_station_checkpoint_shutter_upper"
-	},
 /obj/machinery/door/window/brigdoor/northleft{
 	dir = 2;
 	name = "Security Checkpoint"
@@ -476,7 +474,7 @@
 	pixel_y = 4
 	},
 /obj/effect/paint_stripe/security,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/cryogenics_station/security)
 "ub" = (
 /obj/machinery/light/spot{
@@ -491,13 +489,6 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/cryogenics_station/dock)
 "up" = (
-/obj/machinery/button/blast_door{
-	desc = "A remote control-switch for shutters.";
-	id_tag = "cryogenics_station_checkpoint_shutter_upper";
-	name = "Checkpoint Window Shutters";
-	pixel_x = 26;
-	pixel_y = 25
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/dark,
 /area/cryogenics_station/security)
@@ -690,7 +681,7 @@
 	density = 0;
 	dir = 4;
 	icon_state = "pdoor0";
-	id_tag = "cryogenics_checkpoint_blastdoor_upper_right";
+	id_tag = "cryogenics_station_checkpoint_blastdoor_upper_right";
 	name = "Cryogenics Checkpoint Upper";
 	opacity = 0
 	},
@@ -869,13 +860,6 @@
 /area/cryogenics_station/dock)
 "Gp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/button/blast_door{
-	desc = "A remote control-switch for shutters.";
-	dir = 8;
-	id_tag = "cryogenics_station_checkpoint_shutter_lowerr";
-	name = "Checkpoint Window Shutters";
-	pixel_x = 20
-	},
 /turf/simulated/floor/tiled/dark,
 /area/cryogenics_station/security)
 "GV" = (
@@ -941,7 +925,7 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/crew_ferry)
 "Ip" = (
-/obj/machinery/light{
+/obj/machinery/light/spot{
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red/mono,
@@ -976,7 +960,7 @@
 	density = 0;
 	dir = 4;
 	icon_state = "pdoor0";
-	id_tag = "cryogenics_checkpoint_blastdoor_lower_left";
+	id_tag = "cryogenics_station_checkpoint_blastdoor_lower_left";
 	name = "Cryogenics Checkpoint Lower";
 	opacity = 0
 	},
@@ -1198,9 +1182,6 @@
 "QF" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/blast/shutters/open{
-	id_tag = "cryogenics_station_checkpoint_shutter_upper"
-	},
 /obj/effect/paint_stripe/security,
 /turf/simulated/floor/plating,
 /area/cryogenics_station/security)
@@ -1256,7 +1237,7 @@
 	density = 0;
 	dir = 4;
 	icon_state = "pdoor0";
-	id_tag = "cryogenics_checkpoint_blastdoor_lower_right";
+	id_tag = "cryogenics_station_checkpoint_blastdoor_lower_right";
 	name = "Cryogenics Checkpoint Lower";
 	opacity = 0
 	},
@@ -1316,7 +1297,7 @@
 	density = 0;
 	dir = 4;
 	icon_state = "pdoor0";
-	id_tag = "cryogenics_checkpoint_blastdoor_lower_left";
+	id_tag = "cryogenics_station_checkpoint_blastdoor_lower_left";
 	name = "Cryogenics Checkpoint Lower";
 	opacity = 0
 	},
@@ -1398,10 +1379,6 @@
 /area/cryogenics_station/cryogenics)
 "Yq" = (
 /obj/structure/table/steel_reinforced,
-/obj/machinery/door/blast/shutters/open{
-	dir = 2;
-	id_tag = "cryogenics_station_checkpoint_shutter_upper"
-	},
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Security Checkpoint"
 	},
@@ -1414,7 +1391,7 @@
 	pixel_y = 4
 	},
 /obj/effect/paint_stripe/security,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/cryogenics_station/security)
 "Ys" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -22574,11 +22551,11 @@ wS
 RN
 RN
 wS
-wS
+xU
 gY
 Os
 gY
-wS
+xU
 wS
 RN
 RN
