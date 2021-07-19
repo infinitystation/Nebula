@@ -183,7 +183,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/torch/maintenance/fourthdeck/starboard)
 "aJ" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/fourthdeck/aft)
@@ -4316,7 +4316,7 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/fourthdeck/aft)
 "pG" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
 	density = 0;
@@ -15398,7 +15398,7 @@
 /area/torch/quartermaster/storage/upper)
 "Yj" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/fourthdeck/aft)
 "Yk" = (

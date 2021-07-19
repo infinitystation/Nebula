@@ -181,7 +181,7 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/crew_ferry)
 "gY" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /obj/effect/paint_stripe/brown,
 /turf/simulated/floor/plating,

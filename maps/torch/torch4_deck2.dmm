@@ -10203,7 +10203,7 @@
 	name = "Engine Radiator Shutters"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
@@ -14012,7 +14012,7 @@
 /turf/simulated/wall/prepainted,
 /area/torch/engineering/engineering_monitoring)
 "Ib" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/torch/maintenance/seconddeck/forestarboard)
@@ -18697,7 +18697,7 @@
 	name = "Engine Radiator Shutters"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},

@@ -2630,7 +2630,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/torch/bridge/storage)
 "eN" = (
@@ -5797,7 +5797,7 @@
 "mc" = (
 /obj/structure/cable/green,
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "bridge blast";
@@ -8215,7 +8215,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "bridge blast";
@@ -9873,7 +9873,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "bridge blast";
@@ -11209,7 +11209,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "bridge blast";
@@ -11520,7 +11520,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "cap_window";
@@ -12085,7 +12085,7 @@
 "DE" = (
 /obj/structure/cable/green,
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/torch/bridge/storage)
 "DH" = (
@@ -12293,7 +12293,7 @@
 "Es" = (
 /obj/structure/cable/green,
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "bridge blast";
@@ -13130,7 +13130,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "bridge blast";
@@ -13989,7 +13989,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "bridge blast";
@@ -15947,7 +15947,7 @@
 	},
 /obj/structure/cable/green,
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "cap_window";
@@ -16144,7 +16144,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "bridge blast";

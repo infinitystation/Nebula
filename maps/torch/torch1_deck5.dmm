@@ -9106,7 +9106,7 @@
 /turf/simulated/wall/prepainted,
 /area/torch/maintenance/fifthdeck/fore)
 "vc" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
 	d1 = 4;
@@ -10018,7 +10018,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/exploration_shuttle/cargo)
 "AJ" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -11324,7 +11324,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/maintenance/fifthdeck/aftstarboard)
 "II" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	icon_state = "pdoor0";
@@ -12409,7 +12409,7 @@
 /turf/simulated/floor/tiled,
 /area/torch/quartermaster/expedition/eva)
 "QL" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular{
 	id_tag = "auxbar";
 	name = "Blast Shutters"

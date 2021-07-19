@@ -249,7 +249,7 @@
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/thirddeck/aft)
 "be" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
+/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
 	density = 0;
