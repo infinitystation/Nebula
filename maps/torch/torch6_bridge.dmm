@@ -548,14 +548,15 @@
 /turf/simulated/floor/tiled,
 /area/torch/crew_quarters/heads/office/rd)
 "bk" = (
-/obj/machinery/power/apc/shuttle/perseverance{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
+/obj/structure/railing/mapped{
+	dir = 4;
+	icon_state = "railing0-1"
 	},
-/obj/structure/cable/cyan{
-	d2 = 2;
-	icon_state = "0-2"
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/turretid/stun{
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
@@ -3824,9 +3825,6 @@
 "ht" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "hu" = (
@@ -3896,23 +3894,17 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/bridge/fore)
 "hD" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "AI Upload"
+	},
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/obj/structure/cable/cyan{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/tiled/techmaint,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/steel_ridged,
 /area/torch/bridge/ai/ai_upload)
 "hE" = (
 /obj/structure/disposalpipe/segment,
@@ -4107,8 +4099,18 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge)
 "hW" = (
-/obj/machinery/computer/upload/ai,
-/turf/simulated/floor/bluegrid,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "hZ" = (
 /obj/structure/cable/green{
@@ -4424,6 +4426,10 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
@@ -5335,23 +5341,26 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/ai/ai_outer_chamber)
-"le" = (
-/obj/effect/floor_decal/industrial/warning/corner,
-/obj/machinery/light/spot{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/torch/bridge/ai/ai_upload)
 "lj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/ai/ai_outer_chamber)
 "lk" = (
-/obj/structure/window/reinforced{
-	dir = 4
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
 	},
-/obj/machinery/computer/upload/robot,
-/turf/simulated/floor/bluegrid,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "lm" = (
 /obj/effect/floor_decal/corner/darkblue{
@@ -5613,29 +5622,24 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/hallway/primary/bridge/aft)
 "lP" = (
-/obj/machinery/door/window/brigdoor/northleft{
-	dir = 4
+/obj/machinery/pointdefense_control{
+	initial_id_tag = "ai_core_pd";
+	name = "Point Defense Controller"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable/cyan{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/torch/bridge/ai/ai_upload)
-"lQ" = (
-/obj/machinery/power/smes/buildable/max_cap_in_out,
-/obj/structure/cable/cyan{
-	d2 = 8;
-	icon_state = "0-8"
+/obj/machinery/button/blast_door{
+	id_tag = "torch_ai_upload_blast";
+	name = "AI Upload Blast Door Control";
+	pixel_y = 24
 	},
 /turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai_upload)
+"lQ" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "lR" = (
 /obj/machinery/airlock_sensor{
@@ -5867,10 +5871,8 @@
 /turf/simulated/floor/plating,
 /area/torch/security/bridgecheck)
 "mC" = (
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
@@ -5939,12 +5941,10 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/heads/office/cos)
 "mL" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable/cyan{
-	d2 = 4;
-	icon_state = "0-4"
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/turf/simulated/floor/bluegrid,
+/turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "mM" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -6252,12 +6252,12 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/bridge/ai/ai)
 "nw" = (
-/obj/machinery/power/smes/buildable/max_cap_in_out,
 /obj/structure/cable/cyan{
+	d1 = 2;
 	d2 = 4;
-	icon_state = "0-4"
+	icon_state = "2-4"
 	},
-/turf/simulated/floor/bluegrid,
+/turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "nx" = (
 /obj/structure/cable{
@@ -6489,6 +6489,22 @@
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
 "od" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/ai/ai_upload)
 "oe" = (
@@ -7923,11 +7939,6 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
-	},
-/obj/structure/cable/cyan{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -9984,21 +9995,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/maintenance/bridge/foreport)
 "xf" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/structure/cable/cyan{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/machinery/computer/upload/ai,
+/turf/simulated/floor/bluegrid,
 /area/torch/bridge/ai/ai_upload)
 "xg" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
@@ -10309,14 +10307,8 @@
 /turf/simulated/open,
 /area/torch/maintenance/bridge/forestarboard)
 "xO" = (
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
@@ -11044,21 +11036,12 @@
 /turf/simulated/floor/tiled,
 /area/torch/crew_quarters/heads/office/rd)
 "Al" = (
-/obj/machinery/computer/atmoscontrol{
-	dir = 1
-	},
 /obj/structure/cable/cyan{
-	d1 = 1;
+	d1 = 4;
 	d2 = 8;
-	icon_state = "1-8"
+	icon_state = "4-8"
 	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/machinery/light/spot,
-/turf/simulated/floor/bluegrid,
+/turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "Am" = (
 /obj/structure/window/reinforced{
@@ -11335,21 +11318,17 @@
 /turf/simulated/floor/plating,
 /area/torch/maintenance/bridge/forestarboard)
 "Be" = (
-/obj/machinery/button/blast_door{
-	id_tag = "torch_ai_upload_blast";
-	name = "AI Upload Blast Door Control";
-	pixel_y = -24
+/obj/machinery/light/small,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
+	dir = 4
 	},
 /obj/structure/cable/cyan{
-	d1 = 1;
+	d1 = 4;
 	d2 = 8;
-	icon_state = "1-8"
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/ai/ai_upload)
@@ -11368,8 +11347,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "Bp" = (
@@ -11447,9 +11432,6 @@
 /area/torch/crew_quarters/heads/office/cl/backroom)
 "BC" = (
 /obj/effect/floor_decal/industrial/warning/corner,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "BD" = (
@@ -12111,15 +12093,10 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/hallway/primary/bridge/aft)
 "DO" = (
-/obj/structure/railing/mapped{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
@@ -12519,18 +12496,20 @@
 /turf/simulated/open,
 /area/torch/maintenance/bridge/foreport)
 "FA" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/item/aiModule/solgov,
+/obj/item/aiModule/reset,
+/obj/item/aiModule/purge,
+/obj/structure/table/standard,
+/obj/machinery/power/apc/shuttle/perseverance{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
 	},
 /obj/structure/cable/cyan{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+	d2 = 2;
+	icon_state = "0-2"
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/bluegrid,
 /area/torch/bridge/ai/ai_upload)
 "FE" = (
 /obj/machinery/computer/modular/preset/engineering{
@@ -12616,6 +12595,14 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/bridge/ai/ai_outer_chamber)
+"FZ" = (
+/obj/machinery/power/smes/buildable/max_cap_in_out,
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai_upload)
 "Ga" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
@@ -13202,6 +13189,17 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge)
+"HN" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai_upload)
 "HO" = (
 /obj/structure/bed/chair/comfy,
 /turf/simulated/floor/tiled/dark,
@@ -13811,6 +13809,22 @@
 /obj/structure/catwalk,
 /turf/simulated/open,
 /area/torch/maintenance/bridge/foreport)
+"JJ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/power/terminal,
+/obj/structure/cable/cyan,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai_upload)
 "JK" = (
 /obj/machinery/flasher{
 	pixel_y = -24
@@ -13962,6 +13976,23 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/storage)
+"KA" = (
+/obj/machinery/computer/atmoscontrol{
+	dir = 1
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/light,
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai_upload)
 "KB" = (
 /obj/structure/largecrate,
 /turf/simulated/floor/plating,
@@ -14173,10 +14204,15 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/machinery/door/airlock/highsecurity{
+	name = "AI Upload"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/obj/machinery/door/blast/regular/open{
+	dir = 2;
+	id_tag = "torch_ai_upload_blast";
+	name = "AI Upload Blast Door"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
 /area/torch/bridge/ai/ai_upload)
 "Lr" = (
 /obj/structure/cable/green{
@@ -14428,6 +14464,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/torch/bridge/ai/ai)
+"MI" = (
+/obj/machinery/power/smes/buildable/max_cap_in_out,
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/bluegrid,
+/area/torch/bridge/ai/ai_upload)
 "MP" = (
 /obj/structure/bed/chair/comfy,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -15163,14 +15207,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/machinery/power/terminal,
-/obj/structure/cable/cyan,
 /obj/structure/cable/cyan{
 	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/turf/simulated/floor/bluegrid,
+/turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "Pt" = (
 /turf/simulated/floor/wood/walnut,
@@ -15267,6 +15309,10 @@
 	d1 = 32;
 	d2 = 2;
 	icon_state = "32-2"
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
 	},
 /turf/simulated/open,
 /area/torch/bridge/ai/ai_upload)
@@ -15499,15 +15545,8 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
 	},
-/obj/structure/cable/cyan{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
@@ -15539,16 +15578,11 @@
 /turf/simulated/wall/titanium,
 /area/torch/perseverance/passenger)
 "QG" = (
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
@@ -15659,11 +15693,6 @@
 /area/torch/maintenance/bridge/forestarboard)
 "QZ" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/machinery/door/blast/regular/open{
-	dir = 4;
-	id_tag = "torch_ai_upload_blast";
-	name = "AI Upload Blast Door"
-	},
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_upload)
 "Ra" = (
@@ -17344,6 +17373,23 @@
 /obj/structure/cable,
 /turf/simulated/floor/airless,
 /area/space)
+"Wn" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/window/brigdoor/northleft,
+/turf/simulated/floor/tiled/techmaint,
+/area/torch/bridge/ai/ai_upload)
 "Wr" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
@@ -17384,11 +17430,12 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/torch/bridge/ai/ai_outer_chamber)
 "WD" = (
-/obj/item/aiModule/solgov,
-/obj/item/aiModule/reset,
-/obj/item/aiModule/purge,
-/obj/structure/table/standard,
-/turf/simulated/floor/bluegrid,
+/obj/machinery/porta_turret/stationary,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
 /area/torch/bridge/ai/ai_upload)
 "WF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -18234,14 +18281,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/torch/bridge/ai/ai_outer_chamber)
 "ZG" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/machinery/pointdefense_control{
-	initial_id_tag = "ai_core_pd";
-	name = "Point Defense Controller"
-	},
-/turf/simulated/floor/bluegrid,
+/obj/machinery/light/small,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/torch/bridge/ai/ai_upload)
 "ZI" = (
 /obj/machinery/alarm{
@@ -45701,16 +45742,16 @@ ad
 ad
 ad
 ad
-Xp
+ad
 Xp
 Xp
 Gd
 Xp
-ad
-ad
-ad
-ad
-ad
+Xp
+Xp
+Xp
+Xp
+Xp
 ad
 ad
 ad
@@ -45903,17 +45944,17 @@ ad
 ad
 ad
 ad
+ad
 Xp
-hW
 xf
 Be
 Xp
-ad
-ad
-ad
-ad
-ad
-ad
+Dy
+mC
+Dy
+WD
+Xp
+Xp
 ad
 ad
 aa
@@ -46105,17 +46146,17 @@ ad
 ad
 ad
 ad
+ad
 Xp
-WD
 FA
 od
+hD
+hW
+xO
+Dy
+HN
+FZ
 Xp
-ad
-ad
-ad
-ad
-ad
-ad
 ad
 ad
 aa
@@ -46305,19 +46346,19 @@ ad
 ad
 ad
 ad
+ad
+ad
+ad
 Xp
-Xp
-Xp
-lk
 lP
 ZG
 Xp
+lk
+Bl
+DO
+Wn
+KA
 Xp
-Xp
-Xp
-Xp
-ad
-ad
 ad
 ad
 aa
@@ -46508,18 +46549,18 @@ ad
 ad
 ad
 Xp
-bk
-mC
-mC
-hD
-Bl
-xO
+Xp
+Xp
+Xp
+Xp
+Xp
+Xp
 QG
 mL
 nw
+JJ
+MI
 Xp
-ad
-ad
 ad
 ad
 aa
@@ -46710,18 +46751,18 @@ ad
 ad
 ad
 Xp
-le
+BC
 iM
-iM
+bk
 Lm
 Dy
 BC
 rU
 Qx
 Al
+WD
 Xp
-ad
-ad
+Xp
 ad
 ad
 aa
@@ -46915,14 +46956,14 @@ Xp
 QZ
 KL
 KL
-DO
+Xp
 SM
 ht
 PT
 Pq
 lQ
 Xp
-ad
+Xp
 ad
 ad
 ad
