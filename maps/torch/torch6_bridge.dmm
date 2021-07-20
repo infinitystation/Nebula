@@ -3939,7 +3939,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/torch/hallway/primary/bridge/fore)
 "hH" = (
-/obj/structure/cable/green,
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
@@ -3953,6 +3952,10 @@
 	},
 /obj/structure/sign/warning/high_voltage{
 	dir = 8
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/torch/bridge)
@@ -9935,6 +9938,7 @@
 	id_tag = "bridge blast";
 	name = "Bridge Blast Doors"
 	},
+/obj/structure/cable/green,
 /turf/simulated/floor/plating,
 /area/torch/bridge)
 "wY" = (
@@ -13312,6 +13316,10 @@
 	id_tag = "bridge blast";
 	name = "Bridge Blast Doors"
 	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/plating,
 /area/torch/bridge)
 "Id" = (
@@ -14696,20 +14704,20 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/heads/office/xo)
 "NJ" = (
+/obj/structure/cable/green,
 /obj/machinery/door/firedoor,
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "bridge blast";
 	name = "Bridge Blast Doors"
+	},
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/structure/sign/warning/high_voltage{
+	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/torch/bridge)
@@ -14996,21 +15004,23 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/crew_quarters/heads/office/cmo)
 "OP" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/pointdefense{
-	initial_id_tag = "ai_core_pd"
+/obj/machinery/door/firedoor,
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
 	},
-/obj/structure/cable{
+/obj/structure/cable/green{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id_tag = "bridge blast";
+	name = "Bridge Blast Doors"
 	},
-/turf/simulated/floor/airless,
-/area/space)
+/turf/simulated/floor/plating,
+/area/torch/bridge)
 "OR" = (
 /obj/effect/floor_decal/iseologo{
 	icon_state = "top_center"
@@ -15130,9 +15140,21 @@
 /turf/simulated/floor/plating,
 /area/torch/bridge/ai/ai)
 "Po" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/torch/bridge/ai/ai_outer_chamber)
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/pointdefense{
+	initial_id_tag = "ai_core_pd"
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
 "Pq" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -16230,12 +16252,8 @@
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/aft)
 "SP" = (
-/obj/machinery/hologram/holopad,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/monotile,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/steel_ridged,
 /area/torch/bridge/ai/ai_outer_chamber)
 "SQ" = (
 /obj/machinery/atmospherics/unary/engine{
@@ -16844,21 +16862,13 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "UK" = (
+/obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/pointdefense{
-	initial_id_tag = "ai_core_pd"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/airless,
-/area/space)
+/turf/simulated/floor/tiled/monotile,
+/area/torch/bridge/ai/ai_outer_chamber)
 "UL" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -17533,9 +17543,21 @@
 /turf/simulated/floor/carpet/blue2,
 /area/torch/bridge/meeting_room)
 "Xf" = (
-/obj/structure/table/steel_reinforced,
-/turf/simulated/floor/tiled/monotile,
-/area/torch/bridge/ai/ai_outer_chamber)
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/pointdefense{
+	initial_id_tag = "ai_core_pd"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/airless,
+/area/space)
 "Xg" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 8;
@@ -17616,10 +17638,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/bridge/forestarboard)
 "Xt" = (
-/obj/machinery/light/spot{
-	dir = 4
-	},
-/obj/structure/closet/firecloset,
+/obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/monotile,
 /area/torch/bridge/ai/ai_outer_chamber)
 "Xx" = (
@@ -17860,6 +17879,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/torch/hallway/primary/bridge/fore)
+"Ym" = (
+/obj/item/radio/intercom/locked/ai_private{
+	dir = 1;
+	pixel_y = -28
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/torch/bridge/ai/ai_outer_chamber)
 "Yq" = (
 /obj/machinery/porta_turret/stationary,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -17986,11 +18012,11 @@
 /turf/simulated/floor/plating,
 /area/torch/hallway/primary/bridge/aft)
 "YT" = (
-/obj/item/radio/intercom/locked/ai_private{
-	dir = 1;
-	pixel_y = -28
+/obj/machinery/light/spot{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_ridged,
+/obj/structure/closet/firecloset,
+/turf/simulated/floor/tiled/monotile,
 /area/torch/bridge/ai/ai_outer_chamber)
 "YW" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -25480,7 +25506,7 @@ hH
 wX
 Dl
 Ic
-hH
+NJ
 aa
 aa
 vA
@@ -25682,7 +25708,7 @@ Aw
 wM
 AB
 mc
-NJ
+OP
 KG
 Hz
 Es
@@ -40025,7 +40051,7 @@ CM
 lI
 xa
 Wx
-OP
+Po
 BD
 TF
 ad
@@ -40433,7 +40459,7 @@ nu
 nu
 QR
 QR
-UK
+Xf
 TF
 ad
 ad
@@ -41239,9 +41265,9 @@ nu
 mn
 Ro
 Zc
-Po
 SP
-Xf
+UK
+Xt
 QR
 QR
 Ki
@@ -41645,7 +41671,7 @@ jG
 nu
 Gl
 DL
-Xt
+YT
 QR
 QR
 Ki
@@ -42251,7 +42277,7 @@ Ux
 pV
 QR
 DL
-YT
+Ym
 QR
 QR
 Ki
