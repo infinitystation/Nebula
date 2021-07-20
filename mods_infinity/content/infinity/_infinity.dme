@@ -10,6 +10,7 @@
 #include "datum\atom\movable\screentip.dm"
 #include "datum\atom\obj\tripping.dm"
 #include "datum\atom\obj\effect\paint_stripe.dm"
+#include "datum\atom\obj\item\electronic_assembly.dm"
 #include "datum\atom\obj\item\storage.dm"
 #include "datum\atom\obj\item\canvas\canvas.dm"
 #include "datum\atom\obj\item\chems\glass\beaker\jar.dm"
