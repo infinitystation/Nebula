@@ -15,21 +15,19 @@
 
 	use_delay = 2 SECONDS
 
-	var/upgraded = FALSE
+	/// If we can print/show scan report. Only for debug.
+	var/debug = FALSE
 
-	// Main material used to detect.
-	var/decl/material/detect_material = /decl/material/solid/metal/steel
-	// In case if object doesn't have material, or we need forcetype something.
-	var/list/detect_types = list(
-		/obj/item/gun,
-		/obj/item/grenade
+	/// Materials used to detect.
+	var/list/detect_materials = list(
+		/decl/material/solid/metal/steel
 	)
 
 /obj/item/scanner/security/is_valid_scan_target(atom/A)
 	return isliving(A) || isobj(A)
 
 /obj/item/scanner/security/show_menu(mob/user)
-	if(upgraded)
+	if(debug)
 		..()
 
 /obj/item/scanner/security/scan(atom/A, mob/user)
@@ -37,20 +35,20 @@
 	recursive_content_check(A, scanned_objects)
 	
 	for(var/obj/O in scanned_objects)
-		if(istype(O.get_material(), detect_material) || is_type_in_list(O, detect_types))
+		if(is_type_in_list(O.get_material(), detect_materials))
 			playsound(src, pick(scan_sound_detect), 30)
 			break
 
 	scan_title = null
 	scan_data = null
 
-	if(upgraded)
+	if(debug)
 		var/scanned_objects_names = list()
 		for(var/obj/item/I in scanned_objects)
 			if(istype(I, A))
 				continue
 
-			if(!(istype(I.get_material(), detect_material) || is_type_in_list(I, detect_types)))
+			if(!(is_type_in_list(I.get_material(), detect_materials)))
 				continue
 
 			scanned_objects_names += I.name
@@ -58,14 +56,13 @@
 		scan_title = "Security scan - [A]"
 		scan_data = jointext(scanned_objects_names, "<br>")
 
-/obj/item/scanner/security/advanced
+/obj/item/scanner/security/debug
 	name = "advanced security scanner"
 	desc = "A hand-held security scanner which identifies banned items. It can print full info about scanned object or mob."
-	upgraded = TRUE
+	debug = TRUE
 
 /obj/item/scanner/security/fake
-	detect_material = null
-	detect_types = list()
+	detect_materials = list()
 
 /obj/machinery/vending/security/Initialize(mapload, d, populate_parts)
 	LAZYADD(products, list(/obj/item/scanner/security = 4))
