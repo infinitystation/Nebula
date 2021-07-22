@@ -3084,12 +3084,8 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 8;
@@ -3359,6 +3355,12 @@
 	name = "Infirmary Reception";
 	req_access = list("ACCESS_MEDICAL")
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/torch/medical/staging)
 "agV" = (
@@ -3399,6 +3401,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/torch/maintenance/firstdeck/centralstarboard)
 "agY" = (
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/torch/medical/staging)
 "aha" = (
@@ -8552,6 +8555,12 @@
 "aGx" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/torch/medical/staging)
@@ -15841,6 +15850,7 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/white,
 /area/torch/medical/staging)
 "gyY" = (
@@ -17830,6 +17840,18 @@
 /obj/effect/paint_stripe/science,
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/research/research)
+"jcV" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/torch/medical/staging)
 "jeb" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -22021,6 +22043,12 @@
 	dir = 1;
 	pixel_y = -28
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/white,
 /area/torch/medical/staging)
 "oMb" = (
@@ -23470,7 +23498,9 @@
 /turf/simulated/floor/tiled/white,
 /area/torch/research/research)
 "qrq" = (
-/obj/machinery/hologram/holopad,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/torch/medical/staging)
 "qsO" = (
@@ -27228,6 +27258,15 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/torch/storage/emergency)
+"vQS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white,
+/area/torch/medical/staging)
 "vTH" = (
 /turf/simulated/floor/tiled/monotile,
 /area/torch/security/detectives_office)
@@ -48541,8 +48580,8 @@ dZb
 afB
 lHO
 agj
-aGx
-agY
+jcV
+vQS
 fMr
 ivT
 gxX
