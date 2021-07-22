@@ -7,6 +7,8 @@
 #include "datum\atom\mob\pixel_shift.dm"
 #include "datum\atom\mob\living\living.dm"
 #include "datum\atom\mob\living\stat_emote.dm"
+#include "datum\atom\mob\living\simple_animal\friendly\snek.dm"
+#include "datum\atom\mob\living\simple_animal\hostile\retaliate\alligator.dm"
 #include "datum\atom\movable\screentip.dm"
 #include "datum\atom\obj\tripping.dm"
 #include "datum\atom\obj\effect\paint_stripe.dm"
