@@ -18225,6 +18225,8 @@
 /obj/structure/noticeboard{
 	pixel_y = 30
 	},
+/mob/living/simple_animal/hostile/retaliate/alligator,
+/obj/structure/dogbed,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/crew_quarters/heads/office/cos)
 "Zx" = (
