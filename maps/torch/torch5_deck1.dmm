@@ -20750,6 +20750,7 @@
 /obj/effect/floor_decal/industrial/danger/corner{
 	dir = 8
 	},
+/obj/machinery/nuclear_cylinder_storage/prefilled,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/security/nuke_storage)
 "mXb" = (
