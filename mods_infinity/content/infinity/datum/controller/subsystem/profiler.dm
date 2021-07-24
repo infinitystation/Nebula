@@ -3,7 +3,7 @@
 #define SENDMAPS_PROFILE
 #endif
 
-// Configuration still hardcoded, 
+// Configuration still hardcoded,
 // so I'll just leave this stub
 /datum/configuration
 	var/enable_automatic_profiler
