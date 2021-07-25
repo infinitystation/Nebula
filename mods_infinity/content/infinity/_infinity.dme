@@ -39,6 +39,7 @@
 #include "datum\atom\obj\structure\barsign\barsign.dm"
 #include "datum\atom\obj\structure\easel\easel.dm"
 #include "datum\atom\obj\structure\noose\noose.dm"
+#include "datum\category_item\underwear\top.dm"
 #include "datum\client\verbs.dm"
 #include "datum\client\zoom.dm"
 #include "datum\controller\subsystem\orbit.dm"
