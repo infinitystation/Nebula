@@ -172,6 +172,9 @@
 /obj/effect/paint_stripe/common,
 /turf/simulated/floor/plating,
 /area/torch/crew_quarters/mess)
+"aH" = (
+/turf/simulated/floor/tiled,
+/area/torch/crew_quarters/sleep/cryo)
 "aI" = (
 /turf/simulated/floor/reinforced/airless,
 /area/space)
@@ -1613,7 +1616,7 @@
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/spline/fancy/black,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/mahogany,
 /area/torch/crew_quarters/sleep/cryo)
 "dK" = (
 /obj/machinery/door/airlock/civilian{
@@ -2022,6 +2025,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/torch/vacant/mess)
+"eH" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/torch/crew_quarters/sleep/cryo)
 "eI" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/torch/maintenance/substation/thirddeck)
@@ -2431,6 +2440,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/torch/crew_quarters/galley)
+"fu" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
+/area/torch/crew_quarters/sleep/cryo)
 "fy" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -5770,7 +5785,7 @@
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 10
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/mahogany,
 /area/torch/crew_quarters/sleep/cryo)
 "mK" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -6143,7 +6158,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled,
 /area/torch/crew_quarters/sleep/cryo)
 "nM" = (
 /obj/effect/floor_decal/spline/fancy/black/corner,
@@ -6468,6 +6483,9 @@
 /area/torch/hallway/primary/thirddeck/aft)
 "ou" = (
 /obj/structure/reagent_dispensers/water_cooler,
+/obj/effect/floor_decal/corner/green/half{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/crew_quarters/sleep/cryo)
 "ov" = (
@@ -7068,7 +7086,7 @@
 /obj/machinery/light/spot{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/mahogany,
 /area/torch/crew_quarters/sleep/cryo)
 "pO" = (
 /turf/simulated/open,
@@ -8544,7 +8562,7 @@
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/mahogany,
 /area/torch/crew_quarters/sleep/cryo)
 "tg" = (
 /obj/machinery/alarm{
@@ -8652,7 +8670,7 @@
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 6
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/mahogany,
 /area/torch/crew_quarters/sleep/cryo)
 "tA" = (
 /obj/structure/cable/green{
@@ -10133,7 +10151,10 @@
 /obj/machinery/light/spot{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
 /area/torch/crew_quarters/sleep/cryo)
 "xM" = (
 /obj/structure/cable/green{
@@ -10703,7 +10724,8 @@
 /area/torch/maintenance/thirddeck/starboard)
 "zk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green,
+/turf/simulated/floor/tiled,
 /area/torch/crew_quarters/sleep/cryo)
 "zl" = (
 /obj/structure/cable/green{
@@ -11004,7 +11026,7 @@
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 4
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/mahogany,
 /area/torch/crew_quarters/sleep/cryo)
 "Ag" = (
 /turf/simulated/floor/tiled/dark,
@@ -11268,6 +11290,9 @@
 /obj/structure/closet/secure_closet/personal,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/half{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/crew_quarters/sleep/cryo)
@@ -12210,7 +12235,10 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/torch/crew_quarters/sleep/cryo)
 "DP" = (
 /obj/machinery/power/apc/super/critical,
@@ -14791,6 +14819,15 @@
 /obj/effect/wallframe_spawn/reinforced_borosilicate,
 /turf/simulated/floor/reinforced,
 /area/torch/thruster/d3port)
+"KC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/torch/crew_quarters/sleep/cryo)
 "KD" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -16855,6 +16892,9 @@
 /obj/structure/table/standard,
 /obj/item/storage/box/glasses/pint,
 /obj/item/chems/food/drinks/glass2/carafe,
+/obj/effect/floor_decal/corner/green/half{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/crew_quarters/sleep/cryo)
 "Qu" = (
@@ -17469,7 +17509,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled,
 /area/torch/crew_quarters/sleep/cryo)
 "Sm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -18071,7 +18111,10 @@
 	dir = 8;
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/corner/green{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
 /area/torch/crew_quarters/sleep/cryo)
 "TJ" = (
 /obj/random/junk,
@@ -19576,7 +19619,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled,
 /area/torch/crew_quarters/sleep/cryo)
 "XJ" = (
 /obj/machinery/camera/network/security{
@@ -19606,6 +19649,9 @@
 "XL" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/corner/green/half{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/torch/crew_quarters/sleep/cryo)
 "XM" = (
@@ -35246,7 +35292,7 @@ Ga
 Bq
 FS
 uP
-QO
+aH
 Fd
 MO
 Fd
@@ -35448,13 +35494,13 @@ Vx
 Bq
 Rc
 uP
-QO
+aH
 TI
-QO
+aH
 xL
-QO
-QO
-QO
+aH
+fu
+aH
 WS
 Bq
 BV
@@ -35651,12 +35697,12 @@ Bq
 gu
 uP
 ou
-QO
-QO
-QO
-QO
-QO
-QO
+aH
+aH
+aH
+aH
+aH
+eH
 uP
 Bq
 GW
@@ -35853,8 +35899,8 @@ LY
 gu
 uP
 Qt
-QO
-QO
+aH
+aH
 Sl
 zk
 XL
@@ -36260,7 +36306,7 @@ uP
 te
 dJ
 nL
-QO
+eH
 FB
 Sj
 sM
@@ -36461,8 +36507,8 @@ We
 pV
 Af
 ty
-Pp
-QO
+KC
+aH
 FC
 XR
 UX
