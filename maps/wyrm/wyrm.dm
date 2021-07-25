@@ -28,7 +28,6 @@
 
 	#include "../../mods_infinity/species/booster/_booster.dme"
 	#include "../../mods_infinity/species/vatgrown/_vatgrown.dme"
-	#include "../../mods_infinity/species/resomi/_resomi.dme"
 	#include "../../mods_infinity/species/android/_android.dme"
 	#include "../../mods_infinity/species/dwarfs/_dwarfs.dme"
 // INFINITY MODS END

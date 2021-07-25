@@ -13,7 +13,6 @@
 		"Android",
 		"Lizard",
 		"Tajara",
-		"Resomi",
 		"Utility Frame",
 		"Vat-Grown Human"
 	)
