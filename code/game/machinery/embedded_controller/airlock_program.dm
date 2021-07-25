@@ -224,6 +224,7 @@
 					//purge apparently means clearing the airlock chamber to vacuum (then refilling, handled later)
 					target_pressure = 0
 					state = STATE_DEPRESSURIZE
+					playsound(master, 'mods_infinity/content/infinity/datum/sound/ai/cycle_out.ogg', 100, 0)
 					if(!cycle_to_external_air || target_state == TARGET_OUTOPEN) // if going outside, pump internal air into air tank
 						signalPump(tag_airpump, 1, 0, target_pressure)	//send a signal to start depressurizing
 					else
@@ -232,6 +233,7 @@
 
 				else if(chamber_pressure <= target_pressure)
 					state = STATE_PRESSURIZE
+					playsound(master, 'mods_infinity/content/infinity/datum/sound/ai/cycle_in.ogg', 100, 0)
 					if(!cycle_to_external_air || target_state == TARGET_INOPEN) // if going inside, pump air into airlock
 						signalPump(tag_airpump, 1, 1, target_pressure)	//send a signal to start pressurizing
 					else
@@ -241,6 +243,7 @@
 				else if(chamber_pressure > target_pressure)
 					if(!cycle_to_external_air)
 						state = STATE_DEPRESSURIZE
+						playsound(master, 'mods_infinity/content/infinity/datum/sound/ai/cycle_out.ogg', 100, 0)
 						signalPump(tag_airpump, 1, 0, target_pressure)	//send a signal to start depressurizing
 					else
 						memory["purge"] = 1 // should always purge first if using external air, chamber pressure should never be higher than target pressure here
@@ -250,6 +253,7 @@
 				close_doors()
 
 		if(STATE_PRESSURIZE)
+			playsound(master, 'mods_infinity/content/infinity/datum/sound/ai/cycle_beep.ogg', 100, 0)
 			if(memory["chamber_sensor_pressure"] >= memory["target_pressure"] - SENSOR_TOLERANCE)
 				//not done until the pump has reported that it's off
 				if(memory["pump_status"] != "off") //send a signal to stop pumping
@@ -261,9 +265,11 @@
 					cycleDoors(target_state)
 					state = STATE_IDLE
 					target_state = TARGET_NONE
+					playsound(master, 'mods_infinity/content/infinity/datum/sound/ai/cycle_done.ogg', 100, 0)
 
 
 		if(STATE_DEPRESSURIZE)
+			playsound(master, 'mods_infinity/content/infinity/datum/sound/ai/cycle_beep.ogg', 100, 0)
 			if(memory["chamber_sensor_pressure"] <= memory["target_pressure"] + SENSOR_TOLERANCE)
 				if(memory["pump_status"] != "off")
 					signalPump(tag_airpump, 0)
@@ -280,6 +286,7 @@
 						cycleDoors(target_state)
 						state = STATE_IDLE
 						target_state = TARGET_NONE
+						playsound(master, 'mods_infinity/content/infinity/datum/sound/ai/cycle_done.ogg', 100, 0)
 
 
 	memory["processing"] = (state != target_state)
