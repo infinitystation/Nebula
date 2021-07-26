@@ -1409,7 +1409,7 @@
 	},
 /obj/structure/table/woodentable/walnut,
 /obj/item/modular_computer/laptop/preset/custom_loadout/advanced,
-/obj/item/chems/food/drinks/glass2/mug,
+/obj/item/chems/drinks/glass2/mug,
 /turf/simulated/floor/carpet,
 /area/wyrm/civilian/lounge)
 "dn" = (
@@ -1946,10 +1946,10 @@
 	dir = 8;
 	pixel_x = 23
 	},
-/obj/item/chems/food/drinks/glass2/mug,
-/obj/item/chems/food/drinks/glass2/mug,
+/obj/item/chems/drinks/glass2/mug,
+/obj/item/chems/drinks/glass2/mug,
 /obj/structure/table/woodentable/walnut,
-/obj/item/chems/food/drinks/glass2/mug,
+/obj/item/chems/drinks/glass2/mug,
 /turf/simulated/floor/carpet,
 /area/wyrm/civilian/lounge)
 "et" = (
@@ -10122,8 +10122,8 @@
 "ux" = (
 /obj/item/organ/internal/augment/active/polytool/engineer,
 /obj/structure/closet/crate/freezer,
-/obj/item/chems/food/snacks/meat,
-/obj/item/chems/food/snacks/meat,
+/obj/item/chems/food/meat,
+/obj/item/chems/food/meat,
 /obj/item/stack/cable_coil/random,
 /obj/effect/decal/cleanable/blood/oil,
 /obj/item/organ/internal/liver,

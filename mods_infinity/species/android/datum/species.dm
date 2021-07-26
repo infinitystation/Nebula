@@ -30,7 +30,7 @@
 	var/obj/item/organ/external/E = org
 	if(istype(E) && !BP_IS_PROSTHETIC(E))
 		E.robotize(H.gender == FEMALE ? /decl/prosthetics_manufacturer/android : /decl/prosthetics_manufacturer/android/masculine)
-	H.regenerate_icons()
+	H.refresh_visible_overlays()
 
 /decl/species/utility_frame/android/handle_post_species_pref_set(var/datum/preferences/pref)
 	return

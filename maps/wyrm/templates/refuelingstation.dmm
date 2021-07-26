@@ -266,7 +266,7 @@
 /area/space)
 "aV" = (
 /obj/structure/table/steel,
-/obj/item/chems/food/drinks/coffee,
+/obj/item/chems/drinks/coffee,
 /turf/simulated/floor/tiled/dark{
 	color = "#cccccc"
 	},
@@ -335,9 +335,9 @@
 /area/space)
 "be" = (
 /obj/structure/table/steel,
-/obj/item/chems/food/drinks/glass2/mug,
-/obj/item/chems/food/drinks/glass2/mug,
-/obj/item/chems/food/drinks/glass2/mug,
+/obj/item/chems/drinks/glass2/mug,
+/obj/item/chems/drinks/glass2/mug,
+/obj/item/chems/drinks/glass2/mug,
 /turf/simulated/floor/tiled/dark{
 	color = "#cccccc"
 	},

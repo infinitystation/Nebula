@@ -1364,8 +1364,8 @@
 /area/torch/command/captainmess)
 "eC" = (
 /obj/structure/table/marble,
-/obj/item/chems/food/drinks/glass2/carafe,
-/obj/item/chems/food/drinks/pitcher,
+/obj/item/chems/drinks/glass2/carafe,
+/obj/item/chems/drinks/pitcher,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/command/captainmess)
 "eE" = (
@@ -10848,7 +10848,7 @@
 /area/torch/maintenance/fourthdeck/foreport)
 "LQ" = (
 /obj/structure/table/marble,
-/obj/item/chems/food/drinks/teapot,
+/obj/item/chems/drinks/teapot,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/torch/command/captainmess)
 "LR" = (
@@ -11229,9 +11229,9 @@
 /area/torch/maintenance/fourthdeck/aft)
 "MN" = (
 /obj/structure/table/woodentable,
-/obj/item/chems/food/drinks/glass2/coffeecup/metal,
-/obj/item/chems/food/drinks/glass2/coffeecup/metal,
-/obj/item/chems/food/drinks/glass2/coffeecup/metal,
+/obj/item/chems/drinks/glass2/coffeecup/metal,
+/obj/item/chems/drinks/glass2/coffeecup/metal,
+/obj/item/chems/drinks/glass2/coffeecup/metal,
 /turf/simulated/floor/wood/walnut,
 /area/torch/crew_quarters/lounge)
 "MR" = (
@@ -11854,10 +11854,10 @@
 /turf/simulated/open,
 /area/torch/hallway/primary/fourthdeck/fore)
 "OI" = (
-/obj/item/chems/food/condiment/small/peppermill{
+/obj/item/chems/condiment/small/peppermill{
 	pixel_x = 3
 	},
-/obj/item/chems/food/condiment/small/saltshaker{
+/obj/item/chems/condiment/small/saltshaker{
 	pixel_x = -3
 	},
 /obj/structure/table/woodentable/walnut,
