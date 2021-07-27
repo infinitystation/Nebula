@@ -1,3 +1,8 @@
+// The original authors of gator: 
+// https://github.com/Whitesands13/Whitesands/pull/447
+// https://github.com/vlggms/tegustation-bay12/pull/27
+// Implementations belongs to authors above. The code below ported from tegustation-bay12.
+
 /mob/living/simple_animal/hostile/retaliate/alligator
 	name = "alligator"
 	icon = 'mods_infinity/content/infinity/datum/atom/mob/living/simple_animal/hostile/retaliate/alligator.dmi'

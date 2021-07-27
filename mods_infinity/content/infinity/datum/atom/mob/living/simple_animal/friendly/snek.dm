@@ -1,3 +1,7 @@
+// Snek code ported from tegustation-bay12:
+// https://github.com/vlggms/tegustation-bay12/pull/49
+// Icons belongs to tgstation codebase.
+
 /mob/living/simple_animal/friendly/snek
 	name = "snake"
 	desc = "A cute snake that needs a little boop."
